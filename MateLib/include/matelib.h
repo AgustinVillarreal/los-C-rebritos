@@ -6,6 +6,7 @@
 //-------------------Type Definitions----------------------/
 typedef struct mate_instance
 {
+	int id;
     void *group_info;
 } mate_instance;
 
