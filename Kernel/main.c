@@ -1,5 +1,9 @@
 #include "include/main.h"
 
+
+
+t_log* main_log;
+
 static t_config_kernel* initialize_cfg() {
     t_config_kernel* cfg = malloc(sizeof(t_config_kernel));
     cfg->IP_MEMORIA = NULL;
@@ -13,7 +17,7 @@ int main(){
 	KERNEL_CFG = initialize_cfg();
 
 
-	if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&i_mongo_store_fd, &mi_ram_hq_fd, KERNEL_CFG)) {
+	if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&mi_ram_hq_fd, KERNEL_CFG)) {
 	        cerrar_programa(main_log, main_log_inv, DISCORDIADOR_CFG);
 	        return EXIT_FAILURE;
 	}

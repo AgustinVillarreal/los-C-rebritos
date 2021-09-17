@@ -1,8 +1,15 @@
 #ifndef TP_2021_2C_UNDEFINED_CONFIG_H
 #define TP_2021_2C_UNDEFINED_CONFIG_H
 
-#include <stdint.h>
+#include <commons/config.h>
+#include <commons/string.h>
 #include <commons/collections/list.h>
+#include <commons/log.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <readline/readline.h>
+#include "../../Shared/include/utils.h"
+
 typedef struct {
     char* IP_MEMORIA;
     uint16_t PUERTO_MEMORIA;
@@ -13,6 +20,10 @@ typedef struct {
     uint16_t GRADO_MULTIPROGRAMACION;
     uint16_t GRADO_MULTIPROCESAMIENTO;
 } t_config_kernel;
+
+uint8_t cargar_configuracion(t_config_kernel*);
+uint8_t generar_conexiones(int*, t_config_kernel*);
+void cerrar_programa(t_log*, t_config_kernel*);
 
 #endif
 
