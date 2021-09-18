@@ -1,5 +1,6 @@
 #include "include/main.h"
 
+
 t_log* main_log;
 
 static t_config_kernel* initialize_cfg() {
