@@ -44,7 +44,7 @@ char* leer_archivo_completo(char* path) {
 }
 
 // El array tiene que estar terminado en NULL
-t_list* extraer_posiciones(char** str_posiciones) {
+t_list* extraer_dispositivos(char** str_posiciones) {
     t_list* lista = list_create();
     int i = 0;
 
@@ -55,95 +55,31 @@ t_list* extraer_posiciones(char** str_posiciones) {
             string_split_len(pos_arr) != 2 ||
             !(solo_numeros(pos_arr[0]) && solo_numeros(pos_arr[1]))
         ) {
-            string_split_free(&pos_arr);
-            list_destroy_and_destroy_elements(lista, free_t_posicion);
+//            string_split_free(&pos_arr);
+//            list_destroy_and_destroy_elements(lista, free_t_posicion);
             return NULL;
         }
 
-        t_posicion* pos = malloc(sizeof(t_posicion));
-        pos->x = atoi(pos_arr[0]);
-        pos->y = atoi(pos_arr[1]);
-        list_add(lista, pos);
+//        t_posicion* pos = malloc(sizeof(t_posicion));
+//        pos->x = atoi(pos_arr[0]);
+//        pos->y = atoi(pos_arr[1]);
+//        list_add(lista, pos);
 
-        string_split_free(&pos_arr);
+//        string_split_free(&pos_arr);
         i++;
     }
 
     return lista;
 }
 
-t_list* extraer_duraciones(int*) {
-
+t_list* extraer_duraciones(char** str_posiciones) {
+	return NULL;
 }
 
 bool string_is_number(char* str) {
     for (int i=0; str[i]!='\0'; i++)
         if (!isdigit(str[i])) return false;
     return true;
-}
-
-t_list* raw_tareas_to_list(char* texto) {
-    t_list* lista_tareas = list_create();
-
-    char** tareas = string_split(texto, "\n");
-    char** p_tareas = tareas;
-    while (*p_tareas != NULL) {
-        string_trim(p_tareas);
-
-        // Campos
-        t_posicion* pos = malloc(sizeof(t_posicion)); pos->x=0; pos->y=0;
-        uint16_t duracion=0;
-        char* nombre;
-        uint16_t param=0;
-
-        char* header = malloc(100);
-        sscanf(*p_tareas, "%[^;];%hhd;%hhd;%hd", header, &pos->x, &pos->y, &duracion);
-        string_trim(&header);
-
-        char** header_split = string_split(header, " ");
-        nombre = header_split[0];
-        param = header_split[1]? atoi(header_split[1]) : 0;
-
-        t_tarea* tarea = tarea_create(nombre, param, pos, duracion, nombre);
-        list_add(lista_tareas, (void*) tarea);
-
-        free(*p_tareas);
-        free(nombre);
-        free(header);
-        free(header_split[1]);
-        free(header_split);
-        free(pos);
-        p_tareas++;
-    }
-
-    free(tareas);
-    return lista_tareas;
-}
-
-t_tarea* tarea_string_to_t_tarea(char* str_tarea) {
-    t_posicion* pos = malloc(sizeof(t_posicion)); pos->x=0; pos->y=0;
-    uint16_t duracion=0;
-    char* nombre;
-    uint16_t param=0;
-
-    char* header = malloc(100);
-    sscanf(str_tarea, "%[^;];%hhd;%hhd;%hd", header, &pos->x, &pos->y, &duracion);
-    string_trim(&header);
-
-    // Nombre y parametro opcional
-    char** header_split = string_split(header, " ");
-    nombre = header_split[0];
-    param = header_split[1]? atoi(header_split[1]) : 0;
-
-    t_tarea* tarea = tarea_create(nombre, param, pos, duracion, nombre);
-
-    free(nombre);
-    free(header);
-    free(header_split[1]);
-    free(header_split);
-    free(pos);
-
-    return tarea;
 }
 
 #define CICLO 100000

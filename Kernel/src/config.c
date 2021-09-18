@@ -30,8 +30,6 @@ uint8_t cargar_configuracion(t_config_kernel* config){
     return 0;
   }
 
-
-
   config->IP_MEMORIA = strdup(config_get_string_value(cfg, "IP_MEMORIA"));
   config->PUERTO_MEMORIA = config_get_int_value(cfg, "PUERTO_MEMORIA");
   config->ALGORITMO_PLANIFICACION = strdup(config_get_string_value(cfg, "ALGORITMO_PLANIFICACION"));
@@ -39,7 +37,7 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   char ** dispositivos_IO = config_get_array_value(cfg, "DISPOSITIVOS_IO");
   config->DISPOSITIVOS_IO = extraer_dispositivos(dispositivos_IO);
   config_free_array_value(&dispositivos_IO);
-  
+
   char ** duraciones_IO = config_get_array_value(cfg, "DURACIONES_IO");
   config->DURACIONES_IO = extraer_duraciones(duraciones_IO);
   config_free_array_value(&duraciones_IO);

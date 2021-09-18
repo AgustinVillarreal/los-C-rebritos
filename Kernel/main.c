@@ -17,10 +17,10 @@ int main(){
 	KERNEL_CFG = initialize_cfg();
 
 
-	if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&mi_ram_hq_fd, KERNEL_CFG)) {
-	        cerrar_programa(main_log, main_log_inv, DISCORDIADOR_CFG);
-	        return EXIT_FAILURE;
-	}
+//	if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&mi_ram_hq_fd, KERNEL_CFG)) {
+//	        cerrar_programa(main_log, main_log_inv, DISCORDIADOR_CFG);
+//	        return EXIT_FAILURE;
+//	}
 	printf("Hola mundo");
 
 	return 0;
