@@ -1,12 +1,14 @@
 #ifndef TP_2021_2C_UNDEFINED_CONFIG_H
 #define TP_2021_2C_UNDEFINED_CONFIG_H
 
+#include <stdint.h>
+#include <stdlib.h>
+
 #include <commons/config.h>
 #include <commons/string.h>
 #include <commons/collections/list.h>
 #include <commons/log.h>
-#include <stdint.h>
-#include <stdlib.h>
+
 #include <readline/readline.h>
 #include "../../Shared/include/utils.h"
 

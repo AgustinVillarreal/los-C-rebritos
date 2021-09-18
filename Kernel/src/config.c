@@ -47,12 +47,7 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   config->GRADO_MULTIPROGRAMACION = config_get_int_value(cfg, "GRADO_MULTIPROGRAMACION");
   config->GRADO_MULTIPROCESAMIENTO = config_get_int_value(cfg, "GRADO_MULTIPROCESAMIENTO");
 
-  // if(strncmp(config->ALGORITMO, "RR", 2) == 0)
-  //     correr_tripulante = correr_tripulante_RR;
-  // else
-  //     correr_tripulante = correr_tripulante_FIFO;
-  // log_info(main_log, "Archivo de configuracion cargado correctamente");
-  // config_destroy(cfg);
+  //Evaluar el Algoritmo con un if
 
   return 1;
 
