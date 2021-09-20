@@ -14,12 +14,14 @@ static t_config_kernel* initialize_cfg() {
 
 int main(){
 	KERNEL_CFG = initialize_cfg();
-	cargar_configuracion(KERNEL_CFG);
+    
+	
+    int memoria_fd;
 
-//	if(! || !generar_conexiones(&mi_ram_hq_fd, KERNEL_CFG)) {
-//	        cerrar_programa(main_log, main_log_inv, DISCORDIADOR_CFG);
-//	        return EXIT_FAILURE;
-//	}
+    if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&memoria_fd, KERNEL_CFG)) {
+        cerrar_programa(main_log, KERNEL_CFG);
+        return EXIT_FAILURE;
+    }
 	printf("Hola mundo");
 
 	return 0;

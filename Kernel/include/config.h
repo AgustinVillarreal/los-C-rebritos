@@ -1,5 +1,5 @@
-#ifndef TP_2021_2C_UNDEFINED_CONFIG_H
-#define TP_2021_2C_UNDEFINED_CONFIG_H
+#ifndef TP_2021_2C_CONFIG_H
+#define TP_2021_2C_CONFIG_H
 
 #include <stdint.h>
 #include <stdlib.h>
