@@ -2,6 +2,7 @@
 #define MAIN_KERNEL_H_
 
 #include "config.h"
+#include "conexion.h"
 
 t_config_kernel* KERNEL_CFG;
 

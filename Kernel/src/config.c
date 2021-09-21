@@ -1,16 +1,14 @@
 #include "../include/logs.h"
 #include "../include/config.h"
 
-void * algoritmo_planificacion;
-
 void cerrar_programa(t_log* logger, t_config_kernel* cfg){
   log_destroy(logger);
 
   free(cfg->IP_MEMORIA);
-  free(ALGORITMO_PLANIFICACION);
+  free(cfg->ALGORITMO_PLANIFICACION);
 
-  list_destroy_and_destroy_elements(cfg->DISPOSITIVOS_IO);
-  list_destroy_and_destroy_elements(cfg->DURACIONES_IO);
+  list_destroy(cfg->DISPOSITIVOS_IO);
+  list_destroy(cfg->DURACIONES_IO);
 
   //TODO Destruir colas e hilos
   
@@ -65,9 +63,9 @@ uint8_t cargar_configuracion(t_config_kernel* config){
 
   //Evaluar el Algoritmo con un if
   if(strcmp(config->ALGORITMO_PLANIFICACION, "SJF")){
-    algoritmo_planificacion = algoritmo_planificacion_SJF;
+    algoritmo_planificacion = ejecutar_algoritmo_SJF;
   } else {
-    algoritmo_planificacion = algoritmo_planificacion_HRRN;
+    algoritmo_planificacion = ejecutar_algoritmo_HRRN;
   }
 
   return 1;

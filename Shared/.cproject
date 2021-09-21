@@ -112,16 +112,16 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="Shared.cdt.managedbuild.target.gnu.so.465258871" name="Shared Library" projectType="cdt.managedbuild.target.gnu.so"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.release.1470762314;cdt.managedbuild.config.gnu.so.release.1470762314.;cdt.managedbuild.tool.gnu.c.compiler.so.release.1132367361;cdt.managedbuild.tool.gnu.c.compiler.input.1359114228">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.653115135;cdt.managedbuild.config.gnu.so.debug.653115135.;cdt.managedbuild.tool.gnu.c.compiler.so.debug.1504260981;cdt.managedbuild.tool.gnu.c.compiler.input.109854030">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.723858297;cdt.managedbuild.config.gnu.exe.release.723858297.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1124268304;cdt.managedbuild.tool.gnu.c.compiler.input.431887507">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1258827204;cdt.managedbuild.config.gnu.exe.debug.1258827204.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1964631216;cdt.managedbuild.tool.gnu.c.compiler.input.1284653493">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
 </cproject>

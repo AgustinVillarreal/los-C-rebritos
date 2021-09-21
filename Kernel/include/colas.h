@@ -3,6 +3,8 @@
 
 #include <commons/collections/queue.h>
 #include <pthread.h>
+#include <stdint.h>
+#include "algoritmos.h"
 
 //TODO ante la duda: extern
 
