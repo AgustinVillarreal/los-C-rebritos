@@ -2,6 +2,7 @@
 #define MATELIB_H_INCLUDED
 
 #include <stdint.h>
+#include <commons/config.h>
 
 //-------------------Type Definitions----------------------/
 typedef struct mate_instance
