@@ -10,6 +10,9 @@ void cerrar_programa(t_log* logger, t_config_kernel* cfg){
   list_destroy(cfg->DISPOSITIVOS_IO);
   list_destroy(cfg->DURACIONES_IO);
 
+  free(cfg);
+
+
   //TODO Destruir colas e hilos
   
 }
@@ -47,7 +50,7 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   config->IP_MEMORIA = strdup(config_get_string_value(cfg, "IP_MEMORIA"));
   config->PUERTO_MEMORIA = config_get_int_value(cfg, "PUERTO_MEMORIA");
   config->ALGORITMO_PLANIFICACION = strdup(config_get_string_value(cfg, "ALGORITMO_PLANIFICACION"));
-  
+
   char ** dispositivos_IO = config_get_array_value(cfg, "DISPOSITIVOS_IO");
   config->DISPOSITIVOS_IO = extraer_dispositivos(dispositivos_IO);
   config_free_array_value(&dispositivos_IO);
@@ -67,6 +70,8 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   } else {
     algoritmo_planificacion = ejecutar_algoritmo_HRRN;
   }
+
+  config_destroy(cfg);
 
   return 1;
 }

@@ -9,6 +9,6 @@
 
 bool generar_conexiones(int* memoria_fd, t_config_kernel* kernel_cfg){
 	//TODO
-	return 0;
+	return 1;
 }
 

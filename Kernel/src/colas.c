@@ -5,7 +5,7 @@ static uint32_t obj_tid = 0;
 
 bool filter_t_running_thread_by_tid(void *item){
   t_running_thread* t_r = (t_running_thread*) item;
-  return t_r->c->tid == obj_tid; 
+  return t_r->c->tid == obj_tid;
 }
 
 void push_cola_new(t_running_thread* n){
