@@ -6,7 +6,7 @@ OBJ = $(SRC:%.c=./obj/%.o)
 SHARED = $(shell find ../Shared/obj/*.o)
 
 build: makeshared makefolder  $(OBJ)
-	$(CC) -o $(OUTFILE) main.c $(OBJ) $(SHARED)
+	$(CC) -o $(OUTFILE) main.c $(OBJ) $(SHARED) $(LINK)
 
 
 LINK = -lpthread -lcommons -lm
