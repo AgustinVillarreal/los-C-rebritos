@@ -22,7 +22,7 @@ typedef struct {
     uint16_t RETARDO_CPU;
     uint16_t GRADO_MULTIPROGRAMACION;
     uint16_t GRADO_MULTIPROCESAMIENTO;
-    unint16_t ESTIMACION_INICIAL;
+    uint16_t ESTIMACION_INICIAL;
     double ALFA;
 } t_config_kernel;
 

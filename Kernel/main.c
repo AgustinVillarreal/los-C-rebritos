@@ -18,10 +18,12 @@ int main(){
 
     int memoria_fd;
 
+    //TODO generar_conexiones esta vacio
     if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&memoria_fd, KERNEL_CFG)) {
         cerrar_programa(main_log, KERNEL_CFG);
         return EXIT_FAILURE;
     }
+    
 	printf("Hola mundo");
 
 	cerrar_programa(main_log, KERNEL_CFG);
