@@ -4,6 +4,7 @@
 void cerrar_programa(t_log* logger, t_config_kernel* cfg){
   log_destroy(logger);
 
+  free(cfg->IP_KERNEL);
   free(cfg->IP_MEMORIA);
   free(cfg->ALGORITMO_PLANIFICACION);
 
@@ -48,6 +49,9 @@ uint8_t cargar_configuracion(t_config_kernel* config){
     config_destroy(cfg);
     return 0;
   }
+
+  config->IP_KERNEL = strdup(config_get_string_value(cfg, "IP_KERNEL"));
+  config->PUERTO_KERNEL = config_get_int_value(cfg, "PUERTO_KERNEL");
 
   config->IP_MEMORIA = strdup(config_get_string_value(cfg, "IP_MEMORIA"));
   config->PUERTO_MEMORIA = config_get_int_value(cfg, "PUERTO_MEMORIA");

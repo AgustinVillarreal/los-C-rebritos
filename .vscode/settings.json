@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "matelib.h": "c",
+    "sockets.h": "c",
+    "utils.h": "c"
+  }
+}

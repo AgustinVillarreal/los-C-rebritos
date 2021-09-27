@@ -13,7 +13,7 @@ int mate_init (mate_instance *lib_ref, char *config){
 	//TODO ver nombre_server
 	servidor_fd = crear_conexion(logger, "Server", IP, PUERTO);
 	if(!servidor_fd){
-		return 1;
+		return EXIT_FAILURE;
 	}
 
 	//Logger se guarda en la lib_ref

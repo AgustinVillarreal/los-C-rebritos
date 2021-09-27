@@ -14,6 +14,8 @@
 #include "../../Shared/include/utils.h"
 
 typedef struct {
+    char* IP_KERNEL;
+    uint16_t PUERTO_KERNEL;
     char* IP_MEMORIA;
     uint16_t PUERTO_MEMORIA;
     char* ALGORITMO_PLANIFICACION;
