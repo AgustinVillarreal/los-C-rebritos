@@ -3,6 +3,9 @@
 
 #include <stdint.h>
 #include <commons/config.h>
+#include "../../Shared/include/sockets.h"
+#include "../include/utils.h"
+#include <commons/log.h>
 
 //-------------------Type Definitions----------------------/
 typedef struct mate_instance
