@@ -37,6 +37,8 @@ uint8_t cargar_configuracion(t_config_kernel* config){
     "RETARDO_CPU",
     "GRADO_MULTIPROGRAMACION",
     "GRADO_MULTIPROCESAMIENTO",
+    "ESTIMACION_INICIAL",
+    "ALFA",
     NULL
   };
 
@@ -59,10 +61,12 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   config->DURACIONES_IO = extraer_duraciones(duraciones_IO);
   config_free_array_value(&duraciones_IO);
 
-
   config->RETARDO_CPU = config_get_int_value(cfg, "RETARDO_CPU");
   config->GRADO_MULTIPROGRAMACION = config_get_int_value(cfg, "GRADO_MULTIPROGRAMACION");
   config->GRADO_MULTIPROCESAMIENTO = config_get_int_value(cfg, "GRADO_MULTIPROCESAMIENTO");
+
+  config->ESTIMACION_INICIAL = config_get_int_value(cfg, "ESTIMACION_INICIAL");
+  config->ALFA = config_get_double_value(cfg, "ALFA");
 
   //Evaluar el Algoritmo con un if
   if(strcmp(config->ALGORITMO_PLANIFICACION, "SJF")){
