@@ -1,7 +1,7 @@
 #include "../include/logs.h"
 #include "../include/config.h"
 
-void cerrar_programa(t_log* logger, t_config_kernel* cfg){
+void cerrar_programa(t_log* logger, t_config_memoria* cfg){
   log_destroy(logger);
   free(cfg);
 
