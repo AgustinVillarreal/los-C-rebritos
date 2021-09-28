@@ -3,10 +3,10 @@
 
 #include "config.h"
 #include "conexion.h"
+#include "comunicacion.h"
 #include "../../Shared/include/sockets.h"
 
 t_config_kernel* KERNEL_CFG;
 
-char* SERVERNAME = "KERNEL_SERVER";
 
 #endif

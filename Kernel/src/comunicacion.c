@@ -1,6 +1,6 @@
 #include "../include/comunicacion.h"
 
-extern t_log* logger;
+t_log* logger;
 
 typedef struct {
     int fd;
@@ -25,6 +25,7 @@ static void procesar_conexion(void* void_args){
         switch (cop) {
             
         }
+    }
 
     log_warning(logger, "El cliente se desconecto de %s server", server_name);
     return;

@@ -6,7 +6,9 @@ t_log* main_log;
 static t_config_kernel* initialize_cfg() {
     t_config_kernel* cfg            = malloc(sizeof(t_config_kernel));
     cfg->IP_KERNEL                  = NULL;
+    cfg->PUERTO_KERNEL              = NULL;
     cfg->IP_MEMORIA                 = NULL;
+    cfg->PUERTO_KERNEL              = NULL;
     cfg->ALGORITMO_PLANIFICACION    = NULL;
     cfg->DISPOSITIVOS_IO            = NULL;
     cfg->DURACIONES_IO              = NULL;
