@@ -1,0 +1,28 @@
+==11031== Memcheck, a memory error detector
+==11031== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11031== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==11031== Command: ./kernel.out
+==11031== Parent PID: 10972
+==11031== 
+==11031== 
+==11031== Process terminating with default action of signal 2 (SIGINT)
+==11031==    at 0x486BD7D: accept (accept.c:30)
+==11031==    by 0x109A2C: esperar_cliente (in /home/utnso/tp-2021-2c-Los-C-rebritos/Kernel/kernel.out)
+==11031==    by 0x10979D: server_escuchar (comunicacion.c:35)
+==11031==    by 0x109016: main (in /home/utnso/tp-2021-2c-Los-C-rebritos/Kernel/kernel.out)
+==11031== 
+==11031== HEAP SUMMARY:
+==11031==     in use at exit: 495 bytes in 15 blocks
+==11031==   total heap usage: 182 allocs, 167 frees, 17,730 bytes allocated
+==11031== 
+==11031== LEAK SUMMARY:
+==11031==    definitely lost: 0 bytes in 0 blocks
+==11031==    indirectly lost: 0 bytes in 0 blocks
+==11031==      possibly lost: 0 bytes in 0 blocks
+==11031==    still reachable: 495 bytes in 15 blocks
+==11031==         suppressed: 0 bytes in 0 blocks
+==11031== Reachable blocks (those to which a pointer was found) are not shown.
+==11031== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==11031== 
+==11031== For counts of detected and suppressed errors, rerun with: -v
+==11031== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
