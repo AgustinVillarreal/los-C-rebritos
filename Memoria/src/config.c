@@ -21,9 +21,10 @@ uint8_t cargar_configuracion(t_config_memoria* config){
         "IP",
         "PUERTO",
         "TAMANIO",
+        "TAMANIO_PAGINA",
         "ALGORITMO_REEMPLAZO_MMU",
         "TIPO_ASIGNACION",
-        "MARCOS_MAXIMOS",
+        "MARCOS_POR_PROCESO",
         "CANTIDAD_ENTRADAS_TLB",
         "ALGORITMO_REEMPLAZO_TLB",
         "RETARDO_ACIERTO_TLB",
@@ -40,9 +41,10 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     config->IP = strdup(config_get_string_value(cfg,"IP"));
     config->PUERTO = config_get_int_value(cfg,"PUERTO");
     config->TAMANIO = config_get_int_value(cfg,"TAMANIO");
+    config->TAMANIO_PAGINA = config_get_int_value(cfg,"TAMANIO_PAGINA");
     config->ALGORITMO_REEMPLAZO_MMU = strdup(config_get_string_value(cfg,"ALGORITMO_REEMPLAZO_MMU"));
     config->TIPO_ASIGNACION = strdup(config_get_string_value(cfg,"TIPO_ASIGNACION"));
-    config->MARCOS_MAXIMOS = config_get_int_value(cfg,"MARCOS_MAXIMOS");
+    config->MARCOS_POR_PROCESO = config_get_int_value(cfg,"MARCOS_POR_PROCESO");
     config->CANTIDAD_ENTRADAS_TLB = config_get_int_value(cfg,"CANTIDAD_ENTRADAS_TLB");
     config->ALGORITMO_REEMPLAZO_TLB = strdup(config_get_string_value(cfg,"ALGORITMO_REEMPLAZO_TLB"));
     config->RETARDO_ACIERTO_TLB = config_get_int_value(cfg,"RETARDO_ACIERTO_TLB");

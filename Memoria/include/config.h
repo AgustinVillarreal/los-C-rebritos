@@ -15,9 +15,10 @@ typedef struct {
     char* IP;
     uint16_t PUERTO;
     uint32_t TAMANIO;
+    uint32_t TAMANIO_PAGINA;
     char* ALGORITMO_REEMPLAZO_MMU;
     char* TIPO_ASIGNACION;
-    uint16_t MARCOS_MAXIMOS;
+    uint16_t MARCOS_POR_PROCESO;
     uint16_t CANTIDAD_ENTRADAS_TLB;
     char* ALGORITMO_REEMPLAZO_TLB;
     uint16_t RETARDO_ACIERTO_TLB;
