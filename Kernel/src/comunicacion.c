@@ -17,13 +17,18 @@ static void procesar_conexion(void* void_args){
     op_code cop;
     while (cliente_socket != -1) {
 
-        if (recv(cliente_socket, &cop, sizeof(op_code), 0) == 0) {
+        if (recv(cliente_socket, &cop, sizeof(op_code), 0) == -1) {
         	log_info(logger, "DISCONNECT!");
             return;
         }
 
         switch (cop) {
-            
+            case HANDSHAKE:
+               if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
+                   log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                   return EXIT_FAILURE;
+               }
+               break;
         }
     }
 

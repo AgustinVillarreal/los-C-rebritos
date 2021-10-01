@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include <commons/config.h>
 #include "../../Shared/include/sockets.h"
+#include "../../Shared/include/protocolo.h"
 #include "../include/utils.h"
 #include <commons/log.h>
 
@@ -11,6 +12,7 @@
 typedef struct mate_instance
 {
 	int id;
+    bool kernel_connected;
     void *group_info;
 } mate_instance;
 

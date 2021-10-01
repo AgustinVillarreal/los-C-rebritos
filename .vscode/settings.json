@@ -3,6 +3,7 @@
     "*.js": "javascriptreact",
     "matelib.h": "c",
     "sockets.h": "c",
-    "utils.h": "c"
+    "utils.h": "c",
+    "protocolo.h": "c"
   }
 }
