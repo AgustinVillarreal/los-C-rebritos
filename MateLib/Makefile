@@ -1,25 +1,17 @@
-# Globales
-CC = gcc
+CC=gcc
 
-SRC = $(shell find ./src -type f -iname "*.c" -exec basename {} \;)
-OBJ = $(SRC:%.c=./obj/%.o)
+build-example-lib:
+	cd src && \
+	$(CC) -c -Wall -I"../include" -fpic matelib.c && \
+	$(CC) -shared matelib.o -o libmate.so && \
+	rm matelib.o
 
-build: makefolder $(OBJ)
+build-example: build-example-lib
+	$(CC) -g3 -Wall -L"/src" -I"../include" main.c -lmate -lpthread -lrt -o example
 
-LINK = -lpthread -lcommons -lm
-CFLAGS = -c
-
-debug: CFLAGS := $(CFLAGS) -g
-debug: build
-
-./obj/%.o: ./src/%.c
-	$(CC) $(CFLAGS) $< -o $@ $(LINK)
-
-makefolder:
-	if [ ! -d ./obj ]; then mkdir obj; fi
-
-# Clean
+run: build-example
+	cd examples/lib_usage && \
+	LD_LIBRARY_PATH="../src/" ./example
 
 clean:
-	rm -rf obj
-	rm -rf *.out
+	rm src/libmate.so example

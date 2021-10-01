@@ -1,6 +1,8 @@
 #include "../include/matelib.h"
 
 int mate_init (mate_instance *lib_ref, char *config){
+
+	op_code cop;
 	
 	t_log* logger;
 	int servidor_fd;
@@ -22,7 +24,7 @@ int mate_init (mate_instance *lib_ref, char *config){
 		return EXIT_FAILURE;
 	}
 
-	if(recv(servidor_fd,  &cop, sizeof(), 0) == -1){
+	if(recv(servidor_fd,  &cop, sizeof(op_code), 0) == -1){
 		log_error(logger, "Error en el handshake");
 		return EXIT_FAILURE;
 	}

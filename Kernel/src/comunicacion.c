@@ -26,7 +26,7 @@ static void procesar_conexion(void* void_args){
             case HANDSHAKE:
                if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
-                   return EXIT_FAILURE;
+                   //sreturn EXIT_FAILURE;
                }
                break;
         }
