@@ -7,7 +7,7 @@ build-example-lib:
 	rm matelib.o
 
 build-example: build-example-lib
-	$(CC) -g3 -Wall -L"/src" -I"../include" main.c -lmate -lpthread -lrt -o example
+	$(CC) -g3 -Wall -L"./src" -I"include" main.c -lmate -lpthread -lcommons -lrt -o example
 
 run: build-example
 	cd examples/lib_usage && \
