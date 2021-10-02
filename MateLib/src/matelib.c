@@ -25,7 +25,7 @@ int mate_init (mate_instance *lib_ref, char *config){
 		return EXIT_FAILURE;
 	}
 
-	if(send_handshake(servidor_fd) == -1){
+	if(!send_handshake(servidor_fd)){
 		data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
 		log_destroy(logger);	
 		return EXIT_FAILURE;

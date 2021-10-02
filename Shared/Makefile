@@ -8,7 +8,10 @@ OBJS=$(C_SRCS:./%.c=build/%.o)
 # Clean and compile .so
 all: build/libshared.so
 
-build/libshared.so: $(OBJS)
+build/src:
+	mkdir -p $@
+
+build/libshared.so: build/src $(OBJS)
 	$(CC) -shared -o "$@" $(OBJS)
 
 build/%.o: %.c
