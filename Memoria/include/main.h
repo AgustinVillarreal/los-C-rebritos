@@ -2,7 +2,8 @@
 #define MAIN_MEMORIA_H_
 
 #include "config.h"
-#include "conexiones.h"
+#include "conexion.h"
+#include "comunicacion.h"
 #include "../../Shared/include/sockets.h"
 t_config_memoria* MEMORIA_CFG;
 #endif

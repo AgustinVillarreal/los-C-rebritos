@@ -30,7 +30,7 @@ int main(){
 
 	liberar_conexion(&memoria_server);
 
-	printf("Hola mundo");
+	printf("Hola mundo soy ian");
 	cerrar_programa(main_log,MEMORIA_CFG);
 	return 0;
 }

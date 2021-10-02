@@ -1,4 +1,4 @@
-#include "../include/conexiones.h"
+#include "../include/comunicacion.h"
 
 t_log* logger;
 
@@ -25,10 +25,20 @@ static void procesar_conexion(void* void_args){
         switch (cop) {
             case HANDSHAKE:
                if (!send_codigo_op(cliente_socket, HANDSHAKE_MEMORIA)){
-                   log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                   log_error(logger, "Error al enviar handshake desde memoria a swap");
                    //sreturn EXIT_FAILURE;
                }
                break;
+               log_info(logger, "HANDSHAKE");
+               break;
+            case -1:
+                log_info(logger, "Cliente desconectado de Kernel");
+                free(server_name);
+                return;
+            default:
+                log_error(logger, "Algo anduvo mal en el server de Memoria");
+                free(server_name);
+                return;
         }
     }
 
