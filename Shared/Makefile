@@ -1,25 +1,37 @@
-# Globales
-CC = gcc
+RM=rm -rf
+CC=gcc
 
-SRC = $(shell find ./src -type f -iname "*.c" -exec basename {} \;)
-OBJ = $(SRC:%.c=./obj/%.o)
+C_SRCS=$(shell find . -iname "*.c" | tr '\n' ' ')
+H_SRCS=$(shell find . -iname "*.h" | tr '\n' ' ')
+OBJS=$(C_SRCS:./%.c=build/%.o)
 
-build: makefolder $(OBJ)
+# Clean and compile .so
+all: build/libshared.so
 
-LINK = -lpthread -lcommons -lm
-CFLAGS = -c
+build/libshared.so: $(OBJS)
+	$(CC) -shared -o "$@" $(OBJS)
 
-debug: CFLAGS := $(CFLAGS) -g
-debug: build
+build/%.o: %.c
+	$(CC) -c -fmessage-length=0 -fPIC -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 
-./obj/%.o: ./src/%.c
-	$(CC) $(CFLAGS) $< -o $@ $(LINK)
+# Add debug parameters and compile
+debug: CC += -DDEBUG -g
+debug: all
 
-makefolder:
-	if [ ! -d ./obj ]; then mkdir obj; fi
+# Print all sources
+sources:
+	@echo $(C_SRCS) $(H_SRCS)
 
-# Clean
-
+# Clean build files
 clean:
-	rm -rf obj
-	rm -rf *.out
+	$(RM) build
+
+install: all
+	sudo cp -u build/libshared.so /usr/lib
+	sudo cp --parents -u $(H_SRCS) /usr/include
+
+uninstall:
+	sudo rm -f /usr/lib/libcommons.so
+	sudo rm -rf /usr/include/commons
+
+.PHONY: all debug sources clean install uninstall
