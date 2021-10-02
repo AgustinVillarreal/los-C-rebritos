@@ -6,10 +6,10 @@ OBJ = $(SRC:%.c=./obj/%.o)
 SHARED = $(shell find ../Shared/obj/*.o)
 
 build: makeshared makefolder  $(OBJ)
-	$(CC) -o $(OUTFILE) main.c $(OBJ) $(SHARED) $(LINK)
+	$(CC) -o $(OUTFILE) main.c $(OBJ) $(LINK)
 
 
-LINK = -lpthread -lcommons -lm
+LINK = -lpthread -lcommons -lm -lshared
 CFLAGS = -c
 
 ./obj/%.o: ./src/%.c

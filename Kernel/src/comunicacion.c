@@ -1,6 +1,6 @@
 #include "../include/comunicacion.h"
 
-t_log* logger;
+extern t_log* logger;
 
 typedef struct {
     int fd;
@@ -17,7 +17,7 @@ static void procesar_conexion(void* void_args){
     op_code cop;
     while (cliente_socket != -1) {
 
-        if (recv(cliente_socket, &cop, sizeof(op_code), 0) == -1) {
+        if (recv(cliente_socket, &cop, sizeof(op_code), 0) == 0) {
         	log_info(logger, "DISCONNECT!");
             return;
         }
@@ -26,13 +26,24 @@ static void procesar_conexion(void* void_args){
             case HANDSHAKE:
                if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
-                   //sreturn EXIT_FAILURE;
+                   free(server_name);
+                   return;
                }
+               log_info(logger, "HANDSHAKE");
                break;
+            case -1:
+                log_info(logger, "Cliente desconectado de Kernel");
+                free(server_name);
+                return;
+            default:
+                log_error(logger, "Algo anduvo mal en el server de Kernel");
+                free(server_name);
+                return;
         }
     }
 
     log_warning(logger, "El cliente se desconecto de %s server", server_name);
+    free(server_name);
     return;
 }
 
