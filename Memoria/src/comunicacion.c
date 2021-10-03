@@ -26,9 +26,9 @@ static void procesar_conexion(void* void_args){
             case HANDSHAKE:
                if (!send_codigo_op(cliente_socket, HANDSHAKE_MEMORIA)){
                    log_error(logger, "Error al enviar handshake desde memoria a swap");
+                   break;
                    //sreturn EXIT_FAILURE;
                }
-               break;
                log_info(logger, "HANDSHAKE");
                break;
             case -1:
