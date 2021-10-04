@@ -3,8 +3,8 @@
 
 #include <stdint.h>
 #include <commons/config.h>
-#include "../../Shared/include/sockets.h"
-#include "../../Shared/include/protocolo.h"
+#include <shared/sockets.h>
+#include <shared/protocolo.h>
 #include "../include/utils.h"
 #include <commons/log.h>
 

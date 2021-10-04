@@ -11,7 +11,7 @@
 #include <commons/log.h>
 
 #include <readline/readline.h>
-#include "../../Shared/include/utils.h"
+#include <shared/utils.h>
 
 typedef struct {
     char* IP_KERNEL;

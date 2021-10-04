@@ -5,8 +5,8 @@
 
 #include "config.h"
 #include "conexion.h"
-#include "../../Shared/include/sockets.h"
-#include "../../Shared/include/protocolo.h"
+#include <shared/sockets.h>
+#include <shared/protocolo.h>
 
 t_config_kernel* KERNEL_CFG;
 

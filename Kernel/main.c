@@ -1,7 +1,7 @@
 #include "include/main.h"
 
 
-t_log* main_log;
+t_log* logger;
 
 static t_config_kernel* initialize_cfg() {
     t_config_kernel* cfg            = malloc(sizeof(t_config_kernel));
@@ -17,20 +17,20 @@ static t_config_kernel* initialize_cfg() {
 
 int main(){
 	KERNEL_CFG = initialize_cfg();
-    main_log = log_create("Kernel.log", "Kernel", true, LOG_LEVEL_INFO);
+    logger = log_create("Kernel.log", "Kernel", true, LOG_LEVEL_INFO);
 
     int memoria_fd;
     int kernel_server;
 
     //TODO generar_conexiones esta vacio
     if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&memoria_fd, KERNEL_CFG)) {
-        cerrar_programa(main_log, KERNEL_CFG);
+        cerrar_programa(logger, KERNEL_CFG);
         return EXIT_FAILURE;
     }
 
-    kernel_server = iniciar_servidor(main_log, SERVERNAME, KERNEL_CFG->IP_KERNEL, KERNEL_CFG->PUERTO_KERNEL);
+    kernel_server = iniciar_servidor(logger, SERVERNAME, KERNEL_CFG->IP_KERNEL, KERNEL_CFG->PUERTO_KERNEL);
     if(!kernel_server){
-        cerrar_programa(main_log, KERNEL_CFG);
+        cerrar_programa(logger, KERNEL_CFG);
         return EXIT_FAILURE;
     }
 
@@ -40,7 +40,7 @@ int main(){
 
 	printf("Hola mundo");
 
-	cerrar_programa(main_log, KERNEL_CFG);
+	cerrar_programa(logger, KERNEL_CFG);
 
 	return 0;
 }
