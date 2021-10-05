@@ -1,4 +1,4 @@
-#include "../include/frees.h"
+#include "../shared/frees.h"
 
 void config_free_array_value(char*** arr) {
     char** a = *arr;

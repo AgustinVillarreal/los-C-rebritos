@@ -8,11 +8,12 @@ int mate_init (mate_instance *lib_ref, char *config){
 	int servidor_fd;
 	t_config* cfg = config_create(config);
 	char* IP = NULL;
-	IP = strdup(config_get_string_value(cfg, "IP"));
 	char* PUERTO = NULL;
+	char* NIVEL_LOGEO = NULL;
+
+	IP = strdup(config_get_string_value(cfg, "IP"));
 	PUERTO = strdup(config_get_string_value(cfg, "PUERTO"));
 	//TODO ver que si no encuentra el nivel de logeo siga funcioando
-	char* NIVEL_LOGEO = NULL;
 	NIVEL_LOGEO = strdup(config_get_string_value(cfg, "NIVEL_LOGEO"));
 	logger = log_create("mateLib.log", "mateLib", true, log_string_enum(NIVEL_LOGEO));
 
@@ -38,6 +39,8 @@ int mate_init (mate_instance *lib_ref, char *config){
 		return EXIT_FAILURE;
 	}
 
+	lib_ref->logger = logger;
+	lib_ref->servidor_fd = servidor_fd;
 	lib_ref->kernel_connected = cop == HANDSHAKE_KERNEL;
 	
 	// Logger se guarda en la lib_ref
@@ -45,6 +48,16 @@ int mate_init (mate_instance *lib_ref, char *config){
 
 	data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);
 	return 0;
+}
+
+mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
+
+	if(!send_memalloc(lib_ref->servidor_fd)){
+		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
+		// log_destroy(logger);	
+		return EXIT_FAILURE;
+	}
+	return 1;
 }
 
 int mate_close(mate_instance *lib_ref){

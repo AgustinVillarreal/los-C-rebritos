@@ -2,8 +2,6 @@
 
 #define PROTOCOLO_H_
 
-
-
 #include <inttypes.h>
 #include <sys/socket.h>
 #include <unistd.h>
@@ -18,19 +16,18 @@
 #include "utils.h"
 #include "frees.h"
 
-
-///JAJAJAJJAJAJAJ
-
-
+///JAJAJAJJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
     HANDSHAKE_KERNEL,
-    HANDSHAKE_MEMORIA
+    HANDSHAKE_MEMORIA,
+    MEM_ALLOC
 } op_code;
 
 
 bool send_handshake(int fd_server);
+bool send_memalloc(int fd_server);
 bool send_codigo_op(int fd, op_code cop);
 
 #endif

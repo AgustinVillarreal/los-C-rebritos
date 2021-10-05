@@ -1,4 +1,4 @@
-#include "../include/sockets.h"
+#include "../shared/sockets.h"
 
 // INICIA SERVER ESCUCHANDO EN IP:PUERTO
 int iniciar_servidor(t_log* logger, const char* name, char* ip, char* puerto) {

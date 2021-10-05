@@ -9,11 +9,13 @@
 #include <commons/log.h>
 #include <commons/string.h>
 
+#include <shared/utils.h>
+
 #include <readline/readline.h>
 
 typedef struct {
     char* IP;
-    uint16_t PUERTO;
+    char* PUERTO;
     uint32_t TAMANIO;
     uint32_t TAMANIO_PAGINA;
     char* ALGORITMO_REEMPLAZO_MMU;
