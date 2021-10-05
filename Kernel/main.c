@@ -23,7 +23,7 @@ int main(){
     int kernel_server;
 
     //TODO generar_conexiones esta vacio
-    if(!cargar_configuracion(KERNEL_CFG) || !generar_conexiones(&memoria_fd, KERNEL_CFG)) {
+    if(!cargar_configuracion(KERNEL_CFG) || !generar_conexion(&memoria_fd, KERNEL_CFG)) {
         cerrar_programa(logger, KERNEL_CFG);
         return EXIT_FAILURE;
     }
@@ -34,7 +34,7 @@ int main(){
         return EXIT_FAILURE;
     }
 
-    while (server_escuchar(SERVERNAME, kernel_server));
+    while (server_escuchar(SERVERNAME, kernel_server, memoria_fd));
 
     liberar_conexion(&kernel_server);
 

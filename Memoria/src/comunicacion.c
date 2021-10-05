@@ -1,6 +1,6 @@
 #include "../include/comunicacion.h"
 
-t_log* logger;
+extern t_log* logger;
 
 typedef struct {
     int fd;
@@ -17,7 +17,7 @@ static void procesar_conexion(void* void_args){
     op_code cop;
     while (cliente_socket != -1) {
 
-        if (recv(cliente_socket, &cop, sizeof(op_code), 0) == -1) {
+        if (recv(cliente_socket, &cop, sizeof(op_code), 0) == 0) {
         	log_info(logger, "DISCONNECT!");
             return;
         }
@@ -31,6 +31,9 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
+            case MEM_ALLOC:
+                log_info(logger, "ALLOCADO PA");
+                break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");
                 free(server_name);

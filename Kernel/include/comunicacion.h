@@ -12,6 +12,6 @@ t_config_kernel* KERNEL_CFG;
 
 static void procesar_conexion(void* void_args);
 
-int server_escuchar(char* server_name, int server_socket);
+int server_escuchar(char* server_name, int server_socket, int memoria_fd);
 
 #endif

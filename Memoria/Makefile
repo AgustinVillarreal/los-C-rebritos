@@ -1,15 +1,15 @@
 CC = gcc
-OUTFILE = main.out
+OUTFILE = memoria.out
 
 SRC = $(shell find ./src -type f -iname "*.c" -exec basename {} \;)
 OBJ = $(SRC:%.c=./obj/%.o)
 SHARED = $(shell find ../Shared/obj/*.o)
 
 build: makeshared makefolder  $(OBJ)
-	$(CC) -o $(OUTFILE) main.c $(OBJ) $(SHARED) $(LINK)
+	$(CC) -o $(OUTFILE) main.c $(OBJ) $(LINK)
 
 
-LINK = -lpthread -lcommons -lm
+LINK = -lpthread -lcommons -lm -lshared
 CFLAGS = -c
 
 ./obj/%.o: ./src/%.c
@@ -18,8 +18,15 @@ CFLAGS = -c
 makefolder:
 	if [ ! -d ./obj ]; then mkdir obj; fi
 
+# puede dar error, verlo en el futuro
 makeshared:
-	make -C ../Shared
+	make install -C ../Shared
+
+debug: CFLAGS := $(CFLAGS) -g
+debug: build
+
+valgrind: debug build
+	valgrind ./$(OUTFILE) --leak-check=full --track-origins=yes --log-file=valgrind.log
 
 clean: 
 	rm -rf obj

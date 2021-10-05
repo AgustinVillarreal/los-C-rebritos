@@ -5,12 +5,14 @@ extern t_log* logger;
 typedef struct {
     int fd;
     char* server_name;
+    int memoria_fd;
 } t_procesar_conexion_args;
 
 static void procesar_conexion(void* void_args){
     t_procesar_conexion_args* args = (t_procesar_conexion_args*) void_args;
     int cliente_socket = args->fd;
     char* server_name = args->server_name;
+    int memoria_fd = args->memoria_fd;
     free(args);
 
     // Mientras la conexion este abierta
@@ -31,6 +33,9 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
+            case MEM_ALLOC:
+                send_memalloc(memoria_fd);
+                break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");
                 free(server_name);
@@ -47,7 +52,7 @@ static void procesar_conexion(void* void_args){
     return;
 }
 
-int server_escuchar(char* server_name, int server_fd) {
+int server_escuchar(char* server_name, int server_fd, int memoria_fd) {
     int cliente_socket = esperar_cliente(logger, server_name, server_fd);
 
     if (cliente_socket != -1) {
@@ -55,6 +60,7 @@ int server_escuchar(char* server_name, int server_fd) {
         t_procesar_conexion_args* args = malloc(sizeof(t_procesar_conexion_args));
         args->fd = cliente_socket;
         args->server_name = server_name;
+        args->memoria_fd = memoria_fd;
         pthread_create(&hilo, NULL, (void*) procesar_conexion, (void*) args);
         pthread_detach(hilo);
         return 1;
