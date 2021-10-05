@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "matelib.h": "c",
+    "sockets.h": "c",
+    "utils.h": "c",
+    "protocolo.h": "c",
+    "main.h": "c",
+    "comunicacion.h": "c",
+    "conexion.h": "c",
+    "config.h": "c"
+  }
+}
