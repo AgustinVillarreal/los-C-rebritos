@@ -34,6 +34,15 @@ static void procesar_conexion(void* void_args){
             case MEM_ALLOC:
                 log_info(logger, "ALLOCADO PA");
                 break;
+            case MEM_FREE:
+                log_info(logger,"LIBERADO PADRE");
+                break;
+            case MEM_READ:
+                log_info(logger,"ANDA A SABER QUE ESTAS QUERIENDO LEER");
+                break;
+            case MEM_WRITE:
+                log_info(logger,"ESCRITO JEFE");
+                break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");
                 free(server_name);
