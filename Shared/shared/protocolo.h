@@ -31,6 +31,9 @@ typedef enum {
 
 bool send_handshake(int fd_server);
 bool send_memalloc(int fd_server);
+bool send_memwrite(int fd_server);
+bool send_memread(int fd_server);
+bool send_memfree(int fd_server);
 bool send_codigo_op(int fd, op_code cop);
 
 #endif
