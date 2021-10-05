@@ -1,6 +1,8 @@
 #include "../include/logs.h"
 #include "../include/config.h"
 
+extern t_log* logger;
+
 void cerrar_programa(t_log* logger, t_config_memoria* cfg){
   log_destroy(logger);
   free(cfg);
@@ -13,7 +15,7 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     t_config* cfg = config_create("memoria.config");
 
     if(cfg == NULL) {
-        log_error(main_log,"NO SE ENCONTRO memoria.config");
+        log_error(logger,"NO SE ENCONTRO memoria.config");
         return 0;
     }
 
@@ -33,13 +35,13 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     };
 
     if(!config_has_all_properties(cfg,properties)){
-        log_error(main_log,"NO SE ENCUENTRAN TODAS LAS PROPIEDADES DEFINIDAS EN EL CONFIG");
+        log_error(logger,"NO SE ENCUENTRAN TODAS LAS PROPIEDADES DEFINIDAS EN EL CONFIG");
         config_destroy(cfg);
         return 0;
     }
 
     config->IP = strdup(config_get_string_value(cfg,"IP"));
-    config->PUERTO = config_get_int_value(cfg,"PUERTO");
+    config->PUERTO = strdup(config_get_string_value(cfg,"PUERTO"));
     config->TAMANIO = config_get_int_value(cfg,"TAMANIO");
     config->TAMANIO_PAGINA = config_get_int_value(cfg,"TAMANIO_PAGINA");
     config->ALGORITMO_REEMPLAZO_MMU = strdup(config_get_string_value(cfg,"ALGORITMO_REEMPLAZO_MMU"));
@@ -50,7 +52,7 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     config->RETARDO_ACIERTO_TLB = config_get_int_value(cfg,"RETARDO_ACIERTO_TLB");
     config->RETARDO_FALLO_TLB = config_get_int_value(cfg,"RETARDO_FALLO_TLB");
 
-    log_info(main_log,"CONFIGURACION CARGADA EXITOSAMENTE");
+    log_info(logger,"CONFIGURACION CARGADA EXITOSAMENTE");
 
     config_destroy(cfg);
 

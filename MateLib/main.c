@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
   // Lib instantiation
   mate_instance mate_ref;
   mate_init(&mate_ref, "./config.config");
+  mate_memalloc(&mate_ref, 1);
 
   // // Let's work with semaphores
   // mate_sem_init(&mate_ref, "SEM1", 0);

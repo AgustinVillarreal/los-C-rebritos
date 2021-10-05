@@ -10,8 +10,10 @@
 
 #include <stdbool.h>
 #include "config.h"
+#include <shared/sockets.h>
 
-bool generar_conexiones(int*,t_config_kernel*);
+void data_destroy(char *uno, char *dos, t_config_kernel* cfg);
+bool generar_conexion(int*,t_config_kernel*);
 
 
 #endif /* INCLUDE_CONEXION_H_ */

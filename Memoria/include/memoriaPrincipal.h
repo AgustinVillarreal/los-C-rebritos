@@ -18,10 +18,10 @@ typedef struct {
     HeapMetadata* allocs;
 } t_pagina;
 
-uint32_t reservarMemoria(int cantidadDeMemoria);
-uint32_t firstFit(); // tiene que ser de tipo unit32_t? de que tamanio es una direccion logica?
-void liberarMemoria(HeapMetadata allocALiberar);
-uint32_t leerMemoria(uint32_t direccionLogica, t_pagina* tablaDePaginas); //nose si tiene que ser de tipo uint32 la funcion porque no se que devuelve
-void escribirMemoria(uint32_t direccionLogica, t_pagina* tablaDePaginas);
+// uint32_t reservarMemoria(int cantidadDeMemoria);
+// uint32_t firstFit(); // tiene que ser de tipo unit32_t? de que tamanio es una direccion logica?
+// void liberarMemoria(HeapMetadata allocALiberar);
+// uint32_t leerMemoria(uint32_t direccionLogica, t_pagina* tablaDePaginas); //nose si tiene que ser de tipo uint32 la funcion porque no se que devuelve
+// void escribirMemoria(uint32_t direccionLogica, t_pagina* tablaDePaginas);
 
 #endif 

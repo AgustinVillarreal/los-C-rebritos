@@ -4,6 +4,6 @@
 #include "config.h"
 #include "conexion.h"
 #include "comunicacion.h"
-#include "../../Shared/include/sockets.h"
+#include <shared/sockets.h>
 t_config_memoria* MEMORIA_CFG;
 #endif

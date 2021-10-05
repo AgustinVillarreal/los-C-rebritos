@@ -13,6 +13,8 @@ typedef struct mate_instance
 {
 	int id;
     bool kernel_connected;
+    t_log* logger;
+    int servidor_fd;
     void *group_info;
 } mate_instance;
 
@@ -44,7 +46,7 @@ int mate_close(mate_instance *lib_ref);
 
 // //--------------Memory Module Functions-------------------/
 
-// mate_pointer mate_memalloc(mate_instance *lib_ref, int size);
+mate_pointer mate_memalloc(mate_instance *lib_ref, int size);
 
 // int mate_memfree(mate_instance *lib_ref, mate_pointer addr);
 

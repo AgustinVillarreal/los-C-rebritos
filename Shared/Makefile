@@ -34,7 +34,7 @@ install: all
 	sudo cp --parents -u $(H_SRCS) /usr/include
 
 uninstall:
-	sudo rm -f /usr/lib/libcommons.so
-	sudo rm -rf /usr/include/commons
+	sudo rm -f /usr/lib/libshared.so
+	sudo rm -rf /usr/include/shared
 
 .PHONY: all debug sources clean install uninstall
