@@ -8,6 +8,7 @@
     "main.h": "c",
     "comunicacion.h": "c",
     "conexion.h": "c",
-    "config.h": "c"
+    "config.h": "c",
+    "cstdlib": "c"
   }
 }

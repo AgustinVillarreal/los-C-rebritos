@@ -15,6 +15,7 @@ static void procesar_conexion(void* void_args){
     int memoria_fd = args->memoria_fd;
     free(args);
 
+
     // Mientras la conexion este abierta
     op_code cop;
     while (cliente_socket != -1) {
@@ -35,7 +36,22 @@ static void procesar_conexion(void* void_args){
                break;
                
             case MEM_ALLOC:
-                send_memalloc(memoria_fd);
+                //TODO: Abstraccion
+                void * stream = malloc(sizeof(int) * 2);
+                if(recv(cliente_socket, stream, sizeof(int)*2, 0) == 0){
+                    log_info(logger, "Error en mem_alloc");
+                    return;
+                }
+                send_memalloc(memoria_fd);                                
+                break;
+            case MEM_FREE:
+                send_memfree(memoria_fd);
+                break;
+            case MEM_READ:
+                send_memread(memoria_fd);
+                break;
+            case MEM_WRITE:
+                send_memwrite(memoria_fd);
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");
@@ -50,6 +66,7 @@ static void procesar_conexion(void* void_args){
 
     log_warning(logger, "El cliente se desconecto de %s server", server_name);
     free(server_name);
+    free(stream);
     return;
 }
 

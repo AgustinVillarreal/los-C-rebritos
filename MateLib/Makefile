@@ -15,3 +15,8 @@ run: build-example
 
 clean:
 	rm src/libmate.so example
+
+valgrind-example: build-example
+	LD_LIBRARY_PATH="src/" valgrind --leak-check=full --track-origins=yes ./example
+
+	

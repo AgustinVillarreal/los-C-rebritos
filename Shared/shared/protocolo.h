@@ -15,8 +15,9 @@
 
 #include "utils.h"
 #include "frees.h"
+#include "serializacion.h"
 
-///JAJAJAJJAJAJAJAJAJAJAJAJA
+///JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -35,6 +36,6 @@ bool send_memwrite(int fd_server);
 bool send_memread(int fd_server);
 bool send_memfree(int fd_server);
 bool send_codigo_op(int fd, op_code cop);
-bool send_lib_ref(mate_instance* lib_ref);
+bool send_alloc_data(int fd, int id, int size);
 
 #endif

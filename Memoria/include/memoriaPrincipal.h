@@ -6,9 +6,9 @@
 #include <commons/string.h>
 
 typedef struct {
-    uint32_t prevAlloc,
-    uint32_t nextAlloc,
-    uint8_t isFree,
+    uint32_t prevAlloc;
+    uint32_t nextAlloc;
+    uint8_t isFree;
 } HeapMetadata;
 
 typedef struct {

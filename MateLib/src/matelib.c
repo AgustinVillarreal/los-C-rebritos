@@ -3,6 +3,7 @@
 int mate_init (mate_instance *lib_ref, char *config){
 
 	op_code cop;
+	lib_ref = malloc(sizeof(mate_instance));
 	
 	t_log* logger;
 	int servidor_fd;
@@ -55,10 +56,40 @@ mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
 	if(!send_memalloc(lib_ref->servidor_fd)){
 		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
 		// log_destroy(logger);	
+		return -1;
+	}
+	send_alloc_data(lib_ref->servidor_fd, lib_ref->id, size);
+	return 0;
+}
+
+int mate_memfree(mate_instance *lib_ref, mate_pointer addr){
+	if(!send_memfree(lib_ref->servidor_fd)){
+		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
+		// log_destroy(logger);	
+		return EXIT_FAILURE;
+	}
+	return 0;
+}
+
+int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int size){
+	if(!send_memread(lib_ref->servidor_fd)){
+		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
+		// log_destroy(logger);	
+		return EXIT_FAILURE;
+	}
+	return 0;
+}
+
+
+int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int size){
+	if(!send_memwrite(lib_ref->servidor_fd)){
+		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
+		// log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
 	return 1;
 }
+
 
 int mate_close(mate_instance *lib_ref){
 

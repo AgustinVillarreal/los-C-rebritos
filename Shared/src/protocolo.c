@@ -21,11 +21,16 @@ bool send_memwrite(int fd_server){
 }
 
 bool send_codigo_op(int fd, op_code cop) {
-    size_t size = sizeof(op_code);
-    return send(fd,&cop,size,0) != -1;
+  size_t size = sizeof(op_code);
+  return send(fd,&cop,size,0) != -1;
 }
 
-bool send_lib_ref(mate_instance* lib_ref) {
-    // size_t size = sizeof(op_code);
-    // return send(fd,&cop,size,0) != -1;
+bool send_alloc_data(int fd, int id, int size){
+  void * stream = serializar_alloc_data(id, size);
+  if(send(fd, stream, sizeof(int) * 2, 0) == -1){
+    free(stream);
+    return false;
+  } 
+  free(stream);
+  return true;
 }
