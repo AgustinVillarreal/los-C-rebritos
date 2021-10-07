@@ -33,6 +33,7 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
+               
             case MEM_ALLOC:
                 send_memalloc(memoria_fd);
                 break;

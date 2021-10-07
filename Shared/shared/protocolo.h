@@ -16,7 +16,7 @@
 #include "utils.h"
 #include "frees.h"
 
-///JAJAJAJJAJAJAJAJAJAJAJA
+///JAJAJAJJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -29,5 +29,6 @@ typedef enum {
 bool send_handshake(int fd_server);
 bool send_memalloc(int fd_server);
 bool send_codigo_op(int fd, op_code cop);
+bool send_lib_ref(mate_instance* lib_ref);
 
 #endif
