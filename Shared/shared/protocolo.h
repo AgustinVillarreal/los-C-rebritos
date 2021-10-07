@@ -16,18 +16,24 @@
 #include "utils.h"
 #include "frees.h"
 
-///JAJAJAJJAJAJAJAJAJAJAJA
+///JAJAJAJJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
     HANDSHAKE_KERNEL,
     HANDSHAKE_MEMORIA,
-    MEM_ALLOC
+    MEM_ALLOC,
+    MEM_FREE,
+    MEM_READ,
+    MEM_WRITE,
 } op_code;
 
 
 bool send_handshake(int fd_server);
 bool send_memalloc(int fd_server);
+bool send_memwrite(int fd_server);
+bool send_memread(int fd_server);
+bool send_memfree(int fd_server);
 bool send_codigo_op(int fd, op_code cop);
 
 #endif
