@@ -1,23 +1,36 @@
 #include "../include/colas.h"
 
 
-static uint32_t obj_tid = 0;
+static unsigned long obj_tid = 0;
 
-bool filter_t_running_thread_by_tid(void *item){
-  t_running_thread* t_r = (t_running_thread*) item;
-  return t_r->c->tid == obj_tid;
+void iniciar_mutex(int grado_multiprogramacion){
+  pthread_mutex_init(&MUTEX_LISTA_NEW, NULL);
+  sem_init(&SEM_GRADO_MULTIPROGRAMACION,0, grado_multiprogramacion);
+  sem_init(&SEM_CANTIDAD_A_READY, 0, 0);
 }
 
-void push_cola_new(t_running_thread* n){
+void destroy_mutex(){
+  pthread_mutex_destroy(&MUTEX_LISTA_NEW);
+  sem_destroy(&SEM_GRADO_MULTIPROGRAMACION);
+  sem_destroy(&SEM_CANTIDAD_A_READY);
+}
+
+bool filter_t_carpincho_by_tid(void *item){
+  t_carpincho* t_r = (t_carpincho*) item;
+  return t_r->id == obj_tid;
+}
+
+void push_cola_new(t_carpincho* carpincho){
   pthread_mutex_lock(&MUTEX_LISTA_NEW);
-  queue_push(COLA_NEW, n);
+  queue_push(COLA_NEW, carpincho);
   pthread_mutex_unlock(&MUTEX_LISTA_NEW);
 }
 
-t_running_thread* pop_cola_new(){
+t_carpincho* pop_cola_new(){
   pthread_mutex_lock(&MUTEX_LISTA_NEW);
-  t_running_thread* element = (t_running_thread*) queue_pop(COLA_NEW);
+  t_carpincho* element = (t_carpincho*) queue_pop(COLA_NEW);
   pthread_mutex_unlock(&MUTEX_LISTA_NEW);
+  sem_post(&SEM_CANTIDAD_A_READY);
   return element;
 }
 
@@ -28,19 +41,26 @@ uint16_t largo_cola_new() {
   return ret;
 }
 
-t_running_thread* buscar_cola_new(uint32_t tid){
+t_carpincho* buscar_cola_new(unsigned long tid){
   pthread_mutex_lock(&MUTEX_LISTA_NEW);
   obj_tid = tid;
-  t_running_thread* ret = list_find(COLA_NEW->elements, filter_t_running_thread_by_tid);
+  t_carpincho* ret = list_find(COLA_NEW->elements, filter_t_carpincho_by_tid);
   pthread_mutex_unlock(&MUTEX_LISTA_NEW);
   return ret;
 }
 
-void* remover_cola_new(uint32_t tid){
+void* remover_cola_new(unsigned long tid){
   pthread_mutex_lock(&MUTEX_LISTA_NEW);
   obj_tid = tid;
-  void* ret = list_remove_by_condition(COLA_NEW->elements, filter_t_running_thread_by_tid);
+  void* ret = list_remove_by_condition(COLA_NEW->elements, filter_t_carpincho_by_tid);
   pthread_mutex_unlock(&MUTEX_LISTA_NEW);
   return ret;
+}
+
+void carpincho_init(unsigned long id){
+  t_carpincho* carpincho = malloc(sizeof(t_carpincho));
+  carpincho->id = id;
+  push_cola_new(carpincho);
+  return;
 }
 

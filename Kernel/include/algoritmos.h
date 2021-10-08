@@ -7,17 +7,13 @@
 #include <stdint.h>
 
 typedef struct {
-  uint32_t tid;
-} t_carpincho;
-
-typedef struct {
-  t_carpincho* c;
+  unsigned int id;
   pthread_t thread;
   sem_t sem_pause;
   bool blocked;
-} t_running_thread;
+} t_carpincho;
 
-void ejecutar_algoritmo_HRRN(t_running_thread* thread_data);
-void ejecutar_algoritmo_SJF(t_running_thread* thread_data);
+void ejecutar_algoritmo_HRRN(t_carpincho* thread_data);
+void ejecutar_algoritmo_SJF(t_carpincho* thread_data);
 
 #endif

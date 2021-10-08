@@ -585,3 +585,67 @@
 
 [INFO] 12:41:51:426 Kernel/(12200:12568): HANDSHAKE
 [INFO] 12:41:51:496 Kernel/(12200:12568): DISCONNECT!
+[INFO] 16:10:46:397 Kernel/(5232:5232): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:12:45:034 Kernel/(5339:5339): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:12:45:091 Kernel/(5339:5339): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:13:55:469 Kernel/(5382:5382): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:13:55:534 Kernel/(5382:5382): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:14:56:538 Kernel/(5382:5382): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:14:56:643 Kernel/(5382:5435): HANDSHAKE
+[INFO] 16:14:56:704 Kernel/(5382:5435): DISCONNECT!
+[INFO] 16:16:50:187 Kernel/(5701:5701): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:16:50:273 Kernel/(5701:5701): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:16:54:314 Kernel/(5701:5701): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:54:434 Kernel/(5701:5723): HANDSHAKE
+[INFO] 16:16:54:506 Kernel/(5701:5723): DISCONNECT!
+[INFO] 16:55:01:720 Kernel/(6884:6884): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:55:01:780 Kernel/(6884:6884): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:55:12:575 Kernel/(6884:6884): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:55:12:714 Kernel/(6884:6906): HANDSHAKE
+[INFO] 17:01:13:968 Kernel/(7174:7174): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:01:14:027 Kernel/(7174:7174): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 17:01:20:871 Kernel/(7174:7174): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:01:20:986 Kernel/(7174:7197): HANDSHAKE
+[INFO] 17:04:16:116 Kernel/(7317:7317): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:04:16:174 Kernel/(7317:7317): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 17:04:19:955 Kernel/(7317:7317): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:04:20:046 Kernel/(7317:7339): HANDSHAKE
+[INFO] 17:04:20:113 Kernel/(7317:7339): DISCONNECT!
+[INFO] 17:04:30:942 Kernel/(7317:7317): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:04:31:031 Kernel/(7317:7363): HANDSHAKE
+[INFO] 17:04:31:094 Kernel/(7317:7363): DISCONNECT!
+[INFO] 17:04:39:103 Kernel/(7317:7317): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:04:39:198 Kernel/(7317:7389): HANDSHAKE
+[INFO] 17:04:39:266 Kernel/(7317:7389): DISCONNECT!
+[INFO] 17:04:42:441 Kernel/(7317:7317): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:04:42:528 Kernel/(7317:7412): HANDSHAKE
+[INFO] 17:04:42:593 Kernel/(7317:7412): DISCONNECT!
+[INFO] 17:04:51:804 Kernel/(7438:7438): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:04:51:860 Kernel/(7438:7438): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 17:04:54:406 Kernel/(7438:7438): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:04:54:564 Kernel/(7438:7460): HANDSHAKE
+[INFO] 17:04:54:668 Kernel/(7438:7460): DISCONNECT!

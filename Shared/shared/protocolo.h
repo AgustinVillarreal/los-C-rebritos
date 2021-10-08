@@ -17,16 +17,18 @@
 #include "frees.h"
 #include "serializacion.h"
 
-///JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+///JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
     HANDSHAKE_KERNEL,
     HANDSHAKE_MEMORIA,
+    PONER_COLA_NEW,
     MEM_ALLOC,
     MEM_FREE,
     MEM_READ,
     MEM_WRITE,
+    FREE_CARPINCHO
 } op_code;
 
 
@@ -37,5 +39,9 @@ bool send_memread(int fd_server);
 bool send_memfree(int fd_server);
 bool send_codigo_op(int fd, op_code cop);
 bool send_alloc_data(int fd, unsigned long id, int size);
+bool send_poner_cola_new(int fd);
+bool send_data_cola_new(int fd, unsigned long id);
+
+
 
 #endif

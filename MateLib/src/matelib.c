@@ -45,6 +45,21 @@ int mate_init (mate_instance *lib_ref, char *config){
 	inner_structure->servidor_fd = servidor_fd;
 	inner_structure->kernel_connected = cop == HANDSHAKE_KERNEL;
 	inner_structure->id= generate_id();
+
+	if(inner_structure->kernel_connected){
+		if(!send_poner_cola_new(servidor_fd)){
+			data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
+			log_destroy(logger);	
+			return EXIT_FAILURE;
+		}
+		if(!send_data_cola_new(servidor_fd, inner_structure->id)){
+			log_error(logger, "Error enviando");
+			data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);
+			log_destroy(logger);
+			return EXIT_FAILURE;
+		}
+	}
+
 	  
 	
 	// Logger se guarda en la lib_ref
