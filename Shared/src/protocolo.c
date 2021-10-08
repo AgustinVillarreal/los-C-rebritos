@@ -25,9 +25,9 @@ bool send_codigo_op(int fd, op_code cop) {
   return send(fd,&cop,size,0) != -1;
 }
 
-bool send_alloc_data(int fd, int id, int size){
+bool send_alloc_data(int fd, unsigned long id, int size){
   void * stream = serializar_alloc_data(id, size);
-  if(send(fd, stream, sizeof(int) * 2, 0) == -1){
+  if(send(fd, stream, sizeof(long) + sizeof(int), 0) == -1){
     free(stream);
     return false;
   } 

@@ -9,9 +9,9 @@
 //     return stream;
 // }
 
-void * serializar_alloc_data(int id, int size){
-    void * stream = malloc(sizeof(int) * 2);
-    memcpy(stream, &id, sizeof(int));
-    memcpy(stream + sizeof(int), &size, sizeof(int));    
+void * serializar_alloc_data(unsigned long id, int size){
+    void * stream = malloc(sizeof(int) + sizeof(long));
+    memcpy(stream, &id, sizeof(long));
+    memcpy(stream + sizeof(long), &size, sizeof(int));    
     return stream;
 }

@@ -26,8 +26,10 @@ int main(){
 	}
 
 	memoria_server = iniciar_servidor(logger,SERVERNAME,MEMORIA_CFG->IP,MEMORIA_CFG->PUERTO);
+
 	if(!memoria_server){
 		cerrar_programa(logger,MEMORIA_CFG);
+		printf("Falle :(");
 		return EXIT_FAILURE;
 	}
 

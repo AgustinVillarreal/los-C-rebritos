@@ -8,6 +8,6 @@
 #include <stdio.h>
 #include <string.h>
 
-void* serializar_alloc_data(int id, int size);
+void * serializar_alloc_data(unsigned long id, int size);
 
 #endif

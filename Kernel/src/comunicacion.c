@@ -14,7 +14,7 @@ static void procesar_conexion(void* void_args){
     char* server_name = args->server_name;
     int memoria_fd = args->memoria_fd;
     free(args);
-
+    void * stream;
 
     // Mientras la conexion este abierta
     op_code cop;
@@ -36,8 +36,8 @@ static void procesar_conexion(void* void_args){
                break;
                
             case MEM_ALLOC:
-                //TODO: Abstraccion
-                void * stream = malloc(sizeof(int) * 2);
+                //TODO: Abstraccion               
+                stream = malloc(sizeof(int) * 2);
                 if(recv(cliente_socket, stream, sizeof(int)*2, 0) == 0){
                     log_info(logger, "Error en mem_alloc");
                     return;

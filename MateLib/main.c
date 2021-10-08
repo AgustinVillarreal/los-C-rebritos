@@ -52,6 +52,6 @@ int main(int argc, char *argv[])
 
   // mate_sem_destroy(&mate_ref, "SEM1");
 
-  // mate_close(&mate_ref);
+  mate_close(&mate_ref);
   return 0;
 }

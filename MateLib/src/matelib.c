@@ -1,9 +1,10 @@
 #include "../include/matelib.h"
 
 int mate_init (mate_instance *lib_ref, char *config){
+	
+	lib_ref->group_info = malloc(sizeof(mate_inner_structure));
 
 	op_code cop;
-	lib_ref = malloc(sizeof(mate_instance));
 	
 	t_log* logger;
 	int servidor_fd;
@@ -39,10 +40,12 @@ int mate_init (mate_instance *lib_ref, char *config){
 		log_destroy(logger);
 		return EXIT_FAILURE;
 	}
-
-	lib_ref->logger = logger;
-	lib_ref->servidor_fd = servidor_fd;
-	lib_ref->kernel_connected = cop == HANDSHAKE_KERNEL;
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	inner_structure->logger = logger;
+	inner_structure->servidor_fd = servidor_fd;
+	inner_structure->kernel_connected = cop == HANDSHAKE_KERNEL;
+	inner_structure->id= generate_id();
+	  
 	
 	// Logger se guarda en la lib_ref
 	log_destroy(logger);
@@ -52,18 +55,20 @@ int mate_init (mate_instance *lib_ref, char *config){
 }
 
 mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
-
-	if(!send_memalloc(lib_ref->servidor_fd)){
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	 
+	if(!send_memalloc(inner_structure->servidor_fd)){
 		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
 		// log_destroy(logger);	
 		return -1;
 	}
-	send_alloc_data(lib_ref->servidor_fd, lib_ref->id, size);
+	send_alloc_data(inner_structure->servidor_fd, inner_structure->id, size);
 	return 0;
 }
 
 int mate_memfree(mate_instance *lib_ref, mate_pointer addr){
-	if(!send_memfree(lib_ref->servidor_fd)){
+	mate_inner_structure* inner_structure = lib_ref->group_info;	
+	if(!send_memfree(inner_structure->servidor_fd)){
 		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
@@ -72,7 +77,8 @@ int mate_memfree(mate_instance *lib_ref, mate_pointer addr){
 }
 
 int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int size){
-	if(!send_memread(lib_ref->servidor_fd)){
+	mate_inner_structure* inner_structure = lib_ref->group_info;		
+	if(!send_memread(inner_structure->servidor_fd)){
 		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
@@ -82,7 +88,8 @@ int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int si
 
 
 int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int size){
-	if(!send_memwrite(lib_ref->servidor_fd)){
+	mate_inner_structure* inner_structure = lib_ref->group_info;			
+	if(!send_memwrite(inner_structure->servidor_fd)){
 		// data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
@@ -92,5 +99,5 @@ int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int s
 
 
 int mate_close(mate_instance *lib_ref){
-
+	free(lib_ref->group_info);
 }
