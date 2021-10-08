@@ -24,10 +24,10 @@ void data_destroy(char *uno, char *dos, char *tres, t_config* cfg){
 }
 
 unsigned long generate_id(){
-    struct timeval t;
-    unsigned long id;
-    gettimeofday(&t,NULL);
-    id = ((t.tv_sec * 1000 * 1000) + (t.tv_usec * 1000)) << 24;
-    printf("%lu\n ",id);
-    return id;
+  struct timeval t;
+  unsigned long id;
+  gettimeofday(&t,NULL);
+  id = ((t.tv_sec * 1000 * 1000) + (t.tv_usec * 1000)) << 24;
+  printf("%lu\n ",id);
+  return id;
 }

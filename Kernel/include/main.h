@@ -5,6 +5,7 @@
 #include <semaphore.h>
 #include "programador.h"
 #include "config.h"
+#include "colas.h"
 #include "conexion.h"
 #include "comunicacion.h"
 

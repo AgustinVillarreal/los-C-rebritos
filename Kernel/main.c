@@ -1,8 +1,6 @@
 #include "include/main.h"
 
-
 t_log* logger;
-
 
 static t_config_kernel* initialize_cfg() {
     t_config_kernel* cfg            = malloc(sizeof(t_config_kernel));
@@ -19,12 +17,16 @@ static t_config_kernel* initialize_cfg() {
 int main(){
 	KERNEL_CFG = initialize_cfg();
     logger = log_create("Kernel.log", "Kernel", true, LOG_LEVEL_INFO);
-    COLA_NEW = queue_create();
+    //TODO: Ver donde liberar esta memoria
+    COLA_NEW               = queue_create();
+    COLA_READY             = queue_create();
+    COLA_SUSPENDED_READY   = queue_create();
+    COLA_SUSPENDED_BLOCKED = queue_create();
+    COLA_BLOCKED           = queue_create();
 
     int memoria_fd;
     int kernel_server;
 
-    //TODO generar_conexiones esta vacio
     if(!cargar_configuracion(KERNEL_CFG) || !generar_conexion(&memoria_fd, KERNEL_CFG)) {
         cerrar_programa(logger, KERNEL_CFG);
         return EXIT_FAILURE;
@@ -40,7 +42,7 @@ int main(){
 
     pthread_t LISTENER_PROGRAMACION;
     if(!pthread_create(&LISTENER_PROGRAMACION, NULL, (void*)listener_programacion, NULL)){
-        pthread_detach(LISTENER_PROGRAMCION);
+        pthread_detach(LISTENER_PROGRAMACION);
     } else {
         cerrar_programa(logger, KERNEL_CFG);
         return EXIT_FAILURE;
