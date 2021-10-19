@@ -22,6 +22,8 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     char* properties[] = {
         "IP",
         "PUERTO",
+        "IP_SWAP",
+        "PUERTO_SWAP",
         "TAMANIO",
         "TAMANIO_PAGINA",
         "ALGORITMO_REEMPLAZO_MMU",
@@ -42,6 +44,8 @@ uint8_t cargar_configuracion(t_config_memoria* config){
 
     config->IP = strdup(config_get_string_value(cfg,"IP"));
     config->PUERTO = strdup(config_get_string_value(cfg,"PUERTO"));
+    config->IP_SWAP = strdup(config_get_string_value(cfg,"IP_SWAP"));
+    config->PUERTO_SWAP = strdup(config_get_string_value(cfg,"PUERTO_SWAP"));
     config->TAMANIO = config_get_int_value(cfg,"TAMANIO");
     config->TAMANIO_PAGINA = config_get_int_value(cfg,"TAMANIO_PAGINA");
     config->ALGORITMO_REEMPLAZO_MMU = strdup(config_get_string_value(cfg,"ALGORITMO_REEMPLAZO_MMU"));

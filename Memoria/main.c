@@ -19,8 +19,9 @@ int main(){
 	logger = log_create("memoria.log","memoria",true,LOG_LEVEL_INFO);
 
 	int memoria_server;
-
-	if(!cargar_configuracion(MEMORIA_CFG)){
+	int swap_fd;
+// hasta que no este el swap el generar conexiones no va a compilar
+	if(!cargar_configuracion(MEMORIA_CFG) || !generar_conexiones(&swap_fd,MEMORIA_CFG)){
 		cerrar_programa(logger,MEMORIA_CFG);
 		return EXIT_FAILURE;
 	}

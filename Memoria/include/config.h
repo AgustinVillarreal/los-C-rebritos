@@ -16,6 +16,8 @@
 typedef struct {
     char* IP;
     char* PUERTO;
+    char* IP_SWAP;
+    char* PUERTO_SWAP;
     uint32_t TAMANIO;
     uint32_t TAMANIO_PAGINA;
     char* ALGORITMO_REEMPLAZO_MMU;

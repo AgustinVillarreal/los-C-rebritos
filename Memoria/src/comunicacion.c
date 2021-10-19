@@ -32,19 +32,35 @@ static void procesar_conexion(void* void_args){
                log_info(logger, "HANDSHAKE");
                break;
             case MEM_ALLOC:
+                if(!reservar_espacio_memoria(int size)){
+                    log_info(logger, "OCURRIO UN ERROR AL INTENTAR RESERVAR UN ESPACIO EN MEMORIA")
+                    break;
+                }
                 log_info(logger, "ALLOCADO PA");
                 break;
             case MEM_FREE:
+                if(!liberar_espacio_memoria(char* dir_logic_ini,int size)){
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
+                    break;
+                }
                 log_info(logger,"LIBERADO PADRE");
                 break;
             case MEM_READ:
+                if(!leer_espacio_memoria(char* dir_logic_ini)){
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LEER LA MEMORIA");
+                    break;
+                }
                 log_info(logger,"ANDA A SABER QUE ESTAS QUERIENDO LEER");
                 break;
             case MEM_WRITE:
+                if(!esribir_espacio_memoria(char* dir_logic_ini)){
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR ESCRIBIR LA MEMORIA");   
+                    break;
+                }
                 log_info(logger,"ESCRITO JEFE");
                 break;
             case -1:
-                log_info(logger, "Cliente desconectado de Kernel");
+                log_info(logger, "Cliente desconectado de Memoria");
                 free(server_name);
                 return;
             default:
