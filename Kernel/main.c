@@ -48,6 +48,21 @@ int main(){
         return EXIT_FAILURE;
     }
 
+    SEM_CPUs = malloc(sizeof(sem_t) * KERNEL_CFG->GRADO_MULTIPROCESAMIENTO);
+    for(int i = 0; i < KERNEL_CFG->GRADO_MULTIPROCESAMIENTO; i++){
+        pthread_t CPU;
+        if(!pthread_create(&CPU, NULL, (void*)ejecutar_CPU, (void*)i)){
+            pthread_detach(CPU);
+            sem_init(&SEM_CPUs[i], 0, 0);
+        } else {
+            cerrar_programa(logger, KERNEL_CFG);
+            return EXIT_FAILURE;
+        } 
+    }
+
+
+
+
     while (server_escuchar(SERVERNAME, kernel_server, memoria_fd));
 
     liberar_conexion(&kernel_server);

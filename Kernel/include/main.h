@@ -8,6 +8,7 @@
 #include "colas.h"
 #include "conexion.h"
 #include "comunicacion.h"
+#include "algoritmos.h"
 
 t_config_kernel* KERNEL_CFG;
 

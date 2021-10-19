@@ -19,6 +19,7 @@ void iniciar_mutex(int grado_multiprogramacion){
 void carpincho_init(unsigned long id){
   t_carpincho* carpincho = malloc(sizeof(t_carpincho));
   carpincho->id = id;
+  carpincho->ultima_estimacion = KERNEL_CFG->ESTIMACION_INICIAL;
   sem_init(&carpincho->sem_pause, 0, 0);
   push_cola_new(carpincho);
   sem_wait(&carpincho->sem_pause);
@@ -35,8 +36,6 @@ bool filter_t_carpincho_by_tid(void *item){
   t_carpincho* t_r = (t_carpincho*) item;
   return t_r->id == obj_tid;
 }
-
-
 
 // COSAS DE COLA NEW 
 

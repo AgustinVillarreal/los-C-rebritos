@@ -28,7 +28,7 @@ typedef struct {
     double ALFA;
 } t_config_kernel;
 
-void* algoritmo_planificacion;
+t_carpincho* obtener_carpincho;
 uint8_t cargar_configuracion(t_config_kernel*);
 void cerrar_programa(t_log*, t_config_kernel*);
 

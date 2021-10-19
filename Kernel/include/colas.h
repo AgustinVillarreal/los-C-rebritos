@@ -5,22 +5,12 @@
 #include <pthread.h>
 #include <semaphore.h>
 #include <stdint.h>
-#include "algoritmos.h"
 #include <stdlib.h>
+#include "config.h"
+#include "algoritmos.h"
 
-//TODO ante la duda: extern
+extern t_config_kernel* KERNEL_CFG;
 
-pthread_mutex_t MUTEX_LISTA_NEW;
-pthread_mutex_t MUTEX_LISTA_READY;
-pthread_mutex_t MUTEX_LISTA_SUSPENDED_READY;
-pthread_mutex_t MUTEX_LISTA_SUSPENDED_BLOCKED;
-pthread_mutex_t MUTEX_LISTA_BLOCKED;
-
-//TODO: Signal en suspended y en exit
-sem_t SEM_GRADO_MULTIPROGRAMACION;
-
-//TODO: Signal cuando se crea new y cuando suspended block -> suspended ready
-sem_t SEM_CANTIDAD_A_READY;
 
 t_queue* COLA_NEW;
 t_queue* COLA_READY;

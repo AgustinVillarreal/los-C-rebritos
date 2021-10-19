@@ -13,9 +13,7 @@ void listener_programacion(){
         carpincho = pop_cola_new(); 
       }
       push_cola_ready(carpincho);
-      log_info(logger, "FAPSDKJAOSMDJAKSDAÑSDMKLASMDKLAMSKLDKLASKLD--Hola pase por el listener--FAPSDKJAOSMDJAKSDAÑSDMKLASMDKLAMSKLDKLASKLD\n");
-      //TODO: Estoy se haria en el exec
-      sleep(3);
-      sem_post(&carpincho->sem_pause);
+      //TODO esto se hace tambien cuando desbloqueamos un proceso
+      sem_post(&SEM_CANTIDAD_EN_READY);
     }   
 }
