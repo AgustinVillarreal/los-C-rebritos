@@ -9,6 +9,8 @@
     "comunicacion.h": "c",
     "conexion.h": "c",
     "config.h": "c",
-    "cstdlib": "c"
+    "cstdlib": "c",
+    "algoritmos.h": "c",
+    "log.h": "c"
   }
 }

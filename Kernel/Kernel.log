@@ -81,3 +81,23 @@
 
 [INFO] 20:47:32:126 Kernel/(8865:8865): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
 
+[INFO] 18:50:04:123 Kernel/(6039:6039): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:50:04:183 Kernel/(6039:6039): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 18:50:14:772 Kernel/(6082:6082): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:50:14:829 Kernel/(6082:6082): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 18:57:32:283 Kernel/(6702:6702): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:57:32:349 Kernel/(6702:6702): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 18:57:47:023 Kernel/(6808:6808): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:57:47:105 Kernel/(6808:6808): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 18:58:17:232 Kernel/(6856:6856): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:58:17:292 Kernel/(6856:6856): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+

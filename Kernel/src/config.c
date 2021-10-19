@@ -76,9 +76,9 @@ uint8_t cargar_configuracion(t_config_kernel* config){
 
   //Evaluar el Algoritmo con un if
   if(strcmp(config->ALGORITMO_PLANIFICACION, "SJF")){
-    obtener_carpincho = obtener_carpincho_SJF;
+    obtener_carpincho = &obtener_carpincho_SJF;
   } else {
-    obtener_carpincho = obtener_carpincho_HRRN;
+    obtener_carpincho = &obtener_carpincho_HRRN;
   }
 
   config_destroy(cfg);
