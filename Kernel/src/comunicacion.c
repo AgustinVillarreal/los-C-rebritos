@@ -33,8 +33,40 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
-            case MEM_ALLOC:
-                send_memalloc(memoria_fd);
+
+            case PONER_COLA_NEW: ;
+                unsigned long id;
+                if(!recv(cliente_socket, &id, sizeof(long), 0)){
+                    log_info(logger, "Error recibiendo msj de encolamiento new");
+                    return;
+                }
+                carpincho_init(id);
+                printf("---------%d------", largo_cola_new());               
+                break;
+
+            case MEM_ALLOC: ;
+                void * stream = malloc(sizeof(int) * 2);
+                //TODO: Abstraccion                
+                if(!recv(cliente_socket, stream, sizeof(int)*2, 0)){
+                    log_info(logger, "Error en mem_alloc");
+                    return;
+                }
+                send_memalloc(memoria_fd);  
+                free(stream);                                              
+                break;
+
+            case MEM_FREE:
+                send_memfree(memoria_fd);
+                break;
+            case MEM_READ:
+                send_memread(memoria_fd);
+                break;
+            case MEM_WRITE:
+                send_memwrite(memoria_fd);
+                break;
+
+            //TODO ver donde se libera
+            case FREE_CARPINCHO:
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

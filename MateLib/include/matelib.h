@@ -2,21 +2,26 @@
 #define MATELIB_H_INCLUDED
 
 #include <stdint.h>
+#include <stdio.h>
 #include <commons/config.h>
 #include <shared/sockets.h>
 #include <shared/protocolo.h>
-#include "../include/utils.h"
+#include "utils.h"
 #include <commons/log.h>
 
 //-------------------Type Definitions----------------------/
 typedef struct mate_instance
 {
-	int id;
+    void *group_info;
+} mate_instance;
+
+typedef struct mate_inner_structure
+{
+	unsigned long id;
     bool kernel_connected;
     t_log* logger;
     int servidor_fd;
-    void *group_info;
-} mate_instance;
+} mate_inner_structure;
 
 typedef char *mate_io_resource;
 
@@ -47,11 +52,8 @@ int mate_close(mate_instance *lib_ref);
 // //--------------Memory Module Functions-------------------/
 
 mate_pointer mate_memalloc(mate_instance *lib_ref, int size);
-
-// int mate_memfree(mate_instance *lib_ref, mate_pointer addr);
-
-// int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int size);
-
-// int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int size);
+int mate_memfree(mate_instance *lib_ref, mate_pointer addr);
+int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int size);
+int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int size);
 
 #endif

@@ -22,8 +22,6 @@ void cerrar_programa(t_log* logger, t_config_kernel* cfg){
   
 }
  
-
-
 uint8_t cargar_configuracion(t_config_kernel* config){
 
   t_config* cfg = config_create("kernel.config");
@@ -78,9 +76,9 @@ uint8_t cargar_configuracion(t_config_kernel* config){
 
   //Evaluar el Algoritmo con un if
   if(strcmp(config->ALGORITMO_PLANIFICACION, "SJF")){
-    algoritmo_planificacion = ejecutar_algoritmo_SJF;
+    obtener_carpincho = &obtener_carpincho_SJF;
   } else {
-    algoritmo_planificacion = ejecutar_algoritmo_HRRN;
+    obtener_carpincho = &obtener_carpincho_HRRN;
   }
 
   config_destroy(cfg);
