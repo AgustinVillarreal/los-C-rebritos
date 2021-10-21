@@ -1,17 +1,14 @@
 #include "../include/interfaz_memoria.h"
 
-int server_escuchar(char* server_name, int server_socket){
+int reservar_espacio_memoria(int* a){
     return 1;
 }
-char reservar_espacio_memoria(int*){
+int liberar_espacio_memoria(char* a,int* b){
     return 1;
 }
-void liberar_espacio_memoria(char*,int*){
+int leer_espacio_memoria(char* a){
     return 1;
 }
-char leer_espacio_memoria(char*){
-    return 1;
-}
-void escribir_espacio_memoria(){
+int escribir_espacio_memoria(){
     return 1;
 }
