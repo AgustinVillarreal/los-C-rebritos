@@ -41,7 +41,12 @@ static void procesar_conexion(void* void_args){
                     return;
                 }
                 carpincho_init(id);
-                printf("---------%d------", largo_cola_new());               
+                if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
+                   log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                   free(server_name);
+                   return;
+                }
+                printf("--------asdasd- %d------", largo_cola_new());               
                 break;
 
             case MEM_ALLOC: ;

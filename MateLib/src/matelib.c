@@ -40,6 +40,7 @@ int mate_init (mate_instance *lib_ref, char *config){
 		log_destroy(logger);
 		return EXIT_FAILURE;
 	}
+
 	mate_inner_structure* inner_structure = lib_ref->group_info;
 	inner_structure->logger = logger;
 	inner_structure->servidor_fd = servidor_fd;
@@ -59,9 +60,14 @@ int mate_init (mate_instance *lib_ref, char *config){
 			return EXIT_FAILURE;
 		}
 	}
-
-	  
 	
+	if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
+		log_error(logger, "Error en el handshake");
+		data_destroy(IP, PUERTO, NIVEL_LOGEO, cfg);
+		log_destroy(logger);
+		return EXIT_FAILURE;
+	}
+
 	// Logger se guarda en la lib_ref
 	log_destroy(logger);
 
