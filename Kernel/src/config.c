@@ -74,14 +74,14 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   config->ESTIMACION_INICIAL = config_get_int_value(cfg, "ESTIMACION_INICIAL");
   config->ALFA = config_get_double_value(cfg, "ALFA");
 
-  //Evaluar el Algoritmo con un if
-  if(strcmp(config->ALGORITMO_PLANIFICACION, "SJF")){
-    obtener_carpincho = obtener_carpincho_SJF;
-  } else {
-    obtener_carpincho = obtener_carpincho_HRRN;
-  }
+  if(!strcmp(config->ALGORITMO_PLANIFICACION, "SJF")){
+		obtener_carpincho=obtener_carpincho_SJF;
+	} else {
+	  obtener_carpincho=obtener_carpincho_HRRN;
+	}
 
   config_destroy(cfg);
 
   return 1;
 }
+

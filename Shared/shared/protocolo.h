@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-///JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+///JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -28,6 +28,10 @@ typedef enum {
     MEM_FREE,
     MEM_READ,
     MEM_WRITE,
+    SEM_INIT,
+    SEM_WAIT,
+    SEM_POST,
+    SEM_DESTROY,
     FREE_CARPINCHO
 } op_code;
 

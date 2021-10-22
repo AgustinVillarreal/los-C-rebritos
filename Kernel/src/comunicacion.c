@@ -48,6 +48,15 @@ static void procesar_conexion(void* void_args){
                 }
                 printf("--------asdasd- %d------", largo_cola_new());               
                 break;
+            
+            case SEM_INIT:
+                break;
+            case SEM_WAIT:
+                break;
+            case SEM_POST:
+                break;
+            case SEM_DESTROY:
+                break;
 
             case MEM_ALLOC: ;
                 void * stream = malloc(sizeof(int) * 2);
