@@ -30,6 +30,11 @@ typedef struct {
 
 } t_config_memoria;
 
+t_config_memoria* MEMORIA_CFG;
+t_log* logger;
+
 uint8_t cargar_configuracion(t_config_memoria*);
 void cerrar_programa(t_log*,t_config_memoria*);
+int init();
+
 #endif
