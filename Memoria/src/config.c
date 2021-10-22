@@ -81,6 +81,7 @@ int init(){
 }
 
 uint8_t cargar_memoria() {
+    /*
     memoria_principal = malloc(cfg->TAMANIO_MEMORIA);   // void*
     if (memoria_principal == NULL) {
         log_error(logger, "Fallo en el malloc a memoria_principal");
@@ -98,7 +99,8 @@ uint8_t cargar_memoria() {
         log_error(logger, "Fallo creando tp_patotas");
         return 0;
     }
-/*
+    
+
     tabla_frames = malloc(cfg->CANT_PAGINAS * sizeof(frame_t));
     if (tabla_frames == NULL) {
         log_error(logger, "Fallo creando tabla_frames");
@@ -125,13 +127,13 @@ uint8_t cargar_memoria() {
         log_error(logger, "Fallo creando tid_pid_lookup");
         return 0;
     }
-*/
-        /*
+
     // Swap
     espacio_disponible_swap = cfg->TAMANIO_SWAP;
     return crear_archivo_swap(cfg->PATH_SWAP, cfg->TAMANIO_SWAP);
-    */
 
     //TODO:
     generar_conexiones(&swap_fd,MEMORIA_CFG);
+    */
+    return 1;
 }
