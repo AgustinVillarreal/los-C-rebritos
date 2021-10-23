@@ -55,6 +55,12 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
+                int return_code = sem_init_carpincho(sem, value);
+                if (!send(cliente_socket, &return_code, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de sem init");
+                   free(server_name);
+                   return;
+                }
                 break;
             case SEM_WAIT:
                 break;

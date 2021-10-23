@@ -189,3 +189,85 @@
 [INFO] 11:24:56:450 Kernel/(8689:8695): -----------------------------SE TODO HRRN-------------------------
 
 [INFO] 11:24:56:527 Kernel/(8689:8735): DISCONNECT!
+[INFO] 12:13:19:707 Kernel/(14101:14101): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 12:13:19:775 Kernel/(14101:14101): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:44:26:232 Kernel/(3756:3756): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:44:26:302 Kernel/(3756:3756): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:45:14:829 Kernel/(3890:3890): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:45:14:876 Kernel/(3890:3890): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:45:36:654 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:36:763 Kernel/(3890:4080): HANDSHAKE
+[INFO] 15:45:36:816 Kernel/(3890:3898): pase una vez 0
+[INFO] 15:45:36:817 Kernel/(3890:3898): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:45:36:892 Kernel/(3890:4080): DISCONNECT!
+[INFO] 15:46:06:462 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:06:541 Kernel/(3890:4149): HANDSHAKE
+[INFO] 15:46:06:589 Kernel/(3890:3899): pase una vez 1
+[INFO] 15:46:06:589 Kernel/(3890:3899): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:46:06:660 Kernel/(3890:4149): DISCONNECT!
+[INFO] 15:46:28:860 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:28:943 Kernel/(3890:4253): HANDSHAKE
+[INFO] 15:46:28:989 Kernel/(3890:3900): pase una vez 2
+[INFO] 15:46:28:989 Kernel/(3890:3900): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:46:29:054 Kernel/(3890:4253): DISCONNECT!
+[INFO] 15:46:34:360 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:34:437 Kernel/(3890:4292): HANDSHAKE
+[INFO] 15:46:34:481 Kernel/(3890:3901): pase una vez 3
+[INFO] 15:46:34:481 Kernel/(3890:3901): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:46:34:555 Kernel/(3890:4292): DISCONNECT!
+[INFO] 15:46:36:489 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:36:569 Kernel/(3890:4325): HANDSHAKE
+[INFO] 15:46:36:617 Kernel/(3890:3902): pase una vez 4
+[INFO] 15:46:36:618 Kernel/(3890:3902): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:46:36:682 Kernel/(3890:4325): DISCONNECT!
+[INFO] 15:46:40:257 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:40:336 Kernel/(3890:4361): HANDSHAKE
+[INFO] 15:46:40:385 Kernel/(3890:3903): pase una vez 5
+[INFO] 15:46:40:386 Kernel/(3890:3903): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:46:40:449 Kernel/(3890:4361): DISCONNECT!
+[INFO] 15:46:42:337 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:42:412 Kernel/(3890:4393): HANDSHAKE
+[INFO] 15:46:42:461 Kernel/(3890:3904): pase una vez 6
+[INFO] 15:46:42:462 Kernel/(3890:3904): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:46:42:527 Kernel/(3890:4393): DISCONNECT!
+[INFO] 15:46:44:296 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:44:379 Kernel/(3890:4427): HANDSHAKE
+[INFO] 15:46:44:425 Kernel/(3890:3906): pase una vez 7
+[INFO] 15:46:44:425 Kernel/(3890:3906): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 15:46:44:494 Kernel/(3890:4427): DISCONNECT!
+[INFO] 15:46:46:274 Kernel/(3890:3890): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:46:351 Kernel/(3890:4461): HANDSHAKE
+[INFO] 16:01:03:312 Kernel/(5793:5793): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:01:03:368 Kernel/(5793:5793): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:01:06:484 Kernel/(5793:5793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:01:06:599 Kernel/(5793:5837): HANDSHAKE
+[INFO] 16:01:06:664 Kernel/(5793:5798): pase una vez 0
+[INFO] 16:01:06:665 Kernel/(5793:5798): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 16:01:06:743 Kernel/(5793:5837): DISCONNECT!
