@@ -46,10 +46,16 @@ static void procesar_conexion(void* void_args){
                    free(server_name);
                    return;
                 }
-                printf("--------asdasd- %d------", largo_cola_new());               
                 break;
             
-            case SEM_INIT:
+            case SEM_INIT: ;
+                char * sem;
+                int value;
+                if(!recv_sem_init(cliente_socket, &sem, &value)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                printf("------%s------%d---", sem, value);
                 break;
             case SEM_WAIT:
                 break;

@@ -84,6 +84,16 @@ int mate_sem_init(mate_instance *lib_ref, mate_sem_name sem, unsigned int value)
 		log_destroy(inner_structure->logger);	
 		return EXIT_FAILURE;
 	}
+	if(!send_sem_init(inner_structure->servidor_fd, sem, value)){
+		free(inner_structure->IP);
+		free(inner_structure->PUERTO);	
+		log_destroy(inner_structure->logger);	
+		return EXIT_FAILURE;
+	}
+
+
+
+
 	return 0;
 }
 

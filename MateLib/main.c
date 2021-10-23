@@ -34,6 +34,7 @@ int main(int argc, char *argv[])
   //TODO: Esto lo podria hacer el mate_init
   mate_instance mate_ref;
   mate_init(&mate_ref, "./config.config");
+  mate_sem_init(&mate_ref, "holachau", 23);  
   mate_memalloc(&mate_ref, 1);
   mate_memfree(&mate_ref, 1);
   void * prueba;
