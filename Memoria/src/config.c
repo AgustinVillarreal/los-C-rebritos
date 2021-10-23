@@ -3,6 +3,12 @@
 
 extern t_log* logger;
 
+frame_t* tabla_frames;
+uint32_t global_TUR;
+void* memoria_principal;
+uint32_t memoria_disponible;
+t_list* tp_carpinchos;
+
 void cerrar_programa(t_log* logger, t_config_memoria* cfg){
   log_destroy(logger);
   free(cfg);
@@ -80,60 +86,32 @@ int init(){
     //TODO: iniciar mutex aca 
 }
 
-uint8_t cargar_memoria() {
-    /*
-    memoria_principal = malloc(cfg->TAMANIO_MEMORIA);   // void*
+uint8_t cargar_memoria(t_config_memoria* cfg) {
+    memoria_principal = malloc(cfg->TAMANIO); 
     if (memoria_principal == NULL) {
         log_error(logger, "Fallo en el malloc a memoria_principal");
         return 0;
     }
-    memset(memoria_principal, 0, cfg->TAMANIO_MEMORIA);
-    memoria_disponible = cfg->TAMANIO_MEMORIA;   
+    memset(memoria_principal, 0, cfg->TAMANIO);
+    memoria_disponible = cfg->TAMANIO; 
 
-    // Paginacion
-   
     global_TUR = 0;
         
-    tp_patotas = list_create();
-    if (tp_patotas == NULL) {
-        log_error(logger, "Fallo creando tp_patotas");
-        return 0;
-    }
-    
+        tp_carpinchos = list_create();
+        if (tp_carpinchos == NULL) {
+            log_error(logger, "Fallo creando tp_carpinchos");
+            return 0;
+        }
 
-    tabla_frames = malloc(cfg->CANT_PAGINAS * sizeof(frame_t));
-    if (tabla_frames == NULL) {
-        log_error(logger, "Fallo creando tabla_frames");
-        return 0;
-    }
-    for (int i=0; i<cfg->CANT_PAGINAS; i++) {
-        tabla_frames[i].bytes = 0;
-        tabla_frames[i].libre = 1;
-    }
-
-    tabla_frames_swap = malloc((sizeof(frame_swap_t) * cfg->TAMANIO_SWAP) / cfg->TAMANIO_PAGINA);
-    if (tabla_frames_swap == NULL) {
-        log_error(logger, "Fallo creando tabla_frames_swap");
-        return 0;
-    }
-    for (int i=0; i<cfg->TAMANIO_SWAP/cfg->TAMANIO_PAGINA; i++) {
-        tabla_frames_swap[i].pid = 0;
-        tabla_frames_swap[i].nro_pagina = 0xFFFF;
-        tabla_frames_swap[i].inicio = 0;
-    }
-
-    tid_pid_lookup = list_create();
-    if (tid_pid_lookup == NULL) {
-        log_error(logger, "Fallo creando tid_pid_lookup");
-        return 0;
-    }
-
-    // Swap
-    espacio_disponible_swap = cfg->TAMANIO_SWAP;
-    return crear_archivo_swap(cfg->PATH_SWAP, cfg->TAMANIO_SWAP);
-
-    //TODO:
-    generar_conexiones(&swap_fd,MEMORIA_CFG);
-    */
+        int cant_paginas = cfg->TAMANIO / cfg->TAMANIO_PAGINA;
+        tabla_frames = malloc(cant_paginas * sizeof(frame_t));
+        if (tabla_frames == NULL) {
+            log_error(logger, "Fallo creando tabla_frames");
+            return 0;
+        }
+        for (int i=0; i<cant_paginas; i++) {
+            tabla_frames[i].bytes = 0;
+            tabla_frames[i].libre = 1;
+        }
     return 1;
 }
