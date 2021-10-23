@@ -76,7 +76,7 @@ bool recv_sem_init(int fd, char** sem, int * value){
 
 bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
   void* stream = malloc(sizeof(long)+sizeof(int));
-  if(recv(fd,&stream,sizeof(stream),0) != sizeof(stream)){
+  if(recv(fd,stream,sizeof(long) + sizeof(int),0) != sizeof(long)+sizeof(int)){
     free(stream);
     return false;
   }
