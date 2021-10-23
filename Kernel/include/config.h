@@ -35,12 +35,14 @@ typedef struct {
   sem_t sem_pause;
   bool blocked;
   uint16_t ultima_estimacion;
-  struct tm * tiempo_inicio;
+  time_t tiempo_ingreso_ready;
 } t_carpincho;
 
-t_carpincho* obtener_carpincho;
+
 uint8_t cargar_configuracion(t_config_kernel*);
 void cerrar_programa(t_log*, t_config_kernel*);
+
+t_carpincho* (*obtener_carpincho)(void);
 t_carpincho* obtener_carpincho_HRRN();
 t_carpincho* obtener_carpincho_SJF();
 

@@ -9,6 +9,8 @@
 #include "conexion.h"
 #include "comunicacion.h"
 #include "algoritmos.h"
+#include "semaforos.h"
+
 
 t_config_kernel* KERNEL_CFG;
 

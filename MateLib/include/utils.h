@@ -9,7 +9,7 @@
 #include <sys/time.h>
 
 t_log_level log_string_enum(char* string);
-void data_destroy(char *uno, char *dos, char *tres, t_config* cfg);
+void data_destroy(char *uno, char *dos, t_config* cfg);
 unsigned long generate_id();
 
 #endif

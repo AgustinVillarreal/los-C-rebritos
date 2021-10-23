@@ -4,6 +4,9 @@
 
 static unsigned long obj_tid = 0;
 
+//Esto es prueba
+uint16_t estimacion = 80;
+
 void iniciar_mutex(int grado_multiprogramacion){
 
   pthread_mutex_init(&MUTEX_LISTA_NEW, NULL);
@@ -14,11 +17,17 @@ void iniciar_mutex(int grado_multiprogramacion){
 
   sem_init(&SEM_GRADO_MULTIPROGRAMACION,0, grado_multiprogramacion);
   sem_init(&SEM_CANTIDAD_A_READY, 0, 0);
+  sem_init(&SEM_CANTIDAD_EN_READY, 0, 0);
 }
 
 void carpincho_init(unsigned long id){
   t_carpincho* carpincho = malloc(sizeof(t_carpincho));
   carpincho->id = id;
+  // TODO se elimina esto, es solo para pruebas
+  // if(estimacion = 80){
+  //   estimacion = 1; 
+  // }
+  // carpincho->ultima_estimacion = estimacion; 
   carpincho->ultima_estimacion = KERNEL_CFG->ESTIMACION_INICIAL;
   sem_init(&carpincho->sem_pause, 0, 0);
   push_cola_new(carpincho);
@@ -120,35 +129,13 @@ void* remover_cola_suspended_ready(unsigned long tid){
 void push_cola_ready(t_carpincho* carpincho){
   pthread_mutex_lock(&MUTEX_LISTA_READY);
   queue_push(COLA_READY, carpincho);
+  carpincho->tiempo_ingreso_ready = time(NULL);  
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
-}
-
-t_carpincho* pop_cola_ready(){
-  pthread_mutex_lock(&MUTEX_LISTA_READY);
-  t_carpincho* element = (t_carpincho*) queue_pop(COLA_READY);
-  pthread_mutex_unlock(&MUTEX_LISTA_READY);
-  return element;
 }
 
 uint16_t largo_cola_ready() {
   pthread_mutex_lock(&MUTEX_LISTA_READY);
   uint16_t ret = queue_size(COLA_READY);
-  pthread_mutex_unlock(&MUTEX_LISTA_READY);
-  return ret;
-}
-
-t_carpincho* buscar_cola_ready(unsigned long tid){
-  pthread_mutex_lock(&MUTEX_LISTA_READY);
-  obj_tid = tid;
-  t_carpincho* ret = list_find(COLA_READY->elements, filter_t_carpincho_by_tid);
-  pthread_mutex_unlock(&MUTEX_LISTA_READY);
-  return ret;
-}
-
-void* remover_cola_ready(unsigned long tid){
-  pthread_mutex_lock(&MUTEX_LISTA_READY);
-  obj_tid = tid;
-  void* ret = list_remove_by_condition(COLA_READY->elements, filter_t_carpincho_by_tid);
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
   return ret;
 }

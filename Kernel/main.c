@@ -23,6 +23,7 @@ int main(){
     COLA_SUSPENDED_READY   = queue_create();
     COLA_SUSPENDED_BLOCKED = queue_create();
     COLA_BLOCKED           = queue_create();
+    inicializar_semaforos();
 
     int memoria_fd;
     int kernel_server;

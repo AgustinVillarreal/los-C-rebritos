@@ -21,6 +21,8 @@ typedef struct mate_inner_structure
     bool kernel_connected;
     t_log* logger;
     int servidor_fd;
+    char* IP;
+	char* PUERTO;
 } mate_inner_structure;
 
 typedef char *mate_io_resource;
@@ -37,13 +39,13 @@ int mate_init(mate_instance *lib_ref, char *config);
 int mate_close(mate_instance *lib_ref);
 
 //-----------------Semaphore Functions---------------------/
-// int mate_sem_init(mate_instance *lib_ref, mate_sem_name sem, unsigned int value);
+int mate_sem_init(mate_instance *lib_ref, mate_sem_name sem, unsigned int value);
 
-// int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem);
+int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem);
 
-// int mate_sem_post(mate_instance *lib_ref, mate_sem_name sem);
+int mate_sem_post(mate_instance *lib_ref, mate_sem_name sem);
 
-// int mate_sem_destroy(mate_instance *lib_ref, mate_sem_name sem);
+int mate_sem_destroy(mate_instance *lib_ref, mate_sem_name sem);
 
 // //--------------------IO Functions------------------------/
 
