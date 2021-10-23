@@ -4,6 +4,10 @@
 #include "config.h"
 #include "conexion.h"
 #include "comunicacion.h"
+#include <signal.h>
 #include <shared/sockets.h>
-t_config_memoria* MEMORIA_CFG;
+
+void sighandler(int x);
+
+
 #endif

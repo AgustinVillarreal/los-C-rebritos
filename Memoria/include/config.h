@@ -4,6 +4,16 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include <signal.h>
+#include "estructuras.h"
+#include <sys/mman.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <shared/sockets.h>
+
 
 #include <commons/config.h>
 #include <commons/log.h>
@@ -16,6 +26,8 @@
 typedef struct {
     char* IP;
     char* PUERTO;
+    char* IP_SWAP;
+    char* PUERTO_SWAP;
     uint32_t TAMANIO;
     uint32_t TAMANIO_PAGINA;
     char* ALGORITMO_REEMPLAZO_MMU;
@@ -28,6 +40,12 @@ typedef struct {
 
 } t_config_memoria;
 
+t_config_memoria* MEMORIA_CFG;
+t_log* logger;
+
 uint8_t cargar_configuracion(t_config_memoria*);
 void cerrar_programa(t_log*,t_config_memoria*);
+int init();
+uint8_t cargar_memoria(t_config_memoria*);
+
 #endif

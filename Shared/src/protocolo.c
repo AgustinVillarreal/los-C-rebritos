@@ -44,6 +44,7 @@ bool send_data_cola_new(int fd, unsigned long id){
 }
 
 
+
 //SEMAFOROS
 
 bool send_sem_init(int fd,  char* sem, unsigned int value){
@@ -72,4 +73,21 @@ bool recv_sem_init(int fd, char** sem, int * value){
   return true;
 } 
 
+
+bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
+  void* stream = malloc(sizeof(long)+sizeof(int));
+  if(recv(fd,&stream,sizeof(stream),0) != sizeof(stream)){
+    free(stream);
+    return false;
+  }
+  long c_id;
+  int c_size_data;
+  deserializar_alloc_data(stream,&c_id,&c_size_data);
+
+  *id_carpincho = c_id;
+  *size_data = c_size_data;
+
+  free(stream);
+  return true;
+}
 

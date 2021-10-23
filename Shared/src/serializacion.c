@@ -16,6 +16,7 @@ void * serializar_alloc_data(unsigned long id, int size){
     return stream;
 }
 
+
 void * serializar_sem_init(size_t* size, char* sem, unsigned int value){
 
     size_t sz_stream_sem;
@@ -51,4 +52,9 @@ void* serializar_string(size_t* size, char* cadena) {
     *size = sizeof(size_t) + sz_cadena;
 
     return stream;
+}
+
+void deserializar_alloc_data(void* stream, long* id,int* size_data){
+  memcpy(id,stream,sizeof(long));
+  memcpy(size_data,stream+sizeof(long),sizeof(int));
 }

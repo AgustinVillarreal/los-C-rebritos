@@ -15,6 +15,11 @@ static void procesar_conexion(void* void_args){
 
     // Mientras la conexion este abierta
     op_code cop;
+
+    // TODO VER DONDE VA ESTO
+    char* dir_logic_ini;
+    int* size;
+
     while (cliente_socket != -1) {
 
         if (recv(cliente_socket, &cop, sizeof(op_code), 0) == 0) {
@@ -26,25 +31,49 @@ static void procesar_conexion(void* void_args){
             case HANDSHAKE:
                if (!send_codigo_op(cliente_socket, HANDSHAKE_MEMORIA)){
                    log_error(logger, "Error al enviar handshake desde memoria a swap");
+                   //return EXIT_FAILURE;
                    break;
-                   //sreturn EXIT_FAILURE;
                }
                log_info(logger, "HANDSHAKE");
                break;
-            case MEM_ALLOC:
-                log_info(logger, "ALLOCADO PA");
+            case MEM_ALLOC: ;
+                long id_carpincho;
+                int size_data;
+                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+
+                    int size_stream =  9 + size_data;     
+                    if(!reservar_espacio_memoria(size_stream)){
+                        log_info(logger, "OCURRIO UN ERROR AL INTENTAR RESERVAR UN ESPACIO EN MEMORIA");
+                        break;
+                    }
+
+                    log_info(logger, "ALLOCADO PA");
+                    break;
+                } 
                 break;
-            case MEM_FREE:
+            case MEM_FREE: 
+                if(!liberar_espacio_memoria(dir_logic_ini, size)) {
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
+                    break;
+                }
                 log_info(logger,"LIBERADO PADRE");
                 break;
-            case MEM_READ:
+            case MEM_READ: 
+                if(!leer_espacio_memoria(dir_logic_ini)){
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LEER LA MEMORIA");
+                    break;
+                }
                 log_info(logger,"ANDA A SABER QUE ESTAS QUERIENDO LEER");
                 break;
             case MEM_WRITE:
+                if(!escribir_espacio_memoria(dir_logic_ini)){
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR ESCRIBIR LA MEMORIA");   
+                    break;
+                }
                 log_info(logger,"ESCRITO JEFE");
                 break;
             case -1:
-                log_info(logger, "Cliente desconectado de Kernel");
+                log_info(logger, "Cliente desconectado de Memoria");
                 free(server_name);
                 return;
             default:

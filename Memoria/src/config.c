@@ -3,6 +3,12 @@
 
 extern t_log* logger;
 
+frame_t* tabla_frames;
+uint32_t global_TUR;
+void* memoria_principal;
+uint32_t memoria_disponible;
+t_list* tp_carpinchos;
+
 void cerrar_programa(t_log* logger, t_config_memoria* cfg){
   log_destroy(logger);
   free(cfg);
@@ -22,6 +28,8 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     char* properties[] = {
         "IP",
         "PUERTO",
+        "IP_SWAP",
+        "PUERTO_SWAP",
         "TAMANIO",
         "TAMANIO_PAGINA",
         "ALGORITMO_REEMPLAZO_MMU",
@@ -42,6 +50,8 @@ uint8_t cargar_configuracion(t_config_memoria* config){
 
     config->IP = strdup(config_get_string_value(cfg,"IP"));
     config->PUERTO = strdup(config_get_string_value(cfg,"PUERTO"));
+    config->IP_SWAP = strdup(config_get_string_value(cfg,"IP_SWAP"));
+    config->PUERTO_SWAP = strdup(config_get_string_value(cfg,"PUERTO_SWAP"));
     config->TAMANIO = config_get_int_value(cfg,"TAMANIO");
     config->TAMANIO_PAGINA = config_get_int_value(cfg,"TAMANIO_PAGINA");
     config->ALGORITMO_REEMPLAZO_MMU = strdup(config_get_string_value(cfg,"ALGORITMO_REEMPLAZO_MMU"));
@@ -56,5 +66,52 @@ uint8_t cargar_configuracion(t_config_memoria* config){
 
     config_destroy(cfg);
 
+    return 1;
+}
+
+static t_config_memoria* initialize_cfg(){
+	t_config_memoria* cfg = malloc(sizeof(t_config_memoria));
+	cfg->IP = NULL;
+    cfg->PUERTO = NULL;
+    cfg->ALGORITMO_REEMPLAZO_MMU = NULL;
+    cfg->TIPO_ASIGNACION = NULL;
+    cfg->ALGORITMO_REEMPLAZO_TLB = NULL;
+	return cfg;
+}
+
+int init(){
+
+	MEMORIA_CFG = initialize_cfg();
+	logger = log_create("memoria.log", "memoria", true, LOG_LEVEL_INFO);
+    //TODO: iniciar mutex aca 
+}
+
+uint8_t cargar_memoria(t_config_memoria* cfg) {
+    memoria_principal = malloc(cfg->TAMANIO); 
+    if (memoria_principal == NULL) {
+        log_error(logger, "Fallo en el malloc a memoria_principal");
+        return 0;
+    }
+    memset(memoria_principal, 0, cfg->TAMANIO);
+    memoria_disponible = cfg->TAMANIO; 
+
+    global_TUR = 0;
+        
+        tp_carpinchos = list_create();
+        if (tp_carpinchos == NULL) {
+            log_error(logger, "Fallo creando tp_carpinchos");
+            return 0;
+        }
+
+        int cant_paginas = cfg->TAMANIO / cfg->TAMANIO_PAGINA;
+        tabla_frames = malloc(cant_paginas * sizeof(frame_t));
+        if (tabla_frames == NULL) {
+            log_error(logger, "Fallo creando tabla_frames");
+            return 0;
+        }
+        for (int i=0; i<cant_paginas; i++) {
+            tabla_frames[i].bytes = 0;
+            tabla_frames[i].libre = 1;
+        }
     return 1;
 }

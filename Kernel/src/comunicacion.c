@@ -70,14 +70,14 @@ static void procesar_conexion(void* void_args){
                 break;
 
             case MEM_ALLOC: ;
-                void * stream = malloc(sizeof(int) * 2);
-                //TODO: Abstraccion                
-                if(!recv(cliente_socket, stream, sizeof(int)*2, 0)){
-                    log_info(logger, "Error en mem_alloc");
-                    return;
+                long id_carpincho;
+                int size_data;
+                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+                    send_memalloc(memoria_fd);
+                    send_alloc_data(memoria_fd,id_carpincho,size_data);
+                } else {
+                    //TODO
                 }
-                send_memalloc(memoria_fd);  
-                free(stream);                                              
                 break;
 
             case MEM_FREE:

@@ -1,26 +1,34 @@
 #include "include/main.h"
 
-t_log* logger;
+extern t_config_memoria*  MEMORIA_CFG;
+extern t_log* logger;
 
-static t_config_memoria* initialize_cfg(){
-	t_config_memoria* cfg = malloc(sizeof(t_config_memoria));
-	cfg->IP = NULL;
-    cfg->PUERTO = NULL;
-    cfg->ALGORITMO_REEMPLAZO_MMU = NULL;
-    cfg->TIPO_ASIGNACION = NULL;
-    cfg->ALGORITMO_REEMPLAZO_TLB = NULL;
-	return cfg;
+//SIGNAL HANDLER
+void sighandler(int x) {
+    switch (x) {
+        case SIGUSR1:
+		//TODO: ver que hacer
+            break;
+        case SIGUSR2:
+        //TODO: ver que hacer
+            break;
+        case SIGINT:
+        //TODO: ver que hacer
+        	exit(EXIT_SUCCESS);
+		
+    }
 }
-
 
 int main(){
 
-	MEMORIA_CFG = initialize_cfg();
-	logger = log_create("memoria.log","memoria",true,LOG_LEVEL_INFO);
+	signal(SIGUSR1, sighandler);
+    signal(SIGUSR2, sighandler);
+    signal(SIGINT , sighandler);
 
 	int memoria_server;
-
-	if(!cargar_configuracion(MEMORIA_CFG)){
+	int swap_fd;
+	// hasta que no este el swap el generar conexiones no va a compilar
+	if( !init() | !cargar_configuracion(MEMORIA_CFG) || !cargar_memoria(MEMORIA_CFG)){
 		cerrar_programa(logger,MEMORIA_CFG);
 		return EXIT_FAILURE;
 	}
@@ -37,7 +45,6 @@ int main(){
 
 	liberar_conexion(&memoria_server);
 
-	printf("Hola mundo soy ian");
 	cerrar_programa(logger,MEMORIA_CFG);
 	return 0;
 }
