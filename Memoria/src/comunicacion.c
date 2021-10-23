@@ -36,12 +36,20 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
-            case MEM_ALLOC: 
-                if(!reservar_espacio_memoria(size)){
-                    log_info(logger, "OCURRIO UN ERROR AL INTENTAR RESERVAR UN ESPACIO EN MEMORIA");
+            case MEM_ALLOC: ;
+                long id_carpincho;
+                int size_data;
+                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+
+                    int size_stream =  9 + size_data;     
+                    if(!reservar_espacio_memoria(size_stream)){
+                        log_info(logger, "OCURRIO UN ERROR AL INTENTAR RESERVAR UN ESPACIO EN MEMORIA");
+                        break;
+                    }
+
+                    log_info(logger, "ALLOCADO PA");
                     break;
-                }
-                log_info(logger, "ALLOCADO PA");
+                } 
                 break;
             case MEM_FREE: 
                 if(!liberar_espacio_memoria(dir_logic_ini, size)) {

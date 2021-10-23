@@ -9,5 +9,6 @@
 #include <string.h>
 
 void * serializar_alloc_data(unsigned long id, int size);
+void deserializar_alloc_data(void* stream, long* id,int* size_data);
 
 #endif

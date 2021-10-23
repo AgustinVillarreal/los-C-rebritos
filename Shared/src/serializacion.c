@@ -15,3 +15,8 @@ void * serializar_alloc_data(unsigned long id, int size){
     memcpy(stream + sizeof(long), &size, sizeof(int));    
     return stream;
 }
+
+void deserializar_alloc_data(void* stream, long* id,int* size_data){
+  memcpy(id,stream,sizeof(long));
+  memcpy(size_data,stream+sizeof(long),sizeof(int));
+}

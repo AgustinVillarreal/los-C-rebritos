@@ -1,6 +1,7 @@
 #include "../include/interfaz_memoria.h"
 
 int reservar_espacio_memoria(int* a){
+    printf("Se reservo %d",a);
     return 1;
 }
 int liberar_espacio_memoria(char* a,int* b){

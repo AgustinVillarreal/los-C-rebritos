@@ -105,3 +105,11 @@
 
 [INFO] 19:58:32:636 Kernel/(5580:5580): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
 
+[INFO] 18:24:39:467 Kernel/(18481:18481): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:24:39:612 Kernel/(18481:18481): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 18:25:16:003 Kernel/(18481:18481): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:25:16:124 Kernel/(18481:18598): HANDSHAKE
+[INFO] 18:25:16:187 Kernel/(18481:18487): pase una vez 0
