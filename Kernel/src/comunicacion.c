@@ -55,7 +55,6 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
-                printf("------%s------%d---", sem, value);
                 break;
             case SEM_WAIT:
                 break;

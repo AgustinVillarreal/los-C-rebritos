@@ -63,7 +63,7 @@ bool recv_sem_init(int fd, char** sem, int * value){
       return false;
   }
   void* stream = malloc(size + sizeof(int));
-  if (recv(fd, stream, size + sizeof(int), 0) != size) {
+  if (recv(fd, stream, size + sizeof(int), 0) != size + sizeof(int)) {
       free(stream);
       return false;
   }

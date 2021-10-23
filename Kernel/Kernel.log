@@ -127,3 +127,65 @@
 [INFO] 21:29:13:750 Kernel/(14173:14182): -----------------------------SE TODO HRRN-------------------------
 
 [INFO] 21:29:13:797 Kernel/(14173:14204): Error iniciando semaforo
+[INFO] 10:37:04:109 Kernel/(4026:4026): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:37:04:185 Kernel/(4026:4026): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 10:37:22:701 Kernel/(4026:4026): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:37:22:808 Kernel/(4026:4214): HANDSHAKE
+[INFO] 10:37:22:864 Kernel/(4026:4032): pase una vez 0
+[INFO] 10:37:22:865 Kernel/(4026:4032): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 10:37:22:913 Kernel/(4026:4214): Error iniciando semaforo
+[INFO] 10:38:19:167 Kernel/(4399:4399): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:38:19:242 Kernel/(4399:4399): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 10:38:22:460 Kernel/(4399:4399): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:38:22:568 Kernel/(4399:4439): HANDSHAKE
+[INFO] 10:38:22:624 Kernel/(4399:4405): pase una vez 0
+[INFO] 10:38:22:625 Kernel/(4399:4405): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 10:38:22:676 Kernel/(4399:4439): Error iniciando semaforo
+[INFO] 10:41:27:502 Kernel/(4784:4784): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:41:27:572 Kernel/(4784:4784): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 10:41:30:356 Kernel/(4784:4784): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:41:30:469 Kernel/(4784:4827): HANDSHAKE
+[INFO] 10:41:30:533 Kernel/(4784:4793): pase una vez 0
+[INFO] 10:41:30:534 Kernel/(4784:4793): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 10:41:30:582 Kernel/(4784:4827): Error iniciando semaforo
+[INFO] 10:43:06:569 Kernel/(5069:5069): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:43:06:643 Kernel/(5069:5069): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 10:43:09:030 Kernel/(5069:5069): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:43:09:146 Kernel/(5069:5112): HANDSHAKE
+[INFO] 10:43:09:201 Kernel/(5069:5074): pase una vez 0
+[INFO] 10:43:09:202 Kernel/(5069:5074): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 10:43:09:281 Kernel/(5069:5112): DISCONNECT!
+[INFO] 11:24:27:682 Kernel/(5069:5069): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:24:27:769 Kernel/(5069:8568): HANDSHAKE
+[INFO] 11:24:27:817 Kernel/(5069:5075): pase una vez 1
+[INFO] 11:24:27:817 Kernel/(5069:5075): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 11:24:27:894 Kernel/(5069:8568): DISCONNECT!
+[INFO] 11:24:54:006 Kernel/(8689:8689): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:24:54:083 Kernel/(8689:8689): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 11:24:56:274 Kernel/(8689:8689): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:24:56:387 Kernel/(8689:8735): HANDSHAKE
+[INFO] 11:24:56:449 Kernel/(8689:8695): pase una vez 0
+[INFO] 11:24:56:450 Kernel/(8689:8695): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 11:24:56:527 Kernel/(8689:8735): DISCONNECT!
