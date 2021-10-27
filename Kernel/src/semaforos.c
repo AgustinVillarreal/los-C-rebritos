@@ -1,5 +1,7 @@
 #include "../include/semaforos.h"
 
+extern t_log* logger;
+
 void inicializar_semaforos(){
     LISTA_SEMAFOROS = list_create();
     pthread_mutex_init(&MUTEX_LISTA_SEMAFOROS, NULL);
@@ -35,11 +37,14 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
     bool existe_semaforo_nombre(void* semaforo){
         return existe_semaforo(sem, semaforo);
     }
+    log_info(logger, "SEM WAIT MUTEX-----------------");    
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
         return -1;
     }
     t_semaforo* sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
+    log_info(logger, "SEM WAIT---------%d--------", sem_wait->value);
+
     sem_wait->value --;
     if(sem_wait->value < 0){
         queue_push(sem_wait->COLA_BLOQUEADOS, carpincho);
@@ -49,6 +54,7 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
     }
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
     if(carpincho_blocked){
+		sem_post(&SEM_CPUs[carpincho->cpu_asignada]);		        
         return 1;
     }
     return 0;
@@ -58,22 +64,46 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
 //POST 
 
 int sem_post_carpincho(char* sem_name_post){
+    t_carpincho * carpincho;
+    bool desbloquea_carpincho = false;
     bool existe_semaforo_nombre(void* semaforo){
-        return existe_semaforo(sem, semaforo);
+        return existe_semaforo(sem_name_post, semaforo);
+    }
+    log_info(logger, "SEM POST MUTEX-----------------");        
+    pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
+    if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
+        return -1;
+    }
+    t_semaforo* sem_post_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
+    sem_post_c->value ++;
+    if(sem_post_c->value <= 0){
+        carpincho = queue_pop(sem_post_c->COLA_BLOQUEADOS);
+        desbloquea_carpincho = true;
+        //TODO: ver si es Region critica
+    }
+    pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
+    if(desbloquea_carpincho){
+        remove_lista_blocked(carpincho);
+        push_cola_ready(carpincho);    
+    }
+    return 0;
+}
+
+// DESTROY
+int sem_destroy_carpincho(char* sem_name_destroy){
+    t_carpincho * carpincho;
+    bool desbloquea_carpincho = false;
+    bool existe_semaforo_nombre(void* semaforo){
+        return existe_semaforo(sem_name_destroy, semaforo);
     }
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
         return -1;
     }
-    t_semaforo* sem_post = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
-    sem_post->value ++;
-    if(sem_post->value <= 0){
-        t_carpincho * carpincho = queue_pop(sem_post->COLA_BLOQUEADOS);
-        //TODO: ver si es Region critica
-        remove_lista_blocked(carpincho);
-        push_cola_ready(carpincho);
-        sem_post(&SEM_CANTIDAD_EN_READY);        
-    }
+    t_semaforo* sem_destroy_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
+    queue_destroy(sem_destroy_c->COLA_BLOQUEADOS);
+    free(sem_destroy_c->name);
+    list_remove_by_condition(LISTA_SEMAFOROS, existe_semaforo_nombre);
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
     return 0;
 }

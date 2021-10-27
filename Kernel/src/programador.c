@@ -13,7 +13,5 @@ void listener_programacion(){
         carpincho = pop_cola_new(); 
       }
       push_cola_ready(carpincho);
-      //TODO esto se hace tambien cuando desbloqueamos un proceso
-      sem_post(&SEM_CANTIDAD_EN_READY);
     }   
 }

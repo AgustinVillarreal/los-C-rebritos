@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
   mate_init(&mate_ref, "./config.config");
   mate_sem_init(&mate_ref, "holachau", 0);  
   mate_sem_wait(&mate_ref, "holachau");
-  mate_sem_post(&mate_ref, "holachau");
+  // mate_sem_post(&mate_ref, "holachau");
   
   /*mate_memalloc(&mate_ref, 6);
   mate_memfree(&mate_ref, 1);

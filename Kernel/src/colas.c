@@ -131,6 +131,7 @@ void push_cola_ready(t_carpincho* carpincho){
   queue_push(COLA_READY, carpincho);
   carpincho->tiempo_ingreso_ready = time(NULL);  
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
+  sem_post(&SEM_CANTIDAD_EN_READY);
 }
 
 uint16_t largo_cola_ready() {
@@ -151,7 +152,7 @@ void add_lista_blocked(t_carpincho* carpincho){
 
 void remove_lista_blocked(t_carpincho* carpincho){
 
-  bool es_carpincho(t_carpincho* unCarpincho){
+  bool es_carpincho(void* unCarpincho){
     return unCarpincho == carpincho;
   }
 

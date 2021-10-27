@@ -76,7 +76,7 @@ bool recv_sem_init(int fd, char** sem, int * value){
 bool send_sem(int fd, char* sem){
   size_t size;
   void * stream = serializar_string(&size, sem);
-  if(send(fd, stream, size + sizeof(long), 0) == -1){
+  if(send(fd, stream, size, 0) == -1){
     free(stream);
     return false;
   } 

@@ -39,12 +39,15 @@ void ejecutar_CPU(int numero_CPU){
 	while(1){
 		// sleep(10);
 		sem_wait(&SEM_CANTIDAD_EN_READY);
+		sem_wait(&SEM_CPUs[numero_CPU]);		
+		
 		log_info(logger, "pase una vez %d", numero_CPU);
 		//Pido segun algoritmo
 		t_carpincho* carpincho = obtener_carpincho();
+
+		carpincho->cpu_asignada = numero_CPU;
 		//TODO: Lo pongo a ejecutar aca abajo
 		sem_post(&carpincho->sem_pause);
 
-		sem_wait(&SEM_CPUs[numero_CPU]);
 	}
 }

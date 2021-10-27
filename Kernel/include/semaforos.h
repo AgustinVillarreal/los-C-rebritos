@@ -28,5 +28,7 @@ int sem_init_carpincho(char* sem, int value);
 bool existe_semaforo(char* nombre_sem, t_semaforo* semaforo);
 int sem_wait_carpincho(char* sem, t_carpincho* carpincho);
 int sem_post_carpincho(char* sem_name_post);
+int sem_destroy_carpincho(char* sem_name_destroy);
+
 
 #endif

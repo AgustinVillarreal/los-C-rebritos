@@ -54,7 +54,7 @@ int main(){
         pthread_t CPU;
         if(!pthread_create(&CPU, NULL, (void*)ejecutar_CPU, (void*)i)){
             pthread_detach(CPU);
-            sem_init(&SEM_CPUs[i], 0, 0);
+            sem_init(&SEM_CPUs[i], 0, 1);
         } else {
             cerrar_programa(logger, KERNEL_CFG);
             return EXIT_FAILURE;

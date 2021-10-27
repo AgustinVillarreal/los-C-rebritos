@@ -129,8 +129,6 @@ int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem){
 			log_destroy(inner_structure->logger);	
 			return EXIT_FAILURE;
 		}
-		log_info(inner_structure->logger, "-----------------------------%d----------------\n", result_code);
-		
 	}	else {
 		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
 		return EXIT_FAILURE;	
@@ -138,8 +136,6 @@ int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem){
 	return result_code == -1;
 }
 
-
-//TODO: AGREGAR EL IF
 int mate_sem_post(mate_instance *lib_ref, mate_sem_name sem){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
 	int result_code;
@@ -170,16 +166,37 @@ int mate_sem_post(mate_instance *lib_ref, mate_sem_name sem){
 	}
 	return result_code == -1;
 }
+// TODO ABSTRAER WAIT, POST Y DESTROY
 
 int mate_sem_destroy(mate_instance *lib_ref, mate_sem_name sem){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
-	if(!send_codigo_op(inner_structure->servidor_fd, SEM_DESTROY)){
-		free(inner_structure->IP);
-		free(inner_structure->PUERTO);	
-		log_destroy(inner_structure->logger);	
-		return EXIT_FAILURE;
+	int result_code;
+	if(inner_structure->kernel_connected){
+		if(!send_codigo_op(inner_structure->servidor_fd, SEM_DESTROY)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+		if(!send_sem(inner_structure->servidor_fd, sem)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+
+		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+		
+	}	else {
+		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
+		return EXIT_FAILURE;	
 	}
-	return 0;
+	return result_code == -1;
 }
 
 mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
@@ -228,6 +245,11 @@ int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int s
 
 int mate_close(mate_instance *lib_ref){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
+	if(!send_codigo_op(inner_structure->servidor_fd, FREE_CARPINCHO)){
+		// data_destroy(IP, PUERTO, cfg);	
+		// log_destroy(logger);	
+		return EXIT_FAILURE;
+	}
 	log_destroy(inner_structure->logger);
 	free(lib_ref->group_info);
 }

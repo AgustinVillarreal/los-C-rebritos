@@ -80,6 +80,7 @@ static void procesar_conexion(void* void_args){
                    free(server_name);
                    return;
                 }
+                free(sem_name_wait);
                 break;
 
             case SEM_POST: ;
@@ -88,20 +89,28 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
-                int result = sem_post_carpincho(sem_name_post);
-                /* 
-                if(result == 1){
-                    sem_wait(&carpincho->sem_pause);
-                }
-                if(!send(cliente_socket, &result, sizeof(int), 0)){
+                int result_post = sem_post_carpincho(sem_name_post);
+                if(!send(cliente_socket, &result_post, sizeof(int), 0)){
                    log_error(logger, "Error al enviar return code de sem wait");
                    free(server_name);
                    return;
-                }*/
+                }
+                free(sem_name_post);
                 break;
-            case SEM_DESTROY:
+            case SEM_DESTROY: ;
+                char * sem_name_destroy;
+                if(!recv_sem(cliente_socket, &sem_name_destroy)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                int result_destroy = sem_destroy_carpincho(sem_name_destroy);
+                if(!send(cliente_socket, &result_destroy, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de sem wait");
+                   free(server_name);
+                   return;
+                }
+                free(sem_name_destroy);
                 break;
-
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;
@@ -125,6 +134,7 @@ static void procesar_conexion(void* void_args){
 
             //TODO ver donde se libera
             case FREE_CARPINCHO:
+		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);		        
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");
