@@ -1559,3 +1559,48 @@
 
 [INFO] 00:03:01:628 Kernel/(16662:17057): SEM WAIT MUTEX-----------------
 [INFO] 00:03:01:629 Kernel/(16662:17057): SEM WAIT----------2--------
+[INFO] 18:32:46:441 Kernel/(19742:19742): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:32:46:551 Kernel/(19742:19742): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 18:32:50:036 Kernel/(19742:19742): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:32:50:151 Kernel/(19742:19780): HANDSHAKE
+[INFO] 18:32:50:215 Kernel/(19742:19745): pase una vez 0
+[INFO] 18:32:50:217 Kernel/(19742:19745): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 18:32:50:316 Kernel/(19742:19780): SEM WAIT MUTEX-----------------
+[INFO] 18:32:50:326 Kernel/(19742:19780): SEM WAIT---------0--------
+[INFO] 18:34:07:132 Kernel/(19742:19742): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:34:07:227 Kernel/(19742:19981): HANDSHAKE
+[INFO] 18:34:07:272 Kernel/(19742:19746): pase una vez 1
+[INFO] 18:34:07:272 Kernel/(19742:19746): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 18:34:07:406 Kernel/(19742:19981): DISCONNECT!
+[INFO] 18:37:22:896 Kernel/(20138:20138): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:37:22:959 Kernel/(20138:20138): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 18:37:26:192 Kernel/(20138:20138): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:37:26:328 Kernel/(20138:20164): HANDSHAKE
+[INFO] 18:37:26:384 Kernel/(20138:20141): pase una vez 0
+[INFO] 18:37:26:385 Kernel/(20138:20141): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 18:37:26:552 Kernel/(20138:20164): DISCONNECT!
+[INFO] 18:37:44:937 Kernel/(20138:20138): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:37:45:026 Kernel/(20138:20222): HANDSHAKE
+[INFO] 18:37:45:068 Kernel/(20138:20142): pase una vez 1
+[INFO] 18:37:45:068 Kernel/(20138:20142): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 18:37:45:148 Kernel/(20138:20222): SEM WAIT MUTEX-----------------
+[INFO] 18:37:45:151 Kernel/(20138:20222): SEM WAIT---------0--------
+[INFO] 18:37:55:199 Kernel/(20138:20138): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:37:55:301 Kernel/(20138:20350): HANDSHAKE
+[INFO] 18:37:55:343 Kernel/(20138:20141): pase una vez 0
+[INFO] 18:37:55:343 Kernel/(20138:20141): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 18:37:55:502 Kernel/(20138:20350): DISCONNECT!

@@ -102,8 +102,9 @@ int sem_destroy_carpincho(char* sem_name_destroy){
     }
     t_semaforo* sem_destroy_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
     queue_destroy(sem_destroy_c->COLA_BLOQUEADOS);
-    free(sem_destroy_c->name);
+    char * name = sem_destroy_c->name;
     list_remove_by_condition(LISTA_SEMAFOROS, existe_semaforo_nombre);
+    free(name);
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
     return 0;
 }
