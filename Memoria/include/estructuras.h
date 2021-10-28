@@ -13,7 +13,8 @@ typedef struct {
     uint32_t prevAlloc;
     uint32_t nextAlloc;
     uint8_t isFree;
-} HeapMetadata;
+} __attribute__((packed)) 
+    hmd_t;
 
 typedef struct {
     uint32_t nro_frame;
@@ -23,11 +24,14 @@ typedef struct {
 typedef struct {
     uint32_t nro_pagina;    
     uint32_t nro_frame;     
-    union {
-        uint32_t bit_U;     //bit de uso FIFO
-        uint32_t TUR;       //tiempo de ultima referencia LRU
+     union {
+        struct {
+            uint32_t bit_U;     // bit de uso
+            uint32_t bit_M;    // bit de modificación
+        }
+        uint64_t TUR;       // tiempo de ultima referencia, LRU
     };
-    bool bit_P; //bit de presencia
+    bool bit_P; // bit de presencia
 } tablaPaginas_t;
 
 typedef union {
@@ -39,5 +43,7 @@ typedef union {
         unsigned pid_ocupador   : 32;
     };
 } frame_t;
+
+pthread_mutex_t MUTEX_MP_BUSY; 
 
 #endif

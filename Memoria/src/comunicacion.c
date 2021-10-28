@@ -39,34 +39,46 @@ static void procesar_conexion(void* void_args){
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;
-                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+                //TODO: Preguntar si con el id ya es suficiente
+                if(recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
+                    //En MP
+                    //Necestio un HeapMetaData ---> 9bytes
+                    //Necesito el size que piden ---> n size_data
 
-                    int size_stream =  9 + size_data;     
-                    if(!reservar_espacio_memoria(size_stream)){
-                        log_info(logger, "OCURRIO UN ERROR AL INTENTAR RESERVAR UN ESPACIO EN MEMORIA");
+                //TODO: Plantear hacer un HMD cuyo sizeof() = 9, el struct nuestro es de sizeof()=12
+                    int size_stream =  sizeof(hmd_t) + size_data;    
+                //TODO: Probablemente es necesario poner un MUTEX  
+
+                //Primero deberia ver si entra o no entra en la mp 
+                
+                    pthread_mutex_lock(&MUTEX_MP_BUSY);
+                    bool ret_code = reservar_espacio_mp(size_stream); 
+                    pthread_mutex_unlock(&MUTEX_MP_BUSY);             
+
+                    if(!ret_code){
+                        log_error(logger, "Error al allocar un espacio en memoria principal\n");
                         break;
-                    }
-
+                    }   
+                } 
                     log_info(logger, "ALLOCADO PA");
                     break;
-                } 
                 break;
             case MEM_FREE: 
-                if(!liberar_espacio_memoria(dir_logic_ini, size)) {
+                if(!liberar_espacio_mp(dir_logic_ini, size)) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
                     break;
                 }
                 log_info(logger,"LIBERADO PADRE");
                 break;
             case MEM_READ: 
-                if(!leer_espacio_memoria(dir_logic_ini)){
+                if(!leer_espacio_mp(dir_logic_ini)){
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LEER LA MEMORIA");
                     break;
                 }
                 log_info(logger,"ANDA A SABER QUE ESTAS QUERIENDO LEER");
                 break;
             case MEM_WRITE:
-                if(!escribir_espacio_memoria(dir_logic_ini)){
+                if(!escribir_espacio_mp(dir_logic_ini)){
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR ESCRIBIR LA MEMORIA");   
                     break;
                 }

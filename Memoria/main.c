@@ -26,7 +26,6 @@ int main(){
     signal(SIGINT , sighandler);
 
 	int memoria_server;
-	int swap_fd;
 	// hasta que no este el swap el generar conexiones no va a compilar
 	if( !init() | !cargar_configuracion(MEMORIA_CFG) || !cargar_memoria(MEMORIA_CFG)){
 		cerrar_programa(logger,MEMORIA_CFG);
