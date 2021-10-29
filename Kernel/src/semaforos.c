@@ -81,8 +81,13 @@ int sem_post_carpincho(char* sem_name_post){
     }
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
     if(desbloquea_carpincho){
-        remove_lista_blocked(carpincho);
-        push_cola_ready(carpincho);    
+        if(existe_en_lista_blocked(carpincho)){
+            remove_lista_blocked(carpincho);
+            push_cola_ready(carpincho);    
+        } else {
+            remove_lista_suspended_blocked(carpincho);
+            push_cola_suspended_ready(carpincho);
+        }       
     }
     return 0;
 }

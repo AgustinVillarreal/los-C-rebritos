@@ -34,7 +34,7 @@ sem_t SEM_CARPINCHO_BLOCKED;
 t_queue* COLA_NEW;
 t_queue* COLA_READY;
 t_queue* COLA_SUSPENDED_READY;
-t_queue* COLA_SUSPENDED_BLOCKED;
+t_list* LISTA_SUSPENDED_BLOCKED;
 t_list*  LISTA_BLOCKED;
 
 void carpincho_init(unsigned long id, t_carpincho** carpincho);
@@ -66,5 +66,11 @@ void* remover_cola_ready(unsigned long id);
 //COSAS DE LISTA BLOCKED
 void remove_lista_blocked(t_carpincho* carpincho);
 void add_lista_blocked(t_carpincho* carpincho);
+bool existe_en_lista_blocked(t_carpincho* carpincho);
+t_carpincho* remove_lista_blocked_last();
+
+//COSAS DE LISTA SUSPENDED BLOCKED
+void remove_lista_suspended_blocked(t_carpincho* carpincho);
+void add_lista_suspended_blocked(t_carpincho* carpincho);
 
 #endif

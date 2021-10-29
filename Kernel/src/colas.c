@@ -69,7 +69,8 @@ void push_cola_new(t_carpincho* carpincho){
   pthread_mutex_lock(&MUTEX_LISTA_NEW);
   queue_push(COLA_NEW, carpincho);
   pthread_mutex_unlock(&MUTEX_LISTA_NEW);
-  sem_post(&SEM_CANTIDAD_A_READY);    
+  sem_post(&SEM_CANTIDAD_A_READY);   
+  sem_post(&SEM_CARPINCHO_BLOCKED);   
 }
 
 t_carpincho* pop_cola_new(){
@@ -165,7 +166,6 @@ void add_lista_blocked(t_carpincho* carpincho){
   list_add(LISTA_BLOCKED, carpincho);
   pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);  
   carpincho->ultima_estimacion = calcular_estimacion(carpincho);
-  sem_post(&SEM_CARPINCHO_BLOCKED);
   return;
 }
 
@@ -175,12 +175,54 @@ void remove_lista_blocked(t_carpincho* carpincho){
     return unCarpincho == carpincho;
   }
 
-  pthread_mutex_lock(&MUTEX_LISTA_SUSPENDED_READY);
+  pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
   list_remove_by_condition(LISTA_BLOCKED, es_carpincho);
-  pthread_mutex_unlock(&MUTEX_LISTA_SUSPENDED_READY);
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);
 
   return;
 }
 
+bool existe_en_lista_blocked(t_carpincho* carpincho){
+
+  bool es_carpincho(void* unCarpincho){
+    return unCarpincho == carpincho;
+  }
+  bool existe;
+  pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
+  existe = list_any_satisfy(LISTA_BLOCKED, es_carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);
+
+  return existe;
+}
+
+t_carpincho* remove_lista_blocked_last(){
+  pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
+  int index = list_size(LISTA_BLOCKED) - 1;
+  t_carpincho* carpincho = list_remove(LISTA_BLOCKED, index);
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);
+  return carpincho;  
+}
+
+//COSAS LISTA SUSPENDED BLOCKED
+
+void add_lista_suspended_blocked(t_carpincho* carpincho){
+  pthread_mutex_lock(&MUTEX_LISTA_SUSPENDED_BLOCKED);
+  list_add(LISTA_SUSPENDED_BLOCKED, carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_SUSPENDED_BLOCKED); 
+  return;
+}
+
+void remove_lista_suspended_blocked(t_carpincho* carpincho){
+
+  bool es_carpincho(void* unCarpincho){
+    return unCarpincho == carpincho;
+  }
+
+  pthread_mutex_lock(&MUTEX_LISTA_SUSPENDED_BLOCKED);
+  list_remove_by_condition(LISTA_SUSPENDED_BLOCKED, es_carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_SUSPENDED_BLOCKED);
+
+  return;
+}
 
 

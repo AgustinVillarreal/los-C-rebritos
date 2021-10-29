@@ -72,6 +72,9 @@ static void procesar_conexion(void* void_args){
                 }
                 log_info(logger,"ESCRITO JEFE");
                 break;
+            case CARPINCHO_SWAP:
+                log_info(logger, "SWAPEADO PAAAA");  
+                break;              
             case -1:
                 log_info(logger, "Cliente desconectado de Memoria");
                 free(server_name);

@@ -1,6 +1,7 @@
 #include "../include/comunicacion.h"
 
 extern t_log* logger;
+extern t_config_kernel* KERNEL_CFG;
 
 typedef struct {
     int fd;
@@ -14,6 +15,8 @@ static void procesar_conexion(void* void_args){
     char* server_name = args->server_name;
     int memoria_fd = args->memoria_fd;
     free(args);
+
+    KERNEL_CFG->MEMORIA_FD = memoria_fd;
 
     t_carpincho * carpincho;
 
@@ -145,6 +148,7 @@ static void procesar_conexion(void* void_args){
             case MEM_WRITE:
                 send_memwrite(memoria_fd);
                 break;
+
 
             //TODO ver donde se libera
             case FREE_CARPINCHO:

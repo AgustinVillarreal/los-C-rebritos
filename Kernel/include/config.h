@@ -27,6 +27,8 @@ typedef struct {
     uint16_t GRADO_MULTIPROCESAMIENTO;
     uint16_t ESTIMACION_INICIAL;
     double ALFA;
+
+    int MEMORIA_FD;
 } t_config_kernel;
 
 typedef struct {
