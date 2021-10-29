@@ -9,6 +9,8 @@
 #include <inttypes.h>
 #include <commons/collections/list.h>
 
+#include "estructuras.h"
+
 int reservar_espacio_mp(int*);
 int liberar_espacio_mp(char*, int*);
 int leer_espacio_mp(char*);

@@ -13,7 +13,7 @@ int iniciar_servidor(t_log* logger, const char* name, char* ip, char* puerto) {
 
     // Recibe los addrinfo
     getaddrinfo(ip, puerto, &hints, &servinfo);
-
+	log_info(logger, "------2---------\n");    
     bool conecto = false;
 
     // Itera por cada addrinfo devuelto
@@ -33,6 +33,8 @@ int iniciar_servidor(t_log* logger, const char* name, char* ip, char* puerto) {
     }
 
     if(!conecto) {
+	    log_info(logger, "------3---------\n");    
+        
         free(servinfo);
         return 0;
     }

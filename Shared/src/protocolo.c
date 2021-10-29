@@ -91,3 +91,20 @@ bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
   return true;
 }
 
+//SEND PARA AVISAR QUE LLEGO TODO FLAMA
+bool send_ack(int fd, bool ack) {
+    void* stream = malloc(sizeof(bool));
+    memcpy(stream, &ack, sizeof(bool));
+    if (send(fd, stream, sizeof(bool), 0) == -1) {
+        free(stream);
+        return false;
+    }
+    free(stream);
+    return true;
+}
+
+//MEMORIA
+bool send_probar_en_swamp(uint32_t size, unsigned long id){
+  return true;
+}
+

@@ -1,17 +1,18 @@
-#include "../include/logs.h"
 #include "../include/config.h"
 
 extern t_log* logger;
 
-frame_t* tabla_frames;
-uint32_t global_TUR;
-void* memoria_principal;
-uint32_t memoria_disponible;
-t_list* tp_carpinchos;
-
 void cerrar_programa(t_log* logger, t_config_memoria* cfg){
-  log_destroy(logger);
-  free(cfg);
+    log_destroy(logger);
+    free(cfg->ALGORITMO_REEMPLAZO_MMU);
+    free(cfg->TIPO_ASIGNACION);
+    free(cfg->ALGORITMO_REEMPLAZO_TLB);
+    free(cfg->PATH_DUMP_TLB);
+    free(cfg->IP);
+    free(cfg->PUERTO);
+    free(cfg->IP_SWAP);
+    free(cfg->PUERTO_SWAP);
+    free(cfg);
 
   //TODO Destruir colas e hilos
   
@@ -39,6 +40,7 @@ uint8_t cargar_configuracion(t_config_memoria* config){
         "ALGORITMO_REEMPLAZO_TLB",
         "RETARDO_ACIERTO_TLB",
         "RETARDO_FALLO_TLB",
+        "PATH_DUMP_TLB",
         NULL
     };
 
@@ -61,6 +63,8 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     config->ALGORITMO_REEMPLAZO_TLB = strdup(config_get_string_value(cfg,"ALGORITMO_REEMPLAZO_TLB"));
     config->RETARDO_ACIERTO_TLB = config_get_int_value(cfg,"RETARDO_ACIERTO_TLB");
     config->RETARDO_FALLO_TLB = config_get_int_value(cfg,"RETARDO_FALLO_TLB");
+    config->PATH_DUMP_TLB = strdup(config_get_string_value(cfg,"PATH_DUMP_TLB"));
+    config->CANT_PAGINAS = config->TAMANIO / config->TAMANIO_PAGINA;
 
     log_info(logger,"CONFIGURACION CARGADA EXITOSAMENTE");
 
@@ -71,19 +75,29 @@ uint8_t cargar_configuracion(t_config_memoria* config){
 
 static t_config_memoria* initialize_cfg(){
 	t_config_memoria* cfg = malloc(sizeof(t_config_memoria));
-	cfg->IP = NULL;
-    cfg->PUERTO = NULL;
     cfg->ALGORITMO_REEMPLAZO_MMU = NULL;
     cfg->TIPO_ASIGNACION = NULL;
     cfg->ALGORITMO_REEMPLAZO_TLB = NULL;
+    cfg->PATH_DUMP_TLB = NULL;
+    cfg->IP = NULL;
+    cfg->PUERTO = NULL;
+    cfg->IP_SWAP = NULL;
+    cfg->PUERTO_SWAP = NULL;
 	return cfg;
 }
 
-int init(){
+void init_mutex(){
+    pthread_mutex_init(&MUTEX_FRAME_OCUPADO, NULL);
+    pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
+}
+
+uint8_t init(){
 
 	MEMORIA_CFG = initialize_cfg();
 	logger = log_create("memoria.log", "memoria", true, LOG_LEVEL_INFO);
     //TODO: iniciar mutex aca 
+    init_mutex();
+    return 1;
 }
 
 uint8_t cargar_memoria(t_config_memoria* cfg) {
@@ -103,13 +117,12 @@ uint8_t cargar_memoria(t_config_memoria* cfg) {
             return 0;
         }
 
-        int cant_paginas = cfg->TAMANIO / cfg->TAMANIO_PAGINA;
-        tabla_frames = malloc(cant_paginas * sizeof(frame_t));
+        tabla_frames = malloc(cfg->CANT_PAGINAS * sizeof(frame_t));
         if (tabla_frames == NULL) {
             log_error(logger, "Fallo creando tabla_frames");
             return 0;
         }
-        for (int i=0; i<cant_paginas; i++) {
+        for (int i=0; i<cfg->CANT_PAGINAS; i++) {
             tabla_frames[i].bytes = 0;
             tabla_frames[i].libre = 1;
         }

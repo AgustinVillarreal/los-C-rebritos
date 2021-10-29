@@ -38,25 +38,28 @@ static void procesar_conexion(void* void_args){
                break;
             case MEM_ALLOC: ;
                 long id_carpincho;
-                int size_data;
-                //TODO: Preguntar si con el id ya es suficiente
+                uint32_t size_data;
+                bool ret_code;
+
                 if(recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
-                    //En MP
-                    //Necestio un HeapMetaData ---> 9bytes
-                    //Necesito el size que piden ---> n size_data
-
-                //TODO: Plantear hacer un HMD cuyo sizeof() = 9, el struct nuestro es de sizeof()=12
-                    int size_stream =  sizeof(hmd_t) + size_data;    
-                //TODO: Probablemente es necesario poner un MUTEX  
-
+                //En MP
+                //Necestio un HeapMetaData ---> 9bytes
+                //Necesito el size que piden ---> n size_data
+                    //TODO: Poner un hmd al principio o al final
+                    uint32_t size_stream =  sizeof(hmd_t) * 2 + size_data;    
                 //Primero deberia ver si entra o no entra en la mp 
-                
-                    pthread_mutex_lock(&MUTEX_MP_BUSY);
-                    bool ret_code = reservar_espacio_mp(size_stream); 
-                    pthread_mutex_unlock(&MUTEX_MP_BUSY);             
+                    if(entra_en_mp(size_stream)){
+                        pthread_mutex_lock(&MUTEX_MP_BUSY);
+                        ret_code = reservar_espacio_mp(size_stream); 
+                        pthread_mutex_unlock(&MUTEX_MP_BUSY);                                   
+                    }  else {
+                        /*
+                        ret_code = send_probar_en_swamp(size_stream, id_carpincho);
+                        */
+                    }
 
                     if(!ret_code){
-                        log_error(logger, "Error al allocar un espacio en memoria principal\n");
+                        log_error(logger, "Error al allocar un espacio\n");
                         break;
                     }   
                 } 

@@ -41,6 +41,7 @@ bool send_memalloc(int fd_server);
 bool send_memwrite(int fd_server);
 bool send_memread(int fd_server);
 bool send_memfree(int fd_server);
+bool send_ack(int fd, bool ack);
 
 bool send_codigo_op(int fd, op_code cop);
 
@@ -56,6 +57,8 @@ bool recv_sem_init(int fd, char** sem, int * value);
 bool send_sem_init(int fd,  char* sem, unsigned int value);
 
 
+//MEMORIA
+bool send_probar_en_swamp(uint32_t size, unsigned long id);
 
 
 #endif

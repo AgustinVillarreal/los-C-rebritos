@@ -1,6 +1,6 @@
 #include "include/main.h"
 
-extern t_config_memoria*  MEMORIA_CFG;
+t_config_memoria*  MEMORIA_CFG;
 extern t_log* logger;
 
 //SIGNAL HANDLER
@@ -32,7 +32,7 @@ int main(){
 		return EXIT_FAILURE;
 	}
 
-	memoria_server = iniciar_servidor(logger,SERVERNAME,MEMORIA_CFG->IP,MEMORIA_CFG->PUERTO);
+	memoria_server = iniciar_servidor(logger, SERVERNAME, MEMORIA_CFG->IP, MEMORIA_CFG->PUERTO);
 
 	if(!memoria_server){
 		cerrar_programa(logger,MEMORIA_CFG);
@@ -40,7 +40,7 @@ int main(){
 		return EXIT_FAILURE;
 	}
 
-	while(server_escuchar(SERVERNAME,memoria_server));
+	while(server_escuchar(SERVERNAME, memoria_server));
 
 	liberar_conexion(&memoria_server);
 
