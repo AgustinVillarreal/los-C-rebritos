@@ -19,6 +19,7 @@
 #include <commons/string.h>
 
 #include <shared/utils.h>
+#include <shared/structs.h>
 
 #include <readline/readline.h>
 
@@ -43,6 +44,10 @@ typedef struct {
     char* PATH_DUMP_TLB;
 } t_config_memoria;
 
+pthread_mutex_t MUTEX_FRAME_OCUPADO;
+pthread_mutex_t MUTEX_MP_BUSY;
+
+
 t_config_memoria* MEMORIA_CFG;
 t_log* logger;
 uint32_t memoria_disponible;
@@ -51,9 +56,18 @@ uint32_t global_TUR;
 void* memoria_principal;
 t_list* tp_carpinchos;
 
+void* (*algoritmo_reemplazo_mmu) (void);
+void* algoritmo_mmu_clock_m ();
+void* algoritmo_mmu_lru();
 
-pthread_mutex_t MUTEX_FRAME_OCUPADO;
-pthread_mutex_t MUTEX_MP_BUSY; 
+void* (*algoritmo_reemplazo_tlb) (void);
+void* algoritmo_tlb_fifo();
+void* algoritmo_tlb_lru();
+
+void* (*tipo_asignacion) (void);
+void* asignacion_fija();
+void* asignacion_global();
+
 
 
 uint8_t cargar_configuracion(t_config_memoria*);

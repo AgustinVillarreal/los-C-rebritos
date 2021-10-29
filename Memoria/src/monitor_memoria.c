@@ -35,3 +35,7 @@ uint32_t cant_paginas(uint32_t size, size_t* rem){
     *rem = size % t_pag;
     return (*rem) ? size/t_pag + 1 : size/t_pag;
 }
+
+frame_t buscar_frame_ff(){
+    
+}

@@ -45,12 +45,12 @@ static void procesar_conexion(void* void_args){
                 //En MP
                 //Necestio un HeapMetaData ---> 9bytes
                 //Necesito el size que piden ---> n size_data
-                    //TODO: Poner un hmd al principio o al final
-                    uint32_t size_stream =  sizeof(hmd_t) * 2 + size_data;    
+                //TODO: Poner un hmd al principio o al final
+                uint32_t size_stream =  sizeof(hmd_t) * 2 + size_data;    
                 //Primero deberia ver si entra o no entra en la mp 
                     if(entra_en_mp(size_stream)){
                         pthread_mutex_lock(&MUTEX_MP_BUSY);
-                        ret_code = reservar_espacio_mp(size_stream); 
+                        ret_code = reservar_espacio_mp(size_stream, id_carpincho); 
                         pthread_mutex_unlock(&MUTEX_MP_BUSY);                                   
                     }  else {
                         /*

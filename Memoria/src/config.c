@@ -66,6 +66,24 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     config->PATH_DUMP_TLB = strdup(config_get_string_value(cfg,"PATH_DUMP_TLB"));
     config->CANT_PAGINAS = config->TAMANIO / config->TAMANIO_PAGINA;
 
+    if(!strcmp(config->ALGORITMO_REEMPLAZO_MMU, "CLOCK-M")){
+        algoritmo_reemplazo_mmu = algoritmo_mmu_clock_m;
+    } else {
+        algoritmo_reemplazo_mmu = algoritmo_mmu_lru;
+    }
+
+    if(!strcmp(config->ALGORITMO_REEMPLAZO_TLB, "FIFO")){
+        algoritmo_reemplazo_tlb = algoritmo_tlb_fifo;
+    } else {
+        algoritmo_reemplazo_tlb = algoritmo_tlb_lru;
+    }
+
+    if(!strcmp(config->TIPO_ASIGNACION, "FIJA")){
+        tipo_asignacion = asignacion_fija;
+    } else {
+        tipo_asignacion = asignacion_global;
+    }
+
     log_info(logger,"CONFIGURACION CARGADA EXITOSAMENTE");
 
     config_destroy(cfg);
@@ -92,7 +110,6 @@ void init_mutex(){
 }
 
 uint8_t init(){
-
 	MEMORIA_CFG = initialize_cfg();
 	logger = log_create("memoria.log", "memoria", true, LOG_LEVEL_INFO);
     //TODO: iniciar mutex aca 

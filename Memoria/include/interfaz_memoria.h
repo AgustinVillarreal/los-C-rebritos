@@ -11,9 +11,9 @@
 
 #include "estructuras.h"
 
-int reservar_espacio_mp(int*);
-int liberar_espacio_mp(char*, int*);
-int leer_espacio_mp(char*);
+int reservar_espacio_mp(int* size, unsigned long id);
+int liberar_espacio_mp(char*, int* size);
+int leer_espacio_mp(char* size);
 int escribir_espacio_mp();
 
 

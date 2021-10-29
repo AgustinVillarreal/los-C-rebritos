@@ -34,15 +34,5 @@ typedef struct {
     bool bit_P; // bit de presencia
 } tablaPaginas_t;
 
-typedef union {
-    uint64_t bytes;
-    struct {
-        unsigned libre          :  1;
-        unsigned amedias        :  1;
-        unsigned inicio_hueco   : 30;
-        unsigned pid_ocupador   : 32;
-    };
-} frame_t;
-
 
 #endif
