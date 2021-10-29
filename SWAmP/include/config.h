@@ -41,7 +41,7 @@ static t_config_mrhq* initialize_cfg() {
 
 uint8_t init();                 // inicializa loger, cfg, y semaforos
 uint8_t cargar_configuracion(); // carga cfg en strut cfg
-uint8_t cargar_memoria();       // Init de segmentos_libres
+uint8_t cargar_swamp();       // Init de segmentos_libres
 
 void cerrar_programa();
 int server_escuchar(char*, int);

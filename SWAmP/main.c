@@ -1,9 +1,31 @@
 #include "include/main.h"
 
+extern t_config_swamp* cfg;
+extern t_log* logger;
+
+extern t_list* areas_de_swap;
+
+extern sem_t SEM_COMPACTACION_DONE;
+extern sem_t SEM_COMPACTACION_START;
+
 
 
 int main(){
-	printf("Hola mundo");
+	
+	if(!init() || !cargar_configuracion("swamp.config") || !cargar_swamp()) {
+        cerrar_programa();
+        return EXIT_FAILURE;
+    }
 
-	return 0;
+    /* ****** CREACION DEL SERVIDOR ****** */
+    char* puerto = string_itoa(cfg->PUERTO);
+    swamp_server = iniciar_servidor(logger, SERVERNAME, "0.0.0.0", puerto);
+    free(puerto);
+
+    while (server_escuchar(SERVERNAME, swamp_server));
+
+    liberar_conexion(&mrh_server);
+    cerrar_programa();
+
+    return EXIT_SUCCESS;
 }

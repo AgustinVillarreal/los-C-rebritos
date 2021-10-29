@@ -16,13 +16,16 @@
 #include "utils.h"
 #include "frees.h"
 
-///JAJAJAJJAJAJAJAJAJAJAJA
+///JAJAJAJJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
     HANDSHAKE_KERNEL,
     HANDSHAKE_MEMORIA,
-    MEM_ALLOC
+    HANDSHAKE_SWAMP,
+    MEM_ALLOC,
+    GUARDAR_SWAMP,
+    PEDIR_SWAMP
 } op_code;
 
 

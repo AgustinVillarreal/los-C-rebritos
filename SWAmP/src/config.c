@@ -1,8 +1,8 @@
-#include "include/config.h"
+#include "../include/config.h"
 
 // Varibles necesarias para loggear y leer el archivo de config
 t_log* logger;
-t_config_mrhq* cfg;
+t_config_swamp* cfg;
 
 t_list* areas_de_swap;
 
@@ -13,8 +13,6 @@ t_list* areas_de_swap;
 uint8_t init() {
     cfg = initialize_cfg();
     logger = log_create("mi-ram-hq.log", MODULENAME, false, LOG_LEVEL_INFO);
-    iniciar_mutex();
-
     return 1;
 }
 
@@ -108,7 +106,7 @@ uint32_t cantidad_de_archivos_swap(){
 
 /* Crea los archivos de swap  */
 
-static bool crear_archivos_swap() {
+static bool cargar_swamp() {
 
     uint32_t cantidad_archivos = cantidad_de_archivos_swap();
     char** lista_paths = obtener_lista_de_archivos_swap();
@@ -134,7 +132,7 @@ static bool crear_archivos_swap() {
         void* area_swap = mmap(NULL, cfg->TAMANIO_SWAP, PROT_READ | PROT_WRITE, MAP_SHARED, fd_swap, 0);
         if (errno!=0) log_error(logger, "Error en mmap: errno %i", errno);
 
-        memset(area_swap, 0, cfg->TAMANIO_SWAP);
+        memset(area_swap, '/0', cfg->TAMANIO_SWAP);
 
         list_add(areas_de_swap,area_swap);
 
