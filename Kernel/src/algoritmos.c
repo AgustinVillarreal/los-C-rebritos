@@ -1,7 +1,6 @@
 #include "../include/algoritmos.h"
 
 t_carpincho* obtener_carpincho_HRRN(){
-	log_info(logger, "-----------------------------SE TODO HRRN-------------------------\n");
 	t_carpincho* carpincho;
 	pthread_mutex_lock(&MUTEX_LISTA_READY);
 	list_sort(COLA_READY->elements, (void*)minimo_HRRN);
@@ -10,7 +9,6 @@ t_carpincho* obtener_carpincho_HRRN(){
 	return carpincho;
 }
 t_carpincho* obtener_carpincho_SJF(){
-	log_info(logger, "-----------------------------SE TODO-------------------------\n");
 	t_carpincho* carpincho;
 	pthread_mutex_lock(&MUTEX_LISTA_READY);
 	list_sort(COLA_READY->elements, (void*)minima_estimacion);
@@ -41,11 +39,11 @@ void ejecutar_CPU(int numero_CPU){
 		sem_wait(&SEM_CANTIDAD_EN_READY);
 		sem_wait(&SEM_CPUs[numero_CPU]);		
 		
-		log_info(logger, "pase una vez %d", numero_CPU);
 		//Pido segun algoritmo
-		t_carpincho* carpincho = obtener_carpincho();
+		t_carpincho* carpincho = obtener_carpincho();			
 
 		carpincho->cpu_asignada = numero_CPU;
+		carpincho->tiempo_ingreso_exec = time(NULL);
 		//TODO: Lo pongo a ejecutar aca abajo
 		sem_post(&carpincho->sem_pause);
 

@@ -29,6 +29,8 @@ sem_t SEM_CANTIDAD_A_READY;
 //TODO: Signal en block y de new a ready
 sem_t SEM_CANTIDAD_EN_READY;
 
+sem_t SEM_CARPINCHO_BLOCKED;
+
 t_queue* COLA_NEW;
 t_queue* COLA_READY;
 t_queue* COLA_SUSPENDED_READY;
@@ -38,6 +40,7 @@ t_list*  LISTA_BLOCKED;
 void carpincho_init(unsigned long id, t_carpincho** carpincho);
 void iniciar_mutex(int grado_multiprogramacion);
 void destroy_mutex();
+uint16_t calcular_estimacion(t_carpincho* carpincho);
 
 //COSAS DE COLA NEW
 void push_cola_new(t_carpincho* carpincho);

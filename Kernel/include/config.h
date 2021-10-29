@@ -36,6 +36,7 @@ typedef struct {
   bool blocked;
   uint16_t ultima_estimacion;
   time_t tiempo_ingreso_ready;
+  time_t tiempo_ingreso_exec;  
   int cpu_asignada;
 } t_carpincho;
 

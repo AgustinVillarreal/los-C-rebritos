@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -32,6 +32,7 @@ typedef enum {
     SEM_WAIT,
     SEM_POST,
     SEM_DESTROY,
+    IO,
     FREE_CARPINCHO
 } op_code;
 
@@ -56,6 +57,9 @@ bool send_sem_init(int fd,  char* sem, unsigned int value);
 
 bool send_sem(int fd, char* sem);
 bool recv_sem(int fd, char** sem);
+
+//IO
+bool send_io(int fd, char* io, char* msg);
 
 
 

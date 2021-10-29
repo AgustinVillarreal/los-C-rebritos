@@ -61,7 +61,13 @@ int main(){
         } 
     }
 
-
+    pthread_t LISTENER_SUSPENCION;
+    if(!pthread_create(&LISTENER_SUSPENCION, NULL, (void*)listener_suspencion, NULL)){
+        pthread_detach(LISTENER_SUSPENCION);
+    } else {
+        cerrar_programa(logger, KERNEL_CFG);
+        return EXIT_FAILURE;
+    }
 
 
     while (server_escuchar(SERVERNAME, kernel_server, memoria_fd));

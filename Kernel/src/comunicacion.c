@@ -111,6 +111,20 @@ static void procesar_conexion(void* void_args){
                 }
                 free(sem_name_destroy);
                 break;
+            case IO: ;
+                char* io;
+                char* msg;
+                if(!recv_sem(cliente_socket, &io)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                if(!recv_sem(cliente_socket, &msg)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                // TODO
+                
+                break;
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;

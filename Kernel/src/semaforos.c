@@ -36,14 +36,12 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
 
     bool existe_semaforo_nombre(void* semaforo){
         return existe_semaforo(sem, semaforo);
-    }
-    log_info(logger, "SEM WAIT MUTEX-----------------");    
+    } 
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
         return -1;
     }
     t_semaforo* sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
-    log_info(logger, "SEM WAIT---------%d--------", sem_wait->value);
 
     sem_wait->value --;
     if(sem_wait->value < 0){

@@ -1,8 +1,12 @@
 #include "../include/colas.h"
 
 //TODO: TODO ESTO SEGURO SE PUEDE ABSTRAEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER
+extern t_log* logger;
+
 
 static unsigned long obj_tid = 0;
+
+extern t_config_kernel* KERNEL_CFG;
 
 //Esto es prueba
 uint16_t estimacion = 80;
@@ -18,6 +22,8 @@ void iniciar_mutex(int grado_multiprogramacion){
   sem_init(&SEM_GRADO_MULTIPROGRAMACION,0, grado_multiprogramacion);
   sem_init(&SEM_CANTIDAD_A_READY, 0, 0);
   sem_init(&SEM_CANTIDAD_EN_READY, 0, 0);
+  sem_init(&SEM_CARPINCHO_BLOCKED, 0, 0);
+  
 }
 
 void carpincho_init(unsigned long id, t_carpincho ** carpincho){
@@ -45,6 +51,17 @@ bool filter_t_carpincho_by_tid(void *item){
   t_carpincho* t_r = (t_carpincho*) item;
   return t_r->id == obj_tid;
 }
+
+uint16_t calcular_estimacion(t_carpincho* carpincho){
+  time_t tiempoActual = time(NULL);
+  
+	double rafaga = difftime(tiempoActual, carpincho->tiempo_ingreso_exec);
+
+  double alfa = KERNEL_CFG->ALFA;
+
+  return (alfa*rafaga + (1-alfa)*carpincho->ultima_estimacion)*10;
+}
+
 
 // COSAS DE COLA NEW 
 
@@ -146,7 +163,9 @@ uint16_t largo_cola_ready() {
 void add_lista_blocked(t_carpincho* carpincho){
   pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
   list_add(LISTA_BLOCKED, carpincho);
-  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);    
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);  
+  carpincho->ultima_estimacion = calcular_estimacion(carpincho);
+  sem_post(&SEM_CARPINCHO_BLOCKED);
   return;
 }
 

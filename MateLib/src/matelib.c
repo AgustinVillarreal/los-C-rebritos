@@ -1,5 +1,7 @@
 #include "../include/matelib.h"
 
+//------------------General Functions---------------------/
+
 int mate_init (mate_instance *lib_ref, char *config){
 	
 	lib_ref->group_info = malloc(sizeof(mate_inner_structure));
@@ -75,6 +77,19 @@ int mate_init (mate_instance *lib_ref, char *config){
 	data_destroy(IP, PUERTO, cfg);
 	return 0;
 }
+
+int mate_close(mate_instance *lib_ref){
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	if(!send_codigo_op(inner_structure->servidor_fd, FREE_CARPINCHO)){
+		// data_destroy(IP, PUERTO, cfg);	
+		// log_destroy(logger);	
+		return EXIT_FAILURE;
+	}
+	log_destroy(inner_structure->logger);
+	free(lib_ref->group_info);
+}
+
+//-----------------Semaphore Functions---------------------/
 
 int mate_sem_init(mate_instance *lib_ref, mate_sem_name sem, unsigned int value){
 	int result_code;
@@ -199,6 +214,32 @@ int mate_sem_destroy(mate_instance *lib_ref, mate_sem_name sem){
 	return result_code == -1;
 }
 
+// //--------------------IO Functions------------------------/
+
+int mate_call_io(mate_instance *lib_ref, mate_io_resource io, void *msg){
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	if(inner_structure->kernel_connected){
+		if(!send_codigo_op(inner_structure->servidor_fd, IO)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+		if(!send_io(inner_structure->servidor_fd, io, msg)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+	} else {
+		log_error(inner_structure->logger, "No podes usar dispositivos de entrada salida si no estas conectado al kernel\n");
+		return EXIT_FAILURE;
+	}
+	return 0;
+}
+
+// //--------------Memory Module Functions-------------------/
+
 mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
 	 
@@ -243,13 +284,3 @@ int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int s
 }
 
 
-int mate_close(mate_instance *lib_ref){
-	mate_inner_structure* inner_structure = lib_ref->group_info;
-	if(!send_codigo_op(inner_structure->servidor_fd, FREE_CARPINCHO)){
-		// data_destroy(IP, PUERTO, cfg);	
-		// log_destroy(logger);	
-		return EXIT_FAILURE;
-	}
-	log_destroy(inner_structure->logger);
-	free(lib_ref->group_info);
-}
