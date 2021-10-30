@@ -225,4 +225,10 @@ void remove_lista_suspended_blocked(t_carpincho* carpincho){
   return;
 }
 
+// COSAS DE COLA NEW 
 
+void push_cola_exit(t_carpincho* carpincho){
+  pthread_mutex_lock(&MUTEX_LISTA_EXIT);
+  queue_push(COLA_EXIT, carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_EXIT);
+}

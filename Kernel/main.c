@@ -10,7 +10,6 @@ static t_config_kernel* initialize_cfg() {
     cfg->PUERTO_KERNEL              = NULL;
     cfg->ALGORITMO_PLANIFICACION    = NULL;
     cfg->DISPOSITIVOS_IO            = NULL;
-    cfg->DURACIONES_IO              = NULL;
     return cfg;
 }
 
@@ -20,6 +19,7 @@ int main(){
     //TODO: Ver donde liberar esta memoria
     COLA_NEW               = queue_create();
     COLA_READY             = queue_create();
+    COLA_EXIT              = queue_create();
     COLA_SUSPENDED_READY   = queue_create();
     LISTA_SUSPENDED_BLOCKED = list_create();
     LISTA_BLOCKED           = list_create();

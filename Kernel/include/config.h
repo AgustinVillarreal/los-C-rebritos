@@ -21,7 +21,6 @@ typedef struct {
     char* PUERTO_MEMORIA;
     char* ALGORITMO_PLANIFICACION;
     t_list* DISPOSITIVOS_IO;
-    t_list* DURACIONES_IO;
     uint16_t RETARDO_CPU;
     uint16_t GRADO_MULTIPROGRAMACION;
     uint16_t GRADO_MULTIPROCESAMIENTO;
@@ -30,6 +29,11 @@ typedef struct {
 
     int MEMORIA_FD;
 } t_config_kernel;
+
+typedef struct {
+    char* nombre;
+    int duracion;
+} t_dispositivo_io;
 
 typedef struct {
   unsigned long id;
@@ -45,10 +49,13 @@ typedef struct {
 
 uint8_t cargar_configuracion(t_config_kernel*);
 void cerrar_programa(t_log*, t_config_kernel*);
+void destruir_dispositivo(void* disp_void);
 
 t_carpincho* (*obtener_carpincho)(void);
 t_carpincho* obtener_carpincho_HRRN();
 t_carpincho* obtener_carpincho_SJF();
+
+t_list* extraer_dispositivos(char** str_dispositivos, char** str_duraciones);
 
 #endif
 

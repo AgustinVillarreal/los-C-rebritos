@@ -125,8 +125,17 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
-                // TODO
-                
+                int bloqueo_salida_res = procesar_entrada_salida(carpincho, io, msg);
+                if(bloqueo_salida_res){
+                    sem_wait(&carpincho->sem_pause);                    
+                }
+                if(!send(cliente_socket, &bloqueo_salida_res, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de io");
+                   free(server_name);
+                   return;
+                }
+                free(io);
+                free(msg);                
                 break;
             case MEM_ALLOC: ;
                 long id_carpincho;
@@ -152,7 +161,8 @@ static void procesar_conexion(void* void_args){
 
             //TODO ver donde se libera
             case FREE_CARPINCHO:
-		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);		        
+		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);	
+                push_cola_exit(carpincho);	        
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

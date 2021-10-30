@@ -21,6 +21,7 @@ int sem_init_carpincho(char* sem, int value){
         list_add(LISTA_SEMAFOROS, semaforo);
     }
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
+    free(sem);
     return 0;
 }
 

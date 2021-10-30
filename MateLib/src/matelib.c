@@ -218,6 +218,7 @@ int mate_sem_destroy(mate_instance *lib_ref, mate_sem_name sem){
 
 int mate_call_io(mate_instance *lib_ref, mate_io_resource io, void *msg){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
+	int result_code;	
 	if(inner_structure->kernel_connected){
 		if(!send_codigo_op(inner_structure->servidor_fd, IO)){
 			free(inner_structure->IP);
@@ -231,11 +232,17 @@ int mate_call_io(mate_instance *lib_ref, mate_io_resource io, void *msg){
 			log_destroy(inner_structure->logger);	
 			return EXIT_FAILURE;
 		}
+		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
 	} else {
 		log_error(inner_structure->logger, "No podes usar dispositivos de entrada salida si no estas conectado al kernel\n");
 		return EXIT_FAILURE;
 	}
-	return 0;
+	return result_code == 0;
 }
 
 // //--------------Memory Module Functions-------------------/

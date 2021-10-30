@@ -15,6 +15,7 @@ pthread_mutex_t MUTEX_LISTA_READY;
 pthread_mutex_t MUTEX_LISTA_SUSPENDED_READY;
 pthread_mutex_t MUTEX_LISTA_SUSPENDED_BLOCKED;
 pthread_mutex_t MUTEX_LISTA_BLOCKED;
+pthread_mutex_t MUTEX_LISTA_EXIT;
 
 sem_t * SEM_CPUs;
 
@@ -33,6 +34,7 @@ sem_t SEM_CARPINCHO_BLOCKED;
 
 t_queue* COLA_NEW;
 t_queue* COLA_READY;
+t_queue* COLA_EXIT;
 t_queue* COLA_SUSPENDED_READY;
 t_list* LISTA_SUSPENDED_BLOCKED;
 t_list*  LISTA_BLOCKED;
@@ -72,5 +74,8 @@ t_carpincho* remove_lista_blocked_last();
 //COSAS DE LISTA SUSPENDED BLOCKED
 void remove_lista_suspended_blocked(t_carpincho* carpincho);
 void add_lista_suspended_blocked(t_carpincho* carpincho);
+
+//COSAS DE COLA EXIT
+void push_cola_exit(t_carpincho* carpincho);
 
 #endif

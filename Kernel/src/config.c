@@ -12,14 +12,19 @@ void cerrar_programa(t_log* logger, t_config_kernel* cfg){
   free(cfg->PUERTO_MEMORIA);
   free(cfg->ALGORITMO_PLANIFICACION);
 
-  list_destroy(cfg->DISPOSITIVOS_IO);
-  list_destroy(cfg->DURACIONES_IO);
+  list_destroy_and_destroy_elements(cfg->DISPOSITIVOS_IO, destruir_dispositivo);
 
   free(cfg);
 
 
   //TODO Destruir colas e hilos
   
+}
+
+void destruir_dispositivo(void* disp_void){
+  t_dispositivo_io* disp = disp_void;
+  free(disp->nombre);
+  free(disp);
 }
  
 uint8_t cargar_configuracion(t_config_kernel* config){
@@ -60,11 +65,9 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   config->ALGORITMO_PLANIFICACION = strdup(config_get_string_value(cfg, "ALGORITMO_PLANIFICACION"));
 
   char ** dispositivos_IO = config_get_array_value(cfg, "DISPOSITIVOS_IO");
-  config->DISPOSITIVOS_IO = extraer_dispositivos(dispositivos_IO);
-  config_free_array_value(&dispositivos_IO);
-
   char ** duraciones_IO = config_get_array_value(cfg, "DURACIONES_IO");
-  config->DURACIONES_IO = extraer_duraciones(duraciones_IO);
+  config->DISPOSITIVOS_IO = extraer_dispositivos(dispositivos_IO, duraciones_IO);
+  config_free_array_value(&dispositivos_IO);
   config_free_array_value(&duraciones_IO);
 
   config->RETARDO_CPU = config_get_int_value(cfg, "RETARDO_CPU");
@@ -85,3 +88,17 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   return 1;
 }
 
+
+t_list* extraer_dispositivos(char** str_dispositivos, char** str_duraciones) {
+    t_list* lista = list_create();
+    int i = 0;
+
+    while(str_dispositivos[i] != NULL) {
+      t_dispositivo_io* disp = malloc(sizeof(t_dispositivo_io));
+      disp->nombre = strdup(str_dispositivos[i]);
+      disp->duracion = atoi(str_duraciones[i]);
+      list_add(lista, disp);
+      i++;
+    }
+    return lista;
+}
