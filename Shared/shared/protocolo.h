@@ -33,6 +33,10 @@ typedef enum {
     SEM_POST,
     SEM_DESTROY,
     FREE_CARPINCHO
+    HANDSHAKE_SWAMP,
+    MEM_ALLOC,
+    GUARDAR_SWAMP,
+    PEDIR_SWAMP
 } op_code;
 
 
@@ -60,5 +64,7 @@ bool send_sem_init(int fd,  char* sem, unsigned int value);
 //MEMORIA
 bool send_probar_en_swamp(uint32_t size, unsigned long id);
 
+bool send_ack(int fd, bool ack);
+bool recv_ack(int fd, bool* ack);
 
 #endif

@@ -108,3 +108,14 @@ bool send_probar_en_swamp(uint32_t size, unsigned long id){
   return true;
 }
 
+bool recv_ack(int fd, bool* ack) {
+    void* stream = malloc(sizeof(bool));
+    if (recv(fd, stream, sizeof(bool), 0) != sizeof(bool)) {
+        free(stream);
+        return false;
+    }
+    memcpy(ack, stream, sizeof(bool));
+
+    free(stream);
+    return true;
+}

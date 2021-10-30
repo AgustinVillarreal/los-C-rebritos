@@ -1,0 +1,59 @@
+[ERROR] 14:21:24:769 SWAmP/(9307:9307): Propiedades faltantes en el archivo de configuracion
+[INFO] 14:21:24:829 SWAmP/(9307:9307): Finalizando programa...
+[INFO] 14:23:26:319 SWAmP/(9454:9454): Archivo de configuracion cargado correctamente
+[INFO] 14:23:26:379 SWAmP/(9454:9454): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 14:23:26:386 SWAmP/(9454:9454): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 14:23:26:396 SWAmP/(9454:9454): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 14:29:11:154 SWAmP/(9806:9806): Archivo de configuracion cargado correctamente
+[INFO] 14:29:11:218 SWAmP/(9806:9806): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 14:29:11:228 SWAmP/(9806:9806): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 14:29:11:243 SWAmP/(9806:9806): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 14:31:39:901 SWAmP/(9959:9959): Archivo de configuracion cargado correctamente
+[INFO] 14:31:39:964 SWAmP/(9959:9959): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 14:31:39:971 SWAmP/(9959:9959): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 14:31:39:981 SWAmP/(9959:9959): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 14:31:39:984 SWAmP/(9959:9959): Finalizando programa...
+[INFO] 14:45:25:246 SWAmP/(10931:10931): Archivo de configuracion cargado correctamente
+[INFO] 14:45:25:310 SWAmP/(10931:10931): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 14:45:25:322 SWAmP/(10931:10931): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 14:45:25:337 SWAmP/(10931:10931): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 14:45:25:339 SWAmP/(10931:10931): Finalizando programa...
+[INFO] 14:50:37:815 SWAmP/(11281:11281): Archivo de configuracion cargado correctamente
+[INFO] 14:50:37:878 SWAmP/(11281:11281): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 14:50:37:889 SWAmP/(11281:11281): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 14:50:37:904 SWAmP/(11281:11281): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 14:50:37:906 SWAmP/(11281:11281): Finalizando programa...
+[INFO] 14:57:02:272 SWAmP/(11673:11673): Archivo de configuracion cargado correctamente
+[INFO] 14:57:02:347 SWAmP/(11673:11673): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 14:57:02:360 SWAmP/(11673:11673): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 14:57:02:377 SWAmP/(11673:11673): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 14:57:02:380 SWAmP/(11673:11673): Finalizando programa...
+[INFO] 15:01:14:411 SWAmP/(11969:11969): Archivo de configuracion cargado correctamente
+[INFO] 15:01:14:476 SWAmP/(11969:11969): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:01:14:486 SWAmP/(11969:11969): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 15:01:14:502 SWAmP/(11969:11969): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 15:01:14:505 SWAmP/(11969:11969): Finalizando programa...
+[INFO] 15:02:19:701 SWAmP/(12084:12084): Archivo de configuracion cargado correctamente
+[INFO] 15:02:19:769 SWAmP/(12084:12084): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:02:19:780 SWAmP/(12084:12084): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 15:02:19:799 SWAmP/(12084:12084): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 15:02:19:802 SWAmP/(12084:12084): Finalizando programa...
+[INFO] 15:04:05:185 SWAmP/(12232:12232): Archivo de configuracion cargado correctamente
+[INFO] 15:04:05:255 SWAmP/(12232:12232): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:04:05:268 SWAmP/(12232:12232): Creando archivos SWAP en <</home/utnso/swap2.bin]>>
+[INFO] 15:04:05:283 SWAmP/(12232:12232): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 15:04:05:286 SWAmP/(12232:12232): Finalizando programa...
+[INFO] 15:07:08:306 SWAmP/(12472:12472): Archivo de configuracion cargado correctamente
+[INFO] 15:07:08:373 SWAmP/(12472:12472): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:07:08:385 SWAmP/(12472:12472): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:07:08:403 SWAmP/(12472:12472): Escuchando en 0.0.0.0:5001 (SWAmP)
+
