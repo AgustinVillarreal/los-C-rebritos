@@ -176,3 +176,79 @@
 
 [INFO] 17:11:12:662 SWAmP/(25870:25870): Me llego el HANDSHAKE con MEMORIA!
 [INFO] 17:11:15:679 SWAmP/(25870:25870): DISCONNECT!
+[INFO] 17:26:35:594 SWAmP/(22624:22624): Archivo de configuracion cargado correctamente
+[INFO] 17:26:35:642 SWAmP/(22624:22624): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:26:35:659 SWAmP/(22624:22624): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:26:35:677 SWAmP/(22624:22624): ------2---------
+
+[INFO] 17:26:35:680 SWAmP/(22624:22624): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:27:23:471 SWAmP/(22624:22624): Cliente conectado (a SWAmP)
+
+[INFO] 17:27:23:483 SWAmP/(22624:22624): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:28:07:217 SWAmP/(22624:22624): DISCONNECT!
+[INFO] 17:28:10:281 SWAmP/(22624:22624): Cliente conectado (a SWAmP)
+
+[INFO] 17:28:10:292 SWAmP/(22624:22624): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:28:11:132 SWAmP/(22624:22624): DISCONNECT!
+[INFO] 18:19:10:643 SWAmP/(25737:25737): Archivo de configuracion cargado correctamente
+[INFO] 18:19:10:702 SWAmP/(25737:25737): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 18:19:10:715 SWAmP/(25737:25737): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 18:19:10:744 SWAmP/(25737:25737): ------2---------
+
+[INFO] 18:19:10:752 SWAmP/(25737:25737): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 18:20:00:861 SWAmP/(25821:25821): Archivo de configuracion cargado correctamente
+[INFO] 18:20:00:926 SWAmP/(25821:25821): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 18:20:00:938 SWAmP/(25821:25821): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 18:20:00:962 SWAmP/(25821:25821): ------2---------
+
+[INFO] 18:20:00:965 SWAmP/(25821:25821): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 18:22:00:634 SWAmP/(25976:25976): Archivo de configuracion cargado correctamente
+[INFO] 18:22:00:695 SWAmP/(25976:25976): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 18:22:00:712 SWAmP/(25976:25976): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 18:22:00:734 SWAmP/(25976:25976): ------2---------
+
+[INFO] 18:22:00:737 SWAmP/(25976:25976): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 18:22:31:738 SWAmP/(26046:26046): Archivo de configuracion cargado correctamente
+[INFO] 18:22:31:802 SWAmP/(26046:26046): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 18:22:31:812 SWAmP/(26046:26046): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 18:22:31:839 SWAmP/(26046:26046): ------2---------
+
+[INFO] 18:22:31:846 SWAmP/(26046:26046): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 18:22:31:849 SWAmP/(26046:26046): Finalizando programa...
+[INFO] 18:23:03:792 SWAmP/(26114:26114): Archivo de configuracion cargado correctamente
+[INFO] 18:23:03:876 SWAmP/(26114:26114): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 18:23:03:894 SWAmP/(26114:26114): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 18:23:03:923 SWAmP/(26114:26114): ------2---------
+
+[INFO] 18:23:03:927 SWAmP/(26114:26114): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 18:23:03:933 SWAmP/(26114:26114): Finalizando programa...
+[INFO] 18:34:46:557 SWAmP/(26881:26881): Archivo de configuracion cargado correctamente
+[INFO] 18:34:46:617 SWAmP/(26881:26881): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:35:22:234 SWAmP/(29726:29726): Archivo de configuracion cargado correctamente
+[INFO] 19:35:22:318 SWAmP/(29726:29726): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:35:22:334 SWAmP/(29726:29726): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:35:22:357 SWAmP/(29726:29726): ------2---------
+
+[INFO] 19:35:22:377 SWAmP/(29726:29726): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 19:49:25:659 SWAmP/(30589:30589): Archivo de configuracion cargado correctamente
+[INFO] 19:49:25:731 SWAmP/(30589:30589): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:49:25:748 SWAmP/(30589:30589): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:49:25:782 SWAmP/(30589:30589): ------2---------
+
+[INFO] 19:49:25:787 SWAmP/(30589:30589): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 19:49:50:702 SWAmP/(30660:30660): Archivo de configuracion cargado correctamente
+[INFO] 19:49:50:781 SWAmP/(30660:30660): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:49:50:799 SWAmP/(30660:30660): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:49:50:826 SWAmP/(30660:30660): ------2---------
+
+[INFO] 19:49:50:832 SWAmP/(30660:30660): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 19:49:50:835 SWAmP/(30660:30660): Finalizando programa...

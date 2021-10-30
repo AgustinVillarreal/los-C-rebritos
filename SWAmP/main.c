@@ -23,6 +23,7 @@ int main(){
     swamp_server = iniciar_servidor(logger, SERVERNAME, "0.0.0.0", puerto);
     free(puerto);
 
+
   	while(server_escuchar(SERVERNAME, swamp_server));
 
     liberar_conexion(&swamp_server);
