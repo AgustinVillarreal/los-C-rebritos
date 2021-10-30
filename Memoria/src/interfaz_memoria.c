@@ -7,7 +7,7 @@ int reservar_espacio_mp(int* size_stream, unsigned long id){
     
 
     //Probablemente habría que hacer validaciones antes
-    frame_t frame_libre = buscar_frame_ff();
+    // frame_t frame_libre = buscar_frame_ff();
 
     //Reservo ese cacho de memoria 
 

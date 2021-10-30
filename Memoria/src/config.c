@@ -91,7 +91,7 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     return 1;
 }
 
-static t_config_memoria* initialize_cfg(){
+t_config_memoria* initialize_cfg(){
 	t_config_memoria* cfg = malloc(sizeof(t_config_memoria));
     cfg->ALGORITMO_REEMPLAZO_MMU = NULL;
     cfg->TIPO_ASIGNACION = NULL;
@@ -104,16 +104,11 @@ static t_config_memoria* initialize_cfg(){
 	return cfg;
 }
 
-void init_mutex(){
-    pthread_mutex_init(&MUTEX_FRAME_OCUPADO, NULL);
-    pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
-}
-
 uint8_t init(){
-	MEMORIA_CFG = initialize_cfg();
 	logger = log_create("memoria.log", "memoria", true, LOG_LEVEL_INFO);
     //TODO: iniciar mutex aca 
-    init_mutex();
+    pthread_mutex_init(&MUTEX_FRAME_OCUPADO, NULL);
+    pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
     return 1;
 }
 

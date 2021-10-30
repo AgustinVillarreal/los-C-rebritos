@@ -24,7 +24,6 @@ typedef enum {
     HANDSHAKE_KERNEL,
     HANDSHAKE_MEMORIA,
     PONER_COLA_NEW,
-    MEM_ALLOC,
     MEM_FREE,
     MEM_READ,
     MEM_WRITE,
@@ -32,7 +31,7 @@ typedef enum {
     SEM_WAIT,
     SEM_POST,
     SEM_DESTROY,
-    FREE_CARPINCHO
+    FREE_CARPINCHO,
     HANDSHAKE_SWAMP,
     MEM_ALLOC,
     GUARDAR_SWAMP,
