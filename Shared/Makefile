@@ -38,3 +38,4 @@ uninstall:
 	sudo rm -rf /usr/include/shared
 
 .PHONY: all debug sources clean install uninstall
+

@@ -4,7 +4,7 @@ build-example-lib:
 	cd src && \
 	$(CC) -c -Wall -I"../include" -fpic utils.c && \
 	$(CC) -c -Wall -I"../include" -fpic matelib.c && \
-	$(CC) -shared matelib.o utils.o -o libmate.so && \
+	$(CC) -shared utils.o matelib.o -o libmate.so && \
 	rm *.o
 
 build-example: build-example-lib
@@ -15,3 +15,8 @@ run: build-example
 
 clean:
 	rm src/libmate.so example
+
+valgrind-example: build-example
+	LD_LIBRARY_PATH="src/" valgrind --leak-check=full --track-origins=yes ./example
+
+	

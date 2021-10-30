@@ -33,8 +33,65 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
-            case MEM_ALLOC:
-                send_memalloc(memoria_fd);
+
+            case PONER_COLA_NEW: ;
+                unsigned long id;
+                if(!recv(cliente_socket, &id, sizeof(long), 0)){
+                    log_info(logger, "Error recibiendo msj de encolamiento new");
+                    return;
+                }
+                carpincho_init(id);
+                if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
+                   log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                   free(server_name);
+                   return;
+                }
+                break;
+            
+            case SEM_INIT: ;
+                char * sem;
+                int value;
+                if(!recv_sem_init(cliente_socket, &sem, &value)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                int return_code = sem_init_carpincho(sem, value);
+                if (!send(cliente_socket, &return_code, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de sem init");
+                   free(server_name);
+                   return;
+                }
+                break;
+            case SEM_WAIT:
+                break;
+            case SEM_POST:
+                break;
+            case SEM_DESTROY:
+                break;
+
+            case MEM_ALLOC: ;
+                long id_carpincho;
+                int size_data;
+                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+                    send_memalloc(memoria_fd);
+                    send_alloc_data(memoria_fd,id_carpincho,size_data);
+                } else {
+                    //TODO
+                }
+                break;
+
+            case MEM_FREE:
+                send_memfree(memoria_fd);
+                break;
+            case MEM_READ:
+                send_memread(memoria_fd);
+                break;
+            case MEM_WRITE:
+                send_memwrite(memoria_fd);
+                break;
+
+            //TODO ver donde se libera
+            case FREE_CARPINCHO:
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

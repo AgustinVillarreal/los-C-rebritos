@@ -16,9 +16,16 @@ t_log_level log_string_enum(char* string){
   //Por defecto retorna LOG_LEVEL_INFO
 }
 
-void data_destroy(char *uno, char *dos, char *tres, t_config* cfg){
+void data_destroy(char *uno, char *dos, t_config* cfg){
   free(uno);
   free(dos);
-  free(tres);
   config_destroy(cfg);
+}
+
+unsigned long generate_id(){
+  struct timeval t;
+  unsigned long id;
+  gettimeofday(&t,NULL);
+  id = ((t.tv_sec * 1000 * 1000) + (t.tv_usec * 1000)) << 24;
+  return id;
 }

@@ -5,19 +5,21 @@
 #include <semaphore.h>
 #include <stdbool.h>
 #include <stdint.h>
+#include <time.h>
+#include <commons/log.h>
+#include "config.h"
+#include "colas.h"
 
-typedef struct {
-  uint32_t tid;
-} t_carpincho;
+extern t_log * logger;
 
-typedef struct {
-  t_carpincho* c;
-  pthread_t thread;
-  sem_t sem_pause;
-  bool blocked;
-} t_running_thread;
+//TODO ante la duda: extern
 
-void ejecutar_algoritmo_HRRN(t_running_thread* thread_data);
-void ejecutar_algoritmo_SJF(t_running_thread* thread_data);
+double HRRN(t_carpincho* carpincho);
+t_carpincho* minima_estimacion(t_carpincho* carpincho1, t_carpincho* carpincho2);
+t_carpincho* minimo_HRRN(t_carpincho* carpincho1, t_carpincho* carpincho2);
+void ejecutar_CPU(int numero_CPU);
+
+
 
 #endif
+
