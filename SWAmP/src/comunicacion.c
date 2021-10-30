@@ -36,7 +36,7 @@ static void procesar_conexion(void* void_args) {
 
             case GUARDAR_SWAMP:
             {
-                if (/* Aca va la funcion que rcibe la operacion de guardar en SWAmP */) {
+                if ( 1 /* Aca va la funcion que rcibe la operacion de guardar en SWAmP */) {
                    
                 }
                 else {
@@ -48,9 +48,8 @@ static void procesar_conexion(void* void_args) {
 
             case PEDIR_SWAMP:
             {
-                if (/* Aca va la funcion para recibir el pedido de memoria */) {
+                if (1/* Aca va la funcion para recibir el pedido de memoria */) {
                     
-                }
                 }
                 else {
                     log_error(logger, "Error recibiendo PEDIR_SWAMP en SWAmP");
@@ -83,7 +82,7 @@ int server_escuchar(char* server_name, int server_socket) {
         t_procesar_conexion_args* args = malloc(sizeof(t_procesar_conexion_args));
         args->fd = cliente_socket;
         args->server_name = server_name;
-        procesar_conexion();
+        procesar_conexion(args);
         return 1;
     }
     return 0;

@@ -12,7 +12,7 @@ t_list* areas_de_swap;
 
 uint8_t init() {
     cfg = initialize_cfg();
-    logger = log_create("mi-ram-hq.log", MODULENAME, false, LOG_LEVEL_INFO);
+    logger = log_create("swamp.log", MODULENAME, false, LOG_LEVEL_INFO);
     return 1;
 }
 
@@ -80,8 +80,8 @@ uint8_t cargar_configuracion(char* path) {
 
 char** obtener_lista_de_archivos_swap(){
 
-    char* substring = string_substring(cfg->ARCHIVOS_SWAP,1,string_length(cfg->ARCHIVOS_SWAP));
-    char** lista_paths = string_split(substring,",")
+    char* substring = string_substring(cfg->ARCHIVOS_SWAP,1,string_length(cfg->ARCHIVOS_SWAP)-2);
+    char** lista_paths = string_split(substring,",");
 
     free(substring);
 
@@ -97,7 +97,10 @@ uint32_t cantidad_de_archivos_swap(){
 
     for(int i = 0 ; lista[i] != NULL ; i++){
         cantidad_archivos ++;
+        free(lista[i]);
     }
+
+    free(lista);
 
     return cantidad_archivos;
 }
@@ -106,7 +109,7 @@ uint32_t cantidad_de_archivos_swap(){
 
 /* Crea los archivos de swap  */
 
-static bool cargar_swamp() {
+bool cargar_swamp() {
 
     uint32_t cantidad_archivos = cantidad_de_archivos_swap();
     char** lista_paths = obtener_lista_de_archivos_swap();
@@ -116,8 +119,8 @@ static bool cargar_swamp() {
 
     for(int i = 0; i < cantidad_archivos ; i++){
 
-        log_info(logger, "Creando archivos SWAP en <<%s>>", lista_path[i]);
-        int fd_swap = open(path, O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
+        log_info(logger, "Creando archivos SWAP en <<%s>>", lista_paths[i]);
+        int fd_swap = open(lista_paths[i], O_RDWR | O_CREAT, S_IRUSR | S_IWUSR);
 
         /* Tira error si no s epudo abrir crear el archivo swap */
         if (fd_swap == -1) {
@@ -132,7 +135,7 @@ static bool cargar_swamp() {
         void* area_swap = mmap(NULL, cfg->TAMANIO_SWAP, PROT_READ | PROT_WRITE, MAP_SHARED, fd_swap, 0);
         if (errno!=0) log_error(logger, "Error en mmap: errno %i", errno);
 
-        memset(area_swap, '/0', cfg->TAMANIO_SWAP);
+        memset(area_swap, '\0', cfg->TAMANIO_SWAP);
 
         list_add(areas_de_swap,area_swap);
 
@@ -140,6 +143,9 @@ static bool cargar_swamp() {
     
     }
 
+    for(int i = 0 ; i < cantidad_archivos ; i++){
+        free(lista_paths[i]);
+    }
     free(lista_paths);
     
     return true;
@@ -152,6 +158,8 @@ void cerrar_programa() {
    
     log_destroy(logger);
     list_destroy(areas_de_swap);
+    free(cfg->IP);
+    free(cfg->ARCHIVOS_SWAP);
     free(cfg);
-    finalizar_mutex();
+    //finalizar_mutex();
 }

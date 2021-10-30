@@ -33,4 +33,7 @@ bool send_handshake(int fd_server);
 bool send_memalloc(int fd_server);
 bool send_codigo_op(int fd, op_code cop);
 
+bool send_ack(int fd, bool ack);
+bool recv_ack(int fd, bool* ack);
+
 #endif

@@ -7,7 +7,7 @@
 #include <commons/log.h>
 #include <commons/config.h>
 #include <commons/string.h>
-#include <commons/list.h>
+#include <commons/collections/list.h>
 #include <string.h>
 #include <signal.h>
 #include <sys/mman.h>
@@ -29,19 +29,19 @@ typedef struct {
 
 
 
-static t_config_mrhq* initialize_cfg() {
-    t_config_mrhq* cfg = malloc(sizeof(t_config_mrhq));
+static t_config_swamp* initialize_cfg() {
+    t_config_swamp* cfg = malloc(sizeof(t_config_swamp));
     return cfg;
 }
 
-#include "../../shared/include/utils.h"
-#include "../../shared/include/sockets.h"
+#include "../../Shared/shared/utils.h"
+#include "../../Shared/shared/sockets.h"
 
 #define MODULENAME "SWAmP"
 
 uint8_t init();                 // inicializa loger, cfg, y semaforos
 uint8_t cargar_configuracion(); // carga cfg en strut cfg
-uint8_t cargar_swamp();       // Init de segmentos_libres
+bool cargar_swamp();       // Init de segmentos_libres
 
 void cerrar_programa();
 int server_escuchar(char*, int);
