@@ -42,6 +42,13 @@ int main(){
 		return EXIT_FAILURE;
 	}
 
+	if(!send_handshake(swap_fd)){
+		cerrar_programa(logger,MEMORIA_CFG);
+		printf("Falle :(");
+		return EXIT_FAILURE;
+	}
+	
+
 	while(server_escuchar(SERVERNAME, memoria_server));
 
 	liberar_conexion(&memoria_server);

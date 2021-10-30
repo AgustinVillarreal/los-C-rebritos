@@ -1,6 +1,6 @@
 #include "../include/monitor_memoria.h"
 
-extern t_config_memoria*  MEMORIA_CFG;
+extern t_config_memoria* MEMORIA_CFG;
 
 // uint32_t buscar_first_fit(int size){
 //     int i=0,aux=0,primer_pos_libre;

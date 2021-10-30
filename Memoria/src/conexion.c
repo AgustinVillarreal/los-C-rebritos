@@ -10,7 +10,7 @@ bool generar_conexion(int* swap_fd, t_config_memoria* memoria_cfg){
 		log_destroy(logger);
 		return EXIT_FAILURE;
 	}
-	return 0;
+	return 1;
 
 }
 

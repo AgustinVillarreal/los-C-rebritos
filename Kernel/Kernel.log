@@ -102,3 +102,17 @@
 [INFO] 18:25:51:341 Kernel/(8846:8849): -----------------------------SE TODO HRRN-------------------------
 
 [INFO] 18:25:51:425 Kernel/(8846:8889): DISCONNECT!
+[INFO] 17:03:17:141 Kernel/(25227:25227): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:03:17:202 Kernel/(25227:25227): ------2---------
+
+[INFO] 17:03:17:205 Kernel/(25227:25227): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 17:08:06:646 Kernel/(25678:25678): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:08:06:709 Kernel/(25678:25678): ------2---------
+
+[INFO] 17:08:06:713 Kernel/(25678:25678): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[ERROR] 17:11:00:206 Kernel/(25900:25900): Error al conectar (a Server)
+

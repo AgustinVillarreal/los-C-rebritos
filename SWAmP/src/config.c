@@ -12,7 +12,7 @@ t_list* areas_de_swap;
 
 uint8_t init() {
     cfg = initialize_cfg();
-    logger = log_create("swamp.log", MODULENAME, false, LOG_LEVEL_INFO);
+    logger = log_create("swamp.log", MODULENAME, true, LOG_LEVEL_INFO);
     return 1;
 }
 
