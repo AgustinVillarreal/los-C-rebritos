@@ -122,7 +122,7 @@ bool recv_ack(int fd, bool* ack) {
 
 //SWAmP
 
-/* A implementar */
+/* TODO: A implementar */
 
 bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data){
   return true;

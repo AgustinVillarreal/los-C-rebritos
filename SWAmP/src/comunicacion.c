@@ -34,35 +34,55 @@ static void procesar_conexion(void* void_args) {
                 log_info(logger, "Me llego el HANDSHAKE con MEMORIA!");
                 break;
 
-            case GUARDAR_SWAMP:
+            case ESCRITURA_SWAMP:
             {
                 long carpincho_id;
                 uint32_t nro_pagina;
                 void* data;
-                
-                if (recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data)) {
-                    /* Tengo que recibir los datos del carpicho, el numero de pagina, el dato y el tamanio de lo que quiero guardar  */
-                    /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
+                bool asigancion_fija;
+
+                if (recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data, &asigancion_fija)) {
+                    if(asigancion_fija){
+                        proceder_asignacion_fija();
+                    }
+                    else{
+                        porceder_asignacion_global();
+                    }
                 }
                 else {
-                    log_error(logger, "Error guardando en SWAmP");
+                    log_error(logger, "Error ESCRITURA en SWAmP");
                     send_ack(cliente_socket, false);
                 }
                 break;
             }
 
-            case PEDIR_SWAMP:
+            case LECTURA_SWAMP:
             {
                 long carpincho_id;
                 uint32_t nro_pagina;
                 void* data;
+                bool asigancion_fija;
 
-                if (recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data)) {
+                if (recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data, &asignacion_fija)) {
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                 }
                 else {
-                    log_error(logger, "Error recibiendo PEDIR_SWAMP en SWAmP");
+                    log_error(logger, "Error LECTURA en SWAmP");
+                    send_ack(cliente_socket, false);
+                }
+                break;
+            }
+
+            case FINALIZAR_CARPINCHO:
+            {
+    
+
+                if ( 1/* recv_id(cliente_socket, &carpincho_id) */) {
+                    
+                }
+                else {
+                    log_error(logger, "Error recibiendo FINALIZAR_CARPINCHO en SWAmP");
                     send_ack(cliente_socket, false);
                 }
                 break;
