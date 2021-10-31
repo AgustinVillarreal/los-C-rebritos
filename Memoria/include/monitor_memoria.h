@@ -13,11 +13,17 @@
 
 extern uint32_t memoria_disponible;
 extern void* memoria_principal;
- 
 
-uint32_t buscar_first_fit();
+pthread_mutex_t MUTEX_TLB_BUSY;
+pthread_mutex_t MUTEX_FRAME_BUSY;
+pthread_mutex_t MUTEX_MP_BUSY;
+
+
 uint32_t cant_frames_libres();
 uint32_t cant_paginas(uint32_t size, size_t* rem);
+uint32_t primer_frame_libre_framo(uint32_t pid, uint32_t* inicio);
+void mutex_init();
+
 
 
 

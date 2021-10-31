@@ -42,12 +42,9 @@ static void procesar_conexion(void* void_args){
                 bool ret_code;
 
                 if(recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
-                //En MP
-                //Necestio un HeapMetaData ---> 9bytes
-                //Necesito el size que piden ---> n size_data
-                //TODO: Poner un hmd al principio o al final
-                uint32_t size_stream =  sizeof(hmd_t) * 2 + size_data;    
-                //Primero deberia ver si entra o no entra en la mp 
+                    
+                    size_t size_stream =  sizeof(hmd_t) + size_data;    
+                    //Primero deberia ver si entra o no entra en la mp 
                     if(entra_en_mp(size_stream)){
                         pthread_mutex_lock(&MUTEX_MP_BUSY);
                         ret_code = reservar_espacio_mp(size_stream, id_carpincho); 
@@ -67,10 +64,19 @@ static void procesar_conexion(void* void_args){
                     break;
                 break;
             case MEM_FREE: 
+                // if(esta_en_tlb(id_carpincho)){
+                //         //TODO: utilizar la pagina de la tlb, RECORDAR MUTEEEEEEEEEX
+                //     } else {
+                //         //Significa que hubo un TLB miss 
+                        
+
+                //         //TODO: Traer la pagina utilizada a la TLB
+                //     }
                 if(!liberar_espacio_mp(dir_logic_ini, size)) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
                     break;
                 }
+                
                 log_info(logger,"LIBERADO PADRE");
                 break;
             case MEM_READ: 

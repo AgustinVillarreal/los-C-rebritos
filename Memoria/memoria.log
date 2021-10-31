@@ -93,3 +93,24 @@
 
 [INFO] 17:11:12:657 memoria/(25979:25979): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
 
+[INFO] 17:26:49:016 memoria/(26587:26587): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:26:49:090 memoria/(26587:26587): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:26:49:094 memoria/(26587:26587): ------2---------
+
+[INFO] 17:26:49:097 memoria/(26587:26587): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:27:46:212 memoria/(26668:26668): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:27:46:286 memoria/(26668:26668): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:27:46:292 memoria/(26668:26668): ------2---------
+
+[INFO] 17:27:46:294 memoria/(26668:26668): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:47:05:024 memoria/(19013:19013): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:47:05:102 memoria/(19013:19013): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:47:05:107 memoria/(19013:19013): ------2---------
+
+[INFO] 18:47:05:108 memoria/(19013:19013): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+

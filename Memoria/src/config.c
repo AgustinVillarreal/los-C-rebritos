@@ -1,6 +1,11 @@
 #include "../include/config.h"
 
-extern t_log* logger;
+uint32_t memoria_disponible;
+frame_t* tabla_frames;
+uint32_t global_TUR;
+void* memoria_principal;
+t_log* logger;
+t_list* tp_carpinchos;
 
 void cerrar_programa(t_log* logger, t_config_memoria* cfg){
     log_destroy(logger);
@@ -13,6 +18,7 @@ void cerrar_programa(t_log* logger, t_config_memoria* cfg){
     free(cfg->IP_SWAP);
     free(cfg->PUERTO_SWAP);
     free(cfg);
+    destroy_memory_structs();
 
   //TODO Destruir colas e hilos
   
@@ -67,21 +73,21 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     config->CANT_PAGINAS = config->TAMANIO / config->TAMANIO_PAGINA;
 
     if(!strcmp(config->ALGORITMO_REEMPLAZO_MMU, "CLOCK-M")){
-        algoritmo_reemplazo_mmu = algoritmo_mmu_clock_m;
+        config->LRU_MMU=false;
     } else {
-        algoritmo_reemplazo_mmu = algoritmo_mmu_lru;
+        config->LRU_MMU=true;
     }
 
     if(!strcmp(config->ALGORITMO_REEMPLAZO_TLB, "FIFO")){
-        algoritmo_reemplazo_tlb = algoritmo_tlb_fifo;
+        config->LRU_TLB=false;
     } else {
-        algoritmo_reemplazo_tlb = algoritmo_tlb_lru;
+        config->LRU_TLB=true;
     }
 
     if(!strcmp(config->TIPO_ASIGNACION, "FIJA")){
-        tipo_asignacion = asignacion_fija;
+        config->FIJA = true;
     } else {
-        tipo_asignacion = asignacion_global;
+        config->FIJA = false;
     }
 
     log_info(logger,"CONFIGURACION CARGADA EXITOSAMENTE");
@@ -106,9 +112,8 @@ t_config_memoria* initialize_cfg(){
 
 uint8_t init(){
 	logger = log_create("memoria.log", "memoria", true, LOG_LEVEL_INFO);
-    //TODO: iniciar mutex aca 
-    pthread_mutex_init(&MUTEX_FRAME_OCUPADO, NULL);
-    pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
+    mutex_init();
+    init_memory_structs();
     return 1;
 }
 

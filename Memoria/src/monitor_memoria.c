@@ -1,6 +1,9 @@
 #include "../include/monitor_memoria.h"
 
 extern t_config_memoria* MEMORIA_CFG;
+extern frame_t* tabla_frames;
+
+
 
 // uint32_t buscar_first_fit(int size){
 //     int i=0,aux=0,primer_pos_libre;
@@ -19,14 +22,21 @@ extern t_config_memoria* MEMORIA_CFG;
 //     return NULL;
 // }
 
+void mutex_init(){
+    //TODO: iniciar mutex aca 
+    pthread_mutex_init(&MUTEX_FRAME_BUSY, NULL);
+    pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
+    return;
+}
+
 uint32_t cant_frames_libres() {
     uint32_t libres = 0;
-    pthread_mutex_lock(&MUTEX_FRAME_OCUPADO);
+    pthread_mutex_lock(&MUTEX_FRAME_BUSY);
     for (uint32_t i = 0; i < MEMORIA_CFG->CANT_PAGINAS; i++) {
         if (tabla_frames[i].libre == 1)
             libres++;
     }
-    pthread_mutex_unlock(&MUTEX_FRAME_OCUPADO);
+    pthread_mutex_unlock(&MUTEX_FRAME_BUSY);
     return libres;
 }
 
@@ -36,8 +46,25 @@ uint32_t cant_paginas(uint32_t size, size_t* rem){
     return (*rem) ? size/t_pag + 1 : size/t_pag;
 }
 
-frame_t buscar_frame_ff(){
-    
+uint32_t primer_frame_libre_framo(uint32_t pid, uint32_t* inicio) {
+    uint32_t primero_vacio = 0xFFFF;
+
+    pthread_mutex_lock(&MUTEX_FRAME_BUSY);
+    for (uint32_t i = 0; i < MEMORIA_CFG->CANT_PAGINAS; i++) {
+        if (primero_vacio == 0xFFFF && tabla_frames[i].libre)
+            primero_vacio = i;
+
+        if (tabla_frames[i].amedias && (tabla_frames[i].pid_ocupador == pid)) {
+            pthread_mutex_unlock(&MUTEX_FRAME_BUSY);
+
+            *inicio = tabla_frames[i].inicio_hueco;
+            return i;
+        }
+    }
+    pthread_mutex_unlock(&MUTEX_FRAME_BUSY);
+
+    *inicio = 0;
+    return primero_vacio;
 }
 
 void* algoritmo_mmu_clock_m (){

@@ -21,18 +21,27 @@ typedef struct {
     uint32_t nro_pagina;
 } tlb_t;
 
+//TODO: Struct para poder administrar los carpinchos con sus tablas
+typedef struct {
+    unsigned long id_carpincho;
+    uint32_t pages;
+    t_list* paginas;
+} tp_carpincho_t;
+
+typedef struct {
+        uint16_t bit_U;     // bit de uso
+        uint16_t bit_M;    // bit de modificación
+} clock_m_t;
+
 typedef struct {
     uint32_t nro_pagina;    
     uint32_t nro_frame;     
     union {
-        struct {
-            uint32_t bit_U;     // bit de uso
-            uint32_t bit_M;    // bit de modificación
-        };
-        uint64_t TUR;      // tiempo de ultima referencia, LRU
+        clock_m_t* clock_m;
+        uint32_t TUR;      // tiempo de ultima referencia, LRU
     };
     bool bit_P; // bit de presencia
-} tablaPaginas_t;
+} entrada_tp_t;
 
 
 #endif
