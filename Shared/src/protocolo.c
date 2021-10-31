@@ -119,3 +119,14 @@ bool recv_ack(int fd, bool* ack) {
     free(stream);
     return true;
 }
+
+//SWAmP
+
+/* A implementar */
+
+bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data){
+  return true;
+}
+bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data){
+  return true;
+}

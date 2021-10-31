@@ -36,8 +36,12 @@ static void procesar_conexion(void* void_args) {
 
             case GUARDAR_SWAMP:
             {
-                if ( 1 /* Aca va la funcion que rcibe la operacion de guardar en SWAmP */) {
-                   /* Tengo que recibir los datos del carpicho, el numero de pagina, el dato y el tamanio de lo que quiero guardar  */
+                long carpincho_id;
+                uint32_t nro_pagina;
+                void* data;
+                
+                if (recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data)) {
+                    /* Tengo que recibir los datos del carpicho, el numero de pagina, el dato y el tamanio de lo que quiero guardar  */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                 }
                 else {
@@ -49,13 +53,17 @@ static void procesar_conexion(void* void_args) {
 
             case PEDIR_SWAMP:
             {
-                
-                if (1/* Aca va la funcion para recibir el pedido de memoria */) {
+                long carpincho_id;
+                uint32_t nro_pagina;
+                void* data;
+
+                if (recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data)) {
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
-                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
+                    /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                 }
                 else {
                     log_error(logger, "Error recibiendo PEDIR_SWAMP en SWAmP");
+                    send_ack(cliente_socket, false);
                 }
                 break;
             }

@@ -1,16 +1,22 @@
 #include "../include/manejo_swamp.h"
 
-extern t_config_swamp* cfg
+extern t_config_swamp* cfg;
+extern t_list* areas_de_swap;
 
-uint23_t cantidad_de_espacio_swamp_libre(void* swamp){
 
-    uint23_t cant = 0;
+
+/*   Hay un leak de memoria */
+
+uint32_t cantidad_de_espacio_swamp_libre(void* swamp){
+
+    uint32_t cant = 0;
 
     for(int i = 0 ; i < cfg->TAMANIO_SWAP; i++){   
-        if(swamp[i] == '\0'){
+        if(((char*)swamp)[i] == '\0'){
             cant++;
         }
     }
+
     return cant;
 }
 

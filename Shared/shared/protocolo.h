@@ -44,11 +44,11 @@ bool send_memalloc(int fd_server);
 bool send_memwrite(int fd_server);
 bool send_memread(int fd_server);
 bool send_memfree(int fd_server);
-bool send_ack(int fd, bool ack);
 
 bool send_codigo_op(int fd, op_code cop);
 
 bool send_alloc_data(int fd, unsigned long id, int size);
+bool recv_alloc_data(int fd, long* id_carpincho, int* size_data);
 
 bool send_poner_cola_new(int fd);
 bool send_data_cola_new(int fd, unsigned long id);
@@ -65,5 +65,11 @@ bool send_probar_en_swamp(uint32_t size, unsigned long id);
 
 bool send_ack(int fd, bool ack);
 bool recv_ack(int fd, bool* ack);
+
+
+//SWAmP
+
+bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data);
+bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data);
 
 #endif

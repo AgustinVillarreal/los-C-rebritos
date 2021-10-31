@@ -11,6 +11,7 @@
 #include <semaphore.h>
 
 #include "config.h"
+#include "manejo_swamp.h"
 #include "../../Shared/shared/utils.h"
 #include "../../Shared/shared/sockets.h"
 #include "../../Shared/shared/protocolo.h"

@@ -158,11 +158,11 @@ bool cargar_swamp() {
 }
 
 
+ void destruir_tabla(t_list* lista){
+    list_destroy(lista);
+}
+
 void free_tabla_de_frames(){
-    
-    void destruir_tabla(t_list* lista){
-        list_destroy(lista);
-    }
 
     list_destroy_and_destroy_elements(tablas_de_frames_swap, (void*)destruir_tabla);
 
