@@ -65,14 +65,14 @@ int mate_init (mate_instance *lib_ref, char *config){
 			log_destroy(logger);
 			return EXIT_FAILURE;
 		}
+		if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
+			log_error(logger, "Error en la espera de poner en exec");
+			data_destroy(IP, PUERTO, cfg);
+			log_destroy(logger);
+			return EXIT_FAILURE;
+		}
 	}
 	
-	if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
-		log_error(logger, "Error en la espera de poner en exec");
-		data_destroy(IP, PUERTO, cfg);
-		log_destroy(logger);
-		return EXIT_FAILURE;
-	}
 
 	data_destroy(IP, PUERTO, cfg);
 	return 0;

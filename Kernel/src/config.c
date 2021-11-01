@@ -24,6 +24,7 @@ void cerrar_programa(t_log* logger, t_config_kernel* cfg){
 void destruir_dispositivo(void* disp_void){
   t_dispositivo_io* disp = disp_void;
   free(disp->nombre);
+  sem_destroy(&disp->sem);
   free(disp);
 }
  
@@ -97,6 +98,7 @@ t_list* extraer_dispositivos(char** str_dispositivos, char** str_duraciones) {
       t_dispositivo_io* disp = malloc(sizeof(t_dispositivo_io));
       disp->nombre = strdup(str_dispositivos[i]);
       disp->duracion = atoi(str_duraciones[i]);
+      sem_init(&disp->sem, 0, 1);
       list_add(lista, disp);
       i++;
     }

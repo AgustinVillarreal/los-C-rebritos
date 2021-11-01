@@ -33,6 +33,7 @@ typedef struct {
 typedef struct {
     char* nombre;
     int duracion;
+    sem_t sem;
 } t_dispositivo_io;
 
 typedef struct {

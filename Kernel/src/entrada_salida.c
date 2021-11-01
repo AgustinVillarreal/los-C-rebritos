@@ -12,7 +12,8 @@ int procesar_entrada_salida(t_carpincho* carpincho, char* io, char* msg){
     t_dispositivo_io* dispositivo = list_find(KERNEL_CFG->DISPOSITIVOS_IO, es_dispositivo);
     if(dispositivo == NULL){
         return 0;
-    }	        
+    }
+    sem_wait(&dispositivo->sem);
     sleep(dispositivo->duracion / 1000);
     if(existe_en_lista_blocked(carpincho)){
         remove_lista_blocked(carpincho);
@@ -21,5 +22,6 @@ int procesar_entrada_salida(t_carpincho* carpincho, char* io, char* msg){
         remove_lista_suspended_blocked(carpincho);
         push_cola_suspended_ready(carpincho);
     }
+    sem_post(&dispositivo->sem);
     return 1;
 }
