@@ -43,11 +43,11 @@ uint8_t cargar_configuracion(t_config_kernel* config){
     "ALGORITMO_PLANIFICACION",
     "DISPOSITIVOS_IO",
     "DURACIONES_IO",
-    "RETARDO_CPU",
     "GRADO_MULTIPROGRAMACION",
     "GRADO_MULTIPROCESAMIENTO",
     "ESTIMACION_INICIAL",
     "ALFA",
+    "TIEMPO_DEADLOCK",
     NULL
   };
 
@@ -71,12 +71,13 @@ uint8_t cargar_configuracion(t_config_kernel* config){
   config_free_array_value(&dispositivos_IO);
   config_free_array_value(&duraciones_IO);
 
-  config->RETARDO_CPU = config_get_int_value(cfg, "RETARDO_CPU");
   config->GRADO_MULTIPROGRAMACION = config_get_int_value(cfg, "GRADO_MULTIPROGRAMACION");
   config->GRADO_MULTIPROCESAMIENTO = config_get_int_value(cfg, "GRADO_MULTIPROCESAMIENTO");
 
   config->ESTIMACION_INICIAL = config_get_int_value(cfg, "ESTIMACION_INICIAL");
   config->ALFA = config_get_double_value(cfg, "ALFA");
+
+  config->TIEMPO_DEADLOCK = config_get_int_value(cfg, "TIEMPO_DEADLOCK");
 
   if(!strcmp(config->ALGORITMO_PLANIFICACION, "SJF")){
 		obtener_carpincho=obtener_carpincho_SJF;

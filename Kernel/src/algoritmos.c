@@ -35,7 +35,7 @@ double HRRN(t_carpincho* carpincho){
 
 void ejecutar_CPU(int numero_CPU){
 	while(1){
-		// sleep(10);
+		// TODO ver si los waits funcionan al reves, deberia ser lo correcto
 		sem_wait(&SEM_CANTIDAD_EN_READY);
 		sem_wait(&SEM_CPUs[numero_CPU]);		
 		

@@ -22,7 +22,7 @@ void iniciar_mutex(int grado_multiprogramacion){
   sem_init(&SEM_GRADO_MULTIPROGRAMACION,0, grado_multiprogramacion);
   sem_init(&SEM_CANTIDAD_A_READY, 0, 0);
   sem_init(&SEM_CANTIDAD_EN_READY, 0, 0);
-  sem_init(&SEM_CARPINCHO_BLOCKED, 0, 0);
+  sem_init(&SEM_CARPINCHO_SUSPENCION, 0, 0);
   
 }
 
@@ -70,7 +70,7 @@ void push_cola_new(t_carpincho* carpincho){
   queue_push(COLA_NEW, carpincho);
   pthread_mutex_unlock(&MUTEX_LISTA_NEW);
   sem_post(&SEM_CANTIDAD_A_READY);   
-  sem_post(&SEM_CARPINCHO_BLOCKED);   
+  sem_post(&SEM_CARPINCHO_SUSPENCION);   
 }
 
 t_carpincho* pop_cola_new(){
@@ -166,6 +166,7 @@ void add_lista_blocked(t_carpincho* carpincho){
   list_add(LISTA_BLOCKED, carpincho);
   pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);  
   carpincho->ultima_estimacion = calcular_estimacion(carpincho);
+  sem_post(&SEM_CARPINCHO_SUSPENCION);     
   return;
 }
 
@@ -225,10 +226,11 @@ void remove_lista_suspended_blocked(t_carpincho* carpincho){
   return;
 }
 
-// COSAS DE COLA NEW 
+// COSAS DE COLA EXIT
 
 void push_cola_exit(t_carpincho* carpincho){
   pthread_mutex_lock(&MUTEX_LISTA_EXIT);
   queue_push(COLA_EXIT, carpincho);
   pthread_mutex_unlock(&MUTEX_LISTA_EXIT);
+  sem_post(&SEM_GRADO_MULTIPROGRAMACION);
 }

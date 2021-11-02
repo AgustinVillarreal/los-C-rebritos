@@ -69,6 +69,13 @@ int main(){
         return EXIT_FAILURE;
     }
 
+    pthread_t LISTENER_DEADLOCK;
+    if(!pthread_create(&LISTENER_DEADLOCK, NULL, (void*)listener_deadlock, NULL)){
+        pthread_detach(LISTENER_DEADLOCK);
+    } else {
+        cerrar_programa(logger, KERNEL_CFG);
+        return EXIT_FAILURE;
+    }
 
     while (server_escuchar(SERVERNAME, kernel_server, memoria_fd));
 

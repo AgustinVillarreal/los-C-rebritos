@@ -30,7 +30,7 @@ sem_t SEM_CANTIDAD_A_READY;
 //TODO: Signal en block y de new a ready
 sem_t SEM_CANTIDAD_EN_READY;
 
-sem_t SEM_CARPINCHO_BLOCKED;
+sem_t SEM_CARPINCHO_SUSPENCION;
 
 t_queue* COLA_NEW;
 t_queue* COLA_READY;

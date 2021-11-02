@@ -21,11 +21,11 @@ typedef struct {
     char* PUERTO_MEMORIA;
     char* ALGORITMO_PLANIFICACION;
     t_list* DISPOSITIVOS_IO;
-    uint16_t RETARDO_CPU;
     uint16_t GRADO_MULTIPROGRAMACION;
     uint16_t GRADO_MULTIPROCESAMIENTO;
     uint16_t ESTIMACION_INICIAL;
     double ALFA;
+    uint16_t TIEMPO_DEADLOCK;
 
     int MEMORIA_FD;
 } t_config_kernel;
