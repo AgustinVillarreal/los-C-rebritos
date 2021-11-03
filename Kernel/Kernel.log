@@ -116,3 +116,16 @@
 
 [ERROR] 17:11:00:206 Kernel/(25900:25900): Error al conectar (a Server)
 
+[INFO] 15:37:31:165 Kernel/(5195:5195): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:37:31:225 Kernel/(5195:5195): ------2---------
+
+[INFO] 15:37:31:228 Kernel/(5195:5195): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:37:41:908 Kernel/(5195:5195): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:37:41:992 Kernel/(5195:5340): HANDSHAKE
+[INFO] 15:37:42:065 Kernel/(5195:5199): pase una vez 1
+[INFO] 15:37:42:068 Kernel/(5195:5199): -----------------------------SE TODO HRRN-------------------------
+
+[ERROR] 15:37:42:129 Kernel/(5195:5340): Algo anduvo mal en el server de Kernel

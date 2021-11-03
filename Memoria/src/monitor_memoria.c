@@ -26,6 +26,7 @@ void mutex_init(){
     //TODO: iniciar mutex aca 
     pthread_mutex_init(&MUTEX_FRAME_BUSY, NULL);
     pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
+    mutex_init_tablas();
     return;
 }
 
@@ -46,25 +47,18 @@ uint32_t cant_paginas(uint32_t size, size_t* rem){
     return (*rem) ? size/t_pag + 1 : size/t_pag;
 }
 
-uint32_t primer_frame_libre_framo(uint32_t pid, uint32_t* inicio) {
-    uint32_t primero_vacio = 0xFFFF;
+uint32_t primer_frame_libre_framo(uint32_t pid, uint32_t* inicio, t_list* tp_carp) {
+    /*uint32_t primero_vacio = 0xFFFF;
+    pthread_mutex_lock(&MUTE)
+    for(uint32_t i = 0; i < list_size(tp_carp); i++){
+        entrada_tp_t entrada_tabla = (entrada_tp_t) list_get(tp_carp, i);
 
-    pthread_mutex_lock(&MUTEX_FRAME_BUSY);
-    for (uint32_t i = 0; i < MEMORIA_CFG->CANT_PAGINAS; i++) {
-        if (primero_vacio == 0xFFFF && tabla_frames[i].libre)
-            primero_vacio = i;
-
-        if (tabla_frames[i].amedias && (tabla_frames[i].pid_ocupador == pid)) {
-            pthread_mutex_unlock(&MUTEX_FRAME_BUSY);
-
-            *inicio = tabla_frames[i].inicio_hueco;
-            return i;
-        }
     }
-    pthread_mutex_unlock(&MUTEX_FRAME_BUSY);
+    pthread_mutex_unlock()
+
 
     *inicio = 0;
-    return primero_vacio;
+    return primero_vacio;*/
 }
 
 void* algoritmo_mmu_clock_m (){

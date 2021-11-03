@@ -17,7 +17,7 @@ t_list* TLB_TABLE;
 bool entra_en_mp(uint32_t size_stream); 
 bool esta_en_tlb(unsigned long id_carpincho);
 void init_memory_structs();
-uint32_t alloc_carpincho_en_mp(size_t size, unsigned long pid, bool* nuevapag);
+uint32_t alloc_carpincho_en_mp(size_t size, unsigned long pid, t_list* tp_carp, bool* nuevapag);
 static bool meter_pagina_en_mp(size_t size, unsigned long pid, uint32_t iter, bool offset);
 
 

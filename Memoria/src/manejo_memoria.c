@@ -17,8 +17,11 @@ bool esta_en_tlb(unsigned long id_carpincho){
     return false;
 }
 
-uint32_t alloc_carpincho_en_mp(size_t size, unsigned long pid, bool* nuevapag) {
-    log_info(logger, "Agregando data (size %zu) a patota PID#%" PRIu32 " en memoria", size, pid);
+uint32_t alloc_carpincho_en_mp(size_t size, unsigned long pid, t_list* tp_carp, bool* nuevapag){
+
+    //AGUANTE TP_CARP RIVER PLATE PASION <3
+
+    log_info(logger, "Agregando data (size %zu) a carpincho id# %lu en memoria", size, pid);
     uint32_t t_pag = MEMORIA_CFG->TAMANIO_PAGINA;
 
     // Data de la primera pag libre, para saber si esta por la mitad o que
@@ -27,12 +30,10 @@ uint32_t alloc_carpincho_en_mp(size_t size, unsigned long pid, bool* nuevapag) {
     //print_tppatotas(true); // debug
 
     uint32_t offset = 0;
-    uint32_t frame_de_pag_fragmentada = primer_frame_libre_framo(pid, &offset);
+    uint32_t frame_de_pag_fragmentada = primer_frame_libre_framo(pid, &offset, tp_carp);
     //log_info(logger, "Encontre el %" PRIu32, frame_de_pag_fragmentada);
     if (frame_de_pag_fragmentada == 0xFFFF) {
-
         //TODO: aca se lo paso a pitu
-
     }
     *nuevapag = offset==0; // SIGNIFICA QUE INAUGURA UNA NUEVA PAGINA
 

@@ -16,6 +16,12 @@ static void procesar_conexion(void* void_args){
     // Mientras la conexion este abierta
     op_code cop;
 
+    //Tabla del carpincho que se conecta
+    t_list* TABLA_CARPINCHO = list_create();
+    list_add(TABLA_CARPINCHO, 1);
+    log_info(logger, "----------------------%d---------------\n", list_get(TABLA_CARPINCHO, 0));
+
+
     // TODO VER DONDE VA ESTO
     char* dir_logic_ini;
     int* size;
@@ -37,24 +43,14 @@ static void procesar_conexion(void* void_args){
                log_info(logger, "HANDSHAKE");
                break;
             case MEM_ALLOC: ;
-                long id_carpincho;
+                unsigned long id_carpincho;
                 uint32_t size_data;
                 bool ret_code;
 
                 if(recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
-                    
-                    size_t size_stream =  sizeof(hmd_t) + size_data;    
-                    //Primero deberia ver si entra o no entra en la mp 
-                    if(entra_en_mp(size_stream)){
-                        pthread_mutex_lock(&MUTEX_MP_BUSY);
-                        ret_code = reservar_espacio_mp(size_stream, id_carpincho); 
-                        pthread_mutex_unlock(&MUTEX_MP_BUSY);                                   
-                    }  else {
-                        /*
-                        ret_code = send_probar_en_swamp(size_stream, id_carpincho);
-                        */
-                    }
-
+                    /*
+                    ret_code = allocar_carpincho(TABLA_CARPINCHO, id_carpincho, size_data);
+                    */
                     if(!ret_code){
                         log_error(logger, "Error al allocar un espacio\n");
                         break;

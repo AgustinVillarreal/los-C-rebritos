@@ -5,7 +5,6 @@ frame_t* tabla_frames;
 uint32_t global_TUR;
 void* memoria_principal;
 t_log* logger;
-t_list* tp_carpinchos;
 
 void cerrar_programa(t_log* logger, t_config_memoria* cfg){
     log_destroy(logger);
@@ -128,11 +127,11 @@ uint8_t cargar_memoria(t_config_memoria* cfg) {
 
     global_TUR = 0;
         
-        tp_carpinchos = list_create();
-        if (tp_carpinchos == NULL) {
-            log_error(logger, "Fallo creando tp_carpinchos");
-            return 0;
-        }
+        // tp_carpinchos = list_create();
+        // if (tp_carpinchos == NULL) {
+        //     log_error(logger, "Fallo creando tp_carpinchos");
+        //     return 0;
+        // }
 
         tabla_frames = malloc(cfg->CANT_PAGINAS * sizeof(frame_t));
         if (tabla_frames == NULL) {

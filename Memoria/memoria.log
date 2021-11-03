@@ -114,3 +114,26 @@
 
 [INFO] 18:47:05:108 memoria/(19013:19013): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
 
+[INFO] 18:00:42:678 memoria/(6024:6024): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 18:00:42:758 memoria/(6024:6024): Error al conectar (a Server)
+
+[INFO] 18:01:10:155 memoria/(6240:6240): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:01:10:227 memoria/(6240:6240): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:01:10:235 memoria/(6240:6240): ------2---------
+
+[INFO] 18:01:10:238 memoria/(6240:6240): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:37:18:199 memoria/(5129:5129): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:37:18:271 memoria/(5129:5129): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:37:18:274 memoria/(5129:5129): ------2---------
+
+[INFO] 15:37:18:276 memoria/(5129:5129): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:37:31:152 memoria/(5129:5129): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:37:31:171 memoria/(5129:5196): ----------------------1---------------
+
+[INFO] 15:37:42:077 memoria/(5129:5196): ESCRITO JEFE
+[INFO] 15:38:02:076 memoria/(5129:5196): DISCONNECT!

@@ -21,7 +21,7 @@ pthread_mutex_t MUTEX_MP_BUSY;
 
 uint32_t cant_frames_libres();
 uint32_t cant_paginas(uint32_t size, size_t* rem);
-uint32_t primer_frame_libre_framo(uint32_t pid, uint32_t* inicio);
+uint32_t primer_frame_libre_framo(uint32_t pid, uint32_t* inicio, t_list* tp_carp);
 void mutex_init();
 
 
