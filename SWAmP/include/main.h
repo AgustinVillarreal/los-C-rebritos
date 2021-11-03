@@ -9,6 +9,7 @@
 #include <curses.h>
 #include <signal.h>
 #include <semaphore.h>
+#include <commons/memory.h>
 
 #include "config.h"
 #include "manejo_swamp.h"

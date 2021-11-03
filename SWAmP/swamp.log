@@ -362,3 +362,38 @@
 
 [INFO] 12:45:24:428 SWAmP/(6148:6148): Escuchando en 0.0.0.0:5005 (SWAmP)
 
+[INFO] 15:14:34:048 SWAmP/(8633:8633): Archivo de configuracion cargado correctamente
+[INFO] 15:14:34:425 SWAmP/(8633:8633): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:14:34:465 SWAmP/(8633:8633): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:14:34:497 SWAmP/(8633:8633): ------2---------
+
+[INFO] 15:14:34:508 SWAmP/(8633:8633): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:17:33:126 SWAmP/(3384:3384): Archivo de configuracion cargado correctamente
+[INFO] 15:17:33:202 SWAmP/(3384:3384): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:17:33:237 SWAmP/(3384:3384): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:17:33:259 SWAmP/(3384:3384): ------2---------
+
+[INFO] 15:17:33:263 SWAmP/(3384:3384): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:17:54:935 SWAmP/(3507:3507): Archivo de configuracion cargado correctamente
+[INFO] 15:17:55:019 SWAmP/(3507:3507): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:17:55:034 SWAmP/(3507:3507): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:17:55:060 SWAmP/(3507:3507): ------2---------
+
+[INFO] 15:17:55:074 SWAmP/(3507:3507): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:18:40:700 SWAmP/(3692:3692): Archivo de configuracion cargado correctamente
+[INFO] 15:18:40:776 SWAmP/(3692:3692): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:18:40:795 SWAmP/(3692:3692): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:18:40:822 SWAmP/(3692:3692): ------2---------
+
+[INFO] 15:18:40:826 SWAmP/(3692:3692): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:38:29:273 SWAmP/(6019:6019): Archivo de configuracion cargado correctamente
+[INFO] 15:38:29:351 SWAmP/(6019:6019): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:38:29:382 SWAmP/(6019:6019): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:38:29:397 SWAmP/(6019:6019): ------2---------
+
+[INFO] 15:38:29:407 SWAmP/(6019:6019): Escuchando en 0.0.0.0:5005 (SWAmP)
+

@@ -31,5 +31,3 @@ t_list* extraer_duraciones(char** str_duraciones) {
 	 }
 	 return lista;
 }
-
-
