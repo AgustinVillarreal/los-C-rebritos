@@ -2,6 +2,7 @@
 #define ESTRUCTURAS_SWAMP_H
 
 #include <stdint.h>
+#include <stdlib.h>
 
 
 typedef struct {
@@ -13,6 +14,8 @@ typedef struct {
 
 
 
+
+void destroy_frame(frame_swap_t* frame);
 
 
 #endif

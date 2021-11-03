@@ -2,7 +2,7 @@
 #define INTERFAZ_SWAMP_H
 
 
-#include <config.h>
+#include "config.h"
 
 
 /* TODO : Establecer parametros  */

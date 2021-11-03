@@ -24,7 +24,7 @@ int main(){
     free(puerto);
 
 
-  	while(server_escuchar(SERVERNAME, swamp_server));
+  	//while(server_escuchar(SERVERNAME, swamp_server));
 
     liberar_conexion(&swamp_server);
     cerrar_programa();
