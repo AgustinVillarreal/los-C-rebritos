@@ -73,6 +73,45 @@ bool recv_sem_init(int fd, char** sem, int * value){
   return true;
 } 
 
+bool send_sem(int fd, char* sem){
+  size_t size;
+  void * stream = serializar_string(&size, sem);
+  if(send(fd, stream, size, 0) == -1){
+    free(stream);
+    return false;
+  } 
+  free(stream);
+  return true;
+}
+
+bool recv_sem(int fd, char** sem){
+  size_t size;
+  if (recv(fd, &size, sizeof(size_t), 0) != sizeof(size_t)) {
+      return false;
+  }
+  void* stream = malloc(size);
+  if (recv(fd, stream, size, 0) != size) {
+      free(stream);
+      return false;
+  }
+  deserializar_sem_wait(size, stream, sem);
+  free(stream);
+  return true;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//MEMORIA
 
 bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
   void* stream = malloc(sizeof(long)+sizeof(int));

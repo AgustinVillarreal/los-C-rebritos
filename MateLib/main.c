@@ -34,12 +34,16 @@ int main(int argc, char *argv[])
   //TODO: Esto lo podria hacer el mate_init
   mate_instance mate_ref;
   mate_init(&mate_ref, "./config.config");
-  mate_sem_init(&mate_ref, "holachau", 23);  
-  mate_memalloc(&mate_ref, 6);
+  mate_sem_init(&mate_ref, "holachau", 0); 
+  mate_sem_destroy(&mate_ref, "holachau"); 
+  // mate_sem_wait(&mate_ref, "holachau");
+  // mate_sem_post(&mate_ref, "holachau");
+  
+  /*mate_memalloc(&mate_ref, 6);
   mate_memfree(&mate_ref, 1);
   void * prueba;
   mate_memread(&mate_ref, 1, prueba, 1);
-  mate_memwrite(&mate_ref, prueba, 1, 1);  
+  mate_memwrite(&mate_ref, prueba, 1, 1);  */
   // // Let's work with semaphores
   // mate_sem_init(&mate_ref, "SEM1", 0);
   // pthread_t thread_id;
@@ -51,7 +55,7 @@ int main(int argc, char *argv[])
   
   // pthread_join(thread_id, NULL);
 
-  // mate_sem_destroy(&mate_ref, "SEM1");
+  
 
   mate_close(&mate_ref);
   return 0;

@@ -30,12 +30,13 @@ typedef struct {
 } t_config_kernel;
 
 typedef struct {
-  unsigned int id;
+  unsigned long id;
   pthread_t thread;
   sem_t sem_pause;
   bool blocked;
   uint16_t ultima_estimacion;
   time_t tiempo_ingreso_ready;
+  int cpu_asignada;
 } t_carpincho;
 
 

@@ -22,7 +22,7 @@ int main(){
     COLA_READY             = queue_create();
     COLA_SUSPENDED_READY   = queue_create();
     COLA_SUSPENDED_BLOCKED = queue_create();
-    COLA_BLOCKED           = queue_create();
+    LISTA_BLOCKED           = list_create();
     inicializar_semaforos();
 
     int memoria_fd;
@@ -54,7 +54,7 @@ int main(){
         pthread_t CPU;
         if(!pthread_create(&CPU, NULL, (void*)ejecutar_CPU, (void*)i)){
             pthread_detach(CPU);
-            sem_init(&SEM_CPUs[i], 0, 0);
+            sem_init(&SEM_CPUs[i], 0, 1);
         } else {
             cerrar_programa(logger, KERNEL_CFG);
             return EXIT_FAILURE;

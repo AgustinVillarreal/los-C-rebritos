@@ -15,6 +15,9 @@ static void procesar_conexion(void* void_args){
     int memoria_fd = args->memoria_fd;
     free(args);
 
+    t_carpincho * carpincho;
+
+
     // Mientras la conexion este abierta
     op_code cop;
     while (cliente_socket != -1) {
@@ -40,7 +43,7 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error recibiendo msj de encolamiento new");
                     return;
                 }
-                carpincho_init(id);
+                carpincho_init(id, &carpincho);
                 if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
                    free(server_name);
@@ -62,13 +65,52 @@ static void procesar_conexion(void* void_args){
                    return;
                 }
                 break;
-            case SEM_WAIT:
-                break;
-            case SEM_POST:
-                break;
-            case SEM_DESTROY:
+            case SEM_WAIT: ;
+                char * sem_name_wait;
+                if(!recv_sem(cliente_socket, &sem_name_wait)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                int result = sem_wait_carpincho(sem_name_wait, carpincho);
+                if(result == 1){
+                    sem_wait(&carpincho->sem_pause);
+                }
+                if(!send(cliente_socket, &result, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de sem wait");
+                   free(server_name);
+                   return;
+                }
+                free(sem_name_wait);
                 break;
 
+            case SEM_POST: ;
+                char * sem_name_post;
+                if(!recv_sem(cliente_socket, &sem_name_post)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                int result_post = sem_post_carpincho(sem_name_post);
+                if(!send(cliente_socket, &result_post, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de sem wait");
+                   free(server_name);
+                   return;
+                }
+                free(sem_name_post);
+                break;
+            case SEM_DESTROY: ;
+                char * sem_name_destroy;
+                if(!recv_sem(cliente_socket, &sem_name_destroy)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                int result_destroy = sem_destroy_carpincho(sem_name_destroy);
+                if(!send(cliente_socket, &result_destroy, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de sem wait");
+                   free(server_name);
+                   return;
+                }
+                free(sem_name_destroy);
+                break;
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;
@@ -92,6 +134,7 @@ static void procesar_conexion(void* void_args){
 
             //TODO ver donde se libera
             case FREE_CARPINCHO:
+		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);		        
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

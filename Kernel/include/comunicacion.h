@@ -8,6 +8,7 @@
 #include <shared/sockets.h>
 #include <shared/protocolo.h>
 #include "colas.h"
+#include "semaforos.h"
 
 t_config_kernel* KERNEL_CFG;
 
