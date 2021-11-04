@@ -12,13 +12,13 @@
 #include "monitor_memoria.h"
 #include "config.h"
 
-t_list* TLB_TABLE;
+
 
 bool entra_en_mp(uint32_t size_stream); 
 bool esta_en_tlb(unsigned long id_carpincho);
 void init_memory_structs();
-uint32_t alloc_carpincho_en_mp(size_t size, unsigned long pid, t_list* tp_carp, bool* nuevapag);
-static bool meter_pagina_en_mp(size_t size, unsigned long pid, uint32_t iter, bool offset);
-
+uint32_t allocar_carpincho_fija(unsigned long id_carpincho, size_t size);
+uint32_t cant_paginas(size_t size);
+uint32_t cant_frame_libres_fija(unsigned long id_carpincho);
 
 #endif

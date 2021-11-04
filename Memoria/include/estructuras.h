@@ -21,10 +21,15 @@ typedef struct {
     uint32_t nro_pagina;
 } tlb_t;
 
+typedef struct {
+    uint8_t libre;
+} frame_t;
+
 //TODO: Struct para poder administrar los carpinchos con sus tablas
 typedef struct {
     unsigned long id_carpincho;
     uint32_t pages;
+    pthread_mutex_t mutex_paginas;
     t_list* paginas;
 } tp_carpincho_t;
 
@@ -44,5 +49,10 @@ typedef struct {
 } entrada_tp_t;
 
 
+t_list* TLB_TABLE;
+t_list* CARPINCHOS_TABLE; 
+
+void init_memory_structs();
+void destroy_memory_structs();
 
 #endif

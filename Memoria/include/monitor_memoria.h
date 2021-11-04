@@ -15,14 +15,10 @@ extern uint32_t memoria_disponible;
 extern void* memoria_principal;
 
 pthread_mutex_t MUTEX_TLB_BUSY;
-pthread_mutex_t MUTEX_FRAME_BUSY;
 pthread_mutex_t MUTEX_MP_BUSY;
+pthread_mutex_t MUTEX_FRAMES_BUSY;
 
-
-uint32_t cant_frames_libres();
-uint32_t cant_paginas(uint32_t size, size_t* rem);
-uint32_t primer_frame_libre_framo(uint32_t pid, uint32_t* inicio, t_list* tp_carp);
-void mutex_init();
+void mutex_init_memoria();
 
 
 

@@ -13,17 +13,12 @@
 #include "estructuras.h"
 #include "config.h"
 
-pthread_mutex_t MUTEX_TP_CARPINCHO;
 
-t_list* TLB_TABLE;
-
-void destroy_memory_structs();
 static bool tp_carpincho_has_pid(void* x);
-void init_memory_structs();
-void list_add_page_frame_tppatotas(unsigned long pid, uint32_t nro_frame, size_t size, bool presente);
-static bool has_nro_frame(void* x);
-static bool has_nro_frame_swap(void* x);
-bool tabla_vacia();
-void mutex_init_tablas();
+tp_carpincho_t* find_tp_carpincho(unsigned long id);
+bool tabla_vacia(unsigned long id);
+void agregar_tabla_a_tp_carpinchos(void* tp_carpincho);
+void mutex_init_tabla();
+uint32_t table_size(tp_carpincho_t* tabla_carpincho);
 
 #endif

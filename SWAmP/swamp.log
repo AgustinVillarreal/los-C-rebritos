@@ -231,3 +231,40 @@
 
 [INFO] 15:37:18:279 SWAmP/(4516:4516): Me llego el HANDSHAKE con MEMORIA!
 [INFO] 15:38:02:258 SWAmP/(4516:4516): DISCONNECT!
+[INFO] 15:46:28:806 SWAmP/(5678:5678): Archivo de configuracion cargado correctamente
+[INFO] 15:46:28:862 SWAmP/(5678:5678): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:46:28:867 SWAmP/(5678:5678): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:46:28:878 SWAmP/(5678:5678): ------2---------
+
+[INFO] 15:46:28:882 SWAmP/(5678:5678): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:46:30:928 SWAmP/(5678:5678): Cliente conectado (a SWAmP)
+
+[INFO] 15:46:30:936 SWAmP/(5678:5678): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:48:41:961 SWAmP/(5678:5678): DISCONNECT!
+[INFO] 15:48:45:417 SWAmP/(5678:5678): Cliente conectado (a SWAmP)
+
+[INFO] 15:48:45:424 SWAmP/(5678:5678): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:49:18:051 SWAmP/(5678:5678): DISCONNECT!
+[INFO] 16:39:41:267 SWAmP/(8928:8928): Archivo de configuracion cargado correctamente
+[INFO] 16:39:41:340 SWAmP/(8928:8928): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 16:39:41:347 SWAmP/(8928:8928): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 16:39:41:355 SWAmP/(8928:8928): ------2---------
+
+[INFO] 16:39:41:357 SWAmP/(8928:8928): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 16:32:21:647 SWAmP/(5040:5040): Archivo de configuracion cargado correctamente
+[INFO] 16:32:21:719 SWAmP/(5040:5040): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 16:32:21:727 SWAmP/(5040:5040): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 16:32:21:736 SWAmP/(5040:5040): ------2---------
+
+[INFO] 16:32:21:739 SWAmP/(5040:5040): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 16:57:44:638 SWAmP/(5040:5040): Cliente conectado (a SWAmP)
+
+[INFO] 16:57:44:645 SWAmP/(5040:5040): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 16:57:46:485 SWAmP/(5040:5040): DISCONNECT!
+[INFO] 18:16:13:363 SWAmP/(5040:5040): Cliente conectado (a SWAmP)
+
+[INFO] 18:16:13:371 SWAmP/(5040:5040): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 18:16:16:020 SWAmP/(5040:5040): DISCONNECT!

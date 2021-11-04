@@ -19,8 +19,6 @@
 #include <commons/string.h>
 
 #include <shared/utils.h>
-#include <shared/structs.h>
-
 #include <readline/readline.h>
 
 #include "estructuras.h" 
@@ -58,18 +56,6 @@ void cerrar_programa(t_log*,t_config_memoria*);
 uint8_t init();
 uint8_t cargar_memoria(t_config_memoria*);
 t_config_memoria* initialize_cfg();
-
-void* (*algoritmo_reemplazo_mmu) (void);
-void* algoritmo_mmu_clock_m ();
-void* algoritmo_mmu_lru();
-
-void* (*algoritmo_reemplazo_tlb) (void);
-void* algoritmo_tlb_fifo();
-void* algoritmo_tlb_lru();
-
-void* (*tipo_asignacion) (void);
-void* asignacion_fija();
-void* asignacion_global();
 
 
 #endif

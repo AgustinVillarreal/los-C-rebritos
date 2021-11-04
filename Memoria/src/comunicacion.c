@@ -17,10 +17,6 @@ static void procesar_conexion(void* void_args){
     op_code cop;
 
     //Tabla del carpincho que se conecta
-    t_list* TABLA_CARPINCHO = list_create();
-    list_add(TABLA_CARPINCHO, 1);
-    log_info(logger, "----------------------%d---------------\n", list_get(TABLA_CARPINCHO, 0));
-
 
     // TODO VER DONDE VA ESTO
     char* dir_logic_ini;
@@ -42,22 +38,32 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
-            case MEM_ALLOC: ;
-                unsigned long id_carpincho;
-                uint32_t size_data;
-                bool ret_code;
-
-                if(recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
-                    /*
-                    ret_code = allocar_carpincho(TABLA_CARPINCHO, id_carpincho, size_data);
-                    */
-                    if(!ret_code){
-                        log_error(logger, "Error al allocar un espacio\n");
-                        break;
-                    }   
-                } 
-                    log_info(logger, "ALLOCADO PA");
+            case MATE_INIT: ;
+            //TODO: avisarle a mati
+                unsigned long id_init;
+                if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
+                    log_error(logger, "Error al iniciar el carpincho en memoria");
+                    // return EXIT_FAILURE;
                     break;
+                }
+                mate_init(id_init);
+
+            case MEM_ALLOC: ;
+                unsigned long id_alloc;
+                size_t size_data;
+                uint32_t direccionLogica;
+
+                if(!recv_alloc_data(cliente_socket, &id_alloc, &size_data)){            
+                    log_error(logger, "Error al enviar data para allocar");
+                    // return EXIT_FAILURE;
+                    break;
+                }
+                if(!allocar_carpincho(id_alloc, size_data, &direccionLogica)){
+                    log_info(logger, "No se pudo allocar carpincho");
+                    //TODO: Hacer un send al Kernel o a la matelib para que mande un NULL
+                } 
+                //TODO: Hacer un send de la direccionLogica
+
                 break;
             case MEM_FREE: 
                 // if(esta_en_tlb(id_carpincho)){

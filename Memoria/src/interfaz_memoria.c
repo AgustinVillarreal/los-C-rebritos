@@ -1,31 +1,33 @@
 #include "../include/interfaz_memoria.h"
 
-extern t_config_memoria* MEMORIA_CFG;	 
+extern t_config_memoria* MEMORIA_CFG;
 
-bool allocar_carpincho(t_list* tabla_carpincho, unsigned long id_carpincho, size_t size){
+void mate_init(unsigned long id){
+    tp_carpincho_t* tp_carpincho = malloc(sizeof(tp_carpincho_t));
+    tp_carpincho->id_carpincho = id;
+    tp_carpincho->pages = 0;
+    tp_carpincho->paginas = list_create();
+    pthread_mutex_init(&tp_carpincho->mutex_paginas, NULL);
+    agregar_tabla_a_tp_carpinchos(tp_carpincho);
+    return; 
+}
+
+
+bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccionLogica){
+    
     //Evaluo si es el primer alloc
-    // size_t size_stream;
-    // bool primer_alloc = tabla_vacia(tabla_carpincho);
-    // bool primerPagina;
-    // if(primer_alloc){
-    //     primerPagina = true;
-    //     size_stream =  sizeof(hmd_t)*2 + size_data;    
-    // } else {
-    //     primerPagina = false;
-    //     size_stream = sizeof(hmd_t) + size_data;
-    // }
-    // bool nuevapag;
-    // //Primero deberia ver si entra o no entra en la mp 
-    // if(entra_en_mp(size_stream)){
-    //     pthread_mutex_lock(&MUTEX_MP_BUSY);
-    //     ret_code = alloc_carpincho_en_mp(size_stream, id_carpincho, tabla_carpincho, &nuevapag); 
-    //     pthread_mutex_unlock(&MUTEX_MP_BUSY);                                   
-    // }  else {
-        /*
-    ret_code = send_probar_en_swamp(size_stream, id_carpincho);
-    */
-    //}
+    size_t size_stream;
+    
+    bool primer_alloc = tabla_vacia(id_carpincho);
 
+    if(primer_alloc){
+        if(MEMORIA_CFG->FIJA){  
+            *direccionLogica = allocar_carpincho_fija(id_carpincho, size);
+        }        
+    }
+                               
+
+    return direccionLogica;
     
 } 
 

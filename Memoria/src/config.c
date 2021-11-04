@@ -3,6 +3,7 @@
 uint32_t memoria_disponible;
 frame_t* tabla_frames;
 uint32_t global_TUR;
+t_list* TABLA_CARPINCHOS;
 void* memoria_principal;
 t_log* logger;
 
@@ -111,7 +112,8 @@ t_config_memoria* initialize_cfg(){
 
 uint8_t init(){
 	logger = log_create("memoria.log", "memoria", true, LOG_LEVEL_INFO);
-    mutex_init();
+    mutex_init_tabla();
+    mutex_init_memoria();
     init_memory_structs();
     return 1;
 }
@@ -126,21 +128,14 @@ uint8_t cargar_memoria(t_config_memoria* cfg) {
     memoria_disponible = cfg->TAMANIO; 
 
     global_TUR = 0;
-        
-        // tp_carpinchos = list_create();
-        // if (tp_carpinchos == NULL) {
-        //     log_error(logger, "Fallo creando tp_carpinchos");
-        //     return 0;
-        // }
 
-        tabla_frames = malloc(cfg->CANT_PAGINAS * sizeof(frame_t));
-        if (tabla_frames == NULL) {
-            log_error(logger, "Fallo creando tabla_frames");
-            return 0;
-        }
-        for (int i=0; i<cfg->CANT_PAGINAS; i++) {
-            tabla_frames[i].bytes = 0;
-            tabla_frames[i].libre = 1;
-        }
+    tabla_frames = malloc(cfg->CANT_PAGINAS * sizeof(frame_t));
+    if (tabla_frames == NULL) {
+        log_error(logger, "Fallo creando tabla_frames");
+        return 0;
+    }
+    for (int i=0; i<cfg->CANT_PAGINAS; i++) {
+        tabla_frames[i].libre = 1;
+    }
     return 1;
 }
