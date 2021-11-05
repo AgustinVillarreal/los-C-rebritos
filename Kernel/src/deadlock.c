@@ -6,7 +6,7 @@ extern t_log* logger;
 
 void listener_deadlock(){
     while(1){
-        sleep(KERNEL_CFG->TIEMPO_DEADLOCK / 1000);
+        usleep(KERNEL_CFG->TIEMPO_DEADLOCK * 1000);
         // TODO VER QUE ONDA
     }
 }

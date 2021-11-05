@@ -40,9 +40,9 @@ int main(int argc, char *argv[])
   mate_sem_post(&mate_ref, "holachau");
 
   //IO
-  // char* prueba = strdup("hola");
-  // mate_call_io(&mate_ref, "hierbitas", prueba);
-  // free(prueba);
+  char* prueba = strdup("hola");
+  mate_call_io(&mate_ref, "hierbitas", prueba);
+  free(prueba);
   
   /*mate_memalloc(&mate_ref, 6);
   mate_memfree(&mate_ref, 1);

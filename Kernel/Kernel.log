@@ -2754,3 +2754,12 @@
 [INFO] 20:48:18:765 Kernel/(18772:18782): Deadlock------
 [INFO] 20:48:19:767 Kernel/(18772:18782): Deadlock------
 [INFO] 20:48:20:768 Kernel/(18772:18782): Deadlock------
+[INFO] 16:34:09:511 Kernel/(3564:3564): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:34:09:577 Kernel/(3564:3564): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:34:20:689 Kernel/(3564:3564): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:34:20:797 Kernel/(3564:3736): HANDSHAKE
+[INFO] 16:34:20:954 Kernel/(3564:3736): SEM POST MUTEX-----------------
+[INFO] 16:34:28:049 Kernel/(3564:3736): DISCONNECT!

@@ -14,7 +14,7 @@ int procesar_entrada_salida(t_carpincho* carpincho, char* io, char* msg){
         return 0;
     }
     sem_wait(&dispositivo->sem);
-    sleep(dispositivo->duracion / 1000);
+    usleep(dispositivo->duracion * 1000);
     if(existe_en_lista_blocked(carpincho)){
         remove_lista_blocked(carpincho);
         push_cola_ready(carpincho);    
