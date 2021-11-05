@@ -39,7 +39,6 @@ static void procesar_conexion(void* void_args){
                log_info(logger, "HANDSHAKE");
                break;
             case MATE_INIT: ;
-            //TODO: avisarle a mati
                 unsigned long id_init;
                 if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
                     log_error(logger, "Error al iniciar el carpincho en memoria");
@@ -47,6 +46,7 @@ static void procesar_conexion(void* void_args){
                     break;
                 }
                 mate_init(id_init);
+                break;
 
             case MEM_ALLOC: ;
                 unsigned long id_alloc;
@@ -94,6 +94,9 @@ static void procesar_conexion(void* void_args){
                     break;
                 }
                 log_info(logger,"ESCRITO JEFE");
+                break;
+            //TODO: Liberar cosas aca
+            case FREE_CARPINCHO:
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Memoria");

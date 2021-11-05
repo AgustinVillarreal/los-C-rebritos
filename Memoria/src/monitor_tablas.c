@@ -64,5 +64,27 @@ uint32_t table_size(unsigned long id){
     return size;
 }
 
+void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
+    tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id);
+    entrada_tp_t* entrada_tp = malloc(sizeof(entrada_tp_t));
+    entrada_tp->nro_pagina = nro_pagina;
+    entrada_tp->nro_frame = nro_frame;
+    entrada_tp->bit_P = 1;
+    //TODO: Ver mi TUR
+    if(MEMORIA_CFG->LRU_MMU){
+
+    } else {
+        entrada_tp->bit_U = 1;
+        entrada_tp->bit_M = 1; 
+    }
+
+    pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
+    tabla_carpincho->pages++;
+    list_add(tabla_carpincho->paginas, entrada_tp);
+    pthread_mutex_unlock(&tabla_carpincho->mutex_paginas); 
+
+    return;
+}
+
 
 

@@ -37,13 +37,25 @@ static void procesar_conexion(void* void_args){
                log_info(logger, "HANDSHAKE");
                break;
 
-            case PONER_COLA_NEW: ;
+            case MATE_INIT: ;
                 unsigned long id;
                 if(!recv(cliente_socket, &id, sizeof(long), 0)){
                     log_info(logger, "Error recibiendo msj de encolamiento new");
                     return;
                 }
                 carpincho_init(id, &carpincho);
+                if(!send_mate_init(memoria_fd)){
+                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                    free(server_name);
+                    return;
+                }
+
+                if(!send_data_mate_init(memoria_fd, id)){
+                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                    free(server_name);
+                    return;
+                }
+                
                 if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
                    free(server_name);

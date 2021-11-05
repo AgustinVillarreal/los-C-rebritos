@@ -34,8 +34,8 @@ int main(int argc, char *argv[])
   //TODO: Esto lo podria hacer el mate_init
   mate_instance mate_ref;
   mate_init(&mate_ref, "./config.config");
-  mate_sem_init(&mate_ref, "holachau", 0); 
-  mate_sem_destroy(&mate_ref, "holachau"); 
+  // mate_sem_init(&mate_ref, "holachau", 0); 
+  // mate_sem_destroy(&mate_ref, "holachau"); 
   // mate_sem_wait(&mate_ref, "holachau");
   // mate_sem_post(&mate_ref, "holachau");
   

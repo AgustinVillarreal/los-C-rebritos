@@ -6,3 +6,39 @@
 
 [INFO] 15:49:10:957 mateLib/(6220:6220): Cliente conectado en 0.0.0.0:4444 (a Server)
 
+[INFO] 11:16:12:395 mateLib/(7268:7268): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[ERROR] 11:16:12:473 mateLib/(7268:7268): No podes usar semaforos si no estas conectado al kernel
+
+[ERROR] 11:16:12:477 mateLib/(7268:7268): No podes usar semaforos si no estas conectado al kernel
+
+[INFO] 11:17:05:653 mateLib/(7367:7367): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:18:19:774 mateLib/(7478:7478): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:18:40:560 mateLib/(7520:7520): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:20:06:554 mateLib/(7636:7636): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:22:00:846 mateLib/(7750:7750): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:26:41:034 mateLib/(8019:8019): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[ERROR] 11:28:38:358 mateLib/(8243:8243): Error al conectar (a Server)
+
+[INFO] 11:28:53:873 mateLib/(8274:8274): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:29:41:818 mateLib/(8402:8402): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:32:53:680 mateLib/(4762:4762): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:33:10:504 mateLib/(4788:4788): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:33:17:883 mateLib/(4811:4811): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:02:01:827 mateLib/(6234:6234): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:23:00:649 mateLib/(9667:9667): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:23:09:941 mateLib/(9698:9698): Cliente conectado en 127.0.0.1:5001 (a Server)
+

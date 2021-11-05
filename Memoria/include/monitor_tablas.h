@@ -20,5 +20,6 @@ bool tabla_vacia(unsigned long id);
 void agregar_tabla_a_tp_carpinchos(void* tp_carpincho);
 void mutex_init_tabla();
 uint32_t table_size(unsigned long id);
+void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame);
 
 #endif

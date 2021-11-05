@@ -44,3 +44,22 @@
 
 [INFO] 11:01:55:709 Kernel/(6351:6351): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
 
+[INFO] 11:09:48:774 Kernel/(6823:6823): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:09:48:831 Kernel/(6823:6823): ------2---------
+
+[INFO] 11:09:48:835 Kernel/(6823:6823): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 11:29:30:718 Kernel/(8378:8378): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:29:30:780 Kernel/(8378:8378): ------2---------
+
+[INFO] 11:29:30:786 Kernel/(8378:8378): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 11:29:41:799 Kernel/(8378:8378): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:29:41:900 Kernel/(8378:8403): HANDSHAKE
+[INFO] 11:29:41:974 Kernel/(8378:8381): pase una vez 0
+[INFO] 11:29:41:974 Kernel/(8378:8381): -----------------------------SE TODO HRRN-------------------------
+
+[INFO] 11:29:42:033 Kernel/(8378:8403): DISCONNECT!

@@ -22,6 +22,9 @@ typedef struct {
 } tlb_t;
 
 typedef struct {
+    unsigned long id_carpincho;
+    //TODO
+    uint8_t ocupado;
     uint8_t libre;
 } frame_t;
 

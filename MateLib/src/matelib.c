@@ -51,25 +51,27 @@ int mate_init (mate_instance *lib_ref, char *config){
 	inner_structure->kernel_connected = cop == HANDSHAKE_KERNEL;
 	inner_structure->id= generate_id();
 
+	if(!send_mate_init(servidor_fd)){
+		data_destroy(IP, PUERTO, cfg);	
+		log_destroy(logger);	
+		return EXIT_FAILURE;
+	}
+
+	if(!send_data_mate_init(servidor_fd, inner_structure->id)){
+		log_error(logger, "Error enviando");
+		data_destroy(IP, PUERTO, cfg);
+		log_destroy(logger);
+		return EXIT_FAILURE;
+	}
+
 	if(inner_structure->kernel_connected){
-		if(!send_poner_cola_new(servidor_fd)){
-			data_destroy(IP, PUERTO, cfg);	
-			log_destroy(logger);	
-			return EXIT_FAILURE;
-		}
-		if(!send_data_cola_new(servidor_fd, inner_structure->id)){
-			log_error(logger, "Error enviando");
+		
+		if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
+			log_error(logger, "Error en la espera de poner en exec");
 			data_destroy(IP, PUERTO, cfg);
 			log_destroy(logger);
 			return EXIT_FAILURE;
 		}
-	}
-	
-	if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
-		log_error(logger, "Error en la espera de poner en exec");
-		data_destroy(IP, PUERTO, cfg);
-		log_destroy(logger);
-		return EXIT_FAILURE;
 	}
 
 	data_destroy(IP, PUERTO, cfg);

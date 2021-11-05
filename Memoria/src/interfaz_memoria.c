@@ -1,6 +1,7 @@
 #include "../include/interfaz_memoria.h"
 
 extern t_config_memoria* MEMORIA_CFG;
+extern t_list* tabla_frames;
 
 void mate_init(unsigned long id){
     tp_carpincho_t* tp_carpincho = malloc(sizeof(tp_carpincho_t));
@@ -8,23 +9,25 @@ void mate_init(unsigned long id){
     tp_carpincho->pages = 0;
     tp_carpincho->paginas = list_create();
     pthread_mutex_init(&tp_carpincho->mutex_paginas, NULL);
+    if(MEMORIA_CFG->FIJA){
+        ocupar_frames(id);
+    }
+
     agregar_tabla_a_tp_carpinchos(tp_carpincho);
     return; 
 }
 
 
-bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccionLogica){
+bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccion_logica){
     
     //Evaluo si es el primer alloc
     size_t size_stream;
     
     bool primer_alloc = tabla_vacia(id_carpincho);
 
-    if(primer_alloc){
-        if(MEMORIA_CFG->FIJA){  
-            *direccionLogica = allocar_carpincho_fija(id_carpincho, size);
-        }        
-    }
+    if(MEMORIA_CFG->FIJA){  
+        return allocar_carpincho_fija(id_carpincho, size, primer_alloc, direccion_logica);
+    }        
                                
 
     return true;
