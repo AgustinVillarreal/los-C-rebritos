@@ -38,3 +38,9 @@
 [INFO] 15:49:11:096 Kernel/(6196:6199): -----------------------------SE TODO HRRN-------------------------
 
 [INFO] 15:49:11:269 Kernel/(6196:6221): DISCONNECT!
+[INFO] 11:01:55:640 Kernel/(6351:6351): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:01:55:705 Kernel/(6351:6351): ------2---------
+
+[INFO] 11:01:55:709 Kernel/(6351:6351): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+

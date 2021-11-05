@@ -19,6 +19,7 @@ pthread_mutex_t MUTEX_MP_BUSY;
 pthread_mutex_t MUTEX_FRAMES_BUSY;
 
 void mutex_init_memoria();
+uint32_t cant_frame_libres();
 
 
 

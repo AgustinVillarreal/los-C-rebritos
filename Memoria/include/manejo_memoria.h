@@ -20,5 +20,6 @@ void init_memory_structs();
 uint32_t allocar_carpincho_fija(unsigned long id_carpincho, size_t size);
 uint32_t cant_paginas(size_t size);
 uint32_t cant_frame_libres_fija(unsigned long id_carpincho);
+uint32_t cant_frame_libres();
 
 #endif

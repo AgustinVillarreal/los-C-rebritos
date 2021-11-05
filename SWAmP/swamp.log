@@ -268,3 +268,18 @@
 
 [INFO] 18:16:13:371 SWAmP/(5040:5040): Me llego el HANDSHAKE con MEMORIA!
 [INFO] 18:16:16:020 SWAmP/(5040:5040): DISCONNECT!
+[INFO] 10:56:50:557 SWAmP/(5930:5930): Archivo de configuracion cargado correctamente
+[INFO] 10:56:50:640 SWAmP/(5930:5930): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:56:50:651 SWAmP/(5930:5930): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 10:56:50:670 SWAmP/(5930:5930): ------2---------
+
+[INFO] 10:56:50:677 SWAmP/(5930:5930): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 10:57:54:704 SWAmP/(5930:5930): Cliente conectado (a SWAmP)
+
+[INFO] 10:57:54:717 SWAmP/(5930:5930): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 11:01:44:186 SWAmP/(5930:5930): DISCONNECT!
+[INFO] 11:01:46:708 SWAmP/(5930:5930): Cliente conectado (a SWAmP)
+
+[INFO] 11:01:46:715 SWAmP/(5930:5930): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 11:02:10:748 SWAmP/(5930:5930): DISCONNECT!

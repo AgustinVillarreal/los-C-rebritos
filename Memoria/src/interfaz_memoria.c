@@ -27,7 +27,7 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
     }
                                
 
-    return direccionLogica;
+    return true;
     
 } 
 

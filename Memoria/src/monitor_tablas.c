@@ -55,7 +55,8 @@ void mutex_init_tabla(){
     pthread_mutex_init(&MUTEX_TP_CARPINCHOS, NULL); 
 }
 
-uint32_t table_size(tp_carpincho_t* tabla_carpincho){
+uint32_t table_size(unsigned long id){
+    tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id);
     uint32_t size;
     pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
     size = list_size(tabla_carpincho->paginas);
