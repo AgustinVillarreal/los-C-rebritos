@@ -92,3 +92,20 @@ void eliminar_carpincho_de_memoria(unsigned long id_carpincho){
 }
 
 
+uint32_t posicion_primer_byte_libre(void* data){
+    uint32_t pos = 0;
+
+    for(int i = 0;((char*)data)[i]!='\0'; i++){
+        pos++;
+    }
+
+    return pos;
+}
+
+void insertar_global(void* data , void* swap){
+
+    uint32_t pos = posicion_primer_byte_libre(swap);
+    memcpy(swap + pos , data , cfg->TAMANIO_PAGINA);
+
+}
+
