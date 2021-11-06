@@ -244,3 +244,47 @@
 
 [INFO] 19:23:10:084 memoria/(6093:9699): Cant_frames mayor
 [INFO] 19:23:10:089 memoria/(6093:9699): DISCONNECT!
+[INFO] 21:20:16:972 memoria/(14949:14949): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:20:17:045 memoria/(14949:14949): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:20:17:050 memoria/(14949:14949): ------2---------
+
+[INFO] 21:20:17:057 memoria/(14949:14949): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:21:20:021 memoria/(14949:14949): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:21:20:139 memoria/(14949:15217): HANDSHAKE
+[INFO] 21:21:20:192 memoria/(14949:15217): --------------0-----------
+
+[INFO] 21:25:12:654 memoria/(15625:15625): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:25:12:713 memoria/(15625:15625): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:25:12:716 memoria/(15625:15625): ------2---------
+
+[INFO] 21:25:12:718 memoria/(15625:15625): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:25:18:343 memoria/(15625:15625): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:25:18:463 memoria/(15625:15661): HANDSHAKE
+[INFO] 21:25:18:515 memoria/(15625:15661): --------------0-----------
+
+[INFO] 21:27:42:045 memoria/(15930:15930): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:27:42:131 memoria/(15930:15930): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:27:42:134 memoria/(15930:15930): ------2---------
+
+[INFO] 21:27:42:136 memoria/(15930:15930): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:27:45:214 memoria/(15930:15930): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:27:45:330 memoria/(15930:15965): HANDSHAKE
+[INFO] 21:27:45:379 memoria/(15930:15965): --------------0-----------
+
+[INFO] 21:27:45:423 memoria/(15930:15965): -------------0--------------
+
+[INFO] 21:27:45:426 memoria/(15930:15965): -------------1--------------
+
+[INFO] 21:27:45:427 memoria/(15930:15965): -------------2--------------
+
+[INFO] 21:27:45:427 memoria/(15930:15965): Cant_frames mayor
+[INFO] 21:27:45:429 memoria/(15930:15965): DISCONNECT!

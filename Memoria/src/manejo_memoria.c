@@ -16,10 +16,11 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
     }
 
     if(primer_alloc){
+        uint32_t hmd_cortado = 0;
         for(uint32_t i = 0; i <= cant_paginas(size + sizeof(hmd_t) * 2); i++){
             uint32_t nro_frame = buscar_primer_frame_carpincho();
             //TODO: Penasr de que forma se puede generalizar, en este caso la i corresdponde a la pagina de al tp
-            primer_memalloc_carpincho(id_carpincho, &size, direccion_logica, nro_frame, i);
+            primer_memalloc_carpincho(id_carpincho, &size, direccion_logica, nro_frame, i, &hmd_cortado);
             append_frame_tp(id_carpincho, i, nro_frame);
             log_info(logger, "-------------%d--------------\n", nro_frame);
         }

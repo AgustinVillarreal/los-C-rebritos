@@ -47,7 +47,7 @@ typedef struct {
     union {
         clock_m_t* clock_m;
         uint32_t TUR;      // tiempo de ultima referencia, LRU
-    };
+    } falopa; // TODO LOQUI chupame los huevos
     bool bit_P; // bit de presencia
 } entrada_tp_t;
 

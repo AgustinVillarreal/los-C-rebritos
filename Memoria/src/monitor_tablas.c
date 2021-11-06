@@ -74,8 +74,9 @@ void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
     if(MEMORIA_CFG->LRU_MMU){
 
     } else {
-        entrada_tp->bit_U = 1;
-        entrada_tp->bit_M = 1; 
+        entrada_tp->falopa.clock_m = malloc(sizeof(clock_m_t));
+        entrada_tp->falopa.clock_m->bit_U = 1;
+        entrada_tp->falopa.clock_m->bit_M = 1; 
     }
 
     pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
