@@ -437,3 +437,11 @@
 [INFO] 13:20:29:648 SWAmP/(6832:6832): Escuchando en 0.0.0.0:5005 (SWAmP)
 
 [INFO] 13:20:29:663 SWAmP/(6832:6832): Finalizando programa...
+[INFO] 10:49:24:000 SWAmP/(17206:17206): Archivo de configuracion cargado correctamente
+[INFO] 10:49:24:078 SWAmP/(17206:17206): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:49:24:091 SWAmP/(17206:17206): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 10:49:24:123 SWAmP/(17206:17206): ------2---------
+
+[INFO] 10:49:24:132 SWAmP/(17206:17206): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 10:49:24:135 SWAmP/(17206:17206): Finalizando programa...

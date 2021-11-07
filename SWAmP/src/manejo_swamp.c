@@ -20,25 +20,31 @@ uint32_t cantidad_de_espacio_swamp_libre(void* swamp){
     return cant;
 }
 
+
+
+
 /* Busca la swap con mas espacio libre */
 
-void* swamp_con_mas_espacio(){
+uint32_t swamp_con_mas_espacio(){
 
     int cant_swamps = list_size(areas_de_swap);
+    uint32_t pos; 
     void* elegido;
 
     for(int i = 0 ; i < cant_swamps ; i++){
         if(i == 0){
             elegido = list_get(areas_de_swap,i);
+            pos = i;
         }
         else{
             if(cantidad_de_espacio_swamp_libre(elegido) < cantidad_de_espacio_swamp_libre(list_get(areas_de_swap,i))){
+                pos = i;
                 elegido = list_get(areas_de_swap,i);
             }
         }
     }
 
-    return elegido;
+    return pos;
 }
 
 /* Esto deberia darme un void* en -> "dest" que representa la pagina que guarde */
@@ -109,3 +115,14 @@ void insertar_global(void* data , void* swap){
 
 }
 
+bool hay_marcos_libres(t_list* list){
+
+    for(int i = 0 ; i < list_size(list) ; i++){
+        frame_swap_t* f = list_get(list, i);
+        if(f->libre){
+            return true;
+        }
+    }
+
+    return false;
+}

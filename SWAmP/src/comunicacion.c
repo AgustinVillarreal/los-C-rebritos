@@ -41,12 +41,12 @@ static void procesar_conexion(void* void_args) {
                 void* data;
                 bool asigancion_fija;
 
-                if (1/* recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data, &asigancion_fija) */) {
+                if (recv_ecritura(cliente_socket, &carpincho_id, &nro_pagina, &data, &asigancion_fija)) {
                     if(asigancion_fija){
-                        proceder_asignacion_fija();
+                        proceder_asignacion_fija(cliente_socket,carpincho_id,nro_pagina,data);
                     }
                     else{
-                        proceder_asignacion_global();
+                        proceder_asignacion_global(cliente_socket,carpincho_id,nro_pagina,data);
                     }
                 }
                 else {
@@ -63,7 +63,7 @@ static void procesar_conexion(void* void_args) {
                 void* data;
                 bool asignacion_fija;
 
-                if (1/* recv_pagina(cliente_socket, &carpincho_id, &nro_pagina, &data, &asignacion_fija) */) {
+                if (recv_lectura(cliente_socket, &carpincho_id, &nro_pagina)) {
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                     buscar_frame_en_swap(carpincho_id, nro_pagina, &data, asignacion_fija);
@@ -79,7 +79,7 @@ static void procesar_conexion(void* void_args) {
             {
                 unsigned long carpincho_id;
 
-                if ( 1/* recv_id(cliente_socket, &carpincho_id) */) {
+                if (recv_id(cliente_socket, &carpincho_id)) {
                     borrar_carpincho_swap(carpincho_id);
                 }
                 else {

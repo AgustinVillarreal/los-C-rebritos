@@ -130,3 +130,15 @@ bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data){
 bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data){
   return true;
 }
+
+bool recv_id(int cliente_socket, unsigned long* carpincho_id){
+  return true;
+}// TODO: Recibe el id del carpincho
+
+bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t*  nro_pagina){
+  return true;
+}// TODO: Recibe el pedido de lectura de memoria
+
+bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, bool* asigancion_fija){
+  return true;
+}// TODO: Recibe el pedido de escritura de memoria
