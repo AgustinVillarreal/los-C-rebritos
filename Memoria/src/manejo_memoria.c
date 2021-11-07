@@ -4,6 +4,7 @@ extern uint32_t memoria_disponible;
 extern void* memoria_principal;
 extern t_config_memoria* MEMORIA_CFG;
 extern t_log* logger;
+extern pthread_mutex_t MUTEX_FRAMES_BUSY;
 
 
 bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
@@ -39,8 +40,7 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
 uint32_t cant_frame_libres_fija(unsigned long id_carpincho) {
     uint32_t presentes_en_mp = 0;
 
-    //TODO: Estos mutex no andan, revisar
-    // pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
+    pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
 
     for(uint32_t j = 0; j < table_size(id_carpincho); j++){
         tp_carpincho_t * tabla_carpincho = find_tp_carpincho(id_carpincho);
@@ -53,6 +53,8 @@ uint32_t cant_frame_libres_fija(unsigned long id_carpincho) {
 
     uint32_t frames_disponibles_carpincho = MEMORIA_CFG->MARCOS_POR_PROCESO - presentes_en_mp;
     uint32_t frames_disponibles_en_mp = cant_frame_libres();
+    
+    pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
 
     if(frames_disponibles_carpincho > frames_disponibles_en_mp){
         return frames_disponibles_en_mp;

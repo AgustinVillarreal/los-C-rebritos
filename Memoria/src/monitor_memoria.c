@@ -38,10 +38,9 @@ uint32_t buscar_primer_frame_carpincho(){
 }
 
 void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, uint32_t direccion_logica, uint32_t nro_frame, uint32_t nro_pagina, uint32_t* hmd_cortado){
-    //TODO: liberar en algun lado
     hmd_t* hmd = malloc(sizeof(hmd_t));
     if(nro_pagina == 0){
-        hmd->prevAlloc = NULL;
+        hmd->prevAlloc = (int) NULL;
         hmd->nextAlloc = sizeof(hmd_t) + *size_rest;
         hmd->isFree = true;
 
@@ -59,7 +58,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
     int32_t dif = MEMORIA_CFG->TAMANIO_PAGINA - *size_rest;  
 
     hmd->prevAlloc = 0;
-    hmd->nextAlloc = NULL;
+    hmd->nextAlloc = (int) NULL;
     hmd->isFree = true;
     
     if(dif > 0 ) {
@@ -88,6 +87,8 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
     } 
 
     *size_rest -= MEMORIA_CFG->TAMANIO_PAGINA;
+
+    free(hmd);
 
     return;
 }

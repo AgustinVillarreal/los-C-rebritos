@@ -288,3 +288,85 @@
 
 [INFO] 21:27:45:427 memoria/(15930:15965): Cant_frames mayor
 [INFO] 21:27:45:429 memoria/(15930:15965): DISCONNECT!
+[INFO] 15:54:29:631 memoria/(7567:7567): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:54:29:709 memoria/(7567:7567): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:54:29:712 memoria/(7567:7567): ------2---------
+
+[INFO] 15:54:29:714 memoria/(7567:7567): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:55:02:395 memoria/(7567:7567): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:55:02:499 memoria/(7567:7777): HANDSHAKE
+[INFO] 15:55:02:544 memoria/(7567:7777): --------------0-----------
+
+[INFO] 15:55:02:569 memoria/(7567:7777): -------------0--------------
+
+[INFO] 15:55:02:578 memoria/(7567:7777): -------------1--------------
+
+[INFO] 15:55:02:578 memoria/(7567:7777): -------------2--------------
+
+[INFO] 15:55:02:579 memoria/(7567:7777): Cant_frames mayor
+[INFO] 15:55:02:580 memoria/(7567:7777): DISCONNECT!
+[INFO] 16:04:32:582 memoria/(9426:9426): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 16:04:32:656 memoria/(9426:9426): Error al conectar (a Server)
+
+[INFO] 16:05:27:934 memoria/(9741:9741): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:05:28:042 memoria/(9741:9741): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:05:28:051 memoria/(9741:9741): ------2---------
+
+[INFO] 16:05:28:055 memoria/(9741:9741): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:05:59:794 memoria/(9741:9741): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:05:59:895 memoria/(9741:9933): HANDSHAKE
+[INFO] 16:05:59:936 memoria/(9741:9933): --------------0-----------
+
+[INFO] 16:05:59:962 memoria/(9741:9933): -------------0--------------
+
+[INFO] 16:05:59:976 memoria/(9741:9933): -------------1--------------
+
+[INFO] 16:05:59:977 memoria/(9741:9933): -------------2--------------
+
+[INFO] 16:05:59:977 memoria/(9741:9933): Cant_frames mayor
+[INFO] 16:05:59:981 memoria/(9741:9933): DISCONNECT!
+[INFO] 16:50:25:610 memoria/(13770:13770): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:50:25:690 memoria/(13770:13770): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:50:25:693 memoria/(13770:13770): ------2---------
+
+[INFO] 16:50:25:694 memoria/(13770:13770): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:50:35:089 memoria/(13770:13770): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:50:35:206 memoria/(13770:13811): HANDSHAKE
+[INFO] 16:50:35:249 memoria/(13770:13811): --------------0-----------
+
+[INFO] 16:50:35:286 memoria/(13770:13811): -------------0--------------
+
+[INFO] 16:50:35:292 memoria/(13770:13811): -------------1--------------
+
+[INFO] 16:50:35:297 memoria/(13770:13811): -------------2--------------
+
+[INFO] 16:50:35:297 memoria/(13770:13811): Cant_frames mayor
+[INFO] 16:50:35:306 memoria/(13770:13811): DISCONNECT!
+[INFO] 17:10:29:660 memoria/(15970:15970): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:10:29:740 memoria/(15970:15970): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:10:29:744 memoria/(15970:15970): ------2---------
+
+[INFO] 17:10:29:745 memoria/(15970:15970): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:15:03:784 memoria/(16440:16440): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:15:03:868 memoria/(16440:16440): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:15:03:871 memoria/(16440:16440): ------2---------
+
+[INFO] 17:15:03:873 memoria/(16440:16440): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:15:11:354 memoria/(16440:16440): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:15:11:486 memoria/(16440:16484): HANDSHAKE
+[INFO] 17:15:11:537 memoria/(16440:16484): --------------0-----------
+
