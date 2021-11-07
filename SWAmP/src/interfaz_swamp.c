@@ -126,7 +126,6 @@ bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bo
                 respuesta = true;
                 break;
             }
-             
         }
 
         return respuesta;
@@ -160,7 +159,5 @@ bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bo
             return paginas_libres >= cant_paginas;
 
         }
-
-
     }
 }
