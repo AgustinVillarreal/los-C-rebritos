@@ -50,7 +50,7 @@ static void procesar_conexion(void* void_args) {
                     }
                 }
                 else {
-                    log_error(logger, "Error ESCRITURA en SWAmP");
+                    log_error(logger, "Error recibiendo ESCRITURA en SWAmP");
                     send_ack(cliente_socket, false);
                 }
                 break;
@@ -69,7 +69,7 @@ static void procesar_conexion(void* void_args) {
                     buscar_frame_en_swap(carpincho_id, nro_pagina, &data, asignacion_fija);
                 }
                 else {
-                    log_error(logger, "Error LECTURA en SWAmP");
+                    log_error(logger, "Error recibiendo LECTURA en SWAmP");
                     send_ack(cliente_socket, false);
                 }
                 break;
@@ -84,6 +84,22 @@ static void procesar_conexion(void* void_args) {
                 }
                 else {
                     log_error(logger, "Error recibiendo FINALIZAR_CARPINCHO en SWAmP");
+                    send_ack(cliente_socket, false);
+                }
+                break;
+            }
+            case ESPACIO_LIBRE:
+            {
+                unsigned long carpincho_id;
+                uint32_t cant_paginas;
+                bool asignacion_fija;
+
+                if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id,&cant_paginas,&asignacion_fija)) {
+                    bool respuesta = revisar_espacio_libre(carpincho_id,cant_paginas,asignacion_fija);
+                    send_ack(cliente_socket,respuesta);
+                }
+                else {
+                    log_error(logger, "Error recibiendo ESPACIO_LIBRE en SWAmP");
                     send_ack(cliente_socket, false);
                 }
                 break;

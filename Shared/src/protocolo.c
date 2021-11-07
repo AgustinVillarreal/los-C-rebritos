@@ -142,3 +142,7 @@ bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t*  nr
 bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, bool* asigancion_fija){
   return true;
 }// TODO: Recibe el pedido de escritura de memoria
+
+bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas, bool* asignacion_fija){
+  return true;
+}// TODO: Recibe de solicitud para saber si hay espacio libre para la cant_paginas

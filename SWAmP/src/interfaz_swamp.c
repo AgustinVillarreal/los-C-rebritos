@@ -104,3 +104,63 @@ void buscar_frame_en_swap(unsigned long id, uint32_t nro_pagina, void** data, bo
 void borrar_carpincho_swap(unsigned long carpincho_id){
 
 }
+
+bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bool asignacion_fija){
+    
+    bool buscar_x_id(frame_swap_t* f){
+        return f->pid == carpincho_id;
+    }
+
+    //Pregunto si el carpincho esta en swap
+    if(!list_any_satisfy(tablas_de_frames_swap,(void*) buscar_x_id)){
+        //El caprincho no esta en swap busco si hay espacio en alguno de los swap para las paginas
+        bool respuesta = false;
+
+        for(int i = 0 ; i < list_size(areas_de_swap); i++){
+
+            void* swap = list_get(areas_de_swap,i);
+
+            uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(swap) / cfg->TAMANIO_PAGINA;
+
+            if(paginas_libres >= cant_paginas){
+                respuesta = true;
+                break;
+            }
+             
+        }
+
+        return respuesta;
+
+    }
+    else{
+
+        if(asignacion_fija){
+
+            t_list* aux = list_filter(tablas_de_frames_swap,(void*) buscar_x_id);
+
+            uint32_t libres = 0;
+
+            for(int i = 0 ; i<cfg->MARCOS_POR_CARPINCHO ;i++){
+                frame_swap_t* f =  list_get(aux,i);
+                
+                if(f->libre){
+                    libres++;
+                }
+            }
+
+            return libres >= cant_paginas;
+
+        }
+        else{
+            frame_swap_t* frame = list_find(tablas_de_frames_swap,(void*)buscar_x_id);
+            void* swap = list_get(areas_de_swap, frame->nro_swap);
+
+            uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(swap) / cfg->TAMANIO_PAGINA;
+
+            return paginas_libres >= cant_paginas;
+
+        }
+
+
+    }
+}

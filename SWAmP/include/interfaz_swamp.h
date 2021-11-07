@@ -17,4 +17,6 @@ void buscar_frame_en_swap(unsigned long id, uint32_t nro_pagina, void** data, bo
 
 void borrar_carpincho_swap(unsigned long carpincho_id);
 
+bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bool asignacion_fija);
+
 #endif
