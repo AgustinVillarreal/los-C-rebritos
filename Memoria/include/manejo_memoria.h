@@ -11,6 +11,7 @@
 
 #include "monitor_memoria.h"
 #include "config.h"
+#include "algoritmos.h"
 
 
 

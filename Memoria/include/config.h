@@ -49,13 +49,15 @@ typedef struct {
 } t_config_memoria;
 
 
-
-
 uint8_t cargar_configuracion(t_config_memoria*);
 void cerrar_programa(t_log*,t_config_memoria*);
 uint8_t init();
 uint8_t cargar_memoria(t_config_memoria*);
 t_config_memoria* initialize_cfg();
+
+bool (*correr_algoritmo) (unsigned long id, uint32_t* nro_frame);
+bool correr_algoritmo_clock_m (unsigned long id, uint32_t* nro_frame);
+bool correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame);
 
 
 #endif

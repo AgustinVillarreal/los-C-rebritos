@@ -10,20 +10,28 @@ extern pthread_mutex_t MUTEX_FRAMES_BUSY;
 bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
 
     //TODO: cant_paginas no esta teniendo en cuenta el hmd
-    if(cant_frame_libres_fija(id_carpincho) <= cant_paginas(size)) {
+    if(cant_frame_libres_fija(id_carpincho) < cant_paginas(size)) {
         //TODO: Buscar victima segun algoritmo y swapear la difrencia entre los frames que quiere y la cant de pags
         log_info(logger, "Cant_frames menor");
         return true;
     }
+    
 
     if(primer_alloc){
         uint32_t hmd_cortado = 0;
-        for(uint32_t i = 0; i <= cant_paginas(size + sizeof(hmd_t) * 2); i++){
-            uint32_t nro_frame = buscar_primer_frame_carpincho();
+        uint32_t cantidad_de_paginas = cant_paginas(size + sizeof(hmd_t) * 2);
+
+        for(uint32_t i = 0; i <= cantidad_de_paginas; i++){
+            
+            uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
+            if(nro_frame == 0xFFFF){
+                bool ret_code = correr_algoritmo(id_carpincho, &nro_frame);
+
+            }
             //TODO: Penasr de que forma se puede generalizar, en este caso la i corresdponde a la pagina de al tp
             primer_memalloc_carpincho(id_carpincho, &size, direccion_logica, nro_frame, i, &hmd_cortado);
-            append_frame_tp(id_carpincho, i, nro_frame);
-            log_info(logger, "-------------%d--------------\n", nro_frame);
+            //TODO: Cuando se mete un frame que ya esta hay que poner el bit de presencia del anterior en 0
+            append_frame_tp(id_carpincho, i, nro_frame);    
         }
 
         //TODO: RECORDAR ACTUALIZAR LA TLB
@@ -50,15 +58,9 @@ uint32_t cant_frame_libres_fija(unsigned long id_carpincho) {
             presentes_en_mp++;
         }
     }
-
     uint32_t frames_disponibles_carpincho = MEMORIA_CFG->MARCOS_POR_PROCESO - presentes_en_mp;
-    uint32_t frames_disponibles_en_mp = cant_frame_libres();
     
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
-
-    if(frames_disponibles_carpincho > frames_disponibles_en_mp){
-        return frames_disponibles_en_mp;
-    } 
 
     return frames_disponibles_carpincho;
 }

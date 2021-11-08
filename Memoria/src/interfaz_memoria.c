@@ -2,6 +2,8 @@
 
 extern t_config_memoria* MEMORIA_CFG;
 extern t_list* tabla_frames;
+extern t_log* logger;
+
 
 void mate_init(unsigned long id){
     tp_carpincho_t* tp_carpincho = malloc(sizeof(tp_carpincho_t));
@@ -10,7 +12,12 @@ void mate_init(unsigned long id){
     tp_carpincho->paginas = list_create();
     pthread_mutex_init(&tp_carpincho->mutex_paginas, NULL);
     if(MEMORIA_CFG->FIJA){
-        ocupar_frames(id);
+        //TODO: Si ocupar frames retorna false significa que esta algo raro con el grado de multiprogramacion
+        bool ret_code = ocupar_frames(id);
+        if(!ret_code){
+            log_error(logger, "Te pasaste del grado de multiprogramacion - Incongruencia con Kernel\n");
+            return;
+        }
     }
 
     agregar_tabla_a_tp_carpinchos(tp_carpincho);

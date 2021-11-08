@@ -38,17 +38,17 @@ typedef struct {
 
 typedef struct {
         uint16_t bit_U;     // bit de uso
-        uint16_t bit_M;    // bit de modificación
 } clock_m_t;
 
 typedef struct {
     uint32_t nro_pagina;    
-    uint32_t nro_frame;     
+    uint32_t nro_frame; 
+    uint16_t bit_M;    // bit de modificación    
+    bool bit_P; // bit de presencia
     union {
         clock_m_t* clock_m;
         uint32_t TUR;      // tiempo de ultima referencia, LRU
-    } falopa; // TODO LOQUI chupame los huevos
-    bool bit_P; // bit de presencia
+    } algoritmo;
 } entrada_tp_t;
 
 

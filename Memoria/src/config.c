@@ -73,9 +73,12 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     config->CANT_PAGINAS = config->TAMANIO / config->TAMANIO_PAGINA;
 
     if(!strcmp(config->ALGORITMO_REEMPLAZO_MMU, "CLOCK-M")){
-        config->LRU_MMU=false;
+        correr_algoritmo = correr_algoritmo_clock_m;
+        config->LRU_MMU = false;
     } else {
-        config->LRU_MMU=true;
+        correr_algoritmo = correr_algoritmo_lru;
+        config->LRU_MMU = true;
+        
     }
 
     if(!strcmp(config->ALGORITMO_REEMPLAZO_TLB, "FIFO")){
