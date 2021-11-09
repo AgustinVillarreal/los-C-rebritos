@@ -23,8 +23,8 @@ bool correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame){
         //Retorna false si falla el swapear
     }
 
-    tabla_frames[*nro_frame].libre = 1;
     *nro_frame = victima->nro_frame;
+    tabla_frames[*nro_frame].libre = 1;
 
     return true;
 }

@@ -56,12 +56,12 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
 
     int32_t dif = MEMORIA_CFG->TAMANIO_PAGINA - *size_rest;  
-
-    hmd->prevAlloc = 0;
-    hmd->nextAlloc = (int) NULL;
-    hmd->isFree = true;
     
     if(dif > 0 ) {
+
+        hmd->prevAlloc = 0;
+        hmd->nextAlloc = (int) NULL;
+        hmd->isFree = true;
 
         if(dif < 9){
             log_info(logger, "Allocando primer mitad del hmd en %d\n", nro_frame);
@@ -70,6 +70,8 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
             pthread_mutex_unlock(&MUTEX_MP_BUSY);
             *hmd_cortado = 1;
             *size_rest = sizeof(hmd_t) - dif;
+            free(hmd);
+            
             return;        
         }
         if(*hmd_cortado){
@@ -77,6 +79,8 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
             pthread_mutex_lock(&MUTEX_MP_BUSY);
             memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, ((void*) hmd) + sizeof(hmd_t) - *size_rest, *size_rest);
             pthread_mutex_unlock(&MUTEX_MP_BUSY);
+            free(hmd);
+            
             return;
         }
 
@@ -85,6 +89,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + *size_rest, hmd, sizeof(hmd_t));
         pthread_mutex_unlock(&MUTEX_MP_BUSY);
+        free(hmd);
 
         return;
     } 

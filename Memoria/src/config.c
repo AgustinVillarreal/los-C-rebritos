@@ -141,6 +141,7 @@ uint8_t cargar_memoria(t_config_memoria* cfg) {
     for (int i=0; i<cfg->CANT_PAGINAS; i++) {
         tabla_frames[i].libre = 1;
         tabla_frames[i].ocupado = 0;
+        tabla_frames[i].id_carpincho = NULL;
     }
     return 1;
 }

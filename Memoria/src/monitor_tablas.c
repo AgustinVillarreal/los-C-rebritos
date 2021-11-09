@@ -72,7 +72,7 @@ void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
     entrada_tp->bit_P = 1;
     //TODO: Ver mi TUR
     if(MEMORIA_CFG->LRU_MMU){
-
+        entrada_tp->algoritmo.TUR = global_TUR++;
     } else {
         entrada_tp->algoritmo.clock_m = malloc(sizeof(clock_m_t));
         entrada_tp->algoritmo.clock_m->bit_U = 1;

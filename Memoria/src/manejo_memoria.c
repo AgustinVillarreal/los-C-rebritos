@@ -20,13 +20,15 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
     if(primer_alloc){
         uint32_t hmd_cortado = 0;
         uint32_t cantidad_de_paginas = cant_paginas(size + sizeof(hmd_t) * 2);
-
-        for(uint32_t i = 0; i <= cantidad_de_paginas; i++){
+        // TODO Puse menor, revisar
+        for(uint32_t i = 0; i < cantidad_de_paginas; i++){
             
             uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
             if(nro_frame == 0xFFFF){
                 bool ret_code = correr_algoritmo(id_carpincho, &nro_frame);
-
+                if(!ret_code){
+                    return false;
+                }
             }
             //TODO: Penasr de que forma se puede generalizar, en este caso la i corresdponde a la pagina de al tp
             primer_memalloc_carpincho(id_carpincho, &size, direccion_logica, nro_frame, i, &hmd_cortado);
