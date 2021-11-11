@@ -60,6 +60,7 @@ void proceder_asignacion_fija(int fd,unsigned long id,uint32_t pagina,void* data
         // El carpincho esta en swap 
         // Filtro los carpinchos que necesito
 
+
         bool cmp_nro_pagina(frame_swap_t* f1,frame_swap_t* f2){
             return f1->nro_pagina < f2->nro_pagina;
         }
