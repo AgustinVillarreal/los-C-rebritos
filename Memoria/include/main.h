@@ -1,11 +1,13 @@
 #ifndef MAIN_MEMORIA_H_
 #define MAIN_MEMORIA_H_
 
-#include "config.h"
 #include "conexion.h"
 #include "comunicacion.h"
 #include <signal.h>
 #include <shared/sockets.h>
+#include "config.h"
+
+t_config_memoria* MEMORIA_CFG;	
 
 
 void sighandler(int x);

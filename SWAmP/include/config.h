@@ -15,6 +15,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <errno.h>
+#include "estructuras.h"
 
 // Al menos tenemos uno solo de este struct blasfemico
 typedef struct {

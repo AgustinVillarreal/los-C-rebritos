@@ -5,6 +5,7 @@ t_log* logger;
 t_config_swamp* cfg;
 
 t_list* areas_de_swap;
+t_list* tablas_de_frames_swap;
 
 /* Funciones para iniciar el modulo  */
 
@@ -12,7 +13,7 @@ t_list* areas_de_swap;
 
 uint8_t init() {
     cfg = initialize_cfg();
-    logger = log_create("swamp.log", MODULENAME, false, LOG_LEVEL_INFO);
+    logger = log_create("swamp.log", MODULENAME, true, LOG_LEVEL_INFO);
     return 1;
 }
 
@@ -116,6 +117,7 @@ bool cargar_swamp() {
 
     /* Chequear que este bien */
     areas_de_swap = list_create();
+    tablas_de_frames_swap = list_create();
 
     for(int i = 0; i < cantidad_archivos ; i++){
 
@@ -140,7 +142,11 @@ bool cargar_swamp() {
         list_add(areas_de_swap,area_swap);
 
         close(fd_swap);
-    
+
+        t_list* tabla_de_frames = list_create();
+        list_add(tablas_de_frames_swap,tabla_de_frames);
+
+
     }
 
     for(int i = 0 ; i < cantidad_archivos ; i++){
@@ -152,6 +158,16 @@ bool cargar_swamp() {
 }
 
 
+ void destruir_tabla(t_list* lista){
+    list_destroy(lista);
+}
+
+void free_tabla_de_frames(){
+
+    list_destroy_and_destroy_elements(tablas_de_frames_swap, (void*)destruir_tabla);
+
+}
+
 void cerrar_programa() {
     log_info(logger, "Finalizando programa...");
 
@@ -161,5 +177,6 @@ void cerrar_programa() {
     free(cfg->IP);
     free(cfg->ARCHIVOS_SWAP);
     free(cfg);
+    free_tabla_de_frames();
     //finalizar_mutex();
 }

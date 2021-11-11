@@ -1,6 +1,5 @@
 #include "include/main.h"
 
-t_config_memoria*  MEMORIA_CFG;
 extern t_log* logger;
 
 //SIGNAL HANDLER
@@ -24,10 +23,13 @@ int main(){
 	signal(SIGUSR1, sighandler);
     signal(SIGUSR2, sighandler);
     signal(SIGINT , sighandler);
+	
+	MEMORIA_CFG = initialize_cfg();
 
 	int memoria_server;
+	int swap_fd;
 	// hasta que no este el swap el generar conexiones no va a compilar
-	if( !init() | !cargar_configuracion(MEMORIA_CFG) || !cargar_memoria(MEMORIA_CFG)){
+	if( !init() | !cargar_configuracion(MEMORIA_CFG) || !cargar_memoria(MEMORIA_CFG) | !generar_conexion(&swap_fd, MEMORIA_CFG)){
 		cerrar_programa(logger,MEMORIA_CFG);
 		return EXIT_FAILURE;
 	}
@@ -39,6 +41,13 @@ int main(){
 		printf("Falle :(");
 		return EXIT_FAILURE;
 	}
+
+	if(!send_handshake(swap_fd)){
+		cerrar_programa(logger,MEMORIA_CFG);
+		printf("Falle :(");
+		return EXIT_FAILURE;
+	}
+	
 
 	while(server_escuchar(SERVERNAME, memoria_server));
 

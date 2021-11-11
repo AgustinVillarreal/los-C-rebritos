@@ -1,6 +1,6 @@
 #include "../include/monitor_memoria.h"
 
-
+extern t_config_memoria* MEMORIA_CFG;
 
 // uint32_t buscar_first_fit(int size){
 //     int i=0,aux=0,primer_pos_libre;
@@ -38,4 +38,32 @@ uint32_t cant_paginas(uint32_t size, size_t* rem){
 
 frame_t buscar_frame_ff(){
     
+}
+
+void* algoritmo_mmu_clock_m (){
+    return NULL;
+
+}
+void* algoritmo_mmu_lru(){
+    return NULL;
+
+}
+
+void* algoritmo_tlb_fifo(){
+    return NULL;
+
+}
+void* algoritmo_tlb_lru(){
+    return NULL;
+
+}
+
+void* asignacion_fija(){
+    return NULL;
+
+}
+
+void* asignacion_global(){
+    return NULL;
+
 }

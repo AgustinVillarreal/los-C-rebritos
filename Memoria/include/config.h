@@ -24,7 +24,6 @@
 #include <readline/readline.h>
 
 #include "estructuras.h" 
-#include "monitor_memoria.h"
 
 typedef struct {
     char* IP;
@@ -47,14 +46,19 @@ typedef struct {
 pthread_mutex_t MUTEX_FRAME_OCUPADO;
 pthread_mutex_t MUTEX_MP_BUSY;
 
-
-t_config_memoria* MEMORIA_CFG;
 t_log* logger;
 uint32_t memoria_disponible;
 frame_t* tabla_frames;
 uint32_t global_TUR;
 void* memoria_principal;
 t_list* tp_carpinchos;
+
+
+uint8_t cargar_configuracion(t_config_memoria*);
+void cerrar_programa(t_log*,t_config_memoria*);
+uint8_t init();
+uint8_t cargar_memoria(t_config_memoria*);
+t_config_memoria* initialize_cfg();
 
 void* (*algoritmo_reemplazo_mmu) (void);
 void* algoritmo_mmu_clock_m ();
@@ -67,14 +71,6 @@ void* algoritmo_tlb_lru();
 void* (*tipo_asignacion) (void);
 void* asignacion_fija();
 void* asignacion_global();
-
-
-
-uint8_t cargar_configuracion(t_config_memoria*);
-void cerrar_programa(t_log*,t_config_memoria*);
-uint8_t init();
-void init_mutex();
-uint8_t cargar_memoria(t_config_memoria*);
 
 
 #endif
