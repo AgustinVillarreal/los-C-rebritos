@@ -628,3 +628,36 @@
 
 [INFO] 16:34:09:478 memoria/(3360:3360): Cliente conectado (a MEMORIA_SERVER)
 
+[INFO] 18:23:21:806 memoria/(5576:5576): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:23:21:860 memoria/(5576:5576): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:23:33:085 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:29:14:277 memoria/(5576:5799): DISCONNECT!
+[INFO] 18:29:15:877 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:29:58:523 memoria/(5576:6594): DISCONNECT!
+[INFO] 18:30:00:220 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:31:31:311 memoria/(5576:6789): DISCONNECT!
+[INFO] 18:31:33:410 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:31:59:779 memoria/(5576:7042): DISCONNECT!
+[INFO] 18:32:01:571 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:33:13:127 memoria/(5576:7185): DISCONNECT!
+[INFO] 18:33:14:666 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:36:23:013 memoria/(5576:7402): DISCONNECT!
+[INFO] 18:36:38:966 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:36:56:715 memoria/(5576:7884): DISCONNECT!
+[INFO] 18:37:01:454 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:37:33:269 memoria/(5576:7993): DISCONNECT!
+[INFO] 18:37:34:545 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:41:01:926 memoria/(5576:8119): DISCONNECT!
+[INFO] 18:41:03:678 memoria/(5576:5576): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:41:27:154 memoria/(5576:8569): DISCONNECT!

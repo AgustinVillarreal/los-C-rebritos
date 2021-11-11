@@ -1,5 +1,7 @@
 #include "../include/matelib.h"
 
+#define ERROR -1
+
 //------------------General Functions---------------------/
 
 int mate_init (mate_instance *lib_ref, char *config){
@@ -99,26 +101,30 @@ int mate_sem_init(mate_instance *lib_ref, mate_sem_name sem, unsigned int value)
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 		if(!send_sem_init(inner_structure->servidor_fd, sem, value)){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 	} else {
 		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
-		return EXIT_FAILURE;	
+		return ERROR;	
 	}
-	
-	return result_code != 0;
+
+	if(result_code == -1) {
+		return ERROR;
+	}else {
+		return 0;
+	}
 }
 
 int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem){
@@ -129,26 +135,26 @@ int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 		if(!send_sem(inner_structure->servidor_fd, sem)){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 
 		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 	}	else {
 		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
-		return EXIT_FAILURE;	
+		return ERROR;	
 	}
-	return result_code == -1;
+	return result_code;
 }
 
 int mate_sem_post(mate_instance *lib_ref, mate_sem_name sem){
@@ -159,27 +165,27 @@ int mate_sem_post(mate_instance *lib_ref, mate_sem_name sem){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 		if(!send_sem(inner_structure->servidor_fd, sem)){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 
 		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 		
 	}	else {
 		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
-		return EXIT_FAILURE;	
+		return ERROR;	
 	}
-	return result_code == -1;
+	return result_code;
 }
 // TODO ABSTRAER WAIT, POST Y DESTROY
 
@@ -191,27 +197,27 @@ int mate_sem_destroy(mate_instance *lib_ref, mate_sem_name sem){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 		if(!send_sem(inner_structure->servidor_fd, sem)){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 
 		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
 			free(inner_structure->IP);
 			free(inner_structure->PUERTO);	
 			log_destroy(inner_structure->logger);	
-			return EXIT_FAILURE;
+			return ERROR;
 		}
 		
 	}	else {
 		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
-		return EXIT_FAILURE;	
+		return ERROR;	
 	}
-	return result_code == -1;
+	return result_code;
 }
 
 // //--------------------IO Functions------------------------/

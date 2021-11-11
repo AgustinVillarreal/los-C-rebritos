@@ -34,15 +34,15 @@ int main(int argc, char *argv[])
   //TODO: Esto lo podria hacer el mate_init
   mate_instance mate_ref;
   mate_init(&mate_ref, "./config.config");
-  mate_sem_init(&mate_ref, "holachau", 0); 
+  mate_sem_init(&mate_ref, "holachau", 10); 
   // mate_sem_destroy(&mate_ref, "holachau"); 
-  // mate_sem_wait(&mate_ref, "holachau");
-  mate_sem_post(&mate_ref, "holachau");
+  // mate_sem_wait(&mate_ref, "holzachau");
+  // mate_sem_post(&mate_ref, "holachau");
 
   //IO
-  char* prueba = strdup("hola");
-  mate_call_io(&mate_ref, "hierbitas", prueba);
-  free(prueba);
+  // char* prueba = strdup("hola");
+  // mate_call_io(&mate_ref, "hierbitas", prueba);
+  // free(prueba);
   
   /*mate_memalloc(&mate_ref, 6);
   mate_memfree(&mate_ref, 1);

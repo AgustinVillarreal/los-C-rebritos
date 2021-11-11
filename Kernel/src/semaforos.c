@@ -40,6 +40,7 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
     } 
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
+        pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
         return -1;
     }
     t_semaforo* sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
@@ -71,6 +72,7 @@ int sem_post_carpincho(char* sem_name_post){
     log_info(logger, "SEM POST MUTEX-----------------");        
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
+        pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);        
         return -1;
     }
     t_semaforo* sem_post_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
@@ -102,6 +104,7 @@ int sem_destroy_carpincho(char* sem_name_destroy){
     }
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
+        pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
         return -1;
     }
     t_semaforo* sem_destroy_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);

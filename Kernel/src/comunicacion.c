@@ -77,6 +77,7 @@ static void procesar_conexion(void* void_args){
                 int result = sem_wait_carpincho(sem_name_wait, carpincho);
                 if(result == 1){
                     sem_wait(&carpincho->sem_pause);
+                    result = 0;
                 }
                 if(!send(cliente_socket, &result, sizeof(int), 0)){
                    log_error(logger, "Error al enviar return code de sem wait");
