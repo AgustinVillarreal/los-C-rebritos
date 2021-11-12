@@ -37,7 +37,7 @@ typedef enum {
     PEDIR_SWAMP,
     MATE_INIT,
     IO,
-    CARPINCHO_SWAP,
+    CARPINCHO_SWAP
 } op_code;
 
 

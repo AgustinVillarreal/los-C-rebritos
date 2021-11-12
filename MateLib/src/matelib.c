@@ -53,7 +53,6 @@ int mate_init (mate_instance *lib_ref, char *config){
 	inner_structure->PUERTO = PUERTO;
 	inner_structure->servidor_fd = servidor_fd;
 	inner_structure->kernel_connected = cop == HANDSHAKE_KERNEL;
-	inner_structure->id= generate_id();
 
 	if(!send_mate_init(servidor_fd)){
 		data_destroy(IP, PUERTO, cfg);	
@@ -61,12 +60,26 @@ int mate_init (mate_instance *lib_ref, char *config){
 		return EXIT_FAILURE;
 	}
 
-	if(!send_data_mate_init(servidor_fd, inner_structure->id)){
-		log_error(logger, "Error enviando");
-		data_destroy(IP, PUERTO, cfg);
-		log_destroy(logger);
-		return EXIT_FAILURE;
+	uint16_t id_unico = 0;
+
+	while(!id_unico) {
+		inner_structure->id= generate_id();
+		log_info(logger, "id: %lu\n", inner_structure->id);
+		if(!send_data_mate_init(servidor_fd, inner_structure->id)){
+			log_error(logger, "Error enviando");
+			data_destroy(IP, PUERTO, cfg);
+			log_destroy(logger);
+			return EXIT_FAILURE;
+		}
+		if(!recv(servidor_fd, &id_unico, sizeof(uint16_t), 0) == -1){
+			log_error(logger, "Error enviando");
+			data_destroy(IP, PUERTO, cfg);
+			log_destroy(logger);
+			return EXIT_FAILURE;
+		}
 	}
+
+	
 
 	if(inner_structure->kernel_connected){
 		

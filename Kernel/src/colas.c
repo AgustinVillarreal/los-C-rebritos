@@ -18,6 +18,7 @@ void iniciar_mutex(int grado_multiprogramacion){
   pthread_mutex_init(&MUTEX_LISTA_SUSPENDED_READY, NULL);
   pthread_mutex_init(&MUTEX_LISTA_SUSPENDED_BLOCKED, NULL);
   pthread_mutex_init(&MUTEX_LISTA_BLOCKED, NULL);
+  pthread_mutex_init(&MUTEX_LISTA_IDS, NULL);
 
   sem_init(&SEM_GRADO_MULTIPROGRAMACION,0, grado_multiprogramacion);
   sem_init(&SEM_CANTIDAD_A_READY, 0, 0);

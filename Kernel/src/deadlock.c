@@ -53,8 +53,8 @@ void listener_deadlock(){
         }
 
         int cantidad_bloqueados = list_size(lista_posibles_bloqueados);
-        log_info(logger, "AAAAAAAAAAAAAAAAAAAA");
-        log_info(logger, "------blqueados---%d-----", cantidad_bloqueados);
+        // log_info(logger, "AAAAAAAAAAAAAAAAAAAA");
+        // log_info(logger, "------blqueados---%d-----", cantidad_bloqueados);
         
 
         for(int i = 0; i < cantidad_bloqueados; i++) {
@@ -136,7 +136,7 @@ void killear_id_mas_alto(t_list* lista_bloqueados){
     
 
     void mostrar(void* a) {
-        log_info(logger, "id----%lu----\n", ((t_deadlock*)a)->id_carpincho);
+        // log_info(logger, "id----%lu----\n", ((t_deadlock*)a)->id_carpincho);
         return;
     }
     list_iterate(lista_bloqueados, mostrar);

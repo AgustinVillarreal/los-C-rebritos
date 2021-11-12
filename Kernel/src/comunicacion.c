@@ -42,10 +42,28 @@ static void procesar_conexion(void* void_args){
 
             case MATE_INIT: ;
                 unsigned long id;
-                if(!recv(cliente_socket, &id, sizeof(long), 0)){
-                    log_info(logger, "Error recibiendo msj de encolamiento new");
-                    return;
-                }
+                uint16_t id_unico = 0;
+                // pthread_mutex_lock(&MUTEX_LISTA_IDS);
+                // while(!id_unico) {
+                //     if(!recv(cliente_socket, &id, sizeof(long), 0)){
+                //         log_info(logger, "Error recibiendo msj de encolamiento new");
+                //         return;
+                //     }
+                //     bool es_id(void* id_nodo){
+                //         return id == *((uint16_t*) id_nodo);
+                //     }
+                //     id_unico = !list_any_satisfy(LISTA_IDS, es_id);
+                //     if(id_unico) {
+                //         list_add(LISTA_IDS, &id);
+                //     }
+                //     if (!send(cliente_socket, &id_unico, sizeof(uint16_t), 0)){
+                //         log_error(logger, "Error al enviar return code de sem init");
+                //         free(server_name);
+                //         return;
+                //     }
+                // }
+                
+                // pthread_mutex_unlock(&MUTEX_LISTA_IDS);                
                 carpincho_init(id, &carpincho);
                 if(!send_mate_init(memoria_fd)){
                     log_error(logger, "Error al enviar handshake desde kernel a matelib");
