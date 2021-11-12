@@ -1,6 +1,7 @@
 #include "../include/comunicacion.h"
 
 extern t_log* logger;
+extern t_config_kernel* KERNEL_CFG;
 
 typedef struct {
     int fd;
@@ -14,6 +15,8 @@ static void procesar_conexion(void* void_args){
     char* server_name = args->server_name;
     int memoria_fd = args->memoria_fd;
     free(args);
+
+    KERNEL_CFG->MEMORIA_FD = memoria_fd;
 
     t_carpincho * carpincho;
 
@@ -83,10 +86,13 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
-                int result = sem_wait_carpincho(sem_name_wait, carpincho);
+                t_semaforo* sem_wait_asignado;
+                int result = sem_wait_carpincho(sem_name_wait, carpincho, &sem_wait_asignado);
                 if(result == 1){
                     sem_wait(&carpincho->sem_pause);
+                    result = 0;
                 }
+                sem_wait_asignado->carpincho_asignado = carpincho;
                 if(!send(cliente_socket, &result, sizeof(int), 0)){
                    log_error(logger, "Error al enviar return code de sem wait");
                    free(server_name);
@@ -123,6 +129,29 @@ static void procesar_conexion(void* void_args){
                 }
                 free(sem_name_destroy);
                 break;
+            case IO: ;
+                char* io;
+                char* msg;
+                if(!recv_sem(cliente_socket, &io)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                if(!recv_sem(cliente_socket, &msg)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                int bloqueo_salida_res = procesar_entrada_salida(carpincho, io, msg);
+                if(bloqueo_salida_res){
+                    sem_wait(&carpincho->sem_pause);                    
+                }
+                if(!send(cliente_socket, &bloqueo_salida_res, sizeof(int), 0)){
+                   log_error(logger, "Error al enviar return code de io");
+                   free(server_name);
+                   return;
+                }
+                free(io);
+                free(msg);                
+                break;
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;
@@ -144,9 +173,11 @@ static void procesar_conexion(void* void_args){
                 send_memwrite(memoria_fd);
                 break;
 
+
             //TODO ver donde se libera
             case FREE_CARPINCHO:
-		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);		        
+		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);	
+                push_cola_exit(carpincho);	 
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -36,6 +36,8 @@ typedef enum {
     GUARDAR_SWAMP,
     PEDIR_SWAMP,
     MATE_INIT,
+    IO,
+    CARPINCHO_SWAP,
 } op_code;
 
 
@@ -53,6 +55,9 @@ bool send_sem_init(int fd,  char* sem, unsigned int value);
 
 bool send_sem(int fd, char* sem);
 bool recv_sem(int fd, char** sem);
+
+//IO
+bool send_io(int fd, char* io, char* msg);
 
 
 //MEMORIA

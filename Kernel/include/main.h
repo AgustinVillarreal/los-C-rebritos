@@ -10,7 +10,8 @@
 #include "comunicacion.h"
 #include "algoritmos.h"
 #include "semaforos.h"
-
+#include "suspencion.h"
+#include "deadlock.h"
 
 t_config_kernel* KERNEL_CFG;
 

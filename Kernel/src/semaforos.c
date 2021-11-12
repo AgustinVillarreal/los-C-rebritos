@@ -18,9 +18,11 @@ int sem_init_carpincho(char* sem, int value){
         semaforo->name = strdup(sem);
         semaforo->value = value;
         semaforo->COLA_BLOQUEADOS = queue_create();
+        semaforo->carpincho_asignado = NULL;
         list_add(LISTA_SEMAFOROS, semaforo);
     }
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
+    free(sem);
     return 0;
 }
 
@@ -30,24 +32,23 @@ bool existe_semaforo(char* nombre_sem, t_semaforo* semaforo){
 
 //WAIT 
 
-int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
+int sem_wait_carpincho(char* sem, t_carpincho* carpincho, t_semaforo** sem_wait){
 
     bool carpincho_blocked = false;
 
     bool existe_semaforo_nombre(void* semaforo){
         return existe_semaforo(sem, semaforo);
-    }
-    log_info(logger, "SEM WAIT MUTEX-----------------");    
+    } 
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
+        pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
         return -1;
     }
-    t_semaforo* sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
-    log_info(logger, "SEM WAIT---------%d--------", sem_wait->value);
+    *sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
 
-    sem_wait->value --;
-    if(sem_wait->value < 0){
-        queue_push(sem_wait->COLA_BLOQUEADOS, carpincho);
+    (*sem_wait)->value --;
+    if((*sem_wait)->value < 0){
+        queue_push((*sem_wait)->COLA_BLOQUEADOS, carpincho);
         //TODO: Ver que pasa con CPU
         add_lista_blocked(carpincho);
         carpincho_blocked = true;
@@ -72,6 +73,7 @@ int sem_post_carpincho(char* sem_name_post){
     log_info(logger, "SEM POST MUTEX-----------------");        
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
+        pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);        
         return -1;
     }
     t_semaforo* sem_post_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
@@ -83,8 +85,13 @@ int sem_post_carpincho(char* sem_name_post){
     }
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
     if(desbloquea_carpincho){
-        remove_lista_blocked(carpincho);
-        push_cola_ready(carpincho);    
+        if(existe_en_lista_blocked(carpincho)){
+            remove_lista_blocked(carpincho);
+            push_cola_ready(carpincho);    
+        } else {
+            remove_lista_suspended_blocked(carpincho);
+            push_cola_suspended_ready(carpincho);
+        }       
     }
     return 0;
 }
@@ -98,6 +105,7 @@ int sem_destroy_carpincho(char* sem_name_destroy){
     }
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
+        pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
         return -1;
     }
     t_semaforo* sem_destroy_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);

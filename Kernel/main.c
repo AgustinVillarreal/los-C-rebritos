@@ -10,7 +10,6 @@ static t_config_kernel* initialize_cfg() {
     cfg->PUERTO_KERNEL              = NULL;
     cfg->ALGORITMO_PLANIFICACION    = NULL;
     cfg->DISPOSITIVOS_IO            = NULL;
-    cfg->DURACIONES_IO              = NULL;
     return cfg;
 }
 
@@ -20,8 +19,9 @@ int main(){
     //TODO: Ver donde liberar esta memoria
     COLA_NEW               = queue_create();
     COLA_READY             = queue_create();
+    COLA_EXIT              = queue_create();
     COLA_SUSPENDED_READY   = queue_create();
-    COLA_SUSPENDED_BLOCKED = queue_create();
+    LISTA_SUSPENDED_BLOCKED = list_create();
     LISTA_BLOCKED           = list_create();
     inicializar_semaforos();
 
@@ -61,8 +61,21 @@ int main(){
         } 
     }
 
+    pthread_t LISTENER_SUSPENCION;
+    if(!pthread_create(&LISTENER_SUSPENCION, NULL, (void*)listener_suspencion, NULL)){
+        pthread_detach(LISTENER_SUSPENCION);
+    } else {
+        cerrar_programa(logger, KERNEL_CFG);
+        return EXIT_FAILURE;
+    }
 
-
+    pthread_t LISTENER_DEADLOCK;
+    if(!pthread_create(&LISTENER_DEADLOCK, NULL, (void*)listener_deadlock, NULL)){
+        pthread_detach(LISTENER_DEADLOCK);
+    } else {
+        cerrar_programa(logger, KERNEL_CFG);
+        return EXIT_FAILURE;
+    }
 
     while (server_escuchar(SERVERNAME, kernel_server, memoria_fd));
 

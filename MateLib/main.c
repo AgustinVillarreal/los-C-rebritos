@@ -34,10 +34,28 @@ int main(int argc, char *argv[])
   //TODO: Esto lo podria hacer el mate_init
   mate_instance mate_ref;
   mate_init(&mate_ref, "./config.config");
-  // mate_sem_init(&mate_ref, "holachau", 0); 
+  mate_sem_init(&mate_ref, "1", 1); 
+  mate_sem_init(&mate_ref, "2", 1); 
+  mate_sem_init(&mate_ref, "3", 1);   
   // mate_sem_destroy(&mate_ref, "holachau"); 
-  // mate_sem_wait(&mate_ref, "holachau");
+  mate_sem_wait(&mate_ref, "1"); 
+  sleep(30);
+  mate_sem_wait(&mate_ref, "2"); 
+
+  // mate_sem_wait(&mate_ref, "2");  
+  // sleep(30);
+  // mate_sem_wait(&mate_ref, "1");
+
+  // mate_sem_wait(&mate_ref, "3");  
+  // sleep(30);
+  // mate_sem_wait(&mate_ref, "1");
+
   // mate_sem_post(&mate_ref, "holachau");
+
+  //IO
+  // char* prueba = strdup("hola");
+  // mate_call_io(&mate_ref, "hierbitas", prueba);
+  // free(prueba);
   
   mate_memalloc(&mate_ref, 120);
   /*

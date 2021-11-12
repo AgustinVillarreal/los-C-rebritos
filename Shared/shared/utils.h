@@ -17,7 +17,5 @@
 #include "frees.h"
 
 bool config_has_all_properties(t_config*, char**);
-t_list* extraer_dispositivos(char**);
-t_list* extraer_duraciones(char**);
 
 #endif

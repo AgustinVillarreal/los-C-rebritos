@@ -100,18 +100,6 @@ bool recv_sem(int fd, char** sem){
   return true;
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //MEMORIA
 
 bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
@@ -141,6 +129,25 @@ bool send_ack(int fd, bool ack) {
     }
     free(stream);
     return true;
+}
+
+//IO
+bool send_io(int fd, char* io, char* msg){
+  size_t size, size2;
+  void * stream = serializar_string(&size, io);
+  if(send(fd, stream, size, 0) == -1){
+    free(stream);    
+    return false;
+  } 
+  void * stream2 = serializar_string(&size2, msg);
+  if(send(fd, stream2, size2, 0) == -1){
+    free(stream2);    
+    return false;
+  } 
+  free(stream);
+  free(stream2);
+   
+  return true;
 }
 
 //MEMORIA
