@@ -31,7 +31,7 @@ bool existe_semaforo(char* nombre_sem, t_semaforo* semaforo){
 
 //WAIT 
 
-int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
+int sem_wait_carpincho(char* sem, t_carpincho* carpincho, t_semaforo** sem_wait){
 
     bool carpincho_blocked = false;
 
@@ -43,11 +43,11 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho){
         pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
         return -1;
     }
-    t_semaforo* sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
+    *sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
 
-    sem_wait->value --;
-    if(sem_wait->value < 0){
-        queue_push(sem_wait->COLA_BLOQUEADOS, carpincho);
+    (*sem_wait)->value --;
+    if((*sem_wait)->value < 0){
+        queue_push((*sem_wait)->COLA_BLOQUEADOS, carpincho);
         //TODO: Ver que pasa con CPU
         add_lista_blocked(carpincho);
         carpincho_blocked = true;

@@ -74,11 +74,13 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
-                int result = sem_wait_carpincho(sem_name_wait, carpincho);
+                t_semaforo* sem_wait_asignado;
+                int result = sem_wait_carpincho(sem_name_wait, carpincho, &sem_wait_asignado);
                 if(result == 1){
                     sem_wait(&carpincho->sem_pause);
                     result = 0;
                 }
+                sem_wait_asignado->carpincho_asignado = carpincho;
                 if(!send(cliente_socket, &result, sizeof(int), 0)){
                    log_error(logger, "Error al enviar return code de sem wait");
                    free(server_name);

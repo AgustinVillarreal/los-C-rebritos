@@ -3,6 +3,7 @@
 
 #include "config.h"
 #include "semaforos.h"
+#include <string.h>
 
 void listener_deadlock();
 
