@@ -1,28 +1,29 @@
 #include "../shared/protocolo.h"
 
 bool send_handshake(int fd_server){
-  send_codigo_op(fd_server, HANDSHAKE);
+  return send_codigo_op(fd_server, HANDSHAKE);
 }
 
 bool send_memalloc(int fd_server){
-  send_codigo_op(fd_server, MEM_ALLOC);
+  return send_codigo_op(fd_server, MEM_ALLOC);
 }
 
 bool send_memfree(int fd_server){
-  send_codigo_op(fd_server, MEM_FREE);
+  return send_codigo_op(fd_server, MEM_FREE);
 }
 
 bool send_memread(int fd_server){
-  send_codigo_op(fd_server, MEM_READ);
+  return send_codigo_op(fd_server, MEM_READ);
 }
 
 bool send_memwrite(int fd_server){
-  send_codigo_op(fd_server, MEM_WRITE);
+  return send_codigo_op(fd_server, MEM_WRITE);
 }
 
-bool send_poner_cola_new(int fd_server){
-  send_codigo_op(fd_server, PONER_COLA_NEW);
+bool send_mate_init(int fd_server){
+  return send_codigo_op(fd_server, MATE_INIT);
 }
+
 
 bool send_codigo_op(int fd, op_code cop) {
   size_t size = sizeof(op_code);
@@ -39,7 +40,7 @@ bool send_alloc_data(int fd, unsigned long id, int size){
   return true;
 }
 
-bool send_data_cola_new(int fd, unsigned long id){
+bool send_data_mate_init(int fd, unsigned long id){
   return send(fd, &id, sizeof(long), 0) != -1;
 }
 
@@ -118,6 +119,18 @@ bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
   return true;
 }
 
+//SEND PARA AVISAR QUE LLEGO TODO FLAMA
+bool send_ack(int fd, bool ack) {
+    void* stream = malloc(sizeof(bool));
+    memcpy(stream, &ack, sizeof(bool));
+    if (send(fd, stream, sizeof(bool), 0) == -1) {
+        free(stream);
+        return false;
+    }
+    free(stream);
+    return true;
+}
+
 //IO
 bool send_io(int fd, char* io, char* msg){
   size_t size, size2;
@@ -137,4 +150,19 @@ bool send_io(int fd, char* io, char* msg){
   return true;
 }
 
+//MEMORIA
+bool send_probar_en_swamp(uint32_t size, unsigned long id){
+  return true;
+}
 
+bool recv_ack(int fd, bool* ack) {
+    void* stream = malloc(sizeof(bool));
+    if (recv(fd, stream, sizeof(bool), 0) != sizeof(bool)) {
+        free(stream);
+        return false;
+    }
+    memcpy(ack, stream, sizeof(bool));
+
+    free(stream);
+    return true;
+}

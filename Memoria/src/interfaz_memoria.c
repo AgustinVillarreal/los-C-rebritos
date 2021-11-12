@@ -1,15 +1,78 @@
 #include "../include/interfaz_memoria.h"
 
-int reservar_espacio_memoria(int* a){
-    printf("Se reservo %d",a);
+extern t_config_memoria* MEMORIA_CFG;
+extern t_list* tabla_frames;
+extern t_log* logger;
+
+
+void mate_init(unsigned long id){
+    tp_carpincho_t* tp_carpincho = malloc(sizeof(tp_carpincho_t));
+    tp_carpincho->id_carpincho = id;
+    tp_carpincho->pages = 0;
+    tp_carpincho->paginas = list_create();
+    pthread_mutex_init(&tp_carpincho->mutex_paginas, NULL);
+    if(MEMORIA_CFG->FIJA){
+        //TODO: Si ocupar frames retorna false significa que esta algo raro con el grado de multiprogramacion
+        bool ret_code = ocupar_frames(id);
+        if(!ret_code){
+            log_error(logger, "Te pasaste del grado de multiprogramacion - Incongruencia con Kernel\n");
+            return;
+        }
+    }
+
+    agregar_tabla_a_tp_carpinchos(tp_carpincho);
+    return; 
+}
+
+
+bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccion_logica){
+    
+    //Evaluo si es el primer alloc
+    size_t size_stream;
+    
+    bool primer_alloc = tabla_vacia(id_carpincho);
+
+    if(MEMORIA_CFG->FIJA){  
+        return allocar_carpincho_fija(id_carpincho, size, primer_alloc, direccion_logica);
+    }        
+                               
+
+    return true;
+    
+} 
+
+
+// uint32_t reservar_espacio_mp(size_t size_stream, unsigned long id, t_list* tabla_carpincho, bool primerPagina){
+//     if(primerPagina){
+//         entrada_tp_t* entrada_tp = malloc(sizeof(entrada_tp_t));
+//         entrada_tp->nro_pagina = 0;
+//         entrada_tp->nro_frame = buscar_frame_ff();
+//         entrada_tp->bit_P = 1;
+//         if(MEMORIA_CFG->LRU){
+//             //TODO: ver lo de LRU
+//         } else {
+//             //TODO: ver lo del clock
+//         }
+
+//     }
+
+//     bool nuevaPagina;
+//     alloc_carpincho_en_mp(size_stream, id, &nuevaPagina);
+//     //Pongo un hmd al principio y uno al final creo, TODO: consultar
+//     void* size_data = malloc(sizeof(int) + sizeof(hmd_t)*2);
+
+
+
+//     printf("Se reservo %d \n", size_stream);
+//     return 1;
+// }
+
+uint32_t liberar_espacio_mp(char* a, uint32_t* b){
     return 1;
 }
-int liberar_espacio_memoria(char* a,int* b){
+uint32_t leer_espacio_mp(char* a){
     return 1;
 }
-int leer_espacio_memoria(char* a){
-    return 1;
-}
-int escribir_espacio_memoria(){
+uint32_t escribir_espacio_mp(){
     return 1;
 }

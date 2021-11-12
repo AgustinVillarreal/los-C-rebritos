@@ -13,7 +13,8 @@ typedef struct {
     uint32_t prevAlloc;
     uint32_t nextAlloc;
     uint8_t isFree;
-} HeapMetadata;
+} __attribute__((packed)) 
+    hmd_t;
 
 typedef struct {
     uint32_t nro_frame;
@@ -21,23 +22,40 @@ typedef struct {
 } tlb_t;
 
 typedef struct {
-    uint32_t nro_pagina;    
-    uint32_t nro_frame;     
-    union {
-        uint32_t bit_U;     //bit de uso FIFO
-        uint32_t TUR;       //tiempo de ultima referencia LRU
-    };
-    bool bit_P; //bit de presencia
-} tablaPaginas_t;
-
-typedef union {
-    uint64_t bytes;
-    struct {
-        unsigned libre          :  1;
-        unsigned amedias        :  1;
-        unsigned inicio_hueco   : 30;
-        unsigned pid_ocupador   : 32;
-    };
+    unsigned long id_carpincho;
+    //TODO
+    uint8_t ocupado;
+    uint8_t libre;
 } frame_t;
+
+//TODO: Struct para poder administrar los carpinchos con sus tablas
+typedef struct {
+    unsigned long id_carpincho;
+    uint32_t pages;
+    pthread_mutex_t mutex_paginas;
+    t_list* paginas;
+} tp_carpincho_t;
+
+typedef struct {
+        uint16_t bit_U;     // bit de uso
+} clock_m_t;
+
+typedef struct {
+    uint32_t nro_pagina;    
+    uint32_t nro_frame; 
+    uint16_t bit_M;    // bit de modificación    
+    bool bit_P; // bit de presencia
+    union {
+        clock_m_t* clock_m;
+        uint32_t TUR;      // tiempo de ultima referencia, LRU
+    } algoritmo;
+} entrada_tp_t;
+
+
+t_list* TLB_TABLE;
+t_list* CARPINCHOS_TABLE; 
+
+void init_memory_structs();
+void destroy_memory_structs();
 
 #endif

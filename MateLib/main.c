@@ -57,7 +57,8 @@ int main(int argc, char *argv[])
   // mate_call_io(&mate_ref, "hierbitas", prueba);
   // free(prueba);
   
-  /*mate_memalloc(&mate_ref, 6);
+  mate_memalloc(&mate_ref, 120);
+  /*
   mate_memfree(&mate_ref, 1);
   void * prueba;
   mate_memread(&mate_ref, 1, prueba, 1);

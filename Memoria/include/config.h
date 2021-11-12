@@ -6,7 +6,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <signal.h>
-#include "estructuras.h"
 #include <sys/mman.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -20,8 +19,12 @@
 #include <commons/string.h>
 
 #include <shared/utils.h>
-
 #include <readline/readline.h>
+
+#include "estructuras.h" 
+#include "monitor_tablas.h"
+#include "monitor_memoria.h"
+
 
 typedef struct {
     char* IP;
@@ -37,15 +40,24 @@ typedef struct {
     char* ALGORITMO_REEMPLAZO_TLB;
     uint16_t RETARDO_ACIERTO_TLB;
     uint16_t RETARDO_FALLO_TLB;
-
+    char* PATH_DUMP_TLB;
+    //Agregado:
+    uint32_t CANT_PAGINAS;
+    bool LRU_MMU;
+    bool LRU_TLB;    
+    bool FIJA;
 } t_config_memoria;
 
-t_config_memoria* MEMORIA_CFG;
-t_log* logger;
 
 uint8_t cargar_configuracion(t_config_memoria*);
 void cerrar_programa(t_log*,t_config_memoria*);
-int init();
+uint8_t init();
 uint8_t cargar_memoria(t_config_memoria*);
+t_config_memoria* initialize_cfg();
+
+bool (*correr_algoritmo) (unsigned long id, uint32_t* nro_frame);
+bool correr_algoritmo_clock_m (unsigned long id, uint32_t* nro_frame);
+bool correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame);
+
 
 #endif

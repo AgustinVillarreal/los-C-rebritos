@@ -16,6 +16,8 @@ static void procesar_conexion(void* void_args){
     // Mientras la conexion este abierta
     op_code cop;
 
+    //Tabla del carpincho que se conecta
+
     // TODO VER DONDE VA ESTO
     char* dir_logic_ini;
     int* size;
@@ -36,41 +38,65 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
-            case MEM_ALLOC: ;
-                long id_carpincho;
-                int size_data;
-                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
-
-                    int size_stream =  9 + size_data;     
-                    if(!reservar_espacio_memoria(size_stream)){
-                        log_info(logger, "OCURRIO UN ERROR AL INTENTAR RESERVAR UN ESPACIO EN MEMORIA");
-                        break;
-                    }
-
-                    log_info(logger, "ALLOCADO PA");
+            case MATE_INIT: ;
+                unsigned long id_init;
+                if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
+                    log_error(logger, "Error al iniciar el carpincho en memoria");
+                    // return EXIT_FAILURE;
                     break;
+                }
+                mate_init(id_init);
+                break;
+
+            case MEM_ALLOC: ;
+                unsigned long id_alloc;
+                size_t size_data;
+                uint32_t direccionLogica;
+
+                if(!recv_alloc_data(cliente_socket, &id_alloc, &size_data)){            
+                    log_error(logger, "Error al enviar data para allocar");
+                    // return EXIT_FAILURE;
+                    break;
+                }
+                if(!allocar_carpincho(id_alloc, size_data, &direccionLogica)){
+                    log_info(logger, "No se pudo allocar carpincho");
+                    //TODO: Hacer un send al Kernel o a la matelib para que mande un NULL
                 } 
+                //TODO: Hacer un send de la direccionLogica
+
                 break;
             case MEM_FREE: 
-                if(!liberar_espacio_memoria(dir_logic_ini, size)) {
+                // if(esta_en_tlb(id_carpincho)){
+                //         //TODO: utilizar la pagina de la tlb, RECORDAR MUTEEEEEEEEEX
+                //     } else {
+                //         //Significa que hubo un TLB miss 
+                        
+
+                //         //TODO: Traer la pagina utilizada a la TLB
+                //     }
+                if(!liberar_espacio_mp(dir_logic_ini, size)) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
                     break;
                 }
+                
                 log_info(logger,"LIBERADO PADRE");
                 break;
             case MEM_READ: 
-                if(!leer_espacio_memoria(dir_logic_ini)){
+                if(!leer_espacio_mp(dir_logic_ini)){
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LEER LA MEMORIA");
                     break;
                 }
                 log_info(logger,"ANDA A SABER QUE ESTAS QUERIENDO LEER");
                 break;
             case MEM_WRITE:
-                if(!escribir_espacio_memoria(dir_logic_ini)){
+                if(!escribir_espacio_mp(dir_logic_ini)){
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR ESCRIBIR LA MEMORIA");   
                     break;
                 }
                 log_info(logger,"ESCRITO JEFE");
+                break;
+            //TODO: Liberar cosas aca
+            case FREE_CARPINCHO:
                 break;
             case CARPINCHO_SWAP:
                 log_info(logger, "SWAPEADO PAAAA");  

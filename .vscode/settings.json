@@ -11,6 +11,7 @@
     "config.h": "c",
     "cstdlib": "c",
     "algoritmos.h": "c",
-    "log.h": "c"
+    "log.h": "c",
+    "interfaz_memoria.h": "c"
   }
 }
