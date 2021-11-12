@@ -2594,3 +2594,301 @@
 
 [INFO] 21:00:01:006 memoria/(10619:10728): Cant_frames mayor
 [INFO] 21:00:01:032 memoria/(10619:10728): DISCONNECT!
+[INFO] 21:08:23:008 memoria/(16068:16068): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:08:23:080 memoria/(16068:16068): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:08:23:083 memoria/(16068:16068): ------2---------
+
+[INFO] 21:08:23:085 memoria/(16068:16068): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:08:26:746 memoria/(16068:16068): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:08:26:843 memoria/(16068:16089): HANDSHAKE
+[INFO] 21:08:26:893 memoria/(16068:16089): --------------0-----------
+
+[INFO] 21:08:26:906 memoria/(16068:16089): El frame es el 0 
+
+[INFO] 21:08:26:910 memoria/(16068:16089): El frame es el 1 
+
+[INFO] 21:08:26:912 memoria/(16068:16089): El frame es el 2 
+
+[INFO] 21:08:26:912 memoria/(16068:16089): El frame es el 3 
+
+[INFO] 21:08:26:912 memoria/(16068:16089): El frame es el 4 
+
+[INFO] 21:08:26:913 memoria/(16068:16089): Allocando todo el hmd en 4
+
+[INFO] 21:08:26:917 memoria/(16068:16089): SI ANDA ESTO ME HAGO PUTO----------129----------
+
+[INFO] 21:08:26:918 memoria/(16068:16089): Cant_frames mayor
+[INFO] 21:08:26:920 memoria/(16068:16089): DISCONNECT!
+[INFO] 21:09:22:909 memoria/(16168:16168): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:09:22:986 memoria/(16168:16168): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:09:22:992 memoria/(16168:16168): ------2---------
+
+[INFO] 21:09:22:996 memoria/(16168:16168): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:09:26:117 memoria/(16168:16168): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:09:26:218 memoria/(16168:16189): HANDSHAKE
+[INFO] 21:09:26:268 memoria/(16168:16189): --------------0-----------
+
+[INFO] 21:09:26:287 memoria/(16168:16189): El frame es el 0 
+
+[INFO] 21:09:26:291 memoria/(16168:16189): El frame es el 1 
+
+[INFO] 21:09:26:292 memoria/(16168:16189): El frame es el 2 
+
+[INFO] 21:09:26:293 memoria/(16168:16189): El frame es el 3 
+
+[INFO] 21:09:26:293 memoria/(16168:16189): El frame es el 4 
+
+[INFO] 21:09:26:294 memoria/(16168:16189): Allocando todo el hmd en 4
+
+[INFO] 21:09:26:297 memoria/(16168:16189): SI ANDA ESTO ME HAGO PUTO----------129----------
+
+[INFO] 21:09:26:298 memoria/(16168:16189): Cant_frames mayor
+[INFO] 21:09:26:300 memoria/(16168:16189): DISCONNECT!
+[INFO] 21:10:17:654 memoria/(16258:16258): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:10:17:759 memoria/(16258:16258): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:10:17:766 memoria/(16258:16258): ------2---------
+
+[INFO] 21:10:17:769 memoria/(16258:16258): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:10:20:264 memoria/(16258:16258): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:10:20:379 memoria/(16258:16280): HANDSHAKE
+[INFO] 21:10:20:425 memoria/(16258:16280): --------------0-----------
+
+[INFO] 21:10:20:443 memoria/(16258:16280): El frame es el 0 
+
+[INFO] 21:10:20:459 memoria/(16258:16280): El frame es el 1 
+
+[INFO] 21:10:20:461 memoria/(16258:16280): El frame es el 2 
+
+[INFO] 21:10:20:462 memoria/(16258:16280): El frame es el 3 
+
+[INFO] 21:10:20:463 memoria/(16258:16280): El frame es el 4 
+
+[INFO] 21:10:20:485 memoria/(16258:16280): Allocando todo el hmd en 4
+
+[INFO] 21:10:20:487 memoria/(16258:16280): SI ANDA ESTO ME HAGO PUTO----------0----------
+
+[INFO] 21:10:20:489 memoria/(16258:16280): Cant_frames mayor
+[INFO] 21:10:20:492 memoria/(16258:16280): DISCONNECT!
+[INFO] 21:10:38:824 memoria/(16331:16331): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:10:38:899 memoria/(16331:16331): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:10:38:903 memoria/(16331:16331): ------2---------
+
+[INFO] 21:10:38:906 memoria/(16331:16331): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:10:41:545 memoria/(16331:16331): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:10:41:724 memoria/(16331:16352): HANDSHAKE
+[INFO] 21:10:41:781 memoria/(16331:16352): --------------0-----------
+
+[INFO] 21:10:41:791 memoria/(16331:16352): El frame es el 0 
+
+[INFO] 21:10:41:798 memoria/(16331:16352): El frame es el 1 
+
+[INFO] 21:10:41:798 memoria/(16331:16352): El frame es el 2 
+
+[INFO] 21:10:41:799 memoria/(16331:16352): El frame es el 3 
+
+[INFO] 21:10:41:799 memoria/(16331:16352): El frame es el 4 
+
+[INFO] 21:10:41:801 memoria/(16331:16352): Allocando todo el hmd en 4
+
+[INFO] 21:10:41:803 memoria/(16331:16352): SI ANDA ESTO ME HAGO PUTO----------(nil)----------
+
+[INFO] 21:10:41:803 memoria/(16331:16352): Cant_frames mayor
+[INFO] 21:10:41:804 memoria/(16331:16352): DISCONNECT!
+[INFO] 21:11:14:798 memoria/(16412:16412): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:11:14:876 memoria/(16412:16412): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:11:14:882 memoria/(16412:16412): ------2---------
+
+[INFO] 21:11:14:885 memoria/(16412:16412): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:11:16:865 memoria/(16412:16412): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:11:16:954 memoria/(16412:16433): HANDSHAKE
+[INFO] 21:11:16:997 memoria/(16412:16433): --------------0-----------
+
+[INFO] 21:11:17:012 memoria/(16412:16433): El frame es el 0 
+
+[INFO] 21:11:17:021 memoria/(16412:16433): El frame es el 1 
+
+[INFO] 21:11:17:024 memoria/(16412:16433): El frame es el 2 
+
+[INFO] 21:11:17:030 memoria/(16412:16433): El frame es el 3 
+
+[INFO] 21:11:17:032 memoria/(16412:16433): El frame es el 4 
+
+[INFO] 21:11:17:035 memoria/(16412:16433): Allocando todo el hmd en 4
+
+[INFO] 21:11:17:039 memoria/(16412:16433): SI ANDA ESTO ME HAGO PUTO----------(nil)----------
+
+[INFO] 21:11:17:039 memoria/(16412:16433): Cant_frames mayor
+[INFO] 21:11:17:042 memoria/(16412:16433): DISCONNECT!
+[INFO] 21:11:33:884 memoria/(16496:16496): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:11:33:957 memoria/(16496:16496): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:11:33:964 memoria/(16496:16496): ------2---------
+
+[INFO] 21:11:33:974 memoria/(16496:16496): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:11:43:355 memoria/(16496:16496): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:11:43:460 memoria/(16496:16525): HANDSHAKE
+[INFO] 21:11:43:518 memoria/(16496:16525): --------------0-----------
+
+[INFO] 21:11:43:539 memoria/(16496:16525): El frame es el 0 
+
+[INFO] 21:11:43:561 memoria/(16496:16525): El frame es el 1 
+
+[INFO] 21:11:43:579 memoria/(16496:16525): El frame es el 2 
+
+[INFO] 21:11:43:581 memoria/(16496:16525): El frame es el 3 
+
+[INFO] 21:11:43:584 memoria/(16496:16525): El frame es el 4 
+
+[INFO] 21:11:43:586 memoria/(16496:16525): Allocando todo el hmd en 4
+
+[INFO] 21:11:43:592 memoria/(16496:16525): SI ANDA ESTO ME HAGO PUTO----------0----------
+
+[INFO] 21:11:43:594 memoria/(16496:16525): Cant_frames mayor
+[INFO] 21:11:43:598 memoria/(16496:16525): DISCONNECT!
+[INFO] 21:12:20:959 memoria/(16600:16600): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:12:21:038 memoria/(16600:16600): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:12:21:043 memoria/(16600:16600): ------2---------
+
+[INFO] 21:12:21:045 memoria/(16600:16600): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:12:22:718 memoria/(16600:16600): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:12:22:858 memoria/(16600:16621): HANDSHAKE
+[INFO] 21:12:22:910 memoria/(16600:16621): --------------0-----------
+
+[INFO] 21:12:22:925 memoria/(16600:16621): El frame es el 0 
+
+[INFO] 21:12:22:930 memoria/(16600:16621): El frame es el 1 
+
+[INFO] 21:12:22:932 memoria/(16600:16621): El frame es el 2 
+
+[INFO] 21:12:22:934 memoria/(16600:16621): El frame es el 3 
+
+[INFO] 21:12:22:936 memoria/(16600:16621): El frame es el 4 
+
+[INFO] 21:12:22:938 memoria/(16600:16621): Allocando todo el hmd en 4
+
+[INFO] 21:12:22:943 memoria/(16600:16621): SI ANDA ESTO ME HAGO PUTO----------0----------
+
+[INFO] 21:12:22:946 memoria/(16600:16621): Cant_frames mayor
+[INFO] 21:12:22:948 memoria/(16600:16621): DISCONNECT!
+[INFO] 21:12:39:087 memoria/(16679:16679): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:12:39:158 memoria/(16679:16679): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:12:39:162 memoria/(16679:16679): ------2---------
+
+[INFO] 21:12:39:164 memoria/(16679:16679): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:12:41:646 memoria/(16679:16679): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:12:41:825 memoria/(16679:16700): HANDSHAKE
+[INFO] 21:12:41:883 memoria/(16679:16700): --------------0-----------
+
+[INFO] 21:12:41:897 memoria/(16679:16700): El frame es el 0 
+
+[INFO] 21:12:41:902 memoria/(16679:16700): El frame es el 1 
+
+[INFO] 21:12:41:906 memoria/(16679:16700): El frame es el 2 
+
+[INFO] 21:12:41:908 memoria/(16679:16700): El frame es el 3 
+
+[INFO] 21:12:41:909 memoria/(16679:16700): El frame es el 4 
+
+[INFO] 21:12:41:917 memoria/(16679:16700): Allocando todo el hmd en 4
+
+[INFO] 21:12:41:924 memoria/(16679:16700): SI ANDA ESTO ME HAGO PUTO----------0----------
+
+[INFO] 21:12:41:926 memoria/(16679:16700): Cant_frames mayor
+[INFO] 21:12:41:933 memoria/(16679:16700): DISCONNECT!
+[INFO] 21:14:42:438 memoria/(16862:16862): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:14:42:598 memoria/(16862:16862): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:14:42:606 memoria/(16862:16862): ------2---------
+
+[INFO] 21:14:42:615 memoria/(16862:16862): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:14:45:668 memoria/(16862:16862): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:14:45:795 memoria/(16862:16883): HANDSHAKE
+[INFO] 21:14:45:842 memoria/(16862:16883): --------------0-----------
+
+[INFO] 21:14:45:862 memoria/(16862:16883): El frame es el 0 
+
+[INFO] 21:14:45:871 memoria/(16862:16883): Allocando primer mitad del hmd en 0
+
+[INFO] 21:14:45:874 memoria/(16862:16883): El frame es el 1 
+
+[INFO] 21:14:45:875 memoria/(16862:16883): Allocando segunda mitad del hmd en 1
+
+[INFO] 21:14:45:878 memoria/(16862:16883): SI ANDA ESTO ME HAGO PUTO----------1----------
+
+[INFO] 21:14:45:878 memoria/(16862:16883): Cant_frames mayor
+[INFO] 21:14:45:879 memoria/(16862:16883): DISCONNECT!
+[INFO] 21:24:15:031 memoria/(17116:17116): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:24:15:121 memoria/(17116:17116): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:24:20:448 memoria/(17116:17116): ------2---------
+
+[INFO] 21:24:20:450 memoria/(17116:17116): ------3---------
+
+[INFO] 21:24:33:192 memoria/(17170:17170): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:24:33:264 memoria/(17170:17170): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:24:38:622 memoria/(17170:17170): ------2---------
+
+[INFO] 21:24:38:630 memoria/(17170:17170): ------3---------
+
+[INFO] 21:25:02:536 memoria/(17227:17227): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:25:02:612 memoria/(17227:17227): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:25:02:631 memoria/(17227:17227): ------2---------
+
+[INFO] 21:25:02:639 memoria/(17227:17227): Escuchando en 127.0.0.2:5001 (MEMORIA_SERVER)
+
+[INFO] 21:03:58:696 memoria/(10783:10783): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:03:58:772 memoria/(10783:10783): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:03:58:775 memoria/(10783:10783): ------2---------
+
+[INFO] 21:03:58:777 memoria/(10783:10783): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:05:50:234 memoria/(10783:10783): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:05:50:326 memoria/(10783:11080): HANDSHAKE
+[INFO] 21:05:50:386 memoria/(10783:11080): --------------0-----------
+
+[INFO] 21:05:50:398 memoria/(10783:11080): El frame es el 0 
+
+[INFO] 21:05:50:401 memoria/(10783:11080): Allocando primer mitad del hmd en 0
+
+[INFO] 21:05:50:404 memoria/(10783:11080): El frame es el 1 
+
+[INFO] 21:05:50:405 memoria/(10783:11080): Allocando segunda mitad del hmd en 1
+
+[INFO] 21:05:50:406 memoria/(10783:11080): Cant_frames mayor
+[INFO] 21:05:50:406 memoria/(10783:11080): DISCONNECT!
+[INFO] 21:06:20:219 memoria/(11134:11134): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:06:20:292 memoria/(11134:11134): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:06:20:295 memoria/(11134:11134): ------2---------
+
+[INFO] 21:06:20:298 memoria/(11134:11134): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+

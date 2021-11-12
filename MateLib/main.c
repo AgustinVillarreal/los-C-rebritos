@@ -39,7 +39,9 @@ int main(int argc, char *argv[])
   // mate_sem_wait(&mate_ref, "holachau");
   // mate_sem_post(&mate_ref, "holachau");
   
-  mate_memalloc(&mate_ref, 120);
+  mate_memalloc(&mate_ref, 14);
+  mate_memalloc(&mate_ref, 14);
+  
   /*
   mate_memfree(&mate_ref, 1);
   void * prueba;

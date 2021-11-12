@@ -42,7 +42,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
     if(nro_pagina == 0){
         hmd->prevAlloc = (int) NULL;
         hmd->nextAlloc = sizeof(hmd_t) + *size_rest;
-        hmd->isFree = true;
+        hmd->isFree = false;
 
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd, sizeof(hmd_t));
@@ -61,7 +61,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
 
         hmd->prevAlloc = 0;
         hmd->nextAlloc = (int) NULL;
-        hmd->isFree = true;
+        hmd->isFree = false;
 
         if(dif < 9){
             log_info(logger, "Allocando primer mitad del hmd en %d\n", nro_frame);
@@ -83,8 +83,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
             
             return;
         }
-
-        
+ 
         log_info(logger, "Allocando todo el hmd en %d\n", nro_frame);        
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + *size_rest, hmd, sizeof(hmd_t));
@@ -128,3 +127,69 @@ bool ocupar_frames(unsigned long id){
 
     return true;
 }
+
+bool buscar_espacio_entre_hmd(unsigned long id_carpincho, size_t size, uint32_t* nro_pagina){
+    tp_carpincho_t* tp_carpincho = find_tp_carpincho(id_carpincho);
+    //TODO: podria pasar por referencia un hmd
+    uint32_t direccion_hmd = 0;
+    void * hmd = malloc(sizeof(hmd_t));
+    uint32_t tamanio_hmd;
+    bool ret_code;
+
+    while(1){
+        *nro_pagina = direccion_hmd/MEMORIA_CFG->TAMANIO_PAGINA;
+        ret_code = entra_en_pagina(list_get_pagina(tp_carpincho, *nro_pagina), size, &direccion_hmd, hmd, &tamanio_hmd);
+
+        if(ret_code){
+            return true;
+        }
+
+        if(*nro_pagina == tp_carpincho->pages){
+            return false;
+        }
+    }
+
+    free(hmd);
+}
+
+bool entra_en_pagina(entrada_tp_t* entrada_tp, size_t size, uint32_t* direccion_hmd, void* hmd, uint32_t* tamanio_hmd){
+   
+    while(1){
+    pthread_mutex_lock(&MUTEX_MP_BUSY);
+        uint32_t offset = *direccion_hmd % (MEMORIA_CFG->TAMANIO_PAGINA);
+        int32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset;
+        uint32_t pos_frame = memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA; 
+        if(diff > 0 && diff < 9){
+            memcpy(hmd, pos_frame + offset, diff);
+            *tamanio_hmd = diff; 
+            pthread_mutex_unlock(&MUTEX_MP_BUSY);    
+            return false;
+        } else {
+            memcpy(hmd, pos_frame + offset + *tamanio_hmd, sizeof(hmd_t) - *tamanio_hmd);
+            hmd_t* hmd = (hmd_t*) hmd;
+
+            *direccion_hmd = hmd->nextAlloc;
+            if(hmd->isFree){
+                int32_t tamanio_sobrante = hmd->nextAlloc - hmd->prevAlloc - size;
+                if(tamanio_sobrante < 0){
+                    pthread_mutex_unlock(&MUTEX_MP_BUSY);
+                    return false;
+                } else if (tamanio_sobrante <= 9){
+                    pthread_mutex_unlock(&MUTEX_MP_BUSY);
+                    return true;
+                } else {
+                    hmd_t* hmd_fragmentacion = malloc(sizeof(hmd_t));
+                    hmd_fragmentacion->prevAlloc = *direccion_hmd;
+                    hmd_fragmentacion->nextAlloc = hmd->nextAlloc;
+                    hmd_fragmentacion->isFree = true;
+                    //ME LO DIJO PITU
+                    hmd->nextAlloc = *direccion_hmd + size;
+                    memcpy(memoria_disponible + pos_frame + offset + sizeof(hmd_t) + size, hmd_fragmentacion, sizeof(hmd_t));
+                    pthread_mutex_unlock(&MUTEX_MP_BUSY);
+                    return true;
+                }
+            }      
+        }      
+    }
+}
+

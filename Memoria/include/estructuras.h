@@ -17,8 +17,10 @@ typedef struct {
     hmd_t;
 
 typedef struct {
+    unsigned long id_carpincho;
     uint32_t nro_frame;
     uint32_t nro_pagina;
+    uint32_t TUR;
 } tlb_t;
 
 typedef struct {

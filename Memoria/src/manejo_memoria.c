@@ -20,7 +20,7 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
     if(primer_alloc){
         uint32_t hmd_cortado = 0;
         uint32_t cantidad_de_paginas = cant_paginas(size + sizeof(hmd_t) * 2);
-        // TODO Puse menor, revisar
+
         for(uint32_t i = 0; i < cantidad_de_paginas; i++){
             
             uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
@@ -35,10 +35,20 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
             //TODO: Cuando se mete un frame que ya esta hay que poner el bit de presencia del anterior en 0
             append_frame_tp(id_carpincho, i, nro_frame);    
         }
-
-        //TODO: RECORDAR ACTUALIZAR LA TLB
+    } else {
+        uint32_t hmd_cortado = 0;
+        uint32_t nro_frame;
+        uint32_t nro_pagina;
+        bool ret_code;
+        ret_code = buscar_espacio_entre_hmd(id_carpincho, size, &nro_frame, &nro_pagina);
+        if(!ret_code){
+            log_info(logger, "no hay espacio entre hmd\n");
+            return true;
+        }
+        log_info(logger, "hay espacio entre hmd");
+        
+        
     }
-
 
     log_info(logger, "Cant_frames mayor");
     //TODO
