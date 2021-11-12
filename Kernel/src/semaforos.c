@@ -18,6 +18,7 @@ int sem_init_carpincho(char* sem, int value){
         semaforo->name = strdup(sem);
         semaforo->value = value;
         semaforo->COLA_BLOQUEADOS = queue_create();
+        semaforo->carpincho_asignado = NULL;
         list_add(LISTA_SEMAFOROS, semaforo);
     }
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
