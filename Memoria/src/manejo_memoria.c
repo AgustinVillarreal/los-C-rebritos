@@ -36,12 +36,10 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
             append_frame_tp(id_carpincho, i, nro_frame);    
         }
     } else {
-        uint32_t hmd_cortado = 0;
         uint32_t nro_frame;
         uint32_t nro_pagina;
-        bool ret_code;
-        ret_code = buscar_espacio_entre_hmd(id_carpincho, size, &nro_frame, &nro_pagina);
-        if(!ret_code){
+        *direccion_logica = buscar_espacio_entre_hmd(id_carpincho, size, &nro_frame, &nro_pagina);
+        if(*direccion_logica == 0xFFFF){
             log_info(logger, "no hay espacio entre hmd\n");
             return true;
         }

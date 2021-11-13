@@ -37,12 +37,15 @@ uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho){
     return nro_frame;
 }
 
+
+
 void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, uint32_t direccion_logica, uint32_t nro_frame, uint32_t nro_pagina, uint32_t* hmd_cortado){
     hmd_t* hmd = malloc(sizeof(hmd_t));
     if(nro_pagina == 0){
         hmd->prevAlloc = (int) NULL;
         hmd->nextAlloc = sizeof(hmd_t) + *size_rest;
-        hmd->isFree = false;
+        //TODO: CAMBIAAAAAAAAAAAAAAAAAAAAAR A FALSE PQ MORIMOS
+        hmd->isFree = true;
 
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd, sizeof(hmd_t));
@@ -61,7 +64,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
 
         hmd->prevAlloc = 0;
         hmd->nextAlloc = (int) NULL;
-        hmd->isFree = false;
+        hmd->isFree = true;
 
         if(dif < 9){
             log_info(logger, "Allocando primer mitad del hmd en %d\n", nro_frame);
@@ -128,68 +131,176 @@ bool ocupar_frames(unsigned long id){
     return true;
 }
 
-bool buscar_espacio_entre_hmd(unsigned long id_carpincho, size_t size, uint32_t* nro_pagina){
+uint32_t buscar_espacio_entre_hmd(unsigned long id_carpincho, size_t size, uint32_t* nro_pagina){
     tp_carpincho_t* tp_carpincho = find_tp_carpincho(id_carpincho);
     //TODO: podria pasar por referencia un hmd
     uint32_t direccion_hmd = 0;
     void * hmd = malloc(sizeof(hmd_t));
-    uint32_t tamanio_hmd;
+    uint32_t tamanio_hmd = 0;
     bool ret_code;
 
     while(1){
         *nro_pagina = direccion_hmd/MEMORIA_CFG->TAMANIO_PAGINA;
-        ret_code = entra_en_pagina(list_get_pagina(tp_carpincho, *nro_pagina), size, &direccion_hmd, hmd, &tamanio_hmd);
+        ret_code = entra_en_pagina(id_carpincho, list_get_pagina(tp_carpincho, *nro_pagina), size, &direccion_hmd, hmd, &tamanio_hmd);
 
         if(ret_code){
-            return true;
+            return direccion_hmd + sizeof(hmd_t);
         }
 
         if(*nro_pagina == tp_carpincho->pages){
-            return false;
+            log_info(logger, "Chau me fui");
+            //Allocar en la ultima posicion
+            return 0xFFFF;
         }
     }
 
     free(hmd);
 }
 
-bool entra_en_pagina(entrada_tp_t* entrada_tp, size_t size, uint32_t* direccion_hmd, void* hmd, uint32_t* tamanio_hmd){
+bool entra_en_pagina(unsigned long id_carpincho, entrada_tp_t* entrada_tp, size_t size, uint32_t* direccion_hmd, void* hmd_void, uint32_t* tamanio_hmd){
    
     while(1){
-    pthread_mutex_lock(&MUTEX_MP_BUSY);
+        pthread_mutex_lock(&MUTEX_MP_BUSY);
         uint32_t offset = *direccion_hmd % (MEMORIA_CFG->TAMANIO_PAGINA);
         int32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset;
-        uint32_t pos_frame = memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA; 
-        if(diff > 0 && diff < 9){
-            memcpy(hmd, pos_frame + offset, diff);
+        void* pos_frame = memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA; 
+        log_info(logger, "ads-----------%d------------", diff);
+        log_info(logger, "HMD:-----------%d------------", *direccion_hmd);
+        if(diff < 9){
+            memcpy(hmd_void, pos_frame + offset, diff);
             *tamanio_hmd = diff; 
             pthread_mutex_unlock(&MUTEX_MP_BUSY);    
             return false;
         } else {
-            memcpy(hmd, pos_frame + offset + *tamanio_hmd, sizeof(hmd_t) - *tamanio_hmd);
-            hmd_t* hmd = (hmd_t*) hmd;
+            memcpy(hmd_void, pos_frame + offset + *tamanio_hmd, sizeof(hmd_t) - *tamanio_hmd);
+            hmd_t* hmd = (hmd_t*) hmd_void;
 
-            *direccion_hmd = hmd->nextAlloc;
+            uint32_t direccion_aux = *direccion_hmd;
             if(hmd->isFree){
-                int32_t tamanio_sobrante = hmd->nextAlloc - hmd->prevAlloc - size;
-                if(tamanio_sobrante < 0){
-                    pthread_mutex_unlock(&MUTEX_MP_BUSY);
+                if(!hmd->nextAlloc){
+                    pthread_mutex_unlock(&MUTEX_MP_BUSY); 
                     return false;
-                } else if (tamanio_sobrante <= 9){
+                }
+                int32_t tamanio_sobrante = hmd->nextAlloc - direccion_aux - size - sizeof(hmd_t);
+                log_info(logger, "tamanio:--------------%d-----------", tamanio_sobrante);        
+                if(tamanio_sobrante < 0){
+                    log_info(logger, "UPA ENTRE ESTOS HMD NO ENTRE", *direccion_hmd);     
+                    pthread_mutex_unlock(&MUTEX_MP_BUSY);
+                    *direccion_hmd = hmd->nextAlloc; 
+                    return false;
+                //El alloc entra justo entre dos hmd
+                } else if (tamanio_sobrante == 0){
+                    log_info(logger, "ENTRE COMPLETITO", *direccion_hmd);             
+                    //TODO: Aca hacer que este free en false, entra justo
                     pthread_mutex_unlock(&MUTEX_MP_BUSY);
                     return true;
-                } else {
+                //El alloc entra pero hay que fragmentar una cantidad
+                } else if (tamanio_sobrante >= 9){
+                    log_info(logger, "DE QUE COLOR ES EL HMD?", *direccion_hmd);
                     hmd_t* hmd_fragmentacion = malloc(sizeof(hmd_t));
-                    hmd_fragmentacion->prevAlloc = *direccion_hmd;
                     hmd_fragmentacion->nextAlloc = hmd->nextAlloc;
+                    hmd_fragmentacion->prevAlloc = direccion_aux;
                     hmd_fragmentacion->isFree = true;
-                    //ME LO DIJO PITU
-                    hmd->nextAlloc = *direccion_hmd + size;
-                    memcpy(memoria_disponible + pos_frame + offset + sizeof(hmd_t) + size, hmd_fragmentacion, sizeof(hmd_t));
+                    //Posicion Logica del hmd
+                    uint32_t posicion_logica_hmd_fragmentacion = direccion_aux + sizeof(hmd_t) + size;
+                    uint32_t nro_pagina_hmd_fragmentacion = posicion_logica_hmd_fragmentacion / (MEMORIA_CFG->TAMANIO_PAGINA);
+                    uint32_t offset_hmd_fragmentacion = posicion_logica_hmd_fragmentacion % (MEMORIA_CFG->TAMANIO_PAGINA);
+                    tp_carpincho_t* tp_carpincho = find_tp_carpincho(id_carpincho);
+                    uint32_t cant_paginas_hmd_fragmentacion = cant_paginas_relativa(posicion_logica_hmd_fragmentacion, sizeof(hmd_t));
+                    uint32_t hmd_cortado = 0;
+                    size_t size_aux = size;
+                    entrada_tp_t* entrada_tp_aux = entrada_tp;
+
+                    // hmd->nextAlloc = posicion_logica_hmd_fragmentacion;
+
+                    // uint32_t cant_paginas_hmd_anterior = cant_paginas_relativa(direccion_aux, sizeof(hmd_t));
+                    // uint32_t nro_pagina_hmd_anterior = direccion_aux / (MEMORIA_CFG->TAMANIO_PAGINA);
+                    // for(uint32_t i = 0; i < cant_paginas_hmd_anterior; i++){
+                    //     if(nro_pagina_hmd_anterior != entrada_tp_aux->nro_pagina){
+                    //         entrada_tp_aux = list_get_pagina(tp_carpincho, nro_pagina_hmd_anterior);
+                    //     }
+                    //     alloc_hmd(0, entrada_tp_aux, &hmd_cortado, hmd, tp_carpincho);
+                    // }
+
+                    // hmd_cortado = 0;
+                    
+                    for(uint32_t i = 0; i < cant_paginas_hmd_fragmentacion; i++){
+                        if(nro_pagina_hmd_fragmentacion != entrada_tp->nro_pagina){
+                            entrada_tp = list_get_pagina(tp_carpincho, nro_pagina_hmd_fragmentacion);
+                        }
+                        alloc_hmd(&size_aux, entrada_tp, &hmd_cortado, hmd_fragmentacion, tp_carpincho);
+                    }
+             
                     pthread_mutex_unlock(&MUTEX_MP_BUSY);
+                    free(hmd_fragmentacion);
                     return true;
                 }
-            }      
-        }      
-    }
+            } 
+            *direccion_hmd = hmd->nextAlloc;    
+            log_info(logger, "Direccion_hmd:------%d----------", *direccion_hmd);            
+        }
+    }     
 }
 
+//Retorna la cantidad de paginas, posicion es la logica
+uint32_t cant_paginas_relativa(uint32_t posicion, uint32_t size){
+    size_t rem;
+    uint32_t t_pag = MEMORIA_CFG->TAMANIO_PAGINA;
+    rem = (size + posicion) % t_pag;
+    return (rem) ? size/t_pag + 1 : size/t_pag;
+}
+
+
+//Alloc generico
+//SE LLAMA SIEMPRE ENTRE MUTEX VIEJA (MUTEX_MP_BUSY)
+void alloc_hmd(size_t* size_rest, entrada_tp_t* entrada_tp, uint32_t* hmd_cortado, hmd_t* hmd_a_crear, tp_carpincho_t* tp_carpincho){
+
+    uint32_t nro_pagina = entrada_tp->nro_pagina;
+    uint32_t nro_frame = entrada_tp->nro_frame;
+    uint32_t offset = 0;
+
+    if(!hmd_cortado){
+        //TODO: ver mejor
+        pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
+        tabla_frames[nro_frame].libre = false;
+        pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
+
+        //Nadie me asegura que estoy en la misma pag
+        offset = (hmd_a_crear->prevAlloc + sizeof(hmd_t)) % (MEMORIA_CFG->TAMANIO_PAGINA);
+        bool misma_pagina = (uint32_t)((hmd_a_crear->prevAlloc + sizeof(hmd_t)) / (MEMORIA_CFG->TAMANIO_PAGINA)) == nro_pagina;
+
+        if(!misma_pagina){
+            nro_pagina++; 
+            entrada_tp = list_get_pagina(tp_carpincho, nro_pagina);
+            nro_frame = entrada_tp->nro_frame;
+
+            pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
+            tabla_frames[nro_frame].libre = false;
+            pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
+        }
+    }
+    
+    int32_t dif = MEMORIA_CFG->TAMANIO_PAGINA - offset - *size_rest;  
+    
+    if(dif > 0 ) {
+
+        if(dif < 9){
+            log_info(logger, "Allocando primer mitad del hmd en %d\n", nro_frame);
+            memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset + *size_rest, hmd_a_crear, dif);
+            *hmd_cortado = 1;
+            *size_rest = sizeof(hmd_t) - dif;
+            return;        
+        }
+        if(*hmd_cortado){
+            log_info(logger, "Allocando segunda mitad del hmd en %d\n", nro_frame);
+            memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, ((void*) hmd_a_crear) + sizeof(hmd_t) - *size_rest, *size_rest);
+            return;
+        }
+ 
+        log_info(logger, "Allocando todo el hmd en %d\n", nro_frame);        
+        memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset + *size_rest, hmd_a_crear, sizeof(hmd_t));
+        return;
+    } 
+    *size_rest -= MEMORIA_CFG->TAMANIO_PAGINA;
+    return;
+}

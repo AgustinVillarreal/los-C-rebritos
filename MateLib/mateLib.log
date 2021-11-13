@@ -254,6 +254,7 @@
 
 [INFO] 21:00:00:895 mateLib/(10727:10727): Cliente conectado en 127.0.0.1:5001 (a Server)
 
+<<<<<<< HEAD
 [INFO] 21:08:26:766 mateLib/(16088:16088): Cliente conectado en 127.0.0.1:5001 (a Server)
 
 [INFO] 21:09:26:143 mateLib/(16188:16188): Cliente conectado en 127.0.0.1:5001 (a Server)
@@ -275,4 +276,602 @@
 [ERROR] 21:25:15:541 mateLib/(17260:17260): Error al conectar (a Server)
 
 [INFO] 21:05:50:251 mateLib/(11079:11079): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+=======
+[INFO] 21:48:16:537 mateLib/(5012:5012): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:49:00:948 mateLib/(5141:5141): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:52:58:991 mateLib/(5570:5570): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:54:46:010 mateLib/(5805:5805): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:12:982 mateLib/(5929:5929): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:24:151 mateLib/(5973:5973): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:27:178 mateLib/(6006:6006): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:29:489 mateLib/(6041:6041): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:31:017 mateLib/(6070:6070): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:32:994 mateLib/(6102:6102): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:34:724 mateLib/(6134:6134): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:48:451 mateLib/(6242:6242): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:51:700 mateLib/(6271:6271): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:53:658 mateLib/(6306:6306): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:55:770 mateLib/(6337:6337): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:57:457 mateLib/(6369:6369): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:56:13:870 mateLib/(6483:6483): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:56:17:045 mateLib/(6512:6512): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:56:18:885 mateLib/(6547:6547): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:56:20:344 mateLib/(6576:6576): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:56:22:424 mateLib/(6609:6609): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:56:45:657 mateLib/(6668:6668): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:57:24:126 mateLib/(6821:6821): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:57:47:643 mateLib/(7019:7019): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:59:16:706 mateLib/(7230:7230): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:59:30:647 mateLib/(7284:7284): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:00:59:256 mateLib/(7523:7523): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:01:23:837 mateLib/(7596:7596): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:27:22:903 mateLib/(9822:9822): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:28:38:022 mateLib/(10020:10020): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:29:30:046 mateLib/(10182:10182): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:31:12:117 mateLib/(10455:10455): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:31:55:602 mateLib/(10608:10608): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:32:27:099 mateLib/(10721:10721): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:33:25:837 mateLib/(10899:10899): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:35:58:019 mateLib/(11174:11174): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:36:08:489 mateLib/(11234:11234): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:36:45:096 mateLib/(11460:11460): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:32:19:150 mateLib/(4109:4109): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:33:12:700 mateLib/(4351:4351): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:34:17:554 mateLib/(4624:4624): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:34:21:613 mateLib/(4665:4665): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:35:27:887 mateLib/(4865:4865): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:35:55:518 mateLib/(4952:4952): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:36:56:320 mateLib/(5189:5189): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:37:15:049 mateLib/(5261:5261): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:37:33:287 mateLib/(5318:5318): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:38:01:818 mateLib/(5403:5403): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:40:00:975 mateLib/(5706:5706): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:40:44:762 mateLib/(5827:5827): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:42:03:951 mateLib/(6017:6017): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:44:43:097 mateLib/(6319:6319): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:51:03:219 mateLib/(11918:11918): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[ERROR] 20:51:03:505 mateLib/(11918:11918): No podes usar dispositivos de entrada salida si no estas conectado al kernel
+
+[INFO] 20:51:20:593 mateLib/(11969:11969): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:52:10:491 mateLib/(12129:12129): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[ERROR] 20:52:10:761 mateLib/(12129:12129): No podes usar dispositivos de entrada salida si no estas conectado al kernel
+
+[INFO] 20:53:11:715 mateLib/(12312:12312): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:00:02:363 mateLib/(12915:12915): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:02:40:995 mateLib/(13345:13345): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:08:24:291 mateLib/(13936:13936): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:18:12:635 mateLib/(14923:14923): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:20:58:633 mateLib/(15281:15281): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:21:44:647 mateLib/(15397:15397): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:22:19:877 mateLib/(15536:15536): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:23:08:257 mateLib/(15639:15639): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:23:22:364 mateLib/(15719:15719): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:26:31:881 mateLib/(15994:15994): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:27:17:472 mateLib/(16124:16124): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:51:12:721 mateLib/(17504:17504): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:51:37:457 mateLib/(17558:17558): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:52:48:230 mateLib/(17697:17697): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:53:07:074 mateLib/(17794:17794): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:53:13:889 mateLib/(17822:17822): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:21:15:453 mateLib/(10189:10189): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:21:57:807 mateLib/(10442:10442): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:22:08:194 mateLib/(10502:10502): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:23:29:696 mateLib/(10774:10774): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:24:58:461 mateLib/(11039:11039): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:03:40:620 mateLib/(14217:14217): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:03:45:263 mateLib/(14249:14249): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:03:59:748 mateLib/(14312:14312): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:04:06:901 mateLib/(14348:14348): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:05:20:410 mateLib/(14578:14578): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:05:22:088 mateLib/(14604:14604): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:05:29:846 mateLib/(14642:14642): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:18:42:086 mateLib/(15701:15701): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:18:45:857 mateLib/(15739:15739): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:19:06:243 mateLib/(15855:15855): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:19:09:305 mateLib/(15887:15887): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:19:21:671 mateLib/(15945:15945): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:21:42:751 mateLib/(16279:16279): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:21:44:478 mateLib/(16306:16306): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:22:01:457 mateLib/(16366:16366): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:23:19:243 mateLib/(16587:16587): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:23:21:849 mateLib/(16616:16616): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:23:40:267 mateLib/(16682:16682): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:25:16:477 mateLib/(16958:16958): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:25:19:055 mateLib/(16987:16987): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:25:49:598 mateLib/(17071:17071): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:28:21:144 mateLib/(17432:17432): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:28:23:000 mateLib/(17457:17457): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:28:34:639 mateLib/(17514:17514): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:34:26:950 mateLib/(18066:18066): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:34:28:802 mateLib/(18092:18092): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:34:39:904 mateLib/(18142:18142): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:44:47:845 mateLib/(19146:19146): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:44:51:155 mateLib/(19179:19179): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:45:08:961 mateLib/(19240:19240): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:45:45:297 mateLib/(19323:19323): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:46:08:138 mateLib/(19385:19385): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:34:03:240 mateLib/(19877:19877): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:43:20:459 mateLib/(20664:20664): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:44:34:600 mateLib/(20838:20838): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:50:53:239 mateLib/(21469:21469): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:56:09:962 mateLib/(22035:22035): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:58:18:230 mateLib/(22269:22269): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:58:32:868 mateLib/(22320:22320): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 17:59:31:877 mateLib/(22501:22501): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:00:27:332 mateLib/(22687:22687): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:01:44:743 mateLib/(22885:22885): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:03:30:630 mateLib/(23144:23144): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:03:55:962 mateLib/(23258:23258): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:04:12:766 mateLib/(23418:23418): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:22:39:803 mateLib/(11277:11277): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:24:06:117 mateLib/(11574:11574): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:24:09:082 mateLib/(11615:11615): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:31:32:384 mateLib/(12364:12364): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:31:46:704 mateLib/(12431:12431): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:31:48:149 mateLib/(12458:12458): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:58:41:581 mateLib/(14770:14770): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:58:45:069 mateLib/(14803:14803): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:59:18:088 mateLib/(15017:15017): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 19:59:21:894 mateLib/(15056:15056): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:00:04:186 mateLib/(15210:15210): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:00:07:856 mateLib/(15236:15236): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:00:23:960 mateLib/(15307:15307): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:00:27:912 mateLib/(15341:15341): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:03:30:564 mateLib/(15718:15718): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:03:58:396 mateLib/(15852:15852): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:04:01:010 mateLib/(15884:15884): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:04:13:940 mateLib/(15944:15944): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:04:18:519 mateLib/(15980:15980): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:04:28:631 mateLib/(16027:16027): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:04:30:643 mateLib/(16056:16056): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:04:32:578 mateLib/(16085:16085): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:04:45:310 mateLib/(16154:16154): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:05:01:774 mateLib/(16203:16203): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:05:03:958 mateLib/(16238:16238): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:05:06:507 mateLib/(16267:16267): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:05:10:211 mateLib/(16299:16299): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:05:22:586 mateLib/(16353:16353): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 20:05:25:954 mateLib/(16393:16393): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:34:20:723 mateLib/(3730:3730): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:23:59:912 mateLib/(6003:6003): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:24:03:815 mateLib/(6034:6034): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:27:21:139 mateLib/(6353:6353): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:27:41:077 mateLib/(6409:6409): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:29:17:862 mateLib/(6619:6619): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:29:31:099 mateLib/(6673:6673): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:29:42:009 mateLib/(6714:6714): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:30:03:835 mateLib/(6815:6815): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:30:07:784 mateLib/(6847:6847): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:31:36:980 mateLib/(7075:7075): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:31:39:376 mateLib/(7099:7099): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:32:04:496 mateLib/(7210:7210): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:32:06:553 mateLib/(7242:7242): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:33:18:600 mateLib/(7435:7435): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:33:23:377 mateLib/(7467:7467): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:36:08:066 mateLib/(7765:7765): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:36:13:941 mateLib/(7797:7797): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:36:41:054 mateLib/(7913:7913): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:37:06:032 mateLib/(8022:8022): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:37:36:952 mateLib/(8152:8152): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:37:55:967 mateLib/(8203:8203): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:41:06:711 mateLib/(8598:8598): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:41:21:814 mateLib/(8650:8650): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:55:40:999 mateLib/(10269:10269): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:55:51:867 mateLib/(10308:10308): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:56:10:884 mateLib/(10412:10412): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 18:56:36:552 mateLib/(10596:10596): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:03:30:950 mateLib/(21134:21134): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:06:26:940 mateLib/(21382:21382): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[ERROR] 21:07:49:636 mateLib/(21605:21605): Error al conectar (a Server)
+
+[ERROR] 21:08:00:477 mateLib/(21642:21642): Error al conectar (a Server)
+
+[ERROR] 21:08:10:971 mateLib/(21682:21682): Error al conectar (a Server)
+
+[INFO] 21:08:47:052 mateLib/(21781:21781): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:08:55:821 mateLib/(21811:21811): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:09:07:056 mateLib/(21841:21841): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:19:32:375 mateLib/(22485:22485): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:19:43:957 mateLib/(22515:22515): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:19:54:412 mateLib/(22545:22545): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:23:12:515 mateLib/(22806:22806): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:23:24:210 mateLib/(22836:22836): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:23:37:716 mateLib/(22872:22872): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:28:43:672 mateLib/(23235:23235): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:28:54:345 mateLib/(23265:23265): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:29:05:814 mateLib/(23295:23295): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:33:49:505 mateLib/(23623:23623): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:33:59:045 mateLib/(23653:23653): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:34:07:817 mateLib/(23683:23683): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:37:12:773 mateLib/(23927:23927): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:37:23:588 mateLib/(23961:23961): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:37:35:626 mateLib/(23994:23994): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:40:03:389 mateLib/(24245:24245): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:40:11:489 mateLib/(24271:24271): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:40:20:841 mateLib/(24301:24301): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:42:01:658 mateLib/(24468:24468): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:42:10:655 mateLib/(24498:24498): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:44:41:550 mateLib/(24708:24708): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:44:51:628 mateLib/(24738:24738): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:51:04:507 mateLib/(25144:25144): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:51:12:972 mateLib/(25173:25173): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:44:960 mateLib/(25486:25486): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 21:55:53:586 mateLib/(25513:25513): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:06:48:777 mateLib/(26162:26162): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:07:00:301 mateLib/(26192:26192): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:11:02:613 mateLib/(26478:26478): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 22:11:12:799 mateLib/(26511:26511): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:12:54:387 mateLib/(29815:29815): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:13:04:850 mateLib/(29845:29845): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:20:39:742 mateLib/(30309:30309): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:20:50:108 mateLib/(30340:30340): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:24:11:123 mateLib/(30587:30587): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:24:23:048 mateLib/(30618:30618): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:29:09:000 mateLib/(30942:30942): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:29:18:026 mateLib/(30972:30972): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:33:20:482 mateLib/(31257:31257): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:33:28:785 mateLib/(31288:31288): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:36:38:632 mateLib/(31528:31528): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:36:48:520 mateLib/(31561:31561): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:40:09:664 mateLib/(31808:31808): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:40:21:722 mateLib/(31847:31847): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:50:41:212 mateLib/(32473:32473): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:51:07:699 mateLib/(32573:32573): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 23:51:16:615 mateLib/(32599:32599): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:19:12:790 mateLib/(4224:4224): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:19:23:114 mateLib/(4279:4279): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:29:04:266 mateLib/(5149:5149): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:29:13:147 mateLib/(5197:5197): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:36:18:729 mateLib/(5946:5946): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:36:26:417 mateLib/(5991:5991): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:37:39:527 mateLib/(6224:6224): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:37:47:470 mateLib/(6272:6272): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:45:50:750 mateLib/(7008:7008): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:46:00:153 mateLib/(7043:7043): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:49:44:262 mateLib/(7523:7523): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:49:58:558 mateLib/(7577:7577): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:50:38:708 mateLib/(7698:7698): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:50:47:193 mateLib/(7730:7730): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:50:56:764 mateLib/(7764:7764): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:58:10:980 mateLib/(8443:8443): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:58:19:417 mateLib/(8477:8477): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:58:27:852 mateLib/(8509:8509): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:02:07:758 mateLib/(8875:8875): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:02:16:071 mateLib/(8910:8910): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:02:23:675 mateLib/(8946:8946): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:11:39:012 mateLib/(9803:9803): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:11:48:072 mateLib/(9831:9831): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:11:56:532 mateLib/(9866:9866): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:19:44:989 mateLib/(10536:10536): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:19:53:582 mateLib/(10566:10566): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:20:00:645 mateLib/(10600:10600): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:34:37:624 mateLib/(11774:11774): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:34:46:636 mateLib/(11810:11810): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:42:39:207 mateLib/(12480:12480): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:42:46:232 mateLib/(12514:12514): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:44:23:863 mateLib/(12709:12709): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:44:33:444 mateLib/(12743:12743): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:47:40:781 mateLib/(13089:13089): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:47:49:304 mateLib/(13117:13117): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:50:25:021 mateLib/(13394:13394): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:50:32:838 mateLib/(13428:13428): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:53:03:582 mateLib/(13712:13712): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:53:12:313 mateLib/(13746:13746): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:55:49:236 mateLib/(14018:14018): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:55:57:024 mateLib/(14052:14052): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:58:57:488 mateLib/(14372:14372): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:58:57:596 mateLib/(14372:14372): -----4160749568------
+[INFO] 11:59:04:974 mateLib/(14401:14401): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:59:05:077 mateLib/(14401:14401): -----4160749568------
+[INFO] 12:00:36:306 mateLib/(14592:14592): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 12:00:36:383 mateLib/(14592:14592): -----3221225472------
+[INFO] 12:00:44:134 mateLib/(14620:14620): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 12:00:44:229 mateLib/(14620:14620): -----4026531840------
+>>>>>>> 719c457244a2728c56001a0731bd2b1833948b7b
+[INFO] 10:53:59:007 mateLib/(4409:4409): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[ERROR] 10:53:59:099 mateLib/(4409:4409): No podes usar semaforos si no estas conectado al kernel
+
+[ERROR] 10:53:59:104 mateLib/(4409:4409): No podes usar semaforos si no estas conectado al kernel
+
+[ERROR] 10:53:59:107 mateLib/(4409:4409): No podes usar semaforos si no estas conectado al kernel
+
+[ERROR] 10:53:59:113 mateLib/(4409:4409): No podes usar semaforos si no estas conectado al kernel
+
+[INFO] 16:55:27:195 mateLib/(13499:13499): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:57:53:643 mateLib/(13676:13676): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:58:36:867 mateLib/(13711:13711): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:59:33:524 mateLib/(13824:13824): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:03:46:133 mateLib/(13987:13987): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:07:20:351 mateLib/(14102:14102): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:09:22:423 mateLib/(14322:14322): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:10:56:578 mateLib/(14428:14428): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:20:23:636 mateLib/(14602:14602): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 17:22:56:171 mateLib/(14708:14708): Cliente conectado en 127.0.0.1:5001 (a Server)
 

@@ -15,6 +15,7 @@ pthread_mutex_t MUTEX_LISTA_READY;
 pthread_mutex_t MUTEX_LISTA_SUSPENDED_READY;
 pthread_mutex_t MUTEX_LISTA_SUSPENDED_BLOCKED;
 pthread_mutex_t MUTEX_LISTA_BLOCKED;
+pthread_mutex_t MUTEX_LISTA_EXIT;
 
 sem_t * SEM_CPUs;
 
@@ -29,15 +30,19 @@ sem_t SEM_CANTIDAD_A_READY;
 //TODO: Signal en block y de new a ready
 sem_t SEM_CANTIDAD_EN_READY;
 
+sem_t SEM_CARPINCHO_SUSPENCION;
+
 t_queue* COLA_NEW;
 t_queue* COLA_READY;
+t_queue* COLA_EXIT;
 t_queue* COLA_SUSPENDED_READY;
-t_queue* COLA_SUSPENDED_BLOCKED;
+t_list* LISTA_SUSPENDED_BLOCKED;
 t_list*  LISTA_BLOCKED;
 
 void carpincho_init(unsigned long id, t_carpincho** carpincho);
 void iniciar_mutex(int grado_multiprogramacion);
 void destroy_mutex();
+uint16_t calcular_estimacion(t_carpincho* carpincho);
 
 //COSAS DE COLA NEW
 void push_cola_new(t_carpincho* carpincho);
@@ -63,5 +68,14 @@ void* remover_cola_ready(unsigned long id);
 //COSAS DE LISTA BLOCKED
 void remove_lista_blocked(t_carpincho* carpincho);
 void add_lista_blocked(t_carpincho* carpincho);
+bool existe_en_lista_blocked(t_carpincho* carpincho);
+t_carpincho* remove_lista_blocked_last();
+
+//COSAS DE LISTA SUSPENDED BLOCKED
+void remove_lista_suspended_blocked(t_carpincho* carpincho);
+void add_lista_suspended_blocked(t_carpincho* carpincho);
+
+//COSAS DE COLA EXIT
+void push_cola_exit(t_carpincho* carpincho);
 
 #endif
