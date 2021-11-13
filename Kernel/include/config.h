@@ -45,7 +45,11 @@ typedef struct {
   time_t tiempo_ingreso_ready;
   time_t tiempo_ingreso_exec;  
   int cpu_asignada;
+  int memoria_fd;
+  int matelib_fd;
 } t_carpincho;
+
+pthread_mutex_t MUTEX_IDS;
 
 
 uint8_t cargar_configuracion(t_config_kernel*);

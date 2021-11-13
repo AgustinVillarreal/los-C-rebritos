@@ -7,6 +7,7 @@ t_list* TABLA_CARPINCHOS;
 void* memoria_principal;
 t_log* logger;
 
+
 void cerrar_programa(t_log* logger, t_config_memoria* cfg){
     log_destroy(logger);
     free(cfg->ALGORITMO_REEMPLAZO_MMU);
@@ -118,6 +119,7 @@ uint8_t init(){
     mutex_init_tabla();
     mutex_init_memoria();
     init_memory_structs();
+    pthread_mutex_init(&MUTEX_IDS, NULL);
     return 1;
 }
 

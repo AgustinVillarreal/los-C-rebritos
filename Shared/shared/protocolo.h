@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -41,7 +41,7 @@ typedef enum {
 } op_code;
 
 
-bool send_mate_init(int fd_server);
+bool send_mate_init(int fd_server, int generar_id);
 bool send_codigo_op(int fd, op_code cop);
 
 bool send_alloc_data(int fd, unsigned long id, int size);
@@ -70,5 +70,8 @@ bool send_memfree(int fd_server);
 
 bool send_ack(int fd, bool ack);
 bool recv_ack(int fd, bool* ack);
+
+bool send_finalizar_carpincho(int fd, unsigned long id);
+
 
 #endif

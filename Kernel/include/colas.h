@@ -39,12 +39,6 @@ t_queue* COLA_SUSPENDED_READY;
 t_list* LISTA_SUSPENDED_BLOCKED;
 t_list*  LISTA_BLOCKED;
 
-
-pthread_mutex_t MUTEX_LISTA_IDS;
-
-t_list* LISTA_IDS;
-
-
 void carpincho_init(unsigned long id, t_carpincho** carpincho);
 void iniciar_mutex(int grado_multiprogramacion);
 void destroy_mutex();

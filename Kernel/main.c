@@ -23,7 +23,6 @@ int main(){
     COLA_SUSPENDED_READY   = queue_create();
     LISTA_SUSPENDED_BLOCKED = list_create();
     LISTA_BLOCKED           = list_create();
-    LISTA_IDS               = list_create();
     inicializar_semaforos();
 
     int memoria_fd;

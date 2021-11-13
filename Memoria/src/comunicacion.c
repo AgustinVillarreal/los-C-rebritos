@@ -1,6 +1,8 @@
 #include "../include/comunicacion.h"
 
 extern t_log* logger;
+unsigned long global_id_mem = 0;
+
 
 typedef struct {
     int fd;
@@ -40,10 +42,26 @@ static void procesar_conexion(void* void_args){
                break;
             case MATE_INIT: ;
                 unsigned long id_init;
-                if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
-                    log_error(logger, "Error al iniciar el carpincho en memoria");
-                    // return EXIT_FAILURE;
-                    break;
+                int value;
+                if(!recv(cliente_socket, &value, sizeof(int), 0)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                if(value == 0) {
+                    if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
+                        log_error(logger, "Error al iniciar el carpincho en memoria");
+                        // return EXIT_FAILURE;
+                        break;
+                    }
+                } else {
+                    pthread_mutex_lock(&MUTEX_IDS);
+                    id_init = global_id_mem ++;
+                    pthread_mutex_unlock(&MUTEX_IDS);             
+                    if(!send(cliente_socket, &id_init, sizeof(long), 0)){
+                        log_error(logger, "Error al enviar id");
+                        free(server_name);
+                        return;
+                    }
                 }
                 mate_init(id_init);
                 break;

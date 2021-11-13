@@ -20,8 +20,17 @@ bool send_memwrite(int fd_server){
   return send_codigo_op(fd_server, MEM_WRITE);
 }
 
-bool send_mate_init(int fd_server){
-  return send_codigo_op(fd_server, MATE_INIT);
+bool send_mate_init(int fd_server, int generar_id){
+  void* stream = malloc(sizeof(int) + sizeof(op_code));
+  op_code op = MATE_INIT;
+  memcpy(stream, &op, sizeof(op_code));
+  memcpy(stream + sizeof(op_code), &generar_id, sizeof(int));
+  if(send(fd_server, stream, sizeof(int) + sizeof(op_code), 0) == -1) {
+    free(stream);
+    return false;
+  }
+  free(stream);
+  return true;
 }
 
 
@@ -165,4 +174,18 @@ bool recv_ack(int fd, bool* ack) {
 
     free(stream);
     return true;
+}
+
+
+bool send_finalizar_carpincho(int fd, unsigned long id) {
+  void* stream = malloc(sizeof(op_code) + sizeof(long));
+  op_code op = FREE_CARPINCHO;
+  memcpy(stream, &op, sizeof(op_code));
+  memcpy(stream + sizeof(op_code), &id, sizeof(long));
+  if(send(fd, stream, sizeof(op_code) + sizeof(long), 0) == -1){
+    free(stream);    
+    return false;
+  }
+  free(stream);    
+  return true;
 }

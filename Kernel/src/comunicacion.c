@@ -2,6 +2,7 @@
 
 extern t_log* logger;
 extern t_config_kernel* KERNEL_CFG;
+unsigned long global_id = 0;
 
 typedef struct {
     int fd;
@@ -19,6 +20,9 @@ static void procesar_conexion(void* void_args){
     KERNEL_CFG->MEMORIA_FD = memoria_fd;
 
     t_carpincho * carpincho;
+    carpincho = malloc(sizeof(t_carpincho));
+    carpincho->memoria_fd = memoria_fd;
+    carpincho->matelib_fd = cliente_socket;
 
 
     // Mientras la conexion este abierta
@@ -42,37 +46,29 @@ static void procesar_conexion(void* void_args){
 
             case MATE_INIT: ;
                 unsigned long id;
-                uint16_t id_unico = 0;
-                // pthread_mutex_lock(&MUTEX_LISTA_IDS);
-                // while(!id_unico) {
-                //     if(!recv(cliente_socket, &id, sizeof(long), 0)){
-                //         log_info(logger, "Error recibiendo msj de encolamiento new");
-                //         return;
-                //     }
-                //     bool es_id(void* id_nodo){
-                //         return id == *((uint16_t*) id_nodo);
-                //     }
-                //     id_unico = !list_any_satisfy(LISTA_IDS, es_id);
-                //     if(id_unico) {
-                //         list_add(LISTA_IDS, &id);
-                //     }
-                //     if (!send(cliente_socket, &id_unico, sizeof(uint16_t), 0)){
-                //         log_error(logger, "Error al enviar return code de sem init");
-                //         free(server_name);
-                //         return;
-                //     }
-                // }
+                int value_init;
+                pthread_mutex_lock(&MUTEX_IDS);
+                id = global_id ++;
+                pthread_mutex_unlock(&MUTEX_IDS);
                 
-                // pthread_mutex_unlock(&MUTEX_LISTA_IDS);                
+                if(!recv(cliente_socket, &value_init, sizeof(int), 0)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                if(!send(cliente_socket, &id, sizeof(long), 0)){
+                   log_error(logger, "Error al enviar id");
+                   free(server_name);
+                   return;
+                }
+                          
                 carpincho_init(id, &carpincho);
-                if(!send_mate_init(memoria_fd)){
-                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                if(!send_mate_init(memoria_fd, 0)){
+                    log_error(logger, "Error al enviar id");
                     free(server_name);
                     return;
                 }
-
                 if(!send_data_mate_init(memoria_fd, id)){
-                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                    log_error(logger, "Error al enviar id");
                     free(server_name);
                     return;
                 }
