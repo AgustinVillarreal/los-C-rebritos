@@ -21,5 +21,6 @@ void agregar_tabla_a_tp_carpinchos(void* tp_carpincho);
 void mutex_init_tabla();
 uint32_t table_size(unsigned long id);
 void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame);
+bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t* entrada_buscada);
 
 #endif

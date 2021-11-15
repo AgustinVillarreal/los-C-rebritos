@@ -18,13 +18,6 @@ typedef struct {
 
 typedef struct {
     unsigned long id_carpincho;
-    uint32_t nro_frame;
-    uint32_t nro_pagina;
-    uint32_t TUR;
-} tlb_t;
-
-typedef struct {
-    unsigned long id_carpincho;
     //TODO
     uint8_t ocupado;
     uint8_t libre;
@@ -53,6 +46,11 @@ typedef struct {
     } algoritmo;
 } entrada_tp_t;
 
+typedef struct {
+    unsigned long id_carpincho;
+    entrada_tp_t* entrada_tp;
+    uint32_t TUR;
+} tlb_t;
 
 t_list* TLB_TABLE;
 t_list* CARPINCHOS_TABLE; 

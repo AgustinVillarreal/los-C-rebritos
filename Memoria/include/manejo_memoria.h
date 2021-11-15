@@ -19,9 +19,14 @@ bool entra_en_mp(uint32_t size_stream);
 bool esta_en_tlb(unsigned long id_carpincho);
 void init_memory_structs();
 bool allocar_carpincho_fija(unsigned long id_carpincho, size_t sizes, bool primer_alloc, uint32_t * direccion_logica);
-uint32_t cant_paginas(size_t size);
 uint32_t cant_frame_libres_fija(unsigned long id_carpincho);
 uint32_t cant_frame_libres();
 uint32_t buscar_primer_frame_carpincho();
+
+uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size);
+entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina);
+hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carpincho);
+void alloc_size_en_mp(void* data, uint32_t offset, size_t size, entrada_tp_t* entrada_tp, unsigned long id_carpincho);
+bool entra_en_hmd(hmd_t* hmd, size_t size, uint32_t direccion_hmd);
 
 #endif

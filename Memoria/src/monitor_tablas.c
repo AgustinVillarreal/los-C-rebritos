@@ -51,6 +51,11 @@ entrada_tp_t* list_get_pagina(tp_carpincho_t* tabla_carpincho ,uint32_t index){
     return entrada_tp;
 }
 
+bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t* entrada_buscada){
+    //TODO: busca en tlb 
+    return false;
+}
+
 void mutex_init_tabla(){
     pthread_mutex_init(&MUTEX_TP_CARPINCHOS, NULL); 
 }
