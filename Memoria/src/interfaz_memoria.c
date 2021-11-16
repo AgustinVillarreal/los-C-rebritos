@@ -41,32 +41,6 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
     
 } 
 
-
-// uint32_t reservar_espacio_mp(size_t size_stream, unsigned long id, t_list* tabla_carpincho, bool primerPagina){
-//     if(primerPagina){
-//         entrada_tp_t* entrada_tp = malloc(sizeof(entrada_tp_t));
-//         entrada_tp->nro_pagina = 0;
-//         entrada_tp->nro_frame = buscar_frame_ff();
-//         entrada_tp->bit_P = 1;
-//         if(MEMORIA_CFG->LRU){
-//             //TODO: ver lo de LRU
-//         } else {
-//             //TODO: ver lo del clock
-//         }
-
-//     }
-
-//     bool nuevaPagina;
-//     alloc_carpincho_en_mp(size_stream, id, &nuevaPagina);
-//     //Pongo un hmd al principio y uno al final creo, TODO: consultar
-//     void* size_data = malloc(sizeof(int) + sizeof(hmd_t)*2);
-
-
-
-//     printf("Se reservo %d \n", size_stream);
-//     return 1;
-// }
-
 uint32_t liberar_espacio_mp(char* a, uint32_t* b){
     return 1;
 }

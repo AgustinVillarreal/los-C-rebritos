@@ -69,6 +69,7 @@ uint32_t table_size(unsigned long id){
     return size;
 }
 
+//TODO: También debería mandarlo al Swap 
 void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id);
     entrada_tp_t* entrada_tp = malloc(sizeof(entrada_tp_t));

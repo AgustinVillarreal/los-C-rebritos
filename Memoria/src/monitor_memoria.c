@@ -38,7 +38,7 @@ uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho){
 }
 
 
-void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, uint32_t direccion_logica, uint32_t nro_frame, uint32_t nro_pagina, uint32_t* hmd_cortado){
+void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, uint32_t nro_frame, uint32_t nro_pagina, uint32_t* hmd_cortado){
     hmd_t* hmd = malloc(sizeof(hmd_t));
     if(nro_pagina == 0){
         hmd->prevAlloc = (int) NULL;

@@ -1696,3 +1696,564 @@
 [INFO] 21:17:32:363 memoria/(7314:7337): hay espacio entre hmd
 [INFO] 21:17:32:363 memoria/(7314:7337): Cant_frames mayor
 [INFO] 21:17:32:410 memoria/(7314:7337): DISCONNECT!
+[INFO] 22:30:29:611 memoria/(8258:8258): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 22:30:29:701 memoria/(8258:8258): Error al conectar (a Server)
+
+[INFO] 22:30:46:032 memoria/(8372:8372): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:30:46:103 memoria/(8372:8372): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:30:46:106 memoria/(8372:8372): ------2---------
+
+[INFO] 22:30:46:108 memoria/(8372:8372): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:30:51:490 memoria/(8417:8417): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:30:51:563 memoria/(8417:8417): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:30:51:565 memoria/(8417:8417): ------2---------
+
+[INFO] 22:30:51:567 memoria/(8417:8417): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:30:58:159 memoria/(8417:8417): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:30:58:264 memoria/(8417:8455): HANDSHAKE
+[INFO] 22:30:58:313 memoria/(8417:8455): --------------0-----------
+
+[INFO] 22:30:58:339 memoria/(8417:8455): El frame es el 0 
+
+[INFO] 22:30:58:342 memoria/(8417:8455): Allocando primer mitad del hmd en 0
+
+[INFO] 22:30:58:344 memoria/(8417:8455): El frame es el 1 
+
+[INFO] 22:30:58:344 memoria/(8417:8455): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:30:58:345 memoria/(8417:8455): Cant_frames mayor
+[INFO] 22:30:58:413 memoria/(8417:8455): ---------2952790016 en pagina 0---------
+[INFO] 22:30:58:426 memoria/(8417:8455): ---------2952790016 en pagina 0---------
+[INFO] 22:30:58:430 memoria/(8417:8455): ---------2952790016 en pagina 1---------
+[INFO] 22:30:58:434 memoria/(8417:8455): no hay espacio entre hmd
+
+[INFO] 22:30:58:440 memoria/(8417:8455): ---------2952790016 en pagina 0---------
+[INFO] 22:30:58:441 memoria/(8417:8455): ---------2952790016 en pagina 0---------
+[INFO] 22:30:58:442 memoria/(8417:8455): ---------2952790016 en pagina 1---------
+[INFO] 22:30:58:443 memoria/(8417:8455): no hay espacio entre hmd
+
+[INFO] 22:30:58:510 memoria/(8417:8455): DISCONNECT!
+[INFO] 22:31:19:316 memoria/(8513:8513): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:31:19:406 memoria/(8513:8513): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:31:19:410 memoria/(8513:8513): ------2---------
+
+[INFO] 22:31:19:413 memoria/(8513:8513): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:31:23:999 memoria/(8513:8513): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:31:24:088 memoria/(8513:8534): HANDSHAKE
+[INFO] 22:31:24:128 memoria/(8513:8534): --------------0-----------
+
+[INFO] 22:31:24:139 memoria/(8513:8534): El frame es el 0 
+
+[INFO] 22:31:24:142 memoria/(8513:8534): Allocando primer mitad del hmd en 0
+
+[INFO] 22:31:24:146 memoria/(8513:8534): El frame es el 1 
+
+[INFO] 22:31:24:147 memoria/(8513:8534): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:31:24:149 memoria/(8513:8534): Cant_frames mayor
+[INFO] 22:31:24:204 memoria/(8513:8534): ---------939524096 en pagina 0---------
+[INFO] 22:31:24:212 memoria/(8513:8534): ---------939524096 en pagina 0---------
+[INFO] 22:31:24:215 memoria/(8513:8534): ---------939524096 en pagina 1---------
+[INFO] 22:31:24:218 memoria/(8513:8534): no hay espacio entre hmd
+
+[INFO] 22:31:24:262 memoria/(8513:8534): ---------939524096 en pagina 0---------
+[INFO] 22:31:24:264 memoria/(8513:8534): ---------939524096 en pagina 0---------
+[INFO] 22:31:24:267 memoria/(8513:8534): ---------939524096 en pagina 1---------
+[INFO] 22:31:24:268 memoria/(8513:8534): no hay espacio entre hmd
+
+[INFO] 22:31:24:320 memoria/(8513:8534): DISCONNECT!
+[INFO] 22:32:11:087 memoria/(8617:8617): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:32:11:172 memoria/(8617:8617): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:32:11:176 memoria/(8617:8617): ------2---------
+
+[INFO] 22:32:11:179 memoria/(8617:8617): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:38:20:151 memoria/(8617:8617): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:38:20:234 memoria/(8617:8676): HANDSHAKE
+[INFO] 22:38:20:283 memoria/(8617:8676): --------------0-----------
+
+[INFO] 22:38:20:294 memoria/(8617:8676): El frame es el 0 
+
+[INFO] 22:38:20:296 memoria/(8617:8676): Allocando primer mitad del hmd en 0
+
+[INFO] 22:38:20:299 memoria/(8617:8676): El frame es el 1 
+
+[INFO] 22:38:20:300 memoria/(8617:8676): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:38:20:301 memoria/(8617:8676): Cant_frames mayor
+[INFO] 22:38:20:345 memoria/(8617:8676): ---------1744830464 en pagina 0---------
+[INFO] 22:38:20:354 memoria/(8617:8676): Esta free
+[INFO] 22:38:20:361 memoria/(8617:8676): ---------1744830464 en pagina 1---------
+[INFO] 22:38:20:365 memoria/(8617:8676): hay espacio entre hmd
+[INFO] 22:38:20:366 memoria/(8617:8676): Cant_frames mayor
+[INFO] 22:38:20:406 memoria/(8617:8676): ---------1744830464 en pagina 0---------
+[INFO] 22:38:20:407 memoria/(8617:8676): ---------1744830464 en pagina 0---------
+[INFO] 22:38:20:407 memoria/(8617:8676): Esta free
+[INFO] 22:38:20:408 memoria/(8617:8676): hay espacio entre hmd
+[INFO] 22:38:20:408 memoria/(8617:8676): Cant_frames mayor
+[INFO] 22:38:20:468 memoria/(8617:8676): DISCONNECT!
+[INFO] 22:41:29:657 memoria/(8893:8893): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:41:29:727 memoria/(8893:8893): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:41:29:733 memoria/(8893:8893): ------2---------
+
+[INFO] 22:41:29:735 memoria/(8893:8893): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:41:34:766 memoria/(8893:8893): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:41:34:865 memoria/(8893:8914): HANDSHAKE
+[INFO] 22:41:34:911 memoria/(8893:8914): --------------0-----------
+
+[INFO] 22:41:34:942 memoria/(8893:8914): El frame es el 0 
+
+[INFO] 22:41:34:947 memoria/(8893:8914): Allocando primer mitad del hmd en 0
+
+[INFO] 22:41:34:951 memoria/(8893:8914): El frame es el 1 
+
+[INFO] 22:41:34:952 memoria/(8893:8914): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:41:34:955 memoria/(8893:8914): Cant_frames mayor
+[INFO] 22:41:34:961 memoria/(8893:8914): ---------2013265920 en pagina 0---------
+[INFO] 22:41:34:965 memoria/(8893:8914): Esta free
+[INFO] 22:41:34:969 memoria/(8893:8914): ---------2013265920 en pagina 1---------
+[INFO] 22:41:34:971 memoria/(8893:8914): hay espacio entre hmd
+[INFO] 22:41:34:971 memoria/(8893:8914): Cant_frames mayor
+[INFO] 22:41:35:011 memoria/(8893:8914): ---------2013265920 en pagina 0---------
+[INFO] 22:41:35:012 memoria/(8893:8914): ---------2013265920 en pagina 0---------
+[INFO] 22:41:35:013 memoria/(8893:8914): Esta free
+[INFO] 22:41:35:013 memoria/(8893:8914): hay espacio entre hmd
+[INFO] 22:41:35:015 memoria/(8893:8914): Cant_frames mayor
+[INFO] 22:41:35:057 memoria/(8893:8914): DISCONNECT!
+[INFO] 22:42:42:263 memoria/(8981:8981): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:42:42:337 memoria/(8981:8981): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:42:42:341 memoria/(8981:8981): ------2---------
+
+[INFO] 22:42:42:346 memoria/(8981:8981): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:42:43:879 memoria/(8981:8981): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:42:43:988 memoria/(8981:9003): HANDSHAKE
+[INFO] 22:42:44:032 memoria/(8981:9003): --------------0-----------
+
+[INFO] 22:42:44:046 memoria/(8981:9003): El frame es el 0 
+
+[INFO] 22:42:44:049 memoria/(8981:9003): Allocando primer mitad del hmd en 0
+
+[INFO] 22:42:44:052 memoria/(8981:9003): El frame es el 1 
+
+[INFO] 22:42:44:052 memoria/(8981:9003): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:42:44:054 memoria/(8981:9003): Cant_frames mayor
+[INFO] 22:42:44:103 memoria/(8981:9003): ---------268435456 en pagina 0---------
+[INFO] 22:42:44:106 memoria/(8981:9003): Esta free
+[INFO] 22:42:44:111 memoria/(8981:9003): ---------268435456 en pagina 1---------
+[INFO] 22:42:44:112 memoria/(8981:9003): hay espacio entre hmd
+[INFO] 22:42:44:113 memoria/(8981:9003): Cant_frames mayor
+[INFO] 22:42:44:159 memoria/(8981:9003): ---------268435456 en pagina 0---------
+[INFO] 22:42:44:164 memoria/(8981:9003): ---------268435456 en pagina 0---------
+[INFO] 22:42:44:166 memoria/(8981:9003): Esta free
+[INFO] 22:42:44:168 memoria/(8981:9003): hay espacio entre hmd
+[INFO] 22:42:44:169 memoria/(8981:9003): Cant_frames mayor
+[INFO] 22:42:44:224 memoria/(8981:9003): DISCONNECT!
+[INFO] 22:42:45:612 memoria/(8981:8981): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:42:45:751 memoria/(8981:9024): HANDSHAKE
+[INFO] 22:42:45:786 memoria/(8981:9024): --------------32-----------
+
+[INFO] 22:42:45:818 memoria/(8981:9024): El frame es el 32 
+
+[INFO] 22:42:45:819 memoria/(8981:9024): Allocando primer mitad del hmd en 32
+
+[INFO] 22:42:45:820 memoria/(8981:9024): El frame es el 33 
+
+[INFO] 22:42:45:821 memoria/(8981:9024): Allocando segunda mitad del hmd en 33
+
+[INFO] 22:42:45:821 memoria/(8981:9024): Cant_frames mayor
+[INFO] 22:42:45:870 memoria/(8981:9024): ---------1879048192 en pagina 0---------
+[INFO] 22:42:45:871 memoria/(8981:9024): Esta free
+[INFO] 22:42:45:871 memoria/(8981:9024): ---------1879048192 en pagina 1---------
+[INFO] 22:42:45:872 memoria/(8981:9024): hay espacio entre hmd
+[INFO] 22:42:45:874 memoria/(8981:9024): Cant_frames mayor
+[INFO] 22:42:45:915 memoria/(8981:9024): ---------1879048192 en pagina 0---------
+[INFO] 22:42:45:917 memoria/(8981:9024): ---------1879048192 en pagina 0---------
+[INFO] 22:42:45:918 memoria/(8981:9024): Esta free
+[INFO] 22:42:45:918 memoria/(8981:9024): hay espacio entre hmd
+[INFO] 22:42:45:918 memoria/(8981:9024): Cant_frames mayor
+[INFO] 22:42:45:989 memoria/(8981:9024): DISCONNECT!
+[INFO] 22:43:13:461 memoria/(9080:9080): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:43:13:531 memoria/(9080:9080): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:43:13:535 memoria/(9080:9080): ------2---------
+
+[INFO] 22:43:13:536 memoria/(9080:9080): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:43:15:768 memoria/(9080:9080): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:43:15:906 memoria/(9080:9101): HANDSHAKE
+[INFO] 22:43:15:962 memoria/(9080:9101): --------------0-----------
+
+[INFO] 22:43:15:999 memoria/(9080:9101): El frame es el 0 
+
+[INFO] 22:43:16:002 memoria/(9080:9101): Allocando primer mitad del hmd en 0
+
+[INFO] 22:43:16:011 memoria/(9080:9101): El frame es el 1 
+
+[INFO] 22:43:16:013 memoria/(9080:9101): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:43:16:017 memoria/(9080:9101): Cant_frames mayor
+[INFO] 22:43:16:089 memoria/(9080:9101): DISCONNECT!
+[INFO] 22:45:08:263 memoria/(9208:9208): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:45:08:360 memoria/(9208:9208): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:45:08:369 memoria/(9208:9208): ------2---------
+
+[INFO] 22:45:08:372 memoria/(9208:9208): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:45:13:209 memoria/(9208:9208): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:45:13:347 memoria/(9208:9229): HANDSHAKE
+[INFO] 22:45:13:395 memoria/(9208:9229): --------------0-----------
+
+[INFO] 22:45:13:407 memoria/(9208:9229): El frame es el 0 
+
+[INFO] 22:45:13:410 memoria/(9208:9229): Allocando primer mitad del hmd en 0
+
+[INFO] 22:45:13:419 memoria/(9208:9229): El frame es el 1 
+
+[INFO] 22:45:13:420 memoria/(9208:9229): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:45:13:423 memoria/(9208:9229): Cant_frames mayor
+[INFO] 22:45:13:492 memoria/(9208:9229): ---------671088640 en pagina 0---------
+[INFO] 22:45:13:499 memoria/(9208:9229): Esta free
+[INFO] 22:45:13:506 memoria/(9208:9229): ---------671088640 en pagina 1---------
+[INFO] 22:45:13:511 memoria/(9208:9229): hay espacio entre hmd
+[INFO] 22:45:13:512 memoria/(9208:9229): Cant_frames mayor
+[INFO] 22:45:13:514 memoria/(9208:9229): ---------671088640 en pagina 0---------
+[INFO] 22:45:13:515 memoria/(9208:9229): ---------671088640 en pagina 0---------
+[INFO] 22:45:13:516 memoria/(9208:9229): Esta free
+[INFO] 22:45:13:516 memoria/(9208:9229): hay espacio entre hmd
+[INFO] 22:45:13:517 memoria/(9208:9229): Cant_frames mayor
+[INFO] 22:45:13:566 memoria/(9208:9229): DISCONNECT!
+[INFO] 22:47:52:766 memoria/(9346:9346): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:47:52:866 memoria/(9346:9346): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:47:52:873 memoria/(9346:9346): ------2---------
+
+[INFO] 22:47:52:883 memoria/(9346:9346): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:48:03:419 memoria/(9530:9530): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:48:03:498 memoria/(9530:9530): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:48:03:503 memoria/(9530:9530): ------2---------
+
+[INFO] 22:48:03:504 memoria/(9530:9530): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:52:06:400 memoria/(9850:9850): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 22:52:06:470 memoria/(9850:9850): Error al conectar (a Server)
+
+[INFO] 22:52:23:897 memoria/(9944:9944): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:52:23:981 memoria/(9944:9944): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:52:23:985 memoria/(9944:9944): ------2---------
+
+[INFO] 22:52:23:987 memoria/(9944:9944): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:52:34:730 memoria/(10105:10105): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:52:34:834 memoria/(10105:10105): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:52:34:839 memoria/(10105:10105): ------2---------
+
+[INFO] 22:52:34:843 memoria/(10105:10105): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:52:53:351 memoria/(10338:10338): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:52:53:470 memoria/(10338:10338): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:52:53:474 memoria/(10338:10338): ------2---------
+
+[INFO] 22:52:53:476 memoria/(10338:10338): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:54:14:282 memoria/(10421:10421): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:54:14:365 memoria/(10421:10421): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:54:14:368 memoria/(10421:10421): ------2---------
+
+[INFO] 22:54:14:371 memoria/(10421:10421): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:54:29:239 memoria/(10630:10630): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:54:29:360 memoria/(10630:10630): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:54:29:366 memoria/(10630:10630): ------2---------
+
+[INFO] 22:54:29:375 memoria/(10630:10630): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:57:49:796 memoria/(11563:11563): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:57:49:869 memoria/(11563:11563): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:57:49:873 memoria/(11563:11563): ------2---------
+
+[INFO] 22:57:49:874 memoria/(11563:11563): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:58:07:060 memoria/(11770:11770): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:58:07:150 memoria/(11770:11770): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:58:07:155 memoria/(11770:11770): ------2---------
+
+[INFO] 22:58:07:165 memoria/(11770:11770): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:59:12:329 memoria/(11837:11837): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 22:59:12:479 memoria/(11837:11837): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 22:59:12:490 memoria/(11837:11837): ------2---------
+
+[INFO] 22:59:12:499 memoria/(11837:11837): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 22:59:14:057 memoria/(11837:11837): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 22:59:14:172 memoria/(11837:11858): HANDSHAKE
+[INFO] 22:59:14:220 memoria/(11837:11858): --------------0-----------
+
+[INFO] 22:59:14:245 memoria/(11837:11858): El frame es el 0 
+
+[INFO] 22:59:14:252 memoria/(11837:11858): Allocando primer mitad del hmd en 0
+
+[INFO] 22:59:14:257 memoria/(11837:11858): El frame es el 1 
+
+[INFO] 22:59:14:259 memoria/(11837:11858): Allocando segunda mitad del hmd en 1
+
+[INFO] 22:59:14:261 memoria/(11837:11858): Cant_frames mayor
+[INFO] 22:59:14:270 memoria/(11837:11858): ---------4160749568 en pagina 0---------
+[INFO] 22:59:14:274 memoria/(11837:11858): ---------4160749568 en pagina 0---------
+[INFO] 22:59:14:276 memoria/(11837:11858): ---------4160749568 en pagina 1---------
+[INFO] 22:59:14:277 memoria/(11837:11858): no hay espacio entre hmd
+
+[INFO] 22:59:14:323 memoria/(11837:11858): ---------4160749568 en pagina 0---------
+[INFO] 22:59:14:325 memoria/(11837:11858): ---------4160749568 en pagina 0---------
+[INFO] 22:59:14:331 memoria/(11837:11858): ---------4160749568 en pagina 1---------
+[INFO] 22:59:14:332 memoria/(11837:11858): no hay espacio entre hmd
+
+[INFO] 22:59:14:388 memoria/(11837:11858): DISCONNECT!
+[INFO] 23:01:47:731 memoria/(11951:11951): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:01:47:806 memoria/(11951:11951): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 23:01:47:813 memoria/(11951:11951): ------2---------
+
+[INFO] 23:01:47:815 memoria/(11951:11951): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 23:01:52:886 memoria/(11951:11951): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 23:01:52:971 memoria/(11951:11977): HANDSHAKE
+[INFO] 23:01:53:015 memoria/(11951:11977): --------------0-----------
+
+[INFO] 23:01:53:039 memoria/(11951:11977): El frame es el 0 
+
+[INFO] 23:01:53:046 memoria/(11951:11977): Allocando primer mitad del hmd en 0
+
+[INFO] 23:01:53:053 memoria/(11951:11977): El frame es el 1 
+
+[INFO] 23:01:53:056 memoria/(11951:11977): Allocando segunda mitad del hmd en 1
+
+[INFO] 23:01:53:072 memoria/(11951:11977): Cant_frames mayor
+[INFO] 23:01:53:082 memoria/(11951:11977): ---------2415919104 en pagina 0---------
+[INFO] 23:01:53:087 memoria/(11951:11977): hmd->prevAlloc: 0
+[INFO] 23:01:53:089 memoria/(11951:11977): ---------2415919104 en pagina 0---------
+[INFO] 23:01:53:099 memoria/(11951:11977): ---------2415919104 en pagina 1---------
+[INFO] 23:01:53:101 memoria/(11951:11977): hmd->prevAlloc: 1
+[INFO] 23:01:53:103 memoria/(11951:11977): no hay espacio entre hmd
+
+[INFO] 23:01:53:151 memoria/(11951:11977): ---------2415919104 en pagina 0---------
+[INFO] 23:01:53:154 memoria/(11951:11977): hmd->prevAlloc: 0
+[INFO] 23:01:53:155 memoria/(11951:11977): ---------2415919104 en pagina 0---------
+[INFO] 23:01:53:157 memoria/(11951:11977): ---------2415919104 en pagina 1---------
+[INFO] 23:01:53:158 memoria/(11951:11977): hmd->prevAlloc: 1
+[INFO] 23:01:53:159 memoria/(11951:11977): no hay espacio entre hmd
+
+[INFO] 23:01:53:267 memoria/(11951:11977): DISCONNECT!
+[INFO] 23:03:13:157 memoria/(12053:12053): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:03:13:234 memoria/(12053:12053): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 23:03:13:239 memoria/(12053:12053): ------2---------
+
+[INFO] 23:03:13:242 memoria/(12053:12053): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 23:03:15:678 memoria/(12053:12053): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 23:03:15:799 memoria/(12053:12074): HANDSHAKE
+[INFO] 23:03:15:847 memoria/(12053:12074): --------------0-----------
+
+[INFO] 23:03:15:859 memoria/(12053:12074): El frame es el 0 
+
+[INFO] 23:03:15:863 memoria/(12053:12074): Allocando primer mitad del hmd en 0
+
+[INFO] 23:03:15:866 memoria/(12053:12074): El frame es el 1 
+
+[INFO] 23:03:15:867 memoria/(12053:12074): Allocando segunda mitad del hmd en 1
+
+[INFO] 23:03:15:868 memoria/(12053:12074): Cant_frames mayor
+[INFO] 23:03:15:927 memoria/(12053:12074): ---------1610612736 en pagina 0---------
+[INFO] 23:03:15:932 memoria/(12053:12074): hmd->prevAlloc: 0
+[INFO] 23:03:15:932 memoria/(12053:12074): hmd->nextAlloc: 24
+[INFO] 23:03:15:934 memoria/(12053:12074): ---------1610612736 en pagina 0---------
+[INFO] 23:03:15:936 memoria/(12053:12074): ---------1610612736 en pagina 1---------
+[INFO] 23:03:15:937 memoria/(12053:12074): hmd->prevAlloc: 1
+[INFO] 23:03:15:938 memoria/(12053:12074): hmd->nextAlloc: 0
+[INFO] 23:03:15:939 memoria/(12053:12074): no hay espacio entre hmd
+
+[INFO] 23:03:15:989 memoria/(12053:12074): ---------1610612736 en pagina 0---------
+[INFO] 23:03:15:989 memoria/(12053:12074): hmd->prevAlloc: 0
+[INFO] 23:03:15:990 memoria/(12053:12074): hmd->nextAlloc: 24
+[INFO] 23:03:15:990 memoria/(12053:12074): ---------1610612736 en pagina 0---------
+[INFO] 23:03:15:991 memoria/(12053:12074): ---------1610612736 en pagina 1---------
+[INFO] 23:03:15:992 memoria/(12053:12074): hmd->prevAlloc: 1
+[INFO] 23:03:15:993 memoria/(12053:12074): hmd->nextAlloc: 0
+[INFO] 23:03:15:993 memoria/(12053:12074): no hay espacio entre hmd
+
+[INFO] 23:03:16:042 memoria/(12053:12074): DISCONNECT!
+[INFO] 23:09:00:046 memoria/(12251:12251): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:09:00:125 memoria/(12251:12251): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 23:09:00:129 memoria/(12251:12251): ------2---------
+
+[INFO] 23:09:00:131 memoria/(12251:12251): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 23:09:05:861 memoria/(12251:12251): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 23:09:05:965 memoria/(12251:12273): HANDSHAKE
+[INFO] 23:09:06:015 memoria/(12251:12273): --------------0-----------
+
+[INFO] 23:09:06:033 memoria/(12251:12273): El frame es el 0 
+
+[INFO] 23:09:06:039 memoria/(12251:12273): Allocando primer mitad del hmd en 0
+
+[INFO] 23:09:06:047 memoria/(12251:12273): El frame es el 1 
+
+[INFO] 23:09:06:050 memoria/(12251:12273): Allocando segunda mitad del hmd en 1
+
+[INFO] 23:09:06:054 memoria/(12251:12273): Cant_frames mayor
+[INFO] 23:09:06:066 memoria/(12251:12273): ---------3892314112 en pagina 0---------
+[INFO] 23:09:06:069 memoria/(12251:12273): offset: 0
+[INFO] 23:09:06:072 memoria/(12251:12273): nro_pagina: 0
+[INFO] 23:09:06:077 memoria/(12251:12273): hmd->prevAlloc: 0
+[INFO] 23:09:06:080 memoria/(12251:12273): hmd->nextAlloc: 24
+[INFO] 23:09:06:083 memoria/(12251:12273): offset: 24
+[INFO] 23:09:06:089 memoria/(12251:12273): nro_pagina: 0
+[INFO] 23:09:06:091 memoria/(12251:12273): ---------3892314112 en pagina 1---------
+[INFO] 23:09:06:094 memoria/(12251:12273): hmd->prevAlloc: 1
+[INFO] 23:09:06:095 memoria/(12251:12273): hmd->nextAlloc: 0
+[INFO] 23:09:06:097 memoria/(12251:12273): no hay espacio entre hmd
+
+[INFO] 23:09:06:100 memoria/(12251:12273): ---------3892314112 en pagina 0---------
+[INFO] 23:09:06:101 memoria/(12251:12273): offset: 0
+[INFO] 23:09:06:101 memoria/(12251:12273): nro_pagina: 0
+[INFO] 23:09:06:102 memoria/(12251:12273): hmd->prevAlloc: 0
+[INFO] 23:09:06:102 memoria/(12251:12273): hmd->nextAlloc: 24
+[INFO] 23:09:06:102 memoria/(12251:12273): offset: 24
+[INFO] 23:09:06:103 memoria/(12251:12273): nro_pagina: 0
+[INFO] 23:09:06:104 memoria/(12251:12273): ---------3892314112 en pagina 1---------
+[INFO] 23:09:06:104 memoria/(12251:12273): hmd->prevAlloc: 1
+[INFO] 23:09:06:105 memoria/(12251:12273): hmd->nextAlloc: 0
+[INFO] 23:09:06:105 memoria/(12251:12273): no hay espacio entre hmd
+
+[INFO] 23:09:06:163 memoria/(12251:12273): DISCONNECT!
+[INFO] 23:15:35:243 memoria/(12411:12411): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:15:35:352 memoria/(12411:12411): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 23:15:35:360 memoria/(12411:12411): ------2---------
+
+[INFO] 23:15:35:364 memoria/(12411:12411): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 23:15:38:917 memoria/(12411:12411): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 23:15:39:016 memoria/(12411:12432): HANDSHAKE
+[INFO] 23:15:39:064 memoria/(12411:12432): --------------0-----------
+
+[INFO] 23:15:39:080 memoria/(12411:12432): El frame es el 0 
+
+[INFO] 23:15:39:084 memoria/(12411:12432): Allocando primer mitad del hmd en 0
+
+[INFO] 23:15:39:087 memoria/(12411:12432): El frame es el 1 
+
+[INFO] 23:15:39:088 memoria/(12411:12432): Allocando segunda mitad del hmd en 1
+
+[INFO] 23:15:39:092 memoria/(12411:12432): Cant_frames mayor
+[INFO] 23:15:39:139 memoria/(12411:12432): ---------3489660928 en pagina 0---------
+[INFO] 23:15:39:142 memoria/(12411:12432): offset: 0
+[INFO] 23:15:39:144 memoria/(12411:12432): nro_pagina: 0
+[INFO] 23:15:39:147 memoria/(12411:12432): hmd->prevAlloc: 0
+[INFO] 23:15:39:148 memoria/(12411:12432): hmd->nextAlloc: 24
+[INFO] 23:15:39:149 memoria/(12411:12432): offset: 24
+[INFO] 23:15:39:150 memoria/(12411:12432): nro_pagina: 0
+[INFO] 23:15:39:153 memoria/(12411:12432): ---------3489660928 en pagina 1---------
+[INFO] 23:15:39:154 memoria/(12411:12432): hmd->prevAlloc: 0
+[INFO] 23:15:39:155 memoria/(12411:12432): hmd->nextAlloc: 0
+[INFO] 23:15:39:155 memoria/(12411:12432): no hay espacio entre hmd
+
+[INFO] 23:15:39:195 memoria/(12411:12432): ---------3489660928 en pagina 0---------
+[INFO] 23:15:39:197 memoria/(12411:12432): offset: 0
+[INFO] 23:15:39:198 memoria/(12411:12432): nro_pagina: 0
+[INFO] 23:15:39:199 memoria/(12411:12432): hmd->prevAlloc: 0
+[INFO] 23:15:39:199 memoria/(12411:12432): hmd->nextAlloc: 24
+[INFO] 23:15:39:200 memoria/(12411:12432): offset: 24
+[INFO] 23:15:39:200 memoria/(12411:12432): nro_pagina: 0
+[INFO] 23:15:39:201 memoria/(12411:12432): ---------3489660928 en pagina 1---------
+[INFO] 23:15:39:202 memoria/(12411:12432): hmd->prevAlloc: 0
+[INFO] 23:15:39:203 memoria/(12411:12432): hmd->nextAlloc: 0
+[INFO] 23:15:39:205 memoria/(12411:12432): no hay espacio entre hmd
+
+[INFO] 23:15:39:257 memoria/(12411:12432): DISCONNECT!
+[INFO] 00:10:20:373 memoria/(13563:13563): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 00:10:20:440 memoria/(13563:13563): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 00:10:20:443 memoria/(13563:13563): ------2---------
+
+[INFO] 00:10:20:444 memoria/(13563:13563): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 00:10:27:634 memoria/(13563:13563): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 00:10:27:736 memoria/(13563:13584): HANDSHAKE
+[INFO] 00:10:27:779 memoria/(13563:13584): --------------0-----------
+
+[INFO] 00:10:27:791 memoria/(13563:13584): El frame es el 0 
+
+[INFO] 00:10:27:796 memoria/(13563:13584): Allocando primer mitad del hmd en 0
+
+[INFO] 00:10:27:800 memoria/(13563:13584): El frame es el 1 
+
+[INFO] 00:10:27:801 memoria/(13563:13584): Allocando segunda mitad del hmd en 1
+
+[INFO] 00:10:27:802 memoria/(13563:13584): Cant_frames mayor
+[INFO] 00:10:27:852 memoria/(13563:13584): ---------3623878656 en pagina 0---------
+[INFO] 00:10:27:853 memoria/(13563:13584): offset: 0
+[INFO] 00:10:27:854 memoria/(13563:13584): nro_pagina: 0
+[INFO] 00:10:27:856 memoria/(13563:13584): hmd->prevAlloc: 0
+[INFO] 00:10:27:857 memoria/(13563:13584): hmd->nextAlloc: 24
+[INFO] 00:10:27:857 memoria/(13563:13584): offset: 24
+[INFO] 00:10:27:858 memoria/(13563:13584): nro_pagina: 0
+[INFO] 00:10:27:859 memoria/(13563:13584): ---------3623878656 en pagina 1---------
+[INFO] 00:10:27:861 memoria/(13563:13584): hmd->prevAlloc: 0
+[INFO] 00:10:27:861 memoria/(13563:13584): hmd->nextAlloc: 0
+[INFO] 00:10:27:862 memoria/(13563:13584): no hay espacio entre hmd
+
+[INFO] 00:10:27:952 memoria/(13563:13584): ---------3623878656 en pagina 0---------
+[INFO] 00:10:27:955 memoria/(13563:13584): offset: 0
+[INFO] 00:10:27:959 memoria/(13563:13584): nro_pagina: 0
+[INFO] 00:10:27:961 memoria/(13563:13584): hmd->prevAlloc: 0
+[INFO] 00:10:27:962 memoria/(13563:13584): hmd->nextAlloc: 24
+[INFO] 00:10:27:962 memoria/(13563:13584): offset: 24
+[INFO] 00:10:27:963 memoria/(13563:13584): nro_pagina: 0
+[INFO] 00:10:27:964 memoria/(13563:13584): ---------3623878656 en pagina 1---------
+[INFO] 00:10:27:966 memoria/(13563:13584): hmd->prevAlloc: 0
+[INFO] 00:10:27:968 memoria/(13563:13584): hmd->nextAlloc: 0
+[INFO] 00:10:27:970 memoria/(13563:13584): no hay espacio entre hmd
+
+[INFO] 00:10:28:021 memoria/(13563:13584): DISCONNECT!
