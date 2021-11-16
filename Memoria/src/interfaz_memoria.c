@@ -41,7 +41,10 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
     
 } 
 
-uint32_t liberar_espacio_mp(char* a, uint32_t* b){
+uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica){
+
+    if(liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica))
+
     return 1;
 }
 uint32_t leer_espacio_mp(char* a){
