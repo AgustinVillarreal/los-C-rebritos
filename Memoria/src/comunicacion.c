@@ -74,7 +74,7 @@ static void procesar_conexion(void* void_args){
 
                 //         //TODO: Traer la pagina utilizada a la TLB
                 //     }
-                if(!liberar_espacio_mp(dir_logic_ini, size)) {
+                if(!liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica)) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
                     break;
                 }
