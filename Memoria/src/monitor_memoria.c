@@ -26,10 +26,14 @@ uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho){
     uint32_t nro_frame = 0xFFFF;
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
     for(uint32_t i = 0; i < MEMORIA_CFG->CANT_PAGINAS; i++){
-        if(tabla_frames[i].libre && tabla_frames[i].id_carpincho == id_carpincho) {
-            pthread_mutex_unlock(&MUTEX_FRAMES_BUSY); 
-            log_info(logger, "El frame es el %d \n", i);
-            return i;
+        if(tabla_frames[i].libre) {
+            if(MEMORIA_CFG->FIJA && tabla_frames[i].id_carpincho == id_carpincho){
+                pthread_mutex_unlock(&MUTEX_FRAMES_BUSY); 
+                log_info(logger, "El frame es el %d \n", i);
+                return i;
+            } else if (!MEMORIA_CFG->FIJA){
+                return i;
+            }
         }
     }
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);

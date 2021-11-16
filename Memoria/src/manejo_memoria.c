@@ -21,15 +21,15 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
     if(primer_alloc){
         uint32_t hmd_cortado = 0;
         uint32_t cantidad_de_paginas = cant_paginas_relativa(0, size + sizeof(hmd_t) * 2);
+        // if(!entra_en_swap(id_carpincho, cantidad_de_paginas)){
+        //   return false;
+        // }
 
         for(uint32_t i = 0; i < cantidad_de_paginas; i++){
             
             uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
             if(nro_frame == 0xFFFF){
-                bool ret_code = correr_algoritmo(id_carpincho, &nro_frame);
-                if(!ret_code){
-                    return false;
-                }
+              correr_algoritmo(id_carpincho, &nro_frame);              
             }
             //TODO: Penasr de que forma se puede generalizar, en este caso la i corresdponde a la pagina de al tp
             primer_memalloc_carpincho(id_carpincho, &size, nro_frame, i, &hmd_cortado);
@@ -53,16 +53,15 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
             hmd_final->nextAlloc = 0;
             uint32_t posicion_hmd_final = direccion_ultimo_hmd + sizeof(hmd_t) + size;
             hmd->nextAlloc = posicion_hmd_final;
+            log_info(logger, "posicion_hmd_final: %d", posicion_hmd_final);
+            log_info(logger, "direccion_ultimo_hmd: %d", direccion_ultimo_hmd);
+            
             //Escribir el size y el nuevo hmd del final
-            if(!allocar_al_final(hmd, hmd_final, entrada_tp, posicion_hmd_final, size)){
+            if(!allocar_al_final(id_carpincho, hmd, hmd_final, entrada_tp, direccion_ultimo_hmd, size)){
               //No hay lugar en SWAP
               return false;
             }
-            //Actualizar tp
-
-            //Actualizar TLB si es necesario
-
-
+            *direccion_logica = direccion_ultimo_hmd + sizeof(hmd_t);
             free(hmd);
             return true;
         }
@@ -75,13 +74,19 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
     return true;
 }
 
-bool allocar_al_final(hmd_t* hmd_inicial, hmd_t* hmd_final, entrada_tp_t* entrada_tp, uint32_t posicion_hmd_final, size_t size){
+bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd_final, entrada_tp_t* entrada_tp, uint32_t direccion_ultimo_hmd, size_t size){
   uint32_t tamanio_total_a_allocar = sizeof(hmd_t)*2 + size;
-  uint32_t offset = posicion_hmd_final % MEMORIA_CFG->TAMANIO_PAGINA;
+  uint32_t offset = direccion_ultimo_hmd % MEMORIA_CFG->TAMANIO_PAGINA;
+  uint32_t pagina_ultimo_hmd = direccion_ultimo_hmd / MEMORIA_CFG->TAMANIO_PAGINA;
   uint32_t espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA - offset;
   bool nueva_pagina = espacio_restante < size + sizeof(hmd_t);
   uint32_t cant_paginas_a_allocar = cant_paginas_relativa(offset, size + sizeof(hmd_t));  
   uint32_t size_acum = 0;
+
+  if(entrada_tp->nro_pagina != pagina_ultimo_hmd){
+    entrada_tp = buscar_entrada_tp(id_carpincho, pagina_ultimo_hmd);
+  }
+
   if(nueva_pagina){
     uint32_t ultima_pagina = entrada_tp->nro_pagina;
     /*Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
@@ -93,7 +98,7 @@ bool allocar_al_final(hmd_t* hmd_inicial, hmd_t* hmd_final, entrada_tp_t* entrad
     memcpy(data + sizeof(hmd_t) + size, hmd_final, sizeof(hmd_t));
     
     if(!espacio_restante){
-      //entrada_tp = crear_nueva_pagina(id_carpincho);
+      entrada_tp = crear_nueva_pagina(id_carpincho);
       espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA;
       offset = 0;
     }
@@ -103,54 +108,66 @@ bool allocar_al_final(hmd_t* hmd_inicial, hmd_t* hmd_final, entrada_tp_t* entrad
       memcpy(memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset, data + size_acum, tamanio_a_allocar);
       size_acum += espacio_restante;
       if(size_acum != tamanio_total_a_allocar){
-        //entrada_tp = crear_nueva_pagina(id_carpincho);
+        entrada_tp = crear_nueva_pagina(id_carpincho);
         espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA;
         offset = 0;
       }
     }
-    //Habría que pedir a Swap
+    
   } else {
 
+    log_info(logger, "Entre en el else");
   }
+  return true;
 }
 
 
-//
+entrada_tp_t* crear_nueva_pagina(unsigned long id_carpincho){
+  tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
+  uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
+  if(nro_frame == 0xFFFF){
+    correr_algoritmo(id_carpincho, &nro_frame);
+  }
+  uint32_t nueva_pagina = tabla_carpincho->pages + 1;
+  append_frame_tp(id_carpincho, nueva_pagina, nro_frame);
+  return list_get_pagina(tabla_carpincho, nueva_pagina - 1);
+}
 
 
 
 
 //Debería retornar la direccion lógica de la memoria
-uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t* hmd, entrada_tp_t* entrada_tp, uint32_t* direccion_hmd){
+uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t** hmd, entrada_tp_t** entrada_tp, uint32_t* direccion_hmd){
   *direccion_hmd = 0;
   uint32_t nro_pagina = 0;
   uint32_t offset_hmd; 
-  entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina); 
+  *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina); 
   while(1){
     nro_pagina = (*direccion_hmd) / MEMORIA_CFG->TAMANIO_PAGINA;
     offset_hmd = (*direccion_hmd) % MEMORIA_CFG->TAMANIO_PAGINA;
        
-    if(nro_pagina != entrada_tp->nro_pagina){
-      entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
+    if(nro_pagina != (*entrada_tp)->nro_pagina){
+      *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     }
     log_info(logger, "offset: %d", offset_hmd);
     log_info(logger, "nro_pagina: %d", nro_pagina);    
     
-    hmd = leer_hmd(entrada_tp, offset_hmd, id_carpincho);
-    log_info(logger, "hmd->prevAlloc: %d", hmd->prevAlloc);
-    log_info(logger, "hmd->nextAlloc: %d", hmd->nextAlloc);
+    //TODO: Aca fallaba 
+    *hmd = leer_hmd(*entrada_tp, offset_hmd, id_carpincho);
+    log_info(logger, "hmd->prevAlloc: %d", (*hmd)->prevAlloc);
+    log_info(logger, "hmd->nextAlloc: %d", (*hmd)->nextAlloc);
     
-    if(entra_en_hmd(hmd, size, direccion_hmd)){
+    if(entra_en_hmd(*hmd, size, direccion_hmd)){
       //escribir en memoria principal y retornar direccion logica
-      escribir_en_mp(hmd, size, entrada_tp, offset_hmd, id_carpincho);
+      escribir_en_mp(*hmd, size, *entrada_tp, offset_hmd, id_carpincho);
 
       //Retornar direccion logica    
       return *direccion_hmd + sizeof(hmd_t);
     } else {
-      if(hmd->nextAlloc == 0){
+      if((*hmd)->nextAlloc == 0){
         return 0xFFFF;
       }                                 
-      *direccion_hmd = hmd->nextAlloc;
+      *direccion_hmd = (*hmd)->nextAlloc;
     }
   }
 }
@@ -215,7 +232,7 @@ hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carp
   *entrada_tp_aux = *entrada_tp;
   uint32_t size_acum = 0;
 
-  uint32_t pagina_a_leer = offset /  MEMORIA_CFG->TAMANIO_PAGINA;
+  uint32_t pagina_a_leer = offset / MEMORIA_CFG->TAMANIO_PAGINA;
   if(pagina_a_leer != entrada_tp->nro_pagina){
     log_info(logger, "2)-------------entrada_tp->nro_pagina: %d-------", entrada_tp->nro_pagina);                
     *entrada_tp_aux = *(buscar_entrada_tp(id_carpincho, pagina_a_leer));
@@ -365,10 +382,17 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
 
 */
 
-  hmd_t* hmd_frag = malloc(sizeof(hmd_t));
-    hmd_frag->nextAlloc = hmd->nextAlloc;
-    hmd_frag->isFree = true;
-    hmd_frag->prevAlloc = offset_hmd;
 
-}
+
+
+
+
+
+
+//   hmd_t* hmd_frag = malloc(sizeof(hmd_t));
+//     hmd_frag->nextAlloc = hmd->nextAlloc;
+//     hmd_frag->isFree = true;
+//     hmd_frag->prevAlloc = offset_hmd;
+
+// }
 

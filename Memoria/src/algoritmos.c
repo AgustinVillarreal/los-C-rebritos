@@ -4,11 +4,12 @@ extern t_config_memoria* MEMORIA_CFG;
 extern frame_t* tabla_frames;
 
 
-bool correr_algoritmo_clock_m (unsigned long id, uint32_t* nro_frame){
+void correr_algoritmo_clock_m (unsigned long id, uint32_t* nro_frame){
 
 }
 
-bool correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame){
+//Siempre verificar antes de correr el algoritmo que la cantidad de paginas entran en swap
+void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame){
     t_list* victimas = posibles_victimas(id);
     //TODO: Consultar sobre si es necesario un mutex en el global TUR
     void* minimo_TUR(void* pagina1, void* pagina2){
@@ -26,7 +27,7 @@ bool correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame){
     *nro_frame = victima->nro_frame;
     tabla_frames[*nro_frame].libre = 1;
 
-    return true;
+    return;
 }
 
 t_list* posibles_victimas(unsigned long id){
