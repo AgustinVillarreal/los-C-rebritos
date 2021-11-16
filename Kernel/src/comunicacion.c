@@ -155,11 +155,23 @@ static void procesar_conexion(void* void_args){
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;
-                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
-                    send_memalloc(memoria_fd);
-                    send_alloc_data(memoria_fd,id_carpincho,size_data);
-                } else {
-                    //TODO
+                if(!recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+                    log_error(logger, "Error al recibir data de alloc");
+                    free(server_name);
+                    return;
+                }
+                send_memalloc(memoria_fd);
+                send_alloc_data(memoria_fd,id_carpincho,size_data);
+                uint32_t direccion_logica;
+                if(!recv(cliente_socket, &direccion_logica, sizeof(uint32_t), 0)){
+                    log_error(logger, "Error al recibir direccion logica");
+                    free(server_name);
+                    return;
+                }
+                if(!send(cliente_socket, &direccion_logica, sizeof(uint32_t), 0)){
+                    log_error(logger, "Error al enviar direccion logica a Matelib");
+                    free(server_name);
+                    return;
                 }
                 break;
 

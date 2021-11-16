@@ -60,20 +60,12 @@ static void procesar_conexion(void* void_args){
                 }
                 if(!allocar_carpincho(id_alloc, size_data, &direccionLogica)){
                     log_info(logger, "No se pudo allocar carpincho");
-                    //TODO: Hacer un send al Kernel o a la matelib para que mande un NULL
                 } 
-                //TODO: Hacer un send de la direccionLogica
+                //TODO: Hacer un send de la direccionLogica, si es 0xFFFF esta mal
+                send(cliente_socket, &direccionLogica, sizeof(uint32_t), 0);
 
                 break;
             case MEM_FREE: 
-                // if(esta_en_tlb(id_carpincho)){
-                //         //TODO: utilizar la pagina de la tlb, RECORDAR MUTEEEEEEEEEX
-                //     } else {
-                //         //Significa que hubo un TLB miss 
-                        
-
-                //         //TODO: Traer la pagina utilizada a la TLB
-                //     }
                 if(!liberar_espacio_mp(dir_logic_ini, size)) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
                     break;

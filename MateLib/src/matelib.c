@@ -271,7 +271,12 @@ mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
 		return -1;
 	}
 	send_alloc_data(inner_structure->servidor_fd, inner_structure->id, size);
-	return 0;
+	uint32_t direccion;
+	recv(inner_structure->servidor_fd, &direccion, sizeof(uint32_t), 0);
+	if(direccion == 0xFFFF){
+		return NULL;
+	}
+	return direccion;
 }
 
 int mate_memfree(mate_instance *lib_ref, mate_pointer addr){
