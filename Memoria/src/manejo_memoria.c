@@ -80,6 +80,12 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
   uint32_t offset = direccion_ultimo_hmd % MEMORIA_CFG->TAMANIO_PAGINA;
   uint32_t pagina_ultimo_hmd = direccion_ultimo_hmd / MEMORIA_CFG->TAMANIO_PAGINA;
   uint32_t espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA - offset;
+  /*
+  bool offset_en_pag_anterior = offset + sizeof(hmd_t) >  MEMORIA_CFG->TAMANIO_PAGINA;
+  if(offset_en_pag_anterior){
+    espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA - (sizeof(hmd_t) - MEMORIA_CFG->TAMANIO_PAGINA - offset);
+  }*/
+
   uint32_t espacio_restante_final = MEMORIA_CFG->TAMANIO_PAGINA - (hmd_inicial->nextAlloc % MEMORIA_CFG->TAMANIO_PAGINA);
   bool nueva_pagina = espacio_restante_final < size + sizeof(hmd_t);
   uint32_t cant_paginas_a_allocar = cant_paginas_relativa(offset, size + sizeof(hmd_t));  
