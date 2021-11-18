@@ -59,8 +59,6 @@ int main(int argc, char *argv[])
   
   printf("%d\n",mate_memalloc(&mate_ref, 15));
   printf("%d\n",mate_memalloc(&mate_ref, 3));
-  printf("%d\n",mate_memalloc(&mate_ref, 5));
-  printf("%d\n",mate_memalloc(&mate_ref, 3));
   
 
   

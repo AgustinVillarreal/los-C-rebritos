@@ -6614,3 +6614,2291 @@
 [INFO] 00:41:06:321 memoria/(7049:7070): offset: 30
 [INFO] 00:41:06:321 memoria/(7049:7070): nro_pagina: 1
 [INFO] 00:41:06:322 memoria/(7049:7070): ---------1610612736 en pagina 2---------
+[INFO] 17:52:40:279 memoria/(3758:3758): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:52:40:332 memoria/(3758:3758): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:52:40:336 memoria/(3758:3758): ------2---------
+
+[INFO] 17:52:40:337 memoria/(3758:3758): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:52:48:428 memoria/(3758:3758): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:52:48:538 memoria/(3758:3809): HANDSHAKE
+[INFO] 17:52:48:586 memoria/(3758:3809): --------------0-----------
+
+[INFO] 17:52:48:601 memoria/(3758:3809): El frame es el 0 
+
+[INFO] 17:52:48:604 memoria/(3758:3809): Allocando primer mitad del hmd en 0
+
+[INFO] 17:52:48:607 memoria/(3758:3809): El frame es el 1 
+
+[INFO] 17:52:48:608 memoria/(3758:3809): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:52:48:609 memoria/(3758:3809): Cant_frames mayor
+[INFO] 17:52:48:659 memoria/(3758:3809): ---------268435456 en pagina 0---------
+[INFO] 17:52:48:660 memoria/(3758:3809): offset: 0
+[INFO] 17:52:48:661 memoria/(3758:3809): nro_pagina: 0
+[INFO] 17:52:48:662 memoria/(3758:3809): hmd->prevAlloc: 0
+[INFO] 17:52:48:663 memoria/(3758:3809): hmd->nextAlloc: 24
+[INFO] 17:52:48:663 memoria/(3758:3809): offset: 24
+[INFO] 17:52:48:664 memoria/(3758:3809): nro_pagina: 0
+[INFO] 17:52:48:664 memoria/(3758:3809): ---------268435456 en pagina 1---------
+[INFO] 17:52:48:665 memoria/(3758:3809): hmd->prevAlloc: 0
+[INFO] 17:52:48:665 memoria/(3758:3809): hmd->nextAlloc: 0
+[INFO] 17:52:48:666 memoria/(3758:3809): no hay espacio entre hmd
+
+[INFO] 17:52:48:666 memoria/(3758:3809): posicion_hmd_final: 36
+[INFO] 17:52:48:667 memoria/(3758:3809): direccion_ultimo_hmd: 24
+[INFO] 17:52:48:669 memoria/(3758:3809): ---------268435456 en pagina 1---------
+[INFO] 17:52:48:671 memoria/(3758:3809): Entre en el else
+[INFO] 17:52:48:716 memoria/(3758:3809): ---------268435456 en pagina 0---------
+[INFO] 17:52:48:716 memoria/(3758:3809): offset: 0
+[INFO] 17:52:48:717 memoria/(3758:3809): nro_pagina: 0
+[INFO] 17:52:48:717 memoria/(3758:3809): hmd->prevAlloc: 0
+[INFO] 17:52:48:717 memoria/(3758:3809): hmd->nextAlloc: 24
+[INFO] 17:52:48:717 memoria/(3758:3809): offset: 24
+[INFO] 17:52:48:717 memoria/(3758:3809): nro_pagina: 0
+[INFO] 17:52:48:718 memoria/(3758:3809): ---------268435456 en pagina 1---------
+[INFO] 17:52:48:719 memoria/(3758:3809): hmd->prevAlloc: 0
+[INFO] 17:52:48:719 memoria/(3758:3809): hmd->nextAlloc: 36
+[INFO] 17:52:48:720 memoria/(3758:3809): ---------268435456 en pagina 1---------
+[INFO] 17:52:48:720 memoria/(3758:3809): offset: 4
+[INFO] 17:52:48:721 memoria/(3758:3809): nro_pagina: 1
+[INFO] 17:52:48:721 memoria/(3758:3809): hmd->prevAlloc: 0
+[INFO] 17:52:48:721 memoria/(3758:3809): hmd->nextAlloc: 0
+[INFO] 17:52:48:721 memoria/(3758:3809): no hay espacio entre hmd
+
+[INFO] 17:52:48:722 memoria/(3758:3809): posicion_hmd_final: 50
+[INFO] 17:52:48:723 memoria/(3758:3809): direccion_ultimo_hmd: 36
+[INFO] 17:52:48:723 memoria/(3758:3809): Entre en el else
+[INFO] 17:52:48:764 memoria/(3758:3809): ---------268435456 en pagina 0---------
+[INFO] 17:52:48:765 memoria/(3758:3809): offset: 0
+[INFO] 17:52:48:765 memoria/(3758:3809): nro_pagina: 0
+[INFO] 17:52:48:765 memoria/(3758:3809): hmd->prevAlloc: 0
+[INFO] 17:52:48:766 memoria/(3758:3809): hmd->nextAlloc: 24
+[INFO] 17:52:48:766 memoria/(3758:3809): offset: 24
+[INFO] 17:52:48:766 memoria/(3758:3809): nro_pagina: 0
+[INFO] 17:52:48:767 memoria/(3758:3809): ---------268435456 en pagina 1---------
+[INFO] 17:52:48:767 memoria/(3758:3809): hmd->prevAlloc: 0
+[INFO] 17:52:48:767 memoria/(3758:3809): hmd->nextAlloc: 36
+[INFO] 17:52:48:768 memoria/(3758:3809): Esta free
+[INFO] 17:52:48:769 memoria/(3758:3809): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 17:52:48:771 memoria/(3758:3809): hay espacio entre hmd
+[INFO] 17:52:48:772 memoria/(3758:3809): Cant_frames mayor
+[INFO] 17:52:48:817 memoria/(3758:3809): DISCONNECT!
+[INFO] 17:57:43:803 memoria/(4253:4253): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:57:43:865 memoria/(4253:4253): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:57:43:868 memoria/(4253:4253): ------2---------
+
+[INFO] 17:57:43:870 memoria/(4253:4253): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:57:46:756 memoria/(4253:4253): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:57:46:853 memoria/(4253:4274): HANDSHAKE
+[INFO] 17:57:46:897 memoria/(4253:4274): --------------0-----------
+
+[INFO] 17:57:46:906 memoria/(4253:4274): El frame es el 0 
+
+[INFO] 17:57:46:909 memoria/(4253:4274): Allocando primer mitad del hmd en 0
+
+[INFO] 17:57:46:910 memoria/(4253:4274): El frame es el 1 
+
+[INFO] 17:57:46:911 memoria/(4253:4274): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:57:46:912 memoria/(4253:4274): Cant_frames mayor
+[INFO] 17:57:46:963 memoria/(4253:4274): ---------134217728 en pagina 0---------
+[INFO] 17:57:46:964 memoria/(4253:4274): offset: 0
+[INFO] 17:57:46:964 memoria/(4253:4274): nro_pagina: 0
+[INFO] 17:57:46:966 memoria/(4253:4274): hmd->prevAlloc: 0
+[INFO] 17:57:46:966 memoria/(4253:4274): hmd->nextAlloc: 24
+[INFO] 17:57:46:967 memoria/(4253:4274): offset: 24
+[INFO] 17:57:46:967 memoria/(4253:4274): nro_pagina: 0
+[INFO] 17:57:46:968 memoria/(4253:4274): ---------134217728 en pagina 1---------
+[INFO] 17:57:46:969 memoria/(4253:4274): hmd->prevAlloc: 0
+[INFO] 17:57:46:969 memoria/(4253:4274): hmd->nextAlloc: 0
+[INFO] 17:57:46:970 memoria/(4253:4274): no hay espacio entre hmd
+
+[INFO] 17:57:46:971 memoria/(4253:4274): posicion_hmd_final: 36
+[INFO] 17:57:46:971 memoria/(4253:4274): direccion_ultimo_hmd: 24
+[INFO] 17:57:46:973 memoria/(4253:4274): ---------134217728 en pagina 1---------
+[INFO] 17:57:46:974 memoria/(4253:4274): Entre en el else
+[INFO] 17:57:47:022 memoria/(4253:4274): DISCONNECT!
+[INFO] 17:58:15:255 memoria/(4362:4362): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:58:15:302 memoria/(4362:4362): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:58:15:306 memoria/(4362:4362): ------2---------
+
+[INFO] 17:58:15:307 memoria/(4362:4362): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:58:17:465 memoria/(4362:4362): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:58:17:568 memoria/(4362:4384): HANDSHAKE
+[INFO] 17:58:17:613 memoria/(4362:4384): --------------0-----------
+
+[INFO] 17:58:17:623 memoria/(4362:4384): El frame es el 0 
+
+[INFO] 17:58:17:628 memoria/(4362:4384): Allocando primer mitad del hmd en 0
+
+[INFO] 17:58:17:630 memoria/(4362:4384): El frame es el 1 
+
+[INFO] 17:58:17:631 memoria/(4362:4384): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:58:17:632 memoria/(4362:4384): Cant_frames mayor
+[INFO] 17:58:17:679 memoria/(4362:4384): ---------805306368 en pagina 0---------
+[INFO] 17:58:17:680 memoria/(4362:4384): offset: 0
+[INFO] 17:58:17:680 memoria/(4362:4384): nro_pagina: 0
+[INFO] 17:58:17:682 memoria/(4362:4384): hmd->prevAlloc: 0
+[INFO] 17:58:17:682 memoria/(4362:4384): hmd->nextAlloc: 24
+[INFO] 17:58:17:683 memoria/(4362:4384): offset: 24
+[INFO] 17:58:17:683 memoria/(4362:4384): nro_pagina: 0
+[INFO] 17:58:17:684 memoria/(4362:4384): ---------805306368 en pagina 1---------
+[INFO] 17:58:17:685 memoria/(4362:4384): hmd->prevAlloc: 0
+[INFO] 17:58:17:685 memoria/(4362:4384): hmd->nextAlloc: 0
+[INFO] 17:58:17:686 memoria/(4362:4384): no hay espacio entre hmd
+
+[INFO] 17:58:17:690 memoria/(4362:4384): posicion_hmd_final: 36
+[INFO] 17:58:17:691 memoria/(4362:4384): direccion_ultimo_hmd: 24
+[INFO] 17:58:17:693 memoria/(4362:4384): ---------805306368 en pagina 1---------
+[INFO] 17:58:17:693 memoria/(4362:4384): Entre en el else
+[INFO] 17:58:17:732 memoria/(4362:4384): ---------805306368 en pagina 0---------
+[INFO] 17:58:17:733 memoria/(4362:4384): offset: 0
+[INFO] 17:58:17:733 memoria/(4362:4384): nro_pagina: 0
+[INFO] 17:58:17:733 memoria/(4362:4384): hmd->prevAlloc: 0
+[INFO] 17:58:17:734 memoria/(4362:4384): hmd->nextAlloc: 24
+[INFO] 17:58:17:734 memoria/(4362:4384): offset: 24
+[INFO] 17:58:17:734 memoria/(4362:4384): nro_pagina: 0
+[INFO] 17:58:17:735 memoria/(4362:4384): ---------805306368 en pagina 1---------
+[INFO] 17:58:17:735 memoria/(4362:4384): hmd->prevAlloc: 0
+[INFO] 17:58:17:736 memoria/(4362:4384): hmd->nextAlloc: 36
+[INFO] 17:58:17:736 memoria/(4362:4384): ---------805306368 en pagina 1---------
+[INFO] 17:58:17:737 memoria/(4362:4384): offset: 4
+[INFO] 17:58:17:737 memoria/(4362:4384): nro_pagina: 1
+[INFO] 17:58:17:737 memoria/(4362:4384): hmd->prevAlloc: 0
+[INFO] 17:58:17:738 memoria/(4362:4384): hmd->nextAlloc: 0
+[INFO] 17:58:17:738 memoria/(4362:4384): no hay espacio entre hmd
+
+[INFO] 17:58:17:738 memoria/(4362:4384): posicion_hmd_final: 50
+[INFO] 17:58:17:738 memoria/(4362:4384): direccion_ultimo_hmd: 36
+[INFO] 17:58:17:739 memoria/(4362:4384): Entre en el else
+[INFO] 17:58:17:784 memoria/(4362:4384): DISCONNECT!
+[INFO] 18:01:53:801 memoria/(4750:4750): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:01:53:861 memoria/(4750:4750): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:01:53:865 memoria/(4750:4750): ------2---------
+
+[INFO] 18:01:53:867 memoria/(4750:4750): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:01:55:495 memoria/(4750:4750): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:01:55:615 memoria/(4750:4774): HANDSHAKE
+[INFO] 18:01:55:675 memoria/(4750:4774): --------------0-----------
+
+[INFO] 18:01:55:696 memoria/(4750:4774): El frame es el 0 
+
+[INFO] 18:01:55:699 memoria/(4750:4774): Allocando primer mitad del hmd en 0
+
+[INFO] 18:01:55:701 memoria/(4750:4774): El frame es el 1 
+
+[INFO] 18:01:55:701 memoria/(4750:4774): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:01:55:703 memoria/(4750:4774): Cant_frames mayor
+[INFO] 18:01:55:755 memoria/(4750:4774): ---------1342177280 en pagina 0---------
+[INFO] 18:01:55:756 memoria/(4750:4774): offset: 0
+[INFO] 18:01:55:756 memoria/(4750:4774): nro_pagina: 0
+[INFO] 18:01:55:758 memoria/(4750:4774): hmd->prevAlloc: 0
+[INFO] 18:01:55:758 memoria/(4750:4774): hmd->nextAlloc: 24
+[INFO] 18:01:55:759 memoria/(4750:4774): offset: 24
+[INFO] 18:01:55:759 memoria/(4750:4774): nro_pagina: 0
+[INFO] 18:01:55:760 memoria/(4750:4774): ---------1342177280 en pagina 1---------
+[INFO] 18:01:55:761 memoria/(4750:4774): hmd->prevAlloc: 0
+[INFO] 18:01:55:761 memoria/(4750:4774): hmd->nextAlloc: 0
+[INFO] 18:01:55:762 memoria/(4750:4774): no hay espacio entre hmd
+
+[INFO] 18:01:55:762 memoria/(4750:4774): posicion_hmd_final: 36
+[INFO] 18:01:55:763 memoria/(4750:4774): direccion_ultimo_hmd: 24
+[INFO] 18:01:55:766 memoria/(4750:4774): ---------1342177280 en pagina 1---------
+[INFO] 18:01:55:767 memoria/(4750:4774): Entre en el else
+[INFO] 18:01:55:809 memoria/(4750:4774): ---------1342177280 en pagina 0---------
+[INFO] 18:01:55:809 memoria/(4750:4774): offset: 0
+[INFO] 18:01:55:810 memoria/(4750:4774): nro_pagina: 0
+[INFO] 18:01:55:810 memoria/(4750:4774): hmd->prevAlloc: 0
+[INFO] 18:01:55:810 memoria/(4750:4774): hmd->nextAlloc: 24
+[INFO] 18:01:55:810 memoria/(4750:4774): offset: 24
+[INFO] 18:01:55:811 memoria/(4750:4774): nro_pagina: 0
+[INFO] 18:01:55:811 memoria/(4750:4774): ---------1342177280 en pagina 1---------
+[INFO] 18:01:55:811 memoria/(4750:4774): hmd->prevAlloc: 0
+[INFO] 18:01:55:812 memoria/(4750:4774): hmd->nextAlloc: 36
+[INFO] 18:01:55:812 memoria/(4750:4774): Esta free
+[INFO] 18:01:55:813 memoria/(4750:4774): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:01:55:815 memoria/(4750:4774): hay espacio entre hmd
+[INFO] 18:01:55:816 memoria/(4750:4774): Cant_frames mayor
+[INFO] 18:01:55:860 memoria/(4750:4774): DISCONNECT!
+[INFO] 18:02:15:882 memoria/(4850:4850): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:02:15:947 memoria/(4850:4850): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:02:15:950 memoria/(4850:4850): ------2---------
+
+[INFO] 18:02:15:953 memoria/(4850:4850): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:02:17:837 memoria/(4850:4850): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:02:17:936 memoria/(4850:4874): HANDSHAKE
+[INFO] 18:02:17:982 memoria/(4850:4874): --------------0-----------
+
+[INFO] 18:02:17:992 memoria/(4850:4874): El frame es el 0 
+
+[INFO] 18:02:17:994 memoria/(4850:4874): Allocando primer mitad del hmd en 0
+
+[INFO] 18:02:17:996 memoria/(4850:4874): El frame es el 1 
+
+[INFO] 18:02:17:996 memoria/(4850:4874): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:02:17:997 memoria/(4850:4874): Cant_frames mayor
+[INFO] 18:02:18:034 memoria/(4850:4874): ---------402653184 en pagina 0---------
+[INFO] 18:02:18:036 memoria/(4850:4874): offset: 0
+[INFO] 18:02:18:036 memoria/(4850:4874): nro_pagina: 0
+[INFO] 18:02:18:038 memoria/(4850:4874): hmd->prevAlloc: 0
+[INFO] 18:02:18:039 memoria/(4850:4874): hmd->nextAlloc: 24
+[INFO] 18:02:18:040 memoria/(4850:4874): offset: 24
+[INFO] 18:02:18:041 memoria/(4850:4874): nro_pagina: 0
+[INFO] 18:02:18:042 memoria/(4850:4874): ---------402653184 en pagina 1---------
+[INFO] 18:02:18:042 memoria/(4850:4874): hmd->prevAlloc: 0
+[INFO] 18:02:18:043 memoria/(4850:4874): hmd->nextAlloc: 0
+[INFO] 18:02:18:043 memoria/(4850:4874): no hay espacio entre hmd
+
+[INFO] 18:02:18:044 memoria/(4850:4874): posicion_hmd_final: 34
+[INFO] 18:02:18:044 memoria/(4850:4874): direccion_ultimo_hmd: 24
+[INFO] 18:02:18:046 memoria/(4850:4874): ---------402653184 en pagina 1---------
+[INFO] 18:02:18:047 memoria/(4850:4874): Entre en el else
+[INFO] 18:02:18:092 memoria/(4850:4874): ---------402653184 en pagina 0---------
+[INFO] 18:02:18:092 memoria/(4850:4874): offset: 0
+[INFO] 18:02:18:092 memoria/(4850:4874): nro_pagina: 0
+[INFO] 18:02:18:093 memoria/(4850:4874): hmd->prevAlloc: 0
+[INFO] 18:02:18:093 memoria/(4850:4874): hmd->nextAlloc: 24
+[INFO] 18:02:18:093 memoria/(4850:4874): offset: 24
+[INFO] 18:02:18:094 memoria/(4850:4874): nro_pagina: 0
+[INFO] 18:02:18:094 memoria/(4850:4874): ---------402653184 en pagina 1---------
+[INFO] 18:02:18:094 memoria/(4850:4874): hmd->prevAlloc: 0
+[INFO] 18:02:18:094 memoria/(4850:4874): hmd->nextAlloc: 34
+[INFO] 18:02:18:095 memoria/(4850:4874): ---------402653184 en pagina 1---------
+[INFO] 18:02:18:095 memoria/(4850:4874): offset: 2
+[INFO] 18:02:18:096 memoria/(4850:4874): nro_pagina: 1
+[INFO] 18:02:18:096 memoria/(4850:4874): hmd->prevAlloc: 0
+[INFO] 18:02:18:096 memoria/(4850:4874): hmd->nextAlloc: 0
+[INFO] 18:02:18:096 memoria/(4850:4874): no hay espacio entre hmd
+
+[INFO] 18:02:18:097 memoria/(4850:4874): posicion_hmd_final: 46
+[INFO] 18:02:18:097 memoria/(4850:4874): direccion_ultimo_hmd: 34
+[INFO] 18:02:18:097 memoria/(4850:4874): Entre en el else
+[INFO] 18:02:18:144 memoria/(4850:4874): DISCONNECT!
+[INFO] 18:02:26:513 memoria/(4931:4931): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:02:26:559 memoria/(4931:4931): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:02:26:561 memoria/(4931:4931): ------2---------
+
+[INFO] 18:02:26:563 memoria/(4931:4931): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:02:29:825 memoria/(4931:4931): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:02:29:944 memoria/(4931:4958): HANDSHAKE
+[INFO] 18:02:29:993 memoria/(4931:4958): --------------0-----------
+
+[INFO] 18:02:30:008 memoria/(4931:4958): El frame es el 0 
+
+[INFO] 18:02:30:011 memoria/(4931:4958): Allocando primer mitad del hmd en 0
+
+[INFO] 18:02:30:013 memoria/(4931:4958): El frame es el 1 
+
+[INFO] 18:02:30:013 memoria/(4931:4958): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:02:30:014 memoria/(4931:4958): Cant_frames mayor
+[INFO] 18:02:30:063 memoria/(4931:4958): ---------4160749568 en pagina 0---------
+[INFO] 18:02:30:064 memoria/(4931:4958): offset: 0
+[INFO] 18:02:30:064 memoria/(4931:4958): nro_pagina: 0
+[INFO] 18:02:30:068 memoria/(4931:4958): hmd->prevAlloc: 0
+[INFO] 18:02:30:069 memoria/(4931:4958): hmd->nextAlloc: 24
+[INFO] 18:02:30:069 memoria/(4931:4958): offset: 24
+[INFO] 18:02:30:070 memoria/(4931:4958): nro_pagina: 0
+[INFO] 18:02:30:071 memoria/(4931:4958): ---------4160749568 en pagina 1---------
+[INFO] 18:02:30:071 memoria/(4931:4958): hmd->prevAlloc: 0
+[INFO] 18:02:30:072 memoria/(4931:4958): hmd->nextAlloc: 0
+[INFO] 18:02:30:072 memoria/(4931:4958): no hay espacio entre hmd
+
+[INFO] 18:02:30:073 memoria/(4931:4958): posicion_hmd_final: 36
+[INFO] 18:02:30:073 memoria/(4931:4958): direccion_ultimo_hmd: 24
+[INFO] 18:02:30:075 memoria/(4931:4958): ---------4160749568 en pagina 1---------
+[INFO] 18:02:30:076 memoria/(4931:4958): Entre en el else
+[INFO] 18:02:30:112 memoria/(4931:4958): ---------4160749568 en pagina 0---------
+[INFO] 18:02:30:112 memoria/(4931:4958): offset: 0
+[INFO] 18:02:30:113 memoria/(4931:4958): nro_pagina: 0
+[INFO] 18:02:30:113 memoria/(4931:4958): hmd->prevAlloc: 0
+[INFO] 18:02:30:113 memoria/(4931:4958): hmd->nextAlloc: 24
+[INFO] 18:02:30:113 memoria/(4931:4958): offset: 24
+[INFO] 18:02:30:114 memoria/(4931:4958): nro_pagina: 0
+[INFO] 18:02:30:114 memoria/(4931:4958): ---------4160749568 en pagina 1---------
+[INFO] 18:02:30:114 memoria/(4931:4958): hmd->prevAlloc: 0
+[INFO] 18:02:30:115 memoria/(4931:4958): hmd->nextAlloc: 36
+[INFO] 18:02:30:115 memoria/(4931:4958): Esta free
+[INFO] 18:02:30:116 memoria/(4931:4958): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:02:30:118 memoria/(4931:4958): hay espacio entre hmd
+[INFO] 18:02:30:119 memoria/(4931:4958): Cant_frames mayor
+[INFO] 18:02:30:162 memoria/(4931:4958): DISCONNECT!
+[INFO] 18:04:47:727 memoria/(5215:5215): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:04:47:811 memoria/(5215:5215): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:04:47:813 memoria/(5215:5215): ------2---------
+
+[INFO] 18:04:47:825 memoria/(5215:5215): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:04:49:258 memoria/(5215:5215): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:04:49:424 memoria/(5215:5242): HANDSHAKE
+[INFO] 18:04:49:482 memoria/(5215:5242): --------------0-----------
+
+[INFO] 18:04:49:505 memoria/(5215:5242): El frame es el 0 
+
+[INFO] 18:04:49:507 memoria/(5215:5242): Allocando primer mitad del hmd en 0
+
+[INFO] 18:04:49:508 memoria/(5215:5242): El frame es el 1 
+
+[INFO] 18:04:49:509 memoria/(5215:5242): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:04:49:510 memoria/(5215:5242): Cant_frames mayor
+[INFO] 18:04:49:555 memoria/(5215:5242): ---------2147483648 en pagina 0---------
+[INFO] 18:04:49:557 memoria/(5215:5242): offset: 0
+[INFO] 18:04:49:559 memoria/(5215:5242): nro_pagina: 0
+[INFO] 18:04:49:560 memoria/(5215:5242): hmd->prevAlloc: 0
+[INFO] 18:04:49:565 memoria/(5215:5242): hmd->nextAlloc: 24
+[INFO] 18:04:49:567 memoria/(5215:5242): offset: 24
+[INFO] 18:04:49:569 memoria/(5215:5242): nro_pagina: 0
+[INFO] 18:04:49:570 memoria/(5215:5242): ---------2147483648 en pagina 1---------
+[INFO] 18:04:49:570 memoria/(5215:5242): hmd->prevAlloc: 0
+[INFO] 18:04:49:570 memoria/(5215:5242): hmd->nextAlloc: 0
+[INFO] 18:04:49:571 memoria/(5215:5242): no hay espacio entre hmd
+
+[INFO] 18:04:49:572 memoria/(5215:5242): posicion_hmd_final: 36
+[INFO] 18:04:49:572 memoria/(5215:5242): direccion_ultimo_hmd: 24
+[INFO] 18:04:49:573 memoria/(5215:5242): i vale: 0   ----  ofset: 24
+[INFO] 18:04:49:574 memoria/(5215:5242): ---------2147483648 en pagina 1---------
+[INFO] 18:04:49:575 memoria/(5215:5242): Entre en el else
+[INFO] 18:04:49:617 memoria/(5215:5242): ---------2147483648 en pagina 0---------
+[INFO] 18:04:49:617 memoria/(5215:5242): offset: 0
+[INFO] 18:04:49:618 memoria/(5215:5242): nro_pagina: 0
+[INFO] 18:04:49:618 memoria/(5215:5242): hmd->prevAlloc: 0
+[INFO] 18:04:49:618 memoria/(5215:5242): hmd->nextAlloc: 24
+[INFO] 18:04:49:618 memoria/(5215:5242): offset: 24
+[INFO] 18:04:49:619 memoria/(5215:5242): nro_pagina: 0
+[INFO] 18:04:49:619 memoria/(5215:5242): ---------2147483648 en pagina 1---------
+[INFO] 18:04:49:619 memoria/(5215:5242): hmd->prevAlloc: 0
+[INFO] 18:04:49:620 memoria/(5215:5242): hmd->nextAlloc: 36
+[INFO] 18:04:49:620 memoria/(5215:5242): Esta free
+[INFO] 18:04:49:621 memoria/(5215:5242): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:04:49:624 memoria/(5215:5242): hay espacio entre hmd
+[INFO] 18:04:49:625 memoria/(5215:5242): Cant_frames mayor
+[INFO] 18:04:49:701 memoria/(5215:5242): DISCONNECT!
+[INFO] 18:05:45:336 memoria/(5369:5369): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:05:45:422 memoria/(5369:5369): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:05:45:425 memoria/(5369:5369): ------2---------
+
+[INFO] 18:05:45:427 memoria/(5369:5369): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:05:46:659 memoria/(5369:5369): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:05:46:758 memoria/(5369:5390): HANDSHAKE
+[INFO] 18:05:46:806 memoria/(5369:5390): --------------0-----------
+
+[INFO] 18:05:46:814 memoria/(5369:5390): El frame es el 0 
+
+[INFO] 18:05:46:820 memoria/(5369:5390): Allocando primer mitad del hmd en 0
+
+[INFO] 18:05:46:822 memoria/(5369:5390): El frame es el 1 
+
+[INFO] 18:05:46:823 memoria/(5369:5390): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:05:46:824 memoria/(5369:5390): Cant_frames mayor
+[INFO] 18:05:46:872 memoria/(5369:5390): ---------2684354560 en pagina 0---------
+[INFO] 18:05:46:873 memoria/(5369:5390): offset: 0
+[INFO] 18:05:46:873 memoria/(5369:5390): nro_pagina: 0
+[INFO] 18:05:46:875 memoria/(5369:5390): hmd->prevAlloc: 0
+[INFO] 18:05:46:875 memoria/(5369:5390): hmd->nextAlloc: 24
+[INFO] 18:05:46:876 memoria/(5369:5390): offset: 24
+[INFO] 18:05:46:876 memoria/(5369:5390): nro_pagina: 0
+[INFO] 18:05:46:877 memoria/(5369:5390): ---------2684354560 en pagina 1---------
+[INFO] 18:05:46:881 memoria/(5369:5390): hmd->prevAlloc: 0
+[INFO] 18:05:46:881 memoria/(5369:5390): hmd->nextAlloc: 0
+[INFO] 18:05:46:882 memoria/(5369:5390): no hay espacio entre hmd
+
+[INFO] 18:05:46:883 memoria/(5369:5390): posicion_hmd_final: 36
+[INFO] 18:05:46:883 memoria/(5369:5390): direccion_ultimo_hmd: 24
+[INFO] 18:05:46:885 memoria/(5369:5390): paginas a alocar 1
+[INFO] 18:05:46:886 memoria/(5369:5390): i vale: 0   ----  ofset: 24
+[INFO] 18:05:46:887 memoria/(5369:5390): ---------2684354560 en pagina 1---------
+[INFO] 18:05:46:887 memoria/(5369:5390): Entre en el else
+[INFO] 18:05:46:928 memoria/(5369:5390): ---------2684354560 en pagina 0---------
+[INFO] 18:05:46:928 memoria/(5369:5390): offset: 0
+[INFO] 18:05:46:928 memoria/(5369:5390): nro_pagina: 0
+[INFO] 18:05:46:929 memoria/(5369:5390): hmd->prevAlloc: 0
+[INFO] 18:05:46:929 memoria/(5369:5390): hmd->nextAlloc: 24
+[INFO] 18:05:46:929 memoria/(5369:5390): offset: 24
+[INFO] 18:05:46:929 memoria/(5369:5390): nro_pagina: 0
+[INFO] 18:05:46:930 memoria/(5369:5390): ---------2684354560 en pagina 1---------
+[INFO] 18:05:46:930 memoria/(5369:5390): hmd->prevAlloc: 0
+[INFO] 18:05:46:931 memoria/(5369:5390): hmd->nextAlloc: 36
+[INFO] 18:05:46:931 memoria/(5369:5390): Esta free
+[INFO] 18:05:46:932 memoria/(5369:5390): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:05:46:934 memoria/(5369:5390): hay espacio entre hmd
+[INFO] 18:05:46:935 memoria/(5369:5390): Cant_frames mayor
+[INFO] 18:05:46:980 memoria/(5369:5390): DISCONNECT!
+[INFO] 18:06:31:243 memoria/(5497:5497): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:06:31:293 memoria/(5497:5497): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:06:31:295 memoria/(5497:5497): ------2---------
+
+[INFO] 18:06:31:297 memoria/(5497:5497): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:06:32:914 memoria/(5497:5497): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:06:33:011 memoria/(5497:5518): HANDSHAKE
+[INFO] 18:06:33:063 memoria/(5497:5518): --------------0-----------
+
+[INFO] 18:06:33:075 memoria/(5497:5518): El frame es el 0 
+
+[INFO] 18:06:33:077 memoria/(5497:5518): Allocando primer mitad del hmd en 0
+
+[INFO] 18:06:33:079 memoria/(5497:5518): El frame es el 1 
+
+[INFO] 18:06:33:080 memoria/(5497:5518): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:06:33:081 memoria/(5497:5518): Cant_frames mayor
+[INFO] 18:06:33:127 memoria/(5497:5518): ---------2013265920 en pagina 0---------
+[INFO] 18:06:33:128 memoria/(5497:5518): offset: 0
+[INFO] 18:06:33:129 memoria/(5497:5518): nro_pagina: 0
+[INFO] 18:06:33:131 memoria/(5497:5518): hmd->prevAlloc: 0
+[INFO] 18:06:33:132 memoria/(5497:5518): hmd->nextAlloc: 24
+[INFO] 18:06:33:132 memoria/(5497:5518): offset: 24
+[INFO] 18:06:33:133 memoria/(5497:5518): nro_pagina: 0
+[INFO] 18:06:33:136 memoria/(5497:5518): ---------2013265920 en pagina 1---------
+[INFO] 18:06:33:137 memoria/(5497:5518): hmd->prevAlloc: 0
+[INFO] 18:06:33:137 memoria/(5497:5518): hmd->nextAlloc: 0
+[INFO] 18:06:33:138 memoria/(5497:5518): no hay espacio entre hmd
+
+[INFO] 18:06:33:138 memoria/(5497:5518): posicion_hmd_final: 36
+[INFO] 18:06:33:139 memoria/(5497:5518): direccion_ultimo_hmd: 24
+[INFO] 18:06:33:140 memoria/(5497:5518): paginas a alocar 1
+[INFO] 18:06:33:141 memoria/(5497:5518): i vale: 0   ----  ofset: 24
+[INFO] 18:06:33:142 memoria/(5497:5518): ---------2013265920 en pagina 1---------
+[INFO] 18:06:33:142 memoria/(5497:5518): Entre en el else
+[INFO] 18:06:33:184 memoria/(5497:5518): ---------2013265920 en pagina 0---------
+[INFO] 18:06:33:184 memoria/(5497:5518): offset: 0
+[INFO] 18:06:33:185 memoria/(5497:5518): nro_pagina: 0
+[INFO] 18:06:33:185 memoria/(5497:5518): hmd->prevAlloc: 0
+[INFO] 18:06:33:185 memoria/(5497:5518): hmd->nextAlloc: 24
+[INFO] 18:06:33:186 memoria/(5497:5518): offset: 24
+[INFO] 18:06:33:186 memoria/(5497:5518): nro_pagina: 0
+[INFO] 18:06:33:186 memoria/(5497:5518): ---------2013265920 en pagina 1---------
+[INFO] 18:06:33:186 memoria/(5497:5518): hmd->prevAlloc: 0
+[INFO] 18:06:33:187 memoria/(5497:5518): hmd->nextAlloc: 36
+[INFO] 18:06:33:187 memoria/(5497:5518): Esta free
+[INFO] 18:06:33:188 memoria/(5497:5518): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:06:33:189 memoria/(5497:5518): hay espacio entre hmd
+[INFO] 18:06:33:190 memoria/(5497:5518): Cant_frames mayor
+[INFO] 18:06:33:233 memoria/(5497:5518): DISCONNECT!
+[INFO] 18:07:35:232 memoria/(5658:5658): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:07:35:318 memoria/(5658:5658): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:07:35:333 memoria/(5658:5658): ------2---------
+
+[INFO] 18:07:35:335 memoria/(5658:5658): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:07:37:109 memoria/(5658:5658): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:07:37:266 memoria/(5658:5679): HANDSHAKE
+[INFO] 18:07:37:313 memoria/(5658:5679): --------------0-----------
+
+[INFO] 18:07:37:329 memoria/(5658:5679): El frame es el 0 
+
+[INFO] 18:07:37:333 memoria/(5658:5679): Allocando primer mitad del hmd en 0
+
+[INFO] 18:07:37:336 memoria/(5658:5679): El frame es el 1 
+
+[INFO] 18:07:37:336 memoria/(5658:5679): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:07:37:345 memoria/(5658:5679): Cant_frames mayor
+[INFO] 18:07:37:397 memoria/(5658:5679): ---------1476395008 en pagina 0---------
+[INFO] 18:07:37:398 memoria/(5658:5679): offset: 0
+[INFO] 18:07:37:398 memoria/(5658:5679): nro_pagina: 0
+[INFO] 18:07:37:400 memoria/(5658:5679): hmd->prevAlloc: 0
+[INFO] 18:07:37:400 memoria/(5658:5679): hmd->nextAlloc: 24
+[INFO] 18:07:37:401 memoria/(5658:5679): offset: 24
+[INFO] 18:07:37:401 memoria/(5658:5679): nro_pagina: 0
+[INFO] 18:07:37:402 memoria/(5658:5679): ---------1476395008 en pagina 1---------
+[INFO] 18:07:37:403 memoria/(5658:5679): hmd->prevAlloc: 0
+[INFO] 18:07:37:403 memoria/(5658:5679): hmd->nextAlloc: 0
+[INFO] 18:07:37:409 memoria/(5658:5679): no hay espacio entre hmd
+
+[INFO] 18:07:37:412 memoria/(5658:5679): posicion_hmd_final: 36
+[INFO] 18:07:37:413 memoria/(5658:5679): direccion_ultimo_hmd: 24
+[INFO] 18:07:37:414 memoria/(5658:5679): sizeeee:  21
+[INFO] 18:07:37:415 memoria/(5658:5679): paginas a alocar 1
+[INFO] 18:07:37:415 memoria/(5658:5679): i vale: 0   ----  ofset: 24
+[INFO] 18:07:37:416 memoria/(5658:5679): ---------1476395008 en pagina 1---------
+[INFO] 18:07:37:417 memoria/(5658:5679): Entre en el else
+[INFO] 18:07:37:461 memoria/(5658:5679): ---------1476395008 en pagina 0---------
+[INFO] 18:07:37:464 memoria/(5658:5679): offset: 0
+[INFO] 18:07:37:465 memoria/(5658:5679): nro_pagina: 0
+[INFO] 18:07:37:465 memoria/(5658:5679): hmd->prevAlloc: 0
+[INFO] 18:07:37:465 memoria/(5658:5679): hmd->nextAlloc: 24
+[INFO] 18:07:37:466 memoria/(5658:5679): offset: 24
+[INFO] 18:07:37:466 memoria/(5658:5679): nro_pagina: 0
+[INFO] 18:07:37:466 memoria/(5658:5679): ---------1476395008 en pagina 1---------
+[INFO] 18:07:37:467 memoria/(5658:5679): hmd->prevAlloc: 0
+[INFO] 18:07:37:467 memoria/(5658:5679): hmd->nextAlloc: 36
+[INFO] 18:07:37:467 memoria/(5658:5679): Esta free
+[INFO] 18:07:37:468 memoria/(5658:5679): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:07:37:470 memoria/(5658:5679): hay espacio entre hmd
+[INFO] 18:07:37:477 memoria/(5658:5679): Cant_frames mayor
+[INFO] 18:07:37:558 memoria/(5658:5679): DISCONNECT!
+[INFO] 18:09:21:500 memoria/(5875:5875): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:09:21:575 memoria/(5875:5875): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:09:21:578 memoria/(5875:5875): ------2---------
+
+[INFO] 18:09:21:590 memoria/(5875:5875): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:09:23:278 memoria/(5875:5875): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:09:23:398 memoria/(5875:5899): HANDSHAKE
+[INFO] 18:09:23:449 memoria/(5875:5899): --------------0-----------
+
+[INFO] 18:09:23:463 memoria/(5875:5899): rem --------------15-----------
+
+[INFO] 18:09:23:464 memoria/(5875:5899): rem --------------1-----------
+
+[INFO] 18:09:23:465 memoria/(5875:5899): El frame es el 0 
+
+[INFO] 18:09:23:467 memoria/(5875:5899): Allocando primer mitad del hmd en 0
+
+[INFO] 18:09:23:472 memoria/(5875:5899): El frame es el 1 
+
+[INFO] 18:09:23:472 memoria/(5875:5899): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:09:23:474 memoria/(5875:5899): Cant_frames mayor
+[INFO] 18:09:23:518 memoria/(5875:5899): rem --------------3-----------
+
+[INFO] 18:09:23:519 memoria/(5875:5899): ---------3087007744 en pagina 0---------
+[INFO] 18:09:23:520 memoria/(5875:5899): offset: 0
+[INFO] 18:09:23:523 memoria/(5875:5899): nro_pagina: 0
+[INFO] 18:09:23:525 memoria/(5875:5899): hmd->prevAlloc: 0
+[INFO] 18:09:23:525 memoria/(5875:5899): hmd->nextAlloc: 24
+[INFO] 18:09:23:526 memoria/(5875:5899): offset: 24
+[INFO] 18:09:23:526 memoria/(5875:5899): nro_pagina: 0
+[INFO] 18:09:23:527 memoria/(5875:5899): ---------3087007744 en pagina 1---------
+[INFO] 18:09:23:528 memoria/(5875:5899): hmd->prevAlloc: 0
+[INFO] 18:09:23:528 memoria/(5875:5899): hmd->nextAlloc: 0
+[INFO] 18:09:23:529 memoria/(5875:5899): no hay espacio entre hmd
+
+[INFO] 18:09:23:529 memoria/(5875:5899): posicion_hmd_final: 36
+[INFO] 18:09:23:530 memoria/(5875:5899): direccion_ultimo_hmd: 24
+[INFO] 18:09:23:531 memoria/(5875:5899): sizeeee:  21
+[INFO] 18:09:23:531 memoria/(5875:5899): rem --------------13-----------
+
+[INFO] 18:09:23:532 memoria/(5875:5899): paginas a alocar 1
+[INFO] 18:09:23:534 memoria/(5875:5899): i vale: 0   ----  ofset: 24
+[INFO] 18:09:23:536 memoria/(5875:5899): ---------3087007744 en pagina 1---------
+[INFO] 18:09:23:537 memoria/(5875:5899): Entre en el else
+[INFO] 18:09:23:580 memoria/(5875:5899): rem --------------3-----------
+
+[INFO] 18:09:23:581 memoria/(5875:5899): ---------3087007744 en pagina 0---------
+[INFO] 18:09:23:581 memoria/(5875:5899): offset: 0
+[INFO] 18:09:23:581 memoria/(5875:5899): nro_pagina: 0
+[INFO] 18:09:23:581 memoria/(5875:5899): hmd->prevAlloc: 0
+[INFO] 18:09:23:581 memoria/(5875:5899): hmd->nextAlloc: 24
+[INFO] 18:09:23:582 memoria/(5875:5899): offset: 24
+[INFO] 18:09:23:582 memoria/(5875:5899): nro_pagina: 0
+[INFO] 18:09:23:582 memoria/(5875:5899): ---------3087007744 en pagina 1---------
+[INFO] 18:09:23:582 memoria/(5875:5899): hmd->prevAlloc: 0
+[INFO] 18:09:23:582 memoria/(5875:5899): hmd->nextAlloc: 36
+[INFO] 18:09:23:583 memoria/(5875:5899): Esta free
+[INFO] 18:09:23:583 memoria/(5875:5899): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:09:23:584 memoria/(5875:5899): rem --------------1-----------
+
+[INFO] 18:09:23:585 memoria/(5875:5899): hay espacio entre hmd
+[INFO] 18:09:23:585 memoria/(5875:5899): Cant_frames mayor
+[INFO] 18:09:23:640 memoria/(5875:5899): DISCONNECT!
+[INFO] 18:11:39:067 memoria/(6154:6154): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:11:39:138 memoria/(6154:6154): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:11:39:141 memoria/(6154:6154): ------2---------
+
+[INFO] 18:11:39:142 memoria/(6154:6154): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:11:40:539 memoria/(6154:6154): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:11:40:677 memoria/(6154:6181): HANDSHAKE
+[INFO] 18:11:40:729 memoria/(6154:6181): --------------0-----------
+
+[INFO] 18:11:40:740 memoria/(6154:6181): cant ----1-----------
+
+[INFO] 18:11:40:740 memoria/(6154:6181): cant ----2-----------
+
+[INFO] 18:11:40:741 memoria/(6154:6181): El frame es el 0 
+
+[INFO] 18:11:40:743 memoria/(6154:6181): Allocando primer mitad del hmd en 0
+
+[INFO] 18:11:40:745 memoria/(6154:6181): El frame es el 1 
+
+[INFO] 18:11:40:746 memoria/(6154:6181): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:11:40:747 memoria/(6154:6181): Cant_frames mayor
+[INFO] 18:11:40:793 memoria/(6154:6181): cant ----1-----------
+
+[INFO] 18:11:40:795 memoria/(6154:6181): ---------1744830464 en pagina 0---------
+[INFO] 18:11:40:797 memoria/(6154:6181): offset: 0
+[INFO] 18:11:40:797 memoria/(6154:6181): nro_pagina: 0
+[INFO] 18:11:40:799 memoria/(6154:6181): hmd->prevAlloc: 0
+[INFO] 18:11:40:799 memoria/(6154:6181): hmd->nextAlloc: 24
+[INFO] 18:11:40:800 memoria/(6154:6181): offset: 24
+[INFO] 18:11:40:800 memoria/(6154:6181): nro_pagina: 0
+[INFO] 18:11:40:801 memoria/(6154:6181): ---------1744830464 en pagina 1---------
+[INFO] 18:11:40:802 memoria/(6154:6181): hmd->prevAlloc: 0
+[INFO] 18:11:40:802 memoria/(6154:6181): hmd->nextAlloc: 0
+[INFO] 18:11:40:803 memoria/(6154:6181): no hay espacio entre hmd
+
+[INFO] 18:11:40:803 memoria/(6154:6181): posicion_hmd_final: 36
+[INFO] 18:11:40:804 memoria/(6154:6181): direccion_ultimo_hmd: 24
+[INFO] 18:11:40:804 memoria/(6154:6181): sizeeee:  21
+[INFO] 18:11:40:805 memoria/(6154:6181): cant ----1-----------
+
+[INFO] 18:11:40:806 memoria/(6154:6181): paginas a alocar 1
+[INFO] 18:11:40:806 memoria/(6154:6181): i vale: 0   ----  ofset: 24
+[INFO] 18:11:40:807 memoria/(6154:6181): ---------1744830464 en pagina 1---------
+[INFO] 18:11:40:808 memoria/(6154:6181): Entre en el else
+[INFO] 18:11:40:852 memoria/(6154:6181): cant ----1-----------
+
+[INFO] 18:11:40:852 memoria/(6154:6181): ---------1744830464 en pagina 0---------
+[INFO] 18:11:40:853 memoria/(6154:6181): offset: 0
+[INFO] 18:11:40:853 memoria/(6154:6181): nro_pagina: 0
+[INFO] 18:11:40:853 memoria/(6154:6181): hmd->prevAlloc: 0
+[INFO] 18:11:40:854 memoria/(6154:6181): hmd->nextAlloc: 24
+[INFO] 18:11:40:854 memoria/(6154:6181): offset: 24
+[INFO] 18:11:40:855 memoria/(6154:6181): nro_pagina: 0
+[INFO] 18:11:40:855 memoria/(6154:6181): ---------1744830464 en pagina 1---------
+[INFO] 18:11:40:856 memoria/(6154:6181): hmd->prevAlloc: 0
+[INFO] 18:11:40:856 memoria/(6154:6181): hmd->nextAlloc: 36
+[INFO] 18:11:40:857 memoria/(6154:6181): Esta free
+[INFO] 18:11:40:863 memoria/(6154:6181): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:11:40:864 memoria/(6154:6181): cant ----1-----------
+
+[INFO] 18:11:40:866 memoria/(6154:6181): hay espacio entre hmd
+[INFO] 18:11:40:866 memoria/(6154:6181): Cant_frames mayor
+[INFO] 18:11:40:911 memoria/(6154:6181): DISCONNECT!
+[INFO] 18:12:59:781 memoria/(6334:6334): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:12:59:832 memoria/(6334:6334): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:12:59:834 memoria/(6334:6334): ------2---------
+
+[INFO] 18:12:59:836 memoria/(6334:6334): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:13:01:596 memoria/(6334:6334): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:13:01:692 memoria/(6334:6355): HANDSHAKE
+[INFO] 18:13:01:729 memoria/(6334:6355): --------------0-----------
+
+[INFO] 18:13:01:738 memoria/(6334:6355): cant ----1-----------
+
+[INFO] 18:13:01:738 memoria/(6334:6355): cant ----2-----------
+
+[INFO] 18:13:01:739 memoria/(6334:6355): El frame es el 0 
+
+[INFO] 18:13:01:741 memoria/(6334:6355): Allocando primer mitad del hmd en 0
+
+[INFO] 18:13:01:743 memoria/(6334:6355): El frame es el 1 
+
+[INFO] 18:13:01:744 memoria/(6334:6355): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:13:01:745 memoria/(6334:6355): Cant_frames mayor
+[INFO] 18:13:01:789 memoria/(6334:6355): cant ----1-----------
+
+[INFO] 18:13:01:791 memoria/(6334:6355): ---------1744830464 en pagina 0---------
+[INFO] 18:13:01:792 memoria/(6334:6355): offset: 0
+[INFO] 18:13:01:792 memoria/(6334:6355): nro_pagina: 0
+[INFO] 18:13:01:794 memoria/(6334:6355): hmd->prevAlloc: 0
+[INFO] 18:13:01:794 memoria/(6334:6355): hmd->nextAlloc: 24
+[INFO] 18:13:01:795 memoria/(6334:6355): offset: 24
+[INFO] 18:13:01:795 memoria/(6334:6355): nro_pagina: 0
+[INFO] 18:13:01:796 memoria/(6334:6355): ---------1744830464 en pagina 1---------
+[INFO] 18:13:01:797 memoria/(6334:6355): hmd->prevAlloc: 0
+[INFO] 18:13:01:797 memoria/(6334:6355): hmd->nextAlloc: 0
+[INFO] 18:13:01:798 memoria/(6334:6355): no hay espacio entre hmd
+
+[INFO] 18:13:01:798 memoria/(6334:6355): posicion_hmd_final: 36
+[INFO] 18:13:01:799 memoria/(6334:6355): direccion_ultimo_hmd: 24
+[INFO] 18:13:01:800 memoria/(6334:6355): sizeeee:  21
+[INFO] 18:13:01:801 memoria/(6334:6355): cant ----1-----------
+
+[INFO] 18:13:01:802 memoria/(6334:6355): paginas a alocar 1
+[INFO] 18:13:01:802 memoria/(6334:6355): i vale: 0   ----  ofset: 24
+[INFO] 18:13:01:803 memoria/(6334:6355): ---------1744830464 en pagina 1---------
+[INFO] 18:13:01:804 memoria/(6334:6355): Entre en el else
+[INFO] 18:13:01:844 memoria/(6334:6355): cant ----1-----------
+
+[INFO] 18:13:01:845 memoria/(6334:6355): ---------1744830464 en pagina 0---------
+[INFO] 18:13:01:845 memoria/(6334:6355): offset: 0
+[INFO] 18:13:01:845 memoria/(6334:6355): nro_pagina: 0
+[INFO] 18:13:01:846 memoria/(6334:6355): hmd->prevAlloc: 0
+[INFO] 18:13:01:846 memoria/(6334:6355): hmd->nextAlloc: 24
+[INFO] 18:13:01:846 memoria/(6334:6355): offset: 24
+[INFO] 18:13:01:847 memoria/(6334:6355): nro_pagina: 0
+[INFO] 18:13:01:847 memoria/(6334:6355): ---------1744830464 en pagina 1---------
+[INFO] 18:13:01:847 memoria/(6334:6355): hmd->prevAlloc: 0
+[INFO] 18:13:01:847 memoria/(6334:6355): hmd->nextAlloc: 36
+[INFO] 18:13:01:850 memoria/(6334:6355): Esta free
+[INFO] 18:13:01:851 memoria/(6334:6355): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:13:01:852 memoria/(6334:6355): cant ----1-----------
+
+[INFO] 18:13:01:854 memoria/(6334:6355): hay espacio entre hmd
+[INFO] 18:13:01:854 memoria/(6334:6355): Cant_frames mayor
+[INFO] 18:13:01:897 memoria/(6334:6355): DISCONNECT!
+[INFO] 18:19:03:498 memoria/(6869:6869): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:19:03:548 memoria/(6869:6869): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:19:03:551 memoria/(6869:6869): ------2---------
+
+[INFO] 18:19:03:552 memoria/(6869:6869): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:19:05:054 memoria/(6869:6869): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:19:05:155 memoria/(6869:6896): HANDSHAKE
+[INFO] 18:19:05:202 memoria/(6869:6896): --------------0-----------
+
+[INFO] 18:19:05:215 memoria/(6869:6896): cant ----1----div 0-------
+
+[INFO] 18:19:05:216 memoria/(6869:6896): cant ----2----div 1-------
+
+[INFO] 18:19:05:217 memoria/(6869:6896): El frame es el 0 
+
+[INFO] 18:19:05:219 memoria/(6869:6896): Allocando primer mitad del hmd en 0
+
+[INFO] 18:19:05:221 memoria/(6869:6896): El frame es el 1 
+
+[INFO] 18:19:05:222 memoria/(6869:6896): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:19:05:223 memoria/(6869:6896): Cant_frames mayor
+[INFO] 18:19:05:270 memoria/(6869:6896): cant ----1----div 0-------
+
+[INFO] 18:19:05:271 memoria/(6869:6896): ---------3355443200 en pagina 0---------
+[INFO] 18:19:05:272 memoria/(6869:6896): offset: 0
+[INFO] 18:19:05:272 memoria/(6869:6896): nro_pagina: 0
+[INFO] 18:19:05:276 memoria/(6869:6896): hmd->prevAlloc: 0
+[INFO] 18:19:05:277 memoria/(6869:6896): hmd->nextAlloc: 24
+[INFO] 18:19:05:278 memoria/(6869:6896): offset: 24
+[INFO] 18:19:05:278 memoria/(6869:6896): nro_pagina: 0
+[INFO] 18:19:05:279 memoria/(6869:6896): ---------3355443200 en pagina 1---------
+[INFO] 18:19:05:280 memoria/(6869:6896): hmd->prevAlloc: 0
+[INFO] 18:19:05:280 memoria/(6869:6896): hmd->nextAlloc: 0
+[INFO] 18:19:05:281 memoria/(6869:6896): no hay espacio entre hmd
+
+[INFO] 18:19:05:282 memoria/(6869:6896): posicion_hmd_final: 36
+[INFO] 18:19:05:282 memoria/(6869:6896): direccion_ultimo_hmd: 24
+[INFO] 18:19:05:283 memoria/(6869:6896): sizeeee:  21
+[INFO] 18:19:05:283 memoria/(6869:6896): cant ----1----div 0-------
+
+[INFO] 18:19:05:284 memoria/(6869:6896): paginas a alocar 1
+[INFO] 18:19:05:285 memoria/(6869:6896): i vale: 0   ----  ofset: 24
+[INFO] 18:19:05:286 memoria/(6869:6896): ---------3355443200 en pagina 1---------
+[INFO] 18:19:05:287 memoria/(6869:6896): Entre en el else
+[INFO] 18:19:05:329 memoria/(6869:6896): cant ----1----div 0-------
+
+[INFO] 18:19:05:330 memoria/(6869:6896): ---------3355443200 en pagina 0---------
+[INFO] 18:19:05:330 memoria/(6869:6896): offset: 0
+[INFO] 18:19:05:330 memoria/(6869:6896): nro_pagina: 0
+[INFO] 18:19:05:331 memoria/(6869:6896): hmd->prevAlloc: 0
+[INFO] 18:19:05:331 memoria/(6869:6896): hmd->nextAlloc: 24
+[INFO] 18:19:05:331 memoria/(6869:6896): offset: 24
+[INFO] 18:19:05:332 memoria/(6869:6896): nro_pagina: 0
+[INFO] 18:19:05:332 memoria/(6869:6896): ---------3355443200 en pagina 1---------
+[INFO] 18:19:05:332 memoria/(6869:6896): hmd->prevAlloc: 0
+[INFO] 18:19:05:333 memoria/(6869:6896): hmd->nextAlloc: 36
+[INFO] 18:19:05:333 memoria/(6869:6896): Esta free
+[INFO] 18:19:05:334 memoria/(6869:6896): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:19:05:335 memoria/(6869:6896): cant ----1----div 0-------
+
+[INFO] 18:19:05:339 memoria/(6869:6896): hay espacio entre hmd
+[INFO] 18:19:05:340 memoria/(6869:6896): Cant_frames mayor
+[INFO] 18:19:05:391 memoria/(6869:6896): DISCONNECT!
+[INFO] 18:20:07:092 memoria/(7025:7025): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:20:07:143 memoria/(7025:7025): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:20:07:146 memoria/(7025:7025): ------2---------
+
+[INFO] 18:20:07:147 memoria/(7025:7025): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:20:08:363 memoria/(7025:7025): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:20:08:461 memoria/(7025:7046): HANDSHAKE
+[INFO] 18:20:08:505 memoria/(7025:7046): --------------0-----------
+
+[INFO] 18:20:08:515 memoria/(7025:7046): cant ----1----div 0-------
+
+[INFO] 18:20:08:516 memoria/(7025:7046): cant ----2----div 1-------
+
+[INFO] 18:20:08:520 memoria/(7025:7046): El frame es el 0 
+
+[INFO] 18:20:08:522 memoria/(7025:7046): Allocando primer mitad del hmd en 0
+
+[INFO] 18:20:08:524 memoria/(7025:7046): El frame es el 1 
+
+[INFO] 18:20:08:525 memoria/(7025:7046): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:20:08:526 memoria/(7025:7046): El frame es el 2 
+
+[INFO] 18:20:08:526 memoria/(7025:7046): Allocando segunda mitad del hmd en 2
+
+[INFO] 18:20:08:527 memoria/(7025:7046): Cant_frames mayor
+[INFO] 18:20:08:573 memoria/(7025:7046): cant ----1----div 0-------
+
+[INFO] 18:20:08:575 memoria/(7025:7046): ---------939524096 en pagina 0---------
+[INFO] 18:20:08:576 memoria/(7025:7046): offset: 0
+[INFO] 18:20:08:576 memoria/(7025:7046): nro_pagina: 0
+[INFO] 18:20:08:578 memoria/(7025:7046): hmd->prevAlloc: 0
+[INFO] 18:20:08:578 memoria/(7025:7046): hmd->nextAlloc: 24
+[INFO] 18:20:08:581 memoria/(7025:7046): offset: 24
+[INFO] 18:20:08:582 memoria/(7025:7046): nro_pagina: 0
+[INFO] 18:20:08:583 memoria/(7025:7046): ---------939524096 en pagina 1---------
+[INFO] 18:20:08:583 memoria/(7025:7046): hmd->prevAlloc: 0
+[INFO] 18:20:08:584 memoria/(7025:7046): hmd->nextAlloc: 0
+[INFO] 18:20:08:584 memoria/(7025:7046): no hay espacio entre hmd
+
+[INFO] 18:20:08:585 memoria/(7025:7046): posicion_hmd_final: 36
+[INFO] 18:20:08:585 memoria/(7025:7046): direccion_ultimo_hmd: 24
+[INFO] 18:20:08:587 memoria/(7025:7046): sizeeee:  21
+[INFO] 18:20:08:587 memoria/(7025:7046): cant ----1----div 0-------
+
+[INFO] 18:20:08:588 memoria/(7025:7046): paginas a alocar 2
+[INFO] 18:20:08:588 memoria/(7025:7046): i vale: 0   ----  ofset: 24
+[INFO] 18:20:08:589 memoria/(7025:7046): ---------939524096 en pagina 1---------
+[INFO] 18:20:08:590 memoria/(7025:7046): i vale: 1   ----  ofset: 0
+[INFO] 18:20:08:590 memoria/(7025:7046): ---------939524096 en pagina 2---------
+[INFO] 18:20:08:591 memoria/(7025:7046): Entre en el else
+[INFO] 18:20:08:632 memoria/(7025:7046): cant ----1----div 0-------
+
+[INFO] 18:20:08:633 memoria/(7025:7046): ---------939524096 en pagina 0---------
+[INFO] 18:20:08:633 memoria/(7025:7046): offset: 0
+[INFO] 18:20:08:633 memoria/(7025:7046): nro_pagina: 0
+[INFO] 18:20:08:634 memoria/(7025:7046): hmd->prevAlloc: 0
+[INFO] 18:20:08:634 memoria/(7025:7046): hmd->nextAlloc: 24
+[INFO] 18:20:08:634 memoria/(7025:7046): offset: 24
+[INFO] 18:20:08:634 memoria/(7025:7046): nro_pagina: 0
+[INFO] 18:20:08:635 memoria/(7025:7046): ---------939524096 en pagina 1---------
+[INFO] 18:20:08:635 memoria/(7025:7046): hmd->prevAlloc: 0
+[INFO] 18:20:08:636 memoria/(7025:7046): hmd->nextAlloc: 36
+[INFO] 18:20:08:636 memoria/(7025:7046): ---------939524096 en pagina 1---------
+[INFO] 18:20:08:637 memoria/(7025:7046): offset: 4
+[INFO] 18:20:08:637 memoria/(7025:7046): nro_pagina: 1
+[INFO] 18:20:08:637 memoria/(7025:7046): hmd->prevAlloc: 24
+[INFO] 18:20:08:638 memoria/(7025:7046): hmd->nextAlloc: 0
+[INFO] 18:20:08:638 memoria/(7025:7046): no hay espacio entre hmd
+
+[INFO] 18:20:08:639 memoria/(7025:7046): posicion_hmd_final: 48
+[INFO] 18:20:08:643 memoria/(7025:7046): direccion_ultimo_hmd: 36
+[INFO] 18:20:08:644 memoria/(7025:7046): sizeeee:  21
+[INFO] 18:20:08:644 memoria/(7025:7046): cant ----1----div 0-------
+
+[INFO] 18:20:08:645 memoria/(7025:7046): paginas a alocar 2
+[INFO] 18:20:08:645 memoria/(7025:7046): i vale: 0   ----  ofset: 4
+[INFO] 18:20:08:646 memoria/(7025:7046): ---------939524096 en pagina 2---------
+[INFO] 18:20:08:646 memoria/(7025:7046): i vale: 1   ----  ofset: 0
+[INFO] 18:20:08:649 memoria/(7025:7046): Entre en el else
+[INFO] 18:20:08:694 memoria/(7025:7046): DISCONNECT!
+[INFO] 18:21:50:657 memoria/(7225:7225): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:21:50:713 memoria/(7225:7225): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:21:50:716 memoria/(7225:7225): ------2---------
+
+[INFO] 18:21:50:717 memoria/(7225:7225): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:21:52:326 memoria/(7225:7225): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:21:52:467 memoria/(7225:7246): HANDSHAKE
+[INFO] 18:21:52:513 memoria/(7225:7246): --------------0-----------
+
+[INFO] 18:21:52:523 memoria/(7225:7246): cant ----1----div 0-------
+
+[INFO] 18:21:52:524 memoria/(7225:7246): cant ----2----div 1-------
+
+[INFO] 18:21:52:525 memoria/(7225:7246): El frame es el 0 
+
+[INFO] 18:21:52:530 memoria/(7225:7246): Allocando primer mitad del hmd en 0
+
+[INFO] 18:21:52:533 memoria/(7225:7246): El frame es el 1 
+
+[INFO] 18:21:52:533 memoria/(7225:7246): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:21:52:534 memoria/(7225:7246): El frame es el 2 
+
+[INFO] 18:21:52:535 memoria/(7225:7246): Allocando segunda mitad del hmd en 2
+
+[INFO] 18:21:52:535 memoria/(7225:7246): Cant_frames mayor
+[INFO] 18:21:52:581 memoria/(7225:7246): cant ----1----div 0-------
+
+[INFO] 18:21:52:583 memoria/(7225:7246): ---------134217728 en pagina 0---------
+[INFO] 18:21:52:584 memoria/(7225:7246): offset: 0
+[INFO] 18:21:52:584 memoria/(7225:7246): nro_pagina: 0
+[INFO] 18:21:52:586 memoria/(7225:7246): hmd->prevAlloc: 0
+[INFO] 18:21:52:588 memoria/(7225:7246): hmd->nextAlloc: 24
+[INFO] 18:21:52:588 memoria/(7225:7246): offset: 24
+[INFO] 18:21:52:589 memoria/(7225:7246): nro_pagina: 0
+[INFO] 18:21:52:592 memoria/(7225:7246): ---------134217728 en pagina 1---------
+[INFO] 18:21:52:593 memoria/(7225:7246): hmd->prevAlloc: 0
+[INFO] 18:21:52:593 memoria/(7225:7246): hmd->nextAlloc: 0
+[INFO] 18:21:52:594 memoria/(7225:7246): no hay espacio entre hmd
+
+[INFO] 18:21:52:594 memoria/(7225:7246): posicion_hmd_final: 36
+[INFO] 18:21:52:595 memoria/(7225:7246): direccion_ultimo_hmd: 24
+[INFO] 18:21:52:596 memoria/(7225:7246): sizeeee:  21
+[INFO] 18:21:52:596 memoria/(7225:7246): cant ----1----div 0-------
+
+[INFO] 18:21:52:597 memoria/(7225:7246): paginas a alocar 2
+[INFO] 18:21:52:597 memoria/(7225:7246): i vale: 0   ----  ofset: 24
+[INFO] 18:21:52:599 memoria/(7225:7246): ---------134217728 en pagina 1---------
+[INFO] 18:21:52:600 memoria/(7225:7246): i vale: 1   ----  ofset: 0
+[INFO] 18:21:52:600 memoria/(7225:7246): ---------134217728 en pagina 2---------
+[INFO] 18:21:52:601 memoria/(7225:7246): Entre en el else
+[INFO] 18:21:52:656 memoria/(7225:7246): DISCONNECT!
+[INFO] 18:28:01:543 memoria/(7773:7773): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:28:01:611 memoria/(7773:7773): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:28:01:614 memoria/(7773:7773): ------2---------
+
+[INFO] 18:28:01:616 memoria/(7773:7773): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:28:02:834 memoria/(7773:7773): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:28:02:939 memoria/(7773:7794): HANDSHAKE
+[INFO] 18:28:02:989 memoria/(7773:7794): --------------0-----------
+
+[INFO] 18:28:03:003 memoria/(7773:7794): El frame es el 0 
+
+[INFO] 18:28:03:006 memoria/(7773:7794): Allocando primer mitad del hmd en 0
+
+[INFO] 18:28:03:008 memoria/(7773:7794): El frame es el 1 
+
+[INFO] 18:28:03:008 memoria/(7773:7794): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:28:03:010 memoria/(7773:7794): Cant_frames mayor
+[INFO] 18:28:03:059 memoria/(7773:7794): ---------3087007744 en pagina 0---------
+[INFO] 18:28:03:062 memoria/(7773:7794): offset: 0
+[INFO] 18:28:03:063 memoria/(7773:7794): nro_pagina: 0
+[INFO] 18:28:03:065 memoria/(7773:7794): hmd->prevAlloc: 0
+[INFO] 18:28:03:065 memoria/(7773:7794): hmd->nextAlloc: 24
+[INFO] 18:28:03:066 memoria/(7773:7794): offset: 24
+[INFO] 18:28:03:066 memoria/(7773:7794): nro_pagina: 0
+[INFO] 18:28:03:067 memoria/(7773:7794): ---------3087007744 en pagina 1---------
+[INFO] 18:28:03:068 memoria/(7773:7794): hmd->prevAlloc: 0
+[INFO] 18:28:03:068 memoria/(7773:7794): hmd->nextAlloc: 0
+[INFO] 18:28:03:069 memoria/(7773:7794): no hay espacio entre hmd
+
+[INFO] 18:28:03:069 memoria/(7773:7794): posicion_hmd_final: 36
+[INFO] 18:28:03:070 memoria/(7773:7794): direccion_ultimo_hmd: 24
+[INFO] 18:28:03:071 memoria/(7773:7794): sizeeee:  21
+[INFO] 18:28:03:072 memoria/(7773:7794): paginas a alocar 2
+[INFO] 18:28:03:072 memoria/(7773:7794): i vale: 0   ----  ofset: 24
+[INFO] 18:28:03:074 memoria/(7773:7794): ---------3087007744 en pagina 1---------
+[INFO] 18:28:03:074 memoria/(7773:7794): i vale: 1   ----  ofset: 0
+[INFO] 18:28:03:075 memoria/(7773:7794): Entre en el else
+[INFO] 18:28:03:126 memoria/(7773:7794): DISCONNECT!
+[INFO] 18:28:17:103 memoria/(7863:7863): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:28:17:166 memoria/(7863:7863): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:28:17:170 memoria/(7863:7863): ------2---------
+
+[INFO] 18:28:17:174 memoria/(7863:7863): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:28:18:657 memoria/(7863:7863): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:28:18:761 memoria/(7863:7884): HANDSHAKE
+[INFO] 18:28:18:809 memoria/(7863:7884): --------------0-----------
+
+[INFO] 18:28:18:824 memoria/(7863:7884): El frame es el 0 
+
+[INFO] 18:28:18:826 memoria/(7863:7884): Allocando primer mitad del hmd en 0
+
+[INFO] 18:28:18:828 memoria/(7863:7884): El frame es el 1 
+
+[INFO] 18:28:18:828 memoria/(7863:7884): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:28:18:829 memoria/(7863:7884): Cant_frames mayor
+[INFO] 18:28:18:879 memoria/(7863:7884): ---------4160749568 en pagina 0---------
+[INFO] 18:28:18:883 memoria/(7863:7884): offset: 0
+[INFO] 18:28:18:884 memoria/(7863:7884): nro_pagina: 0
+[INFO] 18:28:18:885 memoria/(7863:7884): hmd->prevAlloc: 0
+[INFO] 18:28:18:886 memoria/(7863:7884): hmd->nextAlloc: 24
+[INFO] 18:28:18:887 memoria/(7863:7884): offset: 24
+[INFO] 18:28:18:887 memoria/(7863:7884): nro_pagina: 0
+[INFO] 18:28:18:888 memoria/(7863:7884): ---------4160749568 en pagina 1---------
+[INFO] 18:28:18:889 memoria/(7863:7884): hmd->prevAlloc: 0
+[INFO] 18:28:18:889 memoria/(7863:7884): hmd->nextAlloc: 0
+[INFO] 18:28:18:890 memoria/(7863:7884): no hay espacio entre hmd
+
+[INFO] 18:28:18:890 memoria/(7863:7884): posicion_hmd_final: 36
+[INFO] 18:28:18:891 memoria/(7863:7884): direccion_ultimo_hmd: 24
+[INFO] 18:28:18:892 memoria/(7863:7884): sizeeee:  21
+[INFO] 18:28:18:893 memoria/(7863:7884): paginas a alocar 2
+[INFO] 18:28:18:893 memoria/(7863:7884): i vale: 0   ----  ofset: 24
+[INFO] 18:28:18:894 memoria/(7863:7884): ---------4160749568 en pagina 1---------
+[INFO] 18:28:18:895 memoria/(7863:7884): i vale: 1   ----  ofset: 0
+[INFO] 18:28:18:895 memoria/(7863:7884): Entre en el else
+[INFO] 18:28:18:940 memoria/(7863:7884): ---------4160749568 en pagina 0---------
+[INFO] 18:28:18:940 memoria/(7863:7884): offset: 0
+[INFO] 18:28:18:941 memoria/(7863:7884): nro_pagina: 0
+[INFO] 18:28:18:941 memoria/(7863:7884): hmd->prevAlloc: 0
+[INFO] 18:28:18:942 memoria/(7863:7884): hmd->nextAlloc: 24
+[INFO] 18:28:18:942 memoria/(7863:7884): offset: 24
+[INFO] 18:28:18:942 memoria/(7863:7884): nro_pagina: 0
+[INFO] 18:28:18:942 memoria/(7863:7884): ---------4160749568 en pagina 1---------
+[INFO] 18:28:18:943 memoria/(7863:7884): hmd->prevAlloc: 0
+[INFO] 18:28:18:943 memoria/(7863:7884): hmd->nextAlloc: 36
+[INFO] 18:28:18:943 memoria/(7863:7884): ---------4160749568 en pagina 1---------
+[INFO] 18:28:18:947 memoria/(7863:7884): offset: 4
+[INFO] 18:28:18:948 memoria/(7863:7884): nro_pagina: 1
+[INFO] 18:28:18:948 memoria/(7863:7884): hmd->prevAlloc: 24
+[INFO] 18:28:18:948 memoria/(7863:7884): hmd->nextAlloc: 0
+[INFO] 18:28:18:949 memoria/(7863:7884): no hay espacio entre hmd
+
+[INFO] 18:28:18:949 memoria/(7863:7884): posicion_hmd_final: 48
+[INFO] 18:28:18:950 memoria/(7863:7884): direccion_ultimo_hmd: 36
+[INFO] 18:28:18:950 memoria/(7863:7884): sizeeee:  21
+[INFO] 18:28:18:950 memoria/(7863:7884): paginas a alocar 2
+[INFO] 18:28:18:950 memoria/(7863:7884): i vale: 0   ----  ofset: 4
+[INFO] 18:28:18:951 memoria/(7863:7884): i vale: 1   ----  ofset: 4
+[INFO] 18:28:18:954 memoria/(7863:7884): Entre en el else
+[INFO] 18:28:19:002 memoria/(7863:7884): DISCONNECT!
+[INFO] 18:32:33:906 memoria/(8258:8258): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:32:33:976 memoria/(8258:8258): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:32:33:981 memoria/(8258:8258): ------2---------
+
+[INFO] 18:32:33:983 memoria/(8258:8258): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:32:35:453 memoria/(8258:8258): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:32:35:567 memoria/(8258:8285): HANDSHAKE
+[INFO] 18:32:35:618 memoria/(8258:8285): --------------0-----------
+
+[INFO] 18:32:35:633 memoria/(8258:8285): El frame es el 0 
+
+[INFO] 18:32:35:635 memoria/(8258:8285): Allocando primer mitad del hmd en 0
+
+[INFO] 18:32:35:638 memoria/(8258:8285): El frame es el 1 
+
+[INFO] 18:32:35:639 memoria/(8258:8285): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:32:35:640 memoria/(8258:8285): Cant_frames mayor
+[INFO] 18:32:35:689 memoria/(8258:8285): ---------3087007744 en pagina 0---------
+[INFO] 18:32:35:690 memoria/(8258:8285): offset: 0
+[INFO] 18:32:35:690 memoria/(8258:8285): nro_pagina: 0
+[INFO] 18:32:35:692 memoria/(8258:8285): hmd->prevAlloc: 0
+[INFO] 18:32:35:693 memoria/(8258:8285): hmd->nextAlloc: 24
+[INFO] 18:32:35:693 memoria/(8258:8285): offset: 24
+[INFO] 18:32:35:694 memoria/(8258:8285): nro_pagina: 0
+[INFO] 18:32:35:695 memoria/(8258:8285): ---------3087007744 en pagina 1---------
+[INFO] 18:32:35:695 memoria/(8258:8285): hmd->prevAlloc: 0
+[INFO] 18:32:35:696 memoria/(8258:8285): hmd->nextAlloc: 0
+[INFO] 18:32:35:696 memoria/(8258:8285): no hay espacio entre hmd
+
+[INFO] 18:32:35:697 memoria/(8258:8285): posicion_hmd_final: 36
+[INFO] 18:32:35:698 memoria/(8258:8285): direccion_ultimo_hmd: 24
+[INFO] 18:32:35:698 memoria/(8258:8285): sizeeee:  21
+[INFO] 18:32:35:700 memoria/(8258:8285): paginas a alocar 2
+[INFO] 18:32:35:701 memoria/(8258:8285): i vale: 0   ----  ofset: 24
+[INFO] 18:32:35:702 memoria/(8258:8285): size vale: 2   ----  pag: 1
+[INFO] 18:32:35:703 memoria/(8258:8285): ---------3087007744 en pagina 1---------
+[INFO] 18:32:35:704 memoria/(8258:8285): i vale: 1   ----  ofset: 0
+[INFO] 18:32:35:705 memoria/(8258:8285): size vale: 2   ----  pag: 2
+[INFO] 18:32:35:705 memoria/(8258:8285): Entre en el else
+[INFO] 18:32:35:748 memoria/(8258:8285): ---------3087007744 en pagina 0---------
+[INFO] 18:32:35:748 memoria/(8258:8285): offset: 0
+[INFO] 18:32:35:748 memoria/(8258:8285): nro_pagina: 0
+[INFO] 18:32:35:749 memoria/(8258:8285): hmd->prevAlloc: 0
+[INFO] 18:32:35:749 memoria/(8258:8285): hmd->nextAlloc: 24
+[INFO] 18:32:35:749 memoria/(8258:8285): offset: 24
+[INFO] 18:32:35:749 memoria/(8258:8285): nro_pagina: 0
+[INFO] 18:32:35:750 memoria/(8258:8285): ---------3087007744 en pagina 1---------
+[INFO] 18:32:35:750 memoria/(8258:8285): hmd->prevAlloc: 0
+[INFO] 18:32:35:750 memoria/(8258:8285): hmd->nextAlloc: 36
+[INFO] 18:32:35:751 memoria/(8258:8285): ---------3087007744 en pagina 1---------
+[INFO] 18:32:35:756 memoria/(8258:8285): offset: 4
+[INFO] 18:32:35:756 memoria/(8258:8285): nro_pagina: 1
+[INFO] 18:32:35:757 memoria/(8258:8285): hmd->prevAlloc: 24
+[INFO] 18:32:35:757 memoria/(8258:8285): hmd->nextAlloc: 0
+[INFO] 18:32:35:758 memoria/(8258:8285): no hay espacio entre hmd
+
+[INFO] 18:32:35:758 memoria/(8258:8285): posicion_hmd_final: 48
+[INFO] 18:32:35:758 memoria/(8258:8285): direccion_ultimo_hmd: 36
+[INFO] 18:32:35:759 memoria/(8258:8285): sizeeee:  21
+[INFO] 18:32:35:759 memoria/(8258:8285): paginas a alocar 2
+[INFO] 18:32:35:759 memoria/(8258:8285): i vale: 0   ----  ofset: 4
+[INFO] 18:32:35:760 memoria/(8258:8285): size vale: 2   ----  pag: 2
+[INFO] 18:32:35:760 memoria/(8258:8285): i vale: 1   ----  ofset: 4
+[INFO] 18:32:35:763 memoria/(8258:8285): size vale: 2   ----  pag: 2
+[INFO] 18:32:35:764 memoria/(8258:8285): Entre en el else
+[INFO] 18:32:35:819 memoria/(8258:8285): DISCONNECT!
+[INFO] 18:35:51:536 memoria/(8581:8581): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:35:51:607 memoria/(8581:8581): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:35:51:610 memoria/(8581:8581): ------2---------
+
+[INFO] 18:35:51:612 memoria/(8581:8581): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:35:52:870 memoria/(8581:8581): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:35:52:983 memoria/(8581:8602): HANDSHAKE
+[INFO] 18:35:53:029 memoria/(8581:8602): --------------0-----------
+
+[INFO] 18:35:53:044 memoria/(8581:8602): El frame es el 0 
+
+[INFO] 18:35:53:046 memoria/(8581:8602): Allocando primer mitad del hmd en 0
+
+[INFO] 18:35:53:048 memoria/(8581:8602): El frame es el 1 
+
+[INFO] 18:35:53:049 memoria/(8581:8602): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:35:53:050 memoria/(8581:8602): Cant_frames mayor
+[INFO] 18:35:53:099 memoria/(8581:8602): ---------3355443200 en pagina 0---------
+[INFO] 18:35:53:103 memoria/(8581:8602): offset: 0
+[INFO] 18:35:53:104 memoria/(8581:8602): nro_pagina: 0
+[INFO] 18:35:53:106 memoria/(8581:8602): hmd->prevAlloc: 0
+[INFO] 18:35:53:107 memoria/(8581:8602): hmd->nextAlloc: 24
+[INFO] 18:35:53:108 memoria/(8581:8602): offset: 24
+[INFO] 18:35:53:108 memoria/(8581:8602): nro_pagina: 0
+[INFO] 18:35:53:109 memoria/(8581:8602): ---------3355443200 en pagina 1---------
+[INFO] 18:35:53:110 memoria/(8581:8602): hmd->prevAlloc: 0
+[INFO] 18:35:53:110 memoria/(8581:8602): hmd->nextAlloc: 0
+[INFO] 18:35:53:110 memoria/(8581:8602): no hay espacio entre hmd
+
+[INFO] 18:35:53:111 memoria/(8581:8602): posicion_hmd_final: 36
+[INFO] 18:35:53:112 memoria/(8581:8602): direccion_ultimo_hmd: 24
+[INFO] 18:35:53:113 memoria/(8581:8602): sizeeee:  21
+[INFO] 18:35:53:114 memoria/(8581:8602): paginas a alocar 2
+[INFO] 18:35:53:114 memoria/(8581:8602): i vale: 0   ----  ofset: 24
+[INFO] 18:35:53:115 memoria/(8581:8602): size vale: 2   ----  pag: 1
+[INFO] 18:35:53:116 memoria/(8581:8602): ---------3355443200 en pagina 1---------
+[INFO] 18:35:53:117 memoria/(8581:8602): i vale: 1   ----  ofset: 0
+[INFO] 18:35:53:117 memoria/(8581:8602): size vale: 2   ----  pag: 2
+[INFO] 18:35:53:118 memoria/(8581:8602): Entre en el else
+[INFO] 18:35:53:160 memoria/(8581:8602): ---------3355443200 en pagina 0---------
+[INFO] 18:35:53:160 memoria/(8581:8602): offset: 0
+[INFO] 18:35:53:161 memoria/(8581:8602): nro_pagina: 0
+[INFO] 18:35:53:164 memoria/(8581:8602): hmd->prevAlloc: 0
+[INFO] 18:35:53:165 memoria/(8581:8602): hmd->nextAlloc: 24
+[INFO] 18:35:53:165 memoria/(8581:8602): offset: 24
+[INFO] 18:35:53:165 memoria/(8581:8602): nro_pagina: 0
+[INFO] 18:35:53:165 memoria/(8581:8602): ---------3355443200 en pagina 1---------
+[INFO] 18:35:53:166 memoria/(8581:8602): hmd->prevAlloc: 0
+[INFO] 18:35:53:166 memoria/(8581:8602): hmd->nextAlloc: 36
+[INFO] 18:35:53:167 memoria/(8581:8602): ---------3355443200 en pagina 1---------
+[INFO] 18:35:53:168 memoria/(8581:8602): offset: 4
+[INFO] 18:35:53:168 memoria/(8581:8602): nro_pagina: 1
+[INFO] 18:35:53:168 memoria/(8581:8602): hmd->prevAlloc: 24
+[INFO] 18:35:53:168 memoria/(8581:8602): hmd->nextAlloc: 0
+[INFO] 18:35:53:169 memoria/(8581:8602): no hay espacio entre hmd
+
+[INFO] 18:35:53:169 memoria/(8581:8602): posicion_hmd_final: 48
+[INFO] 18:35:53:169 memoria/(8581:8602): direccion_ultimo_hmd: 36
+[INFO] 18:35:53:170 memoria/(8581:8602): sizeeee:  21
+[INFO] 18:35:53:170 memoria/(8581:8602): paginas a alocar 2
+[INFO] 18:35:53:170 memoria/(8581:8602): i vale: 0   ----  ofset: 4
+[INFO] 18:35:53:171 memoria/(8581:8602): size vale: 2   ----  pag: 2
+[INFO] 18:35:53:172 memoria/(8581:8602): i vale: 1   ----  ofset: 0
+[INFO] 18:35:53:175 memoria/(8581:8602): size vale: 2   ----  pag: 2
+[INFO] 18:35:53:176 memoria/(8581:8602): Entre en el else
+[INFO] 18:35:53:229 memoria/(8581:8602): DISCONNECT!
+[INFO] 18:37:50:312 memoria/(8804:8804): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:37:50:370 memoria/(8804:8804): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:37:50:373 memoria/(8804:8804): ------2---------
+
+[INFO] 18:37:50:375 memoria/(8804:8804): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:37:51:607 memoria/(8804:8804): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:37:51:716 memoria/(8804:8831): HANDSHAKE
+[INFO] 18:37:51:770 memoria/(8804:8831): --------------0-----------
+
+[INFO] 18:37:51:781 memoria/(8804:8831): El frame es el 0 
+
+[INFO] 18:37:51:784 memoria/(8804:8831): Allocando primer mitad del hmd en 0
+
+[INFO] 18:37:51:786 memoria/(8804:8831): El frame es el 1 
+
+[INFO] 18:37:51:787 memoria/(8804:8831): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:37:51:789 memoria/(8804:8831): Cant_frames mayor
+[INFO] 18:37:51:836 memoria/(8804:8831): ---------1610612736 en pagina 0---------
+[INFO] 18:37:51:841 memoria/(8804:8831): offset: 0
+[INFO] 18:37:51:842 memoria/(8804:8831): nro_pagina: 0
+[INFO] 18:37:51:844 memoria/(8804:8831): hmd->prevAlloc: 0
+[INFO] 18:37:51:844 memoria/(8804:8831): hmd->nextAlloc: 24
+[INFO] 18:37:51:845 memoria/(8804:8831): offset: 24
+[INFO] 18:37:51:846 memoria/(8804:8831): nro_pagina: 0
+[INFO] 18:37:51:847 memoria/(8804:8831): ---------1610612736 en pagina 1---------
+[INFO] 18:37:51:848 memoria/(8804:8831): hmd->prevAlloc: 0
+[INFO] 18:37:51:848 memoria/(8804:8831): hmd->nextAlloc: 0
+[INFO] 18:37:51:848 memoria/(8804:8831): no hay espacio entre hmd
+
+[INFO] 18:37:51:849 memoria/(8804:8831): posicion_hmd_final: 36
+[INFO] 18:37:51:850 memoria/(8804:8831): direccion_ultimo_hmd: 24
+[INFO] 18:37:51:851 memoria/(8804:8831): sizeeee:  21
+[INFO] 18:37:51:853 memoria/(8804:8831): paginas a alocar 2
+[INFO] 18:37:51:853 memoria/(8804:8831): i vale: 0   ----  ofset: 24
+[INFO] 18:37:51:854 memoria/(8804:8831): espacio rest vale: 8   ----  tot-acum: 21
+[INFO] 18:37:51:855 memoria/(8804:8831): size vale: 2   ----  pag: 1
+[INFO] 18:37:51:856 memoria/(8804:8831): ---------1610612736 en pagina 1---------
+[INFO] 18:37:51:857 memoria/(8804:8831): i vale: 1   ----  ofset: 0
+[INFO] 18:37:51:857 memoria/(8804:8831): espacio rest vale: 32   ----  tot-acum: 13
+[INFO] 18:37:51:858 memoria/(8804:8831): size vale: 2   ----  pag: 2
+[INFO] 18:37:51:858 memoria/(8804:8831): Entre en el else
+[INFO] 18:37:51:904 memoria/(8804:8831): ---------1610612736 en pagina 0---------
+[INFO] 18:37:51:905 memoria/(8804:8831): offset: 0
+[INFO] 18:37:51:908 memoria/(8804:8831): nro_pagina: 0
+[INFO] 18:37:51:909 memoria/(8804:8831): hmd->prevAlloc: 0
+[INFO] 18:37:51:909 memoria/(8804:8831): hmd->nextAlloc: 24
+[INFO] 18:37:51:910 memoria/(8804:8831): offset: 24
+[INFO] 18:37:51:910 memoria/(8804:8831): nro_pagina: 0
+[INFO] 18:37:51:911 memoria/(8804:8831): ---------1610612736 en pagina 1---------
+[INFO] 18:37:51:911 memoria/(8804:8831): hmd->prevAlloc: 0
+[INFO] 18:37:51:911 memoria/(8804:8831): hmd->nextAlloc: 36
+[INFO] 18:37:51:912 memoria/(8804:8831): ---------1610612736 en pagina 1---------
+[INFO] 18:37:51:913 memoria/(8804:8831): offset: 4
+[INFO] 18:37:51:913 memoria/(8804:8831): nro_pagina: 1
+[INFO] 18:37:51:914 memoria/(8804:8831): hmd->prevAlloc: 24
+[INFO] 18:37:51:914 memoria/(8804:8831): hmd->nextAlloc: 0
+[INFO] 18:37:51:914 memoria/(8804:8831): no hay espacio entre hmd
+
+[INFO] 18:37:51:915 memoria/(8804:8831): posicion_hmd_final: 48
+[INFO] 18:37:51:915 memoria/(8804:8831): direccion_ultimo_hmd: 36
+[INFO] 18:37:51:915 memoria/(8804:8831): sizeeee:  21
+[INFO] 18:37:51:916 memoria/(8804:8831): paginas a alocar 2
+[INFO] 18:37:51:916 memoria/(8804:8831): i vale: 0   ----  ofset: 4
+[INFO] 18:37:51:917 memoria/(8804:8831): espacio rest vale: 28   ----  tot-acum: 21
+[INFO] 18:37:51:917 memoria/(8804:8831): size vale: 2   ----  pag: 2
+[INFO] 18:37:51:918 memoria/(8804:8831): i vale: 1   ----  ofset: 0
+[INFO] 18:37:51:918 memoria/(8804:8831): espacio rest vale: 32   ----  tot-acum: -7
+[INFO] 18:37:51:922 memoria/(8804:8831): size vale: 2   ----  pag: 2
+[INFO] 18:37:51:922 memoria/(8804:8831): Entre en el else
+[INFO] 18:37:51:975 memoria/(8804:8831): DISCONNECT!
+[INFO] 18:38:34:162 memoria/(8933:8933): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:38:34:287 memoria/(8933:8933): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:38:34:291 memoria/(8933:8933): ------2---------
+
+[INFO] 18:38:34:293 memoria/(8933:8933): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:38:35:732 memoria/(8933:8933): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:38:35:842 memoria/(8933:8961): HANDSHAKE
+[INFO] 18:38:35:894 memoria/(8933:8961): --------------0-----------
+
+[INFO] 18:38:35:908 memoria/(8933:8961): El frame es el 0 
+
+[INFO] 18:38:35:910 memoria/(8933:8961): Allocando primer mitad del hmd en 0
+
+[INFO] 18:38:35:913 memoria/(8933:8961): El frame es el 1 
+
+[INFO] 18:38:35:914 memoria/(8933:8961): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:38:35:915 memoria/(8933:8961): Cant_frames mayor
+[INFO] 18:38:35:963 memoria/(8933:8961): ---------402653184 en pagina 0---------
+[INFO] 18:38:35:964 memoria/(8933:8961): offset: 0
+[INFO] 18:38:35:965 memoria/(8933:8961): nro_pagina: 0
+[INFO] 18:38:35:966 memoria/(8933:8961): hmd->prevAlloc: 0
+[INFO] 18:38:35:967 memoria/(8933:8961): hmd->nextAlloc: 24
+[INFO] 18:38:35:968 memoria/(8933:8961): offset: 24
+[INFO] 18:38:35:968 memoria/(8933:8961): nro_pagina: 0
+[INFO] 18:38:35:969 memoria/(8933:8961): ---------402653184 en pagina 1---------
+[INFO] 18:38:35:970 memoria/(8933:8961): hmd->prevAlloc: 0
+[INFO] 18:38:35:971 memoria/(8933:8961): hmd->nextAlloc: 0
+[INFO] 18:38:35:972 memoria/(8933:8961): no hay espacio entre hmd
+
+[INFO] 18:38:35:972 memoria/(8933:8961): posicion_hmd_final: 36
+[INFO] 18:38:35:973 memoria/(8933:8961): direccion_ultimo_hmd: 24
+[INFO] 18:38:35:973 memoria/(8933:8961): sizeeee:  21
+[INFO] 18:38:35:975 memoria/(8933:8961): paginas a alocar 2
+[INFO] 18:38:35:976 memoria/(8933:8961): i vale: 0   ----  ofset: 24
+[INFO] 18:38:35:976 memoria/(8933:8961): espacio rest vale: 8   ----  tot-acum: 21
+[INFO] 18:38:35:977 memoria/(8933:8961): size vale: 2   ----  pag: 1
+[INFO] 18:38:35:978 memoria/(8933:8961): ---------402653184 en pagina 1---------
+[INFO] 18:38:35:979 memoria/(8933:8961): i vale: 1   ----  ofset: 0
+[INFO] 18:38:35:979 memoria/(8933:8961): espacio rest vale: 32   ----  tot-acum: 13
+[INFO] 18:38:35:980 memoria/(8933:8961): size vale: 2   ----  pag: 2
+[INFO] 18:38:35:980 memoria/(8933:8961): Entre en el else
+[INFO] 18:38:36:024 memoria/(8933:8961): ---------402653184 en pagina 0---------
+[INFO] 18:38:36:025 memoria/(8933:8961): offset: 0
+[INFO] 18:38:36:025 memoria/(8933:8961): nro_pagina: 0
+[INFO] 18:38:36:026 memoria/(8933:8961): hmd->prevAlloc: 0
+[INFO] 18:38:36:026 memoria/(8933:8961): hmd->nextAlloc: 24
+[INFO] 18:38:36:026 memoria/(8933:8961): offset: 24
+[INFO] 18:38:36:027 memoria/(8933:8961): nro_pagina: 0
+[INFO] 18:38:36:027 memoria/(8933:8961): ---------402653184 en pagina 1---------
+[INFO] 18:38:36:028 memoria/(8933:8961): hmd->prevAlloc: 0
+[INFO] 18:38:36:028 memoria/(8933:8961): hmd->nextAlloc: 36
+[INFO] 18:38:36:029 memoria/(8933:8961): ---------402653184 en pagina 1---------
+[INFO] 18:38:36:029 memoria/(8933:8961): offset: 4
+[INFO] 18:38:36:029 memoria/(8933:8961): nro_pagina: 1
+[INFO] 18:38:36:030 memoria/(8933:8961): hmd->prevAlloc: 24
+[INFO] 18:38:36:030 memoria/(8933:8961): hmd->nextAlloc: 0
+[INFO] 18:38:36:030 memoria/(8933:8961): no hay espacio entre hmd
+
+[INFO] 18:38:36:031 memoria/(8933:8961): posicion_hmd_final: 48
+[INFO] 18:38:36:031 memoria/(8933:8961): direccion_ultimo_hmd: 36
+[INFO] 18:38:36:031 memoria/(8933:8961): sizeeee:  21
+[INFO] 18:38:36:032 memoria/(8933:8961): paginas a alocar 2
+[INFO] 18:38:36:032 memoria/(8933:8961): i vale: 0   ----  ofset: 4
+[INFO] 18:38:36:032 memoria/(8933:8961): espacio rest vale: 28   ----  tot-acum: 21
+[INFO] 18:38:36:033 memoria/(8933:8961): size vale: 2   ----  pag: 2
+[INFO] 18:38:36:033 memoria/(8933:8961): i vale: 1   ----  ofset: 0
+[INFO] 18:38:36:033 memoria/(8933:8961): espacio rest vale: 32   ----  tot-acum: 0
+[INFO] 18:38:36:034 memoria/(8933:8961): size vale: 2   ----  pag: 2
+[INFO] 18:38:36:034 memoria/(8933:8961): Entre en el else
+[INFO] 18:38:36:088 memoria/(8933:8961): DISCONNECT!
+[INFO] 18:39:10:228 memoria/(9049:9049): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:39:10:286 memoria/(9049:9049): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:39:10:290 memoria/(9049:9049): ------2---------
+
+[INFO] 18:39:10:293 memoria/(9049:9049): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:39:11:913 memoria/(9049:9049): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:39:12:058 memoria/(9049:9076): HANDSHAKE
+[INFO] 18:39:12:110 memoria/(9049:9076): --------------0-----------
+
+[INFO] 18:39:12:122 memoria/(9049:9076): El frame es el 0 
+
+[INFO] 18:39:12:125 memoria/(9049:9076): Allocando primer mitad del hmd en 0
+
+[INFO] 18:39:12:128 memoria/(9049:9076): El frame es el 1 
+
+[INFO] 18:39:12:129 memoria/(9049:9076): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:39:12:130 memoria/(9049:9076): Cant_frames mayor
+[INFO] 18:39:12:181 memoria/(9049:9076): ---------2281701376 en pagina 0---------
+[INFO] 18:39:12:182 memoria/(9049:9076): offset: 0
+[INFO] 18:39:12:182 memoria/(9049:9076): nro_pagina: 0
+[INFO] 18:39:12:184 memoria/(9049:9076): hmd->prevAlloc: 0
+[INFO] 18:39:12:184 memoria/(9049:9076): hmd->nextAlloc: 24
+[INFO] 18:39:12:185 memoria/(9049:9076): offset: 24
+[INFO] 18:39:12:186 memoria/(9049:9076): nro_pagina: 0
+[INFO] 18:39:12:187 memoria/(9049:9076): ---------2281701376 en pagina 1---------
+[INFO] 18:39:12:188 memoria/(9049:9076): hmd->prevAlloc: 0
+[INFO] 18:39:12:189 memoria/(9049:9076): hmd->nextAlloc: 0
+[INFO] 18:39:12:190 memoria/(9049:9076): no hay espacio entre hmd
+
+[INFO] 18:39:12:191 memoria/(9049:9076): posicion_hmd_final: 36
+[INFO] 18:39:12:193 memoria/(9049:9076): direccion_ultimo_hmd: 24
+[INFO] 18:39:12:194 memoria/(9049:9076): sizeeee:  21
+[INFO] 18:39:12:195 memoria/(9049:9076): paginas a alocar 2
+[INFO] 18:39:12:196 memoria/(9049:9076): i vale: 0   ----  ofset: 24
+[INFO] 18:39:12:196 memoria/(9049:9076): espacio rest vale: 8   ----  tot-acum: 21
+[INFO] 18:39:12:197 memoria/(9049:9076): size vale: 2   ----  pag: 1
+[INFO] 18:39:12:198 memoria/(9049:9076): ---------2281701376 en pagina 1---------
+[INFO] 18:39:12:199 memoria/(9049:9076): i vale: 1   ----  ofset: 0
+[INFO] 18:39:12:199 memoria/(9049:9076): espacio rest vale: 32   ----  tot-acum: 13
+[INFO] 18:39:12:200 memoria/(9049:9076): size vale: 2   ----  pag: 2
+[INFO] 18:39:12:200 memoria/(9049:9076): Entre en el else
+[INFO] 18:39:12:244 memoria/(9049:9076): ---------2281701376 en pagina 0---------
+[INFO] 18:39:12:244 memoria/(9049:9076): offset: 0
+[INFO] 18:39:12:245 memoria/(9049:9076): nro_pagina: 0
+[INFO] 18:39:12:245 memoria/(9049:9076): hmd->prevAlloc: 0
+[INFO] 18:39:12:245 memoria/(9049:9076): hmd->nextAlloc: 24
+[INFO] 18:39:12:246 memoria/(9049:9076): offset: 24
+[INFO] 18:39:12:246 memoria/(9049:9076): nro_pagina: 0
+[INFO] 18:39:12:246 memoria/(9049:9076): ---------2281701376 en pagina 1---------
+[INFO] 18:39:12:246 memoria/(9049:9076): hmd->prevAlloc: 0
+[INFO] 18:39:12:247 memoria/(9049:9076): hmd->nextAlloc: 36
+[INFO] 18:39:12:247 memoria/(9049:9076): ---------2281701376 en pagina 1---------
+[INFO] 18:39:12:248 memoria/(9049:9076): offset: 4
+[INFO] 18:39:12:248 memoria/(9049:9076): nro_pagina: 1
+[INFO] 18:39:12:249 memoria/(9049:9076): hmd->prevAlloc: 24
+[INFO] 18:39:12:249 memoria/(9049:9076): hmd->nextAlloc: 0
+[INFO] 18:39:12:249 memoria/(9049:9076): no hay espacio entre hmd
+
+[INFO] 18:39:12:250 memoria/(9049:9076): posicion_hmd_final: 48
+[INFO] 18:39:12:250 memoria/(9049:9076): direccion_ultimo_hmd: 36
+[INFO] 18:39:12:250 memoria/(9049:9076): sizeeee:  21
+[INFO] 18:39:12:250 memoria/(9049:9076): paginas a alocar 2
+[INFO] 18:39:12:251 memoria/(9049:9076): i vale: 0   ----  ofset: 4
+[INFO] 18:39:12:251 memoria/(9049:9076): espacio rest vale: 28   ----  tot-acum: 21
+[INFO] 18:39:12:252 memoria/(9049:9076): size vale: 2   ----  pag: 2
+[INFO] 18:39:12:252 memoria/(9049:9076): i vale: 1   ----  ofset: 0
+[INFO] 18:39:12:253 memoria/(9049:9076): espacio rest vale: 32   ----  tot-acum: 0
+[INFO] 18:39:12:253 memoria/(9049:9076): size vale: 2   ----  pag: 2
+[INFO] 18:39:12:254 memoria/(9049:9076): Entre en el else
+[INFO] 18:39:12:312 memoria/(9049:9076): DISCONNECT!
+[INFO] 18:39:31:751 memoria/(9148:9148): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:39:31:830 memoria/(9148:9148): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:39:31:833 memoria/(9148:9148): ------2---------
+
+[INFO] 18:39:31:842 memoria/(9148:9148): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:39:34:459 memoria/(9148:9148): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:39:34:573 memoria/(9148:9169): HANDSHAKE
+[INFO] 18:39:34:622 memoria/(9148:9169): --------------0-----------
+
+[INFO] 18:39:34:636 memoria/(9148:9169): El frame es el 0 
+
+[INFO] 18:39:34:638 memoria/(9148:9169): Allocando primer mitad del hmd en 0
+
+[INFO] 18:39:34:642 memoria/(9148:9169): El frame es el 1 
+
+[INFO] 18:39:34:642 memoria/(9148:9169): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:39:34:644 memoria/(9148:9169): Cant_frames mayor
+[INFO] 18:39:34:692 memoria/(9148:9169): ---------3087007744 en pagina 0---------
+[INFO] 18:39:34:696 memoria/(9148:9169): offset: 0
+[INFO] 18:39:34:697 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:698 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:699 memoria/(9148:9169): hmd->nextAlloc: 24
+[INFO] 18:39:34:700 memoria/(9148:9169): offset: 24
+[INFO] 18:39:34:700 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:701 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:702 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:702 memoria/(9148:9169): hmd->nextAlloc: 0
+[INFO] 18:39:34:704 memoria/(9148:9169): no hay espacio entre hmd
+
+[INFO] 18:39:34:704 memoria/(9148:9169): posicion_hmd_final: 36
+[INFO] 18:39:34:705 memoria/(9148:9169): direccion_ultimo_hmd: 24
+[INFO] 18:39:34:706 memoria/(9148:9169): sizeeee:  21
+[INFO] 18:39:34:707 memoria/(9148:9169): paginas a alocar 2
+[INFO] 18:39:34:707 memoria/(9148:9169): i vale: 0   ----  ofset: 24
+[INFO] 18:39:34:707 memoria/(9148:9169): espacio rest vale: 8   ----  tot-acum: 21
+[INFO] 18:39:34:709 memoria/(9148:9169): size vale: 2   ----  pag: 1
+[INFO] 18:39:34:709 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:710 memoria/(9148:9169): i vale: 1   ----  ofset: 0
+[INFO] 18:39:34:710 memoria/(9148:9169): espacio rest vale: 32   ----  tot-acum: 13
+[INFO] 18:39:34:711 memoria/(9148:9169): size vale: 2   ----  pag: 2
+[INFO] 18:39:34:711 memoria/(9148:9169): Entre en el else
+[INFO] 18:39:34:756 memoria/(9148:9169): ---------3087007744 en pagina 0---------
+[INFO] 18:39:34:758 memoria/(9148:9169): offset: 0
+[INFO] 18:39:34:763 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:763 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:764 memoria/(9148:9169): hmd->nextAlloc: 24
+[INFO] 18:39:34:764 memoria/(9148:9169): offset: 24
+[INFO] 18:39:34:764 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:765 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:765 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:766 memoria/(9148:9169): hmd->nextAlloc: 36
+[INFO] 18:39:34:767 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:767 memoria/(9148:9169): offset: 4
+[INFO] 18:39:34:768 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:768 memoria/(9148:9169): hmd->prevAlloc: 24
+[INFO] 18:39:34:768 memoria/(9148:9169): hmd->nextAlloc: 0
+[INFO] 18:39:34:769 memoria/(9148:9169): no hay espacio entre hmd
+
+[INFO] 18:39:34:769 memoria/(9148:9169): posicion_hmd_final: 48
+[INFO] 18:39:34:770 memoria/(9148:9169): direccion_ultimo_hmd: 36
+[INFO] 18:39:34:770 memoria/(9148:9169): sizeeee:  21
+[INFO] 18:39:34:771 memoria/(9148:9169): paginas a alocar 2
+[INFO] 18:39:34:771 memoria/(9148:9169): i vale: 0   ----  ofset: 4
+[INFO] 18:39:34:771 memoria/(9148:9169): espacio rest vale: 28   ----  tot-acum: 21
+[INFO] 18:39:34:772 memoria/(9148:9169): size vale: 2   ----  pag: 2
+[INFO] 18:39:34:772 memoria/(9148:9169): i vale: 1   ----  ofset: 0
+[INFO] 18:39:34:773 memoria/(9148:9169): espacio rest vale: 32   ----  tot-acum: 0
+[INFO] 18:39:34:773 memoria/(9148:9169): size vale: 2   ----  pag: 2
+[INFO] 18:39:34:773 memoria/(9148:9169): Entre en el else
+[INFO] 18:39:34:816 memoria/(9148:9169): ---------3087007744 en pagina 0---------
+[INFO] 18:39:34:817 memoria/(9148:9169): offset: 0
+[INFO] 18:39:34:817 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:818 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:818 memoria/(9148:9169): hmd->nextAlloc: 24
+[INFO] 18:39:34:818 memoria/(9148:9169): offset: 24
+[INFO] 18:39:34:819 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:824 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:825 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:826 memoria/(9148:9169): hmd->nextAlloc: 36
+[INFO] 18:39:34:827 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:827 memoria/(9148:9169): offset: 4
+[INFO] 18:39:34:828 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:828 memoria/(9148:9169): hmd->prevAlloc: 24
+[INFO] 18:39:34:828 memoria/(9148:9169): hmd->nextAlloc: 48
+[INFO] 18:39:34:829 memoria/(9148:9169): offset: 16
+[INFO] 18:39:34:829 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:829 memoria/(9148:9169): hmd->prevAlloc: 36
+[INFO] 18:39:34:829 memoria/(9148:9169): hmd->nextAlloc: 0
+[INFO] 18:39:34:830 memoria/(9148:9169): no hay espacio entre hmd
+
+[INFO] 18:39:34:830 memoria/(9148:9169): posicion_hmd_final: 60
+[INFO] 18:39:34:830 memoria/(9148:9169): direccion_ultimo_hmd: 48
+[INFO] 18:39:34:831 memoria/(9148:9169): sizeeee:  21
+[INFO] 18:39:34:832 memoria/(9148:9169): El frame es el 2 
+
+[INFO] 18:39:34:834 memoria/(9148:9169): El frame es el 2 
+
+[INFO] 18:39:34:877 memoria/(9148:9169): ---------3087007744 en pagina 0---------
+[INFO] 18:39:34:877 memoria/(9148:9169): offset: 0
+[INFO] 18:39:34:877 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:878 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:878 memoria/(9148:9169): hmd->nextAlloc: 24
+[INFO] 18:39:34:878 memoria/(9148:9169): offset: 24
+[INFO] 18:39:34:879 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:879 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:879 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:880 memoria/(9148:9169): hmd->nextAlloc: 36
+[INFO] 18:39:34:880 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:881 memoria/(9148:9169): offset: 4
+[INFO] 18:39:34:881 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:886 memoria/(9148:9169): hmd->prevAlloc: 24
+[INFO] 18:39:34:886 memoria/(9148:9169): hmd->nextAlloc: 48
+[INFO] 18:39:34:886 memoria/(9148:9169): offset: 16
+[INFO] 18:39:34:887 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:888 memoria/(9148:9169): hmd->prevAlloc: 36
+[INFO] 18:39:34:888 memoria/(9148:9169): hmd->nextAlloc: 60
+[INFO] 18:39:34:889 memoria/(9148:9169): offset: 28
+[INFO] 18:39:34:889 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:889 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:34:890 memoria/(9148:9169): hmd->prevAlloc: 48
+[INFO] 18:39:34:890 memoria/(9148:9169): hmd->nextAlloc: 0
+[INFO] 18:39:34:891 memoria/(9148:9169): no hay espacio entre hmd
+
+[INFO] 18:39:34:892 memoria/(9148:9169): posicion_hmd_final: 72
+[INFO] 18:39:34:892 memoria/(9148:9169): direccion_ultimo_hmd: 60
+[INFO] 18:39:34:893 memoria/(9148:9169): sizeeee:  21
+[INFO] 18:39:34:893 memoria/(9148:9169): paginas a alocar 2
+[INFO] 18:39:34:894 memoria/(9148:9169): i vale: 0   ----  ofset: 28
+[INFO] 18:39:34:894 memoria/(9148:9169): espacio rest vale: 4   ----  tot-acum: 21
+[INFO] 18:39:34:895 memoria/(9148:9169): size vale: 4   ----  pag: 2
+[INFO] 18:39:34:895 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:34:896 memoria/(9148:9169): i vale: 1   ----  ofset: 0
+[INFO] 18:39:34:896 memoria/(9148:9169): espacio rest vale: 32   ----  tot-acum: 17
+[INFO] 18:39:34:896 memoria/(9148:9169): size vale: 4   ----  pag: 4
+[INFO] 18:39:34:897 memoria/(9148:9169): Entre en el else
+[INFO] 18:39:34:941 memoria/(9148:9169): ---------3087007744 en pagina 0---------
+[INFO] 18:39:34:942 memoria/(9148:9169): offset: 0
+[INFO] 18:39:34:943 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:946 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:946 memoria/(9148:9169): hmd->nextAlloc: 24
+[INFO] 18:39:34:947 memoria/(9148:9169): offset: 24
+[INFO] 18:39:34:947 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:34:947 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:948 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:34:948 memoria/(9148:9169): hmd->nextAlloc: 36
+[INFO] 18:39:34:949 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:34:949 memoria/(9148:9169): offset: 4
+[INFO] 18:39:34:950 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:950 memoria/(9148:9169): hmd->prevAlloc: 24
+[INFO] 18:39:34:950 memoria/(9148:9169): hmd->nextAlloc: 48
+[INFO] 18:39:34:951 memoria/(9148:9169): offset: 16
+[INFO] 18:39:34:951 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:951 memoria/(9148:9169): hmd->prevAlloc: 36
+[INFO] 18:39:34:952 memoria/(9148:9169): hmd->nextAlloc: 60
+[INFO] 18:39:34:952 memoria/(9148:9169): offset: 28
+[INFO] 18:39:34:953 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:34:953 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:34:953 memoria/(9148:9169): hmd->prevAlloc: 48
+[INFO] 18:39:34:954 memoria/(9148:9169): hmd->nextAlloc: 72
+[INFO] 18:39:34:954 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:34:955 memoria/(9148:9169): offset: 8
+[INFO] 18:39:34:955 memoria/(9148:9169): nro_pagina: 2
+[INFO] 18:39:34:956 memoria/(9148:9169): hmd->prevAlloc: 60
+[INFO] 18:39:34:956 memoria/(9148:9169): hmd->nextAlloc: 0
+[INFO] 18:39:34:957 memoria/(9148:9169): no hay espacio entre hmd
+
+[INFO] 18:39:34:957 memoria/(9148:9169): posicion_hmd_final: 84
+[INFO] 18:39:34:957 memoria/(9148:9169): direccion_ultimo_hmd: 72
+[INFO] 18:39:34:958 memoria/(9148:9169): sizeeee:  21
+[INFO] 18:39:34:959 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:34:960 memoria/(9148:9169): paginas a alocar 2
+[INFO] 18:39:34:960 memoria/(9148:9169): i vale: 0   ----  ofset: 8
+[INFO] 18:39:34:961 memoria/(9148:9169): espacio rest vale: 24   ----  tot-acum: 21
+[INFO] 18:39:34:961 memoria/(9148:9169): size vale: 4   ----  pag: 4
+[INFO] 18:39:34:961 memoria/(9148:9169): i vale: 1   ----  ofset: 0
+[INFO] 18:39:34:962 memoria/(9148:9169): espacio rest vale: 32   ----  tot-acum: 0
+[INFO] 18:39:34:962 memoria/(9148:9169): size vale: 4   ----  pag: 4
+[INFO] 18:39:34:963 memoria/(9148:9169): Entre en el else
+[INFO] 18:39:35:008 memoria/(9148:9169): ---------3087007744 en pagina 0---------
+[INFO] 18:39:35:009 memoria/(9148:9169): offset: 0
+[INFO] 18:39:35:014 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:35:014 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:35:014 memoria/(9148:9169): hmd->nextAlloc: 24
+[INFO] 18:39:35:015 memoria/(9148:9169): offset: 24
+[INFO] 18:39:35:015 memoria/(9148:9169): nro_pagina: 0
+[INFO] 18:39:35:015 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:35:016 memoria/(9148:9169): hmd->prevAlloc: 0
+[INFO] 18:39:35:016 memoria/(9148:9169): hmd->nextAlloc: 36
+[INFO] 18:39:35:017 memoria/(9148:9169): ---------3087007744 en pagina 1---------
+[INFO] 18:39:35:017 memoria/(9148:9169): offset: 4
+[INFO] 18:39:35:018 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:35:018 memoria/(9148:9169): hmd->prevAlloc: 24
+[INFO] 18:39:35:018 memoria/(9148:9169): hmd->nextAlloc: 48
+[INFO] 18:39:35:019 memoria/(9148:9169): offset: 16
+[INFO] 18:39:35:019 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:35:019 memoria/(9148:9169): hmd->prevAlloc: 36
+[INFO] 18:39:35:020 memoria/(9148:9169): hmd->nextAlloc: 60
+[INFO] 18:39:35:021 memoria/(9148:9169): offset: 28
+[INFO] 18:39:35:021 memoria/(9148:9169): nro_pagina: 1
+[INFO] 18:39:35:022 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:35:023 memoria/(9148:9169): hmd->prevAlloc: 48
+[INFO] 18:39:35:024 memoria/(9148:9169): hmd->nextAlloc: 72
+[INFO] 18:39:35:024 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:35:025 memoria/(9148:9169): offset: 8
+[INFO] 18:39:35:025 memoria/(9148:9169): nro_pagina: 2
+[INFO] 18:39:35:026 memoria/(9148:9169): hmd->prevAlloc: 60
+[INFO] 18:39:35:026 memoria/(9148:9169): hmd->nextAlloc: 84
+[INFO] 18:39:35:026 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:35:027 memoria/(9148:9169): offset: 20
+[INFO] 18:39:35:027 memoria/(9148:9169): nro_pagina: 2
+[INFO] 18:39:35:027 memoria/(9148:9169): hmd->prevAlloc: 72
+[INFO] 18:39:35:028 memoria/(9148:9169): hmd->nextAlloc: 0
+[INFO] 18:39:35:028 memoria/(9148:9169): no hay espacio entre hmd
+
+[INFO] 18:39:35:029 memoria/(9148:9169): posicion_hmd_final: 96
+[INFO] 18:39:35:029 memoria/(9148:9169): direccion_ultimo_hmd: 84
+[INFO] 18:39:35:029 memoria/(9148:9169): sizeeee:  21
+[INFO] 18:39:35:030 memoria/(9148:9169): ---------3087007744 en pagina 2---------
+[INFO] 18:39:35:030 memoria/(9148:9169): paginas a alocar 2
+[INFO] 18:39:35:031 memoria/(9148:9169): i vale: 0   ----  ofset: 20
+[INFO] 18:39:35:031 memoria/(9148:9169): espacio rest vale: 12   ----  tot-acum: 21
+[INFO] 18:39:35:031 memoria/(9148:9169): size vale: 4   ----  pag: 4
+[INFO] 18:39:35:032 memoria/(9148:9169): i vale: 1   ----  ofset: 0
+[INFO] 18:39:35:033 memoria/(9148:9169): espacio rest vale: 32   ----  tot-acum: 9
+[INFO] 18:39:35:033 memoria/(9148:9169): size vale: 4   ----  pag: 4
+[INFO] 18:39:35:034 memoria/(9148:9169): Entre en el else
+[INFO] 18:39:35:099 memoria/(9148:9169): DISCONNECT!
+[INFO] 18:43:29:297 memoria/(9520:9520): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:43:29:373 memoria/(9520:9520): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:43:29:382 memoria/(9520:9520): ------2---------
+
+[INFO] 18:43:29:389 memoria/(9520:9520): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:43:30:813 memoria/(9520:9520): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:43:30:928 memoria/(9520:9547): HANDSHAKE
+[INFO] 18:43:30:977 memoria/(9520:9547): --------------0-----------
+
+[INFO] 18:43:30:994 memoria/(9520:9547): El frame es el 0 
+
+[INFO] 18:43:30:998 memoria/(9520:9547): Allocando primer mitad del hmd en 0
+
+[INFO] 18:43:31:000 memoria/(9520:9547): El frame es el 1 
+
+[INFO] 18:43:31:002 memoria/(9520:9547): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:43:31:003 memoria/(9520:9547): Cant_frames mayor
+[INFO] 18:43:31:051 memoria/(9520:9547): ---------1073741824 en pagina 0---------
+[INFO] 18:43:31:052 memoria/(9520:9547): offset: 0
+[INFO] 18:43:31:052 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:054 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:055 memoria/(9520:9547): hmd->nextAlloc: 24
+[INFO] 18:43:31:056 memoria/(9520:9547): offset: 24
+[INFO] 18:43:31:057 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:060 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:060 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:061 memoria/(9520:9547): hmd->nextAlloc: 0
+[INFO] 18:43:31:062 memoria/(9520:9547): no hay espacio entre hmd
+
+[INFO] 18:43:31:063 memoria/(9520:9547): posicion_hmd_final: 36
+[INFO] 18:43:31:064 memoria/(9520:9547): direccion_ultimo_hmd: 24
+[INFO] 18:43:31:066 memoria/(9520:9547): sizeeee:  21
+[INFO] 18:43:31:067 memoria/(9520:9547): paginas a alocar 2
+[INFO] 18:43:31:067 memoria/(9520:9547): i vale: 0   ----  ofset: 24
+[INFO] 18:43:31:068 memoria/(9520:9547): espacio rest vale: 8   ----  tot-acum: 21
+[INFO] 18:43:31:069 memoria/(9520:9547): size vale: 2   ----  pag: 1
+[INFO] 18:43:31:071 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:071 memoria/(9520:9547): i vale: 1   ----  ofset: 0
+[INFO] 18:43:31:071 memoria/(9520:9547): espacio rest vale: 32   ----  tot-acum: 13
+[INFO] 18:43:31:072 memoria/(9520:9547): size vale: 2   ----  pag: 2
+[INFO] 18:43:31:072 memoria/(9520:9547): Entre en el else
+[INFO] 18:43:31:117 memoria/(9520:9547): ---------1073741824 en pagina 0---------
+[INFO] 18:43:31:117 memoria/(9520:9547): offset: 0
+[INFO] 18:43:31:118 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:118 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:118 memoria/(9520:9547): hmd->nextAlloc: 24
+[INFO] 18:43:31:119 memoria/(9520:9547): offset: 24
+[INFO] 18:43:31:119 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:119 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:120 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:120 memoria/(9520:9547): hmd->nextAlloc: 36
+[INFO] 18:43:31:121 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:121 memoria/(9520:9547): offset: 4
+[INFO] 18:43:31:122 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:122 memoria/(9520:9547): hmd->prevAlloc: 24
+[INFO] 18:43:31:122 memoria/(9520:9547): hmd->nextAlloc: 0
+[INFO] 18:43:31:123 memoria/(9520:9547): no hay espacio entre hmd
+
+[INFO] 18:43:31:123 memoria/(9520:9547): posicion_hmd_final: 48
+[INFO] 18:43:31:124 memoria/(9520:9547): direccion_ultimo_hmd: 36
+[INFO] 18:43:31:124 memoria/(9520:9547): sizeeee:  21
+[INFO] 18:43:31:125 memoria/(9520:9547): paginas a alocar 2
+[INFO] 18:43:31:125 memoria/(9520:9547): i vale: 0   ----  ofset: 4
+[INFO] 18:43:31:126 memoria/(9520:9547): espacio rest vale: 28   ----  tot-acum: 21
+[INFO] 18:43:31:126 memoria/(9520:9547): size vale: 2   ----  pag: 2
+[INFO] 18:43:31:127 memoria/(9520:9547): i vale: 1   ----  ofset: 0
+[INFO] 18:43:31:128 memoria/(9520:9547): espacio rest vale: 32   ----  tot-acum: 0
+[INFO] 18:43:31:129 memoria/(9520:9547): size vale: 2   ----  pag: 2
+[INFO] 18:43:31:129 memoria/(9520:9547): Entre en el else
+[INFO] 18:43:31:172 memoria/(9520:9547): ---------1073741824 en pagina 0---------
+[INFO] 18:43:31:172 memoria/(9520:9547): offset: 0
+[INFO] 18:43:31:173 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:173 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:174 memoria/(9520:9547): hmd->nextAlloc: 24
+[INFO] 18:43:31:175 memoria/(9520:9547): offset: 24
+[INFO] 18:43:31:180 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:180 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:181 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:182 memoria/(9520:9547): hmd->nextAlloc: 36
+[INFO] 18:43:31:182 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:183 memoria/(9520:9547): offset: 4
+[INFO] 18:43:31:183 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:183 memoria/(9520:9547): hmd->prevAlloc: 24
+[INFO] 18:43:31:184 memoria/(9520:9547): hmd->nextAlloc: 48
+[INFO] 18:43:31:184 memoria/(9520:9547): offset: 16
+[INFO] 18:43:31:184 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:185 memoria/(9520:9547): hmd->prevAlloc: 36
+[INFO] 18:43:31:185 memoria/(9520:9547): hmd->nextAlloc: 0
+[INFO] 18:43:31:185 memoria/(9520:9547): no hay espacio entre hmd
+
+[INFO] 18:43:31:186 memoria/(9520:9547): posicion_hmd_final: 60
+[INFO] 18:43:31:186 memoria/(9520:9547): direccion_ultimo_hmd: 48
+[INFO] 18:43:31:186 memoria/(9520:9547): sizeeee:  21
+[INFO] 18:43:31:188 memoria/(9520:9547): El frame es el 2 
+
+[INFO] 18:43:31:190 memoria/(9520:9547): El frame es el 2 
+
+[INFO] 18:43:31:232 memoria/(9520:9547): ---------1073741824 en pagina 0---------
+[INFO] 18:43:31:233 memoria/(9520:9547): offset: 0
+[INFO] 18:43:31:233 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:234 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:234 memoria/(9520:9547): hmd->nextAlloc: 24
+[INFO] 18:43:31:234 memoria/(9520:9547): offset: 24
+[INFO] 18:43:31:234 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:235 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:235 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:236 memoria/(9520:9547): hmd->nextAlloc: 36
+[INFO] 18:43:31:236 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:237 memoria/(9520:9547): offset: 4
+[INFO] 18:43:31:237 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:241 memoria/(9520:9547): hmd->prevAlloc: 24
+[INFO] 18:43:31:242 memoria/(9520:9547): hmd->nextAlloc: 48
+[INFO] 18:43:31:242 memoria/(9520:9547): offset: 16
+[INFO] 18:43:31:242 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:243 memoria/(9520:9547): hmd->prevAlloc: 36
+[INFO] 18:43:31:243 memoria/(9520:9547): hmd->nextAlloc: 60
+[INFO] 18:43:31:244 memoria/(9520:9547): offset: 28
+[INFO] 18:43:31:245 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:245 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:245 memoria/(9520:9547): hmd->prevAlloc: 48
+[INFO] 18:43:31:246 memoria/(9520:9547): hmd->nextAlloc: 0
+[INFO] 18:43:31:246 memoria/(9520:9547): no hay espacio entre hmd
+
+[INFO] 18:43:31:246 memoria/(9520:9547): posicion_hmd_final: 72
+[INFO] 18:43:31:247 memoria/(9520:9547): direccion_ultimo_hmd: 60
+[INFO] 18:43:31:247 memoria/(9520:9547): sizeeee:  21
+[INFO] 18:43:31:247 memoria/(9520:9547): paginas a alocar 2
+[INFO] 18:43:31:248 memoria/(9520:9547): i vale: 0   ----  ofset: 28
+[INFO] 18:43:31:248 memoria/(9520:9547): espacio rest vale: 4   ----  tot-acum: 21
+[INFO] 18:43:31:249 memoria/(9520:9547): size vale: 4   ----  pag: 2
+[INFO] 18:43:31:249 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:249 memoria/(9520:9547): i vale: 1   ----  ofset: 0
+[INFO] 18:43:31:250 memoria/(9520:9547): espacio rest vale: 32   ----  tot-acum: 17
+[INFO] 18:43:31:250 memoria/(9520:9547): size vale: 4   ----  pag: 4
+[INFO] 18:43:31:251 memoria/(9520:9547): Entre en el else
+[INFO] 18:43:31:296 memoria/(9520:9547): ---------1073741824 en pagina 0---------
+[INFO] 18:43:31:297 memoria/(9520:9547): offset: 0
+[INFO] 18:43:31:298 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:298 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:303 memoria/(9520:9547): hmd->nextAlloc: 24
+[INFO] 18:43:31:304 memoria/(9520:9547): offset: 24
+[INFO] 18:43:31:304 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:304 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:305 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:306 memoria/(9520:9547): hmd->nextAlloc: 36
+[INFO] 18:43:31:307 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:307 memoria/(9520:9547): offset: 4
+[INFO] 18:43:31:307 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:308 memoria/(9520:9547): hmd->prevAlloc: 24
+[INFO] 18:43:31:308 memoria/(9520:9547): hmd->nextAlloc: 48
+[INFO] 18:43:31:308 memoria/(9520:9547): offset: 16
+[INFO] 18:43:31:309 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:309 memoria/(9520:9547): hmd->prevAlloc: 36
+[INFO] 18:43:31:310 memoria/(9520:9547): hmd->nextAlloc: 60
+[INFO] 18:43:31:310 memoria/(9520:9547): offset: 28
+[INFO] 18:43:31:310 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:311 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:311 memoria/(9520:9547): hmd->prevAlloc: 48
+[INFO] 18:43:31:311 memoria/(9520:9547): hmd->nextAlloc: 72
+[INFO] 18:43:31:312 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:312 memoria/(9520:9547): offset: 8
+[INFO] 18:43:31:312 memoria/(9520:9547): nro_pagina: 2
+[INFO] 18:43:31:313 memoria/(9520:9547): hmd->prevAlloc: 60
+[INFO] 18:43:31:313 memoria/(9520:9547): hmd->nextAlloc: 0
+[INFO] 18:43:31:313 memoria/(9520:9547): no hay espacio entre hmd
+
+[INFO] 18:43:31:314 memoria/(9520:9547): posicion_hmd_final: 84
+[INFO] 18:43:31:314 memoria/(9520:9547): direccion_ultimo_hmd: 72
+[INFO] 18:43:31:314 memoria/(9520:9547): sizeeee:  21
+[INFO] 18:43:31:315 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:316 memoria/(9520:9547): paginas a alocar 2
+[INFO] 18:43:31:316 memoria/(9520:9547): i vale: 0   ----  ofset: 8
+[INFO] 18:43:31:316 memoria/(9520:9547): espacio rest vale: 24   ----  tot-acum: 21
+[INFO] 18:43:31:317 memoria/(9520:9547): size vale: 4   ----  pag: 4
+[INFO] 18:43:31:317 memoria/(9520:9547): i vale: 1   ----  ofset: 0
+[INFO] 18:43:31:318 memoria/(9520:9547): espacio rest vale: 32   ----  tot-acum: 0
+[INFO] 18:43:31:318 memoria/(9520:9547): size vale: 4   ----  pag: 4
+[INFO] 18:43:31:318 memoria/(9520:9547): Entre en el else
+[INFO] 18:43:31:360 memoria/(9520:9547): ---------1073741824 en pagina 0---------
+[INFO] 18:43:31:361 memoria/(9520:9547): offset: 0
+[INFO] 18:43:31:361 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:362 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:362 memoria/(9520:9547): hmd->nextAlloc: 24
+[INFO] 18:43:31:362 memoria/(9520:9547): offset: 24
+[INFO] 18:43:31:362 memoria/(9520:9547): nro_pagina: 0
+[INFO] 18:43:31:362 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:367 memoria/(9520:9547): hmd->prevAlloc: 0
+[INFO] 18:43:31:367 memoria/(9520:9547): hmd->nextAlloc: 36
+[INFO] 18:43:31:368 memoria/(9520:9547): ---------1073741824 en pagina 1---------
+[INFO] 18:43:31:368 memoria/(9520:9547): offset: 4
+[INFO] 18:43:31:368 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:369 memoria/(9520:9547): hmd->prevAlloc: 24
+[INFO] 18:43:31:369 memoria/(9520:9547): hmd->nextAlloc: 48
+[INFO] 18:43:31:369 memoria/(9520:9547): offset: 16
+[INFO] 18:43:31:370 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:370 memoria/(9520:9547): hmd->prevAlloc: 36
+[INFO] 18:43:31:371 memoria/(9520:9547): hmd->nextAlloc: 60
+[INFO] 18:43:31:371 memoria/(9520:9547): offset: 28
+[INFO] 18:43:31:371 memoria/(9520:9547): nro_pagina: 1
+[INFO] 18:43:31:372 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:373 memoria/(9520:9547): hmd->prevAlloc: 48
+[INFO] 18:43:31:373 memoria/(9520:9547): hmd->nextAlloc: 72
+[INFO] 18:43:31:374 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:375 memoria/(9520:9547): offset: 8
+[INFO] 18:43:31:375 memoria/(9520:9547): nro_pagina: 2
+[INFO] 18:43:31:376 memoria/(9520:9547): hmd->prevAlloc: 60
+[INFO] 18:43:31:376 memoria/(9520:9547): hmd->nextAlloc: 84
+[INFO] 18:43:31:376 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:377 memoria/(9520:9547): offset: 20
+[INFO] 18:43:31:377 memoria/(9520:9547): nro_pagina: 2
+[INFO] 18:43:31:377 memoria/(9520:9547): hmd->prevAlloc: 72
+[INFO] 18:43:31:378 memoria/(9520:9547): hmd->nextAlloc: 0
+[INFO] 18:43:31:378 memoria/(9520:9547): no hay espacio entre hmd
+
+[INFO] 18:43:31:378 memoria/(9520:9547): posicion_hmd_final: 94
+[INFO] 18:43:31:379 memoria/(9520:9547): direccion_ultimo_hmd: 84
+[INFO] 18:43:31:380 memoria/(9520:9547): sizeeee:  19
+[INFO] 18:43:31:381 memoria/(9520:9547): ---------1073741824 en pagina 2---------
+[INFO] 18:43:31:381 memoria/(9520:9547): El frame es el 2 
+
+[INFO] 18:43:31:382 memoria/(9520:9547): El frame es el 2 
+
+[INFO] 18:43:31:439 memoria/(9520:9547): DISCONNECT!
+[INFO] 18:44:14:774 memoria/(9649:9649): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:44:14:959 memoria/(9649:9649): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:44:14:973 memoria/(9649:9649): ------2---------
+
+[INFO] 18:44:14:979 memoria/(9649:9649): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:44:21:359 memoria/(9649:9649): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:44:21:476 memoria/(9649:9682): HANDSHAKE
+[INFO] 18:44:21:529 memoria/(9649:9682): --------------0-----------
+
+[INFO] 18:44:21:543 memoria/(9649:9682): El frame es el 0 
+
+[INFO] 18:44:21:547 memoria/(9649:9682): Allocando primer mitad del hmd en 0
+
+[INFO] 18:44:21:549 memoria/(9649:9682): El frame es el 1 
+
+[INFO] 18:44:21:550 memoria/(9649:9682): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:44:21:551 memoria/(9649:9682): Cant_frames mayor
+[INFO] 18:44:21:599 memoria/(9649:9682): ---------0 en pagina 0---------
+[INFO] 18:44:21:601 memoria/(9649:9682): offset: 0
+[INFO] 18:44:21:601 memoria/(9649:9682): nro_pagina: 0
+[INFO] 18:44:21:603 memoria/(9649:9682): hmd->prevAlloc: 0
+[INFO] 18:44:21:603 memoria/(9649:9682): hmd->nextAlloc: 24
+[INFO] 18:44:21:604 memoria/(9649:9682): Esta free
+[INFO] 18:44:21:605 memoria/(9649:9682): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:44:21:607 memoria/(9649:9682): ---------0 en pagina 1---------
+[INFO] 18:44:21:608 memoria/(9649:9682): ---------0 en pagina 2---------
+[INFO] 18:44:57:076 memoria/(9777:9777): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:44:57:136 memoria/(9777:9777): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:44:57:139 memoria/(9777:9777): ------2---------
+
+[INFO] 18:44:57:141 memoria/(9777:9777): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:44:59:121 memoria/(9777:9777): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:44:59:239 memoria/(9777:9801): HANDSHAKE
+[INFO] 18:44:59:289 memoria/(9777:9801): --------------0-----------
+
+[INFO] 18:44:59:306 memoria/(9777:9801): El frame es el 0 
+
+[INFO] 18:44:59:309 memoria/(9777:9801): Allocando primer mitad del hmd en 0
+
+[INFO] 18:44:59:311 memoria/(9777:9801): El frame es el 1 
+
+[INFO] 18:44:59:313 memoria/(9777:9801): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:44:59:315 memoria/(9777:9801): Cant_frames mayor
+[INFO] 18:44:59:364 memoria/(9777:9801): ---------2147483648 en pagina 0---------
+[INFO] 18:44:59:365 memoria/(9777:9801): offset: 0
+[INFO] 18:44:59:365 memoria/(9777:9801): nro_pagina: 0
+[INFO] 18:44:59:367 memoria/(9777:9801): hmd->prevAlloc: 0
+[INFO] 18:44:59:367 memoria/(9777:9801): hmd->nextAlloc: 24
+[INFO] 18:44:59:368 memoria/(9777:9801): Esta free
+[INFO] 18:44:59:369 memoria/(9777:9801): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:44:59:370 memoria/(9777:9801): ---------2147483648 en pagina 1---------
+[INFO] 18:44:59:371 memoria/(9777:9801): ---------2147483648 en pagina 2---------
+[INFO] 18:48:16:366 memoria/(10153:10153): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:48:16:443 memoria/(10153:10153): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:48:16:448 memoria/(10153:10153): ------2---------
+
+[INFO] 18:48:16:450 memoria/(10153:10153): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:48:18:205 memoria/(10153:10153): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:48:18:321 memoria/(10153:10177): HANDSHAKE
+[INFO] 18:48:18:374 memoria/(10153:10177): --------------0-----------
+
+[INFO] 18:48:18:387 memoria/(10153:10177): El frame es el 0 
+
+[INFO] 18:48:18:389 memoria/(10153:10177): Allocando primer mitad del hmd en 0
+
+[INFO] 18:48:18:391 memoria/(10153:10177): El frame es el 1 
+
+[INFO] 18:48:18:392 memoria/(10153:10177): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:48:18:394 memoria/(10153:10177): Cant_frames mayor
+[INFO] 18:48:18:444 memoria/(10153:10177): ---------2147483648 en pagina 0---------
+[INFO] 18:48:18:445 memoria/(10153:10177): offset: 0
+[INFO] 18:48:18:447 memoria/(10153:10177): nro_pagina: 0
+[INFO] 18:48:18:449 memoria/(10153:10177): hmd->prevAlloc: 0
+[INFO] 18:48:18:450 memoria/(10153:10177): hmd->nextAlloc: 24
+[INFO] 18:48:18:451 memoria/(10153:10177): Esta free
+[INFO] 18:48:18:451 memoria/(10153:10177): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:48:18:454 memoria/(10153:10177): ---------2147483648 en pagina 1---------
+[INFO] 18:48:18:454 memoria/(10153:10177): ---------2147483648 en pagina 2---------
+[INFO] 18:50:56:414 memoria/(10426:10426): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:50:56:529 memoria/(10426:10426): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:50:56:533 memoria/(10426:10426): ------2---------
+
+[INFO] 18:50:56:537 memoria/(10426:10426): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:50:59:336 memoria/(10426:10426): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:50:59:504 memoria/(10426:10452): HANDSHAKE
+[INFO] 18:50:59:553 memoria/(10426:10452): --------------0-----------
+
+[INFO] 18:50:59:568 memoria/(10426:10452): El frame es el 0 
+
+[INFO] 18:50:59:570 memoria/(10426:10452): Allocando primer mitad del hmd en 0
+
+[INFO] 18:50:59:572 memoria/(10426:10452): El frame es el 1 
+
+[INFO] 18:50:59:573 memoria/(10426:10452): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:50:59:574 memoria/(10426:10452): Cant_frames mayor
+[INFO] 18:50:59:623 memoria/(10426:10452): ---------2550136832 en pagina 0---------
+[INFO] 18:50:59:624 memoria/(10426:10452): offset: 0
+[INFO] 18:50:59:625 memoria/(10426:10452): nro_pagina: 0
+[INFO] 18:50:59:626 memoria/(10426:10452): hmd->prevAlloc: 0
+[INFO] 18:50:59:627 memoria/(10426:10452): hmd->nextAlloc: 24
+[INFO] 18:50:59:627 memoria/(10426:10452): Esta free
+[INFO] 18:50:59:629 memoria/(10426:10452): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:50:59:630 memoria/(10426:10452): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:50:59:631 memoria/(10426:10452): ---------2550136832 en pagina 1---------
+[INFO] 18:50:59:632 memoria/(10426:10452): ---------2550136832 en pagina 2---------
+[INFO] 18:51:59:073 memoria/(10583:10583): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:51:59:155 memoria/(10583:10583): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:51:59:170 memoria/(10583:10583): ------2---------
+
+[INFO] 18:51:59:173 memoria/(10583:10583): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:52:00:370 memoria/(10583:10583): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:52:00:491 memoria/(10583:10607): HANDSHAKE
+[INFO] 18:52:00:542 memoria/(10583:10607): --------------0-----------
+
+[INFO] 18:52:00:558 memoria/(10583:10607): El frame es el 0 
+
+[INFO] 18:52:00:560 memoria/(10583:10607): Allocando primer mitad del hmd en 0
+
+[INFO] 18:52:00:564 memoria/(10583:10607): El frame es el 1 
+
+[INFO] 18:52:00:565 memoria/(10583:10607): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:52:00:567 memoria/(10583:10607): Cant_frames mayor
+[INFO] 18:52:00:616 memoria/(10583:10607): ---------4160749568 en pagina 0---------
+[INFO] 18:52:00:617 memoria/(10583:10607): offset: 0
+[INFO] 18:52:00:618 memoria/(10583:10607): nro_pagina: 0
+[INFO] 18:52:00:619 memoria/(10583:10607): hmd->prevAlloc: 0
+[INFO] 18:52:00:620 memoria/(10583:10607): hmd->nextAlloc: 24
+[INFO] 18:52:00:620 memoria/(10583:10607): Esta free
+[INFO] 18:52:00:621 memoria/(10583:10607): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:52:00:624 memoria/(10583:10607): ---------4160749568 en pagina 1---------
+[INFO] 18:52:00:624 memoria/(10583:10607): ---------4160749568 en pagina 2---------
+[INFO] 18:55:35:860 memoria/(10924:10924): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:55:35:932 memoria/(10924:10924): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:55:35:935 memoria/(10924:10924): ------2---------
+
+[INFO] 18:55:35:946 memoria/(10924:10924): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:55:37:104 memoria/(10924:10924): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:55:37:243 memoria/(10924:10948): HANDSHAKE
+[INFO] 18:55:37:294 memoria/(10924:10948): --------------0-----------
+
+[INFO] 18:55:37:310 memoria/(10924:10948): El frame es el 0 
+
+[INFO] 18:55:37:313 memoria/(10924:10948): Allocando primer mitad del hmd en 0
+
+[INFO] 18:55:37:316 memoria/(10924:10948): El frame es el 1 
+
+[INFO] 18:55:37:316 memoria/(10924:10948): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:55:37:317 memoria/(10924:10948): Cant_frames mayor
+[INFO] 18:55:37:368 memoria/(10924:10948): ---------4160749568 en pagina 0---------
+[INFO] 18:55:37:370 memoria/(10924:10948): offset: 0
+[INFO] 18:55:37:371 memoria/(10924:10948): nro_pagina: 0
+[INFO] 18:55:37:373 memoria/(10924:10948): hmd->prevAlloc: 0
+[INFO] 18:55:37:374 memoria/(10924:10948): hmd->nextAlloc: 24
+[INFO] 18:55:37:375 memoria/(10924:10948): Esta free
+[INFO] 18:55:37:376 memoria/(10924:10948): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:55:37:379 memoria/(10924:10948): ---------4160749568 en pagina 1---------
+[INFO] 18:55:37:380 memoria/(10924:10948): ---------4160749568 en pagina 1---------
+[INFO] 18:55:37:381 memoria/(10924:10948): ---------4160749568 en pagina 1---------
+[INFO] 18:55:37:382 memoria/(10924:10948): ---------4160749568 en pagina 1---------
+[INFO] 18:55:37:383 memoria/(10924:10948): hay espacio entre hmd
+[INFO] 18:55:37:384 memoria/(10924:10948): Cant_frames mayor
+[INFO] 18:55:37:446 memoria/(10924:10948): DISCONNECT!
+[INFO] 18:55:58:633 memoria/(10924:10924): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:55:58:731 memoria/(10924:10986): HANDSHAKE
+[INFO] 18:55:58:777 memoria/(10924:10986): --------------32-----------
+
+[INFO] 18:55:58:778 memoria/(10924:10986): El frame es el 32 
+
+[INFO] 18:55:58:778 memoria/(10924:10986): Allocando primer mitad del hmd en 32
+
+[INFO] 18:55:58:779 memoria/(10924:10986): El frame es el 33 
+
+[INFO] 18:55:58:779 memoria/(10924:10986): Allocando segunda mitad del hmd en 33
+
+[INFO] 18:55:58:780 memoria/(10924:10986): Cant_frames mayor
+[INFO] 18:55:58:824 memoria/(10924:10986): ---------536870912 en pagina 0---------
+[INFO] 18:55:58:825 memoria/(10924:10986): offset: 0
+[INFO] 18:55:58:825 memoria/(10924:10986): nro_pagina: 0
+[INFO] 18:55:58:825 memoria/(10924:10986): hmd->prevAlloc: 0
+[INFO] 18:55:58:825 memoria/(10924:10986): hmd->nextAlloc: 24
+[INFO] 18:55:58:826 memoria/(10924:10986): Esta free
+[INFO] 18:55:58:826 memoria/(10924:10986): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:55:58:827 memoria/(10924:10986): ---------536870912 en pagina 1---------
+[INFO] 18:55:58:827 memoria/(10924:10986): ---------536870912 en pagina 1---------
+[INFO] 18:55:58:827 memoria/(10924:10986): ---------536870912 en pagina 1---------
+[INFO] 18:55:58:828 memoria/(10924:10986): ---------536870912 en pagina 1---------
+[INFO] 18:55:58:828 memoria/(10924:10986): hay espacio entre hmd
+[INFO] 18:55:58:828 memoria/(10924:10986): Cant_frames mayor
+[INFO] 18:55:58:892 memoria/(10924:10986): DISCONNECT!
+[INFO] 18:56:19:221 memoria/(11045:11045): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:56:19:281 memoria/(11045:11045): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:56:19:283 memoria/(11045:11045): ------2---------
+
+[INFO] 18:56:19:286 memoria/(11045:11045): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:56:22:851 memoria/(11045:11045): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:56:22:983 memoria/(11045:11069): HANDSHAKE
+[INFO] 18:56:23:034 memoria/(11045:11069): --------------0-----------
+
+[INFO] 18:56:23:050 memoria/(11045:11069): El frame es el 0 
+
+[INFO] 18:56:23:054 memoria/(11045:11069): Allocando primer mitad del hmd en 0
+
+[INFO] 18:56:23:057 memoria/(11045:11069): El frame es el 1 
+
+[INFO] 18:56:23:058 memoria/(11045:11069): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:56:23:060 memoria/(11045:11069): Cant_frames mayor
+[INFO] 18:56:23:108 memoria/(11045:11069): ---------2147483648 en pagina 0---------
+[INFO] 18:56:23:109 memoria/(11045:11069): offset: 0
+[INFO] 18:56:23:110 memoria/(11045:11069): nro_pagina: 0
+[INFO] 18:56:23:112 memoria/(11045:11069): hmd->prevAlloc: 0
+[INFO] 18:56:23:112 memoria/(11045:11069): hmd->nextAlloc: 24
+[INFO] 18:56:23:113 memoria/(11045:11069): Esta free
+[INFO] 18:56:23:114 memoria/(11045:11069): sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:56:23:116 memoria/(11045:11069): ---------2147483648 en pagina 1---------
+[INFO] 18:56:23:117 memoria/(11045:11069): ---------2147483648 en pagina 1---------
+[INFO] 18:56:23:119 memoria/(11045:11069): ---------2147483648 en pagina 1---------
+[INFO] 18:56:23:120 memoria/(11045:11069): ---------2147483648 en pagina 1---------
+[INFO] 18:56:23:122 memoria/(11045:11069): hay espacio entre hmd
+[INFO] 18:56:23:122 memoria/(11045:11069): Cant_frames mayor
+[INFO] 18:56:23:182 memoria/(11045:11069): DISCONNECT!
+[INFO] 18:58:19:000 memoria/(11231:11231): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:58:19:072 memoria/(11231:11231): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:58:19:082 memoria/(11231:11231): ------2---------
+
+[INFO] 18:58:19:086 memoria/(11231:11231): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:58:20:855 memoria/(11231:11231): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:58:20:990 memoria/(11231:11258): HANDSHAKE
+[INFO] 18:58:21:042 memoria/(11231:11258): --------------0-----------
+
+[INFO] 18:58:21:063 memoria/(11231:11258): El frame es el 0 
+
+[INFO] 18:58:21:065 memoria/(11231:11258): Allocando primer mitad del hmd en 0
+
+[INFO] 18:58:21:068 memoria/(11231:11258): El frame es el 1 
+
+[INFO] 18:58:21:068 memoria/(11231:11258): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:58:21:072 memoria/(11231:11258): Cant_frames mayor
+[INFO] 18:58:21:126 memoria/(11231:11258): ---------4026531840 en pagina 0---------
+[INFO] 18:58:21:127 memoria/(11231:11258): offset: 0
+[INFO] 18:58:21:128 memoria/(11231:11258): nro_pagina: 0
+[INFO] 18:58:21:130 memoria/(11231:11258): hmd->prevAlloc: 0
+[INFO] 18:58:21:131 memoria/(11231:11258): hmd->nextAlloc: 24
+[INFO] 18:58:21:132 memoria/(11231:11258): Esta free
+[INFO] 18:58:21:133 memoria/(11231:11258): 1sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:58:21:135 memoria/(11231:11258): ---------4026531840 en pagina 1---------
+[INFO] 18:58:21:138 memoria/(11231:11258): 2sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:58:21:143 memoria/(11231:11258): ---------4026531840 en pagina 1---------
+[INFO] 18:58:21:144 memoria/(11231:11258): ---------4026531840 en pagina 1---------
+[INFO] 18:58:21:146 memoria/(11231:11258): 3sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:58:21:146 memoria/(11231:11258): ---------4026531840 en pagina 1---------
+[INFO] 18:58:21:147 memoria/(11231:11258): 4sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:58:21:148 memoria/(11231:11258): hay espacio entre hmd
+[INFO] 18:58:21:148 memoria/(11231:11258): Cant_frames mayor
+[INFO] 18:58:21:218 memoria/(11231:11258): DISCONNECT!
+[INFO] 18:59:20:475 memoria/(11350:11350): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:59:20:549 memoria/(11350:11350): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:59:20:553 memoria/(11350:11350): ------2---------
+
+[INFO] 18:59:20:567 memoria/(11350:11350): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:59:22:118 memoria/(11350:11350): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:59:22:265 memoria/(11350:11374): HANDSHAKE
+[INFO] 18:59:22:318 memoria/(11350:11374): --------------0-----------
+
+[INFO] 18:59:22:334 memoria/(11350:11374): El frame es el 0 
+
+[INFO] 18:59:22:338 memoria/(11350:11374): Allocando primer mitad del hmd en 0
+
+[INFO] 18:59:22:341 memoria/(11350:11374): El frame es el 1 
+
+[INFO] 18:59:22:343 memoria/(11350:11374): Allocando segunda mitad del hmd en 1
+
+[INFO] 18:59:22:345 memoria/(11350:11374): Cant_frames mayor
+[INFO] 18:59:22:392 memoria/(11350:11374): ---------2147483648 en pagina 0---------
+[INFO] 18:59:22:394 memoria/(11350:11374): offset: 0
+[INFO] 18:59:22:395 memoria/(11350:11374): nro_pagina: 0
+[INFO] 18:59:22:397 memoria/(11350:11374): hmd->prevAlloc: 0
+[INFO] 18:59:22:398 memoria/(11350:11374): hmd->nextAlloc: 24
+[INFO] 18:59:22:399 memoria/(11350:11374): Esta free
+[INFO] 18:59:22:400 memoria/(11350:11374): 1sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:59:22:405 memoria/(11350:11374): 2sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:59:22:406 memoria/(11350:11374): ---------2147483648 en pagina 1---------
+[INFO] 18:59:22:408 memoria/(11350:11374): ---------2147483648 en pagina 1---------
+[INFO] 18:59:22:409 memoria/(11350:11374): 3sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:59:22:410 memoria/(11350:11374): ---------2147483648 en pagina 1---------
+[INFO] 18:59:22:411 memoria/(11350:11374): 4sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 18:59:22:412 memoria/(11350:11374): hay espacio entre hmd
+[INFO] 18:59:22:412 memoria/(11350:11374): Cant_frames mayor
+[INFO] 18:59:22:524 memoria/(11350:11374): DISCONNECT!
+[INFO] 19:06:16:736 memoria/(11748:11748): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:06:16:806 memoria/(11748:11748): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:06:16:809 memoria/(11748:11748): ------2---------
+
+[INFO] 19:06:16:811 memoria/(11748:11748): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:06:18:436 memoria/(11748:11748): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:06:18:581 memoria/(11748:11772): HANDSHAKE
+[INFO] 19:06:18:635 memoria/(11748:11772): --------------0-----------
+
+[INFO] 19:06:18:648 memoria/(11748:11772): El frame es el 0 
+
+[INFO] 19:06:18:652 memoria/(11748:11772): Allocando primer mitad del hmd en 0
+
+[INFO] 19:06:18:656 memoria/(11748:11772): El frame es el 1 
+
+[INFO] 19:06:18:657 memoria/(11748:11772): Allocando segunda mitad del hmd en 1
+
+[INFO] 19:06:18:659 memoria/(11748:11772): Cant_frames mayor
+[INFO] 19:06:18:708 memoria/(11748:11772): ---------2013265920 en pagina 0---------
+[INFO] 19:06:18:709 memoria/(11748:11772): offset: 0
+[INFO] 19:06:18:710 memoria/(11748:11772): nro_pagina: 0
+[INFO] 19:06:18:712 memoria/(11748:11772): hmd->prevAlloc: 0
+[INFO] 19:06:18:713 memoria/(11748:11772): hmd->nextAlloc: 24
+[INFO] 19:06:18:714 memoria/(11748:11772): Esta free
+[INFO] 19:06:18:716 memoria/(11748:11772): 1sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:06:18:717 memoria/(11748:11772): offset: 0
+[INFO] 19:06:18:723 memoria/(11748:11772): 2sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:06:18:723 memoria/(11748:11772): offset: 12
+[INFO] 19:06:18:724 memoria/(11748:11772): ---------2013265920 en pagina 1---------
+[INFO] 19:06:18:726 memoria/(11748:11772): ---------2013265920 en pagina 1---------
+[INFO] 19:06:18:727 memoria/(11748:11772): 3sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:06:18:727 memoria/(11748:11772): offset: 24
+[INFO] 19:06:18:728 memoria/(11748:11772): ---------2013265920 en pagina 1---------
+[INFO] 19:06:18:728 memoria/(11748:11772): 4sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:06:18:729 memoria/(11748:11772): hay espacio entre hmd
+[INFO] 19:06:18:730 memoria/(11748:11772): Cant_frames mayor
+[INFO] 19:06:18:797 memoria/(11748:11772): DISCONNECT!
+[INFO] 19:08:19:724 memoria/(11907:11907): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:08:19:824 memoria/(11907:11907): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:08:19:834 memoria/(11907:11907): ------2---------
+
+[INFO] 19:08:19:836 memoria/(11907:11907): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:08:21:645 memoria/(11907:11907): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:08:21:862 memoria/(11907:11931): HANDSHAKE
+[INFO] 19:08:21:923 memoria/(11907:11931): --------------0-----------
+
+[INFO] 19:08:21:945 memoria/(11907:11931): El frame es el 0 
+
+[INFO] 19:08:21:948 memoria/(11907:11931): Allocando primer mitad del hmd en 0
+
+[INFO] 19:08:21:952 memoria/(11907:11931): El frame es el 1 
+
+[INFO] 19:08:21:958 memoria/(11907:11931): Allocando segunda mitad del hmd en 1
+
+[INFO] 19:08:21:962 memoria/(11907:11931): Cant_frames mayor
+[INFO] 19:08:21:971 memoria/(11907:11931): ---------1610612736 en pagina 0---------
+[INFO] 19:08:21:973 memoria/(11907:11931): offset: 0
+[INFO] 19:08:21:974 memoria/(11907:11931): nro_pagina: 0
+[INFO] 19:08:21:979 memoria/(11907:11931): hmd->prevAlloc: 0
+[INFO] 19:08:21:980 memoria/(11907:11931): hmd->nextAlloc: 24
+[INFO] 19:08:21:987 memoria/(11907:11931): Esta free
+[INFO] 19:08:21:991 memoria/(11907:11931): 1sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:08:21:995 memoria/(11907:11931): offset: 0
+[INFO] 19:08:21:997 memoria/(11907:11931): pag: 1
+[INFO] 19:08:21:999 memoria/(11907:11931): 2sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:08:22:001 memoria/(11907:11931): offset: 12
+[INFO] 19:08:22:002 memoria/(11907:11931): pag: 2
+[INFO] 19:08:22:003 memoria/(11907:11931): ---------1610612736 en pagina 1---------
+[INFO] 19:08:22:006 memoria/(11907:11931): ---------1610612736 en pagina 1---------
+[INFO] 19:08:22:012 memoria/(11907:11931): 3sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:08:22:017 memoria/(11907:11931): offset: 24
+[INFO] 19:08:22:019 memoria/(11907:11931): pag: 2
+[INFO] 19:08:22:020 memoria/(11907:11931): ---------1610612736 en pagina 1---------
+[INFO] 19:08:22:022 memoria/(11907:11931): 4sssssssssssssssssssssssssssssssssssssssssssssssssss
+[INFO] 19:08:22:031 memoria/(11907:11931): hay espacio entre hmd
+[INFO] 19:08:22:032 memoria/(11907:11931): Cant_frames mayor
+[INFO] 19:08:22:132 memoria/(11907:11931): DISCONNECT!

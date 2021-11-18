@@ -47,7 +47,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
     if(nro_pagina == 0){
         hmd->prevAlloc = (int) NULL;
         hmd->nextAlloc = sizeof(hmd_t) + *size_rest;
-        hmd->isFree = false;
+        hmd->isFree = true;
 
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd, sizeof(hmd_t));
@@ -137,7 +137,12 @@ uint32_t cant_paginas_relativa(uint32_t posicion, size_t size){
     size_t rem;
     uint32_t t_pag = MEMORIA_CFG->TAMANIO_PAGINA;
     rem = (size + posicion) % t_pag;
-    return (rem) ? size/t_pag + 1 : size/t_pag;
+    int cant_paginas = (rem) ? size/t_pag + 1 : size/t_pag;
+    if(posicion + size > MEMORIA_CFG->TAMANIO_PAGINA) {
+        cant_paginas++;
+    }
+    
+    return cant_paginas;
 }
 
 void lectura_memcpy_size(uint32_t nro_frame, uint32_t offset, void* destino, size_t size){
