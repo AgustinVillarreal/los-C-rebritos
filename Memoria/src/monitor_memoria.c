@@ -51,7 +51,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
     if(nro_pagina == 0){
         hmd->prevAlloc = (int) NULL;
         hmd->nextAlloc = sizeof(hmd_t) + *size_rest;
-        hmd->isFree = true;
+        hmd->isFree = false;
 
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd, sizeof(hmd_t));

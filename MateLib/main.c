@@ -59,13 +59,13 @@ int main(int argc, char *argv[])
   
   printf("1 %d\n",mate_memalloc(&mate_ref, 80)); 
   printf("2 %d\n",mate_memalloc(&mate_ref, 14));
-  printf("3 %d\n",mate_memalloc(&mate_ref, 8));
-  printf("4 %d\n",mate_memalloc(&mate_ref, 13));
-  printf("5 %d\n",mate_memalloc(&mate_ref, 1));
-  printf("7 %d\n",mate_memalloc(&mate_ref, 8));
-  printf("6 %d\n",mate_memalloc(&mate_ref, 24));
-  printf("8 %d\n",mate_memalloc(&mate_ref, 4));
-  printf("9 %d\n",mate_memalloc(&mate_ref, 81));
+  // printf("3 %d\n",mate_memalloc(&mate_ref, 8));
+  // printf("4 %d\n",mate_memalloc(&mate_ref, 13));
+  // printf("5 %d\n",mate_memalloc(&mate_ref, 1));
+  // printf("6 %d\n",mate_memalloc(&mate_ref, 24));
+  // printf("7 %d\n",mate_memalloc(&mate_ref, 8));
+  // printf("8 %d\n",mate_memalloc(&mate_ref, 4));
+  // printf("9 %d\n",mate_memalloc(&mate_ref, 81));
   
 
   

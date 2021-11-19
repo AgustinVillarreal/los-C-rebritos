@@ -1,637 +1,814 @@
-[INFO] 12:02:31:689 memoria/(10841:10841): CONFIGURACION CARGADA EXITOSAMENTE
-[INFO] 12:02:31:765 memoria/(10841:10841): Cliente conectado en 127.0.0.3:5005 (a Server)
+[INFO] 18:52:40:600 memoria/(17240:17240): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:52:40:735 memoria/(17240:17240): Cliente conectado en 127.0.0.3:5005 (a Server)
 
-[INFO] 12:02:31:768 memoria/(10841:10841): ------2---------
+[INFO] 18:52:40:742 memoria/(17240:17240): ------2---------
 
-[INFO] 12:02:31:770 memoria/(10841:10841): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+[INFO] 18:52:40:748 memoria/(17240:17240): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
 
-[INFO] 12:02:33:647 memoria/(10841:10841): Cliente conectado (a MEMORIA_SERVER)
+[INFO] 18:52:43:303 memoria/(17240:17240): Cliente conectado (a MEMORIA_SERVER)
 
-[INFO] 12:02:33:816 memoria/(10841:10862): HANDSHAKE
-[INFO] 12:02:33:876 memoria/(10841:10862): Alocando size: 80 del carpincho: 3489660928
-[INFO] 12:02:33:884 memoria/(10841:10862): El frame es el 0 
+[INFO] 18:52:43:489 memoria/(17240:17272): HANDSHAKE
+[INFO] 18:52:43:560 memoria/(17240:17272): Alocando size: 80 del carpincho: 3489660928
+[INFO] 18:52:43:593 memoria/(17240:17272): El frame es el 0 
 
-[INFO] 12:02:33:904 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   0
-[INFO] 12:02:33:906 memoria/(10841:10862): fffffffffffffffff-----fffffff   0
-[INFO] 12:02:33:928 memoria/(10841:10862): El frame es el 1 
+[INFO] 18:52:43:599 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   0
+[INFO] 18:52:43:600 memoria/(17240:17272): fffffffffffffffff-----fffffff   0
+[INFO] 18:52:43:603 memoria/(17240:17272): El frame es el 1 
 
-[INFO] 12:02:33:929 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   1
-[INFO] 12:02:33:930 memoria/(10841:10862): fffffffffffffffff-----fffffff   1
-[INFO] 12:02:33:932 memoria/(10841:10862): El frame es el 2 
+[INFO] 18:52:43:604 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   1
+[INFO] 18:52:43:605 memoria/(17240:17272): fffffffffffffffff-----fffffff   1
+[INFO] 18:52:43:606 memoria/(17240:17272): El frame es el 2 
 
-[INFO] 12:02:33:933 memoria/(10841:10862): Allocando primer mitad del hmd en 2
+[INFO] 18:52:43:606 memoria/(17240:17272): Allocando primer mitad del hmd en 2
 
-[INFO] 12:02:33:935 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   2
-[INFO] 12:02:33:935 memoria/(10841:10862): fffffffffffffffff-----fffffff   2
-[INFO] 12:02:33:938 memoria/(10841:10862): El frame es el 3 
+[INFO] 18:52:43:609 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   2
+[INFO] 18:52:43:610 memoria/(17240:17272): fffffffffffffffff-----fffffff   2
+[INFO] 18:52:43:612 memoria/(17240:17272): El frame es el 3 
 
-[INFO] 12:02:33:939 memoria/(10841:10862): Allocando segunda mitad del hmd en 3
+[INFO] 18:52:43:613 memoria/(17240:17272): Allocando segunda mitad del hmd en 3
 
-[INFO] 12:02:33:941 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   3
-[INFO] 12:02:33:942 memoria/(10841:10862): fffffffffffffffff-----fffffff   3
-[INFO] 12:02:33:942 memoria/(10841:10862): Cant_frames mayor
-[INFO] 12:02:33:946 memoria/(10841:10862): Alocando size: 14 del carpincho: 3489660928
-[INFO] 12:02:33:951 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:33:961 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:33:972 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:33:973 memoria/(10841:10862): offset: 0
-[INFO] 12:02:33:974 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:33:975 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:33:981 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:33:982 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:33:990 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:33:991 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:33:992 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:33:996 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:33:997 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:33:997 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:021 memoria/(10841:10862): Estoy en entra_hmd, (resta_reloca) >= 9: 1  || espacio_libre == size: 0
-[INFO] 12:02:34:025 memoria/(10841:10862): Esta free
-[INFO] 12:02:34:026 memoria/(10841:10862): nA: 89 --- dhmd: 0
-[INFO] 12:02:34:030 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:031 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:032 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:033 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:034 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:035 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:035 memoria/(10841:10862): size_acum: 7
-[INFO] 12:02:34:035 memoria/(10841:10862): -----next-alloc---0
-[INFO] 12:02:34:037 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:039 memoria/(10841:10862): hay espacio entre hmd
-[INFO] 12:02:34:041 memoria/(10841:10862): Cant_frames mayor
-[INFO] 12:02:34:042 memoria/(10841:10862): Alocando size: 8 del carpincho: 3489660928
-[INFO] 12:02:34:044 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:34:044 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:34:045 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:045 memoria/(10841:10862): offset: 0
-[INFO] 12:02:34:046 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:046 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:047 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:054 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:055 memoria/(10841:10862): -----next-alloc---23
-[INFO] 12:02:34:055 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:055 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:056 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:34:057 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:057 memoria/(10841:10862): hmd->nextAlloc: 23
-[INFO] 12:02:34:058 memoria/(10841:10862): direccion_hmd: 23
-[INFO] 12:02:34:058 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:059 memoria/(10841:10862): offset: 23
-[INFO] 12:02:34:059 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:059 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:061 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:061 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:061 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:34:062 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:062 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:063 memoria/(10841:10862): -----offset---23
-[INFO] 12:02:34:063 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:063 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:064 memoria/(10841:10862): Estoy en entra_hmd, (resta_reloca) >= 9: 1  || espacio_libre == size: 0
-[INFO] 12:02:34:064 memoria/(10841:10862): Esta free
-[INFO] 12:02:34:065 memoria/(10841:10862): nA: 89 --- dhmd: 23
-[INFO] 12:02:34:066 memoria/(10841:10862): ---------3489660928 en pagina 1---------
-[INFO] 12:02:34:067 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:067 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:068 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:073 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:074 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:074 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:075 memoria/(10841:10862): size_acum: 7
-[INFO] 12:02:34:075 memoria/(10841:10862): -----next-alloc---0
-[INFO] 12:02:34:077 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:083 memoria/(10841:10862): hay espacio entre hmd
-[INFO] 12:02:34:083 memoria/(10841:10862): Cant_frames mayor
-[INFO] 12:02:34:085 memoria/(10841:10862): Alocando size: 13 del carpincho: 3489660928
-[INFO] 12:02:34:086 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:34:088 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:34:089 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:089 memoria/(10841:10862): offset: 0
-[INFO] 12:02:34:089 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:090 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:090 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:091 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:091 memoria/(10841:10862): -----next-alloc---23
-[INFO] 12:02:34:092 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:092 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:093 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:34:093 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:093 memoria/(10841:10862): hmd->nextAlloc: 23
-[INFO] 12:02:34:094 memoria/(10841:10862): direccion_hmd: 23
-[INFO] 12:02:34:094 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:095 memoria/(10841:10862): offset: 23
-[INFO] 12:02:34:095 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:096 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:096 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:097 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:097 memoria/(10841:10862): -----next-alloc---40
-[INFO] 12:02:34:097 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:098 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:098 memoria/(10841:10862): -----offset---23
-[INFO] 12:02:34:099 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:099 memoria/(10841:10862): hmd->nextAlloc: 40
-[INFO] 12:02:34:099 memoria/(10841:10862): direccion_hmd: 40
-[INFO] 12:02:34:100 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:102 memoria/(10841:10862): ---------3489660928 en pagina 1---------
-[INFO] 12:02:34:102 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:128 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:128 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:128 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:129 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:131 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:34:132 memoria/(10841:10862): -----nro_frame---1
-[INFO] 12:02:34:133 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:133 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:134 memoria/(10841:10862): hmd->prevAlloc: 23
-[INFO] 12:02:34:134 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:134 memoria/(10841:10862): Estoy en entra_hmd, (resta_reloca) >= 9: 1  || espacio_libre == size: 0
-[INFO] 12:02:34:135 memoria/(10841:10862): Esta free
-[INFO] 12:02:34:135 memoria/(10841:10862): nA: 89 --- dhmd: 40
-[INFO] 12:02:34:136 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:138 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:139 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:139 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:139 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:149 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:150 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:150 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:151 memoria/(10841:10862): size_acum: 7
-[INFO] 12:02:34:151 memoria/(10841:10862): -----next-alloc---0
-[INFO] 12:02:34:152 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:153 memoria/(10841:10862): hay espacio entre hmd
-[INFO] 12:02:34:154 memoria/(10841:10862): Cant_frames mayor
-[INFO] 12:02:34:155 memoria/(10841:10862): Alocando size: 1 del carpincho: 3489660928
-[INFO] 12:02:34:158 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:34:158 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:34:158 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:159 memoria/(10841:10862): offset: 0
-[INFO] 12:02:34:159 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:160 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:161 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:162 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:162 memoria/(10841:10862): -----next-alloc---23
-[INFO] 12:02:34:163 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:163 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:163 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:34:164 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:164 memoria/(10841:10862): hmd->nextAlloc: 23
-[INFO] 12:02:34:165 memoria/(10841:10862): direccion_hmd: 23
-[INFO] 12:02:34:165 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:167 memoria/(10841:10862): offset: 23
-[INFO] 12:02:34:167 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:167 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:168 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:168 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:169 memoria/(10841:10862): -----next-alloc---40
-[INFO] 12:02:34:169 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:176 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:176 memoria/(10841:10862): -----offset---23
-[INFO] 12:02:34:176 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:177 memoria/(10841:10862): hmd->nextAlloc: 40
-[INFO] 12:02:34:177 memoria/(10841:10862): direccion_hmd: 40
-[INFO] 12:02:34:178 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:178 memoria/(10841:10862): ---------3489660928 en pagina 1---------
-[INFO] 12:02:34:179 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:180 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:181 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:181 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:181 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:186 memoria/(10841:10862): -----next-alloc---62
-[INFO] 12:02:34:187 memoria/(10841:10862): -----nro_frame---1
-[INFO] 12:02:34:188 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:189 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:189 memoria/(10841:10862): hmd->prevAlloc: 23
-[INFO] 12:02:34:189 memoria/(10841:10862): hmd->nextAlloc: 62
-[INFO] 12:02:34:190 memoria/(10841:10862): direccion_hmd: 62
-[INFO] 12:02:34:190 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:191 memoria/(10841:10862): offset: 30
-[INFO] 12:02:34:192 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:192 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:193 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:193 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:193 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:194 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:195 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:195 memoria/(10841:10862): size_acum: 2
-[INFO] 12:02:34:196 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:34:196 memoria/(10841:10862): hmd->prevAlloc: 40
-[INFO] 12:02:34:197 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:197 memoria/(10841:10862): Estoy en entra_hmd, (resta_reloca) >= 9: 1  || espacio_libre == size: 0
-[INFO] 12:02:34:197 memoria/(10841:10862): Esta free
-[INFO] 12:02:34:198 memoria/(10841:10862): nA: 89 --- dhmd: 62
-[INFO] 12:02:34:199 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:205 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:207 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:208 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:209 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:209 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:210 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:211 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:211 memoria/(10841:10862): size_acum: 7
-[INFO] 12:02:34:212 memoria/(10841:10862): -----next-alloc---0
-[INFO] 12:02:34:212 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:213 memoria/(10841:10862): hay espacio entre hmd
-[INFO] 12:02:34:213 memoria/(10841:10862): Cant_frames mayor
-[INFO] 12:02:34:214 memoria/(10841:10862): Alocando size: 8 del carpincho: 3489660928
-[INFO] 12:02:34:216 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:34:216 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:34:216 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:240 memoria/(10841:10862): offset: 0
-[INFO] 12:02:34:240 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:240 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:241 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:241 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:241 memoria/(10841:10862): -----next-alloc---23
-[INFO] 12:02:34:241 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:241 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:242 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:34:242 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:242 memoria/(10841:10862): hmd->nextAlloc: 23
-[INFO] 12:02:34:242 memoria/(10841:10862): direccion_hmd: 23
-[INFO] 12:02:34:253 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:254 memoria/(10841:10862): offset: 23
-[INFO] 12:02:34:255 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:255 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:256 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:256 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:257 memoria/(10841:10862): -----next-alloc---40
-[INFO] 12:02:34:257 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:257 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:258 memoria/(10841:10862): -----offset---23
-[INFO] 12:02:34:258 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:259 memoria/(10841:10862): hmd->nextAlloc: 40
-[INFO] 12:02:34:259 memoria/(10841:10862): direccion_hmd: 40
-[INFO] 12:02:34:261 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:262 memoria/(10841:10862): ---------3489660928 en pagina 1---------
-[INFO] 12:02:34:262 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:262 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:263 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:263 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:264 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:264 memoria/(10841:10862): -----next-alloc---62
-[INFO] 12:02:34:265 memoria/(10841:10862): -----nro_frame---1
-[INFO] 12:02:34:265 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:266 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:266 memoria/(10841:10862): hmd->prevAlloc: 23
-[INFO] 12:02:34:266 memoria/(10841:10862): hmd->nextAlloc: 62
-[INFO] 12:02:34:267 memoria/(10841:10862): direccion_hmd: 62
-[INFO] 12:02:34:268 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:268 memoria/(10841:10862): offset: 30
-[INFO] 12:02:34:269 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:269 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:269 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:270 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:271 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:272 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:273 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:273 memoria/(10841:10862): size_acum: 2
-[INFO] 12:02:34:336 memoria/(10841:10862): -----next-alloc---72
-[INFO] 12:02:34:338 memoria/(10841:10862): hmd->prevAlloc: 40
-[INFO] 12:02:34:338 memoria/(10841:10862): hmd->nextAlloc: 72
-[INFO] 12:02:34:339 memoria/(10841:10862): direccion_hmd: 72
-[INFO] 12:02:34:339 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:339 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:339 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:340 memoria/(10841:10862): nro_pagina: 2
-[INFO] 12:02:34:340 memoria/(10841:10862): entrada nro_pagina: 2
-[INFO] 12:02:34:340 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:340 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:340 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:34:340 memoria/(10841:10862): -----nro_frame---2
-[INFO] 12:02:34:341 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:341 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:341 memoria/(10841:10862): hmd->prevAlloc: 62
-[INFO] 12:02:34:341 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:341 memoria/(10841:10862): Estoy en entra_hmd, (resta_reloca) >= 9: 0  || espacio_libre == size: 1
-[INFO] 12:02:34:342 memoria/(10841:10862): Esta free
-[INFO] 12:02:34:342 memoria/(10841:10862): nA: 89 --- dhmd: 72
-[INFO] 12:02:34:343 memoria/(10841:10862): Entre justito con el hmd
-[INFO] 12:02:34:345 memoria/(10841:10862): hay espacio entre hmd
-[INFO] 12:02:34:345 memoria/(10841:10862): Cant_frames mayor
-[INFO] 12:02:34:346 memoria/(10841:10862): Alocando size: 24 del carpincho: 3489660928
-[INFO] 12:02:34:348 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:34:348 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:34:348 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:348 memoria/(10841:10862): offset: 0
-[INFO] 12:02:34:350 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:351 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:351 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:351 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:352 memoria/(10841:10862): -----next-alloc---23
-[INFO] 12:02:34:352 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:353 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:354 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:34:355 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:356 memoria/(10841:10862): hmd->nextAlloc: 23
-[INFO] 12:02:34:356 memoria/(10841:10862): direccion_hmd: 23
-[INFO] 12:02:34:357 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:357 memoria/(10841:10862): offset: 23
-[INFO] 12:02:34:357 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:358 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:358 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:358 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:362 memoria/(10841:10862): -----next-alloc---40
-[INFO] 12:02:34:362 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:362 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:363 memoria/(10841:10862): -----offset---23
-[INFO] 12:02:34:363 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:372 memoria/(10841:10862): hmd->nextAlloc: 40
-[INFO] 12:02:34:372 memoria/(10841:10862): direccion_hmd: 40
-[INFO] 12:02:34:373 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:374 memoria/(10841:10862): ---------3489660928 en pagina 1---------
-[INFO] 12:02:34:374 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:379 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:394 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:397 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:398 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:399 memoria/(10841:10862): -----next-alloc---62
-[INFO] 12:02:34:399 memoria/(10841:10862): -----nro_frame---1
-[INFO] 12:02:34:400 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:400 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:401 memoria/(10841:10862): hmd->prevAlloc: 23
-[INFO] 12:02:34:401 memoria/(10841:10862): hmd->nextAlloc: 62
-[INFO] 12:02:34:402 memoria/(10841:10862): direccion_hmd: 62
-[INFO] 12:02:34:409 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:409 memoria/(10841:10862): offset: 30
-[INFO] 12:02:34:409 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:410 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:411 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:412 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:412 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:413 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:414 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:414 memoria/(10841:10862): size_acum: 2
-[INFO] 12:02:34:415 memoria/(10841:10862): -----next-alloc---72
-[INFO] 12:02:34:415 memoria/(10841:10862): hmd->prevAlloc: 40
-[INFO] 12:02:34:416 memoria/(10841:10862): hmd->nextAlloc: 72
-[INFO] 12:02:34:416 memoria/(10841:10862): direccion_hmd: 72
-[INFO] 12:02:34:417 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:417 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:418 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:418 memoria/(10841:10862): nro_pagina: 2
-[INFO] 12:02:34:418 memoria/(10841:10862): entrada nro_pagina: 2
-[INFO] 12:02:34:419 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:419 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:420 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:34:421 memoria/(10841:10862): -----nro_frame---2
-[INFO] 12:02:34:421 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:422 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:422 memoria/(10841:10862): hmd->prevAlloc: 62
-[INFO] 12:02:34:422 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:423 memoria/(10841:10862): direccion_hmd: 89
-[INFO] 12:02:34:423 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 2
-[INFO] 12:02:34:424 memoria/(10841:10862): offset: 25
-[INFO] 12:02:34:424 memoria/(10841:10862): nro_pagina: 2
-[INFO] 12:02:34:425 memoria/(10841:10862): entrada nro_pagina: 2
-[INFO] 12:02:34:425 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:425 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:426 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:427 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:427 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:427 memoria/(10841:10862): size_acum: 7
-[INFO] 12:02:34:428 memoria/(10841:10862): -----next-alloc---0
-[INFO] 12:02:34:428 memoria/(10841:10862): hmd->prevAlloc: 72
-[INFO] 12:02:34:429 memoria/(10841:10862): hmd->nextAlloc: 0
-[INFO] 12:02:34:429 memoria/(10841:10862): no hay espacio entre hmd
+[INFO] 18:52:43:615 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   3
+[INFO] 18:52:43:615 memoria/(17240:17272): fffffffffffffffff-----fffffff   3
+[INFO] 18:52:43:615 memoria/(17240:17272): Cant_frames mayor
+[INFO] 18:52:43:622 memoria/(17240:17272): Alocando size: 14 del carpincho: 3489660928
+[INFO] 18:52:43:628 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:43:632 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:43:633 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:634 memoria/(17240:17272): offset: 0
+[INFO] 18:52:43:634 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:43:635 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:43:637 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:43:638 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:639 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:43:640 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:43:641 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:641 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:43:642 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:642 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:43:643 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:43:643 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:644 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:43:645 memoria/(17240:17272): offset: 25
+[INFO] 18:52:43:645 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:43:658 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:43:658 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:43:659 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:43:659 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:43:660 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:661 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:43:661 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:43:662 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:43:662 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:662 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:43:663 memoria/(17240:17272): no hay espacio entre hmd
 
-[INFO] 12:02:34:430 memoria/(10841:10862): posicion_hmd_final: 122
-[INFO] 12:02:34:431 memoria/(10841:10862): direccion_ultimo_hmd: 89
-[INFO] 12:02:34:446 memoria/(10841:10862): El frame es el 4 
+[INFO] 18:52:43:664 memoria/(17240:17272): posicion_hmd_final: 112
+[INFO] 18:52:43:664 memoria/(17240:17272): direccion_ultimo_hmd: 89
+[INFO] 18:52:43:667 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:669 memoria/(17240:17272): Entre en el else
+[INFO] 18:52:43:671 memoria/(17240:17272): Alocando size: 8 del carpincho: 3489660928
+[INFO] 18:52:43:674 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:43:676 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:43:686 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:686 memoria/(17240:17272): offset: 0
+[INFO] 18:52:43:686 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:43:686 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:43:686 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:43:687 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:687 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:43:687 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:43:687 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:687 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:43:688 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:688 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:43:688 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:43:688 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:689 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:43:689 memoria/(17240:17272): offset: 25
+[INFO] 18:52:43:689 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:43:689 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:43:689 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:43:690 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:43:690 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:43:690 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:691 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:43:691 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:43:691 memoria/(17240:17272): -----next-alloc---112
+[INFO] 18:52:43:691 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:692 memoria/(17240:17272): hmd->nextAlloc: 112
+[INFO] 18:52:43:692 memoria/(17240:17272): direccion_hmd: 112
+[INFO] 18:52:43:692 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 2
+[INFO] 18:52:43:692 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:693 memoria/(17240:17272): offset: 16
+[INFO] 18:52:43:693 memoria/(17240:17272): nro_pagina: 3
+[INFO] 18:52:43:693 memoria/(17240:17272): entrada nro_pagina: 3
+[INFO] 18:52:43:693 memoria/(17240:17272): ------assw-----3
+[INFO] 18:52:43:693 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:694 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:43:694 memoria/(17240:17272): -----nro_frame---3
+[INFO] 18:52:43:694 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:694 memoria/(17240:17272): -----offset---16
+[INFO] 18:52:43:694 memoria/(17240:17272): hmd->prevAlloc: 89
+[INFO] 18:52:43:695 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:43:695 memoria/(17240:17272): no hay espacio entre hmd
 
-[INFO] 12:02:34:447 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   4
-[INFO] 12:02:34:448 memoria/(10841:10862): fffffffffffffffff-----fffffff   4
-[INFO] 12:02:34:450 memoria/(10841:10862): El frame es el 5 
+[INFO] 18:52:43:695 memoria/(17240:17272): posicion_hmd_final: 129
+[INFO] 18:52:43:695 memoria/(17240:17272): direccion_ultimo_hmd: 112
+[INFO] 18:52:43:696 memoria/(17240:17272): hmd_inicial->isFree: 0
+[INFO] 18:52:43:697 memoria/(17240:17272): cant_paginas_a_allocar: 2
+[INFO] 18:52:43:700 memoria/(17240:17272): El frame es el 4 
 
-[INFO] 12:02:34:451 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   5
-[INFO] 12:02:34:451 memoria/(10841:10862): fffffffffffffffff-----fffffff   5
-[INFO] 12:02:34:453 memoria/(10841:10862): Alocando size: 4 del carpincho: 3489660928
-[INFO] 12:02:34:456 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:34:456 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:34:457 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:458 memoria/(10841:10862): offset: 0
-[INFO] 12:02:34:458 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:458 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:461 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:461 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:461 memoria/(10841:10862): -----next-alloc---23
-[INFO] 12:02:34:462 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:462 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:462 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:34:463 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:463 memoria/(10841:10862): hmd->nextAlloc: 23
-[INFO] 12:02:34:464 memoria/(10841:10862): direccion_hmd: 23
-[INFO] 12:02:34:470 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:471 memoria/(10841:10862): offset: 23
-[INFO] 12:02:34:471 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:472 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:472 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:473 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:473 memoria/(10841:10862): -----next-alloc---40
-[INFO] 12:02:34:474 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:474 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:474 memoria/(10841:10862): -----offset---23
-[INFO] 12:02:34:475 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:475 memoria/(10841:10862): hmd->nextAlloc: 40
-[INFO] 12:02:34:476 memoria/(10841:10862): direccion_hmd: 40
-[INFO] 12:02:34:476 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:477 memoria/(10841:10862): ---------3489660928 en pagina 1---------
-[INFO] 12:02:34:478 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:478 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:478 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:479 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:479 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:480 memoria/(10841:10862): -----next-alloc---62
-[INFO] 12:02:34:484 memoria/(10841:10862): -----nro_frame---1
-[INFO] 12:02:34:485 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:485 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:486 memoria/(10841:10862): hmd->prevAlloc: 23
-[INFO] 12:02:34:486 memoria/(10841:10862): hmd->nextAlloc: 62
-[INFO] 12:02:34:486 memoria/(10841:10862): direccion_hmd: 62
-[INFO] 12:02:34:487 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:487 memoria/(10841:10862): offset: 30
-[INFO] 12:02:34:488 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:488 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:489 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:489 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:489 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:490 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:491 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:491 memoria/(10841:10862): size_acum: 2
-[INFO] 12:02:34:492 memoria/(10841:10862): -----next-alloc---72
-[INFO] 12:02:34:492 memoria/(10841:10862): hmd->prevAlloc: 40
-[INFO] 12:02:34:493 memoria/(10841:10862): hmd->nextAlloc: 72
-[INFO] 12:02:34:493 memoria/(10841:10862): direccion_hmd: 72
-[INFO] 12:02:34:494 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:494 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:495 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:495 memoria/(10841:10862): nro_pagina: 2
-[INFO] 12:02:34:495 memoria/(10841:10862): entrada nro_pagina: 2
-[INFO] 12:02:34:501 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:501 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:502 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:34:502 memoria/(10841:10862): -----nro_frame---2
-[INFO] 12:02:34:503 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:503 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:503 memoria/(10841:10862): hmd->prevAlloc: 62
-[INFO] 12:02:34:504 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:504 memoria/(10841:10862): direccion_hmd: 89
-[INFO] 12:02:34:504 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 2
-[INFO] 12:02:34:505 memoria/(10841:10862): offset: 25
-[INFO] 12:02:34:505 memoria/(10841:10862): nro_pagina: 2
-[INFO] 12:02:34:506 memoria/(10841:10862): entrada nro_pagina: 2
-[INFO] 12:02:34:506 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:507 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:507 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:509 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:510 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:511 memoria/(10841:10862): size_acum: 7
-[INFO] 12:02:34:511 memoria/(10841:10862): -----next-alloc---122
-[INFO] 12:02:34:512 memoria/(10841:10862): hmd->prevAlloc: 72
-[INFO] 12:02:34:513 memoria/(10841:10862): hmd->nextAlloc: 122
-[INFO] 12:02:34:513 memoria/(10841:10862): Estoy en entra_hmd, (resta_reloca) >= 9: 1  || espacio_libre == size: 0
-[INFO] 12:02:34:513 memoria/(10841:10862): Esta free
-[INFO] 12:02:34:514 memoria/(10841:10862): nA: 122 --- dhmd: 89
-[INFO] 12:02:34:515 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:516 memoria/(10841:10862): ---------3489660928 en pagina 4---------
-[INFO] 12:02:34:517 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:517 memoria/(10841:10862): ------assw-----3
-[INFO] 12:02:34:518 memoria/(10841:10862): size_a_leer: 6
-[INFO] 12:02:34:518 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:519 memoria/(10841:10862): ---------3489660928 en pagina 4---------
-[INFO] 12:02:34:519 memoria/(10841:10862): size_a_leer: 3
-[INFO] 12:02:34:520 memoria/(10841:10862): size_acum: 6
-[INFO] 12:02:34:520 memoria/(10841:10862): -----next-alloc---0
-[INFO] 12:02:34:522 memoria/(10841:10862): ---------3489660928 en pagina 4---------
-[INFO] 12:02:34:522 memoria/(10841:10862): ---------3489660928 en pagina 5---------
-[INFO] 12:02:34:523 memoria/(10841:10862): hay espacio entre hmd
-[INFO] 12:02:34:523 memoria/(10841:10862): Cant_frames mayor
-[INFO] 12:02:34:532 memoria/(10841:10862): Alocando size: 81 del carpincho: 3489660928
-[INFO] 12:02:34:537 memoria/(10841:10862): ---------3489660928 en pagina 0---------
-[INFO] 12:02:34:538 memoria/(10841:10862): direccion_hmd: 0
-[INFO] 12:02:34:538 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:539 memoria/(10841:10862): offset: 0
-[INFO] 12:02:34:539 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:540 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:541 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:541 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:541 memoria/(10841:10862): -----next-alloc---23
-[INFO] 12:02:34:542 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:542 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:543 memoria/(10841:10862): -----offset---0
-[INFO] 12:02:34:543 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:543 memoria/(10841:10862): hmd->nextAlloc: 23
-[INFO] 12:02:34:544 memoria/(10841:10862): direccion_hmd: 23
-[INFO] 12:02:34:544 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:545 memoria/(10841:10862): offset: 23
-[INFO] 12:02:34:545 memoria/(10841:10862): nro_pagina: 0
-[INFO] 12:02:34:547 memoria/(10841:10862): entrada nro_pagina: 0
-[INFO] 12:02:34:547 memoria/(10841:10862): ------assw-----0
-[INFO] 12:02:34:547 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:548 memoria/(10841:10862): -----next-alloc---40
-[INFO] 12:02:34:548 memoria/(10841:10862): -----nro_frame---0
-[INFO] 12:02:34:548 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:549 memoria/(10841:10862): -----offset---23
-[INFO] 12:02:34:549 memoria/(10841:10862): hmd->prevAlloc: 0
-[INFO] 12:02:34:549 memoria/(10841:10862): hmd->nextAlloc: 40
-[INFO] 12:02:34:551 memoria/(10841:10862): direccion_hmd: 40
-[INFO] 12:02:34:551 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 0
-[INFO] 12:02:34:557 memoria/(10841:10862): ---------3489660928 en pagina 1---------
-[INFO] 12:02:34:563 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:563 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:564 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:564 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:565 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:565 memoria/(10841:10862): -----next-alloc---62
-[INFO] 12:02:34:565 memoria/(10841:10862): -----nro_frame---1
-[INFO] 12:02:34:566 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:566 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:566 memoria/(10841:10862): hmd->prevAlloc: 23
-[INFO] 12:02:34:567 memoria/(10841:10862): hmd->nextAlloc: 62
-[INFO] 12:02:34:567 memoria/(10841:10862): direccion_hmd: 62
-[INFO] 12:02:34:567 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:568 memoria/(10841:10862): offset: 30
-[INFO] 12:02:34:568 memoria/(10841:10862): nro_pagina: 1
-[INFO] 12:02:34:569 memoria/(10841:10862): entrada nro_pagina: 1
-[INFO] 12:02:34:569 memoria/(10841:10862): ------assw-----1
-[INFO] 12:02:34:569 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:570 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:571 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:572 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:572 memoria/(10841:10862): size_acum: 2
-[INFO] 12:02:34:572 memoria/(10841:10862): -----next-alloc---72
-[INFO] 12:02:34:573 memoria/(10841:10862): hmd->prevAlloc: 40
-[INFO] 12:02:34:573 memoria/(10841:10862): hmd->nextAlloc: 72
-[INFO] 12:02:34:573 memoria/(10841:10862): direccion_hmd: 72
-[INFO] 12:02:34:574 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 1
-[INFO] 12:02:34:574 memoria/(10841:10862): ---------3489660928 en pagina 2---------
-[INFO] 12:02:34:575 memoria/(10841:10862): offset: 8
-[INFO] 12:02:34:575 memoria/(10841:10862): nro_pagina: 2
-[INFO] 12:02:34:575 memoria/(10841:10862): entrada nro_pagina: 2
-[INFO] 12:02:34:576 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:576 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:577 memoria/(10841:10862): -----next-alloc---89
-[INFO] 12:02:34:577 memoria/(10841:10862): -----nro_frame---2
-[INFO] 12:02:34:578 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:578 memoria/(10841:10862): -----offset---8
-[INFO] 12:02:34:578 memoria/(10841:10862): hmd->prevAlloc: 62
-[INFO] 12:02:34:579 memoria/(10841:10862): hmd->nextAlloc: 89
-[INFO] 12:02:34:579 memoria/(10841:10862): direccion_hmd: 89
-[INFO] 12:02:34:580 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 2
-[INFO] 12:02:34:581 memoria/(10841:10862): offset: 25
-[INFO] 12:02:34:581 memoria/(10841:10862): nro_pagina: 2
-[INFO] 12:02:34:581 memoria/(10841:10862): entrada nro_pagina: 2
-[INFO] 12:02:34:582 memoria/(10841:10862): ------assw-----2
-[INFO] 12:02:34:582 memoria/(10841:10862): size_a_leer: 7
-[INFO] 12:02:34:583 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:583 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:584 memoria/(10841:10862): size_a_leer: 2
-[INFO] 12:02:34:584 memoria/(10841:10862): size_acum: 7
-[INFO] 12:02:34:585 memoria/(10841:10862): -----next-alloc---102
-[INFO] 12:02:34:585 memoria/(10841:10862): hmd->prevAlloc: 72
-[INFO] 12:02:34:586 memoria/(10841:10862): hmd->nextAlloc: 102
-[INFO] 12:02:34:586 memoria/(10841:10862): direccion_hmd: 102
-[INFO] 12:02:34:587 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 2
-[INFO] 12:02:34:593 memoria/(10841:10862): ---------3489660928 en pagina 3---------
-[INFO] 12:02:34:593 memoria/(10841:10862): offset: 6
-[INFO] 12:02:34:594 memoria/(10841:10862): nro_pagina: 3
-[INFO] 12:02:34:594 memoria/(10841:10862): entrada nro_pagina: 3
-[INFO] 12:02:34:594 memoria/(10841:10862): ------assw-----3
-[INFO] 12:02:34:595 memoria/(10841:10862): -----ffffffffffffffffffffffffffffffffff---d
-[INFO] 12:02:34:595 memoria/(10841:10862): -----next-alloc---122
-[INFO] 12:02:34:596 memoria/(10841:10862): -----nro_frame---3
-[INFO] 12:02:34:596 memoria/(10841:10862): -----size_a_leer---9
-[INFO] 12:02:34:596 memoria/(10841:10862): -----offset---6
-[INFO] 12:02:34:598 memoria/(10841:10862): hmd->prevAlloc: 89
-[INFO] 12:02:34:598 memoria/(10841:10862): hmd->nextAlloc: 122
-[INFO] 12:02:34:599 memoria/(10841:10862): Estoy en entra_hmd, (resta_reloca) >= 9: 0  || espacio_libre == size: 0
-[INFO] 12:02:34:601 memoria/(10841:10862): direccion_hmd: 122
-[INFO] 12:02:34:602 memoria/(10841:10862): (*entrada_tp)->nro_pagina: 3
-[INFO] 12:02:34:615 memoria/(10841:10862): offset: 26
-[INFO] 12:02:34:625 memoria/(10841:10862): nro_pagina: 3
-[INFO] 12:02:34:625 memoria/(10841:10862): entrada nro_pagina: 3
-[INFO] 12:02:34:626 memoria/(10841:10862): ------assw-----3
-[INFO] 12:02:34:626 memoria/(10841:10862): size_a_leer: 6
-[INFO] 12:02:34:627 memoria/(10841:10862): size_acum: 0
-[INFO] 12:02:34:627 memoria/(10841:10862): ---------3489660928 en pagina 4---------
-[INFO] 12:02:34:628 memoria/(10841:10862): size_a_leer: 3
-[INFO] 12:02:34:629 memoria/(10841:10862): size_acum: 6
-[INFO] 12:02:34:630 memoria/(10841:10862): -----next-alloc---0
-[INFO] 12:02:34:630 memoria/(10841:10862): hmd->prevAlloc: 102
-[INFO] 12:02:34:631 memoria/(10841:10862): hmd->nextAlloc: 0
-[INFO] 12:02:34:632 memoria/(10841:10862): no hay espacio entre hmd
+[INFO] 18:52:43:700 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   4
+[INFO] 18:52:43:701 memoria/(17240:17272): fffffffffffffffff-----fffffff   4
+[INFO] 18:52:43:703 memoria/(17240:17272): hmd_debug->isFree: 0
+[INFO] 18:52:43:703 memoria/(17240:17272): hmd_debug->nextAlloc: 112
+[INFO] 18:52:43:747 memoria/(17240:17272): Alocando size: 13 del carpincho: 3489660928
+[INFO] 18:52:43:749 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:43:750 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:43:751 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:752 memoria/(17240:17272): offset: 0
+[INFO] 18:52:43:753 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:43:759 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:43:762 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:43:762 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:765 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:43:768 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:43:784 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:788 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:43:789 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:789 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:43:789 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:43:790 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:791 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:43:792 memoria/(17240:17272): offset: 25
+[INFO] 18:52:43:793 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:43:795 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:43:795 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:43:798 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:43:799 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:43:801 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:809 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:43:811 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:43:814 memoria/(17240:17272): -----next-alloc---112
+[INFO] 18:52:43:825 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:826 memoria/(17240:17272): hmd->nextAlloc: 112
+[INFO] 18:52:43:826 memoria/(17240:17272): direccion_hmd: 112
+[INFO] 18:52:43:828 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 2
+[INFO] 18:52:43:830 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:831 memoria/(17240:17272): offset: 16
+[INFO] 18:52:43:831 memoria/(17240:17272): nro_pagina: 3
+[INFO] 18:52:43:831 memoria/(17240:17272): entrada nro_pagina: 3
+[INFO] 18:52:43:832 memoria/(17240:17272): ------assw-----3
+[INFO] 18:52:43:833 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:834 memoria/(17240:17272): -----next-alloc---129
+[INFO] 18:52:43:838 memoria/(17240:17272): -----nro_frame---3
+[INFO] 18:52:43:838 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:839 memoria/(17240:17272): -----offset---16
+[INFO] 18:52:43:840 memoria/(17240:17272): hmd->prevAlloc: 89
+[INFO] 18:52:43:841 memoria/(17240:17272): hmd->nextAlloc: 129
+[INFO] 18:52:43:841 memoria/(17240:17272): direccion_hmd: 129
+[INFO] 18:52:43:842 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 3
+[INFO] 18:52:43:842 memoria/(17240:17272): ---------3489660928 en pagina 4---------
+[INFO] 18:52:43:842 memoria/(17240:17272): offset: 1
+[INFO] 18:52:43:844 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:43:846 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:43:847 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:43:849 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:850 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:43:851 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:43:853 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:856 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:43:857 memoria/(17240:17272): hmd->prevAlloc: 112
+[INFO] 18:52:43:858 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:43:859 memoria/(17240:17272): no hay espacio entre hmd
 
-[INFO] 12:02:34:633 memoria/(10841:10862): posicion_hmd_final: 212
-[INFO] 12:02:34:634 memoria/(10841:10862): direccion_ultimo_hmd: 122
-[INFO] 12:02:34:636 memoria/(10841:10862): El frame es el 6 
+[INFO] 18:52:43:861 memoria/(17240:17272): posicion_hmd_final: 151
+[INFO] 18:52:43:861 memoria/(17240:17272): direccion_ultimo_hmd: 129
+[INFO] 18:52:43:865 memoria/(17240:17272): hmd_inicial->isFree: 0
+[INFO] 18:52:43:869 memoria/(17240:17272): cant_paginas_a_allocar: 1
+[INFO] 18:52:43:869 memoria/(17240:17272): hmd_debug->isFree: 0
+[INFO] 18:52:43:870 memoria/(17240:17272): hmd_debug->nextAlloc: 112
+[INFO] 18:52:43:871 memoria/(17240:17272): Alocando size: 1 del carpincho: 3489660928
+[INFO] 18:52:43:873 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:43:875 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:43:879 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:880 memoria/(17240:17272): offset: 0
+[INFO] 18:52:43:881 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:43:883 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:43:884 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:43:887 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:888 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:43:889 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:43:891 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:891 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:43:893 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:894 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:43:894 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:43:895 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:900 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:43:901 memoria/(17240:17272): offset: 25
+[INFO] 18:52:43:901 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:43:901 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:43:903 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:43:903 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:43:903 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:43:904 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:905 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:43:905 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:43:905 memoria/(17240:17272): -----next-alloc---112
+[INFO] 18:52:43:906 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:906 memoria/(17240:17272): hmd->nextAlloc: 112
+[INFO] 18:52:43:906 memoria/(17240:17272): direccion_hmd: 112
+[INFO] 18:52:43:906 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 2
+[INFO] 18:52:43:907 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:907 memoria/(17240:17272): offset: 16
+[INFO] 18:52:43:908 memoria/(17240:17272): nro_pagina: 3
+[INFO] 18:52:43:908 memoria/(17240:17272): entrada nro_pagina: 3
+[INFO] 18:52:43:908 memoria/(17240:17272): ------assw-----3
+[INFO] 18:52:43:909 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:916 memoria/(17240:17272): -----next-alloc---129
+[INFO] 18:52:43:917 memoria/(17240:17272): -----nro_frame---3
+[INFO] 18:52:43:918 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:919 memoria/(17240:17272): -----offset---16
+[INFO] 18:52:43:919 memoria/(17240:17272): hmd->prevAlloc: 89
+[INFO] 18:52:43:919 memoria/(17240:17272): hmd->nextAlloc: 129
+[INFO] 18:52:43:920 memoria/(17240:17272): direccion_hmd: 129
+[INFO] 18:52:43:920 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 3
+[INFO] 18:52:43:921 memoria/(17240:17272): ---------3489660928 en pagina 4---------
+[INFO] 18:52:43:921 memoria/(17240:17272): offset: 1
+[INFO] 18:52:43:921 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:43:922 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:43:922 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:43:922 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:923 memoria/(17240:17272): -----next-alloc---151
+[INFO] 18:52:43:923 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:43:923 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:924 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:43:924 memoria/(17240:17272): hmd->prevAlloc: 112
+[INFO] 18:52:43:924 memoria/(17240:17272): hmd->nextAlloc: 151
+[INFO] 18:52:43:924 memoria/(17240:17272): direccion_hmd: 151
+[INFO] 18:52:43:925 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:43:925 memoria/(17240:17272): offset: 23
+[INFO] 18:52:43:925 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:43:925 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:43:926 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:43:926 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:926 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:43:926 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:43:927 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:927 memoria/(17240:17272): -----offset---23
+[INFO] 18:52:43:927 memoria/(17240:17272): hmd->prevAlloc: 129
+[INFO] 18:52:43:927 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:43:929 memoria/(17240:17272): no hay espacio entre hmd
 
-[INFO] 12:02:34:639 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   6
-[INFO] 12:02:34:639 memoria/(10841:10862): fffffffffffffffff-----fffffff   6
-[INFO] 12:02:34:642 memoria/(10841:10862): El frame es el 7 
+[INFO] 18:52:43:929 memoria/(17240:17272): posicion_hmd_final: 161
+[INFO] 18:52:43:930 memoria/(17240:17272): direccion_ultimo_hmd: 151
+[INFO] 18:52:43:930 memoria/(17240:17272): hmd_inicial->isFree: 0
+[INFO] 18:52:43:931 memoria/(17240:17272): cant_paginas_a_allocar: 2
+[INFO] 18:52:43:931 memoria/(17240:17272): El frame es el 5 
 
-[INFO] 12:02:34:644 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   7
-[INFO] 12:02:34:648 memoria/(10841:10862): fffffffffffffffff-----fffffff   7
-[INFO] 12:02:34:657 memoria/(10841:10862): El frame es el 8 
+[INFO] 18:52:43:932 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   5
+[INFO] 18:52:43:932 memoria/(17240:17272): fffffffffffffffff-----fffffff   5
+[INFO] 18:52:43:932 memoria/(17240:17272): hmd_debug->isFree: 0
+[INFO] 18:52:43:934 memoria/(17240:17272): hmd_debug->nextAlloc: 112
+[INFO] 18:52:43:936 memoria/(17240:17272): Alocando size: 24 del carpincho: 3489660928
+[INFO] 18:52:43:939 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:43:940 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:43:940 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:940 memoria/(17240:17272): offset: 0
+[INFO] 18:52:43:941 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:43:941 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:43:941 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:43:941 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:941 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:43:942 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:43:942 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:942 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:43:942 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:943 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:43:943 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:43:944 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:944 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:43:945 memoria/(17240:17272): offset: 25
+[INFO] 18:52:43:946 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:43:946 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:43:946 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:43:946 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:43:946 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:43:947 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:948 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:43:949 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:43:949 memoria/(17240:17272): -----next-alloc---112
+[INFO] 18:52:43:950 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:43:950 memoria/(17240:17272): hmd->nextAlloc: 112
+[INFO] 18:52:43:951 memoria/(17240:17272): direccion_hmd: 112
+[INFO] 18:52:43:951 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 2
+[INFO] 18:52:43:952 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:43:953 memoria/(17240:17272): offset: 16
+[INFO] 18:52:43:954 memoria/(17240:17272): nro_pagina: 3
+[INFO] 18:52:43:954 memoria/(17240:17272): entrada nro_pagina: 3
+[INFO] 18:52:43:955 memoria/(17240:17272): ------assw-----3
+[INFO] 18:52:43:956 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:957 memoria/(17240:17272): -----next-alloc---129
+[INFO] 18:52:43:960 memoria/(17240:17272): -----nro_frame---3
+[INFO] 18:52:43:960 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:961 memoria/(17240:17272): -----offset---16
+[INFO] 18:52:43:961 memoria/(17240:17272): hmd->prevAlloc: 89
+[INFO] 18:52:43:961 memoria/(17240:17272): hmd->nextAlloc: 129
+[INFO] 18:52:43:961 memoria/(17240:17272): direccion_hmd: 129
+[INFO] 18:52:43:962 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 3
+[INFO] 18:52:43:962 memoria/(17240:17272): ---------3489660928 en pagina 4---------
+[INFO] 18:52:43:962 memoria/(17240:17272): offset: 1
+[INFO] 18:52:43:962 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:43:963 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:43:963 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:43:963 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:963 memoria/(17240:17272): -----next-alloc---151
+[INFO] 18:52:43:964 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:43:964 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:964 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:43:964 memoria/(17240:17272): hmd->prevAlloc: 112
+[INFO] 18:52:43:965 memoria/(17240:17272): hmd->nextAlloc: 151
+[INFO] 18:52:43:965 memoria/(17240:17272): direccion_hmd: 151
+[INFO] 18:52:43:965 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:43:965 memoria/(17240:17272): offset: 23
+[INFO] 18:52:43:966 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:43:966 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:43:966 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:43:966 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:967 memoria/(17240:17272): -----next-alloc---161
+[INFO] 18:52:43:967 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:43:967 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:967 memoria/(17240:17272): -----offset---23
+[INFO] 18:52:43:968 memoria/(17240:17272): hmd->prevAlloc: 129
+[INFO] 18:52:43:968 memoria/(17240:17272): hmd->nextAlloc: 161
+[INFO] 18:52:43:968 memoria/(17240:17272): direccion_hmd: 161
+[INFO] 18:52:43:968 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:43:969 memoria/(17240:17272): ---------3489660928 en pagina 5---------
+[INFO] 18:52:43:969 memoria/(17240:17272): offset: 1
+[INFO] 18:52:43:969 memoria/(17240:17272): nro_pagina: 5
+[INFO] 18:52:43:970 memoria/(17240:17272): entrada nro_pagina: 5
+[INFO] 18:52:43:970 memoria/(17240:17272): ------assw-----5
+[INFO] 18:52:43:973 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:43:973 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:43:974 memoria/(17240:17272): -----nro_frame---5
+[INFO] 18:52:43:975 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:43:978 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:43:979 memoria/(17240:17272): hmd->prevAlloc: 151
+[INFO] 18:52:43:979 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:43:980 memoria/(17240:17272): no hay espacio entre hmd
 
-[INFO] 12:02:34:660 memoria/(10841:10862): ppppppppppppppppp-----ppppppp   8
-[INFO] 12:02:34:662 memoria/(10841:10862): fffffffffffffffff-----fffffff   8
-[INFO] 12:02:34:720 memoria/(10841:10862): DISCONNECT!
+[INFO] 18:52:43:981 memoria/(17240:17272): posicion_hmd_final: 194
+[INFO] 18:52:43:982 memoria/(17240:17272): direccion_ultimo_hmd: 161
+[INFO] 18:52:43:983 memoria/(17240:17272): hmd_inicial->isFree: 0
+[INFO] 18:52:43:985 memoria/(17240:17272): cant_paginas_a_allocar: 2
+[INFO] 18:52:43:988 memoria/(17240:17272): El frame es el 6 
+
+[INFO] 18:52:43:991 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   6
+[INFO] 18:52:43:991 memoria/(17240:17272): fffffffffffffffff-----fffffff   6
+[INFO] 18:52:43:992 memoria/(17240:17272): hmd_debug->isFree: 0
+[INFO] 18:52:43:992 memoria/(17240:17272): hmd_debug->nextAlloc: 112
+[INFO] 18:52:43:993 memoria/(17240:17272): Alocando size: 8 del carpincho: 3489660928
+[INFO] 18:52:43:996 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:43:997 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:43:998 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:43:999 memoria/(17240:17272): offset: 0
+[INFO] 18:52:43:999 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:43:999 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:43:999 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:44:000 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:001 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:44:001 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:44:002 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:002 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:44:002 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:44:002 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:44:003 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:44:003 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:44:003 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:44:004 memoria/(17240:17272): offset: 25
+[INFO] 18:52:44:004 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:44:004 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:44:005 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:44:005 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:44:005 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:44:006 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:44:006 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:44:006 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:44:007 memoria/(17240:17272): -----next-alloc---112
+[INFO] 18:52:44:007 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:44:007 memoria/(17240:17272): hmd->nextAlloc: 112
+[INFO] 18:52:44:007 memoria/(17240:17272): direccion_hmd: 112
+[INFO] 18:52:44:008 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 2
+[INFO] 18:52:44:008 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:44:008 memoria/(17240:17272): offset: 16
+[INFO] 18:52:44:009 memoria/(17240:17272): nro_pagina: 3
+[INFO] 18:52:44:009 memoria/(17240:17272): entrada nro_pagina: 3
+[INFO] 18:52:44:009 memoria/(17240:17272): ------assw-----3
+[INFO] 18:52:44:009 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:010 memoria/(17240:17272): -----next-alloc---129
+[INFO] 18:52:44:010 memoria/(17240:17272): -----nro_frame---3
+[INFO] 18:52:44:010 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:010 memoria/(17240:17272): -----offset---16
+[INFO] 18:52:44:011 memoria/(17240:17272): hmd->prevAlloc: 89
+[INFO] 18:52:44:011 memoria/(17240:17272): hmd->nextAlloc: 129
+[INFO] 18:52:44:011 memoria/(17240:17272): direccion_hmd: 129
+[INFO] 18:52:44:011 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 3
+[INFO] 18:52:44:012 memoria/(17240:17272): ---------3489660928 en pagina 4---------
+[INFO] 18:52:44:012 memoria/(17240:17272): offset: 1
+[INFO] 18:52:44:012 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:44:012 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:44:013 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:44:013 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:013 memoria/(17240:17272): -----next-alloc---151
+[INFO] 18:52:44:014 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:44:014 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:014 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:44:014 memoria/(17240:17272): hmd->prevAlloc: 112
+[INFO] 18:52:44:014 memoria/(17240:17272): hmd->nextAlloc: 151
+[INFO] 18:52:44:014 memoria/(17240:17272): direccion_hmd: 151
+[INFO] 18:52:44:015 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:44:015 memoria/(17240:17272): offset: 23
+[INFO] 18:52:44:015 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:44:015 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:44:015 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:44:016 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:016 memoria/(17240:17272): -----next-alloc---161
+[INFO] 18:52:44:016 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:44:016 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:016 memoria/(17240:17272): -----offset---23
+[INFO] 18:52:44:016 memoria/(17240:17272): hmd->prevAlloc: 129
+[INFO] 18:52:44:017 memoria/(17240:17272): hmd->nextAlloc: 161
+[INFO] 18:52:44:017 memoria/(17240:17272): direccion_hmd: 161
+[INFO] 18:52:44:017 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:44:017 memoria/(17240:17272): ---------3489660928 en pagina 5---------
+[INFO] 18:52:44:017 memoria/(17240:17272): offset: 1
+[INFO] 18:52:44:018 memoria/(17240:17272): nro_pagina: 5
+[INFO] 18:52:44:018 memoria/(17240:17272): entrada nro_pagina: 5
+[INFO] 18:52:44:018 memoria/(17240:17272): ------assw-----5
+[INFO] 18:52:44:018 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:018 memoria/(17240:17272): -----next-alloc---194
+[INFO] 18:52:44:019 memoria/(17240:17272): -----nro_frame---5
+[INFO] 18:52:44:019 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:019 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:44:019 memoria/(17240:17272): hmd->prevAlloc: 151
+[INFO] 18:52:44:019 memoria/(17240:17272): hmd->nextAlloc: 194
+[INFO] 18:52:44:019 memoria/(17240:17272): direccion_hmd: 194
+[INFO] 18:52:44:020 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 5
+[INFO] 18:52:44:020 memoria/(17240:17272): ---------3489660928 en pagina 6---------
+[INFO] 18:52:44:020 memoria/(17240:17272): offset: 2
+[INFO] 18:52:44:020 memoria/(17240:17272): nro_pagina: 6
+[INFO] 18:52:44:020 memoria/(17240:17272): entrada nro_pagina: 6
+[INFO] 18:52:44:021 memoria/(17240:17272): ------assw-----6
+[INFO] 18:52:44:021 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:021 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:44:021 memoria/(17240:17272): -----nro_frame---6
+[INFO] 18:52:44:021 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:021 memoria/(17240:17272): -----offset---2
+[INFO] 18:52:44:022 memoria/(17240:17272): hmd->prevAlloc: 161
+[INFO] 18:52:44:025 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:44:025 memoria/(17240:17272): no hay espacio entre hmd
+
+[INFO] 18:52:44:025 memoria/(17240:17272): posicion_hmd_final: 211
+[INFO] 18:52:44:026 memoria/(17240:17272): direccion_ultimo_hmd: 194
+[INFO] 18:52:44:026 memoria/(17240:17272): Entre en el else
+[INFO] 18:52:44:064 memoria/(17240:17272): Alocando size: 4 del carpincho: 3489660928
+[INFO] 18:52:44:066 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:44:067 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:44:068 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:44:068 memoria/(17240:17272): offset: 0
+[INFO] 18:52:44:069 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:44:069 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:44:069 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:44:069 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:070 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:44:070 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:44:070 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:071 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:44:072 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:44:073 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:44:073 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:44:074 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:44:075 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:44:076 memoria/(17240:17272): offset: 25
+[INFO] 18:52:44:076 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:44:077 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:44:077 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:44:078 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:44:078 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:44:079 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:44:080 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:44:080 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:44:081 memoria/(17240:17272): -----next-alloc---112
+[INFO] 18:52:44:082 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:44:082 memoria/(17240:17272): hmd->nextAlloc: 112
+[INFO] 18:52:44:082 memoria/(17240:17272): direccion_hmd: 112
+[INFO] 18:52:44:082 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 2
+[INFO] 18:52:44:083 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:44:083 memoria/(17240:17272): offset: 16
+[INFO] 18:52:44:084 memoria/(17240:17272): nro_pagina: 3
+[INFO] 18:52:44:084 memoria/(17240:17272): entrada nro_pagina: 3
+[INFO] 18:52:44:084 memoria/(17240:17272): ------assw-----3
+[INFO] 18:52:44:087 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:088 memoria/(17240:17272): -----next-alloc---129
+[INFO] 18:52:44:088 memoria/(17240:17272): -----nro_frame---3
+[INFO] 18:52:44:088 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:089 memoria/(17240:17272): -----offset---16
+[INFO] 18:52:44:089 memoria/(17240:17272): hmd->prevAlloc: 89
+[INFO] 18:52:44:089 memoria/(17240:17272): hmd->nextAlloc: 129
+[INFO] 18:52:44:089 memoria/(17240:17272): direccion_hmd: 129
+[INFO] 18:52:44:090 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 3
+[INFO] 18:52:44:090 memoria/(17240:17272): ---------3489660928 en pagina 4---------
+[INFO] 18:52:44:090 memoria/(17240:17272): offset: 1
+[INFO] 18:52:44:091 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:44:091 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:44:091 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:44:091 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:092 memoria/(17240:17272): -----next-alloc---151
+[INFO] 18:52:44:092 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:44:092 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:093 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:44:093 memoria/(17240:17272): hmd->prevAlloc: 112
+[INFO] 18:52:44:093 memoria/(17240:17272): hmd->nextAlloc: 151
+[INFO] 18:52:44:093 memoria/(17240:17272): direccion_hmd: 151
+[INFO] 18:52:44:094 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:44:094 memoria/(17240:17272): offset: 23
+[INFO] 18:52:44:094 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:44:094 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:44:095 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:44:095 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:095 memoria/(17240:17272): -----next-alloc---161
+[INFO] 18:52:44:095 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:44:096 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:096 memoria/(17240:17272): -----offset---23
+[INFO] 18:52:44:096 memoria/(17240:17272): hmd->prevAlloc: 129
+[INFO] 18:52:44:096 memoria/(17240:17272): hmd->nextAlloc: 161
+[INFO] 18:52:44:097 memoria/(17240:17272): direccion_hmd: 161
+[INFO] 18:52:44:097 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:44:100 memoria/(17240:17272): ---------3489660928 en pagina 5---------
+[INFO] 18:52:44:101 memoria/(17240:17272): offset: 1
+[INFO] 18:52:44:103 memoria/(17240:17272): nro_pagina: 5
+[INFO] 18:52:44:103 memoria/(17240:17272): entrada nro_pagina: 5
+[INFO] 18:52:44:104 memoria/(17240:17272): ------assw-----5
+[INFO] 18:52:44:104 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:104 memoria/(17240:17272): -----next-alloc---194
+[INFO] 18:52:44:104 memoria/(17240:17272): -----nro_frame---5
+[INFO] 18:52:44:105 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:105 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:44:105 memoria/(17240:17272): hmd->prevAlloc: 151
+[INFO] 18:52:44:105 memoria/(17240:17272): hmd->nextAlloc: 194
+[INFO] 18:52:44:106 memoria/(17240:17272): direccion_hmd: 194
+[INFO] 18:52:44:106 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 5
+[INFO] 18:52:44:107 memoria/(17240:17272): ---------3489660928 en pagina 6---------
+[INFO] 18:52:44:107 memoria/(17240:17272): offset: 2
+[INFO] 18:52:44:107 memoria/(17240:17272): nro_pagina: 6
+[INFO] 18:52:44:108 memoria/(17240:17272): entrada nro_pagina: 6
+[INFO] 18:52:44:108 memoria/(17240:17272): ------assw-----6
+[INFO] 18:52:44:108 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:108 memoria/(17240:17272): -----next-alloc---211
+[INFO] 18:52:44:109 memoria/(17240:17272): -----nro_frame---6
+[INFO] 18:52:44:109 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:109 memoria/(17240:17272): -----offset---2
+[INFO] 18:52:44:109 memoria/(17240:17272): hmd->prevAlloc: 161
+[INFO] 18:52:44:110 memoria/(17240:17272): hmd->nextAlloc: 211
+[INFO] 18:52:44:110 memoria/(17240:17272): direccion_hmd: 211
+[INFO] 18:52:44:110 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 6
+[INFO] 18:52:44:111 memoria/(17240:17272): offset: 19
+[INFO] 18:52:44:111 memoria/(17240:17272): nro_pagina: 6
+[INFO] 18:52:44:111 memoria/(17240:17272): entrada nro_pagina: 6
+[INFO] 18:52:44:111 memoria/(17240:17272): ------assw-----6
+[INFO] 18:52:44:111 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:111 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:44:112 memoria/(17240:17272): -----nro_frame---6
+[INFO] 18:52:44:112 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:112 memoria/(17240:17272): -----offset---19
+[INFO] 18:52:44:112 memoria/(17240:17272): hmd->prevAlloc: 194
+[INFO] 18:52:44:112 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:44:113 memoria/(17240:17272): no hay espacio entre hmd
+
+[INFO] 18:52:44:113 memoria/(17240:17272): posicion_hmd_final: 224
+[INFO] 18:52:44:113 memoria/(17240:17272): direccion_ultimo_hmd: 211
+[INFO] 18:52:44:114 memoria/(17240:17272): hmd_inicial->isFree: 0
+[INFO] 18:52:44:114 memoria/(17240:17272): cant_paginas_a_allocar: 2
+[INFO] 18:52:44:115 memoria/(17240:17272): El frame es el 7 
+
+[INFO] 18:52:44:115 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   7
+[INFO] 18:52:44:115 memoria/(17240:17272): fffffffffffffffff-----fffffff   7
+[INFO] 18:52:44:116 memoria/(17240:17272): hmd_debug->isFree: 0
+[INFO] 18:52:44:116 memoria/(17240:17272): hmd_debug->nextAlloc: 112
+[INFO] 18:52:44:120 memoria/(17240:17272): Alocando size: 81 del carpincho: 3489660928
+[INFO] 18:52:44:125 memoria/(17240:17272): ---------3489660928 en pagina 0---------
+[INFO] 18:52:44:128 memoria/(17240:17272): direccion_hmd: 0
+[INFO] 18:52:44:128 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:44:130 memoria/(17240:17272): offset: 0
+[INFO] 18:52:44:132 memoria/(17240:17272): nro_pagina: 0
+[INFO] 18:52:44:134 memoria/(17240:17272): entrada nro_pagina: 0
+[INFO] 18:52:44:135 memoria/(17240:17272): ------assw-----0
+[INFO] 18:52:44:135 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:135 memoria/(17240:17272): -----next-alloc---89
+[INFO] 18:52:44:135 memoria/(17240:17272): -----nro_frame---0
+[INFO] 18:52:44:137 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:137 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:44:137 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:44:138 memoria/(17240:17272): hmd->nextAlloc: 89
+[INFO] 18:52:44:138 memoria/(17240:17272): direccion_hmd: 89
+[INFO] 18:52:44:138 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:52:44:139 memoria/(17240:17272): ---------3489660928 en pagina 2---------
+[INFO] 18:52:44:139 memoria/(17240:17272): offset: 25
+[INFO] 18:52:44:140 memoria/(17240:17272): nro_pagina: 2
+[INFO] 18:52:44:140 memoria/(17240:17272): entrada nro_pagina: 2
+[INFO] 18:52:44:140 memoria/(17240:17272): ------assw-----2
+[INFO] 18:52:44:140 memoria/(17240:17272): size_a_leer: 7
+[INFO] 18:52:44:141 memoria/(17240:17272): size_acum: 0
+[INFO] 18:52:44:141 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:44:142 memoria/(17240:17272): size_a_leer: 2
+[INFO] 18:52:44:143 memoria/(17240:17272): size_acum: 7
+[INFO] 18:52:44:143 memoria/(17240:17272): -----next-alloc---112
+[INFO] 18:52:44:143 memoria/(17240:17272): hmd->prevAlloc: 0
+[INFO] 18:52:44:143 memoria/(17240:17272): hmd->nextAlloc: 112
+[INFO] 18:52:44:144 memoria/(17240:17272): direccion_hmd: 112
+[INFO] 18:52:44:144 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 2
+[INFO] 18:52:44:144 memoria/(17240:17272): ---------3489660928 en pagina 3---------
+[INFO] 18:52:44:145 memoria/(17240:17272): offset: 16
+[INFO] 18:52:44:145 memoria/(17240:17272): nro_pagina: 3
+[INFO] 18:52:44:146 memoria/(17240:17272): entrada nro_pagina: 3
+[INFO] 18:52:44:146 memoria/(17240:17272): ------assw-----3
+[INFO] 18:52:44:146 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:146 memoria/(17240:17272): -----next-alloc---129
+[INFO] 18:52:44:147 memoria/(17240:17272): -----nro_frame---3
+[INFO] 18:52:44:148 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:148 memoria/(17240:17272): -----offset---16
+[INFO] 18:52:44:148 memoria/(17240:17272): hmd->prevAlloc: 89
+[INFO] 18:52:44:148 memoria/(17240:17272): hmd->nextAlloc: 129
+[INFO] 18:52:44:148 memoria/(17240:17272): direccion_hmd: 129
+[INFO] 18:52:44:149 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 3
+[INFO] 18:52:44:149 memoria/(17240:17272): ---------3489660928 en pagina 4---------
+[INFO] 18:52:44:149 memoria/(17240:17272): offset: 1
+[INFO] 18:52:44:149 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:44:149 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:44:149 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:44:150 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:150 memoria/(17240:17272): -----next-alloc---151
+[INFO] 18:52:44:150 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:44:150 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:150 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:44:150 memoria/(17240:17272): hmd->prevAlloc: 112
+[INFO] 18:52:44:151 memoria/(17240:17272): hmd->nextAlloc: 151
+[INFO] 18:52:44:151 memoria/(17240:17272): direccion_hmd: 151
+[INFO] 18:52:44:151 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:44:151 memoria/(17240:17272): offset: 23
+[INFO] 18:52:44:151 memoria/(17240:17272): nro_pagina: 4
+[INFO] 18:52:44:151 memoria/(17240:17272): entrada nro_pagina: 4
+[INFO] 18:52:44:152 memoria/(17240:17272): ------assw-----4
+[INFO] 18:52:44:152 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:152 memoria/(17240:17272): -----next-alloc---161
+[INFO] 18:52:44:152 memoria/(17240:17272): -----nro_frame---4
+[INFO] 18:52:44:152 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:153 memoria/(17240:17272): -----offset---23
+[INFO] 18:52:44:153 memoria/(17240:17272): hmd->prevAlloc: 129
+[INFO] 18:52:44:154 memoria/(17240:17272): hmd->nextAlloc: 161
+[INFO] 18:52:44:154 memoria/(17240:17272): direccion_hmd: 161
+[INFO] 18:52:44:155 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 4
+[INFO] 18:52:44:155 memoria/(17240:17272): ---------3489660928 en pagina 5---------
+[INFO] 18:52:44:155 memoria/(17240:17272): offset: 1
+[INFO] 18:52:44:156 memoria/(17240:17272): nro_pagina: 5
+[INFO] 18:52:44:157 memoria/(17240:17272): entrada nro_pagina: 5
+[INFO] 18:52:44:157 memoria/(17240:17272): ------assw-----5
+[INFO] 18:52:44:158 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:158 memoria/(17240:17272): -----next-alloc---194
+[INFO] 18:52:44:159 memoria/(17240:17272): -----nro_frame---5
+[INFO] 18:52:44:159 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:159 memoria/(17240:17272): -----offset---1
+[INFO] 18:52:44:159 memoria/(17240:17272): hmd->prevAlloc: 151
+[INFO] 18:52:44:160 memoria/(17240:17272): hmd->nextAlloc: 194
+[INFO] 18:52:44:160 memoria/(17240:17272): direccion_hmd: 194
+[INFO] 18:52:44:160 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 5
+[INFO] 18:52:44:160 memoria/(17240:17272): ---------3489660928 en pagina 6---------
+[INFO] 18:52:44:161 memoria/(17240:17272): offset: 2
+[INFO] 18:52:44:161 memoria/(17240:17272): nro_pagina: 6
+[INFO] 18:52:44:162 memoria/(17240:17272): entrada nro_pagina: 6
+[INFO] 18:52:44:162 memoria/(17240:17272): ------assw-----6
+[INFO] 18:52:44:162 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:162 memoria/(17240:17272): -----next-alloc---211
+[INFO] 18:52:44:162 memoria/(17240:17272): -----nro_frame---6
+[INFO] 18:52:44:163 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:163 memoria/(17240:17272): -----offset---2
+[INFO] 18:52:44:163 memoria/(17240:17272): hmd->prevAlloc: 161
+[INFO] 18:52:44:163 memoria/(17240:17272): hmd->nextAlloc: 211
+[INFO] 18:52:44:164 memoria/(17240:17272): direccion_hmd: 211
+[INFO] 18:52:44:164 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 6
+[INFO] 18:52:44:164 memoria/(17240:17272): offset: 19
+[INFO] 18:52:44:164 memoria/(17240:17272): nro_pagina: 6
+[INFO] 18:52:44:164 memoria/(17240:17272): entrada nro_pagina: 6
+[INFO] 18:52:44:165 memoria/(17240:17272): ------assw-----6
+[INFO] 18:52:44:165 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:165 memoria/(17240:17272): -----next-alloc---224
+[INFO] 18:52:44:165 memoria/(17240:17272): -----nro_frame---6
+[INFO] 18:52:44:165 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:165 memoria/(17240:17272): -----offset---19
+[INFO] 18:52:44:166 memoria/(17240:17272): hmd->prevAlloc: 194
+[INFO] 18:52:44:166 memoria/(17240:17272): hmd->nextAlloc: 224
+[INFO] 18:52:44:166 memoria/(17240:17272): direccion_hmd: 224
+[INFO] 18:52:44:166 memoria/(17240:17272): (*entrada_tp)->nro_pagina: 6
+[INFO] 18:52:44:166 memoria/(17240:17272): ---------3489660928 en pagina 7---------
+[INFO] 18:52:44:167 memoria/(17240:17272): offset: 0
+[INFO] 18:52:44:167 memoria/(17240:17272): nro_pagina: 7
+[INFO] 18:52:44:167 memoria/(17240:17272): entrada nro_pagina: 7
+[INFO] 18:52:44:167 memoria/(17240:17272): ------assw-----7
+[INFO] 18:52:44:167 memoria/(17240:17272): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:52:44:167 memoria/(17240:17272): -----next-alloc---0
+[INFO] 18:52:44:168 memoria/(17240:17272): -----nro_frame---7
+[INFO] 18:52:44:168 memoria/(17240:17272): -----size_a_leer---9
+[INFO] 18:52:44:168 memoria/(17240:17272): -----offset---0
+[INFO] 18:52:44:168 memoria/(17240:17272): hmd->prevAlloc: 211
+[INFO] 18:52:44:168 memoria/(17240:17272): hmd->nextAlloc: 0
+[INFO] 18:52:44:168 memoria/(17240:17272): no hay espacio entre hmd
+
+[INFO] 18:52:44:169 memoria/(17240:17272): posicion_hmd_final: 314
+[INFO] 18:52:44:169 memoria/(17240:17272): direccion_ultimo_hmd: 224
+[INFO] 18:52:44:169 memoria/(17240:17272): hmd_inicial->isFree: 0
+[INFO] 18:52:44:170 memoria/(17240:17272): cant_paginas_a_allocar: 4
+[INFO] 18:52:44:170 memoria/(17240:17272): El frame es el 8 
+
+[INFO] 18:52:44:170 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   8
+[INFO] 18:52:44:171 memoria/(17240:17272): fffffffffffffffff-----fffffff   8
+[INFO] 18:52:44:171 memoria/(17240:17272): El frame es el 9 
+
+[INFO] 18:52:44:172 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   9
+[INFO] 18:52:44:172 memoria/(17240:17272): fffffffffffffffff-----fffffff   9
+[INFO] 18:52:44:173 memoria/(17240:17272): El frame es el 10 
+
+[INFO] 18:52:44:173 memoria/(17240:17272): ppppppppppppppppp-----ppppppp   10
+[INFO] 18:52:44:173 memoria/(17240:17272): fffffffffffffffff-----fffffff   10
+[INFO] 18:52:44:174 memoria/(17240:17272): hmd_debug->isFree: 0
+[INFO] 18:52:44:174 memoria/(17240:17272): hmd_debug->nextAlloc: 112
+[INFO] 18:52:44:222 memoria/(17240:17272): DISCONNECT!
+[INFO] 18:54:18:284 memoria/(17374:17374): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:54:18:362 memoria/(17374:17374): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:54:18:367 memoria/(17374:17374): ------2---------
+
+[INFO] 18:54:18:372 memoria/(17374:17374): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:55:00:513 memoria/(17374:17374): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:55:00:604 memoria/(17374:17403): HANDSHAKE
+[INFO] 18:55:00:654 memoria/(17374:17403): Alocando size: 80 del carpincho: 3489660928
+[INFO] 18:55:00:664 memoria/(17374:17403): El frame es el 0 
+
+[INFO] 18:55:00:667 memoria/(17374:17403): ppppppppppppppppp-----ppppppp   0
+[INFO] 18:55:00:668 memoria/(17374:17403): fffffffffffffffff-----fffffff   0
+[INFO] 18:55:00:669 memoria/(17374:17403): El frame es el 1 
+
+[INFO] 18:55:00:670 memoria/(17374:17403): ppppppppppppppppp-----ppppppp   1
+[INFO] 18:55:00:670 memoria/(17374:17403): fffffffffffffffff-----fffffff   1
+[INFO] 18:55:00:672 memoria/(17374:17403): El frame es el 2 
+
+[INFO] 18:55:00:673 memoria/(17374:17403): Allocando primer mitad del hmd en 2
+
+[INFO] 18:55:00:673 memoria/(17374:17403): ppppppppppppppppp-----ppppppp   2
+[INFO] 18:55:00:673 memoria/(17374:17403): fffffffffffffffff-----fffffff   2
+[INFO] 18:55:00:673 memoria/(17374:17403): El frame es el 3 
+
+[INFO] 18:55:00:674 memoria/(17374:17403): Allocando segunda mitad del hmd en 3
+
+[INFO] 18:55:00:674 memoria/(17374:17403): ppppppppppppppppp-----ppppppp   3
+[INFO] 18:55:00:675 memoria/(17374:17403): fffffffffffffffff-----fffffff   3
+[INFO] 18:55:00:675 memoria/(17374:17403): Cant_frames mayor
+[INFO] 18:55:00:716 memoria/(17374:17403): Alocando size: 14 del carpincho: 3489660928
+[INFO] 18:55:00:721 memoria/(17374:17403): ---------3489660928 en pagina 0---------
+[INFO] 18:55:00:723 memoria/(17374:17403): direccion_hmd: 0
+[INFO] 18:55:00:725 memoria/(17374:17403): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:55:00:727 memoria/(17374:17403): offset: 0
+[INFO] 18:55:00:729 memoria/(17374:17403): nro_pagina: 0
+[INFO] 18:55:00:730 memoria/(17374:17403): entrada nro_pagina: 0
+[INFO] 18:55:00:732 memoria/(17374:17403): ------assw-----0
+[INFO] 18:55:00:734 memoria/(17374:17403): -----ffffffffffffffffffffffffffffffffff---d
+[INFO] 18:55:00:736 memoria/(17374:17403): -----next-alloc---89
+[INFO] 18:55:00:736 memoria/(17374:17403): -----nro_frame---0
+[INFO] 18:55:00:737 memoria/(17374:17403): -----size_a_leer---9
+[INFO] 18:55:00:737 memoria/(17374:17403): -----offset---0
+[INFO] 18:55:00:738 memoria/(17374:17403): hmd->prevAlloc: 0
+[INFO] 18:55:00:738 memoria/(17374:17403): hmd->nextAlloc: 89
+[INFO] 18:55:00:739 memoria/(17374:17403): direccion_hmd: 89
+[INFO] 18:55:00:739 memoria/(17374:17403): (*entrada_tp)->nro_pagina: 0
+[INFO] 18:55:00:740 memoria/(17374:17403): ---------3489660928 en pagina 2---------
+[INFO] 18:55:00:741 memoria/(17374:17403): offset: 25
+[INFO] 18:55:00:741 memoria/(17374:17403): nro_pagina: 2
+[INFO] 18:55:00:742 memoria/(17374:17403): entrada nro_pagina: 2
+[INFO] 18:55:00:742 memoria/(17374:17403): ------assw-----2
+[INFO] 18:55:00:743 memoria/(17374:17403): size_a_leer: 7
+[INFO] 18:55:00:743 memoria/(17374:17403): size_acum: 0
+[INFO] 18:55:00:745 memoria/(17374:17403): ---------3489660928 en pagina 3---------
+[INFO] 18:55:00:746 memoria/(17374:17403): size_a_leer: 2
+[INFO] 18:55:00:746 memoria/(17374:17403): size_acum: 7
+[INFO] 18:55:00:747 memoria/(17374:17403): -----next-alloc---0
+[INFO] 18:55:00:748 memoria/(17374:17403): hmd->prevAlloc: 0
+[INFO] 18:55:00:748 memoria/(17374:17403): hmd->nextAlloc: 0
+[INFO] 18:55:00:749 memoria/(17374:17403): no hay espacio entre hmd
+
+[INFO] 18:55:00:750 memoria/(17374:17403): posicion_hmd_final: 112
+[INFO] 18:55:00:750 memoria/(17374:17403): direccion_ultimo_hmd: 89
+[INFO] 18:55:00:753 memoria/(17374:17403): ---------3489660928 en pagina 3---------
+[INFO] 18:55:00:754 memoria/(17374:17403): Entre en el else
+[INFO] 18:55:00:803 memoria/(17374:17403): DISCONNECT!

@@ -107,7 +107,7 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
     /*Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
     if(!entra_en_swap(id_carpincho, cant_paginas_a_allocar)){
       return false;
-    }*/
+    }*/    
     void* data = malloc(tamanio_total_a_allocar);
     memcpy(data, (void*)hmd_inicial, sizeof(hmd_t));
     memset(data + sizeof(hmd_t), 0, size);
@@ -116,15 +116,22 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
     uint32_t tamanio_a_allocar;
     for(uint32_t i = 0; i < cant_paginas_a_allocar; i++){
       tamanio_a_allocar = MIN(espacio_restante, tamanio_total_a_allocar - size_acum);
-      memcpy(memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset, data + size_acum, tamanio_a_allocar);
+      
+      escritura_memcpy_size(data + size_acum, entrada_tp->nro_frame, offset, tamanio_a_allocar);
+
+      // memcpy(memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset, data + size_acum, tamanio_a_allocar);
       size_acum += espacio_restante;
       if(size_acum != tamanio_total_a_allocar && i != (cant_paginas_a_allocar - 1)){
-        entrada_tp = crear_nueva_pagina(id_carpincho);
-        espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA;
-        offset = 0;
+        if(table_size(id_carpincho) > (entrada_tp->nro_pagina + 1)){
+          entrada_tp = buscar_entrada_tp(id_carpincho, entrada_tp->nro_pagina + 1);
+        } else {
+          entrada_tp = crear_nueva_pagina(id_carpincho);
+        }
       }
+      espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA;
+      offset = 0;
     }
-    
+    free(data);    
   } else {
     void* data = malloc(tamanio_total_a_allocar);
     memcpy(data, hmd_inicial, sizeof(hmd_t));
@@ -139,9 +146,8 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
       }
       espacio_restante = MEMORIA_CFG->TAMANIO_PAGINA;
       offset = 0;
-      
     }
-    log_info(logger, "Entre en el else");
+    free(data);        
   }
   return true;
 }
@@ -168,23 +174,15 @@ uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t**
   uint32_t offset_hmd; 
   *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina); 
   while(1){
-    log_info(logger, "direccion_hmd: %d", (*direccion_hmd));
     
     nro_pagina = (*direccion_hmd) / MEMORIA_CFG->TAMANIO_PAGINA;
     offset_hmd = (*direccion_hmd) % MEMORIA_CFG->TAMANIO_PAGINA;
-    log_info(logger, "(*entrada_tp)->nro_pagina: %d", (*entrada_tp)->nro_pagina);    
        
     if(nro_pagina != (*entrada_tp)->nro_pagina){
       *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     }
-    log_info(logger, "offset: %d", offset_hmd);
-    log_info(logger, "nro_pagina: %d", nro_pagina);    
-    log_info(logger, "entrada nro_pagina: %d", (*entrada_tp)->nro_pagina);    
-    
-    //TODO: Aca fallaba
+
     *hmd = leer_hmd(*entrada_tp, offset_hmd, id_carpincho);
-    log_info(logger, "hmd->prevAlloc: %d", (*hmd)->prevAlloc);
-    log_info(logger, "hmd->nextAlloc: %d", (*hmd)->nextAlloc);
     
     if(entra_en_hmd(*hmd, size, (*direccion_hmd))){
       //escribir en memoria principal y retornar direccion logica
@@ -207,7 +205,6 @@ void escribir_en_mp(hmd_t* hmd, size_t size, entrada_tp_t* entrada_tp, uint32_t 
   int32_t espacio_libre = hmd->nextAlloc - direccion_hmd - sizeof(hmd_t);
   uint32_t nro_pagina;
   
-  log_info(logger, "nA: %d --- dhmd: %d", hmd->nextAlloc, direccion_hmd);
   hmd->isFree = false;
   if(espacio_libre >= 9){
     hmd_t* hmd_frag = malloc(sizeof(hmd_t));
@@ -244,7 +241,6 @@ void escribir_en_mp(hmd_t* hmd, size_t size, entrada_tp_t* entrada_tp, uint32_t 
     free(hmd_frag);
     free(hmd_siguiente);
   } else {
-    log_info(logger, "Entre justito con el hmd");
     //escribir en memoria principal
     //TODO: que pasa si alloco el size del hmd y además lo que tendría de resto
     alloc_size_en_mp((void*)hmd, offset_hmd, sizeof(hmd_t), entrada_tp, id_carpincho);
@@ -277,9 +273,7 @@ bool entra_en_hmd(hmd_t* hmd, size_t size, uint32_t direccion_hmd){
   if(hmd->isFree && hmd->nextAlloc != 0){
     int32_t espacio_libre = hmd->nextAlloc - direccion_hmd - sizeof(hmd_t);
     int32_t resta_reloca = espacio_libre - size;
-    log_info(logger, "Estoy en entra_hmd, (resta_reloca) >= 9: %d  || espacio_libre == size: %d", resta_reloca >= 9, espacio_libre == size);
     if(espacio_libre == size || resta_reloca >= 9){
-    log_info(logger, "Esta free");
         entra = true;
     }
   }
@@ -293,16 +287,12 @@ hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carp
   uint32_t size_a_leer = pedir_nueva_pagina ? MEMORIA_CFG->TAMANIO_PAGINA - offset : sizeof(hmd_t);
   entrada_tp_t* entrada_tp_aux = malloc(sizeof(entrada_tp_t));
   *entrada_tp_aux = *entrada_tp;
-  log_info(logger, "------assw-----%d", entrada_tp->nro_pagina);
   
   uint32_t size_acum = 0;
 
   if(pedir_nueva_pagina){
     //pedir nueva pagina
     for(uint32_t i = 0; i < 2; i++){
-      log_info(logger, "size_a_leer: %d", size_a_leer);
-      log_info(logger, "size_acum: %d", size_acum);
-      
       lectura_memcpy_size(entrada_tp_aux->nro_frame, offset, hmd_buff + size_acum, size_a_leer);
       if(!i){
         *entrada_tp_aux = *(buscar_entrada_tp(id_carpincho, entrada_tp_aux->nro_pagina + 1));
@@ -311,15 +301,9 @@ hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carp
         offset = 0;
       }
     }
-    log_info(logger, "-----next-alloc---%d", ((hmd_t*) hmd_buff)->nextAlloc);
   } else {
-  log_info(logger, "-----ffffffffffffffffffffffffffffffffff---d");
     //leer de memoria principal
     lectura_memcpy_size(entrada_tp_aux->nro_frame, offset, hmd_buff, size_a_leer);
-  log_info(logger, "-----next-alloc---%d", ((hmd_t*) hmd_buff)->nextAlloc);
-  log_info(logger, "-----nro_frame---%d", entrada_tp_aux->nro_frame);
-  log_info(logger, "-----size_a_leer---%d", size_a_leer);
-  log_info(logger, "-----offset---%d", offset); 
   }
   free(entrada_tp_aux);
   return (hmd_t*) hmd_buff;
