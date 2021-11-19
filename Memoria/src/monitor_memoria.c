@@ -9,6 +9,7 @@ void mutex_init_memoria(){
     //TODO: iniciar mutex aca 
     pthread_mutex_init(&MUTEX_FRAMES_BUSY, NULL);
     pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
+    pthread_mutex_init(&MUTEX_GLOBAL_TUR, NULL);
     return;
 }
 
@@ -52,7 +53,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
         hmd->prevAlloc = (int) NULL;
         hmd->nextAlloc = sizeof(hmd_t) + *size_rest;
         hmd->isFree = false;
-
+        
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd, sizeof(hmd_t));
         pthread_mutex_unlock(&MUTEX_MP_BUSY);
@@ -118,6 +119,7 @@ uint32_t primer_frame_libre(){
     return frame;
 }
 
+
 bool ocupar_frames(unsigned long id){
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);    
     uint32_t primer_frame_libre_ = primer_frame_libre();
@@ -148,17 +150,19 @@ uint32_t cant_paginas_relativa(uint32_t posicion, size_t size){
     return cant_paginas;
 }
 
-void lectura_memcpy_size(uint32_t nro_frame, uint32_t offset, void* destino, size_t size){
+void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size){
   //leer de memoria principal
+  actualizar_bits(entrada_tp, false);  
   pthread_mutex_lock(&MUTEX_MP_BUSY);
-  memcpy(destino, (void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), size);
+  memcpy(destino, (void*) (memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), size);
   pthread_mutex_unlock(&MUTEX_MP_BUSY);
 }
  
-void escritura_memcpy_size(void* data, uint32_t nro_frame, uint32_t offset, size_t size){
+void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset, size_t size){
   //escribir en memoria principal
+  actualizar_bits(entrada_tp, true);
   pthread_mutex_lock(&MUTEX_MP_BUSY);
-  memcpy((void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), data, size);
+  memcpy((void*) (memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), data, size);
   pthread_mutex_unlock(&MUTEX_MP_BUSY);
 }
 

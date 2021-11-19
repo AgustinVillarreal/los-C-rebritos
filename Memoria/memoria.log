@@ -1069,3 +1069,95 @@
 [INFO] 19:01:28:063 memoria/(17908:17929): ppppppppppppppppp-----ppppppp   7
 [INFO] 19:01:28:063 memoria/(17908:17929): fffffffffffffffff-----fffffff   7
 [INFO] 19:01:28:118 memoria/(17908:17929): DISCONNECT!
+[INFO] 20:04:35:593 memoria/(19554:19554): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:04:35:670 memoria/(19554:19554): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:04:35:675 memoria/(19554:19554): ------2---------
+
+[INFO] 20:04:35:679 memoria/(19554:19554): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:04:54:241 memoria/(19554:19554): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:04:54:366 memoria/(19554:19594): HANDSHAKE
+[INFO] 20:04:54:422 memoria/(19554:19594): Alocando size: 80 del carpincho: 536870912
+[INFO] 20:04:54:434 memoria/(19554:19594): El frame es el 0 
+
+[INFO] 20:04:54:438 memoria/(19554:19594): El frame es el 1 
+
+[INFO] 20:04:54:439 memoria/(19554:19594): El frame es el 2 
+
+[INFO] 20:04:54:439 memoria/(19554:19594): Allocando primer mitad del hmd en 2
+
+[INFO] 20:04:54:440 memoria/(19554:19594): El frame es el 3 
+
+[INFO] 20:04:54:441 memoria/(19554:19594): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:04:54:484 memoria/(19554:19594): Alocando size: 14 del carpincho: 536870912
+[INFO] 20:04:54:491 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:495 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:497 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:502 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:547 memoria/(19554:19594): Alocando size: 8 del carpincho: 536870912
+[INFO] 20:04:54:552 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:554 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:556 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:558 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:562 memoria/(19554:19594): El frame es el 4 
+
+[INFO] 20:04:54:608 memoria/(19554:19594): Alocando size: 13 del carpincho: 536870912
+[INFO] 20:04:54:611 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:613 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:614 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:615 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:615 memoria/(19554:19594): ---------536870912 en pagina 4---------
+[INFO] 20:04:54:661 memoria/(19554:19594): Alocando size: 1 del carpincho: 536870912
+[INFO] 20:04:54:668 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:670 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:672 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:675 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:676 memoria/(19554:19594): ---------536870912 en pagina 4---------
+[INFO] 20:04:54:677 memoria/(19554:19594): El frame es el 5 
+
+[INFO] 20:04:54:717 memoria/(19554:19594): Alocando size: 24 del carpincho: 536870912
+[INFO] 20:04:54:724 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:725 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:726 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:727 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:727 memoria/(19554:19594): ---------536870912 en pagina 4---------
+[INFO] 20:04:54:727 memoria/(19554:19594): ---------536870912 en pagina 5---------
+[INFO] 20:04:54:729 memoria/(19554:19594): El frame es el 6 
+
+[INFO] 20:04:54:770 memoria/(19554:19594): Alocando size: 8 del carpincho: 536870912
+[INFO] 20:04:54:794 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:796 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:797 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:800 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:801 memoria/(19554:19594): ---------536870912 en pagina 4---------
+[INFO] 20:04:54:801 memoria/(19554:19594): ---------536870912 en pagina 5---------
+[INFO] 20:04:54:802 memoria/(19554:19594): ---------536870912 en pagina 6---------
+[INFO] 20:04:54:840 memoria/(19554:19594): Alocando size: 4 del carpincho: 536870912
+[INFO] 20:04:54:844 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:845 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:846 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:847 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:847 memoria/(19554:19594): ---------536870912 en pagina 4---------
+[INFO] 20:04:54:848 memoria/(19554:19594): ---------536870912 en pagina 5---------
+[INFO] 20:04:54:850 memoria/(19554:19594): ---------536870912 en pagina 6---------
+[INFO] 20:04:54:851 memoria/(19554:19594): El frame es el 7 
+
+[INFO] 20:04:54:892 memoria/(19554:19594): Alocando size: 81 del carpincho: 536870912
+[INFO] 20:04:54:899 memoria/(19554:19594): ---------536870912 en pagina 0---------
+[INFO] 20:04:54:902 memoria/(19554:19594): ---------536870912 en pagina 2---------
+[INFO] 20:04:54:904 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:906 memoria/(19554:19594): ---------536870912 en pagina 3---------
+[INFO] 20:04:54:911 memoria/(19554:19594): ---------536870912 en pagina 4---------
+[INFO] 20:04:54:913 memoria/(19554:19594): ---------536870912 en pagina 5---------
+[INFO] 20:04:54:915 memoria/(19554:19594): ---------536870912 en pagina 6---------
+[INFO] 20:04:54:916 memoria/(19554:19594): ---------536870912 en pagina 7---------
+[INFO] 20:04:54:918 memoria/(19554:19594): El frame es el 8 
+
+[INFO] 20:04:54:925 memoria/(19554:19594): El frame es el 9 
+
+[INFO] 20:04:54:935 memoria/(19554:19594): El frame es el 10 
+
+[INFO] 20:04:55:013 memoria/(19554:19594): DISCONNECT!

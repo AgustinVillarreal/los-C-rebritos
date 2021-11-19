@@ -14,7 +14,6 @@
 extern uint32_t memoria_disponible;
 extern void* memoria_principal;
 
-pthread_mutex_t MUTEX_TLB_BUSY;
 pthread_mutex_t MUTEX_MP_BUSY;
 pthread_mutex_t MUTEX_FRAMES_BUSY;
 
@@ -27,9 +26,7 @@ uint32_t primer_frame_libre();
 
 uint32_t buscar_espacio_entre_hmd(unsigned long id_carpincho, size_t size, uint32_t* nro_pagina);
 uint32_t cant_paginas_relativa(uint32_t posicion, size_t size);
-void lectura_memcpy_size(uint32_t nro_frame, uint32_t offset, void* destino, size_t size);
-void escritura_memcpy_size(void* data, uint32_t nro_frame, uint32_t offset, size_t size);
-
-// void escritura_memcpy_size_hmd(hmd_t* data, uint32_t nro_frame, uint32_t offset, size_t size);
+void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset, size_t size);
+void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size);
 
 #endif
