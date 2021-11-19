@@ -256,7 +256,12 @@ hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carp
   entrada_tp_t* entrada_tp_aux = malloc(sizeof(entrada_tp_t));
   *entrada_tp_aux = *entrada_tp;
   uint32_t size_acum = 0;
+<<<<<<< HEAD
+
+  if( ){
+=======
   if(pedir_nueva_pagina){
+>>>>>>> bbafc38d46350051c8d77d1ea4f7d5f2a13f1e47
     //pedir nueva pagina
     for(uint32_t i = 0; i < 2; i++){
       lectura_memcpy_size(entrada_tp_aux, offset, hmd_buff + size_acum, size_a_leer);
@@ -308,9 +313,10 @@ uint32_t cant_frame_libres_fija(unsigned long id_carpincho) {
     return frames_disponibles_carpincho;
 }
 
-/*
+
 //suponemos que la direccion logica que nos pasan es la de un hmd
 void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
+  direccion_logica - sizeof(hmd_t);
   uint32_t nro_pagina = direccion_logica / MEMORIA_CFG->TAMANIO_PAGINA;
   uint32_t offset_hmd = direccion_logica % MEMORIA_CFG->TAMANIO_PAGINA;
   entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
@@ -330,22 +336,6 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
 
     hmd_aux -> nextAlloc = hmd -> nextAlloc;
-    uint32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd_aux;
-    if( diff > 9){
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd_aux, sizeof(hmd_t));
-      pthread_mutex_unlock(&MUTEX_MP_BUSY);  
-    }else{
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset_hmd_aux, hmd_aux, dif);
-      pthread_mutex_unlock(&MUTEX_MP_BUSY);
-      *entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux+1);
-      offset_hmd_aux = 0
-      nro_frame = *entrada_tp_aux-> nro_frame;
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, ((void*) hmd_aux) + diff , sizeof(hmd_t) - diff);
-      pthread_mutex_unlock(&MUTEX_MP_BUSY); 
-    }
     uint32_t direccion_logica_aux = hmd_aux->prevAlloc;
     uint32_t nro_pagina_aux= direccion_logica_aux / MEMORIA_CFG->TAMANIO_PAGINA;
     uint32_t offset_hmd_aux = direccion_logica_aux % MEMORIA_CFG->TAMANIO_PAGINA;
@@ -364,7 +354,7 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
 
   
 
-  while(hmd_aux_next-> isFree){
+  while(hmd_aux_next-> isFree && hmd_aux_next -> nextAlloc != NULL ){
   
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
     tabla_frames[nro_frame].libre = true;
@@ -395,12 +385,40 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
     uint32_t nro_frame = *entrada_tp_aux_next-> nro_frame;
     hmd -> nextAlloc = hmd_next -> nextAlloc;
     hmd_aux -> nextAlloc = hmd -> nextAlloc;
-  }
-  
+    } 
+    uint32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd_aux;
+    if( diff > 9){
+      pthread_mutex_lock(&MUTEX_MP_BUSY);
+      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd_aux, sizeof(hmd_t));
+      pthread_mutex_unlock(&MUTEX_MP_BUSY);  
+    }else{
+      pthread_mutex_lock(&MUTEX_MP_BUSY);
+      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset_hmd_aux, hmd_aux, dif);
+      pthread_mutex_unlock(&MUTEX_MP_BUSY);
+      *entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux+1);
+      offset_hmd_aux = 0
+      nro_frame = *entrada_tp_aux-> nro_frame;
+      pthread_mutex_lock(&MUTEX_MP_BUSY);
+      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, ((void*) hmd_aux) + diff , sizeof(hmd_t) - diff);
+      pthread_mutex_unlock(&MUTEX_MP_BUSY); 
+    }
+
+
+    diff = hmd_aux -> nextAlloc - hmd_aux_next -> prevAlloc ;
+    uint32_t cantidad_paginas_libres = diff / MEMORIA_CFG->TAMANIO_PAGINA;
+    if(hmd_aux_next -> nextAlloc == NULL && (cantidad_paginas_libres > 1){
+      *tp_carpincho_t carpincho = find_tp_carpincho(id_carpincho);
+      for(uint32_t i = 0; i > cantidad_paginas_libres; i++   ){
+        list_remove (carpincho -> paginas,list_size(carpincho)-1);
+      }
+    }
+
+
+}
   // NOS QUEDAMOS ACA
 
 
-*/
+
 
 
 
