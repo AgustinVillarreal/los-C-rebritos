@@ -19,9 +19,9 @@ void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame){
     }
     entrada_tp_t* victima = list_get_minimum(victimas, minimo_TUR);
     victima->bit_P = 0;
+    //TODO: Eliminar a la victima si esta en la TLB
     if(victima->bit_M){
         //TODO: Swapear
-        //Retorna false si falla el swapear
     }
 
     *nro_frame = victima->nro_frame;

@@ -52,12 +52,14 @@ static void procesar_conexion(void* void_args){
                 unsigned long id_alloc;
                 size_t size_data;
                 uint32_t direccionLogica;
-
+                
                 if(!recv_alloc_data(cliente_socket, &id_alloc, &size_data)){            
                     log_error(logger, "Error al enviar data para allocar");
                     // return EXIT_FAILURE;
                     break;
                 }
+                log_info(logger, "Alocando size: %d del carpincho: %lu", size_data, id_alloc);
+                
                 if(!allocar_carpincho(id_alloc, size_data, &direccionLogica)){
                     log_info(logger, "No se pudo allocar carpincho");
                 } 

@@ -38,6 +38,7 @@ typedef struct {
 typedef struct {
     uint32_t nro_pagina;    
     uint32_t nro_frame; 
+    pthread_mutex_t mutex_bits;
     uint16_t bit_M;    // bit de modificación    
     bool bit_P; // bit de presencia
     union {

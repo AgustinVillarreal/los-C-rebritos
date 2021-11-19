@@ -9,6 +9,7 @@ void mutex_init_memoria(){
     //TODO: iniciar mutex aca 
     pthread_mutex_init(&MUTEX_FRAMES_BUSY, NULL);
     pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
+    pthread_mutex_init(&MUTEX_GLOBAL_TUR, NULL);
     return;
 }
 
@@ -22,16 +23,20 @@ uint32_t cant_frame_libres(){
 }
 
 
+// Se busca y se ocupa el frame
 uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho){
     uint32_t nro_frame = 0xFFFF;
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
     for(uint32_t i = 0; i < MEMORIA_CFG->CANT_PAGINAS; i++){
         if(tabla_frames[i].libre) {
             if(MEMORIA_CFG->FIJA && tabla_frames[i].id_carpincho == id_carpincho){
-                pthread_mutex_unlock(&MUTEX_FRAMES_BUSY); 
-                log_info(logger, "El frame es el %d \n", i);
+                tabla_frames[i].libre = false;
+                pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
+                log_info(logger, "El frame es el %d \n", i);                                 
                 return i;
             } else if (!MEMORIA_CFG->FIJA){
+                tabla_frames[i].libre = false;   
+                pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);                              
                 return i;
             }
         }
@@ -47,8 +52,8 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
     if(nro_pagina == 0){
         hmd->prevAlloc = (int) NULL;
         hmd->nextAlloc = sizeof(hmd_t) + *size_rest;
-        hmd->isFree = true;
-
+        hmd->isFree = false;
+        
         pthread_mutex_lock(&MUTEX_MP_BUSY);
         memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd, sizeof(hmd_t));
         pthread_mutex_unlock(&MUTEX_MP_BUSY);
@@ -56,9 +61,7 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, ui
         * size_rest += sizeof(hmd_t);       
     }
 
-    pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
-    tabla_frames[nro_frame].libre = false;
-    pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
+
 
     int32_t dif = MEMORIA_CFG->TAMANIO_PAGINA - *size_rest;  
     
@@ -116,10 +119,10 @@ uint32_t primer_frame_libre(){
     return frame;
 }
 
+
 bool ocupar_frames(unsigned long id){
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);    
     uint32_t primer_frame_libre_ = primer_frame_libre();
-    log_info(logger, "--------------%d-----------\n", primer_frame_libre_);
     if(primer_frame_libre_ == MEMORIA_CFG->CANT_PAGINAS){
         pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);        
         return false;
@@ -136,27 +139,38 @@ bool ocupar_frames(unsigned long id){
 uint32_t cant_paginas_relativa(uint32_t posicion, size_t size){
     size_t rem;
     uint32_t t_pag = MEMORIA_CFG->TAMANIO_PAGINA;
+    uint32_t offset = posicion % t_pag;
     rem = (size + posicion) % t_pag;
-    int cant_paginas = (rem) ? size/t_pag + 1 : size/t_pag;
-    if(posicion + size > MEMORIA_CFG->TAMANIO_PAGINA) {
-        cant_paginas++;
-    }
+    uint32_t pags_parcial = (size + offset)/t_pag;
+    uint32_t cant_paginas = (rem) ? pags_parcial + 1 : pags_parcial;
+    // if(posicion + size > MEMORIA_CFG->TAMANIO_PAGINA) {
+    //     cant_paginas++;
+    // }
     
     return cant_paginas;
 }
 
-void lectura_memcpy_size(uint32_t nro_frame, uint32_t offset, void* destino, size_t size){
+void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size){
   //leer de memoria principal
+  actualizar_bits(entrada_tp, false);  
   pthread_mutex_lock(&MUTEX_MP_BUSY);
-  memcpy(destino, (void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), size);
+  memcpy(destino, (void*) (memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), size);
   pthread_mutex_unlock(&MUTEX_MP_BUSY);
 }
  
-void escritura_memcpy_size(void* data, uint32_t nro_frame, uint32_t offset, size_t size){
+void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset, size_t size){
   //escribir en memoria principal
+  actualizar_bits(entrada_tp, true);
   pthread_mutex_lock(&MUTEX_MP_BUSY);
-  memcpy((void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), data, size);
+  memcpy((void*) (memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), data, size);
   pthread_mutex_unlock(&MUTEX_MP_BUSY);
 }
 
+
+// void escritura_memcpy_size_hmd(hmd_t* data, uint32_t nro_frame, uint32_t offset, size_t size){
+//   //escribir en memoria principal
+//   pthread_mutex_lock(&MUTEX_MP_BUSY);
+//   memcpy((void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), data, size);
+//   pthread_mutex_unlock(&MUTEX_MP_BUSY);
+// }
 
