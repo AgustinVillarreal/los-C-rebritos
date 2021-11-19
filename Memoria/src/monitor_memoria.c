@@ -163,10 +163,10 @@ void escritura_memcpy_size(void* data, uint32_t nro_frame, uint32_t offset, size
 }
 
 
-void escritura_memcpy_size_hmd(hmd_t* data, uint32_t nro_frame, uint32_t offset){
-  //escribir en memoria principal
-  pthread_mutex_lock(&MUTEX_MP_BUSY);
-  memcpy((void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), data, 9);
-  pthread_mutex_unlock(&MUTEX_MP_BUSY);
-}
+// void escritura_memcpy_size_hmd(hmd_t* data, uint32_t nro_frame, uint32_t offset, size_t size){
+//   //escribir en memoria principal
+//   pthread_mutex_lock(&MUTEX_MP_BUSY);
+//   memcpy((void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), data, size);
+//   pthread_mutex_unlock(&MUTEX_MP_BUSY);
+// }
 

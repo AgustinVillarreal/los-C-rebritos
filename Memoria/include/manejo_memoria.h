@@ -26,7 +26,7 @@ uint32_t buscar_primer_frame_carpincho();
 uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t** hmd, entrada_tp_t** entrada_tp, uint32_t* direccion_hmd);
 entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina);
 hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carpincho);
-void alloc_size_en_mp(hmd_t* data, uint32_t offset, size_t size, entrada_tp_t* entrada_tp, unsigned long id_carpincho);
+void alloc_size_en_mp(void* data, uint32_t offset, size_t size, entrada_tp_t* entrada_tp, unsigned long id_carpincho);
 bool entra_en_hmd(hmd_t* hmd, size_t size, uint32_t direccion_hmd);
 void escribir_en_mp(hmd_t* hmd, size_t size, entrada_tp_t* entrada_tp, uint32_t offset_hmd, unsigned long id_carpincho);
 
