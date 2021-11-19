@@ -8902,3 +8902,13 @@
 [INFO] 19:08:22:031 memoria/(11907:11931): hay espacio entre hmd
 [INFO] 19:08:22:032 memoria/(11907:11931): Cant_frames mayor
 [INFO] 19:08:22:132 memoria/(11907:11931): DISCONNECT!
+[INFO] 20:43:32:526 memoria/(13906:13906): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 20:43:32:590 memoria/(13906:13906): Error al conectar (a Server)
+
+[INFO] 20:45:10:699 memoria/(14236:14236): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:45:10:763 memoria/(14236:14236): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:45:10:766 memoria/(14236:14236): ------2---------
+
+[INFO] 20:45:10:767 memoria/(14236:14236): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
