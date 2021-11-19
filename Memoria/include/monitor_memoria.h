@@ -30,4 +30,6 @@ uint32_t cant_paginas_relativa(uint32_t posicion, size_t size);
 void lectura_memcpy_size(uint32_t nro_frame, uint32_t offset, void* destino, size_t size);
 void escritura_memcpy_size(void* data, uint32_t nro_frame, uint32_t offset, size_t size);
 
+void escritura_memcpy_size_hmd(hmd_t* data, uint32_t nro_frame, uint32_t offset);
+
 #endif

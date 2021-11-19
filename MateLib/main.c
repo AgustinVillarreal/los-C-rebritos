@@ -57,8 +57,15 @@ int main(int argc, char *argv[])
   // mate_call_io(&mate_ref, "hierbitas", prueba);
   // free(prueba);
   
-  printf("%d\n",mate_memalloc(&mate_ref, 15));
-  printf("%d\n",mate_memalloc(&mate_ref, 3));
+  printf("%d\n",mate_memalloc(&mate_ref, 80));
+  printf("%d\n",mate_memalloc(&mate_ref, 14));
+  printf("%d\n",mate_memalloc(&mate_ref, 8));
+  printf("%d\n",mate_memalloc(&mate_ref, 13));
+  printf("%d\n",mate_memalloc(&mate_ref, 1));
+  printf("%d\n",mate_memalloc(&mate_ref, 24));
+  printf("%d\n",mate_memalloc(&mate_ref, 8));
+  printf("%d\n",mate_memalloc(&mate_ref, 4));
+  printf("%d\n",mate_memalloc(&mate_ref, 81));
   
 
   

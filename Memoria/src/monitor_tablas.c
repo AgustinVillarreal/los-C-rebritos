@@ -1,5 +1,7 @@
 #include "../include/monitor_tablas.h"
 
+extern t_log* logger;
+
 uint32_t static_pid;
 uint32_t static_nro_frame;
 
@@ -74,6 +76,8 @@ void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id);
     entrada_tp_t* entrada_tp = malloc(sizeof(entrada_tp_t));
     entrada_tp->nro_pagina = nro_pagina;
+    log_info(logger, "ppppppppppppppppp-----ppppppp   %d", nro_pagina);    
+    log_info(logger, "fffffffffffffffff-----fffffff   %d", nro_frame);
     entrada_tp->nro_frame = nro_frame;
     entrada_tp->bit_P = 1;
     //TODO: Ver mi TUR
