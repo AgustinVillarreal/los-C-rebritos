@@ -83,7 +83,6 @@ void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
         entrada_tp->algoritmo.clock_m = malloc(sizeof(clock_m_t));
     }
     
-
     pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
     tabla_carpincho->pages++;
     list_add(tabla_carpincho->paginas, entrada_tp);

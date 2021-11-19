@@ -17,7 +17,6 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
         return true;
     }
     
-
     if(primer_alloc){
         uint32_t hmd_cortado = 0;
         uint32_t cantidad_de_paginas = cant_paginas_relativa(0, size + sizeof(hmd_t) * 2);
@@ -25,16 +24,16 @@ bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer
         // if(!entra_en_swap(id_carpincho, cantidad_de_paginas)){
         //   return false;
         // }
-    
-
         for(uint32_t i = 0; i < cantidad_de_paginas; i++){
             
             uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
             if(nro_frame == 0xFFFF){
               correr_algoritmo(id_carpincho, &nro_frame);              
             }
-            primer_memalloc_carpincho(id_carpincho, &size, nro_frame, i, &hmd_cortado);
-            append_frame_tp(id_carpincho, i, nro_frame);    
+            append_frame_tp(id_carpincho, i, nro_frame);  
+            tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
+            entrada_tp_t* entrada_tp = list_get_pagina(tabla_carpincho, i);
+            primer_memalloc_carpincho(id_carpincho, &size, entrada_tp, &hmd_cortado);
             *direccion_logica = sizeof(hmd_t);
         }
     } else {
@@ -130,7 +129,6 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
   return true;
 }
 
-
 entrada_tp_t* crear_nueva_pagina(unsigned long id_carpincho){
   tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
   uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
@@ -141,9 +139,6 @@ entrada_tp_t* crear_nueva_pagina(unsigned long id_carpincho){
   append_frame_tp(id_carpincho, nueva_pagina, nro_frame);
   return list_get_pagina(tabla_carpincho, nueva_pagina);
 }
-
-
-
 
 //Debería retornar la direccion lógica de la memoria
 uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t** hmd, entrada_tp_t** entrada_tp, uint32_t* direccion_hmd){

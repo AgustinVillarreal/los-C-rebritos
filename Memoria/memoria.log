@@ -1161,3 +1161,178 @@
 [INFO] 20:04:54:935 memoria/(19554:19594): El frame es el 10 
 
 [INFO] 20:04:55:013 memoria/(19554:19594): DISCONNECT!
+[INFO] 20:20:37:486 memoria/(20192:20192): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 20:20:37:556 memoria/(20192:20192): Error al conectar (a Server)
+
+[INFO] 20:20:49:563 memoria/(20262:20262): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:20:49:672 memoria/(20262:20262): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:20:49:676 memoria/(20262:20262): ------2---------
+
+[INFO] 20:20:49:679 memoria/(20262:20262): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:21:12:951 memoria/(20262:20262): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:21:13:107 memoria/(20262:20304): HANDSHAKE
+[INFO] 20:21:13:173 memoria/(20262:20304): Alocando size: 80 del carpincho: 1744830464
+[INFO] 20:21:13:181 memoria/(20262:20304): El frame es el 0 
+
+[INFO] 20:22:54:509 memoria/(20378:20378): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:22:54:601 memoria/(20378:20378): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:22:54:606 memoria/(20378:20378): ------2---------
+
+[INFO] 20:22:54:608 memoria/(20378:20378): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:22:56:999 memoria/(20378:20378): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:22:57:095 memoria/(20378:20399): HANDSHAKE
+[INFO] 20:22:57:143 memoria/(20378:20399): Alocando size: 80 del carpincho: 2550136832
+[INFO] 20:22:57:156 memoria/(20378:20399): El frame es el 0 
+
+[INFO] 20:25:59:715 memoria/(20769:20769): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:25:59:783 memoria/(20769:20769): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:25:59:787 memoria/(20769:20769): ------2---------
+
+[INFO] 20:25:59:789 memoria/(20769:20769): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:26:01:780 memoria/(20769:20769): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:26:01:870 memoria/(20769:20790): HANDSHAKE
+[INFO] 20:26:01:918 memoria/(20769:20790): Alocando size: 80 del carpincho: 3221225472
+[INFO] 20:26:01:930 memoria/(20769:20790): El frame es el 0 
+
+[INFO] 20:26:01:933 memoria/(20769:20790): pase con i: 0
+[INFO] 20:27:30:061 memoria/(20909:20909): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:27:30:157 memoria/(20909:20909): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:27:30:161 memoria/(20909:20909): ------2---------
+
+[INFO] 20:27:30:163 memoria/(20909:20909): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:27:32:918 memoria/(20909:20909): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:27:33:017 memoria/(20909:20932): HANDSHAKE
+[INFO] 20:27:33:063 memoria/(20909:20932): Alocando size: 80 del carpincho: 1610612736
+[INFO] 20:27:33:069 memoria/(20909:20932): El frame es el 0 
+
+[INFO] 20:34:23:502 memoria/(21092:21092): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:34:23:573 memoria/(21092:21092): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:34:23:585 memoria/(21092:21092): ------2---------
+
+[INFO] 20:34:23:586 memoria/(21092:21092): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:34:26:962 memoria/(21092:21092): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:34:27:049 memoria/(21092:21114): HANDSHAKE
+[INFO] 20:34:27:103 memoria/(21092:21114): Alocando size: 80 del carpincho: 2952790016
+[INFO] 20:34:27:130 memoria/(21092:21114): El frame es el 0 
+
+[INFO] 20:35:14:570 memoria/(21187:21187): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:35:14:656 memoria/(21187:21187): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:35:14:661 memoria/(21187:21187): ------2---------
+
+[INFO] 20:35:14:664 memoria/(21187:21187): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:35:17:055 memoria/(21187:21187): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:35:17:163 memoria/(21187:21208): HANDSHAKE
+[INFO] 20:35:17:220 memoria/(21187:21208): Alocando size: 80 del carpincho: 1073741824
+[INFO] 20:35:17:230 memoria/(21187:21208): El frame es el 0 
+
+[INFO] 20:35:17:232 memoria/(21187:21208): 2tabla_carpincho
+[INFO] 20:36:24:454 memoria/(21296:21296): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:36:24:534 memoria/(21296:21296): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:36:24:539 memoria/(21296:21296): ------2---------
+
+[INFO] 20:36:24:545 memoria/(21296:21296): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:36:27:083 memoria/(21296:21296): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:36:27:172 memoria/(21296:21317): HANDSHAKE
+[INFO] 20:36:27:233 memoria/(21296:21317): Alocando size: 80 del carpincho: 4160749568
+[INFO] 20:36:27:246 memoria/(21296:21317): El frame es el 0 
+
+[INFO] 20:36:27:254 memoria/(21296:21317): El frame es el 1 
+
+[INFO] 20:36:27:256 memoria/(21296:21317): El frame es el 2 
+
+[INFO] 20:36:27:257 memoria/(21296:21317): Allocando primer mitad del hmd en 2
+
+[INFO] 20:36:27:258 memoria/(21296:21317): El frame es el 3 
+
+[INFO] 20:36:27:260 memoria/(21296:21317): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:36:27:306 memoria/(21296:21317): Alocando size: 14 del carpincho: 4160749568
+[INFO] 20:36:27:310 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:315 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:317 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:322 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:368 memoria/(21296:21317): Alocando size: 8 del carpincho: 4160749568
+[INFO] 20:36:27:370 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:371 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:372 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:373 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:377 memoria/(21296:21317): El frame es el 4 
+
+[INFO] 20:36:27:420 memoria/(21296:21317): Alocando size: 13 del carpincho: 4160749568
+[INFO] 20:36:27:424 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:426 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:431 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:435 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:437 memoria/(21296:21317): ---------4160749568 en pagina 4---------
+[INFO] 20:36:27:476 memoria/(21296:21317): Alocando size: 1 del carpincho: 4160749568
+[INFO] 20:36:27:481 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:484 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:485 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:486 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:486 memoria/(21296:21317): ---------4160749568 en pagina 4---------
+[INFO] 20:36:27:487 memoria/(21296:21317): El frame es el 5 
+
+[INFO] 20:36:27:531 memoria/(21296:21317): Alocando size: 24 del carpincho: 4160749568
+[INFO] 20:36:27:537 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:538 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:539 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:540 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:541 memoria/(21296:21317): ---------4160749568 en pagina 4---------
+[INFO] 20:36:27:541 memoria/(21296:21317): ---------4160749568 en pagina 5---------
+[INFO] 20:36:27:544 memoria/(21296:21317): El frame es el 6 
+
+[INFO] 20:36:27:588 memoria/(21296:21317): Alocando size: 8 del carpincho: 4160749568
+[INFO] 20:36:27:597 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:599 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:601 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:602 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:603 memoria/(21296:21317): ---------4160749568 en pagina 4---------
+[INFO] 20:36:27:603 memoria/(21296:21317): ---------4160749568 en pagina 5---------
+[INFO] 20:36:27:604 memoria/(21296:21317): ---------4160749568 en pagina 6---------
+[INFO] 20:36:27:645 memoria/(21296:21317): Alocando size: 4 del carpincho: 4160749568
+[INFO] 20:36:27:657 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:661 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:662 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:664 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:668 memoria/(21296:21317): ---------4160749568 en pagina 4---------
+[INFO] 20:36:27:669 memoria/(21296:21317): ---------4160749568 en pagina 5---------
+[INFO] 20:36:27:669 memoria/(21296:21317): ---------4160749568 en pagina 6---------
+[INFO] 20:36:27:670 memoria/(21296:21317): El frame es el 7 
+
+[INFO] 20:36:27:712 memoria/(21296:21317): Alocando size: 81 del carpincho: 4160749568
+[INFO] 20:36:27:716 memoria/(21296:21317): ---------4160749568 en pagina 0---------
+[INFO] 20:36:27:718 memoria/(21296:21317): ---------4160749568 en pagina 2---------
+[INFO] 20:36:27:720 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:721 memoria/(21296:21317): ---------4160749568 en pagina 3---------
+[INFO] 20:36:27:721 memoria/(21296:21317): ---------4160749568 en pagina 4---------
+[INFO] 20:36:27:722 memoria/(21296:21317): ---------4160749568 en pagina 5---------
+[INFO] 20:36:27:722 memoria/(21296:21317): ---------4160749568 en pagina 6---------
+[INFO] 20:36:27:723 memoria/(21296:21317): ---------4160749568 en pagina 7---------
+[INFO] 20:36:27:724 memoria/(21296:21317): El frame es el 8 
+
+[INFO] 20:36:27:725 memoria/(21296:21317): El frame es el 9 
+
+[INFO] 20:36:27:732 memoria/(21296:21317): El frame es el 10 
+
+[INFO] 20:36:27:788 memoria/(21296:21317): DISCONNECT!

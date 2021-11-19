@@ -1459,3 +1459,19 @@
 
 [INFO] 20:04:54:274 mateLib/(19593:19593): Cliente conectado en 127.0.0.1:5001 (a Server)
 
+[INFO] 20:21:12:993 mateLib/(20303:20303): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:22:57:017 mateLib/(20398:20398): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:26:01:797 mateLib/(20789:20789): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:27:32:940 mateLib/(20931:20931): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[ERROR] 20:33:56:050 mateLib/(21033:21033): Error al conectar (a Server)
+
+[INFO] 20:34:26:976 mateLib/(21113:21113): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:35:17:088 mateLib/(21207:21207): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:36:27:096 mateLib/(21316:21316): Cliente conectado en 127.0.0.1:5001 (a Server)
+
