@@ -13,11 +13,17 @@
 
 extern uint32_t memoria_disponible;
 extern void* memoria_principal;
- 
 
-uint32_t buscar_first_fit();
-uint32_t cant_frames_libres();
-uint32_t cant_paginas(uint32_t size, size_t* rem);
+pthread_mutex_t MUTEX_TLB_BUSY;
+pthread_mutex_t MUTEX_MP_BUSY;
+pthread_mutex_t MUTEX_FRAMES_BUSY;
+
+void mutex_init_memoria();
+bool ocupar_frames(unsigned long id);
+uint32_t cant_frame_libres();
+uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho);
+void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, uint32_t direccion_logica, uint32_t nro_frame, uint32_t nro_pagina, uint32_t* hmd_cortado);
+uint32_t primer_frame_libre();
 
 
 

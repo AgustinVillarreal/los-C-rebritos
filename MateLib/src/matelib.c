@@ -1,5 +1,10 @@
 #include "../include/matelib.h"
 
+#define ERROR -1
+
+
+//------------------General Functions---------------------/
+
 int mate_init (mate_instance *lib_ref, char *config){
 	
 	lib_ref->group_info = malloc(sizeof(mate_inner_structure));
@@ -49,86 +54,220 @@ int mate_init (mate_instance *lib_ref, char *config){
 	inner_structure->PUERTO = PUERTO;
 	inner_structure->servidor_fd = servidor_fd;
 	inner_structure->kernel_connected = cop == HANDSHAKE_KERNEL;
-	inner_structure->id= generate_id();
 
-	if(inner_structure->kernel_connected){
-		if(!send_poner_cola_new(servidor_fd)){
-			data_destroy(IP, PUERTO, cfg);	
-			log_destroy(logger);	
-			return EXIT_FAILURE;
-		}
-		if(!send_data_cola_new(servidor_fd, inner_structure->id)){
-			log_error(logger, "Error enviando");
-			data_destroy(IP, PUERTO, cfg);
-			log_destroy(logger);
-			return EXIT_FAILURE;
-		}
+	if(!send_mate_init(servidor_fd, -1)){
+		data_destroy(IP, PUERTO, cfg);	
+		log_destroy(logger);	
+		return EXIT_FAILURE;
 	}
 	
-	if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
-		log_error(logger, "Error en la espera de poner en exec");
+	if(recv(servidor_fd, &(inner_structure->id), sizeof(long), 0) == -1){
+		log_error(logger, "Error recibiendo id");
 		data_destroy(IP, PUERTO, cfg);
 		log_destroy(logger);
 		return EXIT_FAILURE;
 	}
+		
+
+	if(inner_structure->kernel_connected){
+		
+		if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
+			log_error(logger, "Error en la espera de poner en exec");
+			data_destroy(IP, PUERTO, cfg);
+			log_destroy(logger);
+			return EXIT_FAILURE;
+		}
+		
+	}
+	
 
 	data_destroy(IP, PUERTO, cfg);
 	return 0;
 }
 
-int mate_sem_init(mate_instance *lib_ref, mate_sem_name sem, unsigned int value){
+int mate_close(mate_instance *lib_ref){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
-	if(!send_codigo_op(inner_structure->servidor_fd, SEM_INIT)){
-		free(inner_structure->IP);
-		free(inner_structure->PUERTO);	
-		log_destroy(inner_structure->logger);	
+	if(!send_codigo_op(inner_structure->servidor_fd, FREE_CARPINCHO)){
+		// data_destroy(IP, PUERTO, cfg);	
+		// log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
-	if(!send_sem_init(inner_structure->servidor_fd, sem, value)){
-		free(inner_structure->IP);
-		free(inner_structure->PUERTO);	
-		log_destroy(inner_structure->logger);	
-		return EXIT_FAILURE;
+	log_destroy(inner_structure->logger);
+	free(lib_ref->group_info);
+}
+
+//-----------------Semaphore Functions---------------------/
+
+int mate_sem_init(mate_instance *lib_ref, mate_sem_name sem, unsigned int value){
+	int result_code;
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	if(inner_structure->kernel_connected){
+		if(!send_codigo_op(inner_structure->servidor_fd, SEM_INIT)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+		if(!send_sem_init(inner_structure->servidor_fd, sem, value)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+	} else {
+		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
+		return ERROR;	
 	}
 
-
-
-
-	return 0;
+	if(result_code == -1) {
+		return ERROR;
+	}else {
+		return 0;
+	}
 }
 
 int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
-	if(!send_codigo_op(inner_structure->servidor_fd, SEM_WAIT)){
-		free(inner_structure->IP);
-		free(inner_structure->PUERTO);	
-		log_destroy(inner_structure->logger);	
-		return EXIT_FAILURE;
+	int result_code;
+	if(inner_structure->kernel_connected){
+		if(!send_codigo_op(inner_structure->servidor_fd, SEM_WAIT)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+		if(!send_sem(inner_structure->servidor_fd, sem)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+
+		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+
+		if(result_code == -2) {
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);
+			free(inner_structure);
+			exit(ERROR);
+		}
+	}	else {
+		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
+		return ERROR;	
 	}
-	return 0;
+
+	
+
+	return result_code;
 }
 
 int mate_sem_post(mate_instance *lib_ref, mate_sem_name sem){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
-	if(!send_codigo_op(inner_structure->servidor_fd, SEM_POST)){
-		free(inner_structure->IP);
-		free(inner_structure->PUERTO);	
-		log_destroy(inner_structure->logger);	
-		return EXIT_FAILURE;
+	int result_code;
+	if(inner_structure->kernel_connected){
+		if(!send_codigo_op(inner_structure->servidor_fd, SEM_POST)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+		if(!send_sem(inner_structure->servidor_fd, sem)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+
+		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+		
+	}	else {
+		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
+		return ERROR;	
 	}
-	return 0;
+	return result_code;
 }
+// TODO ABSTRAER WAIT, POST Y DESTROY
 
 int mate_sem_destroy(mate_instance *lib_ref, mate_sem_name sem){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
-	if(!send_codigo_op(inner_structure->servidor_fd, SEM_DESTROY)){
-		free(inner_structure->IP);
-		free(inner_structure->PUERTO);	
-		log_destroy(inner_structure->logger);	
+	int result_code;
+	if(inner_structure->kernel_connected){
+		if(!send_codigo_op(inner_structure->servidor_fd, SEM_DESTROY)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+		if(!send_sem(inner_structure->servidor_fd, sem)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+
+		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return ERROR;
+		}
+		
+	}	else {
+		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
+		return ERROR;	
+	}
+	return result_code;
+}
+
+// //--------------------IO Functions------------------------/
+
+int mate_call_io(mate_instance *lib_ref, mate_io_resource io, void *msg){
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	int result_code;	
+	if(inner_structure->kernel_connected){
+		if(!send_codigo_op(inner_structure->servidor_fd, IO)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+		if(!send_io(inner_structure->servidor_fd, io, msg)){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+		if(recv(inner_structure->servidor_fd, &result_code, sizeof(int), 0) == -1){
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);	
+			return EXIT_FAILURE;
+		}
+	} else {
+		log_error(inner_structure->logger, "No podes usar dispositivos de entrada salida si no estas conectado al kernel\n");
 		return EXIT_FAILURE;
 	}
-	return 0;
+	return result_code == 0;
 }
+
+// //--------------Memory Module Functions-------------------/
 
 mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
@@ -174,8 +313,3 @@ int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int s
 }
 
 
-int mate_close(mate_instance *lib_ref){
-	mate_inner_structure* inner_structure = lib_ref->group_info;
-	log_destroy(inner_structure->logger);
-	free(lib_ref->group_info);
-}

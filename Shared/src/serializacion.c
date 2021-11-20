@@ -58,3 +58,11 @@ void deserializar_alloc_data(void* stream, long* id,int* size_data){
   memcpy(id,stream,sizeof(long));
   memcpy(size_data,stream+sizeof(long),sizeof(int));
 }
+
+
+
+void deserializar_sem_wait(size_t size, void* stream, char** sem_aux) {
+    char* r_sem = malloc(size);
+    memcpy(r_sem, stream, size);
+    *sem_aux = r_sem;
+}

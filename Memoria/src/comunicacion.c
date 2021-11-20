@@ -1,6 +1,8 @@
 #include "../include/comunicacion.h"
 
 extern t_log* logger;
+unsigned long global_id_mem = 0;
+
 
 typedef struct {
     int fd;
@@ -15,6 +17,8 @@ static void procesar_conexion(void* void_args){
 
     // Mientras la conexion este abierta
     op_code cop;
+
+    //Tabla del carpincho que se conecta
 
     // TODO VER DONDE VA ESTO
     char* dir_logic_ini;
@@ -36,41 +40,63 @@ static void procesar_conexion(void* void_args){
                }
                log_info(logger, "HANDSHAKE");
                break;
-            case MEM_ALLOC: ;
-                long id_carpincho;
-                uint32_t size_data;
-                bool ret_code;
-
-                if(recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
-                //En MP
-                //Necestio un HeapMetaData ---> 9bytes
-                //Necesito el size que piden ---> n size_data
-                //TODO: Poner un hmd al principio o al final
-                uint32_t size_stream =  sizeof(hmd_t) * 2 + size_data;    
-                //Primero deberia ver si entra o no entra en la mp 
-                    if(entra_en_mp(size_stream)){
-                        pthread_mutex_lock(&MUTEX_MP_BUSY);
-                        ret_code = reservar_espacio_mp(size_stream, id_carpincho); 
-                        pthread_mutex_unlock(&MUTEX_MP_BUSY);                                   
-                    }  else {
-                        /*
-                        ret_code = send_probar_en_swamp(size_stream, id_carpincho);
-                        */
-                    }
-
-                    if(!ret_code){
-                        log_error(logger, "Error al allocar un espacio\n");
+            case MATE_INIT: ;
+                unsigned long id_init;
+                int value;
+                if(!recv(cliente_socket, &value, sizeof(int), 0)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                if(value == 0) {
+                    if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
+                        log_error(logger, "Error al iniciar el carpincho en memoria");
+                        // return EXIT_FAILURE;
                         break;
-                    }   
-                } 
-                    log_info(logger, "ALLOCADO PA");
+                    }
+                } else {
+                    pthread_mutex_lock(&MUTEX_IDS);
+                    id_init = global_id_mem ++;
+                    pthread_mutex_unlock(&MUTEX_IDS);             
+                    if(!send(cliente_socket, &id_init, sizeof(long), 0)){
+                        log_error(logger, "Error al enviar id");
+                        free(server_name);
+                        return;
+                    }
+                }
+                mate_init(id_init);
+                break;
+
+            case MEM_ALLOC: ;
+                unsigned long id_alloc;
+                size_t size_data;
+                uint32_t direccionLogica;
+
+                if(!recv_alloc_data(cliente_socket, &id_alloc, &size_data)){            
+                    log_error(logger, "Error al enviar data para allocar");
+                    // return EXIT_FAILURE;
                     break;
+                }
+                if(!allocar_carpincho(id_alloc, size_data, &direccionLogica)){
+                    log_info(logger, "No se pudo allocar carpincho");
+                    //TODO: Hacer un send al Kernel o a la matelib para que mande un NULL
+                } 
+                //TODO: Hacer un send de la direccionLogica
+
                 break;
             case MEM_FREE: 
+                // if(esta_en_tlb(id_carpincho)){
+                //         //TODO: utilizar la pagina de la tlb, RECORDAR MUTEEEEEEEEEX
+                //     } else {
+                //         //Significa que hubo un TLB miss 
+                        
+
+                //         //TODO: Traer la pagina utilizada a la TLB
+                //     }
                 if(!liberar_espacio_mp(dir_logic_ini, size)) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
                     break;
                 }
+                
                 log_info(logger,"LIBERADO PADRE");
                 break;
             case MEM_READ: 
@@ -87,6 +113,12 @@ static void procesar_conexion(void* void_args){
                 }
                 log_info(logger,"ESCRITO JEFE");
                 break;
+            //TODO: Liberar cosas aca
+            case FREE_CARPINCHO:
+                break;
+            case CARPINCHO_SWAP:
+                log_info(logger, "SWAPEADO PAAAA");  
+                break;              
             case -1:
                 log_info(logger, "Cliente desconectado de Memoria");
                 free(server_name);
