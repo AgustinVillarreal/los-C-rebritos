@@ -11,6 +11,8 @@ static void procesar_conexion(void* void_args){
     t_procesar_conexion_args* args = (t_procesar_conexion_args*) void_args;
     int cliente_socket = args->fd;
     char* server_name = args->server_name;
+    unsigned long id_carpincho;
+    
     free(args);
 
     // Mientras la conexion este abierta
@@ -39,28 +41,35 @@ static void procesar_conexion(void* void_args){
                log_info(logger, "HANDSHAKE");
                break;
             case MATE_INIT: ;
-                unsigned long id_init;
-                if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
+                if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
                     log_error(logger, "Error al iniciar el carpincho en memoria");
                     // return EXIT_FAILURE;
                     break;
                 }
-                mate_init(id_init);
+                mate_init(id_carpincho);
                 break;
+            case CARPINCHO_READY: ;
+                if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
+                    log_error(logger, "Error al crear estructuras de carpincho en ready");
+                    // return EXIT_FAILURE;
+                    break;
+                }
+                ocupar_frames_carpincho(id_carpincho);
+                
+                break; 
 
             case MEM_ALLOC: ;
-                unsigned long id_alloc;
                 size_t size_data;
                 uint32_t direccionLogica;
                 
-                if(!recv_alloc_data(cliente_socket, &id_alloc, &size_data)){            
+                if(!recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){            
                     log_error(logger, "Error al enviar data para allocar");
                     // return EXIT_FAILURE;
                     break;
                 }
-                log_info(logger, "Alocando size: %d del carpincho: %lu", size_data, id_alloc);
+                log_info(logger, "Alocando size: %d del carpincho: %lu", size_data, id_carpincho);
                 
-                if(!allocar_carpincho(id_alloc, size_data, &direccionLogica)){
+                if(!allocar_carpincho(id_carpincho, size_data, &direccionLogica)){
                     log_info(logger, "No se pudo allocar carpincho");
                 } 
                 //TODO: Hacer un send de la direccionLogica, si es 0xFFFF esta mal

@@ -18,7 +18,6 @@ void agregar_tabla_a_tp_carpinchos(void* tp_carpincho) {
 }
 
 bool tabla_vacia(unsigned long id){
-    //TODO: Pensar si va este mutex
     
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id);
 

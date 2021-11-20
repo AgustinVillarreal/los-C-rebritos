@@ -7,15 +7,13 @@ extern t_config_memoria* MEMORIA_CFG;
 extern t_log* logger;
 extern pthread_mutex_t MUTEX_FRAMES_BUSY;
 
-
-bool allocar_carpincho_fija(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
-
+bool allocar_carpincho(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
     //TODO: cant_paginas no esta teniendo en cuenta el hmd
-    if(cant_frame_libres_fija(id_carpincho) < cant_paginas_relativa(0, size)) {
-        //TODO: Buscar victima segun algoritmo y swapear la difrencia entre los frames que quiere y la cant de pags
-        log_info(logger, "Cant_frames menor");
-        return true;
-    }
+    // if(cant_frame_libres_fija(id_carpincho) < cant_paginas_relativa(0, size)) {
+    //     //TODO: Buscar victima segun algoritmo y swapear la difrencia entre los frames que quiere y la cant de pags
+    //     log_info(logger, "Cant_frames menor");
+    //     return true;
+    // }
     
     if(primer_alloc){
         uint32_t hmd_cortado = 0;

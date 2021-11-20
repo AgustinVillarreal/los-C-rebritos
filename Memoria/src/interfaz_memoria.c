@@ -11,18 +11,24 @@ void mate_init(unsigned long id){
     tp_carpincho->pages = 0;
     tp_carpincho->paginas = list_create();
     pthread_mutex_init(&tp_carpincho->mutex_paginas, NULL);
-    if(MEMORIA_CFG->FIJA){
-        //TODO: Si ocupar frames retorna false significa que esta algo raro con el grado de multiprogramacion
-        bool ret_code = ocupar_frames(id);
-        if(!ret_code){
-            log_error(logger, "Te pasaste del grado de multiprogramacion - Incongruencia con Kernel\n");
-            return;
-        }
-    }
-
     agregar_tabla_a_tp_carpinchos(tp_carpincho);
     return; 
 }
+
+void ocupar_frames_carpincho(unsigned long id){
+    if(MEMORIA_CFG->FIJA){
+        //TODO: Si tiene la tabla de paginas vacia significa que no tiene ninguna estructura en memoria --> la creo, si no, no ocupo nada
+        if(tabla_vacia(id)){
+            //TODO: Si ocupar frames retorna false significa que esta algo raro con el grado de multiprogramacion
+            bool ret_code = ocupar_frames(id);
+            if(!ret_code){
+                log_error(logger, "Te pasaste del grado de multiprogramacion - Incongruencia con Kernel\n");
+                return;
+            }
+        }    
+    }
+}
+
 
 
 bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccion_logica){
@@ -32,13 +38,8 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
     
     bool primer_alloc = tabla_vacia(id_carpincho);
 
-    if(MEMORIA_CFG->FIJA){  
-        return allocar_carpincho_fija(id_carpincho, size, primer_alloc, direccion_logica);
-    }        
-                               
-
-    return true;
-    
+    //TODO: En caso de emergencia revisar aca xd
+    return allocar_carpincho(id_carpincho, size, primer_alloc, direccion_logica);    
 } 
 
 uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica){
