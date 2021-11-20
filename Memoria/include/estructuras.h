@@ -29,6 +29,7 @@ typedef struct {
     uint32_t pages;
     pthread_mutex_t mutex_paginas;
     t_list* paginas;
+    uint32_t posible_victima_fija;
 } tp_carpincho_t;
 
 typedef struct {
@@ -52,6 +53,11 @@ typedef struct {
     entrada_tp_t* entrada_tp;
     uint32_t TUR;
 } tlb_t;
+
+typedef struct {
+    entrada_tp_t* entrada_tp;
+    unsigned long id_carpincho;
+} algoritmo_t;
 
 t_list* TLB_TABLE;
 t_list* CARPINCHOS_TABLE; 

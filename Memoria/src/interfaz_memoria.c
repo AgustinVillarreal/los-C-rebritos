@@ -10,6 +10,7 @@ void mate_init(unsigned long id){
     tp_carpincho->id_carpincho = id;
     tp_carpincho->pages = 0;
     tp_carpincho->paginas = list_create();
+    tp_carpincho->posible_victima_fija = 0;
     pthread_mutex_init(&tp_carpincho->mutex_paginas, NULL);
     agregar_tabla_a_tp_carpinchos(tp_carpincho);
     return; 
@@ -39,16 +40,16 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
     bool primer_alloc = tabla_vacia(id_carpincho);
 
     //TODO: En caso de emergencia revisar aca xd
-    return allocar_carpincho(id_carpincho, size, primer_alloc, direccion_logica);    
+    return allocar_carpincho_en_mp(id_carpincho, size, primer_alloc, direccion_logica);    
 } 
 
 uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica){
 
-    uint32_t nro_de_pagina = direccion_logica/ TAMAÑO_DE_PAGINA ; 
+    uint32_t nro_de_pagina = (*direccion_logica) / MEMORIA_CFG->TAMANIO_PAGINA ; 
     if(nro_de_pagina >= list_size(find_tp_carpincho(id_carpincho) )){
         return 0;
     }
-        liberar_Alloc(id_carpincho, direccion_logica));
+    //liberar_Alloc(id_carpincho, &direccion_logica);
 
     return 1;
 }

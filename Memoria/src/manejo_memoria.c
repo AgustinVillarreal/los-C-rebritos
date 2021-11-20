@@ -7,7 +7,7 @@ extern t_config_memoria* MEMORIA_CFG;
 extern t_log* logger;
 extern pthread_mutex_t MUTEX_FRAMES_BUSY;
 
-bool allocar_carpincho(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
+bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
     //TODO: cant_paginas no esta teniendo en cuenta el hmd
     // if(cant_frame_libres_fija(id_carpincho) < cant_paginas_relativa(0, size)) {
     //     //TODO: Buscar victima segun algoritmo y swapear la difrencia entre los frames que quiere y la cant de pags
@@ -254,12 +254,7 @@ hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carp
   entrada_tp_t* entrada_tp_aux = malloc(sizeof(entrada_tp_t));
   *entrada_tp_aux = *entrada_tp;
   uint32_t size_acum = 0;
-<<<<<<< HEAD
-
-  if( ){
-=======
   if(pedir_nueva_pagina){
->>>>>>> bbafc38d46350051c8d77d1ea4f7d5f2a13f1e47
     //pedir nueva pagina
     for(uint32_t i = 0; i < 2; i++){
       lectura_memcpy_size(entrada_tp_aux, offset, hmd_buff + size_acum, size_a_leer);
@@ -311,7 +306,7 @@ uint32_t cant_frame_libres_fija(unsigned long id_carpincho) {
     return frames_disponibles_carpincho;
 }
 
-
+/*
 //suponemos que la direccion logica que nos pasan es la de un hmd
 void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
   direccion_logica - sizeof(hmd_t);
@@ -415,7 +410,7 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
 }
   // NOS QUEDAMOS ACA
 
-
+*/
 
 
 

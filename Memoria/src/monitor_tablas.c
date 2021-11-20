@@ -105,5 +105,51 @@ void actualizar_bits(entrada_tp_t* entrada_tp, bool se_modifica){
     pthread_mutex_unlock(&(entrada_tp->mutex_bits));
 }
 
+bool esta_presente(void* pagina){
+    return ((entrada_tp_t*)pagina)->bit_P;
+}
 
+t_list* paginas_presentes_local(tp_carpincho_t* tabla_carpincho){
+    t_list* frames_presentes = list_create();
+    pthread_mutex_lock(&(tabla_carpincho->mutex_paginas));
+    t_list_iterator* i_paginas = list_iterator_create(tabla_carpincho->paginas);
+    while (list_iterator_has_next(i_paginas)) {
+        entrada_tp_t* pagina = list_iterator_next(i_paginas);    
+        if (pagina->bit_P==0) {
+            continue;
+        }
+        algoritmo_t* pagina_carpincho = malloc(sizeof(algoritmo_t));
+        pagina_carpincho->entrada_tp = pagina;
+        pagina_carpincho->id_carpincho = tabla_carpincho->id_carpincho;
+        list_add(frames_presentes, (void*) pagina_carpincho);
+    }
+    list_iterator_destroy(i_paginas);
+    pthread_mutex_unlock(&(tabla_carpincho->mutex_paginas));
 
+    
+    return frames_presentes;
+}
+
+t_list* paginas_presentes_dinamica(){
+    t_list* frames_presentes = list_create();    
+    pthread_mutex_lock(&MUTEX_TP_CARPINCHOS);
+    t_list_iterator* i_tp_carpincho = list_iterator_create(CARPINCHOS_TABLE);
+    while (list_iterator_has_next(i_tp_carpincho)) {
+        tp_carpincho_t* tabla_carpincho = list_iterator_next(i_tp_carpincho);
+        pthread_mutex_lock(&(tabla_carpincho->mutex_paginas));
+        t_list_iterator* i_paginas = list_iterator_create(tabla_carpincho->paginas);        
+        while (list_iterator_has_next(i_paginas)) {
+            entrada_tp_t* pagina = list_iterator_next(i_paginas);
+            if (pagina->bit_P==0) continue;
+            algoritmo_t* pagina_carpincho = malloc(sizeof(algoritmo_t));
+            pagina_carpincho->entrada_tp = pagina;
+            pagina_carpincho->id_carpincho = tabla_carpincho->id_carpincho;
+            list_add(frames_presentes, (void*) pagina_carpincho);
+        }
+        list_iterator_destroy(i_paginas);
+        pthread_mutex_unlock(&(tabla_carpincho->mutex_paginas));        
+    }
+    list_iterator_destroy(i_tp_carpincho);
+    pthread_mutex_unlock(&MUTEX_TP_CARPINCHOS);
+    return frames_presentes;
+}

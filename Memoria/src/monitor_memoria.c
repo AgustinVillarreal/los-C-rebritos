@@ -10,6 +10,7 @@ void mutex_init_memoria(){
     pthread_mutex_init(&MUTEX_FRAMES_BUSY, NULL);
     pthread_mutex_init(&MUTEX_MP_BUSY, NULL);
     pthread_mutex_init(&MUTEX_GLOBAL_TUR, NULL);
+    pthread_mutex_init(&MUTEX_ALGORITMOS, NULL);
     return;
 }
 

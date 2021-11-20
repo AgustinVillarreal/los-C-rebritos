@@ -16,6 +16,8 @@ extern void* memoria_principal;
 
 pthread_mutex_t MUTEX_MP_BUSY;
 pthread_mutex_t MUTEX_FRAMES_BUSY;
+pthread_mutex_t MUTEX_ALGORITMOS;
+
 
 void mutex_init_memoria();
 bool ocupar_frames(unsigned long id);

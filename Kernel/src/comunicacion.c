@@ -46,18 +46,18 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error recibiendo msj de encolamiento new");
                     return;
                 }
-                carpincho_init(id, &carpincho);
                 if(!send_mate_init(memoria_fd)){
                     log_error(logger, "Error al enviar handshake desde kernel a matelib");
                     free(server_name);
                     return;
                 }
-
+                log_info(logger, "Enviado data a carpincho");
                 if(!send_data_mate_init(memoria_fd, id)){
                     log_error(logger, "Error al enviar handshake desde kernel a matelib");
                     free(server_name);
                     return;
                 }
+                carpincho_init(id, &carpincho);
                 
                 if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
@@ -163,7 +163,7 @@ static void procesar_conexion(void* void_args){
                 send_memalloc(memoria_fd);
                 send_alloc_data(memoria_fd,id_carpincho,size_data);
                 uint32_t direccion_logica;
-                if(!recv(cliente_socket, &direccion_logica, sizeof(uint32_t), 0)){
+                if(!recv(memoria_fd, &direccion_logica, sizeof(uint32_t), 0)){
                     log_error(logger, "Error al recibir direccion logica");
                     free(server_name);
                     return;

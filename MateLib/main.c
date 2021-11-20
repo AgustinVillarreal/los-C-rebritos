@@ -56,7 +56,6 @@ int main(int argc, char *argv[])
   // char* prueba = strdup("hola");
   // mate_call_io(&mate_ref, "hierbitas", prueba);
   // free(prueba);
-  
   printf("1 %d\n",mate_memalloc(&mate_ref, 80)); 
   printf("2 %d\n",mate_memalloc(&mate_ref, 14));
   printf("3 %d\n",mate_memalloc(&mate_ref, 8));

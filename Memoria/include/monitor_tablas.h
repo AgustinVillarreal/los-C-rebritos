@@ -28,5 +28,8 @@ void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame);
 bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t* entrada_buscada);
 
 void actualizar_bits(entrada_tp_t* entrada_tp, bool se_modifica);
+bool esta_presente(void* pagina);
+t_list* paginas_presentes_local(tp_carpincho_t* tabla_carpincho);
+t_list* paginas_presentes_dinamica();
 
 #endif

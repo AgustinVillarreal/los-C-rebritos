@@ -1475,3 +1475,35 @@
 
 [INFO] 20:36:27:096 mateLib/(21316:21316): Cliente conectado en 127.0.0.1:5001 (a Server)
 
+[INFO] 10:28:17:155 mateLib/(4904:4904): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:29:12:376 mateLib/(5013:5013): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:39:04:028 mateLib/(5571:5571): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:39:58:220 mateLib/(5857:5857): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:40:15:589 mateLib/(5966:5966): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:45:16:682 mateLib/(6528:6528): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:46:40:794 mateLib/(6689:6689): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:48:37:523 mateLib/(6869:6869): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:49:43:036 mateLib/(7072:7072): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:51:40:647 mateLib/(7325:7325): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:53:00:384 mateLib/(7691:7691): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:55:39:642 mateLib/(8042:8042): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:56:45:473 mateLib/(8149:8149): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:58:39:515 mateLib/(8411:8411): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 10:58:39:625 mateLib/(8411:8411): Handshake
+[INFO] 11:00:21:791 mateLib/(8574:8574): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 11:00:21:903 mateLib/(8574:8574): Handshake
