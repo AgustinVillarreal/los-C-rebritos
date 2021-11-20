@@ -49,6 +49,7 @@ uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logi
     if(nro_de_pagina >= list_size(find_tp_carpincho(id_carpincho) )){
         return 0;
     }
+
     //liberar_Alloc(id_carpincho, &direccion_logica);
 
     return 1;
