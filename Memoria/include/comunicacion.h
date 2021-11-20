@@ -7,6 +7,7 @@
 #include "config.h"
 #include "conexion.h"
 #include "interfaz_memoria.h"
+#include "manejo_memoria.h"
 
 #include <pthread.h>
 

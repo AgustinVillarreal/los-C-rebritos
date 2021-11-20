@@ -10,12 +10,14 @@
 #include <commons/collections/list.h>
 
 #include "estructuras.h"
+#include "manejo_memoria.h"
 
-int reservar_espacio_mp(int* size, unsigned long id);
-int liberar_espacio_mp(char*, int* size);
-int leer_espacio_mp(char* size);
-int escribir_espacio_mp();
-
+bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccion_logica);
+uint32_t reservar_espacio_mp(size_t size_stream, unsigned long id, t_list* tabla_carpincho, bool primerPagina);
+uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica);
+uint32_t leer_espacio_mp(char* size);
+uint32_t escribir_espacio_mp();
+void mate_init(unsigned long id);
 
 
 #endif
