@@ -2,6 +2,7 @@
 
 extern t_log* logger;
 extern t_config_kernel* KERNEL_CFG;
+unsigned long global_id = 0;
 
 typedef struct {
     int fd;
@@ -19,6 +20,9 @@ static void procesar_conexion(void* void_args){
     KERNEL_CFG->MEMORIA_FD = memoria_fd;
 
     t_carpincho * carpincho;
+    carpincho = malloc(sizeof(t_carpincho));
+    carpincho->memoria_fd = memoria_fd;
+    carpincho->matelib_fd = cliente_socket;
 
 
     // Mientras la conexion este abierta
@@ -42,8 +46,13 @@ static void procesar_conexion(void* void_args){
 
             case MATE_INIT: ;
                 unsigned long id;
-                if(!recv(cliente_socket, &id, sizeof(long), 0)){
-                    log_info(logger, "Error recibiendo msj de encolamiento new");
+                int value_init;
+                pthread_mutex_lock(&MUTEX_IDS);
+                id = global_id ++;
+                pthread_mutex_unlock(&MUTEX_IDS);
+                
+                if(!recv(cliente_socket, &value_init, sizeof(int), 0)){
+                    log_info(logger, "Error iniciando semaforo");
                     return;
                 }
                 if(!send_mate_init(memoria_fd)){
@@ -53,7 +62,7 @@ static void procesar_conexion(void* void_args){
                 }
                 log_info(logger, "Enviado data a carpincho");
                 if(!send_data_mate_init(memoria_fd, id)){
-                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
+                    log_error(logger, "Error al enviar id");
                     free(server_name);
                     return;
                 }

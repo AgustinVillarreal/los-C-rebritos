@@ -44,12 +44,20 @@ int main(int argc, char *argv[])
 
   // mate_sem_wait(&mate_ref, "2");  
   // sleep(30);
-  // mate_sem_wait(&mate_ref, "1");
+  // mate_sem_wait(&mate_ref, "3");
+  // mate_sem_post(&mate_ref, "2");
 
-  // mate_sem_wait(&mate_ref, "3");  
-  // sleep(30);
-  // mate_sem_wait(&mate_ref, "1");
+  mate_sem_wait(&mate_ref, "3");  
+  sleep(30);
+  mate_sem_wait(&mate_ref, "1");
 
+  // mate_sem_wait(&mate_ref, "4");  
+  // sleep(40);
+  // mate_sem_wait(&mate_ref, "1");
+  // mate_sem_post(&mate_ref, "1");
+  // mate_sem_post(&mate_ref, "4");
+  
+  
   // mate_sem_post(&mate_ref, "holachau");
 
   //IO

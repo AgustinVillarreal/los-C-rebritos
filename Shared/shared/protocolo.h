@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -39,10 +39,14 @@ typedef enum {
     IO,
     CARPINCHO_SWAP,
     CARPINCHO_READY,
+    ESCRITURA_SWAMP,
+    LECTURA_SWAMP,
+    FINALIZAR_CARPINCHO,
+    ESPACIO_LIBRE
 } op_code;
 
 
-bool send_mate_init(int fd_server);
+bool send_mate_init(int fd_server, int generar_id);
 bool send_codigo_op(int fd, op_code cop);
 
 bool send_alloc_data(int fd, unsigned long id, int size);
@@ -60,7 +64,6 @@ bool recv_sem(int fd, char** sem);
 //IO
 bool send_io(int fd, char* io, char* msg);
 
-
 //MEMORIA
 bool send_probar_en_swamp(uint32_t size, unsigned long id);
 bool send_handshake(int fd_server);
@@ -73,4 +76,18 @@ bool send_ack(int fd, bool ack);
 bool recv_ack(int fd, bool* ack);
 bool send_carpincho_ready(int fd, long id_carpincho);
 
+bool send_finalizar_carpincho(int fd, unsigned long id);
+
+//SWAMP
+
+bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data);
+bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data);
+
+bool recv_id(int cliente_socket, unsigned long* carpincho_id);
+
+bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina);
+
+bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, bool* asignacion_fija);
+
+bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas, bool* asignacion_fija);
 #endif

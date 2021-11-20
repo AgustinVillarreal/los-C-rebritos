@@ -1,6 +1,8 @@
 #include "../include/comunicacion.h"
 
 extern t_log* logger;
+unsigned long global_id_mem = 0;
+
 
 typedef struct {
     int fd;

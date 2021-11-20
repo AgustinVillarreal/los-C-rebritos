@@ -2,6 +2,7 @@
 
 #define ERROR -1
 
+
 //------------------General Functions---------------------/
 
 int mate_init (mate_instance *lib_ref, char *config){
@@ -54,20 +55,20 @@ int mate_init (mate_instance *lib_ref, char *config){
 	inner_structure->PUERTO = PUERTO;
 	inner_structure->servidor_fd = servidor_fd;
 	inner_structure->kernel_connected = cop == HANDSHAKE_KERNEL;
-	inner_structure->id= generate_id();
 
-	if(!send_mate_init(servidor_fd)){
+	if(!send_mate_init(servidor_fd, -1)){
 		data_destroy(IP, PUERTO, cfg);	
 		log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
-
-	if(!send_data_mate_init(servidor_fd, inner_structure->id)){
-		log_error(logger, "Error enviando");
+	
+	if(recv(servidor_fd, &(inner_structure->id), sizeof(long), 0) == -1){
+		log_error(logger, "Error recibiendo id");
 		data_destroy(IP, PUERTO, cfg);
 		log_destroy(logger);
 		return EXIT_FAILURE;
 	}
+		
 
 	if(inner_structure->kernel_connected){
 		
@@ -154,10 +155,21 @@ int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem){
 			log_destroy(inner_structure->logger);	
 			return ERROR;
 		}
+
+		if(result_code == -2) {
+			free(inner_structure->IP);
+			free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);
+			free(inner_structure);
+			exit(ERROR);
+		}
 	}	else {
 		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");
 		return ERROR;	
 	}
+
+	
+
 	return result_code;
 }
 

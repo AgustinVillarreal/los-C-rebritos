@@ -49,6 +49,9 @@ typedef struct {
 } t_config_memoria;
 
 
+pthread_mutex_t MUTEX_IDS;
+
+
 uint8_t cargar_configuracion(t_config_memoria*);
 void cerrar_programa(t_log*,t_config_memoria*);
 uint8_t init();

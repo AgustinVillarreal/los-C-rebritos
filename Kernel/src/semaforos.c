@@ -70,7 +70,6 @@ int sem_post_carpincho(char* sem_name_post){
     bool existe_semaforo_nombre(void* semaforo){
         return existe_semaforo(sem_name_post, semaforo);
     }
-    log_info(logger, "SEM POST MUTEX-----------------");        
     pthread_mutex_lock(&MUTEX_LISTA_SEMAFOROS);
     if(!list_any_satisfy(LISTA_SEMAFOROS, existe_semaforo_nombre)){
         pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);        
