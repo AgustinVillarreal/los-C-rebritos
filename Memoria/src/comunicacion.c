@@ -67,9 +67,11 @@ static void procesar_conexion(void* void_args){
                 send(cliente_socket, &direccionLogica, sizeof(uint32_t), 0);
 
                 break;
-            case MEM_FREE: 
-                if(!liberar_espacio_mp(dir_logic_ini, size)) {
-                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
+            case MEM_FREE:
+                uint32_t estado_free = liberar_espacio_mp(dir_logic_ini, size); 
+                if(estado_free == 0) {
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");
+                    send(cliente_socket,&estado_free,sizeof(uint32_t),0);    
                     break;
                 }
                 
