@@ -9,6 +9,7 @@
 #include <commons/config.h>
 
 #include "config.h"
+#include "interfaz_swamp.h"
 
 #include "../../Shared/shared/utils.h"
 #include "../../Shared/shared/sockets.h"
