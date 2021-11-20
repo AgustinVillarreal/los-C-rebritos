@@ -48,7 +48,7 @@ int main(){
     free(puerto);
 
 
-  	//while(server_escuchar(SERVERNAME, swamp_server));
+  	while(server_escuchar(SERVERNAME, swamp_server));
 
     char* data1 = "1111111111111111111111111111111111111111111111111111111111111111";
     char* data2 = "2222222222222222222222222222222222222222222222222222222222222222";

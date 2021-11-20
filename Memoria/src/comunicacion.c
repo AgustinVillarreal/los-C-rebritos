@@ -43,10 +43,26 @@ static void procesar_conexion(void* void_args){
                log_info(logger, "HANDSHAKE");
                break;
             case MATE_INIT: ;
-                if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
-                    log_error(logger, "Error al iniciar el carpincho en memoria");
-                    // return EXIT_FAILURE;
-                    break;
+                int value;
+                if(!recv(cliente_socket, &value, sizeof(int), 0)){
+                    log_info(logger, "Error iniciando semaforo");
+                    return;
+                }
+                if(value == 0) {
+                    if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
+                        log_error(logger, "Error al iniciar el carpincho en memoria");
+                        // return EXIT_FAILURE;
+                        break;
+                    }
+                } else {
+                    pthread_mutex_lock(&MUTEX_IDS);
+                    id_carpincho = global_id_mem ++;
+                    pthread_mutex_unlock(&MUTEX_IDS);             
+                    if(!send(cliente_socket, &id_carpincho, sizeof(long), 0)){
+                        log_error(logger, "Error al enviar id");
+                        free(server_name);
+                        return;
+                    }
                 }
                 mate_init(id_carpincho);
                 break;
@@ -62,13 +78,12 @@ static void procesar_conexion(void* void_args){
 
             case MEM_ALLOC: ;
                 size_t size_data;
-                uint32_t direccionLogica;
-                
+                uint32_t direccionLogica;                
                 if(!recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){            
                     log_error(logger, "Error al enviar data para allocar");
                     // return EXIT_FAILURE;
                     break;
-                }
+                }                
                 log_info(logger, "Alocando size: %d del carpincho: %lu", size_data, id_carpincho);
                 
                 if(!allocar_carpincho(id_carpincho, size_data, &direccionLogica)){
@@ -78,7 +93,7 @@ static void procesar_conexion(void* void_args){
                 send(cliente_socket, &direccionLogica, sizeof(uint32_t), 0);
 
                 break;
-            case MEM_FREE:
+            case MEM_FREE: ;
                 uint32_t estado_free = liberar_espacio_mp(dir_logic_ini, size); 
                 if(estado_free == 0) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");
