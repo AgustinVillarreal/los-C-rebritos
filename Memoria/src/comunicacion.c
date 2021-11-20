@@ -13,6 +13,8 @@ static void procesar_conexion(void* void_args){
     t_procesar_conexion_args* args = (t_procesar_conexion_args*) void_args;
     int cliente_socket = args->fd;
     char* server_name = args->server_name;
+    unsigned long id_carpincho;
+    
     free(args);
 
     // Mientras la conexion este abierta
@@ -41,59 +43,61 @@ static void procesar_conexion(void* void_args){
                log_info(logger, "HANDSHAKE");
                break;
             case MATE_INIT: ;
-                unsigned long id_init;
                 int value;
                 if(!recv(cliente_socket, &value, sizeof(int), 0)){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
                 if(value == 0) {
-                    if (!recv(cliente_socket, &id_init, sizeof(long), 0)){
+                    if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
                         log_error(logger, "Error al iniciar el carpincho en memoria");
                         // return EXIT_FAILURE;
                         break;
                     }
                 } else {
                     pthread_mutex_lock(&MUTEX_IDS);
-                    id_init = global_id_mem ++;
+                    id_carpincho = global_id_mem ++;
                     pthread_mutex_unlock(&MUTEX_IDS);             
-                    if(!send(cliente_socket, &id_init, sizeof(long), 0)){
+                    if(!send(cliente_socket, &id_carpincho, sizeof(long), 0)){
                         log_error(logger, "Error al enviar id");
                         free(server_name);
                         return;
                     }
                 }
-                mate_init(id_init);
+                mate_init(id_carpincho);
                 break;
-
-            case MEM_ALLOC: ;
-                unsigned long id_alloc;
-                size_t size_data;
-                uint32_t direccionLogica;
-
-                if(!recv_alloc_data(cliente_socket, &id_alloc, &size_data)){            
-                    log_error(logger, "Error al enviar data para allocar");
+            case CARPINCHO_READY: ;
+                if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
+                    log_error(logger, "Error al crear estructuras de carpincho en ready");
                     // return EXIT_FAILURE;
                     break;
                 }
-                if(!allocar_carpincho(id_alloc, size_data, &direccionLogica)){
+                ocupar_frames_carpincho(id_carpincho);
+                
+                break; 
+
+            case MEM_ALLOC: ;
+                size_t size_data;
+                uint32_t direccionLogica;                
+                if(!recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){            
+                    log_error(logger, "Error al enviar data para allocar");
+                    // return EXIT_FAILURE;
+                    break;
+                }                
+                log_info(logger, "Alocando size: %d del carpincho: %lu", size_data, id_carpincho);
+                
+                if(!allocar_carpincho(id_carpincho, size_data, &direccionLogica)){
                     log_info(logger, "No se pudo allocar carpincho");
-                    //TODO: Hacer un send al Kernel o a la matelib para que mande un NULL
                 } 
-                //TODO: Hacer un send de la direccionLogica
+                //TODO: Hacer un send de la direccionLogica, si es 0xFFFF esta mal
+                send(cliente_socket, &direccionLogica, sizeof(uint32_t), 0);
 
                 break;
-            case MEM_FREE: 
-                // if(esta_en_tlb(id_carpincho)){
-                //         //TODO: utilizar la pagina de la tlb, RECORDAR MUTEEEEEEEEEX
-                //     } else {
-                //         //Significa que hubo un TLB miss 
-                        
-
-                //         //TODO: Traer la pagina utilizada a la TLB
-                //     }
-                if(!liberar_espacio_mp(dir_logic_ini, size)) {
-                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");    
+            case MEM_FREE: ;
+                uint32_t estado_free = liberar_espacio_mp(dir_logic_ini, size); 
+                if(estado_free == 0) {
+                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");
+                    send(cliente_socket,&estado_free,sizeof(uint32_t),0);    
                     break;
                 }
                 

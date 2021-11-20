@@ -143,9 +143,6 @@ bool cargar_swamp() {
 
         close(fd_swap);
 
-        t_list* tabla_de_frames = list_create();
-        list_add(tablas_de_frames_swap,tabla_de_frames);
-
 
     }
 
@@ -158,15 +155,13 @@ bool cargar_swamp() {
 }
 
 
- void destruir_tabla(t_list* lista){
-    list_destroy(lista);
-}
-
 void free_tabla_de_frames(){
 
-    list_destroy_and_destroy_elements(tablas_de_frames_swap, (void*)destruir_tabla);
+    list_destroy_and_destroy_elements(tablas_de_frames_swap, (void*)destroy_frame);
 
 }
+
+
 
 void cerrar_programa() {
     log_info(logger, "Finalizando programa...");
@@ -178,5 +173,4 @@ void cerrar_programa() {
     free(cfg->ARCHIVOS_SWAP);
     free(cfg);
     free_tabla_de_frames();
-    //finalizar_mutex();
 }

@@ -55,22 +55,23 @@ static void procesar_conexion(void* void_args){
                     log_info(logger, "Error iniciando semaforo");
                     return;
                 }
-                if(!send(cliente_socket, &id, sizeof(long), 0)){
-                   log_error(logger, "Error al enviar id");
-                   free(server_name);
-                   return;
-                }
-                          
-                carpincho_init(id, &carpincho);
+
                 if(!send_mate_init(memoria_fd, 0)){
-                    log_error(logger, "Error al enviar id");
+                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
                     free(server_name);
                     return;
                 }
+
                 if(!send_data_mate_init(memoria_fd, id)){
                     log_error(logger, "Error al enviar id");
                     free(server_name);
                     return;
+                }
+
+                if(!send(cliente_socket, &id, sizeof(long), 0)){
+                   log_error(logger, "Error al enviar id");
+                   free(server_name);
+                   return;
                 }
                 
                 if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
@@ -78,6 +79,9 @@ static void procesar_conexion(void* void_args){
                    free(server_name);
                    return;
                 }
+
+                carpincho_init(id, &carpincho);
+                
                 break;
             
             case SEM_INIT: ;
@@ -169,11 +173,30 @@ static void procesar_conexion(void* void_args){
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;
-                if(recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
-                    send_memalloc(memoria_fd);
-                    send_alloc_data(memoria_fd,id_carpincho,size_data);
-                } else {
-                    //TODO
+                log_info(logger, "5");
+                
+                if(!recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+                    log_error(logger, "Error al recibir data de alloc");
+                    free(server_name);
+                    return;
+                }
+
+                log_info(logger, "6");
+                
+                send_memalloc(memoria_fd);
+                send_alloc_data(memoria_fd,id_carpincho,size_data);
+                uint32_t direccion_logica;
+                if(!recv(memoria_fd, &direccion_logica, sizeof(uint32_t), 0)){
+                    log_error(logger, "Error al recibir direccion logica");
+                    free(server_name);
+                    return;
+                }
+                log_info(logger, "7");
+                
+                if(!send(cliente_socket, &direccion_logica, sizeof(uint32_t), 0)){
+                    log_error(logger, "Error al enviar direccion logica a Matelib");
+                    free(server_name);
+                    return;
                 }
                 break;
 

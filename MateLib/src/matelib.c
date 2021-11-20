@@ -47,6 +47,7 @@ int mate_init (mate_instance *lib_ref, char *config){
 		log_destroy(logger);
 		return EXIT_FAILURE;
 	}
+	log_info(logger, "Handshake");
 
 	mate_inner_structure* inner_structure = lib_ref->group_info;
 	inner_structure->logger = logger;
@@ -68,16 +69,13 @@ int mate_init (mate_instance *lib_ref, char *config){
 		return EXIT_FAILURE;
 	}
 		
-
 	if(inner_structure->kernel_connected){
-		
 		if(recv(servidor_fd, &cop, sizeof(op_code), 0) == -1){
 			log_error(logger, "Error en la espera de poner en exec");
 			data_destroy(IP, PUERTO, cfg);
 			log_destroy(logger);
 			return EXIT_FAILURE;
-		}
-		
+		}	
 	}
 	
 
@@ -271,14 +269,22 @@ int mate_call_io(mate_instance *lib_ref, mate_io_resource io, void *msg){
 
 mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
 	mate_inner_structure* inner_structure = lib_ref->group_info;
-	 
+	if(!inner_structure->kernel_connected){
+  		send_carpincho_ready(inner_structure->servidor_fd, inner_structure->id);
+	}
 	if(!send_memalloc(inner_structure->servidor_fd)){
 		// data_destroy(IP, PUERTO, cfg);	
 		// log_destroy(logger);	
 		return -1;
 	}
 	send_alloc_data(inner_structure->servidor_fd, inner_structure->id, size);
-	return 0;
+	uint32_t direccion;
+	recv(inner_structure->servidor_fd, &direccion, sizeof(uint32_t), 0);
+	if(direccion == 0xFFFF){
+		return NULL;
+	}
+	
+	return direccion;
 }
 
 int mate_memfree(mate_instance *lib_ref, mate_pointer addr){
