@@ -19,11 +19,12 @@
 #include <commons/string.h>
 
 #include <shared/utils.h>
-#include <shared/structs.h>
-
 #include <readline/readline.h>
 
 #include "estructuras.h" 
+#include "monitor_tablas.h"
+#include "monitor_memoria.h"
+
 
 typedef struct {
     char* IP;
@@ -32,7 +33,6 @@ typedef struct {
     char* PUERTO_SWAP;
     uint32_t TAMANIO;
     uint32_t TAMANIO_PAGINA;
-    uint32_t CANT_PAGINAS;
     char* ALGORITMO_REEMPLAZO_MMU;
     char* TIPO_ASIGNACION;
     uint16_t MARCOS_POR_PROCESO;
@@ -41,17 +41,15 @@ typedef struct {
     uint16_t RETARDO_ACIERTO_TLB;
     uint16_t RETARDO_FALLO_TLB;
     char* PATH_DUMP_TLB;
+    //Agregado:
+    uint32_t CANT_PAGINAS;
+    bool LRU_MMU;
+    bool LRU_TLB;    
+    bool FIJA;
 } t_config_memoria;
 
-pthread_mutex_t MUTEX_FRAME_OCUPADO;
-pthread_mutex_t MUTEX_MP_BUSY;
 
-t_log* logger;
-uint32_t memoria_disponible;
-frame_t* tabla_frames;
-uint32_t global_TUR;
-void* memoria_principal;
-t_list* tp_carpinchos;
+pthread_mutex_t MUTEX_IDS;
 
 
 uint8_t cargar_configuracion(t_config_memoria*);
@@ -60,17 +58,9 @@ uint8_t init();
 uint8_t cargar_memoria(t_config_memoria*);
 t_config_memoria* initialize_cfg();
 
-void* (*algoritmo_reemplazo_mmu) (void);
-void* algoritmo_mmu_clock_m ();
-void* algoritmo_mmu_lru();
-
-void* (*algoritmo_reemplazo_tlb) (void);
-void* algoritmo_tlb_fifo();
-void* algoritmo_tlb_lru();
-
-void* (*tipo_asignacion) (void);
-void* asignacion_fija();
-void* asignacion_global();
+void (*correr_algoritmo) (unsigned long id, uint32_t* nro_frame);
+void correr_algoritmo_clock_m (unsigned long id, uint32_t* nro_frame);
+void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame);
 
 
 #endif

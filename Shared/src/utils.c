@@ -7,6 +7,7 @@ bool config_has_all_properties(t_config* cfg, char** properties) {
     }
 
     return true;
+
 }
 
 // El array tiene que estar terminado en NULL

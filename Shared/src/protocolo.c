@@ -1,28 +1,38 @@
 #include "../shared/protocolo.h"
 
 bool send_handshake(int fd_server){
-  send_codigo_op(fd_server, HANDSHAKE);
+  return send_codigo_op(fd_server, HANDSHAKE);
 }
 
 bool send_memalloc(int fd_server){
-  send_codigo_op(fd_server, MEM_ALLOC);
+  return send_codigo_op(fd_server, MEM_ALLOC);
 }
 
 bool send_memfree(int fd_server){
-  send_codigo_op(fd_server, MEM_FREE);
+  return send_codigo_op(fd_server, MEM_FREE);
 }
 
 bool send_memread(int fd_server){
-  send_codigo_op(fd_server, MEM_READ);
+  return send_codigo_op(fd_server, MEM_READ);
 }
 
 bool send_memwrite(int fd_server){
-  send_codigo_op(fd_server, MEM_WRITE);
+  return send_codigo_op(fd_server, MEM_WRITE);
 }
 
-bool send_poner_cola_new(int fd_server){
-  send_codigo_op(fd_server, PONER_COLA_NEW);
+bool send_mate_init(int fd_server, int generar_id){
+  void* stream = malloc(sizeof(int) + sizeof(op_code));
+  op_code op = MATE_INIT;
+  memcpy(stream, &op, sizeof(op_code));
+  memcpy(stream + sizeof(op_code), &generar_id, sizeof(int));
+  if(send(fd_server, stream, sizeof(int) + sizeof(op_code), 0) == -1) {
+    free(stream);
+    return false;
+  }
+  free(stream);
+  return true;
 }
+
 
 bool send_codigo_op(int fd, op_code cop) {
   size_t size = sizeof(op_code);
@@ -39,7 +49,7 @@ bool send_alloc_data(int fd, unsigned long id, int size){
   return true;
 }
 
-bool send_data_cola_new(int fd, unsigned long id){
+bool send_data_mate_init(int fd, unsigned long id){
   return send(fd, &id, sizeof(long), 0) != -1;
 }
 
@@ -73,6 +83,38 @@ bool recv_sem_init(int fd, char** sem, int * value){
   return true;
 } 
 
+bool send_sem(int fd, char* sem){
+  size_t size;
+  void * stream = serializar_string(&size, sem);
+  if(send(fd, stream, size, 0) == -1){
+    free(stream);
+    return false;
+  } 
+  free(stream);
+  return true;
+}
+
+bool recv_sem(int fd, char** sem){
+  size_t size;
+  if (recv(fd, &size, sizeof(size_t), 0) != sizeof(size_t)) {
+      return false;
+  }
+  void* stream = malloc(size);
+  if (recv(fd, stream, size, 0) != size) {
+      free(stream);
+      return false;
+  }
+  deserializar_sem_wait(size, stream, sem);
+  free(stream);
+  return true;
+} 
+
+//MEMORIA
+
+bool send_carpincho_ready(int fd, long id_carpincho){
+  send_codigo_op(fd, CARPINCHO_READY);
+  return send(fd, &id_carpincho, sizeof(long), 0) != -1;
+}
 
 bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
   void* stream = malloc(sizeof(long)+sizeof(int));
@@ -103,6 +145,25 @@ bool send_ack(int fd, bool ack) {
     return true;
 }
 
+//IO
+bool send_io(int fd, char* io, char* msg){
+  size_t size, size2;
+  void * stream = serializar_string(&size, io);
+  if(send(fd, stream, size, 0) == -1){
+    free(stream);    
+    return false;
+  } 
+  void * stream2 = serializar_string(&size2, msg);
+  if(send(fd, stream2, size2, 0) == -1){
+    free(stream2);    
+    return false;
+  } 
+  free(stream);
+  free(stream2);
+   
+  return true;
+}
+
 //MEMORIA
 bool send_probar_en_swamp(uint32_t size, unsigned long id){
   return true;
@@ -120,6 +181,19 @@ bool recv_ack(int fd, bool* ack) {
     return true;
 }
 
+
+bool send_finalizar_carpincho(int fd, unsigned long id) {
+  void* stream = malloc(sizeof(op_code) + sizeof(long));
+  op_code op = FREE_CARPINCHO;
+  memcpy(stream, &op, sizeof(op_code));
+  memcpy(stream + sizeof(op_code), &id, sizeof(long));
+  if(send(fd, stream, sizeof(op_code) + sizeof(long), 0) == -1){
+    free(stream);    
+    return false;
+  }
+  free(stream);    
+  return true;
+}
 //SWAmP
 
 /* TODO: A implementar */

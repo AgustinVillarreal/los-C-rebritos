@@ -12,6 +12,7 @@
     "cstdlib": "c",
     "algoritmos.h": "c",
     "log.h": "c",
+    "interfaz_memoria.h": "c"
     "stdint.h": "c"
   }
 }

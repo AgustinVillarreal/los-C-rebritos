@@ -1,8 +1,12 @@
 #include "../include/colas.h"
 
 //TODO: TODO ESTO SEGURO SE PUEDE ABSTRAEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER
+extern t_log* logger;
+
 
 static unsigned long obj_tid = 0;
+
+extern t_config_kernel* KERNEL_CFG;
 
 //Esto es prueba
 uint16_t estimacion = 80;
@@ -14,24 +18,26 @@ void iniciar_mutex(int grado_multiprogramacion){
   pthread_mutex_init(&MUTEX_LISTA_SUSPENDED_READY, NULL);
   pthread_mutex_init(&MUTEX_LISTA_SUSPENDED_BLOCKED, NULL);
   pthread_mutex_init(&MUTEX_LISTA_BLOCKED, NULL);
+  pthread_mutex_init(&MUTEX_IDS, NULL);
 
   sem_init(&SEM_GRADO_MULTIPROGRAMACION,0, grado_multiprogramacion);
   sem_init(&SEM_CANTIDAD_A_READY, 0, 0);
   sem_init(&SEM_CANTIDAD_EN_READY, 0, 0);
+  sem_init(&SEM_CARPINCHO_SUSPENCION, 0, 0);
+  
 }
 
-void carpincho_init(unsigned long id){
-  t_carpincho* carpincho = malloc(sizeof(t_carpincho));
-  carpincho->id = id;
+void carpincho_init(unsigned long id, t_carpincho ** carpincho){
+  (*carpincho)->id = id;
   // TODO se elimina esto, es solo para pruebas
   // if(estimacion = 80){
   //   estimacion = 1; 
   // }
   // carpincho->ultima_estimacion = estimacion; 
-  carpincho->ultima_estimacion = KERNEL_CFG->ESTIMACION_INICIAL;
-  sem_init(&carpincho->sem_pause, 0, 0);
-  push_cola_new(carpincho);
-  sem_wait(&carpincho->sem_pause);
+  (*carpincho)->ultima_estimacion = KERNEL_CFG->ESTIMACION_INICIAL;
+  sem_init(&(*carpincho)->sem_pause, 0, 0);
+  push_cola_new(*carpincho);
+  sem_wait(&(*carpincho)->sem_pause);
   return;
 }
 
@@ -46,13 +52,25 @@ bool filter_t_carpincho_by_tid(void *item){
   return t_r->id == obj_tid;
 }
 
+uint16_t calcular_estimacion(t_carpincho* carpincho){
+  time_t tiempoActual = time(NULL);
+  
+	double rafaga = difftime(tiempoActual, carpincho->tiempo_ingreso_exec);
+
+  double alfa = KERNEL_CFG->ALFA;
+
+  return (alfa*rafaga + (1-alfa)*carpincho->ultima_estimacion)*10;
+}
+
+
 // COSAS DE COLA NEW 
 
 void push_cola_new(t_carpincho* carpincho){
   pthread_mutex_lock(&MUTEX_LISTA_NEW);
   queue_push(COLA_NEW, carpincho);
   pthread_mutex_unlock(&MUTEX_LISTA_NEW);
-  sem_post(&SEM_CANTIDAD_A_READY);    
+  sem_post(&SEM_CANTIDAD_A_READY);   
+  sem_post(&SEM_CARPINCHO_SUSPENCION);   
 }
 
 t_carpincho* pop_cola_new(){
@@ -131,6 +149,8 @@ void push_cola_ready(t_carpincho* carpincho){
   queue_push(COLA_READY, carpincho);
   carpincho->tiempo_ingreso_ready = time(NULL);  
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
+  send_carpincho_ready(KERNEL_CFG->MEMORIA_FD, carpincho->id);
+  sem_post(&SEM_CANTIDAD_EN_READY);
 }
 
 uint16_t largo_cola_ready() {
@@ -138,4 +158,80 @@ uint16_t largo_cola_ready() {
   uint16_t ret = queue_size(COLA_READY);
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
   return ret;
+}
+
+//COSAS COLA BLOCKED
+
+void add_lista_blocked(t_carpincho* carpincho){
+  pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
+  list_add(LISTA_BLOCKED, carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);  
+  carpincho->ultima_estimacion = calcular_estimacion(carpincho);
+  sem_post(&SEM_CARPINCHO_SUSPENCION);     
+  return;
+}
+
+void remove_lista_blocked(t_carpincho* carpincho){
+
+  bool es_carpincho(void* unCarpincho){
+    return unCarpincho == carpincho;
+  }
+
+  pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
+  list_remove_by_condition(LISTA_BLOCKED, es_carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);
+
+  return;
+}
+
+bool existe_en_lista_blocked(t_carpincho* carpincho){
+
+  bool es_carpincho(void* unCarpincho){
+    return unCarpincho == carpincho;
+  }
+  bool existe;
+  pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
+  existe = list_any_satisfy(LISTA_BLOCKED, es_carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);
+
+  return existe;
+}
+
+t_carpincho* remove_lista_blocked_last(){
+  pthread_mutex_lock(&MUTEX_LISTA_BLOCKED);
+  int index = list_size(LISTA_BLOCKED) - 1;
+  t_carpincho* carpincho = list_remove(LISTA_BLOCKED, index);
+  pthread_mutex_unlock(&MUTEX_LISTA_BLOCKED);
+  return carpincho;  
+}
+
+//COSAS LISTA SUSPENDED BLOCKED
+
+void add_lista_suspended_blocked(t_carpincho* carpincho){
+  pthread_mutex_lock(&MUTEX_LISTA_SUSPENDED_BLOCKED);
+  list_add(LISTA_SUSPENDED_BLOCKED, carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_SUSPENDED_BLOCKED); 
+  return;
+}
+
+void remove_lista_suspended_blocked(t_carpincho* carpincho){
+
+  bool es_carpincho(void* unCarpincho){
+    return unCarpincho == carpincho;
+  }
+
+  pthread_mutex_lock(&MUTEX_LISTA_SUSPENDED_BLOCKED);
+  list_remove_by_condition(LISTA_SUSPENDED_BLOCKED, es_carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_SUSPENDED_BLOCKED);
+
+  return;
+}
+
+// COSAS DE COLA EXIT
+
+void push_cola_exit(t_carpincho* carpincho){
+  pthread_mutex_lock(&MUTEX_LISTA_EXIT);
+  queue_push(COLA_EXIT, carpincho);
+  pthread_mutex_unlock(&MUTEX_LISTA_EXIT);
+  sem_post(&SEM_GRADO_MULTIPROGRAMACION);
 }
