@@ -17,11 +17,6 @@ typedef struct {
     hmd_t;
 
 typedef struct {
-    uint32_t nro_frame;
-    uint32_t nro_pagina;
-} tlb_t;
-
-typedef struct {
     unsigned long id_carpincho;
     //TODO
     uint8_t ocupado;
@@ -34,6 +29,7 @@ typedef struct {
     uint32_t pages;
     pthread_mutex_t mutex_paginas;
     t_list* paginas;
+    uint32_t posible_victima_fija;
 } tp_carpincho_t;
 
 typedef struct {
@@ -43,6 +39,7 @@ typedef struct {
 typedef struct {
     uint32_t nro_pagina;    
     uint32_t nro_frame; 
+    pthread_mutex_t mutex_bits;
     uint16_t bit_M;    // bit de modificación    
     bool bit_P; // bit de presencia
     union {
@@ -51,6 +48,16 @@ typedef struct {
     } algoritmo;
 } entrada_tp_t;
 
+typedef struct {
+    unsigned long id_carpincho;
+    entrada_tp_t* entrada_tp;
+    uint32_t TUR;
+} tlb_t;
+
+typedef struct {
+    entrada_tp_t* entrada_tp;
+    unsigned long id_carpincho;
+} algoritmo_t;
 
 t_list* TLB_TABLE;
 t_list* CARPINCHOS_TABLE; 

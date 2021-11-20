@@ -37,11 +37,12 @@ typedef enum {
     PEDIR_SWAMP,
     MATE_INIT,
     IO,
+    CARPINCHO_SWAP,
+    CARPINCHO_READY,
     ESCRITURA_SWAMP,
     LECTURA_SWAMP,
     FINALIZAR_CARPINCHO,
-    ESPACIO_LIBRE,
-    CARPINCHO_SWAP
+    ESPACIO_LIBRE
 } op_code;
 
 
@@ -73,6 +74,7 @@ bool send_memfree(int fd_server);
 
 bool send_ack(int fd, bool ack);
 bool recv_ack(int fd, bool* ack);
+bool send_carpincho_ready(int fd, long id_carpincho);
 
 bool send_finalizar_carpincho(int fd, unsigned long id);
 

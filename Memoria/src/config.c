@@ -3,7 +3,6 @@
 uint32_t memoria_disponible;
 frame_t* tabla_frames;
 uint32_t global_TUR;
-t_list* TABLA_CARPINCHOS;
 void* memoria_principal;
 t_log* logger;
 

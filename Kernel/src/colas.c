@@ -149,6 +149,7 @@ void push_cola_ready(t_carpincho* carpincho){
   queue_push(COLA_READY, carpincho);
   carpincho->tiempo_ingreso_ready = time(NULL);  
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
+  send_carpincho_ready(KERNEL_CFG->MEMORIA_FD, carpincho->id);
   sem_post(&SEM_CANTIDAD_EN_READY);
 }
 
