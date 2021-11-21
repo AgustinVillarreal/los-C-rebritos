@@ -79,3 +79,12 @@
 [INFO] 17:51:48:536 mateLib/(6704:6704): Cliente conectado en 127.0.0.1:5001 (a Server)
 
 [INFO] 17:51:48:628 mateLib/(6704:6704): Handshake
+[INFO] 18:27:08:472 mateLib/(1596:1596): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:27:08:542 mateLib/(1596:1596): Handshake
+[INFO] 18:30:30:517 mateLib/(2089:2089): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:30:30:585 mateLib/(2089:2089): Handshake
+[INFO] 18:35:51:442 mateLib/(3028:3028): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 18:35:51:510 mateLib/(3028:3028): Handshake

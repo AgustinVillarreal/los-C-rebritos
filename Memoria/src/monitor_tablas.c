@@ -17,6 +17,17 @@ void agregar_tabla_a_tp_carpinchos(void* tp_carpincho) {
     return;
 }
 
+void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_paginas) {
+    tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
+    for(uint32_t i = 0; i > cantidad_paginas; i++   ){
+        pthread_mutex_lock(&MUTEX_TP_CARPINCHOS);
+        list_remove (carpincho -> paginas,list_size(carpincho-> paginas)-1);
+        pthread_mutex_unlock(&MUTEX_TP_CARPINCHOS);
+    }
+    return;
+}
+
+
 bool tabla_vacia(unsigned long id){
     
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id);

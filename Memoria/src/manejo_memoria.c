@@ -5,6 +5,7 @@ extern uint32_t memoria_disponible;
 extern void* memoria_principal;
 extern t_config_memoria* MEMORIA_CFG;
 extern t_log* logger;
+extern frame_t* tabla_frames;
 extern pthread_mutex_t MUTEX_FRAMES_BUSY;
 
 bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
@@ -306,12 +307,12 @@ uint32_t cant_frame_libres_fija(unsigned long id_carpincho) {
     return frames_disponibles_carpincho;
 }
 
-/*
+
 //suponemos que la direccion logica que nos pasan es la de un hmd
 void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
   direccion_logica - sizeof(hmd_t);
-  uint32_t nro_pagina = direccion_logica / MEMORIA_CFG->TAMANIO_PAGINA;
-  uint32_t offset_hmd = direccion_logica % MEMORIA_CFG->TAMANIO_PAGINA;
+  uint32_t nro_pagina = *direccion_logica / MEMORIA_CFG->TAMANIO_PAGINA;
+  uint32_t offset_hmd = *direccion_logica % MEMORIA_CFG->TAMANIO_PAGINA;
   entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
   hmd_t* hmd = leer_hmd(entrada_tp, offset_hmd, id_carpincho);
   
@@ -320,21 +321,26 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
   uint32_t offset_hmd_aux = direccion_logica_aux % MEMORIA_CFG->TAMANIO_PAGINA;
   entrada_tp_t* entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux);
   hmd_t* hmd_aux = leer_hmd(entrada_tp_aux, offset_hmd_aux, id_carpincho);
-  uint32_t nro_frame = *entrada_tp_aux-> nro_frame;
-  
-  while(hmd_aux-> isFree){
+  uint32_t nro_frame = entrada_tp_aux-> nro_frame;
+
+  pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
+  tabla_frames[nro_frame].libre = true;
+  pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
+
+
+  while(hmd_aux-> isFree && (hmd_aux -> prevAlloc =! 0) ){
     
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
     tabla_frames[nro_frame].libre = true;
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
 
     hmd_aux -> nextAlloc = hmd -> nextAlloc;
-    uint32_t direccion_logica_aux = hmd_aux->prevAlloc;
-    uint32_t nro_pagina_aux= direccion_logica_aux / MEMORIA_CFG->TAMANIO_PAGINA;
-    uint32_t offset_hmd_aux = direccion_logica_aux % MEMORIA_CFG->TAMANIO_PAGINA;
-    entrada_tp_t* entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux);
-    hmd_t* hmd_aux = leer_hmd(entrada_tp_aux, offset_hmd_aux, id_carpincho);
-    nro_frame = *entrada_tp_aux-> nro_frame;
+    direccion_logica_aux = hmd_aux->prevAlloc;
+    nro_pagina_aux= direccion_logica_aux / MEMORIA_CFG->TAMANIO_PAGINA;
+    offset_hmd_aux = direccion_logica_aux % MEMORIA_CFG->TAMANIO_PAGINA;
+    entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux);
+    hmd_aux = leer_hmd(entrada_tp_aux, offset_hmd_aux, id_carpincho);
+    nro_frame = entrada_tp_aux-> nro_frame;
     hmd -> prevAlloc = hmd_aux -> prevAlloc;
   }
 
@@ -343,74 +349,60 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
   uint32_t offset_hmd_aux_next = direccion_logica_aux % MEMORIA_CFG->TAMANIO_PAGINA;
   entrada_tp_t* entrada_tp_aux_next = buscar_entrada_tp(id_carpincho, nro_pagina_aux_next);
   hmd_t* hmd_aux_next = leer_hmd(entrada_tp_aux_next, offset_hmd_aux_next, id_carpincho);
-  nro_frame = *entrada_tp_aux_next -> nro_frame;
+  nro_frame = entrada_tp_aux_next -> nro_frame;
 
   
+   
 
-  while(hmd_aux_next-> isFree && hmd_aux_next -> nextAlloc != NULL ){
+  while(hmd_aux_next-> isFree && (hmd_aux_next -> nextAlloc != NULL) ){
   
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
     tabla_frames[nro_frame].libre = true;
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
 
     hmd_aux_next -> prevAlloc = hmd -> prevAlloc;
-    uint32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd_aux_next;
-    if( diff > 9){
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd_aux_next, sizeof(hmd_t));
-      pthread_mutex_unlock(&MUTEX_MP_BUSY);  
-    }else{
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset_hmd_aux_next, hmd_aux_next, dif);
-      pthread_mutex_unlock(&MUTEX_MP_BUSY);
-      *entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux_next+1);
-      offset_hmd_aux_next = 0
-      nro_frame = *entrada_tp_aux-> nro_frame;
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, ((void*) hmd_aux_next) + diff , sizeof(hmd_t) - diff);
-      pthread_mutex_unlock(&MUTEX_MP_BUSY); 
-    }
-    uint32_t direccion_logica_aux_next = hmd_aux->nextAlloc;
-    uint32_t nro_pagina_aux_next = direccion_logica_aux_next / MEMORIA_CFG->TAMANIO_PAGINA;
-    uint32_t offset_hmd_aux_next = direccion_logica_aux_next % MEMORIA_CFG->TAMANIO_PAGINA;
-    entrada_tp_t* entrada_tp_aux_next = buscar_entrada_tp(id_carpincho, nro_pagina_aux_next);
-    hmd_t* hmd_aux_next = leer_hmd(entrada_tp_aux, offset_hmd_aux_next, id_carpincho);
-    uint32_t nro_frame = *entrada_tp_aux_next-> nro_frame;
-    hmd -> nextAlloc = hmd_next -> nextAlloc;
+    
+    direccion_logica_aux_next = hmd_aux->nextAlloc;
+    nro_pagina_aux_next = direccion_logica_aux_next / MEMORIA_CFG->TAMANIO_PAGINA;
+    offset_hmd_aux_next = direccion_logica_aux_next % MEMORIA_CFG->TAMANIO_PAGINA;
+    entrada_tp_aux_next = buscar_entrada_tp(id_carpincho, nro_pagina_aux_next);
+    hmd_aux_next = leer_hmd(entrada_tp_aux, offset_hmd_aux_next, id_carpincho);
+    nro_frame = entrada_tp_aux_next-> nro_frame;
+    hmd -> nextAlloc = hmd_aux_next -> nextAlloc;
     hmd_aux -> nextAlloc = hmd -> nextAlloc;
-    } 
-    uint32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd_aux;
-    if( diff > 9){
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, hmd_aux, sizeof(hmd_t));
-      pthread_mutex_unlock(&MUTEX_MP_BUSY);  
-    }else{
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset_hmd_aux, hmd_aux, dif);
-      pthread_mutex_unlock(&MUTEX_MP_BUSY);
-      *entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux+1);
-      offset_hmd_aux = 0
-      nro_frame = *entrada_tp_aux-> nro_frame;
-      pthread_mutex_lock(&MUTEX_MP_BUSY);
-      memcpy(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, ((void*) hmd_aux) + diff , sizeof(hmd_t) - diff);
-      pthread_mutex_unlock(&MUTEX_MP_BUSY); 
-    }
+  }
+
+  uint32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd_aux_next;
+  if( diff > 9){
+    escritura_memcpy_size(hmd_aux_next,entrada_tp_aux_next, offset_hmd_aux_next, sizeof(hmd_t)) ;
+  }else{
+    escritura_memcpy_size(hmd_aux_next,entrada_tp_aux_next, offset_hmd_aux_next, diff);
+    entrada_tp_aux_next = buscar_entrada_tp(id_carpincho, nro_pagina_aux_next+1);
+    offset_hmd_aux_next = 0;
+    escritura_memcpy_size(hmd_aux_next + diff,entrada_tp_aux_next, offset_hmd_aux_next, sizeof(hmd_t) - diff);
+  }
+
+  diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd_aux;
+  if( diff > 9){
+    escritura_memcpy_size(hmd_aux,entrada_tp_aux, offset_hmd_aux, sizeof(hmd_t));
+  }else{
+    escritura_memcpy_size(hmd_aux,entrada_tp_aux, offset_hmd_aux, diff);
+    entrada_tp_aux = buscar_entrada_tp(id_carpincho, nro_pagina_aux+1);
+    offset_hmd_aux = 0;
+    escritura_memcpy_size(hmd_aux + diff,entrada_tp_aux, offset_hmd_aux, sizeof(hmd_t) - diff);
+  }
 
 
-    diff = hmd_aux -> nextAlloc - hmd_aux_next -> prevAlloc ;
-    uint32_t cantidad_paginas_libres = diff / MEMORIA_CFG->TAMANIO_PAGINA;
-    if(hmd_aux_next -> nextAlloc == NULL && (cantidad_paginas_libres > 1){
-      *tp_carpincho_t carpincho = find_tp_carpincho(id_carpincho);
-      for(uint32_t i = 0; i > cantidad_paginas_libres; i++   ){
-        list_remove (carpincho -> paginas,list_size(carpincho)-1);
-      }
-    }
-
-
+  diff = hmd_aux -> nextAlloc - hmd_aux_next -> prevAlloc ;
+  uint32_t cantidad_paginas_libres = diff / MEMORIA_CFG->TAMANIO_PAGINA;
+  if(hmd_aux_next -> nextAlloc == NULL && (cantidad_paginas_libres > 1)){
+    quitar_paginas_a_carpinchos(id_carpincho,cantidad_paginas_libres);
+  }
 }
+
   // NOS QUEDAMOS ACA
 
-*/
+
 
 
 

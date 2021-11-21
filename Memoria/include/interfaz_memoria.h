@@ -19,5 +19,7 @@ uint32_t leer_espacio_mp(char* size);
 uint32_t escribir_espacio_mp();
 void mate_init(unsigned long id);
 
+uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica);
+
 
 #endif

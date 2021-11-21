@@ -154,3 +154,5 @@
 [INFO] 17:50:32:125 Kernel/(6479:6513): 6
 [INFO] 17:50:32:167 Kernel/(6479:6513): 7
 [INFO] 17:50:32:242 Kernel/(6479:6513): DISCONNECT!
+[ERROR] 18:40:35:898 Kernel/(3810:3810): Error al conectar (a Server)
+

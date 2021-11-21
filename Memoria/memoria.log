@@ -1254,3 +1254,291 @@
 [INFO] 17:51:49:132 memoria/(6616:6705): El frame es el 106 
 
 [INFO] 17:51:49:194 memoria/(6616:6705): DISCONNECT!
+[INFO] 16:56:53:896 memoria/(21691:21691): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:56:53:974 memoria/(21691:21691): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:56:53:981 memoria/(21691:21691): ------2---------
+
+[INFO] 16:56:53:983 memoria/(21691:21691): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:00:26:720 memoria/(22227:22227): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:00:26:785 memoria/(22227:22227): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:00:26:788 memoria/(22227:22227): ------2---------
+
+[INFO] 17:00:26:790 memoria/(22227:22227): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:23:26:361 memoria/(892:892): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:23:26:426 memoria/(892:892): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:23:26:430 memoria/(892:892): ------2---------
+
+[INFO] 18:23:26:432 memoria/(892:892): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:27:08:448 memoria/(892:892): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:27:08:538 memoria/(892:1597): HANDSHAKE
+[INFO] 18:27:08:599 memoria/(892:1597): Alocando size: 80 del carpincho: 0
+[INFO] 18:27:08:602 memoria/(892:1597): El frame es el 0 
+
+[INFO] 18:27:08:607 memoria/(892:1597): El frame es el 1 
+
+[INFO] 18:27:08:609 memoria/(892:1597): El frame es el 2 
+
+[INFO] 18:27:08:610 memoria/(892:1597): Allocando primer mitad del hmd en 2
+
+[INFO] 18:27:08:612 memoria/(892:1597): El frame es el 3 
+
+[INFO] 18:27:08:613 memoria/(892:1597): Allocando segunda mitad del hmd en 3
+
+[INFO] 18:27:08:653 memoria/(892:1597): Alocando size: 14 del carpincho: 0
+[INFO] 18:27:08:656 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:08:661 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:08:663 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:667 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:706 memoria/(892:1597): Alocando size: 8 del carpincho: 0
+[INFO] 18:27:08:707 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:08:708 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:08:709 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:711 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:714 memoria/(892:1597): El frame es el 4 
+
+[INFO] 18:27:08:766 memoria/(892:1597): Alocando size: 13 del carpincho: 0
+[INFO] 18:27:08:768 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:08:768 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:08:769 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:770 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:771 memoria/(892:1597): ---------0 en pagina 4---------
+[INFO] 18:27:08:810 memoria/(892:1597): Alocando size: 1 del carpincho: 0
+[INFO] 18:27:08:812 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:08:813 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:08:814 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:815 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:816 memoria/(892:1597): ---------0 en pagina 4---------
+[INFO] 18:27:08:819 memoria/(892:1597): El frame es el 5 
+
+[INFO] 18:27:08:857 memoria/(892:1597): Alocando size: 24 del carpincho: 0
+[INFO] 18:27:08:859 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:08:860 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:08:861 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:862 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:863 memoria/(892:1597): ---------0 en pagina 4---------
+[INFO] 18:27:08:864 memoria/(892:1597): ---------0 en pagina 5---------
+[INFO] 18:27:08:865 memoria/(892:1597): El frame es el 6 
+
+[INFO] 18:27:08:905 memoria/(892:1597): Alocando size: 8 del carpincho: 0
+[INFO] 18:27:08:907 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:08:908 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:08:909 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:911 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:913 memoria/(892:1597): ---------0 en pagina 4---------
+[INFO] 18:27:08:914 memoria/(892:1597): ---------0 en pagina 5---------
+[INFO] 18:27:08:915 memoria/(892:1597): ---------0 en pagina 6---------
+[INFO] 18:27:08:953 memoria/(892:1597): Alocando size: 4 del carpincho: 0
+[INFO] 18:27:08:955 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:08:956 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:08:958 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:959 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:08:960 memoria/(892:1597): ---------0 en pagina 4---------
+[INFO] 18:27:08:960 memoria/(892:1597): ---------0 en pagina 5---------
+[INFO] 18:27:08:961 memoria/(892:1597): ---------0 en pagina 6---------
+[INFO] 18:27:08:962 memoria/(892:1597): El frame es el 7 
+
+[INFO] 18:27:09:001 memoria/(892:1597): Alocando size: 81 del carpincho: 0
+[INFO] 18:27:09:004 memoria/(892:1597): ---------0 en pagina 0---------
+[INFO] 18:27:09:005 memoria/(892:1597): ---------0 en pagina 2---------
+[INFO] 18:27:09:005 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:09:006 memoria/(892:1597): ---------0 en pagina 3---------
+[INFO] 18:27:09:007 memoria/(892:1597): ---------0 en pagina 4---------
+[INFO] 18:27:09:008 memoria/(892:1597): ---------0 en pagina 5---------
+[INFO] 18:27:09:009 memoria/(892:1597): ---------0 en pagina 6---------
+[INFO] 18:27:09:011 memoria/(892:1597): ---------0 en pagina 7---------
+[INFO] 18:27:09:016 memoria/(892:1597): El frame es el 8 
+
+[INFO] 18:27:09:017 memoria/(892:1597): El frame es el 9 
+
+[INFO] 18:27:09:019 memoria/(892:1597): El frame es el 10 
+
+[INFO] 18:27:09:059 memoria/(892:1597): DISCONNECT!
+[INFO] 18:30:24:164 memoria/(2057:2057): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:30:24:230 memoria/(2057:2057): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:30:24:233 memoria/(2057:2057): ------2---------
+
+[INFO] 18:30:24:236 memoria/(2057:2057): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:30:30:485 memoria/(2057:2057): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:30:30:581 memoria/(2057:2090): HANDSHAKE
+[INFO] 18:30:30:642 memoria/(2057:2090): Alocando size: 80 del carpincho: 0
+[INFO] 18:30:30:646 memoria/(2057:2090): El frame es el 0 
+
+[INFO] 18:30:30:651 memoria/(2057:2090): El frame es el 1 
+
+[INFO] 18:30:30:653 memoria/(2057:2090): El frame es el 2 
+
+[INFO] 18:30:30:654 memoria/(2057:2090): Allocando primer mitad del hmd en 2
+
+[INFO] 18:30:30:656 memoria/(2057:2090): El frame es el 3 
+
+[INFO] 18:30:30:657 memoria/(2057:2090): Allocando segunda mitad del hmd en 3
+
+[INFO] 18:30:30:698 memoria/(2057:2090): Alocando size: 14 del carpincho: 0
+[INFO] 18:30:30:701 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:30:706 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:30:708 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:712 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:753 memoria/(2057:2090): Alocando size: 8 del carpincho: 0
+[INFO] 18:30:30:755 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:30:756 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:30:756 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:757 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:760 memoria/(2057:2090): El frame es el 4 
+
+[INFO] 18:30:30:801 memoria/(2057:2090): Alocando size: 13 del carpincho: 0
+[INFO] 18:30:30:803 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:30:805 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:30:806 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:807 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:808 memoria/(2057:2090): ---------0 en pagina 4---------
+[INFO] 18:30:30:845 memoria/(2057:2090): Alocando size: 1 del carpincho: 0
+[INFO] 18:30:30:847 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:30:848 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:30:849 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:850 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:850 memoria/(2057:2090): ---------0 en pagina 4---------
+[INFO] 18:30:30:851 memoria/(2057:2090): El frame es el 5 
+
+[INFO] 18:30:30:890 memoria/(2057:2090): Alocando size: 24 del carpincho: 0
+[INFO] 18:30:30:897 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:30:898 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:30:899 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:900 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:901 memoria/(2057:2090): ---------0 en pagina 4---------
+[INFO] 18:30:30:902 memoria/(2057:2090): ---------0 en pagina 5---------
+[INFO] 18:30:30:903 memoria/(2057:2090): El frame es el 6 
+
+[INFO] 18:30:30:942 memoria/(2057:2090): Alocando size: 8 del carpincho: 0
+[INFO] 18:30:30:943 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:30:944 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:30:945 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:946 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:947 memoria/(2057:2090): ---------0 en pagina 4---------
+[INFO] 18:30:30:947 memoria/(2057:2090): ---------0 en pagina 5---------
+[INFO] 18:30:30:948 memoria/(2057:2090): ---------0 en pagina 6---------
+[INFO] 18:30:30:985 memoria/(2057:2090): Alocando size: 4 del carpincho: 0
+[INFO] 18:30:30:987 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:30:990 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:30:991 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:995 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:30:996 memoria/(2057:2090): ---------0 en pagina 4---------
+[INFO] 18:30:30:997 memoria/(2057:2090): ---------0 en pagina 5---------
+[INFO] 18:30:30:997 memoria/(2057:2090): ---------0 en pagina 6---------
+[INFO] 18:30:30:998 memoria/(2057:2090): El frame es el 7 
+
+[INFO] 18:30:31:038 memoria/(2057:2090): Alocando size: 81 del carpincho: 0
+[INFO] 18:30:31:040 memoria/(2057:2090): ---------0 en pagina 0---------
+[INFO] 18:30:31:041 memoria/(2057:2090): ---------0 en pagina 2---------
+[INFO] 18:30:31:042 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:31:043 memoria/(2057:2090): ---------0 en pagina 3---------
+[INFO] 18:30:31:044 memoria/(2057:2090): ---------0 en pagina 4---------
+[INFO] 18:30:31:045 memoria/(2057:2090): ---------0 en pagina 5---------
+[INFO] 18:30:31:047 memoria/(2057:2090): ---------0 en pagina 6---------
+[INFO] 18:30:31:050 memoria/(2057:2090): ---------0 en pagina 7---------
+[INFO] 18:30:31:052 memoria/(2057:2090): El frame es el 8 
+
+[INFO] 18:30:31:053 memoria/(2057:2090): El frame es el 9 
+
+[INFO] 18:30:31:055 memoria/(2057:2090): El frame es el 10 
+
+[INFO] 18:35:40:084 memoria/(2956:2956): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:35:40:153 memoria/(2956:2956): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:35:40:157 memoria/(2956:2956): ------2---------
+
+[INFO] 18:35:40:159 memoria/(2956:2956): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:35:51:419 memoria/(2956:2956): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:35:51:506 memoria/(2956:3029): HANDSHAKE
+[INFO] 18:35:51:567 memoria/(2956:3029): Alocando size: 80 del carpincho: 0
+[INFO] 18:35:51:570 memoria/(2956:3029): El frame es el 0 
+
+[INFO] 18:35:51:575 memoria/(2956:3029): El frame es el 1 
+
+[INFO] 18:35:51:577 memoria/(2956:3029): El frame es el 2 
+
+[INFO] 18:35:51:579 memoria/(2956:3029): Allocando primer mitad del hmd en 2
+
+[INFO] 18:35:51:580 memoria/(2956:3029): El frame es el 3 
+
+[INFO] 18:35:51:582 memoria/(2956:3029): Allocando segunda mitad del hmd en 3
+
+[INFO] 18:35:51:621 memoria/(2956:3029): Alocando size: 14 del carpincho: 0
+[INFO] 18:35:51:624 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:628 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:631 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:636 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:677 memoria/(2956:3029): Alocando size: 8 del carpincho: 0
+[INFO] 18:35:51:678 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:679 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:680 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:681 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:685 memoria/(2956:3029): El frame es el 4 
+
+[INFO] 18:35:51:725 memoria/(2956:3029): Alocando size: 13 del carpincho: 0
+[INFO] 18:35:51:727 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:729 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:730 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:731 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:732 memoria/(2956:3029): ---------0 en pagina 4---------
+[INFO] 18:35:51:773 memoria/(2956:3029): Alocando size: 1 del carpincho: 0
+[INFO] 18:35:51:775 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:775 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:776 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:777 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:778 memoria/(2956:3029): ---------0 en pagina 4---------
+[INFO] 18:35:51:779 memoria/(2956:3029): El frame es el 5 
+
+[INFO] 18:35:51:817 memoria/(2956:3029): Alocando size: 24 del carpincho: 0
+[INFO] 18:35:51:819 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:820 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:821 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:822 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:823 memoria/(2956:3029): ---------0 en pagina 4---------
+[INFO] 18:35:51:824 memoria/(2956:3029): ---------0 en pagina 5---------
+[INFO] 18:35:51:826 memoria/(2956:3029): El frame es el 6 
+
+[INFO] 18:35:51:865 memoria/(2956:3029): Alocando size: 8 del carpincho: 0
+[INFO] 18:35:51:867 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:867 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:870 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:871 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:872 memoria/(2956:3029): ---------0 en pagina 4---------
+[INFO] 18:35:51:873 memoria/(2956:3029): ---------0 en pagina 5---------
+[INFO] 18:35:51:874 memoria/(2956:3029): ---------0 en pagina 6---------
+[INFO] 18:35:51:913 memoria/(2956:3029): Alocando size: 4 del carpincho: 0
+[INFO] 18:35:51:914 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:915 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:917 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:918 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:919 memoria/(2956:3029): ---------0 en pagina 4---------
+[INFO] 18:35:51:920 memoria/(2956:3029): ---------0 en pagina 5---------
+[INFO] 18:35:51:922 memoria/(2956:3029): ---------0 en pagina 6---------
+[INFO] 18:35:51:923 memoria/(2956:3029): El frame es el 7 
+
+[INFO] 18:35:51:961 memoria/(2956:3029): Alocando size: 81 del carpincho: 0
+[INFO] 18:35:51:963 memoria/(2956:3029): ---------0 en pagina 0---------
+[INFO] 18:35:51:964 memoria/(2956:3029): ---------0 en pagina 2---------
+[INFO] 18:35:51:965 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:966 memoria/(2956:3029): ---------0 en pagina 3---------
+[INFO] 18:35:51:967 memoria/(2956:3029): ---------0 en pagina 4---------
+[INFO] 18:35:51:967 memoria/(2956:3029): ---------0 en pagina 5---------
+[INFO] 18:35:51:968 memoria/(2956:3029): ---------0 en pagina 6---------
+[INFO] 18:35:51:970 memoria/(2956:3029): ---------0 en pagina 7---------
+[INFO] 18:35:51:971 memoria/(2956:3029): El frame es el 8 
+
+[INFO] 18:35:51:973 memoria/(2956:3029): El frame es el 9 
+
+[INFO] 18:35:51:976 memoria/(2956:3029): El frame es el 10 
+

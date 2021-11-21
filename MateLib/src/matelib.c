@@ -287,12 +287,21 @@ mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
 	return direccion;
 }
 
-int mate_memfree(mate_instance *lib_ref, mate_pointer addr){
-	mate_inner_structure* inner_structure = lib_ref->group_info;	
+int mate_memfree(mate_instance *lib_ref, uint32_t direccion_logica){
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	if(!inner_structure->kernel_connected){
+  		send_carpincho_ready(inner_structure->servidor_fd, inner_structure->id);
+	}	
 	if(!send_memfree(inner_structure->servidor_fd)){
 		// data_destroy(IP, PUERTO, cfg);	
-		// log_destroy(logger);	
-		return EXIT_FAILURE;
+		// log_destroy(logger);		
+		return -1;
+	}
+	send_memfree_data(inner_structure->servidor_fd, inner_structure->id, direccion_logica);
+	uint32_t recibido ;
+	recv(inner_structure->servidor_fd, &recibido, sizeof(uint32_t), 0);
+	if(recibido==0){
+		return MATE_FREE_FAULT;
 	}
 	return 0;
 }

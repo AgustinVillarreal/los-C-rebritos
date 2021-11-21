@@ -53,7 +53,15 @@ bool send_data_mate_init(int fd, unsigned long id){
   return send(fd, &id, sizeof(long), 0) != -1;
 }
 
-
+bool send_memfree_data(int fd, unsigned long id, uint32_t direccion_logica){
+  void * stream = serializar_alloc_data(id, direccion_logica);
+  if(send(fd, stream, sizeof(long) + sizeof(direccion_logica), 0) == -1){
+    free(stream); 
+    return false;
+  } 
+  free(stream);
+  return true;
+}
 
 //SEMAFOROS
 
@@ -132,6 +140,24 @@ bool recv_alloc_data(int fd, long* id_carpincho, int* size_data){
   free(stream);
   return true;
 }
+
+bool recv_memfree_data(int fd, long* id_carpincho, uint32_t* direccion_logica){
+  void* stream = malloc(sizeof(long)+sizeof(uint32_t));
+  if(recv(fd,stream,sizeof(long) + sizeof(uint32_t),0) != sizeof(long)+sizeof(uint32_t)){
+    free(stream);
+    return false;
+  }
+  long c_id;
+  int c_direccion_logica;
+  deserializar_alloc_data(stream,&c_id,&direccion_logica);
+
+  *id_carpincho = c_id;
+  *direccion_logica = c_direccion_logica;
+
+  free(stream);
+  return true;
+}
+
 
 //SEND PARA AVISAR QUE LLEGO TODO FLAMA
 bool send_ack(int fd, bool ack) {
