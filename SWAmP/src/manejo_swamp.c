@@ -3,6 +3,7 @@
 extern t_config_swamp* cfg;
 extern t_list* areas_de_swap;
 extern t_list* tablas_de_frames_swap;
+extern t_log* logger;
 
 
 /*   Me devuelve los bytes libres de swap que tiene uno de los espacios de swap */
@@ -16,7 +17,7 @@ uint32_t cantidad_de_espacio_swamp_libre(void* swamp){
             cant++;
         }
     }
-
+    
     return cant;
 }
 
@@ -31,18 +32,39 @@ uint32_t swamp_con_mas_espacio(){
     uint32_t pos; 
     void* elegido;
 
+
     for(int i = 0 ; i < cant_swamps ; i++){
         if(i == 0){
             elegido = list_get(areas_de_swap,i);
             pos = i;
         }
         else{
-            if(cantidad_de_espacio_swamp_libre(elegido) < cantidad_de_espacio_swamp_libre(list_get(areas_de_swap,i))){
+
+            bool buscar_x_nro_swap1(frame_swap_t* f){
+                return f->nro_swap == pos;
+            }
+
+            bool buscar_x_nro_swap2(frame_swap_t* f){
+                return f->nro_swap == i;
+            }
+
+            t_list* aux1 = list_filter(tablas_de_frames_swap,(void*)buscar_x_nro_swap1);
+            t_list* aux2 = list_filter(tablas_de_frames_swap,(void*)buscar_x_nro_swap2);
+
+            /* log_info(logger,"Elementos en swap 1: %d",list_size(aux1));
+            log_info(logger,"Elementos en swap 2: %d",list_size(aux2)); */
+
+            if(list_size(aux1) > list_size(aux2)){
                 pos = i;
                 elegido = list_get(areas_de_swap,i);
             }
+
+            list_destroy(aux1);
+            list_destroy(aux2);
         }
     }
+
+    
 
     return pos;
 }
@@ -104,7 +126,7 @@ uint32_t posicion_primer_byte_libre(void* data){
     for(int i = 0;((char*)data)[i]!='\0'; i++){
         pos++;
     }
-
+    log_info(logger, "Primer byte libre: %d", pos);
     return pos;
 }
 
@@ -125,4 +147,46 @@ bool hay_marcos_libres(t_list* list){
     }
 
     return false;
+}
+
+uint32_t primer_byte_no_asignado(uint32_t nro_swap){
+
+    bool cmp_nro_byte(frame_swap_t* f1, frame_swap_t* f2){
+        return (f1->inicio - f2->inicio) < 0 ;
+    }
+    bool buscar_x_nro_swap(frame_swap_t* f){
+        return f->nro_swap == nro_swap;
+    }
+
+
+    t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_nro_swap);
+    list_sort(aux, (void*)cmp_nro_byte);
+
+    log_info(logger,"Tamanio de lista AUX; %d", list_size(aux));
+
+    uint32_t primero = 0; 
+    uint32_t segundo = 0;
+
+    for(int i = 0 ; i < list_size(aux) - 1 ; i++){
+        
+        frame_swap_t* frame1 = list_get(aux, i);
+        frame_swap_t* frame2 = list_get(aux, i+1);
+
+        primero = frame1->inicio;
+        segundo = frame2->inicio;
+
+        if(segundo - primero > cfg->TAMANIO_PAGINA){
+            list_destroy(aux);
+            return primero + cfg->TAMANIO_PAGINA;
+        }
+
+    }
+
+    if(primero == 0 && segundo == 0){
+        list_destroy(aux);
+        return 0;
+    }
+
+    list_destroy(aux);
+    return segundo + cfg->TAMANIO_PAGINA;
 }

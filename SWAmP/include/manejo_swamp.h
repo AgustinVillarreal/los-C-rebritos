@@ -16,5 +16,6 @@ void tomar_frame_swap(unsigned long id_carpincho, uint32_t nro_pagina, void* des
 uint32_t posicion_primer_byte_libre(void* data);
 void insertar_global(void* data , void* swap);
 bool hay_marcos_libres(t_list* list);
+uint32_t primer_byte_no_asignado(uint32_t nro_swap);
 
 #endif

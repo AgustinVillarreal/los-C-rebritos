@@ -23,6 +23,7 @@ void proceder_asignacion_fija(int fd,unsigned long id,uint32_t pagina,void* data
         void* swap = list_get(areas_de_swap,pos_swap);
 
         // Me fijo si hay espacio 
+        // TODO: Reformular para que calcule es espacio libre con los marcos asignados
         if(cantidad_de_espacio_swamp_libre(swap) < cfg->TAMANIO_PAGINA*cfg->MARCOS_POR_CARPINCHO){
             log_error(logger,"No espacio sufieciente en swap");
             send_ack(fd,false);
@@ -30,7 +31,8 @@ void proceder_asignacion_fija(int fd,unsigned long id,uint32_t pagina,void* data
         }
 
         // Si no esta lo agrego a la tabla
-        uint32_t pos_libre = posicion_primer_byte_libre(swap);
+        uint32_t pos_libre = primer_byte_no_asignado(pos_swap);
+        log_info(logger,"El primer posicion no asignada es: %d", pos_libre);
 
         for(int i = 0 ;i < cfg->MARCOS_POR_CARPINCHO ; i++){
 
@@ -92,7 +94,7 @@ void proceder_asignacion_fija(int fd,unsigned long id,uint32_t pagina,void* data
 
             frame_swap_t* f = list_get(aux,i);
 
-            if(((char*)swap)[f->inicio] == '\0' ){
+            if(f->libre){
 
                 memcpy(swap + f->inicio , data , cfg->TAMANIO_PAGINA);
                 f->nro_pagina = pagina;
@@ -121,6 +123,7 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
         uint32_t pos_swap = swamp_con_mas_espacio();
         void* swap = list_get(areas_de_swap,pos_swap);
     
+        log_info(logger,"Paso 1");
 
         // Me fijo si hay espacio 
         if(cantidad_de_espacio_swamp_libre(swap) < cfg->TAMANIO_PAGINA){
@@ -131,7 +134,6 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
 
         // Si no esta lo agrego a la tabla
         uint32_t pos_libre = posicion_primer_byte_libre(swap);
-
 
         frame_swap_t* frame = malloc(sizeof(frame_swap_t));
         frame->pid = id;
@@ -147,6 +149,7 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
 
     }
     else{
+        log_info(logger,"Paso 2");
         // Esta el frame en swap
         // Tengo que averiguar en que swap esta
         t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_id);
@@ -158,6 +161,7 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
 
         // Busco el primer byte libre
         uint32_t pos_libre = posicion_primer_byte_libre(swap);
+        
 
         // Pongo la referncia en la tabla y lo agrego a la swap
         frame_swap_t* f = malloc(sizeof(frame_swap_t));
@@ -171,8 +175,7 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
 
         memcpy(swap + pos_libre , data , cfg->TAMANIO_PAGINA);
 
-
-
+        list_destroy(aux);
     }
 
 }

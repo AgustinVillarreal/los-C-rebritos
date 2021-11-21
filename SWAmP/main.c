@@ -48,12 +48,13 @@ int main(){
     free(puerto);
 
 
-  	while(server_escuchar(SERVERNAME, swamp_server));
+  	//while(server_escuchar(SERVERNAME, swamp_server));
 
     char* data1 = "1111111111111111111111111111111111111111111111111111111111111111";
     char* data2 = "2222222222222222222222222222222222222222222222222222222222222222";
     char* data3 = "3333333333333333333333333333333333333333333333333333333333333333";
-    proceder_asignacion_fija(0,1,1,(void*)data1);
+    char* data4 = "4444444444444444444444444444444444444444444444444444444444444444";
+    /* proceder_asignacion_fija(0,1,1,(void*)data1);
     proceder_asignacion_fija(0,2,1,(void*)data2);
     proceder_asignacion_fija(0,3,1,(void*)data3);
     proceder_asignacion_fija(0,1,2,(void*)data1);
@@ -64,8 +65,26 @@ int main(){
     proceder_asignacion_fija(0,1,8,(void*)data1);
     proceder_asignacion_fija(0,1,5,(void*)data1);
     proceder_asignacion_fija(0,1,3,(void*)data1);
+    proceder_asignacion_fija(0,3,2,(void*)data3);
+    proceder_asignacion_fija(0,4,1,(void*)data4);
+    proceder_asignacion_fija(0,3,3,(void*)data3); */
     /* proceder_asignacion_fija(0,1,6,(void*)data); */
- 
+
+    proceder_asignacion_global(0,2,1,(void*)data2);
+    proceder_asignacion_global(0,1,1,(void*)data1);
+    proceder_asignacion_global(0,3,1,(void*)data3);
+    proceder_asignacion_global(0,1,2,(void*)data1);
+    proceder_asignacion_global(0,2,1,(void*)data2);
+/*     proceder_asignacion_global(0,1,4,(void*)data1);
+    proceder_asignacion_global(0,1,9,(void*)data1);
+    proceder_asignacion_global(0,1,10,(void*)data1);
+    proceder_asignacion_global(0,1,7,(void*)data1);
+    proceder_asignacion_global(0,1,8,(void*)data1);
+    proceder_asignacion_global(0,1,5,(void*)data1); 
+    proceder_asignacion_global(0,1,3,(void*)data1);
+    proceder_asignacion_global(0,3,2,(void*)data3);
+    proceder_asignacion_global(0,4,1,(void*)data4);
+    proceder_asignacion_global(0,3,3,(void*)data3); */
 
     
   /*   proceder_asignacion_fija(0,2,2,(void*)data);
@@ -73,9 +92,9 @@ int main(){
     proceder_asignacion_fija(0,4,1,(void*)data);
     proceder_asignacion_fija(0,1,4,(void*)data); */
 
-    mem_hexdump(list_get(areas_de_swap,0),4096);
+/*     mem_hexdump(list_get(areas_de_swap,0),4096);
     mem_hexdump(list_get(areas_de_swap,1),4096);
-
+ */
     mostrar_tabla_swap(tablas_de_frames_swap);
 
 
