@@ -5,113 +5,8 @@ extern t_config_swamp* cfg;
 
 extern t_list* areas_de_swap;
 extern t_list* tablas_de_frames_swap;
-
-void proceder_asignacion_fija(int fd,unsigned long id,uint32_t pagina,void* data){
-
-    
-
-    bool buscar_x_id(frame_swap_t* f){
-        return f->pid == id;
-    }
-
-    //Me fijo si el carpincho esta en swap
-    if(!list_any_satisfy(tablas_de_frames_swap,(void*)buscar_x_id)){
-
-        uint32_t pos_swap = swamp_con_mas_espacio();
-        log_info(logger,"Swap con mas espacio: %d",pos_swap);
-
-        void* swap = list_get(areas_de_swap,pos_swap);
-
-        // Me fijo si hay espacio 
-        // TODO: Reformular para que calcule es espacio libre con los marcos asignados
-        if(cantidad_de_espacio_swamp_libre(swap) < cfg->TAMANIO_PAGINA*cfg->MARCOS_POR_CARPINCHO){
-            log_error(logger,"No espacio sufieciente en swap");
-            send_ack(fd,false);
-            return;
-        }
-
-        // Si no esta lo agrego a la tabla
-        uint32_t pos_libre = primer_byte_no_asignado(pos_swap);
-        log_info(logger,"El primer posicion no asignada es: %d", pos_libre);
-
-        for(int i = 0 ;i < cfg->MARCOS_POR_CARPINCHO ; i++){
-
-            if(i==0){
-                frame_swap_t* frame = malloc(sizeof(frame_swap_t));
-                frame->pid = id;
-                frame->nro_pagina = pagina;
-                frame->inicio = pos_libre + (i*cfg->TAMANIO_PAGINA);
-                frame->nro_swap = pos_swap;
-                frame->libre = false;
-
-                list_add(tablas_de_frames_swap,frame);
-            }
-            else{  
-                frame_swap_t* frame = malloc(sizeof(frame_swap_t));
-                frame->pid = id;
-                frame->nro_pagina = 0;
-                frame->inicio = pos_libre + (i*cfg->TAMANIO_PAGINA);
-                frame->nro_swap = pos_swap;
-                frame->libre = true;
-
-                list_add(tablas_de_frames_swap,frame);
-            }
-        }
-
-        // Y ecribo la pagina que me mando en swap
-        log_info(logger,"Pos libre: %d",pos_libre);
-        memcpy(swap + pos_libre , data , cfg->TAMANIO_PAGINA);
-
-    }
-    else{
-        // El carpincho esta en swap 
-        // Filtro los carpinchos que necesito
-
-        bool cmp_nro_pagina(frame_swap_t* f1,frame_swap_t* f2){
-            return f1->nro_pagina < f2->nro_pagina;
-        }
-
-        t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_id);
-        list_sort(aux,(void*)cmp_nro_pagina);
-
-        frame_swap_t* frame = list_get(aux,0);
-
-        uint32_t pos_swap = frame->nro_swap;
-        log_info(logger,"Swap con mas espacio: %d",pos_swap);
-
-        void* swap = list_get(areas_de_swap,pos_swap);
-
-        // Me fijo si se alcanzo la cantidad maxima de carpinchos
-        if(!hay_marcos_libres(aux)){
-            log_error(logger,"Se alcanzo la cantidad maxima de marcos por carpincho");
-            list_destroy(aux);
-            send_ack(fd,false);
-            return;
-        }
-
-        // Busco el marco libre y lo agrego a swap
-        for(int i = 0 ;i < cfg->MARCOS_POR_CARPINCHO ; i++){
-
-            frame_swap_t* f = list_get(aux,i);
-
-            if(f->libre){
-
-                memcpy(swap + f->inicio , data , cfg->TAMANIO_PAGINA);
-                f->nro_pagina = pagina;
-                f->libre = false;
-                break;
-            }
-        }
-
-        list_destroy(aux);
-
-    }
-
-    // Envio que se realizo la escritura
-    send_ack(fd,true);
-
-}                
-void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* data){
+              
+void proceder_asignacion(int fd,unsigned long id,uint32_t pagina,void* data,bool asignacion_fija){
 
     bool buscar_x_id(frame_swap_t* f){
         return f->pid == id;
@@ -122,8 +17,7 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
 
         uint32_t pos_swap = swamp_con_mas_espacio();
         void* swap = list_get(areas_de_swap,pos_swap);
-    
-        log_info(logger,"Paso 1");
+
 
         // Me fijo si hay espacio 
         if(cantidad_de_espacio_swamp_libre(swap) < cfg->TAMANIO_PAGINA){
@@ -131,6 +25,7 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
             send_ack(fd,false);
             return;
         }
+
 
         // Si no esta lo agrego a la tabla
         uint32_t pos_libre = posicion_primer_byte_libre(swap);
@@ -140,7 +35,6 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
         frame->nro_pagina = pagina;
         frame->inicio = pos_libre;
         frame->nro_swap = pos_swap;
-        frame->libre = false;
 
         list_add(tablas_de_frames_swap,frame);
 
@@ -149,7 +43,12 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
 
     }
     else{
-        log_info(logger,"Paso 2");
+        
+        if(asignacion_fija && !hay_marcos_disponibles(id)){
+            log_error(logger,"Se alcanzo la cantidad maxima de marcos por carpincho");
+            send_ack(fd,false);
+            return;
+        }
         // Esta el frame en swap
         // Tengo que averiguar en que swap esta
         t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_id);
@@ -169,15 +68,16 @@ void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* da
         f->nro_pagina = pagina;
         f->inicio = pos_libre;
         f->nro_swap = frame->nro_swap;
-        f->libre = false;
 
-        list_add(tablas_de_frames_swap,frame);
+        list_add(tablas_de_frames_swap,f);
 
         memcpy(swap + pos_libre , data , cfg->TAMANIO_PAGINA);
 
         list_destroy(aux);
     }
 
+    // Envio que se realizo la escritura
+    send_ack(fd,true);
 }
 
 
@@ -189,7 +89,7 @@ void borrar_carpincho_swap(unsigned long carpincho_id){
 
 }
 
-bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bool asignacion_fija){
+/* bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bool asignacion_fija){
     
     bool buscar_x_id(frame_swap_t* f){
         return f->pid == carpincho_id;
@@ -244,4 +144,4 @@ bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bo
 
         }
     }
-}
+} */

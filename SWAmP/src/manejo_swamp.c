@@ -21,9 +21,6 @@ uint32_t cantidad_de_espacio_swamp_libre(void* swamp){
     return cant;
 }
 
-
-
-
 /* Busca la swap con mas espacio libre */
 
 uint32_t swamp_con_mas_espacio(){
@@ -97,26 +94,21 @@ void formatear_pagina_swap(uint32_t inicio,void* swap){
 /* Elimina al carpincho de la lista de frames y setea todas las paginas que ocupaba con '\0' */
 
 void eliminar_carpincho_de_memoria(unsigned long id_carpincho){
+  
 
-    bool buscar_x_id(frame_swap_t* f){
-        return f->pid == id_carpincho;
-    }
+    for(int i = 0 ; i < list_size(tablas_de_frames_swap) ; i++){
 
-    t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_id);
+        frame_swap_t* frame = list_get(tablas_de_frames_swap,i);
 
-    for(int i = 0 ; i < list_size(aux) ; i++){
+        if(frame->pid == id_carpincho){
+            void* swap = list_get(areas_de_swap, frame->nro_swap);
+            formatear_pagina_swap(frame->inicio,swap);
 
-        frame_swap_t* frame = list_get(aux,i);
-
-        void* swap = list_get(areas_de_swap, frame->nro_swap);
-
-        formatear_pagina_swap(frame->inicio,swap);
+            list_remove_and_destroy_element(tablas_de_frames_swap,i,(void*)destroy_frame);   
+        }
 
     }
 
-    list_remove_and_destroy_all_by_condition(tablas_de_frames_swap,(void*)buscar_x_id,(void*)destroy_frame);
-
-    free(aux); // --> No se si deberia liberarlo
 }
 
 
@@ -126,7 +118,7 @@ uint32_t posicion_primer_byte_libre(void* data){
     for(int i = 0;((char*)data)[i]!='\0'; i++){
         pos++;
     }
-    log_info(logger, "Primer byte libre: %d", pos);
+
     return pos;
 }
 
@@ -135,18 +127,6 @@ void insertar_global(void* data , void* swap){
     uint32_t pos = posicion_primer_byte_libre(swap);
     memcpy(swap + pos , data , cfg->TAMANIO_PAGINA);
 
-}
-
-bool hay_marcos_libres(t_list* list){
-
-    for(int i = 0 ; i < list_size(list) ; i++){
-        frame_swap_t* f = list_get(list, i);
-        if(f->libre){
-            return true;
-        }
-    }
-
-    return false;
 }
 
 uint32_t primer_byte_no_asignado(uint32_t nro_swap){
@@ -189,4 +169,19 @@ uint32_t primer_byte_no_asignado(uint32_t nro_swap){
 
     list_destroy(aux);
     return segundo + cfg->TAMANIO_PAGINA;
+}
+
+bool hay_marcos_disponibles(unsigned long id){
+
+    bool buscar_x_id(frame_swap_t* f){
+        return f->pid == id;
+    }
+
+    t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_id);
+
+    bool respuesta = list_size(aux) < cfg->MARCOS_POR_CARPINCHO;
+
+    list_destroy(aux);
+
+    return respuesta;
 }

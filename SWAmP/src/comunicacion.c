@@ -42,12 +42,9 @@ static void procesar_conexion(void* void_args) {
                 bool asigancion_fija;
 
                 if (recv_ecritura(cliente_socket, &carpincho_id, &nro_pagina, &data, &asigancion_fija)) {
-                    if(asigancion_fija){
-                        proceder_asignacion_fija(cliente_socket,carpincho_id,nro_pagina,data);
-                    }
-                    else{
-                        proceder_asignacion_global(cliente_socket,carpincho_id,nro_pagina,data);
-                    }
+                   
+                    proceder_asignacion(cliente_socket,carpincho_id,nro_pagina,data,asigancion_fija);
+                   
                 }
                 else {
                     log_error(logger, "Error recibiendo ESCRITURA en SWAmP");

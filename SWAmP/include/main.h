@@ -13,6 +13,7 @@
 
 #include "config.h"
 #include "manejo_swamp.h"
+#include "interfaz_swamp.h"
 #include "../../Shared/shared/utils.h"
 #include "../../Shared/shared/sockets.h"
 #include "../../Shared/shared/protocolo.h"

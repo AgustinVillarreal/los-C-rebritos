@@ -11,7 +11,6 @@ typedef struct {
     uint32_t nro_pagina;
     uint32_t inicio;
     uint32_t nro_swap;
-    bool libre;
 } frame_swap_t;
 
 

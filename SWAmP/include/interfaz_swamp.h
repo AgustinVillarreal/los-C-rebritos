@@ -9,9 +9,7 @@
 
 /* TODO : Establecer parametros  */
 
-void proceder_asignacion_fija(int fd,unsigned long id,uint32_t pagina,void* data);                
-void proceder_asignacion_global(int fd,unsigned long id,uint32_t pagina,void* data);
-
+void proceder_asignacion(int fd,unsigned long id,uint32_t pagina,void* data,bool asignacion_fija);                
 
 void buscar_frame_en_swap(unsigned long id, uint32_t nro_pagina, void** data, bool esquema_asignacion);
 
