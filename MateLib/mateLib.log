@@ -1,81 +1,504 @@
-[ERROR] 17:13:24:604 mateLib/(4080:4080): Error al conectar (a Server)
+[INFO] 15:41:56:744 mateLib/(19012:19012): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:16:35:085 mateLib/(4428:4428): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:41:56:827 mateLib/(19012:19012): Handshake
+[INFO] 15:41:57:346 mateLib/(19012:19019): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:16:35:215 mateLib/(4428:4428): Handshake
-[INFO] 17:23:16:365 mateLib/(4865:4865): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:41:57:379 mateLib/(19012:19019): Handshake
+[INFO] 15:41:58:446 mateLib/(19012:19024): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:23:16:453 mateLib/(4865:4865): Handshake
-[INFO] 17:30:46:904 mateLib/(5153:5153): Cliente conectado en 127.0.0.1:5001 (a Server)
+[INFO] 15:41:58:490 mateLib/(19012:19024): Handshake
+[INFO] 15:41:59:542 mateLib/(19012:19026): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:30:46:996 mateLib/(5153:5153): Handshake
-[INFO] 17:33:12:551 mateLib/(5363:5363): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:41:59:581 mateLib/(19012:19026): Handshake
+[INFO] 15:42:00:642 mateLib/(19012:19028): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:33:12:648 mateLib/(5363:5363): Handshake
-[INFO] 17:37:11:538 mateLib/(5629:5629): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:42:00:686 mateLib/(19012:19028): Handshake
+[INFO] 15:42:01:746 mateLib/(19012:19030): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:37:11:628 mateLib/(5629:5629): Handshake
-[INFO] 17:40:22:997 mateLib/(5856:5856): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:42:01:786 mateLib/(19012:19030): Handshake
+[INFO] 15:42:02:845 mateLib/(19012:19038): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:40:23:090 mateLib/(5856:5856): Handshake
-[INFO] 17:40:23:108 mateLib/(5856:5856): 32
-[INFO] 17:40:23:114 mateLib/(5856:5856): 33
-[INFO] 17:40:23:129 mateLib/(5856:5856): 34
-[INFO] 17:42:19:000 mateLib/(5979:5979): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:42:02:882 mateLib/(19012:19038): Handshake
+[INFO] 15:45:21:529 mateLib/(19396:19396): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:42:19:124 mateLib/(5979:5979): Handshake
-[INFO] 17:42:19:159 mateLib/(5979:5979): 32
-[INFO] 17:42:19:196 mateLib/(5979:5979): 33
-[INFO] 17:42:19:196 mateLib/(5979:5979): 34
-[INFO] 17:48:18:019 mateLib/(6212:6212): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:45:21:609 mateLib/(19396:19396): Handshake
+[INFO] 15:45:22:033 mateLib/(19396:19398): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:48:18:107 mateLib/(6212:6212): Handshake
-[INFO] 17:48:18:136 mateLib/(6212:6212): 32
-[INFO] 17:48:18:138 mateLib/(6212:6212): 33
-[INFO] 17:48:18:150 mateLib/(6212:6212): 34
-[INFO] 17:48:18:166 mateLib/(6212:6212): 35
-[INFO] 17:48:18:183 mateLib/(6212:6212): 1
-[INFO] 17:48:18:205 mateLib/(6212:6212): 2
-[INFO] 17:48:18:343 mateLib/(6212:6212): 3
-[INFO] 17:48:18:345 mateLib/(6212:6212): 1
-[INFO] 17:48:18:348 mateLib/(6212:6212): 2
-[INFO] 17:48:18:410 mateLib/(6212:6212): 3
-[INFO] 17:48:18:412 mateLib/(6212:6212): 1
-[INFO] 17:48:18:414 mateLib/(6212:6212): 2
-[INFO] 17:48:18:512 mateLib/(6212:6212): 3
-[INFO] 17:48:18:513 mateLib/(6212:6212): 1
-[INFO] 17:48:18:514 mateLib/(6212:6212): 2
-[INFO] 17:48:18:591 mateLib/(6212:6212): 3
-[INFO] 17:48:18:592 mateLib/(6212:6212): 1
-[INFO] 17:48:18:594 mateLib/(6212:6212): 2
-[INFO] 17:48:18:624 mateLib/(6212:6212): 3
-[INFO] 17:48:18:634 mateLib/(6212:6212): 1
-[INFO] 17:48:18:636 mateLib/(6212:6212): 2
-[INFO] 17:48:18:739 mateLib/(6212:6212): 3
-[INFO] 17:48:18:740 mateLib/(6212:6212): 1
-[INFO] 17:48:18:740 mateLib/(6212:6212): 2
-[INFO] 17:48:18:779 mateLib/(6212:6212): 3
-[INFO] 17:48:18:780 mateLib/(6212:6212): 1
-[INFO] 17:48:18:780 mateLib/(6212:6212): 2
-[INFO] 17:48:18:834 mateLib/(6212:6212): 3
-[INFO] 17:48:18:834 mateLib/(6212:6212): 1
-[INFO] 17:48:18:835 mateLib/(6212:6212): 2
-[INFO] 17:48:18:873 mateLib/(6212:6212): 3
-[INFO] 17:50:31:485 mateLib/(6512:6512): Cliente conectado en 0.0.0.0:4444 (a Server)
+[INFO] 15:45:22:077 mateLib/(19396:19398): Handshake
+[INFO] 15:45:23:108 mateLib/(19396:19406): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:50:31:574 mateLib/(6512:6512): Handshake
-[INFO] 17:51:09:287 mateLib/(6572:6572): Cliente conectado en 127.0.0.1:5001 (a Server)
+[INFO] 15:45:23:132 mateLib/(19396:19406): Handshake
+[INFO] 15:45:24:179 mateLib/(19396:19408): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:51:09:380 mateLib/(6572:6572): Handshake
-[INFO] 17:51:32:226 mateLib/(6637:6637): Cliente conectado en 127.0.0.1:5001 (a Server)
+[INFO] 15:45:24:208 mateLib/(19396:19408): Handshake
+[INFO] 15:45:25:258 mateLib/(19396:19410): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:51:32:317 mateLib/(6637:6637): Handshake
-[INFO] 17:51:43:965 mateLib/(6658:6658): Cliente conectado en 127.0.0.1:5001 (a Server)
+[INFO] 15:45:25:290 mateLib/(19396:19410): Handshake
+[INFO] 15:45:26:360 mateLib/(19396:19412): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:51:44:057 mateLib/(6658:6658): Handshake
-[INFO] 17:51:46:347 mateLib/(6680:6680): Cliente conectado en 127.0.0.1:5001 (a Server)
+[INFO] 15:45:26:397 mateLib/(19396:19412): Handshake
+[INFO] 15:45:27:442 mateLib/(19396:19417): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:51:46:463 mateLib/(6680:6680): Handshake
-[INFO] 17:51:48:536 mateLib/(6704:6704): Cliente conectado en 127.0.0.1:5001 (a Server)
+[INFO] 15:45:27:492 mateLib/(19396:19417): Handshake
+[INFO] 15:49:02:118 mateLib/(20606:20606): Cliente conectado en 0.0.0.0:4444 (a Server)
 
-[INFO] 17:51:48:628 mateLib/(6704:6704): Handshake
+[INFO] 15:49:02:153 mateLib/(20606:20606): Handshake
+[INFO] 15:49:02:479 mateLib/(20606:20611): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:49:02:516 mateLib/(20606:20611): Handshake
+[INFO] 15:49:03:471 mateLib/(20606:20616): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:49:03:503 mateLib/(20606:20616): Handshake
+[INFO] 15:49:04:472 mateLib/(20606:20618): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:49:04:495 mateLib/(20606:20618): Handshake
+[INFO] 15:49:05:472 mateLib/(20606:20620): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:49:05:502 mateLib/(20606:20620): Handshake
+[INFO] 15:49:06:474 mateLib/(20606:20623): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:49:06:504 mateLib/(20606:20623): Handshake
+[INFO] 15:49:07:474 mateLib/(20606:20628): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:49:07:505 mateLib/(20606:20628): Handshake
+[INFO] 15:52:59:202 mateLib/(21030:21030): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:52:59:239 mateLib/(21030:21030): Handshake
+[INFO] 15:52:59:560 mateLib/(21030:21032): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:52:59:590 mateLib/(21030:21032): Handshake
+[INFO] 15:53:00:559 mateLib/(21030:21034): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:53:00:592 mateLib/(21030:21034): Handshake
+[INFO] 15:53:01:562 mateLib/(21030:21036): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:53:01:583 mateLib/(21030:21036): Handshake
+[INFO] 15:53:02:562 mateLib/(21030:21041): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:53:02:591 mateLib/(21030:21041): Handshake
+[INFO] 15:53:03:562 mateLib/(21030:21046): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:53:03:584 mateLib/(21030:21046): Handshake
+[INFO] 15:53:04:557 mateLib/(21030:21048): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:53:04:591 mateLib/(21030:21048): Handshake
+[INFO] 15:56:04:556 mateLib/(21401:21401): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:56:04:593 mateLib/(21401:21401): Handshake
+[INFO] 15:56:04:910 mateLib/(21401:21403): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:56:04:949 mateLib/(21401:21403): Handshake
+[INFO] 15:56:05:914 mateLib/(21401:21405): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:56:05:942 mateLib/(21401:21405): Handshake
+[INFO] 15:56:06:914 mateLib/(21401:21407): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:56:06:936 mateLib/(21401:21407): Handshake
+[INFO] 15:56:07:914 mateLib/(21401:21412): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:56:07:942 mateLib/(21401:21412): Handshake
+[INFO] 15:56:08:914 mateLib/(21401:21417): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:56:08:937 mateLib/(21401:21417): Handshake
+[INFO] 15:56:09:914 mateLib/(21401:21419): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:56:09:944 mateLib/(21401:21419): Handshake
+[INFO] 15:58:06:706 mateLib/(21657:21657): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:58:06:747 mateLib/(21657:21657): Handshake
+[INFO] 15:58:07:070 mateLib/(21657:21659): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:58:07:114 mateLib/(21657:21659): Handshake
+[INFO] 15:58:08:070 mateLib/(21657:21665): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:58:08:093 mateLib/(21657:21665): Handshake
+[INFO] 15:58:09:069 mateLib/(21657:21670): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:58:09:097 mateLib/(21657:21670): Handshake
+[INFO] 15:58:10:070 mateLib/(21657:21672): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:58:10:101 mateLib/(21657:21672): Handshake
+[INFO] 15:58:11:070 mateLib/(21657:21674): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:58:11:102 mateLib/(21657:21674): Handshake
+[INFO] 15:58:12:071 mateLib/(21657:21676): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 15:58:12:094 mateLib/(21657:21676): Handshake
+[INFO] 16:00:15:414 mateLib/(21934:21934): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:00:15:449 mateLib/(21934:21934): Handshake
+[INFO] 16:00:15:762 mateLib/(21934:21936): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:00:15:794 mateLib/(21934:21936): Handshake
+[INFO] 16:00:16:762 mateLib/(21934:21938): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:00:16:786 mateLib/(21934:21938): Handshake
+[INFO] 16:00:17:766 mateLib/(21934:21940): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:00:17:793 mateLib/(21934:21940): Handshake
+[INFO] 16:00:18:766 mateLib/(21934:21948): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:00:18:802 mateLib/(21934:21948): Handshake
+[INFO] 16:00:19:766 mateLib/(21934:21950): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:00:19:788 mateLib/(21934:21950): Handshake
+[INFO] 16:00:20:766 mateLib/(21934:21952): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:00:20:788 mateLib/(21934:21952): Handshake
+[INFO] 16:03:00:529 mateLib/(22270:22270): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:03:00:628 mateLib/(22270:22270): Handshake
+[INFO] 16:03:01:050 mateLib/(22270:22272): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:03:01:104 mateLib/(22270:22272): Handshake
+[INFO] 16:03:02:050 mateLib/(22270:22274): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:03:02:084 mateLib/(22270:22274): Handshake
+[INFO] 16:03:03:050 mateLib/(22270:22279): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:03:03:072 mateLib/(22270:22279): Handshake
+[INFO] 16:03:04:048 mateLib/(22270:22284): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:03:04:079 mateLib/(22270:22284): Handshake
+[INFO] 16:03:05:051 mateLib/(22270:22286): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:03:05:073 mateLib/(22270:22286): Handshake
+[INFO] 16:03:06:050 mateLib/(22270:22288): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:03:06:078 mateLib/(22270:22288): Handshake
+[INFO] 16:07:56:737 mateLib/(22774:22774): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:07:56:776 mateLib/(22774:22774): Handshake
+[INFO] 16:07:57:090 mateLib/(22774:22776): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:07:57:122 mateLib/(22774:22776): Handshake
+[INFO] 16:07:58:094 mateLib/(22774:22778): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:07:58:124 mateLib/(22774:22778): Handshake
+[INFO] 16:07:59:092 mateLib/(22774:22786): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:07:59:125 mateLib/(22774:22786): Handshake
+[INFO] 16:08:00:094 mateLib/(22774:22788): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:08:00:126 mateLib/(22774:22788): Handshake
+[INFO] 16:08:01:094 mateLib/(22774:22790): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:08:01:124 mateLib/(22774:22790): Handshake
+[INFO] 16:08:02:096 mateLib/(22774:22792): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:08:02:118 mateLib/(22774:22792): Handshake
+[INFO] 16:09:04:906 mateLib/(22967:22967): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:09:04:945 mateLib/(22967:22967): Handshake
+[INFO] 16:09:05:269 mateLib/(22967:22969): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:09:05:300 mateLib/(22967:22969): Handshake
+[INFO] 16:09:06:265 mateLib/(22967:22972): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:09:06:296 mateLib/(22967:22972): Handshake
+[INFO] 16:09:07:264 mateLib/(22967:22974): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:09:07:297 mateLib/(22967:22974): Handshake
+[INFO] 16:09:08:266 mateLib/(22967:22976): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:09:08:299 mateLib/(22967:22976): Handshake
+[INFO] 16:09:09:266 mateLib/(22967:22985): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:09:09:290 mateLib/(22967:22985): Handshake
+[INFO] 16:09:10:267 mateLib/(22967:22987): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:09:10:288 mateLib/(22967:22987): Handshake
+[INFO] 16:11:11:866 mateLib/(23256:23256): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:11:11:901 mateLib/(23256:23256): Handshake
+[INFO] 16:11:12:219 mateLib/(23256:23258): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:11:12:269 mateLib/(23256:23258): Handshake
+[INFO] 16:11:13:216 mateLib/(23256:23260): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:11:13:253 mateLib/(23256:23260): Handshake
+[INFO] 16:11:14:221 mateLib/(23256:23268): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:11:14:244 mateLib/(23256:23268): Handshake
+[INFO] 16:11:15:222 mateLib/(23256:23270): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:11:15:261 mateLib/(23256:23270): Handshake
+[INFO] 16:11:16:222 mateLib/(23256:23272): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:11:16:251 mateLib/(23256:23272): Handshake
+[INFO] 16:11:17:222 mateLib/(23256:23274): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:11:17:252 mateLib/(23256:23274): Handshake
+[INFO] 16:12:21:093 mateLib/(23467:23467): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:12:21:134 mateLib/(23467:23467): Handshake
+[INFO] 16:12:21:460 mateLib/(23467:23469): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:12:21:505 mateLib/(23467:23469): Handshake
+[INFO] 16:12:22:458 mateLib/(23467:23471): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:12:22:487 mateLib/(23467:23471): Handshake
+[INFO] 16:12:23:458 mateLib/(23467:23473): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:12:23:489 mateLib/(23467:23473): Handshake
+[INFO] 16:12:24:457 mateLib/(23467:23481): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:12:24:491 mateLib/(23467:23481): Handshake
+[INFO] 16:12:25:457 mateLib/(23467:23483): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:12:25:486 mateLib/(23467:23483): Handshake
+[INFO] 16:12:26:458 mateLib/(23467:23485): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:12:26:481 mateLib/(23467:23485): Handshake
+[INFO] 16:14:58:978 mateLib/(23806:23806): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:14:59:015 mateLib/(23806:23806): Handshake
+[INFO] 16:14:59:334 mateLib/(23806:23811): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:14:59:366 mateLib/(23806:23811): Handshake
+[INFO] 16:15:00:336 mateLib/(23806:23813): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:15:00:374 mateLib/(23806:23813): Handshake
+[INFO] 16:15:01:338 mateLib/(23806:23815): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:15:01:369 mateLib/(23806:23815): Handshake
+[INFO] 16:15:02:337 mateLib/(23806:23817): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:15:02:373 mateLib/(23806:23817): Handshake
+[INFO] 16:15:03:338 mateLib/(23806:23819): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:15:03:361 mateLib/(23806:23819): Handshake
+[INFO] 16:15:04:338 mateLib/(23806:23827): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:15:04:362 mateLib/(23806:23827): Handshake
+[ERROR] 16:15:22:894 mateLib/(23806:23817): Me fui killeado
+
+[ERROR] 16:15:47:911 mateLib/(23806:23827): Me fui killeado
+
+[INFO] 16:16:08:582 mateLib/(24006:24006): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:16:08:621 mateLib/(24006:24006): Handshake
+[INFO] 16:16:08:938 mateLib/(24006:24011): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:16:08:969 mateLib/(24006:24011): Handshake
+[INFO] 16:16:09:942 mateLib/(24006:24016): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:16:09:970 mateLib/(24006:24016): Handshake
+[INFO] 16:16:10:941 mateLib/(24006:24018): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:16:10:971 mateLib/(24006:24018): Handshake
+[INFO] 16:16:11:942 mateLib/(24006:24020): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:16:11:975 mateLib/(24006:24020): Handshake
+[INFO] 16:16:12:942 mateLib/(24006:24022): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:16:12:972 mateLib/(24006:24022): Handshake
+[INFO] 16:16:13:942 mateLib/(24006:24027): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:16:13:970 mateLib/(24006:24027): Handshake
+[ERROR] 16:16:30:392 mateLib/(24006:24020): Me fui killeado 4
+
+[ERROR] 16:16:55:406 mateLib/(24006:24027): Me fui killeado 6
+
+[INFO] 16:18:58:542 mateLib/(24345:24345): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:18:58:580 mateLib/(24345:24345): Handshake
+[INFO] 16:18:58:912 mateLib/(24345:24347): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:18:58:951 mateLib/(24345:24347): Handshake
+[INFO] 16:18:59:911 mateLib/(24345:24355): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:18:59:935 mateLib/(24345:24355): Handshake
+[INFO] 16:19:00:914 mateLib/(24345:24357): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:19:00:936 mateLib/(24345:24357): Handshake
+[INFO] 16:19:01:915 mateLib/(24345:24359): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:19:01:946 mateLib/(24345:24359): Handshake
+[INFO] 16:19:02:914 mateLib/(24345:24361): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:19:02:944 mateLib/(24345:24361): Handshake
+[INFO] 16:19:03:909 mateLib/(24345:24363): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:19:03:945 mateLib/(24345:24363): Handshake
+[ERROR] 16:19:20:835 mateLib/(24345:24359): Me fui killeado 4
+
+[ERROR] 16:19:45:850 mateLib/(24345:24363): Me fui killeado 6
+
+[INFO] 16:20:43:202 mateLib/(24586:24586): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:20:43:242 mateLib/(24586:24586): Handshake
+[INFO] 16:20:43:560 mateLib/(24586:24588): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:20:43:603 mateLib/(24586:24588): Handshake
+[INFO] 16:20:44:566 mateLib/(24586:24596): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:20:44:588 mateLib/(24586:24596): Handshake
+[INFO] 16:20:45:566 mateLib/(24586:24598): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:20:45:588 mateLib/(24586:24598): Handshake
+[INFO] 16:20:46:566 mateLib/(24586:24600): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:20:46:598 mateLib/(24586:24600): Handshake
+[INFO] 16:20:47:566 mateLib/(24586:24602): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:20:47:594 mateLib/(24586:24602): Handshake
+[INFO] 16:20:48:561 mateLib/(24586:24604): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:20:48:598 mateLib/(24586:24604): Handshake
+[ERROR] 16:21:03:932 mateLib/(24586:24600): Me fui killeado 4
+
+[ERROR] 16:21:28:947 mateLib/(24586:24604): Me fui killeado 6
+
+[INFO] 16:25:12:234 mateLib/(26390:26390): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:25:12:269 mateLib/(26390:26390): Handshake
+[INFO] 16:25:12:586 mateLib/(26390:26392): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:25:12:632 mateLib/(26390:26392): Handshake
+[INFO] 16:25:13:588 mateLib/(26390:26394): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:25:13:619 mateLib/(26390:26394): Handshake
+[INFO] 16:25:14:589 mateLib/(26390:26399): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:25:14:611 mateLib/(26390:26399): Handshake
+[INFO] 16:25:15:589 mateLib/(26390:26404): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:25:15:612 mateLib/(26390:26404): Handshake
+[INFO] 16:25:16:590 mateLib/(26390:26406): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:25:16:612 mateLib/(26390:26406): Handshake
+[INFO] 16:25:17:590 mateLib/(26390:26408): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:25:17:618 mateLib/(26390:26408): Handshake
+[ERROR] 16:25:34:026 mateLib/(26390:26404): Me fui killeado 4
+
+[ERROR] 16:25:59:043 mateLib/(26390:26408): Me fui killeado 6
+
+[INFO] 16:27:21:334 mateLib/(26657:26657): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:27:21:368 mateLib/(26657:26657): Handshake
+[INFO] 16:27:21:682 mateLib/(26657:26659): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:27:21:707 mateLib/(26657:26659): Handshake
+[INFO] 16:27:22:686 mateLib/(26657:26661): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:27:22:715 mateLib/(26657:26661): Handshake
+[INFO] 16:27:23:686 mateLib/(26657:26663): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:27:23:708 mateLib/(26657:26663): Handshake
+[INFO] 16:27:24:686 mateLib/(26657:26668): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:27:24:717 mateLib/(26657:26668): Handshake
+[INFO] 16:27:25:686 mateLib/(26657:26673): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:27:25:713 mateLib/(26657:26673): Handshake
+[INFO] 16:27:26:686 mateLib/(26657:26675): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:27:26:715 mateLib/(26657:26675): Handshake
+[ERROR] 16:27:45:843 mateLib/(26657:26668): Me fui killeado 4
+
+[ERROR] 16:28:10:860 mateLib/(26657:26675): Me fui killeado 6
+
+[INFO] 16:46:36:970 mateLib/(28391:28391): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:46:37:005 mateLib/(28391:28391): Handshake
+[INFO] 16:46:37:325 mateLib/(28391:28393): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:46:37:352 mateLib/(28391:28393): Handshake
+[INFO] 16:46:38:326 mateLib/(28391:28395): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:46:38:348 mateLib/(28391:28395): Handshake
+[INFO] 16:46:39:326 mateLib/(28391:28397): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:46:39:354 mateLib/(28391:28397): Handshake
+[INFO] 16:46:40:326 mateLib/(28391:28402): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:46:40:355 mateLib/(28391:28402): Handshake
+[INFO] 16:46:41:326 mateLib/(28391:28407): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:46:41:350 mateLib/(28391:28407): Handshake
+[INFO] 16:46:42:326 mateLib/(28391:28409): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:46:42:351 mateLib/(28391:28409): Handshake
+[ERROR] 16:47:00:600 mateLib/(28391:28402): Me fui killeado 4
+
+[ERROR] 16:47:25:613 mateLib/(28391:28409): Me fui killeado 6
+
+[INFO] 16:49:03:142 mateLib/(28678:28678): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:49:03:202 mateLib/(28678:28678): Handshake
+[INFO] 16:49:03:514 mateLib/(28678:28680): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:49:03:546 mateLib/(28678:28680): Handshake
+[INFO] 16:49:04:518 mateLib/(28678:28682): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:49:04:546 mateLib/(28678:28682): Handshake
+[INFO] 16:49:05:515 mateLib/(28678:28687): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:49:05:540 mateLib/(28678:28687): Handshake
+[INFO] 16:49:06:518 mateLib/(28678:28693): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:49:06:555 mateLib/(28678:28693): Handshake
+[INFO] 16:49:07:518 mateLib/(28678:28695): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:49:07:550 mateLib/(28678:28695): Handshake
+[INFO] 16:49:08:518 mateLib/(28678:28697): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:49:08:547 mateLib/(28678:28697): Handshake
+[ERROR] 16:49:27:599 mateLib/(28678:28693): Me fui killeado 4
+
+[ERROR] 16:49:52:613 mateLib/(28678:28697): Me fui killeado 6
+
+[INFO] 16:54:34:277 mateLib/(29217:29217): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:54:34:311 mateLib/(29217:29217): Handshake
+[INFO] 16:54:34:634 mateLib/(29217:29219): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:54:34:678 mateLib/(29217:29219): Handshake
+[INFO] 16:54:35:642 mateLib/(29217:29224): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:54:35:690 mateLib/(29217:29224): Handshake
+[INFO] 16:54:36:634 mateLib/(29217:29229): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:54:36:665 mateLib/(29217:29229): Handshake
+[INFO] 16:54:37:634 mateLib/(29217:29231): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:54:37:673 mateLib/(29217:29231): Handshake
+[INFO] 16:54:38:630 mateLib/(29217:29233): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:54:38:667 mateLib/(29217:29233): Handshake
+[INFO] 16:54:39:634 mateLib/(29217:29235): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:54:39:658 mateLib/(29217:29235): Handshake
+[ERROR] 16:54:58:733 mateLib/(29217:29231): Me fui killeado 4
+
+[ERROR] 16:55:23:745 mateLib/(29217:29235): Me fui killeado 6
+
+[INFO] 16:55:26:787 mateLib/(29217:29217): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:55:26:862 mateLib/(29217:29217): Handshake
+[INFO] 16:57:16:238 mateLib/(29540:29540): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:57:16:275 mateLib/(29540:29540): Handshake
+[INFO] 16:57:16:599 mateLib/(29540:29542): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:57:16:633 mateLib/(29540:29542): Handshake
+[INFO] 16:57:17:598 mateLib/(29540:29544): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:57:17:620 mateLib/(29540:29544): Handshake
+[INFO] 16:57:18:598 mateLib/(29540:29546): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:57:18:637 mateLib/(29540:29546): Handshake
+[INFO] 16:57:19:597 mateLib/(29540:29548): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:57:19:657 mateLib/(29540:29548): Handshake
+[INFO] 16:57:20:597 mateLib/(29540:29550): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:57:20:633 mateLib/(29540:29550): Handshake
+[INFO] 16:57:21:598 mateLib/(29540:29558): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:57:21:631 mateLib/(29540:29558): Handshake
+[INFO] 16:58:05:428 mateLib/(29540:29540): Cliente conectado en 0.0.0.0:4444 (a Server)
+
+[INFO] 16:58:05:464 mateLib/(29540:29540): Handshake

@@ -101,7 +101,7 @@ static void procesar_conexion(void* void_args){
             case SEM_WAIT: ;
                 char * sem_name_wait;
                 if(!recv_sem(cliente_socket, &sem_name_wait)){
-                    log_info(logger, "Error iniciando semaforo");
+                    log_info(logger, "Error haciendo sem_wait");
                     return;
                 }
                 t_semaforo* sem_wait_asignado;
@@ -121,13 +121,15 @@ static void procesar_conexion(void* void_args){
 
             case SEM_POST: ;
                 char * sem_name_post;
+                log_info(logger, "Error haciendo sem_post %lu", carpincho->id);
+                
                 if(!recv_sem(cliente_socket, &sem_name_post)){
-                    log_info(logger, "Error iniciando semaforo");
+                    log_info(logger, "Error haciendo sem_post");
                     return;
                 }
                 int result_post = sem_post_carpincho(sem_name_post);
                 if(!send(cliente_socket, &result_post, sizeof(int), 0)){
-                   log_error(logger, "Error al enviar return code de sem wait");
+                   log_error(logger, "Error al enviar return code de sem post");
                    free(server_name);
                    return;
                 }

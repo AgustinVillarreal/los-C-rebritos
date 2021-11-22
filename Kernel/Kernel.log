@@ -154,3 +154,3225 @@
 [INFO] 17:50:32:125 Kernel/(6479:6513): 6
 [INFO] 17:50:32:167 Kernel/(6479:6513): 7
 [INFO] 17:50:32:242 Kernel/(6479:6513): DISCONNECT!
+[INFO] 11:43:22:726 Kernel/(4302:4302): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:43:22:815 Kernel/(4302:4302): ------2---------
+
+[INFO] 11:43:22:826 Kernel/(4302:4302): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 12:08:18:298 Kernel/(4302:4302): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:08:18:403 Kernel/(4302:6869): HANDSHAKE
+[INFO] 12:08:18:457 Kernel/(4302:6869): 5
+[INFO] 12:08:18:502 Kernel/(4302:6869): 6
+[INFO] 12:08:18:524 Kernel/(4302:6869): 7
+[INFO] 12:08:18:525 Kernel/(4302:6869): 5
+[INFO] 12:08:18:569 Kernel/(4302:6869): 6
+[INFO] 12:08:18:625 Kernel/(4302:6869): 7
+[INFO] 12:08:18:626 Kernel/(4302:6869): 5
+[INFO] 12:08:18:626 Kernel/(4302:6869): 6
+[INFO] 12:08:18:679 Kernel/(4302:6869): 7
+[INFO] 12:08:18:680 Kernel/(4302:6869): 5
+[INFO] 12:08:18:681 Kernel/(4302:6869): 6
+[INFO] 12:08:18:728 Kernel/(4302:6869): 7
+[INFO] 12:08:18:729 Kernel/(4302:6869): 5
+[INFO] 12:08:18:729 Kernel/(4302:6869): 6
+[INFO] 12:08:18:776 Kernel/(4302:6869): 7
+[INFO] 12:08:18:777 Kernel/(4302:6869): 5
+[INFO] 12:08:18:777 Kernel/(4302:6869): 6
+[INFO] 12:08:18:824 Kernel/(4302:6869): 7
+[INFO] 12:08:18:825 Kernel/(4302:6869): 5
+[INFO] 12:08:18:825 Kernel/(4302:6869): 6
+[INFO] 12:08:18:874 Kernel/(4302:6869): 7
+[INFO] 12:08:18:874 Kernel/(4302:6869): 5
+[INFO] 12:08:18:875 Kernel/(4302:6869): 6
+[INFO] 12:08:18:922 Kernel/(4302:6869): 7
+[INFO] 12:08:18:923 Kernel/(4302:6869): 5
+[INFO] 12:08:18:923 Kernel/(4302:6869): 6
+[INFO] 12:08:18:973 Kernel/(4302:6869): 7
+[INFO] 12:08:19:037 Kernel/(4302:6869): DISCONNECT!
+[INFO] 12:22:13:205 Kernel/(8364:8364): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 12:22:13:261 Kernel/(8364:8364): ------2---------
+
+[INFO] 12:22:13:265 Kernel/(8364:8364): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 12:22:14:695 Kernel/(8364:8364): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:22:14:739 Kernel/(8364:8398): HANDSHAKE
+[INFO] 12:22:14:785 Kernel/(8364:8398): 5
+[INFO] 12:22:14:830 Kernel/(8364:8398): 6
+[INFO] 12:22:14:839 Kernel/(8364:8398): 7
+[INFO] 12:22:14:839 Kernel/(8364:8398): 5
+[INFO] 12:22:14:881 Kernel/(8364:8398): 6
+[INFO] 12:22:14:932 Kernel/(8364:8398): 7
+[INFO] 12:22:14:932 Kernel/(8364:8398): 5
+[INFO] 12:22:14:932 Kernel/(8364:8398): 6
+[INFO] 12:22:14:979 Kernel/(8364:8398): 7
+[INFO] 12:22:14:979 Kernel/(8364:8398): 5
+[INFO] 12:22:14:980 Kernel/(8364:8398): 6
+[INFO] 12:22:15:027 Kernel/(8364:8398): 7
+[INFO] 12:22:15:028 Kernel/(8364:8398): 5
+[INFO] 12:22:15:029 Kernel/(8364:8398): 6
+[INFO] 12:22:15:081 Kernel/(8364:8398): 7
+[INFO] 12:22:15:081 Kernel/(8364:8398): 5
+[INFO] 12:22:15:082 Kernel/(8364:8398): 6
+[INFO] 12:22:15:140 Kernel/(8364:8398): 7
+[INFO] 12:22:15:140 Kernel/(8364:8398): 5
+[INFO] 12:22:15:141 Kernel/(8364:8398): 6
+[INFO] 12:22:15:189 Kernel/(8364:8398): 7
+[INFO] 12:22:15:189 Kernel/(8364:8398): 5
+[INFO] 12:22:15:190 Kernel/(8364:8398): 6
+[INFO] 12:22:15:247 Kernel/(8364:8398): 7
+[INFO] 12:22:15:248 Kernel/(8364:8398): 5
+[INFO] 12:22:15:248 Kernel/(8364:8398): 6
+[INFO] 12:22:15:302 Kernel/(8364:8398): 7
+[INFO] 12:22:15:304 Kernel/(8364:8398): DISCONNECT!
+[INFO] 12:23:41:184 Kernel/(8727:8727): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 12:23:41:299 Kernel/(8727:8727): ------2---------
+
+[INFO] 12:23:41:304 Kernel/(8727:8727): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 12:27:37:376 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:27:37:419 Kernel/(8727:9224): HANDSHAKE
+[INFO] 12:27:37:737 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:27:37:777 Kernel/(8727:9227): HANDSHAKE
+[INFO] 12:27:38:738 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:27:38:766 Kernel/(8727:9234): HANDSHAKE
+[INFO] 12:27:39:738 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:27:39:774 Kernel/(8727:9242): HANDSHAKE
+[INFO] 12:27:40:738 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:27:40:782 Kernel/(8727:9248): HANDSHAKE
+[INFO] 12:27:41:739 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:27:41:774 Kernel/(8727:9253): HANDSHAKE
+[INFO] 12:27:42:739 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:27:42:772 Kernel/(8727:9261): HANDSHAKE
+[INFO] 12:28:23:366 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:28:23:402 Kernel/(8727:9359): HANDSHAKE
+[INFO] 12:28:23:710 Kernel/(8727:9261): DISCONNECT!
+[INFO] 12:28:23:710 Kernel/(8727:9253): DISCONNECT!
+[INFO] 12:28:23:710 Kernel/(8727:9248): DISCONNECT!
+[INFO] 12:28:23:710 Kernel/(8727:9242): DISCONNECT!
+[INFO] 12:28:23:711 Kernel/(8727:9234): DISCONNECT!
+[INFO] 12:28:23:711 Kernel/(8727:9227): DISCONNECT!
+[INFO] 12:28:23:711 Kernel/(8727:9224): DISCONNECT!
+[INFO] 12:28:23:724 Kernel/(8727:9359): DISCONNECT!
+[INFO] 12:30:51:006 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:30:51:009 Kernel/(8727:9586): HANDSHAKE
+[INFO] 12:30:51:313 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:30:51:314 Kernel/(8727:9590): HANDSHAKE
+[INFO] 12:30:52:314 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:30:52:315 Kernel/(8727:9598): HANDSHAKE
+[INFO] 12:30:53:314 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:30:53:315 Kernel/(8727:9605): HANDSHAKE
+[INFO] 12:30:54:314 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:30:54:343 Kernel/(8727:9609): HANDSHAKE
+[INFO] 12:30:55:315 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:30:55:342 Kernel/(8727:9614): HANDSHAKE
+[INFO] 12:30:56:315 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:30:56:343 Kernel/(8727:9620): HANDSHAKE
+[INFO] 12:31:36:933 Kernel/(8727:8727): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:31:36:962 Kernel/(8727:9679): HANDSHAKE
+[INFO] 12:31:37:270 Kernel/(8727:9620): DISCONNECT!
+[INFO] 12:31:37:270 Kernel/(8727:9614): DISCONNECT!
+[INFO] 12:31:37:271 Kernel/(8727:9609): DISCONNECT!
+[INFO] 12:31:37:271 Kernel/(8727:9605): DISCONNECT!
+[INFO] 12:31:37:271 Kernel/(8727:9598): DISCONNECT!
+[INFO] 12:31:37:271 Kernel/(8727:9590): DISCONNECT!
+[INFO] 12:31:37:271 Kernel/(8727:9586): DISCONNECT!
+[INFO] 12:31:37:276 Kernel/(8727:9679): DISCONNECT!
+[ERROR] 12:41:22:237 Kernel/(10470:10470): Error al conectar (a Server)
+
+[INFO] 12:41:30:659 Kernel/(10565:10565): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 12:41:30:733 Kernel/(10565:10565): ------2---------
+
+[INFO] 12:41:30:736 Kernel/(10565:10565): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 12:41:33:612 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:41:33:657 Kernel/(10565:10605): HANDSHAKE
+[INFO] 12:41:33:977 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:41:34:014 Kernel/(10565:10608): HANDSHAKE
+[INFO] 12:41:34:977 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:41:35:006 Kernel/(10565:10614): HANDSHAKE
+[INFO] 12:41:35:978 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:41:36:013 Kernel/(10565:10620): HANDSHAKE
+[INFO] 12:41:36:979 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:41:37:014 Kernel/(10565:10626): HANDSHAKE
+[INFO] 12:41:37:979 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:41:38:013 Kernel/(10565:10635): HANDSHAKE
+[INFO] 12:41:38:980 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:41:39:015 Kernel/(10565:10645): HANDSHAKE
+[INFO] 12:42:19:601 Kernel/(10565:10565): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:42:19:629 Kernel/(10565:10701): HANDSHAKE
+[INFO] 12:42:19:942 Kernel/(10565:10645): DISCONNECT!
+[INFO] 12:42:19:942 Kernel/(10565:10635): DISCONNECT!
+[INFO] 12:42:19:942 Kernel/(10565:10626): DISCONNECT!
+[INFO] 12:42:19:943 Kernel/(10565:10620): DISCONNECT!
+[INFO] 12:42:19:943 Kernel/(10565:10614): DISCONNECT!
+[INFO] 12:42:19:943 Kernel/(10565:10608): DISCONNECT!
+[INFO] 12:42:19:943 Kernel/(10565:10605): DISCONNECT!
+[INFO] 12:42:19:954 Kernel/(10565:10701): DISCONNECT!
+[INFO] 12:48:56:759 Kernel/(11348:11348): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 12:48:56:836 Kernel/(11348:11348): ------2---------
+
+[INFO] 12:48:56:840 Kernel/(11348:11348): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 12:48:58:620 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:48:58:660 Kernel/(11348:11385): HANDSHAKE
+[INFO] 12:48:58:986 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:48:59:020 Kernel/(11348:11388): HANDSHAKE
+[INFO] 12:48:59:982 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:49:00:016 Kernel/(11348:11392): HANDSHAKE
+[INFO] 12:49:00:982 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:49:01:018 Kernel/(11348:11396): HANDSHAKE
+[INFO] 12:49:01:982 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:49:02:010 Kernel/(11348:11401): HANDSHAKE
+[INFO] 12:49:02:982 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:49:03:010 Kernel/(11348:11410): HANDSHAKE
+[INFO] 12:49:03:983 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:49:04:011 Kernel/(11348:11419): HANDSHAKE
+[INFO] 12:49:44:633 Kernel/(11348:11348): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:49:44:661 Kernel/(11348:11476): HANDSHAKE
+[INFO] 12:49:44:965 Kernel/(11348:11419): DISCONNECT!
+[INFO] 12:49:44:966 Kernel/(11348:11410): DISCONNECT!
+[INFO] 12:49:44:966 Kernel/(11348:11401): DISCONNECT!
+[INFO] 12:49:44:966 Kernel/(11348:11396): DISCONNECT!
+[INFO] 12:49:44:966 Kernel/(11348:11392): DISCONNECT!
+[INFO] 12:49:44:966 Kernel/(11348:11388): DISCONNECT!
+[INFO] 12:49:44:967 Kernel/(11348:11385): DISCONNECT!
+[INFO] 12:49:44:977 Kernel/(11348:11476): DISCONNECT!
+[INFO] 12:55:11:964 Kernel/(12017:12017): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 12:55:12:085 Kernel/(12017:12017): ------2---------
+
+[INFO] 12:55:12:091 Kernel/(12017:12017): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 12:55:13:429 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:13:485 Kernel/(12017:12051): HANDSHAKE
+[INFO] 12:55:13:805 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:13:846 Kernel/(12017:12054): HANDSHAKE
+[INFO] 12:55:14:806 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:14:835 Kernel/(12017:12061): HANDSHAKE
+[INFO] 12:55:15:806 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:15:842 Kernel/(12017:12067): HANDSHAKE
+[INFO] 12:55:16:806 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:16:844 Kernel/(12017:12072): HANDSHAKE
+[INFO] 12:55:17:807 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:17:845 Kernel/(12017:12077): HANDSHAKE
+[INFO] 12:55:18:807 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:18:843 Kernel/(12017:12086): HANDSHAKE
+[INFO] 12:55:19:815 Kernel/(12017:12061): (*sem_wait)->value: 0
+[INFO] 12:55:22:817 Kernel/(12017:12061): (*sem_wait)->value: 0
+[INFO] 12:55:25:905 Kernel/(12017:12054): (*sem_wait)->value: 0
+[INFO] 12:55:28:906 Kernel/(12017:12054): (*sem_wait)->value: 0
+[INFO] 12:55:31:994 Kernel/(12017:12067): (*sem_wait)->value: 0
+[INFO] 12:55:34:998 Kernel/(12017:12067): (*sem_wait)->value: 0
+[INFO] 12:55:38:086 Kernel/(12017:12072): (*sem_wait)->value: 0
+[INFO] 12:55:41:088 Kernel/(12017:12072): (*sem_wait)->value: 0
+[INFO] 12:55:44:178 Kernel/(12017:12077): (*sem_wait)->value: 0
+[INFO] 12:55:47:179 Kernel/(12017:12077): (*sem_wait)->value: 0
+[INFO] 12:55:50:266 Kernel/(12017:12086): (*sem_wait)->value: 0
+[INFO] 12:55:53:268 Kernel/(12017:12086): (*sem_wait)->value: 0
+[INFO] 12:55:56:357 Kernel/(12017:12086): (*sem_wait)->value: 0
+[INFO] 12:55:59:445 Kernel/(12017:12017): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:55:59:477 Kernel/(12017:12161): HANDSHAKE
+[INFO] 12:55:59:794 Kernel/(12017:12086): DISCONNECT!
+[INFO] 12:55:59:795 Kernel/(12017:12077): DISCONNECT!
+[INFO] 12:55:59:795 Kernel/(12017:12072): DISCONNECT!
+[INFO] 12:55:59:795 Kernel/(12017:12067): DISCONNECT!
+[INFO] 12:55:59:795 Kernel/(12017:12061): DISCONNECT!
+[INFO] 12:55:59:795 Kernel/(12017:12054): DISCONNECT!
+[INFO] 12:55:59:796 Kernel/(12017:12051): DISCONNECT!
+[INFO] 12:55:59:807 Kernel/(12017:12161): DISCONNECT!
+[INFO] 12:57:19:711 Kernel/(12337:12337): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 12:57:19:771 Kernel/(12337:12337): ------2---------
+
+[INFO] 12:57:19:775 Kernel/(12337:12337): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 12:57:21:733 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:57:21:777 Kernel/(12337:12371): HANDSHAKE
+[INFO] 12:57:22:093 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:57:22:135 Kernel/(12337:12375): HANDSHAKE
+[INFO] 12:57:23:090 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:57:23:120 Kernel/(12337:12381): HANDSHAKE
+[INFO] 12:57:24:090 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:57:24:125 Kernel/(12337:12391): HANDSHAKE
+[INFO] 12:57:25:091 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:57:25:133 Kernel/(12337:12397): HANDSHAKE
+[INFO] 12:57:26:091 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:57:26:120 Kernel/(12337:12401): HANDSHAKE
+[INFO] 12:57:27:092 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:57:27:122 Kernel/(12337:12406): HANDSHAKE
+[INFO] 12:57:28:101 Kernel/(12337:12375): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 12:57:31:103 Kernel/(12337:12375): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 12:57:34:194 Kernel/(12337:12381): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 12:57:37:195 Kernel/(12337:12381): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 12:57:40:281 Kernel/(12337:12391): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 12:57:43:282 Kernel/(12337:12391): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 12:57:46:370 Kernel/(12337:12397): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 12:57:49:371 Kernel/(12337:12397): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 12:57:52:458 Kernel/(12337:12401): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 12:57:55:460 Kernel/(12337:12401): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 12:57:58:563 Kernel/(12337:12406): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 12:58:01:564 Kernel/(12337:12406): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 12:58:04:653 Kernel/(12337:12406): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 12:58:07:741 Kernel/(12337:12337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:58:07:770 Kernel/(12337:12486): HANDSHAKE
+[INFO] 12:58:08:078 Kernel/(12337:12406): DISCONNECT!
+[INFO] 12:58:08:078 Kernel/(12337:12401): DISCONNECT!
+[INFO] 12:58:08:079 Kernel/(12337:12397): DISCONNECT!
+[INFO] 12:58:08:079 Kernel/(12337:12391): DISCONNECT!
+[INFO] 12:58:08:079 Kernel/(12337:12381): DISCONNECT!
+[INFO] 12:58:08:079 Kernel/(12337:12375): DISCONNECT!
+[INFO] 12:58:08:079 Kernel/(12337:12371): DISCONNECT!
+[INFO] 12:58:08:091 Kernel/(12337:12486): DISCONNECT!
+[INFO] 13:03:41:607 Kernel/(13001:13001): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 13:03:41:663 Kernel/(13001:13001): ------2---------
+
+[INFO] 13:03:41:666 Kernel/(13001:13001): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 13:03:42:440 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:03:42:483 Kernel/(13001:13032): HANDSHAKE
+[INFO] 13:03:42:798 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:03:42:832 Kernel/(13001:13036): HANDSHAKE
+[INFO] 13:03:43:798 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:03:43:834 Kernel/(13001:13045): HANDSHAKE
+[INFO] 13:03:44:798 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:03:44:833 Kernel/(13001:13052): HANDSHAKE
+[INFO] 13:03:45:798 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:03:45:832 Kernel/(13001:13057): HANDSHAKE
+[INFO] 13:03:46:798 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:03:46:834 Kernel/(13001:13061): HANDSHAKE
+[INFO] 13:03:47:799 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:03:47:827 Kernel/(13001:13063): HANDSHAKE
+[INFO] 13:03:48:804 Kernel/(13001:13036): size sem 6
+[INFO] 13:03:48:805 Kernel/(13001:13036): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:03:51:808 Kernel/(13001:13036): size sem 6
+[INFO] 13:03:51:808 Kernel/(13001:13036): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:03:54:897 Kernel/(13001:13045): size sem 6
+[INFO] 13:03:54:898 Kernel/(13001:13045): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:03:57:899 Kernel/(13001:13045): size sem 6
+[INFO] 13:03:57:899 Kernel/(13001:13045): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:04:00:985 Kernel/(13001:13052): size sem 6
+[INFO] 13:04:00:987 Kernel/(13001:13052): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:04:03:988 Kernel/(13001:13052): size sem 6
+[INFO] 13:04:03:988 Kernel/(13001:13052): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:04:07:079 Kernel/(13001:13061): size sem 6
+[INFO] 13:04:07:080 Kernel/(13001:13061): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:04:10:081 Kernel/(13001:13061): size sem 6
+[INFO] 13:04:10:082 Kernel/(13001:13061): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:04:13:170 Kernel/(13001:13057): size sem 6
+[INFO] 13:04:13:170 Kernel/(13001:13057): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:04:16:171 Kernel/(13001:13057): size sem 6
+[INFO] 13:04:16:172 Kernel/(13001:13057): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:04:19:262 Kernel/(13001:13063): size sem 6
+[INFO] 13:04:19:262 Kernel/(13001:13063): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:04:22:263 Kernel/(13001:13063): size sem 6
+[INFO] 13:04:22:263 Kernel/(13001:13063): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:04:25:349 Kernel/(13001:13063): size sem 6
+[INFO] 13:04:25:350 Kernel/(13001:13063): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:04:28:437 Kernel/(13001:13001): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:04:28:479 Kernel/(13001:13118): HANDSHAKE
+[INFO] 13:04:28:790 Kernel/(13001:13063): DISCONNECT!
+[INFO] 13:04:28:790 Kernel/(13001:13061): DISCONNECT!
+[INFO] 13:04:28:790 Kernel/(13001:13057): DISCONNECT!
+[INFO] 13:04:28:791 Kernel/(13001:13052): DISCONNECT!
+[INFO] 13:04:28:791 Kernel/(13001:13045): DISCONNECT!
+[INFO] 13:04:28:791 Kernel/(13001:13036): DISCONNECT!
+[INFO] 13:04:28:791 Kernel/(13001:13032): DISCONNECT!
+[INFO] 13:04:28:804 Kernel/(13001:13118): DISCONNECT!
+[INFO] 13:06:33:116 Kernel/(13341:13341): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 13:06:33:167 Kernel/(13341:13341): ------2---------
+
+[INFO] 13:06:33:171 Kernel/(13341:13341): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 13:06:34:254 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:06:34:293 Kernel/(13341:13370): HANDSHAKE
+[INFO] 13:06:34:605 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:06:34:646 Kernel/(13341:13375): HANDSHAKE
+[INFO] 13:06:35:605 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:06:35:641 Kernel/(13341:13377): HANDSHAKE
+[INFO] 13:06:36:606 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:06:36:635 Kernel/(13341:13379): HANDSHAKE
+[INFO] 13:06:37:606 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:06:37:639 Kernel/(13341:13381): HANDSHAKE
+[INFO] 13:06:38:607 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:06:38:643 Kernel/(13341:13386): HANDSHAKE
+[INFO] 13:06:39:607 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:06:39:649 Kernel/(13341:13391): HANDSHAKE
+[INFO] 13:06:40:615 Kernel/(13341:13377): size sem 6
+[INFO] 13:06:40:616 Kernel/(13341:13377): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:06:43:617 Kernel/(13341:13377): size sem 6
+[INFO] 13:06:43:618 Kernel/(13341:13377): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:06:46:706 Kernel/(13341:13375): size sem 6
+[INFO] 13:06:46:707 Kernel/(13341:13375): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:06:56:708 Kernel/(13341:13375): size sem 6
+[INFO] 13:06:56:708 Kernel/(13341:13375): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:06:59:793 Kernel/(13341:13379): size sem 6
+[INFO] 13:06:59:794 Kernel/(13341:13379): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:07:02:794 Kernel/(13341:13379): size sem 6
+[INFO] 13:07:02:795 Kernel/(13341:13379): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:07:05:882 Kernel/(13341:13381): size sem 6
+[INFO] 13:07:05:882 Kernel/(13341:13381): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:07:08:884 Kernel/(13341:13381): size sem 6
+[INFO] 13:07:08:885 Kernel/(13341:13381): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:07:11:974 Kernel/(13341:13386): size sem 6
+[INFO] 13:07:11:974 Kernel/(13341:13386): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:07:14:976 Kernel/(13341:13386): size sem 6
+[INFO] 13:07:14:977 Kernel/(13341:13386): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:07:18:066 Kernel/(13341:13391): size sem 6
+[INFO] 13:07:18:067 Kernel/(13341:13391): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:07:21:068 Kernel/(13341:13391): size sem 6
+[INFO] 13:07:21:069 Kernel/(13341:13391): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:07:24:157 Kernel/(13341:13391): size sem 6
+[INFO] 13:07:24:158 Kernel/(13341:13391): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:07:27:246 Kernel/(13341:13341): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:07:27:295 Kernel/(13341:13462): HANDSHAKE
+[INFO] 13:07:27:602 Kernel/(13341:13391): DISCONNECT!
+[INFO] 13:07:27:603 Kernel/(13341:13386): DISCONNECT!
+[INFO] 13:07:27:603 Kernel/(13341:13381): DISCONNECT!
+[INFO] 13:07:27:603 Kernel/(13341:13379): DISCONNECT!
+[INFO] 13:07:27:603 Kernel/(13341:13377): DISCONNECT!
+[INFO] 13:07:27:604 Kernel/(13341:13375): DISCONNECT!
+[INFO] 13:07:27:604 Kernel/(13341:13370): DISCONNECT!
+[INFO] 13:07:27:609 Kernel/(13341:13462): DISCONNECT!
+[INFO] 13:09:03:907 Kernel/(13647:13647): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 13:09:03:958 Kernel/(13647:13647): ------2---------
+
+[INFO] 13:09:03:962 Kernel/(13647:13647): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 13:09:05:310 Kernel/(13647:13647): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:09:05:350 Kernel/(13647:13684): HANDSHAKE
+[INFO] 13:09:05:661 Kernel/(13647:13647): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:09:05:713 Kernel/(13647:13686): HANDSHAKE
+[INFO] 13:09:05:805 Kernel/(13647:13686): size sem 6
+[INFO] 13:09:05:806 Kernel/(13647:13686): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:09:06:661 Kernel/(13647:13647): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:09:06:697 Kernel/(13647:13688): HANDSHAKE
+[INFO] 13:09:06:786 Kernel/(13647:13688): size sem 6
+[INFO] 13:09:06:786 Kernel/(13647:13688): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:09:07:662 Kernel/(13647:13647): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:09:07:698 Kernel/(13647:13690): HANDSHAKE
+[INFO] 13:09:07:788 Kernel/(13647:13690): size sem 6
+[INFO] 13:09:07:788 Kernel/(13647:13690): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:09:08:663 Kernel/(13647:13647): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:09:08:700 Kernel/(13647:13695): HANDSHAKE
+[INFO] 13:09:08:786 Kernel/(13647:13695): size sem 6
+[INFO] 13:09:08:787 Kernel/(13647:13695): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:09:08:849 Kernel/(13647:13686): size sem 6
+[INFO] 13:09:08:853 Kernel/(13647:13686): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 13:09:09:663 Kernel/(13647:13647): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:09:09:701 Kernel/(13647:13700): HANDSHAKE
+[INFO] 13:09:09:789 Kernel/(13647:13700): size sem 6
+[INFO] 13:09:09:790 Kernel/(13647:13700): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:09:09:829 Kernel/(13647:13688): size sem 6
+[INFO] 13:09:09:830 Kernel/(13647:13688): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 13:09:10:664 Kernel/(13647:13647): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:09:10:700 Kernel/(13647:13702): HANDSHAKE
+[INFO] 13:09:10:833 Kernel/(13647:13690): size sem 6
+[INFO] 13:09:10:833 Kernel/(13647:13690): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 13:09:11:666 Kernel/(13647:13702): size sem 6
+[INFO] 13:09:11:667 Kernel/(13647:13702): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:09:11:829 Kernel/(13647:13695): size sem 6
+[INFO] 13:09:11:830 Kernel/(13647:13695): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 13:09:12:833 Kernel/(13647:13700): size sem 6
+[INFO] 13:09:12:833 Kernel/(13647:13700): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 13:09:14:668 Kernel/(13647:13702): size sem 6
+[INFO] 13:09:14:668 Kernel/(13647:13702): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 13:09:54:242 Kernel/(13647:13660): ID ALTO 4
+[INFO] 13:09:54:390 Kernel/(13647:13690): DISCONNECT!
+[INFO] 13:09:54:390 Kernel/(13647:13684): DISCONNECT!
+[INFO] 13:10:49:174 Kernel/(13864:13864): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 13:10:49:226 Kernel/(13864:13864): ------2---------
+
+[INFO] 13:10:49:229 Kernel/(13864:13864): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 13:11:40:892 Kernel/(13864:13864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:11:40:994 Kernel/(13864:14050): HANDSHAKE
+[INFO] 13:11:41:416 Kernel/(13864:13864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:11:41:455 Kernel/(13864:14052): HANDSHAKE
+[INFO] 13:11:41:544 Kernel/(13864:14052): size sem 6
+[INFO] 13:11:41:545 Kernel/(13864:14052): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:11:42:489 Kernel/(13864:13864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:11:42:533 Kernel/(13864:14054): HANDSHAKE
+[INFO] 13:11:42:621 Kernel/(13864:14054): size sem 6
+[INFO] 13:11:42:622 Kernel/(13864:14054): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:11:43:624 Kernel/(13864:13864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:11:43:681 Kernel/(13864:14056): HANDSHAKE
+[INFO] 13:11:43:769 Kernel/(13864:14056): size sem 6
+[INFO] 13:11:43:770 Kernel/(13864:14056): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:11:44:589 Kernel/(13864:14052): size sem 6
+[INFO] 13:11:44:592 Kernel/(13864:14052): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 13:11:44:718 Kernel/(13864:13864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:11:44:762 Kernel/(13864:14064): HANDSHAKE
+[INFO] 13:11:44:850 Kernel/(13864:14064): size sem 6
+[INFO] 13:11:44:851 Kernel/(13864:14064): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:11:45:665 Kernel/(13864:14054): size sem 6
+[INFO] 13:11:45:665 Kernel/(13864:14054): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 13:11:45:808 Kernel/(13864:13864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:11:45:857 Kernel/(13864:14066): HANDSHAKE
+[INFO] 13:11:45:949 Kernel/(13864:14066): size sem 6
+[INFO] 13:11:45:950 Kernel/(13864:14066): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:11:46:813 Kernel/(13864:14056): size sem 6
+[INFO] 13:11:46:814 Kernel/(13864:14056): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 13:11:46:908 Kernel/(13864:13864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:11:46:959 Kernel/(13864:14068): HANDSHAKE
+[INFO] 13:11:47:893 Kernel/(13864:14064): size sem 6
+[INFO] 13:11:47:894 Kernel/(13864:14064): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 13:11:47:912 Kernel/(13864:14068): size sem 6
+[INFO] 13:11:47:912 Kernel/(13864:14068): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:11:48:993 Kernel/(13864:14066): size sem 6
+[INFO] 13:11:48:993 Kernel/(13864:14066): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 13:11:50:914 Kernel/(13864:14068): size sem 6
+[INFO] 13:11:50:915 Kernel/(13864:14068): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 13:12:29:513 Kernel/(13864:13877): ID ALTO 4
+[INFO] 13:12:29:885 Kernel/(13864:14056): DISCONNECT!
+[INFO] 13:12:29:891 Kernel/(13864:14050): DISCONNECT!
+[INFO] 13:16:09:422 Kernel/(14500:14500): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 13:16:09:472 Kernel/(14500:14500): ------2---------
+
+[INFO] 13:16:09:476 Kernel/(14500:14500): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 13:16:10:909 Kernel/(14500:14500): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:16:11:020 Kernel/(14500:14537): HANDSHAKE
+[INFO] 13:16:11:446 Kernel/(14500:14500): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:16:11:485 Kernel/(14500:14539): HANDSHAKE
+[INFO] 13:16:11:576 Kernel/(14500:14539): size sem 6
+[INFO] 13:16:11:578 Kernel/(14500:14539): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:16:12:514 Kernel/(14500:14500): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:16:12:552 Kernel/(14500:14541): HANDSHAKE
+[INFO] 13:16:12:642 Kernel/(14500:14541): size sem 6
+[INFO] 13:16:12:642 Kernel/(14500:14541): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:16:13:587 Kernel/(14500:14500): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:16:13:621 Kernel/(14500:14543): HANDSHAKE
+[INFO] 13:16:13:713 Kernel/(14500:14543): size sem 6
+[INFO] 13:16:13:713 Kernel/(14500:14543): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:16:14:621 Kernel/(14500:14539): size sem 6
+[INFO] 13:16:14:624 Kernel/(14500:14539): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 13:16:14:680 Kernel/(14500:14500): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:16:14:742 Kernel/(14500:14551): HANDSHAKE
+[INFO] 13:16:14:829 Kernel/(14500:14551): size sem 6
+[INFO] 13:16:14:829 Kernel/(14500:14551): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:16:15:685 Kernel/(14500:14541): size sem 6
+[INFO] 13:16:15:686 Kernel/(14500:14541): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 13:16:15:794 Kernel/(14500:14500): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:16:15:840 Kernel/(14500:14553): HANDSHAKE
+[INFO] 13:16:15:930 Kernel/(14500:14553): size sem 6
+[INFO] 13:16:15:930 Kernel/(14500:14553): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:16:16:757 Kernel/(14500:14543): size sem 6
+[INFO] 13:16:16:757 Kernel/(14500:14543): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 13:16:16:874 Kernel/(14500:14500): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:16:16:915 Kernel/(14500:14555): HANDSHAKE
+[INFO] 13:16:17:873 Kernel/(14500:14551): size sem 6
+[INFO] 13:16:17:873 Kernel/(14500:14551): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 13:16:17:878 Kernel/(14500:14555): size sem 6
+[INFO] 13:16:17:881 Kernel/(14500:14555): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:16:18:973 Kernel/(14500:14553): size sem 6
+[INFO] 13:16:18:974 Kernel/(14500:14553): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 13:16:20:884 Kernel/(14500:14555): size sem 6
+[INFO] 13:16:20:885 Kernel/(14500:14555): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 13:16:59:761 Kernel/(14500:14516): ID ALTO 4
+[INFO] 13:17:00:131 Kernel/(14500:14543): DISCONNECT!
+[INFO] 13:17:00:138 Kernel/(14500:14537): DISCONNECT!
+[INFO] 13:18:23:774 Kernel/(14782:14782): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 13:18:23:825 Kernel/(14782:14782): ------2---------
+
+[INFO] 13:18:23:829 Kernel/(14782:14782): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 13:18:25:426 Kernel/(14782:14782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:18:25:547 Kernel/(14782:14819): HANDSHAKE
+[INFO] 13:18:25:970 Kernel/(14782:14782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:18:26:010 Kernel/(14782:14821): HANDSHAKE
+[INFO] 13:18:26:100 Kernel/(14782:14821): size sem 6
+[INFO] 13:18:26:102 Kernel/(14782:14821): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 13:18:27:037 Kernel/(14782:14782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:18:27:074 Kernel/(14782:14823): HANDSHAKE
+[INFO] 13:18:27:161 Kernel/(14782:14823): size sem 6
+[INFO] 13:18:27:162 Kernel/(14782:14823): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 13:18:28:111 Kernel/(14782:14782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:18:28:147 Kernel/(14782:14825): HANDSHAKE
+[INFO] 13:18:28:233 Kernel/(14782:14825): size sem 6
+[INFO] 13:18:28:234 Kernel/(14782:14825): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 13:18:29:145 Kernel/(14782:14821): size sem 6
+[INFO] 13:18:29:149 Kernel/(14782:14821): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 13:18:29:218 Kernel/(14782:14782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:18:29:262 Kernel/(14782:14830): HANDSHAKE
+[INFO] 13:18:29:349 Kernel/(14782:14830): size sem 6
+[INFO] 13:18:29:350 Kernel/(14782:14830): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 13:18:30:205 Kernel/(14782:14823): size sem 6
+[INFO] 13:18:30:206 Kernel/(14782:14823): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 13:18:30:313 Kernel/(14782:14782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:18:30:351 Kernel/(14782:14835): HANDSHAKE
+[INFO] 13:18:30:437 Kernel/(14782:14835): size sem 6
+[INFO] 13:18:30:438 Kernel/(14782:14835): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 13:18:31:277 Kernel/(14782:14825): size sem 6
+[INFO] 13:18:31:278 Kernel/(14782:14825): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 13:18:31:412 Kernel/(14782:14782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 13:18:31:458 Kernel/(14782:14837): HANDSHAKE
+[INFO] 13:18:32:393 Kernel/(14782:14830): size sem 6
+[INFO] 13:18:32:393 Kernel/(14782:14830): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 13:18:32:416 Kernel/(14782:14837): size sem 6
+[INFO] 13:18:32:420 Kernel/(14782:14837): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 13:18:33:482 Kernel/(14782:14835): size sem 6
+[INFO] 13:18:33:485 Kernel/(14782:14835): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 13:18:35:429 Kernel/(14782:14837): size sem 6
+[INFO] 13:18:35:429 Kernel/(14782:14837): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 13:19:14:114 Kernel/(14782:14795): ID ALTO 4
+[INFO] 13:19:14:490 Kernel/(14782:14825): DISCONNECT!
+[INFO] 13:19:14:496 Kernel/(14782:14819): DISCONNECT!
+[INFO] 15:12:29:493 Kernel/(15094:15094): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:12:29:545 Kernel/(15094:15094): ------2---------
+
+[INFO] 15:12:29:548 Kernel/(15094:15094): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:12:31:234 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:12:31:345 Kernel/(15094:15131): HANDSHAKE
+[INFO] 15:12:31:766 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:12:31:804 Kernel/(15094:15133): HANDSHAKE
+[INFO] 15:12:31:894 Kernel/(15094:15133): size sem 6
+[INFO] 15:12:31:896 Kernel/(15094:15133): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:12:32:834 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:12:32:874 Kernel/(15094:15135): HANDSHAKE
+[INFO] 15:12:32:963 Kernel/(15094:15135): size sem 6
+[INFO] 15:12:32:963 Kernel/(15094:15135): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:12:33:906 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:12:33:947 Kernel/(15094:15137): HANDSHAKE
+[INFO] 15:12:34:039 Kernel/(15094:15137): size sem 6
+[INFO] 15:12:34:040 Kernel/(15094:15137): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:12:34:938 Kernel/(15094:15133): size sem 6
+[INFO] 15:12:34:942 Kernel/(15094:15133): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:12:35:011 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:12:35:059 Kernel/(15094:15139): HANDSHAKE
+[INFO] 15:12:35:147 Kernel/(15094:15139): size sem 6
+[INFO] 15:12:35:148 Kernel/(15094:15139): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:12:36:007 Kernel/(15094:15135): size sem 6
+[INFO] 15:12:36:007 Kernel/(15094:15135): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:12:36:108 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:12:36:151 Kernel/(15094:15147): HANDSHAKE
+[INFO] 15:12:36:238 Kernel/(15094:15147): size sem 6
+[INFO] 15:12:36:239 Kernel/(15094:15147): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:12:37:082 Kernel/(15094:15137): size sem 6
+[INFO] 15:12:37:083 Kernel/(15094:15137): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:12:37:195 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:12:37:234 Kernel/(15094:15149): HANDSHAKE
+[INFO] 15:12:38:190 Kernel/(15094:15139): size sem 6
+[INFO] 15:12:38:191 Kernel/(15094:15139): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:12:38:197 Kernel/(15094:15149): size sem 6
+[INFO] 15:12:38:198 Kernel/(15094:15149): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:12:39:282 Kernel/(15094:15147): size sem 6
+[INFO] 15:12:39:283 Kernel/(15094:15147): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:12:41:203 Kernel/(15094:15149): size sem 6
+[INFO] 15:12:41:203 Kernel/(15094:15149): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:13:19:845 Kernel/(15094:15104): ID ALTO 4
+[INFO] 15:13:20:229 Kernel/(15094:15137): DISCONNECT!
+[INFO] 15:13:20:237 Kernel/(15094:15131): DISCONNECT!
+[INFO] 15:13:36:876 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:36:879 Kernel/(15094:15258): HANDSHAKE
+[INFO] 15:13:37:187 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:37:188 Kernel/(15094:15260): HANDSHAKE
+[INFO] 15:13:37:275 Kernel/(15094:15260): size sem 6
+[INFO] 15:13:37:275 Kernel/(15094:15260): id_carpincho :8  ---- (*sem_wait)->value: -3
+[INFO] 15:13:38:187 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:38:224 Kernel/(15094:15262): HANDSHAKE
+[INFO] 15:13:38:311 Kernel/(15094:15262): size sem 6
+[INFO] 15:13:38:312 Kernel/(15094:15262): id_carpincho :9  ---- (*sem_wait)->value: -2
+[INFO] 15:13:39:188 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:39:217 Kernel/(15094:15264): HANDSHAKE
+[INFO] 15:13:39:303 Kernel/(15094:15264): size sem 6
+[INFO] 15:13:39:304 Kernel/(15094:15264): id_carpincho :10  ---- (*sem_wait)->value: -2
+[INFO] 15:13:40:189 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:40:235 Kernel/(15094:15266): HANDSHAKE
+[INFO] 15:13:40:323 Kernel/(15094:15266): size sem 6
+[INFO] 15:13:40:323 Kernel/(15094:15266): id_carpincho :11  ---- (*sem_wait)->value: -1
+[INFO] 15:13:41:188 Kernel/(15094:15094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:41:225 Kernel/(15094:15274): HANDSHAKE
+[INFO] 15:13:41:276 Kernel/(15094:15258): DISCONNECT!
+[INFO] 15:13:45:391 Kernel/(15316:15316): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:13:45:441 Kernel/(15316:15316): ------2---------
+
+[INFO] 15:13:45:444 Kernel/(15316:15316): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:13:47:347 Kernel/(15316:15316): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:47:390 Kernel/(15316:15353): HANDSHAKE
+[INFO] 15:13:47:704 Kernel/(15316:15316): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:47:733 Kernel/(15316:15355): HANDSHAKE
+[INFO] 15:13:47:822 Kernel/(15316:15355): size sem 6
+[INFO] 15:13:47:825 Kernel/(15316:15355): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:13:48:704 Kernel/(15316:15316): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:48:742 Kernel/(15316:15357): HANDSHAKE
+[INFO] 15:13:48:831 Kernel/(15316:15357): size sem 6
+[INFO] 15:13:48:831 Kernel/(15316:15357): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:13:49:705 Kernel/(15316:15316): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:49:738 Kernel/(15316:15359): HANDSHAKE
+[INFO] 15:13:49:827 Kernel/(15316:15359): size sem 6
+[INFO] 15:13:49:827 Kernel/(15316:15359): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:13:50:705 Kernel/(15316:15316): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:50:746 Kernel/(15316:15364): HANDSHAKE
+[INFO] 15:13:50:835 Kernel/(15316:15364): size sem 6
+[INFO] 15:13:50:835 Kernel/(15316:15364): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:13:50:875 Kernel/(15316:15355): size sem 6
+[INFO] 15:13:50:877 Kernel/(15316:15355): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:13:51:706 Kernel/(15316:15316): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:51:739 Kernel/(15316:15369): HANDSHAKE
+[INFO] 15:13:51:827 Kernel/(15316:15369): size sem 6
+[INFO] 15:13:51:827 Kernel/(15316:15369): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:13:51:875 Kernel/(15316:15357): size sem 6
+[INFO] 15:13:51:875 Kernel/(15316:15357): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:13:52:706 Kernel/(15316:15316): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:13:52:742 Kernel/(15316:15371): HANDSHAKE
+[INFO] 15:13:52:870 Kernel/(15316:15359): size sem 6
+[INFO] 15:13:52:871 Kernel/(15316:15359): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:13:53:709 Kernel/(15316:15371): size sem 6
+[INFO] 15:13:53:710 Kernel/(15316:15371): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:13:53:879 Kernel/(15316:15364): size sem 6
+[INFO] 15:13:53:880 Kernel/(15316:15364): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:13:54:871 Kernel/(15316:15369): size sem 6
+[INFO] 15:13:54:872 Kernel/(15316:15369): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:13:56:710 Kernel/(15316:15371): size sem 6
+[INFO] 15:13:56:711 Kernel/(15316:15371): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:14:35:718 Kernel/(15316:15329): ID ALTO 4
+[INFO] 15:14:35:731 Kernel/(15316:15359): DISCONNECT!
+[INFO] 15:14:35:732 Kernel/(15316:15353): DISCONNECT!
+[INFO] 15:14:54:907 Kernel/(15489:15489): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:14:54:959 Kernel/(15489:15489): ------2---------
+
+[INFO] 15:14:54:963 Kernel/(15489:15489): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:14:57:461 Kernel/(15489:15489): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:14:57:573 Kernel/(15489:15526): HANDSHAKE
+[INFO] 15:14:57:992 Kernel/(15489:15489): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:14:58:031 Kernel/(15489:15528): HANDSHAKE
+[INFO] 15:14:58:123 Kernel/(15489:15528): size sem 6
+[INFO] 15:14:58:124 Kernel/(15489:15528): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:14:59:059 Kernel/(15489:15489): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:14:59:095 Kernel/(15489:15530): HANDSHAKE
+[INFO] 15:14:59:183 Kernel/(15489:15530): size sem 6
+[INFO] 15:14:59:183 Kernel/(15489:15530): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:15:00:132 Kernel/(15489:15489): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:15:00:169 Kernel/(15489:15532): HANDSHAKE
+[INFO] 15:15:00:259 Kernel/(15489:15532): size sem 6
+[INFO] 15:15:00:259 Kernel/(15489:15532): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:15:01:166 Kernel/(15489:15528): size sem 6
+[INFO] 15:15:01:170 Kernel/(15489:15528): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:15:01:225 Kernel/(15489:15489): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:15:01:265 Kernel/(15489:15540): HANDSHAKE
+[INFO] 15:15:01:351 Kernel/(15489:15540): size sem 6
+[INFO] 15:15:01:351 Kernel/(15489:15540): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:15:02:226 Kernel/(15489:15530): size sem 6
+[INFO] 15:15:02:227 Kernel/(15489:15530): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:15:02:330 Kernel/(15489:15489): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:15:02:369 Kernel/(15489:15542): HANDSHAKE
+[INFO] 15:15:02:459 Kernel/(15489:15542): size sem 6
+[INFO] 15:15:02:459 Kernel/(15489:15542): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:15:03:302 Kernel/(15489:15532): size sem 6
+[INFO] 15:15:03:303 Kernel/(15489:15532): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:15:03:410 Kernel/(15489:15489): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:15:03:446 Kernel/(15489:15544): HANDSHAKE
+[INFO] 15:15:04:395 Kernel/(15489:15540): size sem 6
+[INFO] 15:15:04:395 Kernel/(15489:15540): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:15:04:417 Kernel/(15489:15544): size sem 6
+[INFO] 15:15:04:417 Kernel/(15489:15544): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:15:05:503 Kernel/(15489:15542): size sem 6
+[INFO] 15:15:05:504 Kernel/(15489:15542): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:15:07:419 Kernel/(15489:15544): size sem 6
+[INFO] 15:15:07:419 Kernel/(15489:15544): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:15:45:248 Kernel/(15489:15499): ID ALTO 4
+[INFO] 15:15:45:621 Kernel/(15489:15532): DISCONNECT!
+[INFO] 15:15:45:626 Kernel/(15489:15526): DISCONNECT!
+[INFO] 15:17:20:197 Kernel/(15793:15793): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:17:20:264 Kernel/(15793:15793): ------2---------
+
+[INFO] 15:17:20:268 Kernel/(15793:15793): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:17:22:431 Kernel/(15793:15793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:17:22:546 Kernel/(15793:15830): HANDSHAKE
+[INFO] 15:17:22:971 Kernel/(15793:15793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:17:23:011 Kernel/(15793:15832): HANDSHAKE
+[INFO] 15:17:23:106 Kernel/(15793:15832): size sem 6
+[INFO] 15:17:23:107 Kernel/(15793:15832): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:17:24:039 Kernel/(15793:15793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:17:24:076 Kernel/(15793:15834): HANDSHAKE
+[INFO] 15:17:24:163 Kernel/(15793:15834): size sem 6
+[INFO] 15:17:24:163 Kernel/(15793:15834): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:17:25:114 Kernel/(15793:15793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:17:25:149 Kernel/(15793:15836): HANDSHAKE
+[INFO] 15:17:25:239 Kernel/(15793:15836): size sem 6
+[INFO] 15:17:25:240 Kernel/(15793:15836): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:17:26:150 Kernel/(15793:15832): size sem 6
+[INFO] 15:17:26:153 Kernel/(15793:15832): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:17:26:210 Kernel/(15793:15793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:17:26:256 Kernel/(15793:15841): HANDSHAKE
+[INFO] 15:17:26:343 Kernel/(15793:15841): size sem 6
+[INFO] 15:17:26:344 Kernel/(15793:15841): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:17:27:207 Kernel/(15793:15834): size sem 6
+[INFO] 15:17:27:208 Kernel/(15793:15834): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:17:27:309 Kernel/(15793:15793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:17:27:348 Kernel/(15793:15846): HANDSHAKE
+[INFO] 15:17:27:435 Kernel/(15793:15846): size sem 6
+[INFO] 15:17:27:436 Kernel/(15793:15846): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:17:28:282 Kernel/(15793:15836): size sem 6
+[INFO] 15:17:28:283 Kernel/(15793:15836): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:17:28:400 Kernel/(15793:15793): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:17:28:439 Kernel/(15793:15848): HANDSHAKE
+[INFO] 15:17:29:387 Kernel/(15793:15841): size sem 6
+[INFO] 15:17:29:388 Kernel/(15793:15841): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:17:29:404 Kernel/(15793:15848): size sem 6
+[INFO] 15:17:29:404 Kernel/(15793:15848): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:17:30:479 Kernel/(15793:15846): size sem 6
+[INFO] 15:17:30:480 Kernel/(15793:15846): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:17:32:413 Kernel/(15793:15848): size sem 6
+[INFO] 15:17:32:413 Kernel/(15793:15848): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:17:45:625 Kernel/(15793:15806): ID ALTO 4
+[INFO] 15:17:46:012 Kernel/(15793:15836): DISCONNECT!
+[INFO] 15:17:46:019 Kernel/(15793:15830): DISCONNECT!
+[INFO] 15:21:18:179 Kernel/(16210:16210): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:21:18:234 Kernel/(16210:16210): ------2---------
+
+[INFO] 15:21:18:239 Kernel/(16210:16210): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:21:20:787 Kernel/(16210:16210): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:21:20:900 Kernel/(16210:16244): HANDSHAKE
+[INFO] 15:21:21:329 Kernel/(16210:16210): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:21:21:371 Kernel/(16210:16246): HANDSHAKE
+[INFO] 15:21:21:462 Kernel/(16210:16246): size sem 6
+[INFO] 15:21:21:463 Kernel/(16210:16246): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:21:22:397 Kernel/(16210:16210): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:21:22:432 Kernel/(16210:16251): HANDSHAKE
+[INFO] 15:21:22:519 Kernel/(16210:16251): size sem 6
+[INFO] 15:21:22:519 Kernel/(16210:16251): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:21:23:469 Kernel/(16210:16210): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:21:23:503 Kernel/(16210:16253): HANDSHAKE
+[INFO] 15:21:23:590 Kernel/(16210:16253): size sem 6
+[INFO] 15:21:23:591 Kernel/(16210:16253): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:21:24:506 Kernel/(16210:16246): size sem 6
+[INFO] 15:21:24:509 Kernel/(16210:16246): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:21:24:560 Kernel/(16210:16210): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:21:24:598 Kernel/(16210:16258): HANDSHAKE
+[INFO] 15:21:24:687 Kernel/(16210:16258): size sem 6
+[INFO] 15:21:24:687 Kernel/(16210:16258): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:21:25:562 Kernel/(16210:16251): size sem 6
+[INFO] 15:21:25:563 Kernel/(16210:16251): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:21:25:657 Kernel/(16210:16210): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:21:25:695 Kernel/(16210:16260): HANDSHAKE
+[INFO] 15:21:25:782 Kernel/(16210:16260): size sem 6
+[INFO] 15:21:25:783 Kernel/(16210:16260): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:21:26:634 Kernel/(16210:16253): size sem 6
+[INFO] 15:21:26:635 Kernel/(16210:16253): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:21:26:736 Kernel/(16210:16210): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:21:26:776 Kernel/(16210:16268): HANDSHAKE
+[INFO] 15:21:27:730 Kernel/(16210:16258): size sem 6
+[INFO] 15:21:27:732 Kernel/(16210:16258): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:21:27:739 Kernel/(16210:16268): size sem 6
+[INFO] 15:21:27:739 Kernel/(16210:16268): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:21:28:827 Kernel/(16210:16260): size sem 6
+[INFO] 15:21:28:830 Kernel/(16210:16260): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:21:30:742 Kernel/(16210:16268): size sem 6
+[INFO] 15:21:30:742 Kernel/(16210:16268): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:21:43:514 Kernel/(16210:16220): ID ALTO 4
+[INFO] 15:21:43:883 Kernel/(16210:16253): DISCONNECT!
+[INFO] 15:21:43:888 Kernel/(16210:16244): DISCONNECT!
+[INFO] 15:23:18:202 Kernel/(16474:16474): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:23:18:275 Kernel/(16474:16474): ------2---------
+
+[INFO] 15:23:18:285 Kernel/(16474:16474): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:23:20:520 Kernel/(16474:16474): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:23:20:633 Kernel/(16474:16505): HANDSHAKE
+[INFO] 15:23:21:057 Kernel/(16474:16474): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:23:21:100 Kernel/(16474:16510): HANDSHAKE
+[INFO] 15:23:21:189 Kernel/(16474:16510): size sem 6
+[INFO] 15:23:21:191 Kernel/(16474:16510): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:23:22:125 Kernel/(16474:16474): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:23:22:155 Kernel/(16474:16515): HANDSHAKE
+[INFO] 15:23:22:247 Kernel/(16474:16515): size sem 6
+[INFO] 15:23:22:247 Kernel/(16474:16515): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:23:23:196 Kernel/(16474:16474): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:23:23:225 Kernel/(16474:16517): HANDSHAKE
+[INFO] 15:23:23:315 Kernel/(16474:16517): size sem 6
+[INFO] 15:23:23:315 Kernel/(16474:16517): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:23:24:234 Kernel/(16474:16510): size sem 6
+[INFO] 15:23:24:243 Kernel/(16474:16510): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:23:24:293 Kernel/(16474:16474): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:23:24:339 Kernel/(16474:16519): HANDSHAKE
+[INFO] 15:23:24:427 Kernel/(16474:16519): size sem 6
+[INFO] 15:23:24:427 Kernel/(16474:16519): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:23:25:291 Kernel/(16474:16515): size sem 6
+[INFO] 15:23:25:294 Kernel/(16474:16515): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:23:25:391 Kernel/(16474:16474): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:23:25:429 Kernel/(16474:16521): HANDSHAKE
+[INFO] 15:23:25:520 Kernel/(16474:16521): size sem 6
+[INFO] 15:23:25:521 Kernel/(16474:16521): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:23:26:359 Kernel/(16474:16517): size sem 6
+[INFO] 15:23:26:359 Kernel/(16474:16517): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:23:26:470 Kernel/(16474:16474): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:23:26:504 Kernel/(16474:16526): HANDSHAKE
+[INFO] 15:23:27:472 Kernel/(16474:16526): size sem 6
+[INFO] 15:23:27:473 Kernel/(16474:16526): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:23:27:473 Kernel/(16474:16519): size sem 6
+[INFO] 15:23:27:474 Kernel/(16474:16519): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:23:28:567 Kernel/(16474:16521): size sem 6
+[INFO] 15:23:28:567 Kernel/(16474:16521): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:23:30:477 Kernel/(16474:16526): size sem 6
+[INFO] 15:23:30:478 Kernel/(16474:16526): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:23:43:667 Kernel/(16474:16484): ID ALTO 4
+[INFO] 15:25:53:925 Kernel/(16774:16774): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:25:54:005 Kernel/(16774:16774): ------2---------
+
+[INFO] 15:25:54:009 Kernel/(16774:16774): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:25:55:817 Kernel/(16774:16774): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:25:55:978 Kernel/(16774:16806): HANDSHAKE
+[INFO] 15:25:56:433 Kernel/(16774:16774): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:25:56:471 Kernel/(16774:16810): HANDSHAKE
+[INFO] 15:25:56:562 Kernel/(16774:16810): size sem 6
+[INFO] 15:25:56:564 Kernel/(16774:16810): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:25:57:502 Kernel/(16774:16774): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:25:57:548 Kernel/(16774:16815): HANDSHAKE
+[INFO] 15:25:57:635 Kernel/(16774:16815): size sem 6
+[INFO] 15:25:57:635 Kernel/(16774:16815): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:25:58:580 Kernel/(16774:16774): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:25:58:617 Kernel/(16774:16817): HANDSHAKE
+[INFO] 15:25:58:703 Kernel/(16774:16817): size sem 6
+[INFO] 15:25:58:704 Kernel/(16774:16817): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:25:59:606 Kernel/(16774:16810): size sem 6
+[INFO] 15:25:59:609 Kernel/(16774:16810): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:25:59:676 Kernel/(16774:16774): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:25:59:713 Kernel/(16774:16819): HANDSHAKE
+[INFO] 15:25:59:799 Kernel/(16774:16819): size sem 6
+[INFO] 15:25:59:800 Kernel/(16774:16819): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:26:00:678 Kernel/(16774:16815): size sem 6
+[INFO] 15:26:00:680 Kernel/(16774:16815): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:26:00:785 Kernel/(16774:16774): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:26:00:843 Kernel/(16774:16821): HANDSHAKE
+[INFO] 15:26:00:931 Kernel/(16774:16821): size sem 6
+[INFO] 15:26:00:932 Kernel/(16774:16821): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:26:01:747 Kernel/(16774:16817): size sem 6
+[INFO] 15:26:01:748 Kernel/(16774:16817): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:26:01:856 Kernel/(16774:16774): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:26:01:889 Kernel/(16774:16829): HANDSHAKE
+[INFO] 15:26:02:843 Kernel/(16774:16819): size sem 6
+[INFO] 15:26:02:843 Kernel/(16774:16819): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:26:02:859 Kernel/(16774:16829): size sem 6
+[INFO] 15:26:02:860 Kernel/(16774:16829): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:26:03:974 Kernel/(16774:16821): size sem 6
+[INFO] 15:26:03:975 Kernel/(16774:16821): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:26:05:867 Kernel/(16774:16829): size sem 6
+[INFO] 15:26:05:867 Kernel/(16774:16829): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:26:19:288 Kernel/(16774:16784): ID ALTO 4
+[INFO] 15:27:21:284 Kernel/(17033:17033): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:27:21:334 Kernel/(17033:17033): ------2---------
+
+[INFO] 15:27:21:338 Kernel/(17033:17033): ------3---------
+
+[INFO] 15:27:37:992 Kernel/(17099:17099): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:27:38:046 Kernel/(17099:17099): ------2---------
+
+[INFO] 15:27:38:050 Kernel/(17099:17099): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:27:40:989 Kernel/(17099:17099): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:27:41:105 Kernel/(17099:17133): HANDSHAKE
+[INFO] 15:27:41:528 Kernel/(17099:17099): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:27:41:570 Kernel/(17099:17135): HANDSHAKE
+[INFO] 15:27:41:662 Kernel/(17099:17135): size sem 6
+[INFO] 15:27:41:666 Kernel/(17099:17135): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:27:42:594 Kernel/(17099:17099): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:27:42:634 Kernel/(17099:17140): HANDSHAKE
+[INFO] 15:27:42:723 Kernel/(17099:17140): size sem 6
+[INFO] 15:27:42:723 Kernel/(17099:17140): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:27:43:666 Kernel/(17099:17099): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:27:43:704 Kernel/(17099:17142): HANDSHAKE
+[INFO] 15:27:43:791 Kernel/(17099:17142): size sem 6
+[INFO] 15:27:43:791 Kernel/(17099:17142): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:27:44:737 Kernel/(17099:17099): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:27:44:772 Kernel/(17099:17144): HANDSHAKE
+[INFO] 15:27:44:779 Kernel/(17099:17135): size sem 6
+[INFO] 15:27:44:781 Kernel/(17099:17135): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:27:44:859 Kernel/(17099:17144): size sem 6
+[INFO] 15:27:44:859 Kernel/(17099:17144): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:27:45:766 Kernel/(17099:17140): size sem 6
+[INFO] 15:27:45:767 Kernel/(17099:17140): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:27:45:830 Kernel/(17099:17099): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:27:45:873 Kernel/(17099:17146): HANDSHAKE
+[INFO] 15:27:45:962 Kernel/(17099:17146): size sem 6
+[INFO] 15:27:45:963 Kernel/(17099:17146): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:27:46:834 Kernel/(17099:17142): size sem 6
+[INFO] 15:27:46:835 Kernel/(17099:17142): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:27:46:928 Kernel/(17099:17099): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:27:46:968 Kernel/(17099:17154): HANDSHAKE
+[INFO] 15:27:47:902 Kernel/(17099:17144): size sem 6
+[INFO] 15:27:47:903 Kernel/(17099:17144): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:27:47:931 Kernel/(17099:17154): size sem 6
+[INFO] 15:27:47:932 Kernel/(17099:17154): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:27:49:007 Kernel/(17099:17146): size sem 6
+[INFO] 15:27:49:007 Kernel/(17099:17146): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:27:50:933 Kernel/(17099:17154): size sem 6
+[INFO] 15:27:50:933 Kernel/(17099:17154): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:28:03:380 Kernel/(17099:17109): ID ALTO 4
+[INFO] 15:31:38:526 Kernel/(17570:17570): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:31:38:576 Kernel/(17570:17570): ------2---------
+
+[INFO] 15:31:38:580 Kernel/(17570:17570): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:31:41:287 Kernel/(17570:17570): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:31:41:437 Kernel/(17570:17604): HANDSHAKE
+[INFO] 15:31:41:902 Kernel/(17570:17570): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:31:41:948 Kernel/(17570:17609): HANDSHAKE
+[INFO] 15:31:42:043 Kernel/(17570:17609): size sem 6
+[INFO] 15:31:42:046 Kernel/(17570:17609): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:31:42:970 Kernel/(17570:17570): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:31:43:009 Kernel/(17570:17611): HANDSHAKE
+[INFO] 15:31:43:095 Kernel/(17570:17611): size sem 6
+[INFO] 15:31:43:096 Kernel/(17570:17611): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:31:44:044 Kernel/(17570:17570): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:31:44:082 Kernel/(17570:17613): HANDSHAKE
+[INFO] 15:31:44:171 Kernel/(17570:17613): size sem 6
+[INFO] 15:31:44:171 Kernel/(17570:17613): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:31:45:115 Kernel/(17570:17570): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:31:45:151 Kernel/(17570:17615): HANDSHAKE
+[INFO] 15:31:45:154 Kernel/(17570:17609): size sem 6
+[INFO] 15:31:45:157 Kernel/(17570:17609): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:31:45:238 Kernel/(17570:17615): size sem 6
+[INFO] 15:31:45:239 Kernel/(17570:17615): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:31:46:138 Kernel/(17570:17611): size sem 6
+[INFO] 15:31:46:139 Kernel/(17570:17611): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:31:46:200 Kernel/(17570:17570): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:31:46:243 Kernel/(17570:17617): HANDSHAKE
+[INFO] 15:31:46:331 Kernel/(17570:17617): size sem 6
+[INFO] 15:31:46:331 Kernel/(17570:17617): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:31:47:214 Kernel/(17570:17613): size sem 6
+[INFO] 15:31:47:215 Kernel/(17570:17613): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:31:47:289 Kernel/(17570:17570): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:31:47:327 Kernel/(17570:17625): HANDSHAKE
+[INFO] 15:31:48:283 Kernel/(17570:17615): size sem 6
+[INFO] 15:31:48:283 Kernel/(17570:17615): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:31:48:293 Kernel/(17570:17625): size sem 6
+[INFO] 15:31:48:294 Kernel/(17570:17625): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:31:49:375 Kernel/(17570:17617): size sem 6
+[INFO] 15:31:49:375 Kernel/(17570:17617): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:31:51:299 Kernel/(17570:17625): size sem 6
+[INFO] 15:31:51:299 Kernel/(17570:17625): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:32:03:843 Kernel/(17570:17580): ID ALTO 4
+[INFO] 15:32:03:846 Kernel/(17570:17580): 11111111111111111111
+[INFO] 15:32:03:853 Kernel/(17570:17580): 222222222222222
+[INFO] 15:33:04:397 Kernel/(17808:17808): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:33:04:448 Kernel/(17808:17808): ------2---------
+
+[INFO] 15:33:04:452 Kernel/(17808:17808): ------3---------
+
+[INFO] 15:33:10:498 Kernel/(17884:17884): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:33:10:544 Kernel/(17884:17884): ------2---------
+
+[INFO] 15:33:10:552 Kernel/(17884:17884): ------3---------
+
+[INFO] 15:33:13:334 Kernel/(17930:17930): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:33:13:394 Kernel/(17930:17930): ------2---------
+
+[INFO] 15:33:13:401 Kernel/(17930:17930): ------3---------
+
+[INFO] 15:33:19:080 Kernel/(17976:17976): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:33:19:159 Kernel/(17976:17976): ------2---------
+
+[INFO] 15:33:19:163 Kernel/(17976:17976): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:33:22:452 Kernel/(17976:17976): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:33:22:566 Kernel/(17976:18013): HANDSHAKE
+[INFO] 15:33:22:983 Kernel/(17976:17976): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:33:23:023 Kernel/(17976:18015): HANDSHAKE
+[INFO] 15:33:23:115 Kernel/(17976:18015): size sem 6
+[INFO] 15:33:23:116 Kernel/(17976:18015): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:33:24:052 Kernel/(17976:17976): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:33:24:089 Kernel/(17976:18017): HANDSHAKE
+[INFO] 15:33:24:175 Kernel/(17976:18017): size sem 6
+[INFO] 15:33:24:175 Kernel/(17976:18017): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:33:25:125 Kernel/(17976:17976): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:33:25:167 Kernel/(17976:18019): HANDSHAKE
+[INFO] 15:33:25:255 Kernel/(17976:18019): size sem 6
+[INFO] 15:33:25:256 Kernel/(17976:18019): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:33:26:158 Kernel/(17976:18015): size sem 6
+[INFO] 15:33:26:161 Kernel/(17976:18015): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:33:26:219 Kernel/(17976:17976): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:33:26:258 Kernel/(17976:18021): HANDSHAKE
+[INFO] 15:33:26:347 Kernel/(17976:18021): size sem 6
+[INFO] 15:33:26:347 Kernel/(17976:18021): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:33:27:219 Kernel/(17976:18017): size sem 6
+[INFO] 15:33:27:219 Kernel/(17976:18017): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:33:27:306 Kernel/(17976:17976): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:33:27:343 Kernel/(17976:18029): HANDSHAKE
+[INFO] 15:33:27:431 Kernel/(17976:18029): size sem 6
+[INFO] 15:33:27:431 Kernel/(17976:18029): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:33:28:298 Kernel/(17976:18019): size sem 6
+[INFO] 15:33:28:299 Kernel/(17976:18019): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:33:28:393 Kernel/(17976:17976): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:33:28:432 Kernel/(17976:18031): HANDSHAKE
+[INFO] 15:33:29:391 Kernel/(17976:18021): size sem 6
+[INFO] 15:33:29:392 Kernel/(17976:18021): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:33:29:397 Kernel/(17976:18031): size sem 6
+[INFO] 15:33:29:397 Kernel/(17976:18031): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:33:30:478 Kernel/(17976:18029): size sem 6
+[INFO] 15:33:30:479 Kernel/(17976:18029): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:33:32:401 Kernel/(17976:18031): size sem 6
+[INFO] 15:33:32:402 Kernel/(17976:18031): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:33:44:507 Kernel/(17976:17986): ID ALTO 4
+[INFO] 15:35:20:816 Kernel/(18252:18252): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:35:20:880 Kernel/(18252:18252): ------2---------
+
+[INFO] 15:35:20:886 Kernel/(18252:18252): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:35:24:349 Kernel/(18252:18252): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:35:24:464 Kernel/(18252:18289): HANDSHAKE
+[INFO] 15:35:24:889 Kernel/(18252:18252): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:35:24:932 Kernel/(18252:18291): HANDSHAKE
+[INFO] 15:35:25:023 Kernel/(18252:18291): size sem 6
+[INFO] 15:35:25:025 Kernel/(18252:18291): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:35:25:956 Kernel/(18252:18252): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:35:25:992 Kernel/(18252:18293): HANDSHAKE
+[INFO] 15:35:26:079 Kernel/(18252:18293): size sem 6
+[INFO] 15:35:26:079 Kernel/(18252:18293): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:35:27:028 Kernel/(18252:18252): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:35:27:064 Kernel/(18252:18298): HANDSHAKE
+[INFO] 15:35:27:151 Kernel/(18252:18298): size sem 6
+[INFO] 15:35:27:151 Kernel/(18252:18298): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:35:28:118 Kernel/(18252:18252): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:35:28:160 Kernel/(18252:18291): size sem 6
+[INFO] 15:35:28:163 Kernel/(18252:18291): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:35:28:165 Kernel/(18252:18303): HANDSHAKE
+[INFO] 15:35:28:252 Kernel/(18252:18303): size sem 6
+[INFO] 15:35:28:252 Kernel/(18252:18303): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:35:29:122 Kernel/(18252:18293): size sem 6
+[INFO] 15:35:29:123 Kernel/(18252:18293): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:35:29:205 Kernel/(18252:18252): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:35:29:246 Kernel/(18252:18308): HANDSHAKE
+[INFO] 15:35:29:335 Kernel/(18252:18308): size sem 6
+[INFO] 15:35:29:335 Kernel/(18252:18308): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:35:30:194 Kernel/(18252:18298): size sem 6
+[INFO] 15:35:30:195 Kernel/(18252:18298): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:35:30:312 Kernel/(18252:18252): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:35:30:358 Kernel/(18252:18310): HANDSHAKE
+[INFO] 15:35:31:298 Kernel/(18252:18303): size sem 6
+[INFO] 15:35:31:299 Kernel/(18252:18303): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:35:31:317 Kernel/(18252:18310): size sem 6
+[INFO] 15:35:31:319 Kernel/(18252:18310): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:35:32:379 Kernel/(18252:18308): size sem 6
+[INFO] 15:35:32:380 Kernel/(18252:18308): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:35:34:328 Kernel/(18252:18310): size sem 6
+[INFO] 15:35:34:329 Kernel/(18252:18310): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:35:46:229 Kernel/(18252:18262): ID ALTO 4
+[INFO] 15:35:46:232 Kernel/(18252:18262): Semaforo: SEM4
+[INFO] 15:35:49:238 Kernel/(18252:18298): Semaforo: SEM3
+[INFO] 15:35:49:285 Kernel/(18252:18298): Semaforo: SEM4
+[INFO] 15:35:52:242 Kernel/(18252:18293): Semaforo: SEM2
+[INFO] 15:35:52:287 Kernel/(18252:18293): Semaforo: SEM3
+[INFO] 15:35:55:245 Kernel/(18252:18291): Semaforo: SEM1
+[INFO] 15:35:55:291 Kernel/(18252:18291): Semaforo: SEM2
+[INFO] 15:35:58:247 Kernel/(18252:18310): Semaforo: SEM1
+[INFO] 15:38:35:271 Kernel/(18609:18609): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:38:35:327 Kernel/(18609:18609): ------2---------
+
+[INFO] 15:38:35:331 Kernel/(18609:18609): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:38:38:112 Kernel/(18609:18609): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:38:232 Kernel/(18609:18646): HANDSHAKE
+[INFO] 15:38:38:655 Kernel/(18609:18609): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:38:693 Kernel/(18609:18648): HANDSHAKE
+[INFO] 15:38:38:782 Kernel/(18609:18648): size sem 6
+[INFO] 15:38:38:783 Kernel/(18609:18648): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:38:39:723 Kernel/(18609:18609): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:39:753 Kernel/(18609:18650): HANDSHAKE
+[INFO] 15:38:39:843 Kernel/(18609:18650): size sem 6
+[INFO] 15:38:39:843 Kernel/(18609:18650): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:38:40:805 Kernel/(18609:18609): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:40:834 Kernel/(18609:18652): HANDSHAKE
+[INFO] 15:38:40:931 Kernel/(18609:18652): size sem 6
+[INFO] 15:38:40:931 Kernel/(18609:18652): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:38:41:826 Kernel/(18609:18648): size sem 6
+[INFO] 15:38:41:835 Kernel/(18609:18648): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:38:41:902 Kernel/(18609:18609): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:41:946 Kernel/(18609:18657): HANDSHAKE
+[INFO] 15:38:42:035 Kernel/(18609:18657): size sem 6
+[INFO] 15:38:42:036 Kernel/(18609:18657): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:38:42:886 Kernel/(18609:18650): size sem 6
+[INFO] 15:38:42:887 Kernel/(18609:18650): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:38:42:992 Kernel/(18609:18609): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:43:031 Kernel/(18609:18662): HANDSHAKE
+[INFO] 15:38:43:119 Kernel/(18609:18662): size sem 6
+[INFO] 15:38:43:119 Kernel/(18609:18662): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:38:43:974 Kernel/(18609:18652): size sem 6
+[INFO] 15:38:43:975 Kernel/(18609:18652): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:38:44:090 Kernel/(18609:18609): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:44:133 Kernel/(18609:18664): HANDSHAKE
+[INFO] 15:38:45:078 Kernel/(18609:18657): size sem 6
+[INFO] 15:38:45:079 Kernel/(18609:18657): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:38:45:092 Kernel/(18609:18664): size sem 6
+[INFO] 15:38:45:094 Kernel/(18609:18664): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:38:46:162 Kernel/(18609:18662): size sem 6
+[INFO] 15:38:46:163 Kernel/(18609:18662): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:38:48:097 Kernel/(18609:18664): size sem 6
+[INFO] 15:38:48:097 Kernel/(18609:18664): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:39:00:607 Kernel/(18609:18619): ID ALTO 4
+[INFO] 15:39:00:611 Kernel/(18609:18619): Semaforo: SEM4
+[INFO] 15:39:17:473 Kernel/(18609:18646): DISCONNECT!
+[INFO] 15:41:55:271 Kernel/(18982:18982): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:41:55:320 Kernel/(18982:18982): ------2---------
+
+[INFO] 15:41:55:324 Kernel/(18982:18982): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:41:56:708 Kernel/(18982:18982): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:41:56:825 Kernel/(18982:19015): HANDSHAKE
+[INFO] 15:41:57:342 Kernel/(18982:18982): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:41:57:380 Kernel/(18982:19020): HANDSHAKE
+[INFO] 15:41:57:470 Kernel/(18982:19020): size sem 6
+[INFO] 15:41:57:472 Kernel/(18982:19020): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:41:58:440 Kernel/(18982:18982): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:41:58:490 Kernel/(18982:19025): HANDSHAKE
+[INFO] 15:41:58:579 Kernel/(18982:19025): size sem 6
+[INFO] 15:41:58:580 Kernel/(18982:19025): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:41:59:535 Kernel/(18982:18982): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:41:59:581 Kernel/(18982:19027): HANDSHAKE
+[INFO] 15:41:59:671 Kernel/(18982:19027): size sem 6
+[INFO] 15:41:59:672 Kernel/(18982:19027): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:42:00:519 Kernel/(18982:19020): size sem 6
+[INFO] 15:42:00:523 Kernel/(18982:19020): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:42:00:639 Kernel/(18982:18982): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:42:00:687 Kernel/(18982:19029): HANDSHAKE
+[INFO] 15:42:00:774 Kernel/(18982:19029): size sem 6
+[INFO] 15:42:00:775 Kernel/(18982:19029): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:42:01:623 Kernel/(18982:19025): size sem 6
+[INFO] 15:42:01:624 Kernel/(18982:19025): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:42:01:742 Kernel/(18982:18982): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:42:01:787 Kernel/(18982:19031): HANDSHAKE
+[INFO] 15:42:01:875 Kernel/(18982:19031): size sem 6
+[INFO] 15:42:01:875 Kernel/(18982:19031): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:42:02:714 Kernel/(18982:19027): size sem 6
+[INFO] 15:42:02:715 Kernel/(18982:19027): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:42:02:839 Kernel/(18982:18982): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:42:02:884 Kernel/(18982:19039): HANDSHAKE
+[INFO] 15:42:03:818 Kernel/(18982:19029): size sem 6
+[INFO] 15:42:03:819 Kernel/(18982:19029): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:42:03:844 Kernel/(18982:19039): size sem 6
+[INFO] 15:42:03:844 Kernel/(18982:19039): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:42:04:918 Kernel/(18982:19031): size sem 6
+[INFO] 15:42:04:919 Kernel/(18982:19031): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:42:06:847 Kernel/(18982:19039): size sem 6
+[INFO] 15:42:06:847 Kernel/(18982:19039): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:42:20:647 Kernel/(18982:18998): ID ALTO 4
+[INFO] 15:42:20:651 Kernel/(18982:18998): Semaforo: SEM4
+[INFO] 15:42:23:659 Kernel/(18982:19027): Semaforo: SEM3
+[INFO] 15:42:23:706 Kernel/(18982:19027): Semaforo: SEM4
+[INFO] 15:42:26:662 Kernel/(18982:19025): Semaforo: SEM2
+[INFO] 15:42:26:706 Kernel/(18982:19025): Semaforo: SEM3
+[INFO] 15:42:29:664 Kernel/(18982:19020): Semaforo: SEM1
+[INFO] 15:42:29:711 Kernel/(18982:19020): Semaforo: SEM2
+[INFO] 15:42:32:667 Kernel/(18982:19039): Semaforo: SEM1
+[INFO] 15:45:18:024 Kernel/(19363:19363): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:45:18:076 Kernel/(19363:19363): ------2---------
+
+[INFO] 15:45:18:080 Kernel/(19363:19363): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:45:21:492 Kernel/(19363:19363): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:21:607 Kernel/(19363:19397): HANDSHAKE
+[INFO] 15:45:22:032 Kernel/(19363:19363): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:22:078 Kernel/(19363:19401): HANDSHAKE
+[INFO] 15:45:22:169 Kernel/(19363:19401): size sem 6
+[INFO] 15:45:22:171 Kernel/(19363:19401): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:45:23:103 Kernel/(19363:19363): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:23:139 Kernel/(19363:19407): HANDSHAKE
+[INFO] 15:45:23:227 Kernel/(19363:19407): size sem 6
+[INFO] 15:45:23:227 Kernel/(19363:19407): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:45:24:173 Kernel/(19363:19363): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:24:208 Kernel/(19363:19409): HANDSHAKE
+[INFO] 15:45:24:295 Kernel/(19363:19409): size sem 6
+[INFO] 15:45:24:296 Kernel/(19363:19409): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:45:25:250 Kernel/(19363:19363): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:25:291 Kernel/(19363:19401): size sem 6
+[INFO] 15:45:25:293 Kernel/(19363:19401): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:45:25:294 Kernel/(19363:19411): HANDSHAKE
+[INFO] 15:45:25:380 Kernel/(19363:19411): size sem 6
+[INFO] 15:45:25:380 Kernel/(19363:19411): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:45:26:270 Kernel/(19363:19407): size sem 6
+[INFO] 15:45:26:271 Kernel/(19363:19407): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:45:26:355 Kernel/(19363:19363): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:26:398 Kernel/(19363:19413): HANDSHAKE
+[INFO] 15:45:26:487 Kernel/(19363:19413): size sem 6
+[INFO] 15:45:26:487 Kernel/(19363:19413): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:45:27:338 Kernel/(19363:19409): size sem 6
+[INFO] 15:45:27:339 Kernel/(19363:19409): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:45:27:437 Kernel/(19363:19363): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:45:27:492 Kernel/(19363:19418): HANDSHAKE
+[INFO] 15:45:28:422 Kernel/(19363:19411): size sem 6
+[INFO] 15:45:28:423 Kernel/(19363:19411): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:45:28:441 Kernel/(19363:19418): size sem 6
+[INFO] 15:45:28:441 Kernel/(19363:19418): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:45:29:531 Kernel/(19363:19413): size sem 6
+[INFO] 15:45:29:532 Kernel/(19363:19413): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:45:31:447 Kernel/(19363:19418): size sem 6
+[INFO] 15:45:31:448 Kernel/(19363:19418): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:45:43:360 Kernel/(19363:19376): ID ALTO 4
+[INFO] 15:45:43:363 Kernel/(19363:19376): Semaforo: SEM4
+[INFO] 15:45:46:370 Kernel/(19363:19409): Semaforo: SEM3
+[INFO] 15:45:46:415 Kernel/(19363:19409): Semaforo: SEM4
+[INFO] 15:45:49:373 Kernel/(19363:19407): Semaforo: SEM2
+[INFO] 15:45:49:419 Kernel/(19363:19407): Semaforo: SEM3
+[INFO] 15:45:52:376 Kernel/(19363:19401): Semaforo: SEM1
+[INFO] 15:45:52:423 Kernel/(19363:19401): Semaforo: SEM2
+[INFO] 15:45:55:381 Kernel/(19363:19418): Semaforo: SEM1
+[INFO] 15:45:55:428 Kernel/(19363:19418): size sem 6
+[INFO] 15:45:55:430 Kernel/(19363:19418): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 15:46:08:387 Kernel/(19363:19376): ID ALTO 6
+[INFO] 15:46:08:388 Kernel/(19363:19376): Semaforo: SEM1
+[INFO] 15:47:49:516 Kernel/(19652:19652): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:47:49:569 Kernel/(19652:19652): ------2---------
+
+[INFO] 15:47:49:572 Kernel/(19652:19652): ------3---------
+
+[INFO] 15:47:55:540 Kernel/(19698:19698): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:47:55:586 Kernel/(19698:19698): ------2---------
+
+[INFO] 15:47:55:592 Kernel/(19698:19698): ------3---------
+
+[INFO] 15:47:58:893 Kernel/(19744:19744): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:47:58:952 Kernel/(19744:19744): ------2---------
+
+[INFO] 15:47:58:956 Kernel/(19744:19744): ------3---------
+
+[INFO] 15:48:02:128 Kernel/(19784:19784): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:02:175 Kernel/(19784:19784): ------2---------
+
+[INFO] 15:48:02:184 Kernel/(19784:19784): ------3---------
+
+[INFO] 15:48:04:775 Kernel/(19830:19830): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:04:821 Kernel/(19830:19830): ------2---------
+
+[INFO] 15:48:04:827 Kernel/(19830:19830): ------3---------
+
+[INFO] 15:48:06:503 Kernel/(19870:19870): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:06:549 Kernel/(19870:19870): ------2---------
+
+[INFO] 15:48:06:556 Kernel/(19870:19870): ------3---------
+
+[INFO] 15:48:09:413 Kernel/(19916:19916): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:09:462 Kernel/(19916:19916): ------2---------
+
+[INFO] 15:48:09:469 Kernel/(19916:19916): ------3---------
+
+[INFO] 15:48:11:201 Kernel/(19956:19956): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:11:246 Kernel/(19956:19956): ------2---------
+
+[INFO] 15:48:11:252 Kernel/(19956:19956): ------3---------
+
+[INFO] 15:48:12:909 Kernel/(19996:19996): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:12:955 Kernel/(19996:19996): ------2---------
+
+[INFO] 15:48:12:963 Kernel/(19996:19996): ------3---------
+
+[INFO] 15:48:16:935 Kernel/(20042:20042): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:16:985 Kernel/(20042:20042): ------2---------
+
+[INFO] 15:48:16:988 Kernel/(20042:20042): ------3---------
+
+[INFO] 15:48:18:631 Kernel/(20088:20088): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:18:707 Kernel/(20088:20088): ------2---------
+
+[INFO] 15:48:18:712 Kernel/(20088:20088): ------3---------
+
+[INFO] 15:48:22:560 Kernel/(20128:20128): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:22:606 Kernel/(20128:20128): ------2---------
+
+[INFO] 15:48:22:613 Kernel/(20128:20128): ------3---------
+
+[INFO] 15:48:26:894 Kernel/(20174:20174): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:26:940 Kernel/(20174:20174): ------2---------
+
+[INFO] 15:48:26:949 Kernel/(20174:20174): ------3---------
+
+[INFO] 15:48:29:215 Kernel/(20220:20220): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:29:266 Kernel/(20220:20220): ------2---------
+
+[INFO] 15:48:29:269 Kernel/(20220:20220): ------3---------
+
+[INFO] 15:48:30:916 Kernel/(20260:20260): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:30:967 Kernel/(20260:20260): ------2---------
+
+[INFO] 15:48:30:971 Kernel/(20260:20260): ------3---------
+
+[INFO] 15:48:32:788 Kernel/(20300:20300): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:32:838 Kernel/(20300:20300): ------2---------
+
+[INFO] 15:48:32:842 Kernel/(20300:20300): ------3---------
+
+[INFO] 15:48:34:677 Kernel/(20346:20346): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:34:722 Kernel/(20346:20346): ------2---------
+
+[INFO] 15:48:34:726 Kernel/(20346:20346): ------3---------
+
+[INFO] 15:48:36:349 Kernel/(20386:20386): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:36:395 Kernel/(20386:20386): ------2---------
+
+[INFO] 15:48:36:402 Kernel/(20386:20386): ------3---------
+
+[INFO] 15:48:38:080 Kernel/(20429:20429): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:38:134 Kernel/(20429:20429): ------2---------
+
+[INFO] 15:48:38:139 Kernel/(20429:20429): ------3---------
+
+[INFO] 15:48:40:333 Kernel/(20472:20472): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:40:379 Kernel/(20472:20472): ------2---------
+
+[INFO] 15:48:40:386 Kernel/(20472:20472): ------3---------
+
+[INFO] 15:48:42:153 Kernel/(20512:20512): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:42:208 Kernel/(20512:20512): ------2---------
+
+[INFO] 15:48:42:212 Kernel/(20512:20512): ------3---------
+
+[INFO] 15:48:59:024 Kernel/(20576:20576): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:48:59:073 Kernel/(20576:20576): ------2---------
+
+[INFO] 15:48:59:076 Kernel/(20576:20576): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:49:02:113 Kernel/(20576:20576): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:49:02:154 Kernel/(20576:20607): HANDSHAKE
+[INFO] 15:49:02:472 Kernel/(20576:20576): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:49:02:517 Kernel/(20576:20612): HANDSHAKE
+[INFO] 15:49:02:606 Kernel/(20576:20612): size sem 6
+[INFO] 15:49:02:608 Kernel/(20576:20612): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:49:03:467 Kernel/(20576:20576): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:49:03:504 Kernel/(20576:20617): HANDSHAKE
+[INFO] 15:49:03:592 Kernel/(20576:20617): size sem 6
+[INFO] 15:49:03:592 Kernel/(20576:20617): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:49:04:468 Kernel/(20576:20576): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:49:04:495 Kernel/(20576:20619): HANDSHAKE
+[INFO] 15:49:04:583 Kernel/(20576:20619): size sem 6
+[INFO] 15:49:04:583 Kernel/(20576:20619): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:49:05:468 Kernel/(20576:20576): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:49:05:502 Kernel/(20576:20621): HANDSHAKE
+[INFO] 15:49:05:591 Kernel/(20576:20621): size sem 6
+[INFO] 15:49:05:591 Kernel/(20576:20621): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:49:05:650 Kernel/(20576:20612): size sem 6
+[INFO] 15:49:05:653 Kernel/(20576:20612): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:49:06:469 Kernel/(20576:20576): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:49:06:505 Kernel/(20576:20624): HANDSHAKE
+[INFO] 15:49:06:591 Kernel/(20576:20624): size sem 6
+[INFO] 15:49:06:592 Kernel/(20576:20624): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:49:06:634 Kernel/(20576:20617): size sem 6
+[INFO] 15:49:06:635 Kernel/(20576:20617): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:49:07:470 Kernel/(20576:20576): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:49:07:505 Kernel/(20576:20629): HANDSHAKE
+[INFO] 15:49:07:626 Kernel/(20576:20619): size sem 6
+[INFO] 15:49:07:627 Kernel/(20576:20619): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:49:08:471 Kernel/(20576:20629): size sem 6
+[INFO] 15:49:08:472 Kernel/(20576:20629): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:49:08:635 Kernel/(20576:20621): size sem 6
+[INFO] 15:49:08:636 Kernel/(20576:20621): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:49:09:635 Kernel/(20576:20624): size sem 6
+[INFO] 15:49:09:635 Kernel/(20576:20624): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:49:11:473 Kernel/(20576:20629): size sem 6
+[INFO] 15:49:11:473 Kernel/(20576:20629): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:49:24:349 Kernel/(20576:20586): ID ALTO 4
+[INFO] 15:49:24:352 Kernel/(20576:20586): Semaforo: SEM4
+[INFO] 15:49:27:357 Kernel/(20576:20619): Semaforo: SEM3
+[INFO] 15:49:27:536 Kernel/(20576:20617): DISCONNECT!
+[INFO] 15:49:27:537 Kernel/(20576:20607): DISCONNECT!
+[INFO] 15:49:27:543 Kernel/(20576:20619): Error iniciando semaforo
+[INFO] 15:52:55:681 Kernel/(20994:20994): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:52:55:765 Kernel/(20994:20994): ------2---------
+
+[INFO] 15:52:55:769 Kernel/(20994:20994): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:52:59:199 Kernel/(20994:20994): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:52:59:240 Kernel/(20994:21031): HANDSHAKE
+[INFO] 15:52:59:555 Kernel/(20994:20994): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:52:59:590 Kernel/(20994:21033): HANDSHAKE
+[INFO] 15:52:59:682 Kernel/(20994:21033): size sem 6
+[INFO] 15:52:59:683 Kernel/(20994:21033): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:53:00:555 Kernel/(20994:20994): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:53:00:592 Kernel/(20994:21035): HANDSHAKE
+[INFO] 15:53:00:679 Kernel/(20994:21035): size sem 6
+[INFO] 15:53:00:680 Kernel/(20994:21035): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:53:01:555 Kernel/(20994:20994): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:53:01:583 Kernel/(20994:21037): HANDSHAKE
+[INFO] 15:53:01:672 Kernel/(20994:21037): size sem 6
+[INFO] 15:53:01:672 Kernel/(20994:21037): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:53:02:556 Kernel/(20994:20994): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:53:02:591 Kernel/(20994:21042): HANDSHAKE
+[INFO] 15:53:02:679 Kernel/(20994:21042): size sem 6
+[INFO] 15:53:02:680 Kernel/(20994:21042): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:53:02:727 Kernel/(20994:21033): size sem 6
+[INFO] 15:53:02:729 Kernel/(20994:21033): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:53:03:556 Kernel/(20994:20994): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:53:03:588 Kernel/(20994:21047): HANDSHAKE
+[INFO] 15:53:03:678 Kernel/(20994:21047): size sem 6
+[INFO] 15:53:03:679 Kernel/(20994:21047): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:53:03:726 Kernel/(20994:21035): size sem 6
+[INFO] 15:53:03:727 Kernel/(20994:21035): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:53:04:556 Kernel/(20994:20994): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:53:04:591 Kernel/(20994:21049): HANDSHAKE
+[INFO] 15:53:04:715 Kernel/(20994:21037): size sem 6
+[INFO] 15:53:04:715 Kernel/(20994:21037): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:53:05:558 Kernel/(20994:21049): size sem 6
+[INFO] 15:53:05:558 Kernel/(20994:21049): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:53:05:723 Kernel/(20994:21042): size sem 6
+[INFO] 15:53:05:724 Kernel/(20994:21042): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:53:06:723 Kernel/(20994:21047): size sem 6
+[INFO] 15:53:06:723 Kernel/(20994:21047): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:53:08:559 Kernel/(20994:21049): size sem 6
+[INFO] 15:53:08:560 Kernel/(20994:21049): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:53:21:166 Kernel/(20994:21004): ID ALTO 4
+[INFO] 15:53:21:170 Kernel/(20994:21004): Semaforo: SEM4
+[INFO] 15:53:24:175 Kernel/(20994:21037): Semaforo: SEM3
+[INFO] 15:53:24:369 Kernel/(20994:21037): Error iniciando semaforo
+[INFO] 15:53:24:369 Kernel/(20994:21035): Error iniciando semaforo
+[INFO] 15:53:24:370 Kernel/(20994:21031): DISCONNECT!
+[INFO] 15:56:02:339 Kernel/(21365:21365): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:56:02:421 Kernel/(21365:21365): ------2---------
+
+[INFO] 15:56:02:427 Kernel/(21365:21365): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:56:04:553 Kernel/(21365:21365): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:56:04:594 Kernel/(21365:21402): HANDSHAKE
+[INFO] 15:56:04:907 Kernel/(21365:21365): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:56:04:949 Kernel/(21365:21404): HANDSHAKE
+[INFO] 15:56:05:038 Kernel/(21365:21404): size sem 6
+[INFO] 15:56:05:048 Kernel/(21365:21404): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:56:05:908 Kernel/(21365:21365): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:56:05:943 Kernel/(21365:21406): HANDSHAKE
+[INFO] 15:56:06:031 Kernel/(21365:21406): size sem 6
+[INFO] 15:56:06:031 Kernel/(21365:21406): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:56:06:908 Kernel/(21365:21365): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:56:06:940 Kernel/(21365:21408): HANDSHAKE
+[INFO] 15:56:07:027 Kernel/(21365:21408): size sem 6
+[INFO] 15:56:07:028 Kernel/(21365:21408): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:56:07:908 Kernel/(21365:21365): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:56:07:942 Kernel/(21365:21413): HANDSHAKE
+[INFO] 15:56:08:031 Kernel/(21365:21413): size sem 6
+[INFO] 15:56:08:031 Kernel/(21365:21413): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:56:08:094 Kernel/(21365:21404): size sem 6
+[INFO] 15:56:08:098 Kernel/(21365:21404): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:56:08:909 Kernel/(21365:21365): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:56:08:942 Kernel/(21365:21418): HANDSHAKE
+[INFO] 15:56:09:031 Kernel/(21365:21418): size sem 6
+[INFO] 15:56:09:031 Kernel/(21365:21418): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:56:09:074 Kernel/(21365:21406): size sem 6
+[INFO] 15:56:09:075 Kernel/(21365:21406): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:56:09:910 Kernel/(21365:21365): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:56:09:944 Kernel/(21365:21420): HANDSHAKE
+[INFO] 15:56:10:074 Kernel/(21365:21408): size sem 6
+[INFO] 15:56:10:075 Kernel/(21365:21408): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:56:10:911 Kernel/(21365:21420): size sem 6
+[INFO] 15:56:10:913 Kernel/(21365:21420): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:56:11:075 Kernel/(21365:21413): size sem 6
+[INFO] 15:56:11:075 Kernel/(21365:21413): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:56:12:075 Kernel/(21365:21418): size sem 6
+[INFO] 15:56:12:076 Kernel/(21365:21418): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:56:13:914 Kernel/(21365:21420): size sem 6
+[INFO] 15:56:13:914 Kernel/(21365:21420): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:56:27:826 Kernel/(21365:21378): ID ALTO 4
+[INFO] 15:56:27:829 Kernel/(21365:21378): Semaforo: SEM4
+[INFO] 15:56:30:836 Kernel/(21365:21408): Semaforo: SEM3
+[INFO] 15:56:30:990 Kernel/(21365:21406): DISCONNECT!
+[INFO] 15:56:30:994 Kernel/(21365:21402): DISCONNECT!
+[INFO] 15:56:30:996 Kernel/(21365:21408): Error haciendo sem_post
+[INFO] 15:58:04:524 Kernel/(21627:21627): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 15:58:04:579 Kernel/(21627:21627): ------2---------
+
+[INFO] 15:58:04:583 Kernel/(21627:21627): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 15:58:06:702 Kernel/(21627:21627): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:58:06:747 Kernel/(21627:21658): HANDSHAKE
+[INFO] 15:58:07:063 Kernel/(21627:21627): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:58:07:114 Kernel/(21627:21660): HANDSHAKE
+[INFO] 15:58:07:207 Kernel/(21627:21660): size sem 6
+[INFO] 15:58:07:212 Kernel/(21627:21660): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 15:58:08:064 Kernel/(21627:21627): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:58:08:094 Kernel/(21627:21666): HANDSHAKE
+[INFO] 15:58:08:183 Kernel/(21627:21666): size sem 6
+[INFO] 15:58:08:184 Kernel/(21627:21666): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 15:58:09:064 Kernel/(21627:21627): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:58:09:100 Kernel/(21627:21671): HANDSHAKE
+[INFO] 15:58:09:186 Kernel/(21627:21671): size sem 6
+[INFO] 15:58:09:187 Kernel/(21627:21671): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 15:58:10:064 Kernel/(21627:21627): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:58:10:101 Kernel/(21627:21673): HANDSHAKE
+[INFO] 15:58:10:187 Kernel/(21627:21673): size sem 6
+[INFO] 15:58:10:187 Kernel/(21627:21673): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 15:58:10:258 Kernel/(21627:21660): size sem 6
+[INFO] 15:58:10:261 Kernel/(21627:21660): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 15:58:11:065 Kernel/(21627:21627): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:58:11:102 Kernel/(21627:21675): HANDSHAKE
+[INFO] 15:58:11:190 Kernel/(21627:21675): size sem 6
+[INFO] 15:58:11:194 Kernel/(21627:21675): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 15:58:11:227 Kernel/(21627:21666): size sem 6
+[INFO] 15:58:11:227 Kernel/(21627:21666): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 15:58:12:067 Kernel/(21627:21627): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:58:12:095 Kernel/(21627:21677): HANDSHAKE
+[INFO] 15:58:12:230 Kernel/(21627:21671): size sem 6
+[INFO] 15:58:12:231 Kernel/(21627:21671): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 15:58:13:068 Kernel/(21627:21677): size sem 6
+[INFO] 15:58:13:069 Kernel/(21627:21677): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 15:58:13:231 Kernel/(21627:21673): size sem 6
+[INFO] 15:58:13:233 Kernel/(21627:21673): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 15:58:14:239 Kernel/(21627:21675): size sem 6
+[INFO] 15:58:14:240 Kernel/(21627:21675): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 15:58:16:070 Kernel/(21627:21677): size sem 6
+[INFO] 15:58:16:071 Kernel/(21627:21677): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 15:58:29:858 Kernel/(21627:21637): ID ALTO 4
+[INFO] 15:58:29:862 Kernel/(21627:21637): Semaforo: SEM4
+[INFO] 15:58:32:867 Kernel/(21627:21671): Semaforo: SEM3
+[INFO] 15:58:33:051 Kernel/(21627:21671): Error haciendo sem_post
+[INFO] 15:58:33:055 Kernel/(21627:21658): DISCONNECT!
+[INFO] 15:58:33:056 Kernel/(21627:21666): DISCONNECT!
+[INFO] 16:00:14:060 Kernel/(21901:21901): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:00:14:109 Kernel/(21901:21901): ------2---------
+
+[INFO] 16:00:14:116 Kernel/(21901:21901): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:00:15:409 Kernel/(21901:21901): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:00:15:450 Kernel/(21901:21935): HANDSHAKE
+[INFO] 16:00:15:759 Kernel/(21901:21901): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:00:15:794 Kernel/(21901:21937): HANDSHAKE
+[INFO] 16:00:15:886 Kernel/(21901:21937): size sem 6
+[INFO] 16:00:15:887 Kernel/(21901:21937): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:00:16:759 Kernel/(21901:21901): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:00:16:786 Kernel/(21901:21939): HANDSHAKE
+[INFO] 16:00:16:875 Kernel/(21901:21939): size sem 6
+[INFO] 16:00:16:875 Kernel/(21901:21939): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:00:17:759 Kernel/(21901:21901): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:00:17:794 Kernel/(21901:21941): HANDSHAKE
+[INFO] 16:00:17:883 Kernel/(21901:21941): size sem 6
+[INFO] 16:00:17:885 Kernel/(21901:21941): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:00:18:760 Kernel/(21901:21901): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:00:18:802 Kernel/(21901:21949): HANDSHAKE
+[INFO] 16:00:18:891 Kernel/(21901:21949): size sem 6
+[INFO] 16:00:18:891 Kernel/(21901:21949): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:00:18:930 Kernel/(21901:21937): size sem 6
+[INFO] 16:00:18:933 Kernel/(21901:21937): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:00:19:760 Kernel/(21901:21901): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:00:19:788 Kernel/(21901:21951): HANDSHAKE
+[INFO] 16:00:19:875 Kernel/(21901:21951): size sem 6
+[INFO] 16:00:19:875 Kernel/(21901:21951): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:00:19:918 Kernel/(21901:21939): size sem 6
+[INFO] 16:00:19:919 Kernel/(21901:21939): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:00:20:760 Kernel/(21901:21901): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:00:20:788 Kernel/(21901:21953): HANDSHAKE
+[INFO] 16:00:20:926 Kernel/(21901:21941): size sem 6
+[INFO] 16:00:20:927 Kernel/(21901:21941): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:00:21:762 Kernel/(21901:21953): size sem 6
+[INFO] 16:00:21:763 Kernel/(21901:21953): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:00:21:934 Kernel/(21901:21949): size sem 6
+[INFO] 16:00:21:935 Kernel/(21901:21949): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:00:22:918 Kernel/(21901:21951): size sem 6
+[INFO] 16:00:22:919 Kernel/(21901:21951): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:00:24:764 Kernel/(21901:21953): size sem 6
+[INFO] 16:00:24:764 Kernel/(21901:21953): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:00:39:388 Kernel/(21901:21914): ID ALTO 4
+[INFO] 16:00:39:392 Kernel/(21901:21914): Semaforo: SEM4
+[INFO] 16:00:42:397 Kernel/(21901:21941): Semaforo: SEM3
+[INFO] 16:00:42:443 Kernel/(21901:21941): Semaforo: SEM4
+[INFO] 16:00:45:401 Kernel/(21901:21939): Semaforo: SEM2
+[INFO] 16:00:45:443 Kernel/(21901:21939): Semaforo: SEM3
+[INFO] 16:00:48:403 Kernel/(21901:21937): Semaforo: SEM1
+[INFO] 16:00:48:447 Kernel/(21901:21937): Semaforo: SEM2
+[INFO] 16:00:51:405 Kernel/(21901:21953): Semaforo: SEM1
+[INFO] 16:00:51:447 Kernel/(21901:21953): size sem 6
+[INFO] 16:00:51:447 Kernel/(21901:21953): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:01:04:409 Kernel/(21901:21914): ID ALTO 6
+[INFO] 16:01:04:410 Kernel/(21901:21914): Semaforo: SEM1
+[INFO] 16:01:48:382 Kernel/(21901:21941): DISCONNECT!
+[INFO] 16:01:48:383 Kernel/(21901:21935): DISCONNECT!
+[INFO] 16:01:48:383 Kernel/(21901:21937): DISCONNECT!
+[INFO] 16:01:48:383 Kernel/(21901:21939): DISCONNECT!
+[INFO] 16:02:58:795 Kernel/(22234:22234): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:02:58:876 Kernel/(22234:22234): ------2---------
+
+[INFO] 16:02:58:879 Kernel/(22234:22234): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:03:00:528 Kernel/(22234:22234): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:03:00:630 Kernel/(22234:22271): HANDSHAKE
+[INFO] 16:03:01:044 Kernel/(22234:22234): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:03:01:105 Kernel/(22234:22273): HANDSHAKE
+[INFO] 16:03:01:201 Kernel/(22234:22273): size sem 6
+[INFO] 16:03:01:203 Kernel/(22234:22273): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:03:02:044 Kernel/(22234:22234): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:03:02:084 Kernel/(22234:22275): HANDSHAKE
+[INFO] 16:03:02:171 Kernel/(22234:22275): size sem 6
+[INFO] 16:03:02:171 Kernel/(22234:22275): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:03:03:044 Kernel/(22234:22234): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:03:03:073 Kernel/(22234:22280): HANDSHAKE
+[INFO] 16:03:03:167 Kernel/(22234:22280): size sem 6
+[INFO] 16:03:03:167 Kernel/(22234:22280): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:03:04:045 Kernel/(22234:22234): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:03:04:079 Kernel/(22234:22285): HANDSHAKE
+[INFO] 16:03:04:167 Kernel/(22234:22285): size sem 6
+[INFO] 16:03:04:167 Kernel/(22234:22285): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:03:04:247 Kernel/(22234:22273): size sem 6
+[INFO] 16:03:04:250 Kernel/(22234:22273): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:03:05:045 Kernel/(22234:22234): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:03:05:073 Kernel/(22234:22287): HANDSHAKE
+[INFO] 16:03:05:166 Kernel/(22234:22287): size sem 6
+[INFO] 16:03:05:167 Kernel/(22234:22287): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:03:05:214 Kernel/(22234:22275): size sem 6
+[INFO] 16:03:05:215 Kernel/(22234:22275): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:03:06:046 Kernel/(22234:22234): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:03:06:079 Kernel/(22234:22289): HANDSHAKE
+[INFO] 16:03:06:211 Kernel/(22234:22280): size sem 6
+[INFO] 16:03:06:211 Kernel/(22234:22280): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:03:07:047 Kernel/(22234:22289): size sem 6
+[INFO] 16:03:07:047 Kernel/(22234:22289): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:03:07:211 Kernel/(22234:22285): size sem 6
+[INFO] 16:03:07:212 Kernel/(22234:22285): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:03:08:211 Kernel/(22234:22287): size sem 6
+[INFO] 16:03:08:211 Kernel/(22234:22287): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:03:10:049 Kernel/(22234:22289): size sem 6
+[INFO] 16:03:10:049 Kernel/(22234:22289): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:03:24:316 Kernel/(22234:22250): ID ALTO 4
+[INFO] 16:03:24:320 Kernel/(22234:22250): Semaforo: SEM4
+[INFO] 16:03:27:325 Kernel/(22234:22280): Semaforo: SEM3
+[INFO] 16:03:27:495 Kernel/(22234:22275): DISCONNECT!
+[INFO] 16:03:27:500 Kernel/(22234:22280): Error haciendo sem_post
+[INFO] 16:03:27:500 Kernel/(22234:22271): DISCONNECT!
+[INFO] 16:07:51:335 Kernel/(22738:22738): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:07:51:425 Kernel/(22738:22738): ------2---------
+
+[INFO] 16:07:51:430 Kernel/(22738:22738): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:07:56:734 Kernel/(22738:22738): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:07:56:776 Kernel/(22738:22775): HANDSHAKE
+[INFO] 16:07:57:087 Kernel/(22738:22738): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:07:57:122 Kernel/(22738:22777): HANDSHAKE
+[INFO] 16:07:57:214 Kernel/(22738:22777): size sem 6
+[INFO] 16:07:57:215 Kernel/(22738:22777): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:07:58:087 Kernel/(22738:22738): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:07:58:124 Kernel/(22738:22779): HANDSHAKE
+[INFO] 16:07:58:211 Kernel/(22738:22779): size sem 6
+[INFO] 16:07:58:211 Kernel/(22738:22779): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:07:59:088 Kernel/(22738:22738): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:07:59:125 Kernel/(22738:22787): HANDSHAKE
+[INFO] 16:07:59:215 Kernel/(22738:22787): size sem 6
+[INFO] 16:07:59:215 Kernel/(22738:22787): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:08:00:088 Kernel/(22738:22738): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:08:00:126 Kernel/(22738:22789): HANDSHAKE
+[INFO] 16:08:00:215 Kernel/(22738:22789): size sem 6
+[INFO] 16:08:00:215 Kernel/(22738:22789): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:08:00:259 Kernel/(22738:22777): size sem 6
+[INFO] 16:08:00:262 Kernel/(22738:22777): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:08:01:089 Kernel/(22738:22738): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:08:01:125 Kernel/(22738:22791): HANDSHAKE
+[INFO] 16:08:01:210 Kernel/(22738:22791): size sem 6
+[INFO] 16:08:01:211 Kernel/(22738:22791): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:08:01:254 Kernel/(22738:22779): size sem 6
+[INFO] 16:08:01:255 Kernel/(22738:22779): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:08:02:090 Kernel/(22738:22738): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:08:02:118 Kernel/(22738:22793): HANDSHAKE
+[INFO] 16:08:02:258 Kernel/(22738:22787): size sem 6
+[INFO] 16:08:02:259 Kernel/(22738:22787): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:08:03:092 Kernel/(22738:22793): size sem 6
+[INFO] 16:08:03:092 Kernel/(22738:22793): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:08:03:258 Kernel/(22738:22789): size sem 6
+[INFO] 16:08:03:259 Kernel/(22738:22789): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:08:04:255 Kernel/(22738:22791): size sem 6
+[INFO] 16:08:04:255 Kernel/(22738:22791): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:08:06:093 Kernel/(22738:22793): size sem 6
+[INFO] 16:08:06:093 Kernel/(22738:22793): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:08:16:832 Kernel/(22738:22748): ID ALTO 4
+[INFO] 16:08:16:837 Kernel/(22738:22748): Semaforo: SEM4
+[INFO] 16:08:19:842 Kernel/(22738:22787): Error haciendo sem_post 3
+[INFO] 16:08:19:843 Kernel/(22738:22787): Semaforo: SEM3
+[INFO] 16:08:19:992 Kernel/(22738:22779): Error haciendo sem_wait
+[INFO] 16:08:19:996 Kernel/(22738:22775): DISCONNECT!
+[INFO] 16:08:19:998 Kernel/(22738:22787): Error haciendo sem_post 3
+[INFO] 16:08:19:999 Kernel/(22738:22787): Error haciendo sem_post
+[INFO] 16:09:00:141 Kernel/(22931:22931): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:09:00:191 Kernel/(22931:22931): ------2---------
+
+[INFO] 16:09:00:194 Kernel/(22931:22931): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:09:04:902 Kernel/(22931:22931): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:04:946 Kernel/(22931:22968): HANDSHAKE
+[INFO] 16:09:05:260 Kernel/(22931:22931): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:05:300 Kernel/(22931:22970): HANDSHAKE
+[INFO] 16:09:05:390 Kernel/(22931:22970): size sem 6
+[INFO] 16:09:05:392 Kernel/(22931:22970): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:09:06:260 Kernel/(22931:22931): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:06:296 Kernel/(22931:22973): HANDSHAKE
+[INFO] 16:09:06:383 Kernel/(22931:22973): size sem 6
+[INFO] 16:09:06:384 Kernel/(22931:22973): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:09:07:260 Kernel/(22931:22931): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:07:297 Kernel/(22931:22975): HANDSHAKE
+[INFO] 16:09:07:386 Kernel/(22931:22975): size sem 6
+[INFO] 16:09:07:387 Kernel/(22931:22975): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:09:08:260 Kernel/(22931:22931): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:08:299 Kernel/(22931:22980): HANDSHAKE
+[INFO] 16:09:08:386 Kernel/(22931:22980): size sem 6
+[INFO] 16:09:08:387 Kernel/(22931:22980): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:09:08:434 Kernel/(22931:22970): size sem 6
+[INFO] 16:09:08:437 Kernel/(22931:22970): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:09:09:260 Kernel/(22931:22931): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:09:290 Kernel/(22931:22986): HANDSHAKE
+[INFO] 16:09:09:379 Kernel/(22931:22986): size sem 6
+[INFO] 16:09:09:380 Kernel/(22931:22986): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:09:09:426 Kernel/(22931:22973): size sem 6
+[INFO] 16:09:09:427 Kernel/(22931:22973): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:09:10:261 Kernel/(22931:22931): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:10:289 Kernel/(22931:22988): HANDSHAKE
+[INFO] 16:09:10:430 Kernel/(22931:22975): size sem 6
+[INFO] 16:09:10:431 Kernel/(22931:22975): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:09:11:263 Kernel/(22931:22988): size sem 6
+[INFO] 16:09:11:263 Kernel/(22931:22988): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:09:11:430 Kernel/(22931:22980): size sem 6
+[INFO] 16:09:11:431 Kernel/(22931:22980): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:09:12:422 Kernel/(22931:22986): size sem 6
+[INFO] 16:09:12:423 Kernel/(22931:22986): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:09:14:264 Kernel/(22931:22988): size sem 6
+[INFO] 16:09:14:265 Kernel/(22931:22988): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:09:25:508 Kernel/(22931:22941): ID ALTO 4
+[INFO] 16:09:25:517 Kernel/(22931:22941): Semaforo: SEM4
+[INFO] 16:09:28:533 Kernel/(22931:22975): Error haciendo sem_post 3
+[INFO] 16:09:28:535 Kernel/(22931:22975): Semaforo: SEM3
+[INFO] 16:09:28:550 Kernel/(22931:22975): Error haciendo sem_post 3
+[INFO] 16:09:28:591 Kernel/(22931:22975): Semaforo: SEM4
+[INFO] 16:09:31:546 Kernel/(22931:22973): Error haciendo sem_post 2
+[INFO] 16:09:31:547 Kernel/(22931:22973): Semaforo: SEM2
+[INFO] 16:09:31:551 Kernel/(22931:22973): Error haciendo sem_post 2
+[INFO] 16:09:31:596 Kernel/(22931:22973): Semaforo: SEM3
+[INFO] 16:09:34:551 Kernel/(22931:22970): Error haciendo sem_post 1
+[INFO] 16:09:34:552 Kernel/(22931:22970): Semaforo: SEM1
+[INFO] 16:09:34:557 Kernel/(22931:22970): Error haciendo sem_post 1
+[INFO] 16:09:34:599 Kernel/(22931:22970): Semaforo: SEM2
+[INFO] 16:09:37:557 Kernel/(22931:22988): Error haciendo sem_post 6
+[INFO] 16:09:37:558 Kernel/(22931:22988): Semaforo: SEM1
+[INFO] 16:09:37:602 Kernel/(22931:22988): size sem 6
+[INFO] 16:09:37:603 Kernel/(22931:22988): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:09:50:571 Kernel/(22931:22941): ID ALTO 6
+[INFO] 16:09:50:572 Kernel/(22931:22941): Semaforo: SEM1
+[INFO] 16:11:03:916 Kernel/(22931:22975): DISCONNECT!
+[INFO] 16:11:03:916 Kernel/(22931:22973): DISCONNECT!
+[INFO] 16:11:03:917 Kernel/(22931:22970): DISCONNECT!
+[INFO] 16:11:03:917 Kernel/(22931:22968): DISCONNECT!
+[INFO] 16:11:09:085 Kernel/(23215:23215): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:11:09:139 Kernel/(23215:23215): ------2---------
+
+[INFO] 16:11:09:142 Kernel/(23215:23215): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:11:11:862 Kernel/(23215:23215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:11:11:902 Kernel/(23215:23257): HANDSHAKE
+[INFO] 16:11:12:215 Kernel/(23215:23215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:11:12:269 Kernel/(23215:23259): HANDSHAKE
+[INFO] 16:11:12:357 Kernel/(23215:23259): size sem 6
+[INFO] 16:11:12:359 Kernel/(23215:23259): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:11:13:215 Kernel/(23215:23215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:11:13:253 Kernel/(23215:23261): HANDSHAKE
+[INFO] 16:11:13:339 Kernel/(23215:23261): size sem 6
+[INFO] 16:11:13:339 Kernel/(23215:23261): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:11:14:216 Kernel/(23215:23215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:11:14:245 Kernel/(23215:23269): HANDSHAKE
+[INFO] 16:11:14:331 Kernel/(23215:23269): size sem 6
+[INFO] 16:11:14:331 Kernel/(23215:23269): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:11:15:217 Kernel/(23215:23215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:11:15:261 Kernel/(23215:23271): HANDSHAKE
+[INFO] 16:11:15:347 Kernel/(23215:23271): size sem 6
+[INFO] 16:11:15:348 Kernel/(23215:23271): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:11:15:402 Kernel/(23215:23259): size sem 6
+[INFO] 16:11:15:405 Kernel/(23215:23259): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:11:16:217 Kernel/(23215:23215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:11:16:251 Kernel/(23215:23273): HANDSHAKE
+[INFO] 16:11:16:339 Kernel/(23215:23273): size sem 6
+[INFO] 16:11:16:339 Kernel/(23215:23273): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:11:16:382 Kernel/(23215:23261): size sem 6
+[INFO] 16:11:16:383 Kernel/(23215:23261): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:11:17:217 Kernel/(23215:23215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:11:17:252 Kernel/(23215:23275): HANDSHAKE
+[INFO] 16:11:17:375 Kernel/(23215:23269): size sem 6
+[INFO] 16:11:17:375 Kernel/(23215:23269): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:11:18:219 Kernel/(23215:23275): size sem 6
+[INFO] 16:11:18:220 Kernel/(23215:23275): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:11:18:390 Kernel/(23215:23271): size sem 6
+[INFO] 16:11:18:391 Kernel/(23215:23271): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:11:19:383 Kernel/(23215:23273): size sem 6
+[INFO] 16:11:19:383 Kernel/(23215:23273): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:11:21:222 Kernel/(23215:23275): size sem 6
+[INFO] 16:11:21:222 Kernel/(23215:23275): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:11:34:433 Kernel/(23215:23236): ID ALTO 4
+[INFO] 16:11:34:436 Kernel/(23215:23236): Semaforo: SEM4
+[INFO] 16:11:37:441 Kernel/(23215:23269): Error haciendo sem_post 3
+[INFO] 16:11:37:443 Kernel/(23215:23269): Semaforo: SEM3
+[INFO] 16:11:37:446 Kernel/(23215:23269): Error haciendo sem_post 3
+[INFO] 16:11:37:487 Kernel/(23215:23269): Semaforo: SEM4
+[INFO] 16:11:40:446 Kernel/(23215:23261): Error haciendo sem_post 2
+[INFO] 16:11:40:446 Kernel/(23215:23261): Semaforo: SEM2
+[INFO] 16:11:40:448 Kernel/(23215:23261): Error haciendo sem_post 2
+[INFO] 16:11:40:490 Kernel/(23215:23261): Semaforo: SEM3
+[INFO] 16:11:43:448 Kernel/(23215:23259): Error haciendo sem_post 1
+[INFO] 16:11:43:448 Kernel/(23215:23259): Semaforo: SEM1
+[INFO] 16:11:43:450 Kernel/(23215:23259): Error haciendo sem_post 1
+[INFO] 16:11:43:492 Kernel/(23215:23259): Semaforo: SEM2
+[INFO] 16:11:46:450 Kernel/(23215:23275): Error haciendo sem_post 6
+[INFO] 16:11:46:451 Kernel/(23215:23275): Semaforo: SEM1
+[INFO] 16:11:46:491 Kernel/(23215:23275): size sem 6
+[INFO] 16:11:46:492 Kernel/(23215:23275): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:11:59:456 Kernel/(23215:23236): ID ALTO 6
+[INFO] 16:11:59:457 Kernel/(23215:23236): Semaforo: SEM1
+[INFO] 16:12:10:052 Kernel/(23215:23269): DISCONNECT!
+[INFO] 16:12:10:052 Kernel/(23215:23261): DISCONNECT!
+[INFO] 16:12:10:053 Kernel/(23215:23259): DISCONNECT!
+[INFO] 16:12:10:053 Kernel/(23215:23257): DISCONNECT!
+[INFO] 16:12:18:600 Kernel/(23422:23422): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:12:18:657 Kernel/(23422:23422): ------2---------
+
+[INFO] 16:12:18:663 Kernel/(23422:23422): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:12:21:090 Kernel/(23422:23422): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:12:21:134 Kernel/(23422:23468): HANDSHAKE
+[INFO] 16:12:21:456 Kernel/(23422:23422): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:12:21:505 Kernel/(23422:23470): HANDSHAKE
+[INFO] 16:12:21:595 Kernel/(23422:23470): size sem 6
+[INFO] 16:12:21:597 Kernel/(23422:23470): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:12:22:452 Kernel/(23422:23422): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:12:22:488 Kernel/(23422:23472): HANDSHAKE
+[INFO] 16:12:22:583 Kernel/(23422:23472): size sem 6
+[INFO] 16:12:22:584 Kernel/(23422:23472): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:12:23:452 Kernel/(23422:23422): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:12:23:490 Kernel/(23422:23474): HANDSHAKE
+[INFO] 16:12:23:579 Kernel/(23422:23474): size sem 6
+[INFO] 16:12:23:579 Kernel/(23422:23474): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:12:24:452 Kernel/(23422:23422): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:12:24:491 Kernel/(23422:23482): HANDSHAKE
+[INFO] 16:12:24:579 Kernel/(23422:23482): size sem 6
+[INFO] 16:12:24:579 Kernel/(23422:23482): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:12:24:642 Kernel/(23422:23470): size sem 6
+[INFO] 16:12:24:645 Kernel/(23422:23470): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:12:25:453 Kernel/(23422:23422): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:12:25:490 Kernel/(23422:23484): HANDSHAKE
+[INFO] 16:12:25:579 Kernel/(23422:23484): size sem 6
+[INFO] 16:12:25:579 Kernel/(23422:23484): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:12:25:626 Kernel/(23422:23472): size sem 6
+[INFO] 16:12:25:627 Kernel/(23422:23472): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:12:26:453 Kernel/(23422:23422): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:12:26:481 Kernel/(23422:23486): HANDSHAKE
+[INFO] 16:12:26:622 Kernel/(23422:23474): size sem 6
+[INFO] 16:12:26:623 Kernel/(23422:23474): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:12:27:456 Kernel/(23422:23486): size sem 6
+[INFO] 16:12:27:456 Kernel/(23422:23486): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:12:27:623 Kernel/(23422:23482): size sem 6
+[INFO] 16:12:27:624 Kernel/(23422:23482): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:12:28:623 Kernel/(23422:23484): size sem 6
+[INFO] 16:12:28:623 Kernel/(23422:23484): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:12:30:457 Kernel/(23422:23486): size sem 6
+[INFO] 16:12:30:457 Kernel/(23422:23486): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:12:43:988 Kernel/(23422:23438): ID ALTO 4
+[INFO] 16:12:43:992 Kernel/(23422:23438): Semaforo: SEM4
+[INFO] 16:12:46:996 Kernel/(23422:23474): Error haciendo sem_post 3
+[INFO] 16:12:46:997 Kernel/(23422:23474): Semaforo: SEM3
+[INFO] 16:12:47:001 Kernel/(23422:23474): Error haciendo sem_post 3
+[INFO] 16:12:47:044 Kernel/(23422:23474): Semaforo: SEM4
+[INFO] 16:12:50:001 Kernel/(23422:23472): Error haciendo sem_post 2
+[INFO] 16:12:50:002 Kernel/(23422:23472): Semaforo: SEM2
+[INFO] 16:12:50:004 Kernel/(23422:23472): Error haciendo sem_post 2
+[INFO] 16:12:50:046 Kernel/(23422:23472): Semaforo: SEM3
+[INFO] 16:12:53:004 Kernel/(23422:23470): Error haciendo sem_post 1
+[INFO] 16:12:53:004 Kernel/(23422:23470): Semaforo: SEM1
+[INFO] 16:12:53:006 Kernel/(23422:23470): Error haciendo sem_post 1
+[INFO] 16:12:53:048 Kernel/(23422:23470): Semaforo: SEM2
+[INFO] 16:12:56:006 Kernel/(23422:23486): Error haciendo sem_post 6
+[INFO] 16:12:56:007 Kernel/(23422:23486): Semaforo: SEM1
+[INFO] 16:12:56:051 Kernel/(23422:23486): size sem 6
+[INFO] 16:12:56:051 Kernel/(23422:23486): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:13:09:024 Kernel/(23422:23438): ID ALTO 6
+[INFO] 16:13:09:035 Kernel/(23422:23438): Semaforo: SEM1
+[INFO] 16:14:39:898 Kernel/(23422:23474): DISCONNECT!
+[INFO] 16:14:39:899 Kernel/(23422:23472): DISCONNECT!
+[INFO] 16:14:39:899 Kernel/(23422:23470): DISCONNECT!
+[INFO] 16:14:39:899 Kernel/(23422:23468): DISCONNECT!
+[INFO] 16:14:57:432 Kernel/(23773:23773): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:14:57:497 Kernel/(23773:23773): ------2---------
+
+[INFO] 16:14:57:500 Kernel/(23773:23773): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:14:58:974 Kernel/(23773:23773): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:14:59:016 Kernel/(23773:23807): HANDSHAKE
+[INFO] 16:14:59:331 Kernel/(23773:23773): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:14:59:366 Kernel/(23773:23812): HANDSHAKE
+[INFO] 16:14:59:459 Kernel/(23773:23812): size sem 6
+[INFO] 16:14:59:466 Kernel/(23773:23812): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:15:00:331 Kernel/(23773:23773): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:15:00:375 Kernel/(23773:23814): HANDSHAKE
+[INFO] 16:15:00:463 Kernel/(23773:23814): size sem 6
+[INFO] 16:15:00:463 Kernel/(23773:23814): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:15:01:332 Kernel/(23773:23773): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:15:01:369 Kernel/(23773:23816): HANDSHAKE
+[INFO] 16:15:01:455 Kernel/(23773:23816): size sem 6
+[INFO] 16:15:01:455 Kernel/(23773:23816): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:15:02:333 Kernel/(23773:23773): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:15:02:373 Kernel/(23773:23818): HANDSHAKE
+[INFO] 16:15:02:459 Kernel/(23773:23818): size sem 6
+[INFO] 16:15:02:459 Kernel/(23773:23818): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:15:02:511 Kernel/(23773:23812): size sem 6
+[INFO] 16:15:02:513 Kernel/(23773:23812): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:15:03:333 Kernel/(23773:23773): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:15:03:367 Kernel/(23773:23820): HANDSHAKE
+[INFO] 16:15:03:455 Kernel/(23773:23820): size sem 6
+[INFO] 16:15:03:455 Kernel/(23773:23820): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:15:03:507 Kernel/(23773:23814): size sem 6
+[INFO] 16:15:03:507 Kernel/(23773:23814): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:15:04:334 Kernel/(23773:23773): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:15:04:363 Kernel/(23773:23828): HANDSHAKE
+[INFO] 16:15:04:498 Kernel/(23773:23816): size sem 6
+[INFO] 16:15:04:499 Kernel/(23773:23816): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:15:05:335 Kernel/(23773:23828): size sem 6
+[INFO] 16:15:05:336 Kernel/(23773:23828): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:15:05:503 Kernel/(23773:23818): size sem 6
+[INFO] 16:15:05:504 Kernel/(23773:23818): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:15:06:499 Kernel/(23773:23820): size sem 6
+[INFO] 16:15:06:499 Kernel/(23773:23820): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:15:08:337 Kernel/(23773:23828): size sem 6
+[INFO] 16:15:08:337 Kernel/(23773:23828): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:15:22:882 Kernel/(23773:23783): ID ALTO 4
+[INFO] 16:15:22:887 Kernel/(23773:23783): Semaforo: SEM4
+[INFO] 16:15:25:891 Kernel/(23773:23816): Error haciendo sem_post 3
+[INFO] 16:15:25:892 Kernel/(23773:23816): Semaforo: SEM3
+[INFO] 16:15:25:896 Kernel/(23773:23816): Error haciendo sem_post 3
+[INFO] 16:15:25:938 Kernel/(23773:23816): Semaforo: SEM4
+[INFO] 16:15:28:896 Kernel/(23773:23814): Error haciendo sem_post 2
+[INFO] 16:15:28:896 Kernel/(23773:23814): Semaforo: SEM2
+[INFO] 16:15:28:898 Kernel/(23773:23814): Error haciendo sem_post 2
+[INFO] 16:15:28:939 Kernel/(23773:23814): Semaforo: SEM3
+[INFO] 16:15:31:898 Kernel/(23773:23812): Error haciendo sem_post 1
+[INFO] 16:15:31:899 Kernel/(23773:23812): Semaforo: SEM1
+[INFO] 16:15:31:900 Kernel/(23773:23812): Error haciendo sem_post 1
+[INFO] 16:15:31:943 Kernel/(23773:23812): Semaforo: SEM2
+[INFO] 16:15:34:901 Kernel/(23773:23828): Error haciendo sem_post 6
+[INFO] 16:15:34:902 Kernel/(23773:23828): Semaforo: SEM1
+[INFO] 16:15:34:947 Kernel/(23773:23828): size sem 6
+[INFO] 16:15:34:948 Kernel/(23773:23828): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:15:47:908 Kernel/(23773:23783): ID ALTO 6
+[INFO] 16:15:47:909 Kernel/(23773:23783): Semaforo: SEM1
+[INFO] 16:16:01:479 Kernel/(23773:23816): DISCONNECT!
+[INFO] 16:16:01:479 Kernel/(23773:23814): DISCONNECT!
+[INFO] 16:16:01:480 Kernel/(23773:23812): DISCONNECT!
+[INFO] 16:16:01:480 Kernel/(23773:23807): DISCONNECT!
+[INFO] 16:16:05:050 Kernel/(23972:23972): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:16:05:103 Kernel/(23972:23972): ------2---------
+
+[INFO] 16:16:05:107 Kernel/(23972:23972): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:16:08:577 Kernel/(23972:23972): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:08:622 Kernel/(23972:24007): HANDSHAKE
+[INFO] 16:16:08:935 Kernel/(23972:23972): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:08:970 Kernel/(23972:24012): HANDSHAKE
+[INFO] 16:16:09:061 Kernel/(23972:24012): size sem 6
+[INFO] 16:16:09:063 Kernel/(23972:24012): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:16:09:936 Kernel/(23972:23972): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:09:970 Kernel/(23972:24017): HANDSHAKE
+[INFO] 16:16:10:059 Kernel/(23972:24017): size sem 6
+[INFO] 16:16:10:060 Kernel/(23972:24017): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:16:10:936 Kernel/(23972:23972): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:10:971 Kernel/(23972:24019): HANDSHAKE
+[INFO] 16:16:11:059 Kernel/(23972:24019): size sem 6
+[INFO] 16:16:11:060 Kernel/(23972:24019): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:16:11:937 Kernel/(23972:23972): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:11:975 Kernel/(23972:24021): HANDSHAKE
+[INFO] 16:16:12:062 Kernel/(23972:24021): size sem 6
+[INFO] 16:16:12:063 Kernel/(23972:24021): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:16:12:107 Kernel/(23972:24012): size sem 6
+[INFO] 16:16:12:110 Kernel/(23972:24012): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:16:12:937 Kernel/(23972:23972): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:12:974 Kernel/(23972:24023): HANDSHAKE
+[INFO] 16:16:13:065 Kernel/(23972:24023): size sem 6
+[INFO] 16:16:13:065 Kernel/(23972:24023): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:16:13:102 Kernel/(23972:24017): size sem 6
+[INFO] 16:16:13:103 Kernel/(23972:24017): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:16:13:938 Kernel/(23972:23972): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:16:13:970 Kernel/(23972:24028): HANDSHAKE
+[INFO] 16:16:14:103 Kernel/(23972:24019): size sem 6
+[INFO] 16:16:14:103 Kernel/(23972:24019): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:16:14:940 Kernel/(23972:24028): size sem 6
+[INFO] 16:16:14:940 Kernel/(23972:24028): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:16:15:108 Kernel/(23972:24021): size sem 6
+[INFO] 16:16:15:109 Kernel/(23972:24021): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:16:16:107 Kernel/(23972:24023): size sem 6
+[INFO] 16:16:16:108 Kernel/(23972:24023): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:16:17:941 Kernel/(23972:24028): size sem 6
+[INFO] 16:16:17:941 Kernel/(23972:24028): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:16:30:382 Kernel/(23972:23986): ID ALTO 4
+[INFO] 16:16:30:385 Kernel/(23972:23986): Semaforo: SEM4
+[INFO] 16:16:33:390 Kernel/(23972:24019): Error haciendo sem_post 3
+[INFO] 16:16:33:391 Kernel/(23972:24019): Semaforo: SEM3
+[INFO] 16:16:33:394 Kernel/(23972:24019): Error haciendo sem_post 3
+[INFO] 16:16:33:439 Kernel/(23972:24019): Semaforo: SEM4
+[INFO] 16:16:36:394 Kernel/(23972:24017): Error haciendo sem_post 2
+[INFO] 16:16:36:395 Kernel/(23972:24017): Semaforo: SEM2
+[INFO] 16:16:36:396 Kernel/(23972:24017): Error haciendo sem_post 2
+[INFO] 16:16:36:439 Kernel/(23972:24017): Semaforo: SEM3
+[INFO] 16:16:39:397 Kernel/(23972:24012): Error haciendo sem_post 1
+[INFO] 16:16:39:398 Kernel/(23972:24012): Semaforo: SEM1
+[INFO] 16:16:39:399 Kernel/(23972:24012): Error haciendo sem_post 1
+[INFO] 16:16:39:443 Kernel/(23972:24012): Semaforo: SEM2
+[INFO] 16:16:42:400 Kernel/(23972:24028): Error haciendo sem_post 6
+[INFO] 16:16:42:401 Kernel/(23972:24028): Semaforo: SEM1
+[INFO] 16:16:42:442 Kernel/(23972:24028): size sem 6
+[INFO] 16:16:42:443 Kernel/(23972:24028): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:16:55:403 Kernel/(23972:23986): ID ALTO 6
+[INFO] 16:16:55:404 Kernel/(23972:23986): Semaforo: SEM1
+[INFO] 16:18:51:772 Kernel/(23972:24019): DISCONNECT!
+[INFO] 16:18:51:772 Kernel/(23972:24017): DISCONNECT!
+[INFO] 16:18:51:773 Kernel/(23972:24007): DISCONNECT!
+[INFO] 16:18:51:773 Kernel/(23972:24012): DISCONNECT!
+[INFO] 16:18:55:486 Kernel/(24315:24315): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:18:55:538 Kernel/(24315:24315): ------2---------
+
+[INFO] 16:18:55:541 Kernel/(24315:24315): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:18:58:539 Kernel/(24315:24315): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:18:58:581 Kernel/(24315:24346): HANDSHAKE
+[INFO] 16:18:58:907 Kernel/(24315:24315): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:18:58:951 Kernel/(24315:24351): HANDSHAKE
+[INFO] 16:18:59:051 Kernel/(24315:24351): size sem 6
+[INFO] 16:18:59:058 Kernel/(24315:24351): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:18:59:908 Kernel/(24315:24315): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:18:59:935 Kernel/(24315:24356): HANDSHAKE
+[INFO] 16:19:00:023 Kernel/(24315:24356): size sem 6
+[INFO] 16:19:00:024 Kernel/(24315:24356): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:19:00:908 Kernel/(24315:24315): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:19:00:936 Kernel/(24315:24358): HANDSHAKE
+[INFO] 16:19:01:023 Kernel/(24315:24358): size sem 6
+[INFO] 16:19:01:023 Kernel/(24315:24358): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:19:01:908 Kernel/(24315:24315): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:19:01:946 Kernel/(24315:24360): HANDSHAKE
+[INFO] 16:19:02:035 Kernel/(24315:24360): size sem 6
+[INFO] 16:19:02:036 Kernel/(24315:24360): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:19:02:102 Kernel/(24315:24351): size sem 6
+[INFO] 16:19:02:105 Kernel/(24315:24351): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:19:02:909 Kernel/(24315:24315): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:19:02:944 Kernel/(24315:24362): HANDSHAKE
+[INFO] 16:19:03:031 Kernel/(24315:24362): size sem 6
+[INFO] 16:19:03:034 Kernel/(24315:24362): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:19:03:067 Kernel/(24315:24356): size sem 6
+[INFO] 16:19:03:067 Kernel/(24315:24356): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:19:03:909 Kernel/(24315:24315): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:19:03:945 Kernel/(24315:24364): HANDSHAKE
+[INFO] 16:19:04:066 Kernel/(24315:24358): size sem 6
+[INFO] 16:19:04:067 Kernel/(24315:24358): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:19:04:914 Kernel/(24315:24364): size sem 6
+[INFO] 16:19:04:915 Kernel/(24315:24364): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:19:05:078 Kernel/(24315:24360): size sem 6
+[INFO] 16:19:05:079 Kernel/(24315:24360): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:19:06:079 Kernel/(24315:24362): size sem 6
+[INFO] 16:19:06:079 Kernel/(24315:24362): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:19:07:916 Kernel/(24315:24364): size sem 6
+[INFO] 16:19:07:917 Kernel/(24315:24364): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:19:20:826 Kernel/(24315:24325): ID ALTO 4
+[INFO] 16:19:20:829 Kernel/(24315:24325): Semaforo: SEM4
+[INFO] 16:19:23:833 Kernel/(24315:24358): Error haciendo sem_post 3
+[INFO] 16:19:23:834 Kernel/(24315:24358): Semaforo: SEM3
+[INFO] 16:19:23:838 Kernel/(24315:24358): Error haciendo sem_post 3
+[INFO] 16:19:23:883 Kernel/(24315:24358): Semaforo: SEM4
+[INFO] 16:19:26:838 Kernel/(24315:24356): Error haciendo sem_post 2
+[INFO] 16:19:26:839 Kernel/(24315:24356): Semaforo: SEM2
+[INFO] 16:19:26:841 Kernel/(24315:24356): Error haciendo sem_post 2
+[INFO] 16:19:26:883 Kernel/(24315:24356): Semaforo: SEM3
+[INFO] 16:19:29:842 Kernel/(24315:24351): Error haciendo sem_post 1
+[INFO] 16:19:29:842 Kernel/(24315:24351): Semaforo: SEM1
+[INFO] 16:19:29:844 Kernel/(24315:24351): Error haciendo sem_post 1
+[INFO] 16:19:29:887 Kernel/(24315:24351): Semaforo: SEM2
+[INFO] 16:19:32:844 Kernel/(24315:24364): Error haciendo sem_post 6
+[INFO] 16:19:32:846 Kernel/(24315:24364): Semaforo: SEM1
+[INFO] 16:19:32:891 Kernel/(24315:24364): size sem 6
+[INFO] 16:19:32:892 Kernel/(24315:24364): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:19:45:848 Kernel/(24315:24325): ID ALTO 6
+[INFO] 16:19:45:849 Kernel/(24315:24325): Semaforo: SEM1
+[INFO] 16:20:31:428 Kernel/(24315:24358): DISCONNECT!
+[INFO] 16:20:31:428 Kernel/(24315:24356): DISCONNECT!
+[INFO] 16:20:31:428 Kernel/(24315:24351): DISCONNECT!
+[INFO] 16:20:31:428 Kernel/(24315:24346): DISCONNECT!
+[INFO] 16:20:38:536 Kernel/(24550:24550): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:20:38:595 Kernel/(24550:24550): ------2---------
+
+[INFO] 16:20:38:600 Kernel/(24550:24550): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:20:43:199 Kernel/(24550:24550): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:20:43:243 Kernel/(24550:24587): HANDSHAKE
+[INFO] 16:20:43:559 Kernel/(24550:24550): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:20:43:603 Kernel/(24550:24589): HANDSHAKE
+[INFO] 16:20:43:694 Kernel/(24550:24589): size sem 6
+[INFO] 16:20:43:695 Kernel/(24550:24589): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:20:44:560 Kernel/(24550:24550): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:20:44:588 Kernel/(24550:24597): HANDSHAKE
+[INFO] 16:20:44:683 Kernel/(24550:24597): size sem 6
+[INFO] 16:20:44:683 Kernel/(24550:24597): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:20:45:560 Kernel/(24550:24550): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:20:45:588 Kernel/(24550:24599): HANDSHAKE
+[INFO] 16:20:45:675 Kernel/(24550:24599): size sem 6
+[INFO] 16:20:45:675 Kernel/(24550:24599): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:20:46:560 Kernel/(24550:24550): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:20:46:598 Kernel/(24550:24601): HANDSHAKE
+[INFO] 16:20:46:687 Kernel/(24550:24601): size sem 6
+[INFO] 16:20:46:688 Kernel/(24550:24601): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:20:46:738 Kernel/(24550:24589): size sem 6
+[INFO] 16:20:46:741 Kernel/(24550:24589): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:20:47:560 Kernel/(24550:24550): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:20:47:595 Kernel/(24550:24603): HANDSHAKE
+[INFO] 16:20:47:682 Kernel/(24550:24603): size sem 6
+[INFO] 16:20:47:683 Kernel/(24550:24603): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:20:47:726 Kernel/(24550:24597): size sem 6
+[INFO] 16:20:47:727 Kernel/(24550:24597): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:20:48:561 Kernel/(24550:24550): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:20:48:598 Kernel/(24550:24605): HANDSHAKE
+[INFO] 16:20:48:719 Kernel/(24550:24599): size sem 6
+[INFO] 16:20:48:719 Kernel/(24550:24599): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:20:49:563 Kernel/(24550:24605): size sem 6
+[INFO] 16:20:49:564 Kernel/(24550:24605): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:20:49:731 Kernel/(24550:24601): size sem 6
+[INFO] 16:20:49:732 Kernel/(24550:24601): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:20:50:726 Kernel/(24550:24603): size sem 6
+[INFO] 16:20:50:727 Kernel/(24550:24603): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:20:52:565 Kernel/(24550:24605): size sem 6
+[INFO] 16:20:52:565 Kernel/(24550:24605): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:21:03:922 Kernel/(24550:24560): ID ALTO 4
+[INFO] 16:21:03:926 Kernel/(24550:24560): Semaforo: SEM4
+[INFO] 16:21:06:930 Kernel/(24550:24599): Error haciendo sem_post 3
+[INFO] 16:21:06:931 Kernel/(24550:24599): Semaforo: SEM3
+[INFO] 16:21:06:934 Kernel/(24550:24599): Error haciendo sem_post 3
+[INFO] 16:21:06:975 Kernel/(24550:24599): Semaforo: SEM4
+[INFO] 16:21:09:935 Kernel/(24550:24597): Error haciendo sem_post 2
+[INFO] 16:21:09:936 Kernel/(24550:24597): Semaforo: SEM2
+[INFO] 16:21:09:937 Kernel/(24550:24597): Error haciendo sem_post 2
+[INFO] 16:21:09:979 Kernel/(24550:24597): Semaforo: SEM3
+[INFO] 16:21:12:938 Kernel/(24550:24589): Error haciendo sem_post 1
+[INFO] 16:21:12:939 Kernel/(24550:24589): Semaforo: SEM1
+[INFO] 16:21:12:941 Kernel/(24550:24589): Error haciendo sem_post 1
+[INFO] 16:21:12:983 Kernel/(24550:24589): Semaforo: SEM2
+[INFO] 16:21:15:941 Kernel/(24550:24605): Error haciendo sem_post 6
+[INFO] 16:21:15:942 Kernel/(24550:24605): Semaforo: SEM1
+[INFO] 16:21:15:987 Kernel/(24550:24605): size sem 6
+[INFO] 16:21:15:987 Kernel/(24550:24605): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:21:28:944 Kernel/(24550:24560): ID ALTO 6
+[INFO] 16:21:28:945 Kernel/(24550:24560): Semaforo: SEM1
+[INFO] 16:24:10:579 Kernel/(24925:24925): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:10:646 Kernel/(24925:24925): ------2---------
+
+[INFO] 16:24:10:655 Kernel/(24925:24925): ------3---------
+
+[INFO] 16:24:13:211 Kernel/(24965:24965): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:13:256 Kernel/(24965:24965): ------2---------
+
+[INFO] 16:24:13:264 Kernel/(24965:24965): ------3---------
+
+[INFO] 16:24:14:994 Kernel/(25008:25008): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:15:038 Kernel/(25008:25008): ------2---------
+
+[INFO] 16:24:15:045 Kernel/(25008:25008): ------3---------
+
+[INFO] 16:24:17:945 Kernel/(25051:25051): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:17:991 Kernel/(25051:25051): ------2---------
+
+[INFO] 16:24:17:997 Kernel/(25051:25051): ------3---------
+
+[INFO] 16:24:19:625 Kernel/(25091:25091): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:19:669 Kernel/(25091:25091): ------2---------
+
+[INFO] 16:24:19:676 Kernel/(25091:25091): ------3---------
+
+[INFO] 16:24:21:552 Kernel/(25137:25137): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:21:601 Kernel/(25137:25137): ------2---------
+
+[INFO] 16:24:21:605 Kernel/(25137:25137): ------3---------
+
+[INFO] 16:24:23:847 Kernel/(25177:25177): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:23:892 Kernel/(25177:25177): ------2---------
+
+[INFO] 16:24:23:895 Kernel/(25177:25177): ------3---------
+
+[INFO] 16:24:27:033 Kernel/(25223:25223): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:27:085 Kernel/(25223:25223): ------2---------
+
+[INFO] 16:24:27:089 Kernel/(25223:25223): ------3---------
+
+[INFO] 16:24:28:617 Kernel/(25263:25263): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:28:663 Kernel/(25263:25263): ------2---------
+
+[INFO] 16:24:28:670 Kernel/(25263:25263): ------3---------
+
+[INFO] 16:24:30:371 Kernel/(25309:25309): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:30:415 Kernel/(25309:25309): ------2---------
+
+[INFO] 16:24:30:422 Kernel/(25309:25309): ------3---------
+
+[INFO] 16:24:31:934 Kernel/(25349:25349): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:31:979 Kernel/(25349:25349): ------2---------
+
+[INFO] 16:24:31:981 Kernel/(25349:25349): ------3---------
+
+[INFO] 16:24:33:890 Kernel/(25389:25389): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:33:936 Kernel/(25389:25389): ------2---------
+
+[INFO] 16:24:33:943 Kernel/(25389:25389): ------3---------
+
+[INFO] 16:24:35:665 Kernel/(25435:25435): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:35:709 Kernel/(25435:25435): ------2---------
+
+[INFO] 16:24:35:717 Kernel/(25435:25435): ------3---------
+
+[INFO] 16:24:37:065 Kernel/(25475:25475): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:37:110 Kernel/(25475:25475): ------2---------
+
+[INFO] 16:24:37:119 Kernel/(25475:25475): ------3---------
+
+[INFO] 16:24:38:404 Kernel/(25515:25515): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:38:449 Kernel/(25515:25515): ------2---------
+
+[INFO] 16:24:38:456 Kernel/(25515:25515): ------3---------
+
+[INFO] 16:24:39:724 Kernel/(25555:25555): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:39:777 Kernel/(25555:25555): ------2---------
+
+[INFO] 16:24:39:781 Kernel/(25555:25555): ------3---------
+
+[INFO] 16:24:41:135 Kernel/(25601:25601): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:41:185 Kernel/(25601:25601): ------2---------
+
+[INFO] 16:24:41:188 Kernel/(25601:25601): ------3---------
+
+[INFO] 16:24:42:669 Kernel/(25641:25641): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:42:714 Kernel/(25641:25641): ------2---------
+
+[INFO] 16:24:42:718 Kernel/(25641:25641): ------3---------
+
+[INFO] 16:24:44:137 Kernel/(25681:25681): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:44:185 Kernel/(25681:25681): ------2---------
+
+[INFO] 16:24:44:193 Kernel/(25681:25681): ------3---------
+
+[INFO] 16:24:45:585 Kernel/(25727:25727): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:45:630 Kernel/(25727:25727): ------2---------
+
+[INFO] 16:24:45:639 Kernel/(25727:25727): ------3---------
+
+[INFO] 16:24:47:036 Kernel/(25767:25767): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:47:085 Kernel/(25767:25767): ------2---------
+
+[INFO] 16:24:47:091 Kernel/(25767:25767): ------3---------
+
+[INFO] 16:24:48:493 Kernel/(25807:25807): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:48:537 Kernel/(25807:25807): ------2---------
+
+[INFO] 16:24:48:545 Kernel/(25807:25807): ------3---------
+
+[INFO] 16:24:49:962 Kernel/(25847:25847): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:50:006 Kernel/(25847:25847): ------2---------
+
+[INFO] 16:24:50:010 Kernel/(25847:25847): ------3---------
+
+[INFO] 16:24:51:487 Kernel/(25896:25896): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:51:532 Kernel/(25896:25896): ------2---------
+
+[INFO] 16:24:51:535 Kernel/(25896:25896): ------3---------
+
+[INFO] 16:24:52:964 Kernel/(25936:25936): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:53:008 Kernel/(25936:25936): ------2---------
+
+[INFO] 16:24:53:012 Kernel/(25936:25936): ------3---------
+
+[INFO] 16:24:54:389 Kernel/(25976:25976): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:54:434 Kernel/(25976:25976): ------2---------
+
+[INFO] 16:24:54:438 Kernel/(25976:25976): ------3---------
+
+[INFO] 16:24:56:028 Kernel/(26022:26022): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:56:079 Kernel/(26022:26022): ------2---------
+
+[INFO] 16:24:56:082 Kernel/(26022:26022): ------3---------
+
+[INFO] 16:24:57:779 Kernel/(26062:26062): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:57:832 Kernel/(26062:26062): ------2---------
+
+[INFO] 16:24:57:836 Kernel/(26062:26062): ------3---------
+
+[INFO] 16:24:59:396 Kernel/(26102:26102): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:24:59:441 Kernel/(26102:26102): ------2---------
+
+[INFO] 16:24:59:447 Kernel/(26102:26102): ------3---------
+
+[INFO] 16:25:01:191 Kernel/(26148:26148): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:25:01:243 Kernel/(26148:26148): ------2---------
+
+[INFO] 16:25:01:247 Kernel/(26148:26148): ------3---------
+
+[INFO] 16:25:02:694 Kernel/(26188:26188): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:25:02:741 Kernel/(26188:26188): ------2---------
+
+[INFO] 16:25:02:749 Kernel/(26188:26188): ------3---------
+
+[INFO] 16:25:04:253 Kernel/(26228:26228): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:25:04:303 Kernel/(26228:26228): ------2---------
+
+[INFO] 16:25:04:307 Kernel/(26228:26228): ------3---------
+
+[INFO] 16:25:05:722 Kernel/(26274:26274): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:25:05:771 Kernel/(26274:26274): ------2---------
+
+[INFO] 16:25:05:775 Kernel/(26274:26274): ------3---------
+
+[INFO] 16:25:07:182 Kernel/(26314:26314): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:25:07:228 Kernel/(26314:26314): ------2---------
+
+[INFO] 16:25:07:234 Kernel/(26314:26314): ------3---------
+
+[INFO] 16:25:08:690 Kernel/(26354:26354): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:25:08:739 Kernel/(26354:26354): ------2---------
+
+[INFO] 16:25:08:743 Kernel/(26354:26354): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:25:12:231 Kernel/(26354:26354): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:12:270 Kernel/(26354:26391): HANDSHAKE
+[INFO] 16:25:12:583 Kernel/(26354:26354): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:12:632 Kernel/(26354:26393): HANDSHAKE
+[INFO] 16:25:12:732 Kernel/(26354:26393): size sem 6
+[INFO] 16:25:12:735 Kernel/(26354:26393): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:25:13:583 Kernel/(26354:26354): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:13:619 Kernel/(26354:26395): HANDSHAKE
+[INFO] 16:25:13:707 Kernel/(26354:26395): size sem 6
+[INFO] 16:25:13:707 Kernel/(26354:26395): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:25:14:584 Kernel/(26354:26354): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:14:611 Kernel/(26354:26400): HANDSHAKE
+[INFO] 16:25:14:699 Kernel/(26354:26400): size sem 6
+[INFO] 16:25:14:699 Kernel/(26354:26400): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:25:15:584 Kernel/(26354:26354): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:15:612 Kernel/(26354:26405): HANDSHAKE
+[INFO] 16:25:15:699 Kernel/(26354:26405): size sem 6
+[INFO] 16:25:15:699 Kernel/(26354:26405): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:25:15:784 Kernel/(26354:26393): size sem 6
+[INFO] 16:25:15:790 Kernel/(26354:26393): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:25:16:585 Kernel/(26354:26354): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:16:619 Kernel/(26354:26407): HANDSHAKE
+[INFO] 16:25:16:707 Kernel/(26354:26407): size sem 6
+[INFO] 16:25:16:707 Kernel/(26354:26407): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:25:16:750 Kernel/(26354:26395): size sem 6
+[INFO] 16:25:16:751 Kernel/(26354:26395): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:25:17:585 Kernel/(26354:26354): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:17:619 Kernel/(26354:26409): HANDSHAKE
+[INFO] 16:25:17:742 Kernel/(26354:26400): size sem 6
+[INFO] 16:25:17:743 Kernel/(26354:26400): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:25:18:587 Kernel/(26354:26409): size sem 6
+[INFO] 16:25:18:587 Kernel/(26354:26409): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:25:18:742 Kernel/(26354:26405): size sem 6
+[INFO] 16:25:18:743 Kernel/(26354:26405): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:25:19:750 Kernel/(26354:26407): size sem 6
+[INFO] 16:25:19:751 Kernel/(26354:26407): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:25:21:588 Kernel/(26354:26409): size sem 6
+[INFO] 16:25:21:588 Kernel/(26354:26409): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:25:34:016 Kernel/(26354:26364): ID ALTO 4
+[INFO] 16:25:34:020 Kernel/(26354:26364): Semaforo: SEM4
+[INFO] 16:25:37:024 Kernel/(26354:26400): Error haciendo sem_post 3
+[INFO] 16:25:37:025 Kernel/(26354:26400): Semaforo: SEM3
+[INFO] 16:25:37:029 Kernel/(26354:26400): Error haciendo sem_post 3
+[INFO] 16:25:37:070 Kernel/(26354:26400): Semaforo: SEM4
+[INFO] 16:25:40:028 Kernel/(26354:26395): Error haciendo sem_post 2
+[INFO] 16:25:40:029 Kernel/(26354:26395): Semaforo: SEM2
+[INFO] 16:25:40:031 Kernel/(26354:26395): Error haciendo sem_post 2
+[INFO] 16:25:40:075 Kernel/(26354:26395): Semaforo: SEM3
+[INFO] 16:25:43:031 Kernel/(26354:26393): Error haciendo sem_post 1
+[INFO] 16:25:43:032 Kernel/(26354:26393): Semaforo: SEM1
+[INFO] 16:25:43:033 Kernel/(26354:26393): Error haciendo sem_post 1
+[INFO] 16:25:43:075 Kernel/(26354:26393): Semaforo: SEM2
+[INFO] 16:25:46:034 Kernel/(26354:26409): Error haciendo sem_post 6
+[INFO] 16:25:46:034 Kernel/(26354:26409): Semaforo: SEM1
+[INFO] 16:25:46:079 Kernel/(26354:26409): size sem 6
+[INFO] 16:25:46:079 Kernel/(26354:26409): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:25:59:040 Kernel/(26354:26364): ID ALTO 6
+[INFO] 16:25:59:041 Kernel/(26354:26364): Semaforo: SEM1
+[INFO] 16:27:17:058 Kernel/(26354:26400): DISCONNECT!
+[INFO] 16:27:17:058 Kernel/(26354:26391): DISCONNECT!
+[INFO] 16:27:17:059 Kernel/(26354:26393): DISCONNECT!
+[INFO] 16:27:17:059 Kernel/(26354:26395): DISCONNECT!
+[INFO] 16:27:20:499 Kernel/(26624:26624): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:27:20:554 Kernel/(26624:26624): ------2---------
+
+[INFO] 16:27:20:557 Kernel/(26624:26624): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:27:21:329 Kernel/(26624:26624): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:21:368 Kernel/(26624:26658): HANDSHAKE
+[INFO] 16:27:21:679 Kernel/(26624:26624): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:21:715 Kernel/(26624:26660): HANDSHAKE
+[INFO] 16:27:21:810 Kernel/(26624:26660): size sem 6
+[INFO] 16:27:21:812 Kernel/(26624:26660): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:27:22:679 Kernel/(26624:26624): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:22:715 Kernel/(26624:26662): HANDSHAKE
+[INFO] 16:27:22:814 Kernel/(26624:26662): size sem 6
+[INFO] 16:27:22:815 Kernel/(26624:26662): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:27:23:680 Kernel/(26624:26624): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:23:708 Kernel/(26624:26664): HANDSHAKE
+[INFO] 16:27:23:794 Kernel/(26624:26664): size sem 6
+[INFO] 16:27:23:795 Kernel/(26624:26664): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:27:24:681 Kernel/(26624:26624): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:24:717 Kernel/(26624:26670): HANDSHAKE
+[INFO] 16:27:24:803 Kernel/(26624:26670): size sem 6
+[INFO] 16:27:24:803 Kernel/(26624:26670): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:27:24:854 Kernel/(26624:26660): size sem 6
+[INFO] 16:27:24:857 Kernel/(26624:26660): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:27:25:681 Kernel/(26624:26624): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:25:713 Kernel/(26624:26674): HANDSHAKE
+[INFO] 16:27:25:799 Kernel/(26624:26674): size sem 6
+[INFO] 16:27:25:799 Kernel/(26624:26674): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:27:25:859 Kernel/(26624:26662): size sem 6
+[INFO] 16:27:25:860 Kernel/(26624:26662): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:27:26:681 Kernel/(26624:26624): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:26:715 Kernel/(26624:26676): HANDSHAKE
+[INFO] 16:27:26:838 Kernel/(26624:26664): size sem 6
+[INFO] 16:27:26:839 Kernel/(26624:26664): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:27:27:683 Kernel/(26624:26676): size sem 6
+[INFO] 16:27:27:683 Kernel/(26624:26676): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:27:27:846 Kernel/(26624:26670): size sem 6
+[INFO] 16:27:27:847 Kernel/(26624:26670): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:27:28:854 Kernel/(26624:26674): size sem 6
+[INFO] 16:27:28:855 Kernel/(26624:26674): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:27:30:685 Kernel/(26624:26676): size sem 6
+[INFO] 16:27:30:686 Kernel/(26624:26676): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:27:45:832 Kernel/(26624:26637): ID ALTO 4
+[INFO] 16:27:45:835 Kernel/(26624:26637): Semaforo: SEM4
+[INFO] 16:27:48:839 Kernel/(26624:26664): Error haciendo sem_post 3
+[INFO] 16:27:48:840 Kernel/(26624:26664): Semaforo: SEM3
+[INFO] 16:27:48:845 Kernel/(26624:26664): Error haciendo sem_post 3
+[INFO] 16:27:48:887 Kernel/(26624:26664): Semaforo: SEM4
+[INFO] 16:27:51:845 Kernel/(26624:26662): Error haciendo sem_post 2
+[INFO] 16:27:51:846 Kernel/(26624:26662): Semaforo: SEM2
+[INFO] 16:27:51:848 Kernel/(26624:26662): Error haciendo sem_post 2
+[INFO] 16:27:51:891 Kernel/(26624:26662): Semaforo: SEM3
+[INFO] 16:27:54:848 Kernel/(26624:26660): Error haciendo sem_post 1
+[INFO] 16:27:54:849 Kernel/(26624:26660): Semaforo: SEM1
+[INFO] 16:27:54:852 Kernel/(26624:26660): Error haciendo sem_post 1
+[INFO] 16:27:54:895 Kernel/(26624:26660): Semaforo: SEM2
+[INFO] 16:27:57:852 Kernel/(26624:26676): Error haciendo sem_post 6
+[INFO] 16:27:57:853 Kernel/(26624:26676): Semaforo: SEM1
+[INFO] 16:27:57:895 Kernel/(26624:26676): size sem 6
+[INFO] 16:27:57:895 Kernel/(26624:26676): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:28:10:857 Kernel/(26624:26637): ID ALTO 6
+[INFO] 16:28:10:859 Kernel/(26624:26637): Semaforo: SEM1
+[INFO] 16:45:11:406 Kernel/(26624:26664): DISCONNECT!
+[INFO] 16:45:11:406 Kernel/(26624:26662): DISCONNECT!
+[INFO] 16:45:11:407 Kernel/(26624:26658): DISCONNECT!
+[INFO] 16:45:11:407 Kernel/(26624:26660): DISCONNECT!
+[INFO] 16:46:35:200 Kernel/(28355:28355): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:46:35:244 Kernel/(28355:28355): ------2---------
+
+[INFO] 16:46:35:252 Kernel/(28355:28355): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:46:36:965 Kernel/(28355:28355): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:46:37:005 Kernel/(28355:28392): HANDSHAKE
+[INFO] 16:46:37:320 Kernel/(28355:28355): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:46:37:352 Kernel/(28355:28394): HANDSHAKE
+[INFO] 16:46:37:442 Kernel/(28355:28394): size sem 6
+[INFO] 16:46:37:443 Kernel/(28355:28394): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:46:38:320 Kernel/(28355:28355): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:46:38:354 Kernel/(28355:28396): HANDSHAKE
+[INFO] 16:46:38:443 Kernel/(28355:28396): size sem 6
+[INFO] 16:46:38:443 Kernel/(28355:28396): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:46:39:320 Kernel/(28355:28355): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:46:39:354 Kernel/(28355:28398): HANDSHAKE
+[INFO] 16:46:39:443 Kernel/(28355:28398): size sem 6
+[INFO] 16:46:39:443 Kernel/(28355:28398): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:46:40:321 Kernel/(28355:28355): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:46:40:355 Kernel/(28355:28403): HANDSHAKE
+[INFO] 16:46:40:443 Kernel/(28355:28403): size sem 6
+[INFO] 16:46:40:443 Kernel/(28355:28403): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:46:40:490 Kernel/(28355:28394): size sem 6
+[INFO] 16:46:40:493 Kernel/(28355:28394): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:46:41:321 Kernel/(28355:28355): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:46:41:351 Kernel/(28355:28408): HANDSHAKE
+[INFO] 16:46:41:435 Kernel/(28355:28408): size sem 6
+[INFO] 16:46:41:435 Kernel/(28355:28408): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:46:41:486 Kernel/(28355:28396): size sem 6
+[INFO] 16:46:41:487 Kernel/(28355:28396): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:46:42:322 Kernel/(28355:28355): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:46:42:358 Kernel/(28355:28410): HANDSHAKE
+[INFO] 16:46:42:486 Kernel/(28355:28398): size sem 6
+[INFO] 16:46:42:487 Kernel/(28355:28398): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:46:43:324 Kernel/(28355:28410): size sem 6
+[INFO] 16:46:43:324 Kernel/(28355:28410): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:46:43:487 Kernel/(28355:28403): size sem 6
+[INFO] 16:46:43:488 Kernel/(28355:28403): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:46:44:478 Kernel/(28355:28408): size sem 6
+[INFO] 16:46:44:479 Kernel/(28355:28408): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:46:46:325 Kernel/(28355:28410): size sem 6
+[INFO] 16:46:46:325 Kernel/(28355:28410): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:47:00:587 Kernel/(28355:28371): ID ALTO 4
+[INFO] 16:47:00:592 Kernel/(28355:28371): Semaforo: SEM4
+[INFO] 16:47:03:597 Kernel/(28355:28398): Error haciendo sem_post 3
+[INFO] 16:47:03:598 Kernel/(28355:28398): Semaforo: SEM3
+[INFO] 16:47:03:601 Kernel/(28355:28398): Error haciendo sem_post 3
+[INFO] 16:47:03:643 Kernel/(28355:28398): Semaforo: SEM4
+[INFO] 16:47:06:601 Kernel/(28355:28396): Error haciendo sem_post 2
+[INFO] 16:47:06:602 Kernel/(28355:28396): Semaforo: SEM2
+[INFO] 16:47:06:603 Kernel/(28355:28396): Error haciendo sem_post 2
+[INFO] 16:47:06:643 Kernel/(28355:28396): Semaforo: SEM3
+[INFO] 16:47:09:604 Kernel/(28355:28394): Error haciendo sem_post 1
+[INFO] 16:47:09:604 Kernel/(28355:28394): Semaforo: SEM1
+[INFO] 16:47:09:605 Kernel/(28355:28394): Error haciendo sem_post 1
+[INFO] 16:47:09:647 Kernel/(28355:28394): Semaforo: SEM2
+[INFO] 16:47:12:606 Kernel/(28355:28410): Error haciendo sem_post 6
+[INFO] 16:47:12:606 Kernel/(28355:28410): Semaforo: SEM1
+[INFO] 16:47:12:651 Kernel/(28355:28410): size sem 6
+[INFO] 16:47:12:651 Kernel/(28355:28410): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:47:25:610 Kernel/(28355:28371): ID ALTO 6
+[INFO] 16:47:25:611 Kernel/(28355:28371): Semaforo: SEM1
+[INFO] 16:49:02:259 Kernel/(28648:28648): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:49:02:308 Kernel/(28648:28648): ------2---------
+
+[INFO] 16:49:02:312 Kernel/(28648:28648): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:49:03:139 Kernel/(28648:28648): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:49:03:203 Kernel/(28648:28679): HANDSHAKE
+[INFO] 16:49:03:510 Kernel/(28648:28648): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:49:03:547 Kernel/(28648:28681): HANDSHAKE
+[INFO] 16:49:03:640 Kernel/(28648:28681): size sem 6
+[INFO] 16:49:03:641 Kernel/(28648:28681): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:49:04:511 Kernel/(28648:28648): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:49:04:547 Kernel/(28648:28683): HANDSHAKE
+[INFO] 16:49:04:635 Kernel/(28648:28683): size sem 6
+[INFO] 16:49:04:635 Kernel/(28648:28683): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:49:05:512 Kernel/(28648:28648): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:49:05:541 Kernel/(28648:28688): HANDSHAKE
+[INFO] 16:49:05:635 Kernel/(28648:28688): size sem 6
+[INFO] 16:49:05:635 Kernel/(28648:28688): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:49:06:512 Kernel/(28648:28648): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:49:06:555 Kernel/(28648:28694): HANDSHAKE
+[INFO] 16:49:06:643 Kernel/(28648:28694): size sem 6
+[INFO] 16:49:06:643 Kernel/(28648:28694): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:49:06:687 Kernel/(28648:28681): size sem 6
+[INFO] 16:49:06:689 Kernel/(28648:28681): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:49:07:513 Kernel/(28648:28648): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:49:07:551 Kernel/(28648:28696): HANDSHAKE
+[INFO] 16:49:07:639 Kernel/(28648:28696): size sem 6
+[INFO] 16:49:07:639 Kernel/(28648:28696): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:49:07:678 Kernel/(28648:28683): size sem 6
+[INFO] 16:49:07:679 Kernel/(28648:28683): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:49:08:513 Kernel/(28648:28648): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:49:08:548 Kernel/(28648:28698): HANDSHAKE
+[INFO] 16:49:08:679 Kernel/(28648:28688): size sem 6
+[INFO] 16:49:08:680 Kernel/(28648:28688): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:49:09:515 Kernel/(28648:28698): size sem 6
+[INFO] 16:49:09:515 Kernel/(28648:28698): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:49:09:687 Kernel/(28648:28694): size sem 6
+[INFO] 16:49:09:688 Kernel/(28648:28694): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:49:10:682 Kernel/(28648:28696): size sem 6
+[INFO] 16:49:10:683 Kernel/(28648:28696): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:49:12:516 Kernel/(28648:28698): size sem 6
+[INFO] 16:49:12:516 Kernel/(28648:28698): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:49:27:585 Kernel/(28648:28658): ID ALTO 4
+[INFO] 16:49:27:589 Kernel/(28648:28658): Cant bloqueados: 1
+[INFO] 16:49:27:591 Kernel/(28648:28658): Semaforo: SEM4
+[INFO] 16:49:30:595 Kernel/(28648:28688): Error haciendo sem_post 3
+[INFO] 16:49:30:596 Kernel/(28648:28688): Semaforo: SEM3
+[INFO] 16:49:30:599 Kernel/(28648:28688): Error haciendo sem_post 3
+[INFO] 16:49:30:642 Kernel/(28648:28688): Semaforo: SEM4
+[INFO] 16:49:33:600 Kernel/(28648:28683): Error haciendo sem_post 2
+[INFO] 16:49:33:600 Kernel/(28648:28683): Semaforo: SEM2
+[INFO] 16:49:33:602 Kernel/(28648:28683): Error haciendo sem_post 2
+[INFO] 16:49:33:643 Kernel/(28648:28683): Semaforo: SEM3
+[INFO] 16:49:36:602 Kernel/(28648:28681): Error haciendo sem_post 1
+[INFO] 16:49:36:602 Kernel/(28648:28681): Semaforo: SEM1
+[INFO] 16:49:36:604 Kernel/(28648:28681): Error haciendo sem_post 1
+[INFO] 16:49:36:647 Kernel/(28648:28681): Semaforo: SEM2
+[INFO] 16:49:39:604 Kernel/(28648:28698): Error haciendo sem_post 6
+[INFO] 16:49:39:604 Kernel/(28648:28698): Semaforo: SEM1
+[INFO] 16:49:39:646 Kernel/(28648:28698): size sem 6
+[INFO] 16:49:39:647 Kernel/(28648:28698): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:49:52:610 Kernel/(28648:28658): ID ALTO 6
+[INFO] 16:49:52:611 Kernel/(28648:28658): Cant bloqueados: 1
+[INFO] 16:49:52:611 Kernel/(28648:28658): Semaforo: SEM1
+[INFO] 16:50:02:753 Kernel/(28648:28688): DISCONNECT!
+[INFO] 16:50:02:753 Kernel/(28648:28683): DISCONNECT!
+[INFO] 16:50:02:753 Kernel/(28648:28681): DISCONNECT!
+[INFO] 16:50:02:753 Kernel/(28648:28679): DISCONNECT!
+[INFO] 16:54:33:339 Kernel/(29187:29187): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:54:33:395 Kernel/(29187:29187): ------2---------
+
+[INFO] 16:54:33:398 Kernel/(29187:29187): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:54:34:274 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:34:312 Kernel/(29187:29218): HANDSHAKE
+[INFO] 16:54:34:627 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:34:678 Kernel/(29187:29220): HANDSHAKE
+[INFO] 16:54:34:773 Kernel/(29187:29220): size sem 6
+[INFO] 16:54:34:775 Kernel/(29187:29220): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:54:35:627 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:35:691 Kernel/(29187:29225): HANDSHAKE
+[INFO] 16:54:35:779 Kernel/(29187:29225): size sem 6
+[INFO] 16:54:35:780 Kernel/(29187:29225): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:54:36:628 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:36:666 Kernel/(29187:29230): HANDSHAKE
+[INFO] 16:54:36:755 Kernel/(29187:29230): size sem 6
+[INFO] 16:54:36:755 Kernel/(29187:29230): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:54:37:629 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:37:673 Kernel/(29187:29232): HANDSHAKE
+[INFO] 16:54:37:759 Kernel/(29187:29232): size sem 6
+[INFO] 16:54:37:759 Kernel/(29187:29232): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:54:37:818 Kernel/(29187:29220): size sem 6
+[INFO] 16:54:37:821 Kernel/(29187:29220): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:54:38:629 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:38:667 Kernel/(29187:29234): HANDSHAKE
+[INFO] 16:54:38:755 Kernel/(29187:29234): size sem 6
+[INFO] 16:54:38:755 Kernel/(29187:29234): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:54:38:823 Kernel/(29187:29225): size sem 6
+[INFO] 16:54:38:823 Kernel/(29187:29225): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:54:39:630 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:39:665 Kernel/(29187:29236): HANDSHAKE
+[INFO] 16:54:39:798 Kernel/(29187:29230): size sem 6
+[INFO] 16:54:39:799 Kernel/(29187:29230): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:54:40:631 Kernel/(29187:29236): size sem 6
+[INFO] 16:54:40:632 Kernel/(29187:29236): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:54:40:802 Kernel/(29187:29232): size sem 6
+[INFO] 16:54:40:803 Kernel/(29187:29232): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:54:41:799 Kernel/(29187:29234): size sem 6
+[INFO] 16:54:41:800 Kernel/(29187:29234): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:54:43:633 Kernel/(29187:29236): size sem 6
+[INFO] 16:54:43:634 Kernel/(29187:29236): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:54:58:719 Kernel/(29187:29197): ID ALTO 4
+[INFO] 16:54:58:723 Kernel/(29187:29197): Cant bloqueados: 1
+[INFO] 16:54:58:725 Kernel/(29187:29197): Semaforo: SEM4
+[INFO] 16:55:01:730 Kernel/(29187:29230): Error haciendo sem_post 3
+[INFO] 16:55:01:732 Kernel/(29187:29230): Semaforo: SEM3
+[INFO] 16:55:01:736 Kernel/(29187:29230): Error haciendo sem_post 3
+[INFO] 16:55:01:779 Kernel/(29187:29230): Semaforo: SEM4
+[INFO] 16:55:04:735 Kernel/(29187:29225): Error haciendo sem_post 2
+[INFO] 16:55:04:736 Kernel/(29187:29225): Semaforo: SEM2
+[INFO] 16:55:04:738 Kernel/(29187:29225): Error haciendo sem_post 2
+[INFO] 16:55:04:779 Kernel/(29187:29225): Semaforo: SEM3
+[INFO] 16:55:07:738 Kernel/(29187:29220): Error haciendo sem_post 1
+[INFO] 16:55:07:739 Kernel/(29187:29220): Semaforo: SEM1
+[INFO] 16:55:07:740 Kernel/(29187:29220): Error haciendo sem_post 1
+[INFO] 16:55:07:783 Kernel/(29187:29220): Semaforo: SEM2
+[INFO] 16:55:10:740 Kernel/(29187:29236): Error haciendo sem_post 6
+[INFO] 16:55:10:741 Kernel/(29187:29236): Semaforo: SEM1
+[INFO] 16:55:10:783 Kernel/(29187:29236): size sem 6
+[INFO] 16:55:10:784 Kernel/(29187:29236): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:55:23:741 Kernel/(29187:29197): ID ALTO 6
+[INFO] 16:55:23:742 Kernel/(29187:29197): Cant bloqueados: 1
+[INFO] 16:55:23:742 Kernel/(29187:29197): Semaforo: SEM6
+[INFO] 16:55:26:744 Kernel/(29187:29234): Error haciendo sem_post 5
+[INFO] 16:55:26:745 Kernel/(29187:29234): Semaforo: SEM5
+[INFO] 16:55:26:745 Kernel/(29187:29234): Error haciendo sem_post 5
+[INFO] 16:55:26:786 Kernel/(29187:29234): Semaforo: SEM6
+[INFO] 16:55:26:787 Kernel/(29187:29187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:55:26:862 Kernel/(29187:29300): HANDSHAKE
+[INFO] 16:55:27:172 Kernel/(29187:29234): DISCONNECT!
+[INFO] 16:55:27:172 Kernel/(29187:29230): DISCONNECT!
+[INFO] 16:55:27:172 Kernel/(29187:29225): DISCONNECT!
+[INFO] 16:55:27:172 Kernel/(29187:29220): DISCONNECT!
+[INFO] 16:55:27:173 Kernel/(29187:29218): DISCONNECT!
+[INFO] 16:55:27:179 Kernel/(29187:29300): DISCONNECT!
+[INFO] 16:57:12:004 Kernel/(29504:29504): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 16:57:12:074 Kernel/(29504:29504): ------2---------
+
+[INFO] 16:57:12:078 Kernel/(29504:29504): Escuchando en 0.0.0.0:4444 (KERNEL_SERVER)
+
+[INFO] 16:57:16:232 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:57:16:276 Kernel/(29504:29541): HANDSHAKE
+[INFO] 16:57:16:591 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:57:16:633 Kernel/(29504:29543): HANDSHAKE
+[INFO] 16:57:16:722 Kernel/(29504:29543): size sem 6
+[INFO] 16:57:16:723 Kernel/(29504:29543): id_carpincho :1  ---- (*sem_wait)->value: 0
+[INFO] 16:57:17:591 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:57:17:626 Kernel/(29504:29545): HANDSHAKE
+[INFO] 16:57:17:716 Kernel/(29504:29545): size sem 6
+[INFO] 16:57:17:716 Kernel/(29504:29545): id_carpincho :2  ---- (*sem_wait)->value: 0
+[INFO] 16:57:18:592 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:57:18:637 Kernel/(29504:29547): HANDSHAKE
+[INFO] 16:57:18:727 Kernel/(29504:29547): size sem 6
+[INFO] 16:57:18:728 Kernel/(29504:29547): id_carpincho :3  ---- (*sem_wait)->value: 0
+[INFO] 16:57:19:592 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:57:19:657 Kernel/(29504:29549): HANDSHAKE
+[INFO] 16:57:19:746 Kernel/(29504:29549): size sem 6
+[INFO] 16:57:19:747 Kernel/(29504:29549): id_carpincho :4  ---- (*sem_wait)->value: 0
+[INFO] 16:57:19:766 Kernel/(29504:29543): size sem 6
+[INFO] 16:57:19:770 Kernel/(29504:29543): id_carpincho :1  ---- (*sem_wait)->value: -1
+[INFO] 16:57:20:592 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:57:20:634 Kernel/(29504:29554): HANDSHAKE
+[INFO] 16:57:20:722 Kernel/(29504:29554): size sem 6
+[INFO] 16:57:20:723 Kernel/(29504:29554): id_carpincho :5  ---- (*sem_wait)->value: 0
+[INFO] 16:57:20:758 Kernel/(29504:29545): size sem 6
+[INFO] 16:57:20:759 Kernel/(29504:29545): id_carpincho :2  ---- (*sem_wait)->value: -1
+[INFO] 16:57:21:592 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:57:21:631 Kernel/(29504:29559): HANDSHAKE
+[INFO] 16:57:21:774 Kernel/(29504:29547): size sem 6
+[INFO] 16:57:21:775 Kernel/(29504:29547): id_carpincho :3  ---- (*sem_wait)->value: -1
+[INFO] 16:57:22:594 Kernel/(29504:29559): size sem 6
+[INFO] 16:57:22:594 Kernel/(29504:29559): id_carpincho :6  ---- (*sem_wait)->value: 0
+[INFO] 16:57:22:790 Kernel/(29504:29549): size sem 6
+[INFO] 16:57:22:791 Kernel/(29504:29549): id_carpincho :4  ---- (*sem_wait)->value: -1
+[INFO] 16:57:23:766 Kernel/(29504:29554): size sem 6
+[INFO] 16:57:23:767 Kernel/(29504:29554): id_carpincho :5  ---- (*sem_wait)->value: -1
+[INFO] 16:57:25:595 Kernel/(29504:29559): size sem 6
+[INFO] 16:57:25:596 Kernel/(29504:29559): id_carpincho :6  ---- (*sem_wait)->value: -2
+[INFO] 16:57:37:357 Kernel/(29504:29514): ID ALTO 4
+[INFO] 16:57:37:361 Kernel/(29504:29514): Cant bloqueados: 1
+[INFO] 16:57:37:362 Kernel/(29504:29514): Semaforo: SEM4
+[INFO] 16:57:40:367 Kernel/(29504:29547): Error haciendo sem_post 3
+[INFO] 16:57:40:368 Kernel/(29504:29547): Semaforo: SEM3
+[INFO] 16:57:40:372 Kernel/(29504:29547): Error haciendo sem_post 3
+[INFO] 16:57:40:415 Kernel/(29504:29547): Semaforo: SEM4
+[INFO] 16:57:43:371 Kernel/(29504:29545): Error haciendo sem_post 2
+[INFO] 16:57:43:372 Kernel/(29504:29545): Semaforo: SEM2
+[INFO] 16:57:43:373 Kernel/(29504:29545): Error haciendo sem_post 2
+[INFO] 16:57:43:415 Kernel/(29504:29545): Semaforo: SEM3
+[INFO] 16:57:46:374 Kernel/(29504:29543): Error haciendo sem_post 1
+[INFO] 16:57:46:374 Kernel/(29504:29543): Semaforo: SEM1
+[INFO] 16:57:46:376 Kernel/(29504:29543): Error haciendo sem_post 1
+[INFO] 16:57:46:419 Kernel/(29504:29543): Semaforo: SEM2
+[INFO] 16:57:49:376 Kernel/(29504:29559): Error haciendo sem_post 6
+[INFO] 16:57:49:377 Kernel/(29504:29559): Semaforo: SEM1
+[INFO] 16:57:49:419 Kernel/(29504:29559): size sem 6
+[INFO] 16:57:49:420 Kernel/(29504:29559): id_carpincho :6  ---- (*sem_wait)->value: -1
+[INFO] 16:58:02:378 Kernel/(29504:29514): ID ALTO 6
+[INFO] 16:58:02:379 Kernel/(29504:29514): Cant bloqueados: 1
+[INFO] 16:58:02:380 Kernel/(29504:29514): Semaforo: SEM6
+[INFO] 16:58:05:382 Kernel/(29504:29554): Error haciendo sem_post 5
+[INFO] 16:58:05:382 Kernel/(29504:29554): Semaforo: SEM5
+[INFO] 16:58:05:383 Kernel/(29504:29554): Error haciendo sem_post 5
+[INFO] 16:58:05:427 Kernel/(29504:29554): Semaforo: SEM6
+[INFO] 16:58:05:428 Kernel/(29504:29504): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:58:05:465 Kernel/(29504:29610): HANDSHAKE
+[INFO] 16:58:05:771 Kernel/(29504:29554): DISCONNECT!
+[INFO] 16:58:05:772 Kernel/(29504:29547): DISCONNECT!
+[INFO] 16:58:05:772 Kernel/(29504:29545): DISCONNECT!
+[INFO] 16:58:05:772 Kernel/(29504:29543): DISCONNECT!
+[INFO] 16:58:05:772 Kernel/(29504:29541): DISCONNECT!
+[INFO] 16:58:05:779 Kernel/(29504:29610): DISCONNECT!

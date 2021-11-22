@@ -131,6 +131,8 @@ void killear_id_mas_alto(t_list* lista_bloqueados, t_list* lista_posibles_bloque
    
     t_deadlock* id_mayor = (t_deadlock*)aca;
 
+    log_info(logger, "ID ALTO %d", id_mayor->id_carpincho);
+
     // Saco lista de bloqueados
     bool es_deadlock(void* d) {
         return id_mayor->id_carpincho == ((t_deadlock*)d)->id_carpincho;
@@ -141,11 +143,22 @@ void killear_id_mas_alto(t_list* lista_bloqueados, t_list* lista_posibles_bloque
     bool es_sem_asig(void * sem) {
         return !strcmp(id_mayor->sem_asignado, ((t_semaforo*)sem)->name);
     }
-    t_semaforo* sem_asig = list_find(LISTA_SEMAFOROS, es_sem_asig);
-    t_carpincho* carpincho_deadlock = sem_asig->carpincho_asignado;
-    sem_asig->carpincho_asignado = NULL;
+    t_list* semaforos_asig = list_filter(LISTA_SEMAFOROS, es_sem_asig);
 
-    sem_post_carpincho(sem_asig->name);
+    log_info(logger, "Cant bloqueados: %d", list_size(semaforos_asig));
+
+    t_carpincho* carpincho_deadlock;
+
+    void post_carpincho(void* sem) {
+        t_semaforo* sem_asig = sem;
+        carpincho_deadlock = sem_asig->carpincho_asignado;
+        sem_asig->carpincho_asignado = NULL;
+
+        sem_post_carpincho(sem_asig->name);
+    }
+
+    list_iterate(semaforos_asig, post_carpincho);
+    
 
     // Saco al carpincho de la lista de bloqueados del semaforo
     bool es_sem_blocked(void * sem) {

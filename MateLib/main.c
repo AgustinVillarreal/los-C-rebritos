@@ -4,98 +4,208 @@
 #include <pthread.h>
 #include <matelib.h>
 
-// void* io_thread(void* mate_ref) {
-//     mate_sem_wait(mate_ref, "SEM1");
-//     printf("And this one second...\n");
+void* carpincho1_func(void* config){
+
+    mate_instance instance;
+
+    mate_init(&instance, config);
+
+    printf("C1 - Toma SEM1\n");
+    mate_sem_wait(&instance, "SEM1");
+    sleep(3);
+    printf("C1 - Toma SEM2\n");
+    mate_sem_wait(&instance, "SEM2");
+    sleep(3);
+
+    printf("C1 - libera SEM1\n");
+    mate_sem_post(&instance, "SEM1");
+    printf("C1 - libera SEM2\n");
+    mate_sem_post(&instance, "SEM2");
+
+    printf("C2 - Se retira a descansar\n");
+    mate_close(&instance);
+    return 0;
+}
+
+void* carpincho2_func(void* config){
+
+    mate_instance instance;
+
+    mate_init(&instance, config);
+
+    printf("C2 - toma SEM2\n");
+    mate_sem_wait(&instance, "SEM2");
+    sleep(3);
+    printf("C2 - toma SEM3\n");
+    mate_sem_wait(&instance, "SEM3");
+    sleep(3);
+
+    printf("C2 - libera SEM2\n");
+    mate_sem_post(&instance, "SEM2");
+    printf("C2 - libera SEM3\n");
+    mate_sem_post(&instance, "SEM3");
+
+	printf("C2 - Se retira a descansar\n");
+	mate_close(&instance);
+	return 0;
+}
+
+void* carpincho3_func(void* config){
+
+    mate_instance instance;
+
+    mate_init(&instance, config);
+
+    printf("C3 - toma SEM3\n");
+    mate_sem_wait(&instance, "SEM3");
+    sleep(3);
+    printf("C3 - toma SEM4\n");
+    mate_sem_wait(&instance, "SEM4");
+    sleep(3);
+
+    printf("C3 - libera SEM3\n");
+    mate_sem_post(&instance, "SEM3");
+    printf("C3 - libera SEM4\n");
+    mate_sem_post(&instance, "SEM4");
+
+	printf("C3 - Se retira a descansar\n");
+	mate_close(&instance);
+	return 0;
+}
+
+void* carpincho4_func(void* config){
+
+    mate_instance instance;
+
+    mate_init(&instance, config);
+
+    printf("C4 - toma SEM4\n");
+    mate_sem_wait(&instance, "SEM4");
+    sleep(3);
+    printf("C4 - toma SEM1\n");
+    mate_sem_wait(&instance, "SEM1");
+    sleep(3);
+
+    printf("C4 - libera SEM1\n");
+    mate_sem_post(&instance, "SEM1");
+    printf("C4 - libera SEM4\n");
+    mate_sem_post(&instance, "SEM4");
+
+	printf("C4 - Se retira a descansar\n");
+	mate_close(&instance);
+	return 0;
+}
+
+void* carpincho5_func(void* config){
+
+    mate_instance instance;
+
+    mate_init(&instance, config);
+
+    printf("C5 - toma SEM5\n");
+    mate_sem_wait(&instance, "SEM5");
+    sleep(3);
+    printf("C5 - toma SEM6\n");
+    mate_sem_wait(&instance, "SEM6");
+    sleep(3);
+
+    printf("C5 - toma SEM5\n");
+    mate_sem_post(&instance, "SEM5");
+    printf("C5 - toma SEM6\n");
+    mate_sem_post(&instance, "SEM6");
+
+	printf("C5 - Se retira a descansar\n");
+	mate_close(&instance);
+	return 0;
+}
+
+void* carpincho6_func(void* config){
+
+    mate_instance instance;
+
+    mate_init(&instance, config);
+
+    printf("C6 - toma SEM6\n");
+    mate_sem_wait(&instance, "SEM6");
+    sleep(3);
+    printf("C6 - toma SEM1\n");
+    mate_sem_wait(&instance, "SEM1");
+    sleep(3);
+    printf("C6 - Libera SEM1\n");
+    mate_sem_post(&instance, "SEM1");
+
+    printf("C6 - toma SEM5\n");
+    mate_sem_wait(&instance, "SEM5");
+    sleep(3);
+
+    mate_sem_post(&instance, "SEM5");
+    mate_sem_post(&instance, "SEM6");
+
+	printf("C6 - Se retira a descansar\n");
+	mate_close(&instance);
+	return 0;
+}
+
+int main(int argc, char *argv[]) {
+
+    mate_instance instance;
+
+    mate_init(&instance, argv[1]);
+
+  // Creamos los semaforos que van a usar los carpinchos
+    mate_sem_init(&instance, "SEM1", 1);
+    mate_sem_init(&instance, "SEM2", 1);
+    mate_sem_init(&instance, "SEM3", 1);
+    mate_sem_init(&instance, "SEM4", 1);
+    mate_sem_init(&instance, "SEM5", 1);
+    mate_sem_init(&instance, "SEM6", 1);
+
+  // Deadlock entre estos 4
+	pthread_t carpincho1;
+	pthread_t carpincho2;
+	pthread_t carpincho3;
+	pthread_t carpincho4;
+
+  // Deadlock entre estos 2 con uno pendiente del anterior
+	pthread_t carpincho5;
+	pthread_t carpincho6;
 
 
-//     // Memory tooling usage
-//     mate_pointer ptr = mate_memalloc(mate_ref, sizeof(char) * 8);
-//     mate_memwrite(mate_ref, "PRINTER", ptr, sizeof(char) * 8);
-//     char *io_type = malloc(sizeof(char) * 8);
-//     mate_memread(mate_ref, ptr, io_type, sizeof(char) * 8);
+	printf("MAIN - Utilizando el archivo de config: %s\n", argv[1]);
 
-//     // IO Usage
-//     mate_call_io(mate_ref, io_type, "I'm content to print...");
+	pthread_create(&carpincho1, NULL, carpincho1_func, argv[1]);
+    sleep(1);
+	pthread_create(&carpincho2, NULL, carpincho2_func, argv[1]);
+    sleep(1);
+	pthread_create(&carpincho3, NULL, carpincho3_func, argv[1]);
+    sleep(1);
+	pthread_create(&carpincho4, NULL, carpincho4_func, argv[1]);
+    sleep(1);
+	pthread_create(&carpincho5, NULL, carpincho5_func, argv[1]);
+    sleep(1);
+	pthread_create(&carpincho6, NULL, carpincho6_func, argv[1]);
+    sleep(1);
 
-//     // Freeing Memory
-//     // Closing Lib
-//     free(io_type);
-//     mate_memfree(mate_ref, ptr);
+    mate_close(&instance);
 
-
-//     return 0;
-// }
-
-
-int main(int argc, char *argv[])
-{
-  // Lib instantiation
-  //TODO: Esto lo podria hacer el mate_init
-  mate_instance mate_ref;
-  mate_init(&mate_ref, "./config.config");
-  // mate_sem_init(&mate_ref, "1", 1); 
-  // mate_sem_init(&mate_ref, "2", 1); 
-  // mate_sem_init(&mate_ref, "3", 1);   
-  // // mate_sem_destroy(&mate_ref, "holachau"); 
-  // mate_sem_wait(&mate_ref, "1"); 
-  // sleep(30);
-  // mate_sem_wait(&mate_ref, "2"); 
-
-  // mate_sem_wait(&mate_ref, "2");  
-  // sleep(30);
-  // mate_sem_wait(&mate_ref, "3");
-  // mate_sem_post(&mate_ref, "2");
-
-  // mate_sem_wait(&mate_ref, "3");  
-  // sleep(30);
-  // mate_sem_wait(&mate_ref, "1");
-
-  // mate_sem_wait(&mate_ref, "4");  
-  // sleep(40);
-  // mate_sem_wait(&mate_ref, "1");
-  // mate_sem_post(&mate_ref, "1");
-  // mate_sem_post(&mate_ref, "4");
+	pthread_join(carpincho6, NULL);
+	pthread_join(carpincho5, NULL);
+	pthread_join(carpincho4, NULL);
+	pthread_join(carpincho3, NULL);
+	pthread_join(carpincho2, NULL);
+	pthread_join(carpincho1, NULL);
   
-  
-  // mate_sem_post(&mate_ref, "holachau");
+	printf("MAIN - Como no sabemos a quienes va a matar el algoritmo, entonces hacemos el free de los semáforos acá");
+	mate_init(&instance, argv[1]);
+    mate_sem_destroy(&instance, "SEM1");
+    mate_sem_destroy(&instance, "SEM2");
+    mate_sem_destroy(&instance, "SEM3");
+    mate_sem_destroy(&instance, "SEM4");
+    mate_sem_destroy(&instance, "SEM5");
+    mate_sem_destroy(&instance, "SEM6");
+	mate_close(&instance);
 
-  //IO
-  // char* prueba = strdup("hola");
-  // mate_call_io(&mate_ref, "hierbitas", prueba);
-  // free(prueba);
-  printf("1 %d\n",mate_memalloc(&mate_ref, 80)); 
-  printf("2 %d\n",mate_memalloc(&mate_ref, 14));
-  printf("3 %d\n",mate_memalloc(&mate_ref, 8));
-  printf("4 %d\n",mate_memalloc(&mate_ref, 13));
-  printf("5 %d\n",mate_memalloc(&mate_ref, 1));
-  printf("6 %d\n",mate_memalloc(&mate_ref, 24));
-  printf("7 %d\n",mate_memalloc(&mate_ref, 8));
-  printf("8 %d\n",mate_memalloc(&mate_ref, 4));
-  printf("9 %d\n",mate_memalloc(&mate_ref, 81));
-  
+	printf("MAIN - Retirados los carpinchos de la pelea, hora de analizar los hechos\n");
 
-  
-
-  
-  /*
-  mate_memfree(&mate_ref, 1);
-  void * prueba;
-  mate_memread(&mate_ref, 1, prueba, 1);
-  mate_memwrite(&mate_ref, prueba, 1, 1);  */
-  // // Let's work with semaphores
-  // mate_sem_init(&mate_ref, "SEM1", 0);
-  // pthread_t thread_id;
-  // pthread_create(&thread_id, NULL, &io_thread, &mate_ref);
-  
-  // usleep(1000);
-  // printf("This message should go first...\n");
-  // mate_sem_post(&mate_ref, "SEM1");
-  
-  // pthread_join(thread_id, NULL);
-
-  
-
-  mate_close(&mate_ref);
-  return 0;
+	return EXIT_SUCCESS;
 }
