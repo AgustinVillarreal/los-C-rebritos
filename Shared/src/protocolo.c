@@ -12,8 +12,17 @@ bool send_memfree(int fd_server){
   return send_codigo_op(fd_server, MEM_FREE);
 }
 
-bool send_memread(int fd_server){
-  return send_codigo_op(fd_server, MEM_READ);
+bool send_memread(int fd_server, uint32_t direccion_logica, int size){
+  if(!send_codigo_op(fd_server, MEM_READ)){
+    return false;
+  }
+  if(send(fd_server, &direccion_logica, sizeof(uint32_t), 0) == -1){
+    return false;
+  }
+  if(send(fd_server, &size, sizeof(int), 0) == -1){
+    return false;
+  }
+  return true;
 }
 
 bool send_memwrite(int fd_server){
@@ -158,6 +167,16 @@ bool recv_memfree_data(int fd, long* id_carpincho, uint32_t* direccion_logica){
   return true;
 }
 
+
+bool recv_memread_data(int fd, uint32_t* direccion_logica, uint32_t* size){
+  if(recv(fd, direccion_logica, sizeof(uint32_t),0) != sizeof(uint32_t)){
+    return false;
+  }
+  if(recv(fd, size, sizeof(uint32_t),0) != sizeof(uint32_t)){
+    return false;
+  }
+  return true;
+}
 
 //SEND PARA AVISAR QUE LLEGO TODO FLAMA
 bool send_ack(int fd, bool ack) {

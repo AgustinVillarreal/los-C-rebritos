@@ -120,12 +120,33 @@ static void procesar_conexion(void* void_args){
                 
                 log_info(logger,"LIBERADO PADRE");
                 break;
-            case MEM_READ: 
-                if(!leer_espacio_mp(dir_logic_ini)){
-                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LEER LA MEMORIA");
+            case MEM_READ: ; 
+                uint32_t size;
+                void* buff;
+                log_info(logger,"OCURRIO UN ACCIDENTE");
+                if(!recv_memread_data(cliente_socket, &direccion_logica, &size)){
+                    log_error(logger, "Error al recibir data para leer");
                     break;
                 }
-                log_info(logger,"ANDA A SABER QUE ESTAS QUERIENDO LEER");
+                log_info(logger,"OCURRIO UN ACCIDENTE 2");
+                uint8_t ret_code = read_carpincho(id_carpincho, buff, size, direccion_logica);
+
+                if (send(cliente_socket, &ret_code, sizeof(uint8_t), 0) == -1){
+                   log_error(logger, "Error al enviar ret_code a cliente desde memread");
+                   break;
+                }
+                log_info(logger,"UPS AI DIDITAGAIN");
+                
+                if(ret_code){
+                    if(send(cliente_socket, buff, size, 0) == -1){
+                        log_error(logger, "Error al enviar buff a cliente desde memread");
+                        break;
+                    }
+                }
+                log_info(logger,"UPS AI DIDITAGAIN");
+                
+                
+                
                 break;
             case MEM_WRITE:
                 if(!escribir_espacio_mp(dir_logic_ini)){

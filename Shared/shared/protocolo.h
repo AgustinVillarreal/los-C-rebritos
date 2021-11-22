@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -72,7 +72,7 @@ bool send_probar_en_swamp(uint32_t size, unsigned long id);
 bool send_handshake(int fd_server);
 bool send_memalloc(int fd_server);
 bool send_memwrite(int fd_server);
-bool send_memread(int fd_server);
+bool send_memread(int fd_server, uint32_t direccion_logica, int size);
 bool send_memfree(int fd_server);
 
 bool send_ack(int fd, bool ack);

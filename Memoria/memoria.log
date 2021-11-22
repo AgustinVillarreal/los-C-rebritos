@@ -1542,3 +1542,508 @@
 
 [INFO] 18:35:51:976 memoria/(2956:3029): El frame es el 10 
 
+[INFO] 19:12:36:146 memoria/(6955:6955): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:12:36:310 memoria/(6955:6955): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:12:36:320 memoria/(6955:6955): ------2---------
+
+[INFO] 19:12:36:322 memoria/(6955:6955): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:13:35:427 memoria/(7150:7150): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:13:35:558 memoria/(7150:7150): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:13:35:576 memoria/(7150:7150): ------2---------
+
+[INFO] 19:13:35:578 memoria/(7150:7150): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:26:26:244 memoria/(7576:7576): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:26:26:329 memoria/(7576:7576): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:26:26:341 memoria/(7576:7576): ------2---------
+
+[INFO] 19:26:26:344 memoria/(7576:7576): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:29:56:670 memoria/(7717:7717): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:29:56:747 memoria/(7717:7717): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:29:56:751 memoria/(7717:7717): ------2---------
+
+[INFO] 19:29:56:756 memoria/(7717:7717): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:30:01:897 memoria/(7717:7717): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:30:02:009 memoria/(7717:7757): HANDSHAKE
+[INFO] 19:30:02:077 memoria/(7717:7757): Alocando size: 80 del carpincho: 0
+[INFO] 19:30:02:083 memoria/(7717:7757): El frame es el 0 
+
+[INFO] 19:30:02:090 memoria/(7717:7757): El frame es el 1 
+
+[INFO] 19:30:02:094 memoria/(7717:7757): El frame es el 2 
+
+[INFO] 19:30:02:096 memoria/(7717:7757): Allocando primer mitad del hmd en 2
+
+[INFO] 19:30:02:098 memoria/(7717:7757): El frame es el 3 
+
+[INFO] 19:30:02:100 memoria/(7717:7757): Allocando segunda mitad del hmd en 3
+
+[ERROR] 19:30:58:389 memoria/(7717:7757): Error al recibir data para leer
+[INFO] 19:30:58:391 memoria/(7717:7757): DISCONNECT!
+[INFO] 19:31:02:761 memoria/(7838:7838): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:31:02:902 memoria/(7838:7838): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:31:02:906 memoria/(7838:7838): ------2---------
+
+[INFO] 19:31:02:908 memoria/(7838:7838): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:31:04:867 memoria/(7838:7838): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:31:04:980 memoria/(7838:7859): HANDSHAKE
+[INFO] 19:31:05:045 memoria/(7838:7859): Alocando size: 80 del carpincho: 0
+[INFO] 19:31:05:049 memoria/(7838:7859): El frame es el 0 
+
+[INFO] 19:31:05:056 memoria/(7838:7859): El frame es el 1 
+
+[INFO] 19:31:05:058 memoria/(7838:7859): El frame es el 2 
+
+[INFO] 19:31:05:060 memoria/(7838:7859): Allocando primer mitad del hmd en 2
+
+[INFO] 19:31:05:060 memoria/(7838:7859): El frame es el 3 
+
+[INFO] 19:31:05:061 memoria/(7838:7859): Allocando segunda mitad del hmd en 3
+
+[ERROR] 19:32:11:780 memoria/(7838:7859): Error al recibir data para leer
+[INFO] 19:32:11:783 memoria/(7838:7859): DISCONNECT!
+[INFO] 19:32:15:572 memoria/(7942:7942): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:32:15:648 memoria/(7942:7942): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:32:15:653 memoria/(7942:7942): ------2---------
+
+[INFO] 19:32:15:655 memoria/(7942:7942): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:32:17:396 memoria/(7942:7942): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:32:17:542 memoria/(7942:7963): HANDSHAKE
+[INFO] 19:32:17:618 memoria/(7942:7963): Alocando size: 80 del carpincho: 0
+[INFO] 19:32:17:624 memoria/(7942:7963): El frame es el 0 
+
+[INFO] 19:32:17:635 memoria/(7942:7963): El frame es el 1 
+
+[INFO] 19:32:17:639 memoria/(7942:7963): El frame es el 2 
+
+[INFO] 19:32:17:642 memoria/(7942:7963): Allocando primer mitad del hmd en 2
+
+[INFO] 19:32:17:647 memoria/(7942:7963): El frame es el 3 
+
+[INFO] 19:32:17:656 memoria/(7942:7963): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:33:18:512 memoria/(8042:8042): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:33:18:611 memoria/(8042:8042): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:33:18:615 memoria/(8042:8042): ------2---------
+
+[INFO] 19:33:18:619 memoria/(8042:8042): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:33:21:074 memoria/(8042:8042): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:33:21:196 memoria/(8042:8063): HANDSHAKE
+[INFO] 19:33:21:253 memoria/(8042:8063): Alocando size: 80 del carpincho: 0
+[INFO] 19:33:21:256 memoria/(8042:8063): El frame es el 0 
+
+[INFO] 19:33:21:268 memoria/(8042:8063): El frame es el 1 
+
+[INFO] 19:33:21:275 memoria/(8042:8063): El frame es el 2 
+
+[INFO] 19:33:21:277 memoria/(8042:8063): Allocando primer mitad del hmd en 2
+
+[INFO] 19:33:21:278 memoria/(8042:8063): El frame es el 3 
+
+[INFO] 19:33:21:280 memoria/(8042:8063): Allocando segunda mitad del hmd en 3
+
+[ERROR] 19:38:16:484 memoria/(8042:8063): Error al recibir data para leer
+[INFO] 19:38:16:485 memoria/(8042:8063): DISCONNECT!
+[INFO] 19:39:07:561 memoria/(8369:8369): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:39:07:645 memoria/(8369:8369): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:39:07:659 memoria/(8369:8369): ------2---------
+
+[INFO] 19:39:07:676 memoria/(8369:8369): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:39:09:988 memoria/(8369:8369): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:39:10:100 memoria/(8369:8390): HANDSHAKE
+[INFO] 19:39:10:165 memoria/(8369:8390): Alocando size: 80 del carpincho: 0
+[INFO] 19:39:10:168 memoria/(8369:8390): El frame es el 0 
+
+[INFO] 19:39:10:175 memoria/(8369:8390): El frame es el 1 
+
+[INFO] 19:39:10:177 memoria/(8369:8390): El frame es el 2 
+
+[INFO] 19:39:10:178 memoria/(8369:8390): Allocando primer mitad del hmd en 2
+
+[INFO] 19:39:10:180 memoria/(8369:8390): El frame es el 3 
+
+[INFO] 19:39:10:181 memoria/(8369:8390): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:39:10:225 memoria/(8369:8390): ---------0 en pagina 0---------
+[INFO] 19:40:52:957 memoria/(8501:8501): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:40:53:086 memoria/(8501:8501): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:40:53:093 memoria/(8501:8501): ------2---------
+
+[INFO] 19:40:53:096 memoria/(8501:8501): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:40:54:760 memoria/(8501:8501): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:40:54:868 memoria/(8501:8522): HANDSHAKE
+[INFO] 19:40:54:933 memoria/(8501:8522): Alocando size: 80 del carpincho: 0
+[INFO] 19:40:54:937 memoria/(8501:8522): El frame es el 0 
+
+[INFO] 19:40:54:943 memoria/(8501:8522): El frame es el 1 
+
+[INFO] 19:40:54:945 memoria/(8501:8522): El frame es el 2 
+
+[INFO] 19:40:54:946 memoria/(8501:8522): Allocando primer mitad del hmd en 2
+
+[INFO] 19:40:54:948 memoria/(8501:8522): El frame es el 3 
+
+[INFO] 19:40:54:949 memoria/(8501:8522): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:40:54:958 memoria/(8501:8522): OCURRIO UN ACCIDENTE
+[INFO] 19:40:54:992 memoria/(8501:8522): OCURRIO UN ACCIDENTE 2
+[INFO] 19:40:54:994 memoria/(8501:8522): ---------0 en pagina 0---------
+[INFO] 19:44:39:452 memoria/(8671:8671): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:44:39:576 memoria/(8671:8671): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:44:39:589 memoria/(8671:8671): ------2---------
+
+[INFO] 19:44:39:598 memoria/(8671:8671): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:44:41:370 memoria/(8671:8671): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:44:41:503 memoria/(8671:8692): HANDSHAKE
+[INFO] 19:44:41:568 memoria/(8671:8692): Alocando size: 80 del carpincho: 0
+[INFO] 19:44:41:572 memoria/(8671:8692): El frame es el 0 
+
+[INFO] 19:44:41:580 memoria/(8671:8692): El frame es el 1 
+
+[INFO] 19:44:41:585 memoria/(8671:8692): El frame es el 2 
+
+[INFO] 19:44:41:587 memoria/(8671:8692): Allocando primer mitad del hmd en 2
+
+[INFO] 19:44:41:589 memoria/(8671:8692): El frame es el 3 
+
+[INFO] 19:44:41:591 memoria/(8671:8692): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:44:41:603 memoria/(8671:8692): OCURRIO UN ACCIDENTE
+[INFO] 19:44:41:631 memoria/(8671:8692): OCURRIO UN ACCIDENTE 2
+[INFO] 19:44:41:636 memoria/(8671:8692): Como queod la alarma?
+[INFO] 19:44:41:639 memoria/(8671:8692): cant_paginas_a_leer: 3
+[INFO] 19:44:41:639 memoria/(8671:8692): Caca culo pedo pis: 3
+[INFO] 19:44:41:644 memoria/(8671:8692): ---------0 en pagina 0---------
+[INFO] 19:46:27:335 memoria/(8774:8774): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:46:27:418 memoria/(8774:8774): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:46:27:429 memoria/(8774:8774): ------2---------
+
+[INFO] 19:46:27:432 memoria/(8774:8774): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:46:30:618 memoria/(8774:8774): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:46:30:778 memoria/(8774:8795): HANDSHAKE
+[INFO] 19:46:30:906 memoria/(8774:8795): Alocando size: 80 del carpincho: 0
+[INFO] 19:46:30:915 memoria/(8774:8795): El frame es el 0 
+
+[INFO] 19:46:30:929 memoria/(8774:8795): El frame es el 1 
+
+[INFO] 19:46:30:932 memoria/(8774:8795): El frame es el 2 
+
+[INFO] 19:46:30:935 memoria/(8774:8795): Allocando primer mitad del hmd en 2
+
+[INFO] 19:46:30:941 memoria/(8774:8795): El frame es el 3 
+
+[INFO] 19:46:30:943 memoria/(8774:8795): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:46:30:949 memoria/(8774:8795): OCURRIO UN ACCIDENTE
+[INFO] 19:46:30:951 memoria/(8774:8795): OCURRIO UN ACCIDENTE 2
+[INFO] 19:46:30:953 memoria/(8774:8795): Como queod la alarma?
+[INFO] 19:46:30:955 memoria/(8774:8795): cant_paginas_a_leer: 3
+[INFO] 19:46:30:956 memoria/(8774:8795): Caca culo pedo pis: 3
+[INFO] 19:46:30:961 memoria/(8774:8795): ---------0 en pagina 0---------
+[INFO] 19:48:19:381 memoria/(8878:8878): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:48:19:464 memoria/(8878:8878): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:48:19:468 memoria/(8878:8878): ------2---------
+
+[INFO] 19:48:19:470 memoria/(8878:8878): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:48:21:075 memoria/(8878:8878): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:48:21:188 memoria/(8878:8902): HANDSHAKE
+[INFO] 19:48:21:253 memoria/(8878:8902): Alocando size: 80 del carpincho: 0
+[INFO] 19:48:21:256 memoria/(8878:8902): El frame es el 0 
+
+[INFO] 19:48:21:263 memoria/(8878:8902): El frame es el 1 
+
+[INFO] 19:48:21:265 memoria/(8878:8902): El frame es el 2 
+
+[INFO] 19:48:21:266 memoria/(8878:8902): Allocando primer mitad del hmd en 2
+
+[INFO] 19:48:21:267 memoria/(8878:8902): El frame es el 3 
+
+[INFO] 19:48:21:268 memoria/(8878:8902): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:48:21:272 memoria/(8878:8902): OCURRIO UN ACCIDENTE
+[INFO] 19:48:21:301 memoria/(8878:8902): OCURRIO UN ACCIDENTE 2
+[INFO] 19:48:21:304 memoria/(8878:8902): Como queod la alarma?
+[INFO] 19:48:21:308 memoria/(8878:8902): cant_paginas_a_leer: 3
+[INFO] 19:48:21:310 memoria/(8878:8902): Caca culo pedo pis: 3
+[INFO] 19:48:21:312 memoria/(8878:8902): ---------0 en pagina 0---------
+[INFO] 19:56:24:195 memoria/(9204:9204): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:56:24:365 memoria/(9204:9204): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:56:24:381 memoria/(9204:9204): ------2---------
+
+[INFO] 19:56:24:387 memoria/(9204:9204): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:56:27:270 memoria/(9204:9204): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:56:27:386 memoria/(9204:9225): HANDSHAKE
+[INFO] 19:56:27:450 memoria/(9204:9225): Alocando size: 80 del carpincho: 0
+[INFO] 19:56:27:454 memoria/(9204:9225): El frame es el 0 
+
+[INFO] 19:56:27:465 memoria/(9204:9225): El frame es el 1 
+
+[INFO] 19:56:27:467 memoria/(9204:9225): El frame es el 2 
+
+[INFO] 19:56:27:469 memoria/(9204:9225): Allocando primer mitad del hmd en 2
+
+[INFO] 19:56:27:470 memoria/(9204:9225): El frame es el 3 
+
+[INFO] 19:56:27:472 memoria/(9204:9225): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:56:27:480 memoria/(9204:9225): OCURRIO UN ACCIDENTE
+[INFO] 19:56:27:505 memoria/(9204:9225): OCURRIO UN ACCIDENTE 2
+[INFO] 19:56:27:506 memoria/(9204:9225): Como queod la alarma?
+[INFO] 19:56:27:510 memoria/(9204:9225): cant_paginas_a_leer: 3
+[INFO] 19:56:27:511 memoria/(9204:9225): Caca culo pedo pis: 3
+[INFO] 19:56:27:516 memoria/(9204:9225): ---------0 en pagina 0---------
+[INFO] 19:56:27:519 memoria/(9204:9225): Pase, lo que quieras jeje
+[INFO] 19:57:53:189 memoria/(9301:9301): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:57:53:268 memoria/(9301:9301): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:57:53:272 memoria/(9301:9301): ------2---------
+
+[INFO] 19:57:53:276 memoria/(9301:9301): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:57:55:115 memoria/(9301:9301): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:57:55:227 memoria/(9301:9322): HANDSHAKE
+[INFO] 19:57:55:286 memoria/(9301:9322): Alocando size: 80 del carpincho: 0
+[INFO] 19:57:55:289 memoria/(9301:9322): El frame es el 0 
+
+[INFO] 19:57:55:299 memoria/(9301:9322): El frame es el 1 
+
+[INFO] 19:57:55:302 memoria/(9301:9322): El frame es el 2 
+
+[INFO] 19:57:55:303 memoria/(9301:9322): Allocando primer mitad del hmd en 2
+
+[INFO] 19:57:55:307 memoria/(9301:9322): El frame es el 3 
+
+[INFO] 19:57:55:308 memoria/(9301:9322): Allocando segunda mitad del hmd en 3
+
+[INFO] 19:57:55:313 memoria/(9301:9322): OCURRIO UN ACCIDENTE
+[INFO] 19:57:55:344 memoria/(9301:9322): OCURRIO UN ACCIDENTE 2
+[INFO] 19:57:55:346 memoria/(9301:9322): Como queod la alarma?
+[INFO] 19:57:55:348 memoria/(9301:9322): cant_paginas_a_leer: 3
+[INFO] 19:57:55:349 memoria/(9301:9322): Caca culo pedo pis: 3
+[INFO] 19:57:55:351 memoria/(9301:9322): ---------0 en pagina 0---------
+[INFO] 19:57:55:358 memoria/(9301:9322): Pase, lo que quieras jeje
+[INFO] 19:57:55:359 memoria/(9301:9322): offset_data: 9
+[INFO] 19:57:55:360 memoria/(9301:9322): size_acum: 0
+[INFO] 19:57:55:361 memoria/(9301:9322): size_a_leer: 80
+[INFO] 20:00:53:568 memoria/(9438:9438): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:00:53:643 memoria/(9438:9438): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:00:53:647 memoria/(9438:9438): ------2---------
+
+[INFO] 20:00:53:649 memoria/(9438:9438): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:00:55:571 memoria/(9438:9438): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:00:55:810 memoria/(9438:9460): HANDSHAKE
+[INFO] 20:00:55:907 memoria/(9438:9460): Alocando size: 80 del carpincho: 0
+[INFO] 20:00:55:910 memoria/(9438:9460): El frame es el 0 
+
+[INFO] 20:00:55:917 memoria/(9438:9460): El frame es el 1 
+
+[INFO] 20:00:55:920 memoria/(9438:9460): El frame es el 2 
+
+[INFO] 20:00:55:922 memoria/(9438:9460): Allocando primer mitad del hmd en 2
+
+[INFO] 20:00:55:924 memoria/(9438:9460): El frame es el 3 
+
+[INFO] 20:00:55:927 memoria/(9438:9460): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:00:55:933 memoria/(9438:9460): OCURRIO UN ACCIDENTE
+[INFO] 20:00:55:969 memoria/(9438:9460): OCURRIO UN ACCIDENTE 2
+[INFO] 20:00:55:973 memoria/(9438:9460): Como queod la alarma?
+[INFO] 20:00:55:977 memoria/(9438:9460): cant_paginas_a_leer: 3
+[INFO] 20:00:55:979 memoria/(9438:9460): Caca culo pedo pis: 3
+[INFO] 20:00:55:984 memoria/(9438:9460): ---------0 en pagina 0---------
+[INFO] 20:00:55:988 memoria/(9438:9460): Pase, lo que quieras jeje
+[INFO] 20:00:55:990 memoria/(9438:9460): offset_data: 9
+[INFO] 20:00:55:993 memoria/(9438:9460): size_acum: 0
+[INFO] 20:00:55:997 memoria/(9438:9460): size_a_leer: 134531960
+[INFO] 20:04:54:629 memoria/(9594:9594): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:04:54:703 memoria/(9594:9594): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:04:54:710 memoria/(9594:9594): ------2---------
+
+[INFO] 20:04:54:715 memoria/(9594:9594): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:04:56:650 memoria/(9594:9594): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:04:56:764 memoria/(9594:9615): HANDSHAKE
+[INFO] 20:04:56:827 memoria/(9594:9615): Alocando size: 80 del carpincho: 0
+[INFO] 20:04:56:838 memoria/(9594:9615): El frame es el 0 
+
+[INFO] 20:04:56:868 memoria/(9594:9615): El frame es el 1 
+
+[INFO] 20:04:56:872 memoria/(9594:9615): El frame es el 2 
+
+[INFO] 20:04:56:876 memoria/(9594:9615): Allocando primer mitad del hmd en 2
+
+[INFO] 20:04:56:882 memoria/(9594:9615): El frame es el 3 
+
+[INFO] 20:04:56:883 memoria/(9594:9615): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:04:56:888 memoria/(9594:9615): OCURRIO UN ACCIDENTE
+[INFO] 20:04:56:889 memoria/(9594:9615): OCURRIO UN ACCIDENTE 2
+[INFO] 20:04:56:890 memoria/(9594:9615): Como queod la alarma?
+[INFO] 20:04:56:897 memoria/(9594:9615): cant_paginas_a_leer: 3
+[INFO] 20:04:56:899 memoria/(9594:9615): Caca culo pedo pis: 3
+[INFO] 20:04:56:901 memoria/(9594:9615): ---------0 en pagina 0---------
+[INFO] 20:04:56:903 memoria/(9594:9615): Pase, lo que quieras jeje
+[INFO] 20:04:56:906 memoria/(9594:9615): offset_data: 9
+[INFO] 20:04:56:907 memoria/(9594:9615): size_acum: 0
+[INFO] 20:04:56:908 memoria/(9594:9615): size_a_leer: 23
+[INFO] 20:13:24:753 memoria/(9769:9769): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:13:24:893 memoria/(9769:9769): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:13:24:912 memoria/(9769:9769): ------2---------
+
+[INFO] 20:13:24:930 memoria/(9769:9769): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:13:28:108 memoria/(9769:9769): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:13:28:217 memoria/(9769:9790): HANDSHAKE
+[INFO] 20:13:28:289 memoria/(9769:9790): Alocando size: 80 del carpincho: 0
+[INFO] 20:13:28:297 memoria/(9769:9790): El frame es el 0 
+
+[INFO] 20:13:28:305 memoria/(9769:9790): El frame es el 1 
+
+[INFO] 20:13:28:307 memoria/(9769:9790): El frame es el 2 
+
+[INFO] 20:13:28:309 memoria/(9769:9790): Allocando primer mitad del hmd en 2
+
+[INFO] 20:13:28:310 memoria/(9769:9790): El frame es el 3 
+
+[INFO] 20:13:28:312 memoria/(9769:9790): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:13:28:319 memoria/(9769:9790): OCURRIO UN ACCIDENTE
+[INFO] 20:13:28:359 memoria/(9769:9790): OCURRIO UN ACCIDENTE 2
+[INFO] 20:13:28:361 memoria/(9769:9790): Como queod la alarma?
+[INFO] 20:13:28:369 memoria/(9769:9790): cant_paginas_a_leer: 3
+[INFO] 20:13:28:374 memoria/(9769:9790): Caca culo pedo pis: 3
+[INFO] 20:13:28:376 memoria/(9769:9790): ---------0 en pagina 0---------
+[INFO] 20:13:28:380 memoria/(9769:9790): Pase, lo que quieras jeje
+[INFO] 20:13:28:382 memoria/(9769:9790): offset_data: 9
+[INFO] 20:13:28:383 memoria/(9769:9790): size_acum: 0
+[INFO] 20:13:28:384 memoria/(9769:9790): size_a_leer: 23
+[INFO] 20:13:28:385 memoria/(9769:9790): nro_pagina: 0
+[INFO] 20:15:48:494 memoria/(9890:9890): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:15:48:658 memoria/(9890:9890): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:15:48:672 memoria/(9890:9890): ------2---------
+
+[INFO] 20:15:48:676 memoria/(9890:9890): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:15:53:376 memoria/(9890:9890): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:15:53:480 memoria/(9890:10023): HANDSHAKE
+[INFO] 20:15:53:543 memoria/(9890:10023): Alocando size: 80 del carpincho: 0
+[INFO] 20:15:53:546 memoria/(9890:10023): El frame es el 0 
+
+[INFO] 20:15:53:554 memoria/(9890:10023): El frame es el 1 
+
+[INFO] 20:15:53:559 memoria/(9890:10023): El frame es el 2 
+
+[INFO] 20:15:53:562 memoria/(9890:10023): Allocando primer mitad del hmd en 2
+
+[INFO] 20:15:53:563 memoria/(9890:10023): El frame es el 3 
+
+[INFO] 20:15:53:565 memoria/(9890:10023): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:15:53:570 memoria/(9890:10023): OCURRIO UN ACCIDENTE
+[INFO] 20:15:53:601 memoria/(9890:10023): OCURRIO UN ACCIDENTE 2
+[INFO] 20:15:53:604 memoria/(9890:10023): Como queod la alarma?
+[INFO] 20:15:53:606 memoria/(9890:10023): cant_paginas_a_leer: 3
+[INFO] 20:15:53:607 memoria/(9890:10023): Caca culo pedo pis: 3
+[INFO] 20:15:53:609 memoria/(9890:10023): ---------0 en pagina 0---------
+[INFO] 20:15:53:612 memoria/(9890:10023): Pase, lo que quieras jeje
+[INFO] 20:15:53:613 memoria/(9890:10023): offset_data: 9
+[INFO] 20:15:53:616 memoria/(9890:10023): size_acum: 0
+[INFO] 20:15:53:618 memoria/(9890:10023): size_a_leer: 23
+[INFO] 20:15:53:619 memoria/(9890:10023): nro_pagina: 0
+[INFO] 20:18:13:204 memoria/(10150:10150): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:18:13:342 memoria/(10150:10150): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:18:13:346 memoria/(10150:10150): ------2---------
+
+[INFO] 20:18:13:356 memoria/(10150:10150): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:18:16:424 memoria/(10150:10150): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:18:16:533 memoria/(10150:10171): HANDSHAKE
+[INFO] 20:18:16:611 memoria/(10150:10171): Alocando size: 80 del carpincho: 0
+[INFO] 20:18:16:619 memoria/(10150:10171): El frame es el 0 
+
+[INFO] 20:18:16:635 memoria/(10150:10171): El frame es el 1 
+
+[INFO] 20:18:16:639 memoria/(10150:10171): El frame es el 2 
+
+[INFO] 20:18:16:650 memoria/(10150:10171): Allocando primer mitad del hmd en 2
+
+[INFO] 20:18:16:657 memoria/(10150:10171): El frame es el 3 
+
+[INFO] 20:18:16:662 memoria/(10150:10171): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:18:16:677 memoria/(10150:10171): OCURRIO UN ACCIDENTE
+[INFO] 20:18:16:689 memoria/(10150:10171): OCURRIO UN ACCIDENTE 2
+[INFO] 20:18:16:698 memoria/(10150:10171): Como queod la alarma?
+[INFO] 20:18:16:702 memoria/(10150:10171): cant_paginas_a_leer: 3
+[INFO] 20:18:16:709 memoria/(10150:10171): Caca culo pedo pis: 3
+[INFO] 20:18:16:720 memoria/(10150:10171): ---------0 en pagina 0---------
+[INFO] 20:18:16:733 memoria/(10150:10171): Pase, lo que quieras jeje
+[INFO] 20:18:16:738 memoria/(10150:10171): offset_data: 9
+[INFO] 20:18:16:740 memoria/(10150:10171): size_acum: 0
+[INFO] 20:18:16:747 memoria/(10150:10171): size_a_leer: 23
+[INFO] 20:18:16:750 memoria/(10150:10171): nro_pagina: 0
+[INFO] 20:18:16:752 memoria/(10150:10171): Caca culo pedo pis 2: 0
+[INFO] 20:18:16:757 memoria/(10150:10171): ---------0 en pagina 1---------
+[INFO] 20:18:16:759 memoria/(10150:10171): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:18:16:762 memoria/(10150:10171): offset_data: 0
+[INFO] 20:18:16:764 memoria/(10150:10171): size_acum: 23
+[INFO] 20:18:16:765 memoria/(10150:10171): size_a_leer: 32
+[INFO] 20:18:16:767 memoria/(10150:10171): nro_pagina: 1
+[INFO] 20:18:16:768 memoria/(10150:10171): Caca culo pedo pis 2: 1
+[INFO] 20:18:16:768 memoria/(10150:10171): ---------0 en pagina 1---------
+[INFO] 20:18:16:770 memoria/(10150:10171): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:18:16:771 memoria/(10150:10171): offset_data: 0
+[INFO] 20:18:16:778 memoria/(10150:10171): size_acum: 55
+[INFO] 20:18:16:779 memoria/(10150:10171): size_a_leer: 32
+[INFO] 20:18:16:780 memoria/(10150:10171): nro_pagina: 1
+[INFO] 20:18:16:782 memoria/(10150:10171): Caca culo pedo pis 2: 2
+[INFO] 20:18:16:785 memoria/(10150:10171): UPS AI DIDITAGAIN
+[INFO] 20:18:16:786 memoria/(10150:10171): UPS AI DIDITAGAIN
+[INFO] 20:18:16:903 memoria/(10150:10171): DISCONNECT!

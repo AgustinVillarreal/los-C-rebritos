@@ -307,11 +307,31 @@ int mate_memfree(mate_instance *lib_ref, uint32_t direccion_logica){
 }
 
 int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int size){
+	uint8_t result_code;
 	mate_inner_structure* inner_structure = lib_ref->group_info;		
-	if(!send_memread(inner_structure->servidor_fd)){
+	if(!send_memread(inner_structure->servidor_fd, origin, size)){
 		// data_destroy(IP, PUERTO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
+	}
+	log_info(inner_structure->logger, "Mis ops son medio opa");
+	
+	if(recv(inner_structure->servidor_fd, &result_code, sizeof(uint8_t), 0) == -1){
+		// free(inner_structure->IP);
+		// free(inner_structure->PUERTO);	
+		log_destroy(inner_structure->logger);	
+		return EXIT_FAILURE;
+	}
+	log_info(inner_structure->logger, "result_code: %d", result_code);
+	if(result_code){
+		if(recv(inner_structure->servidor_fd, dest, size, 0) == -1){
+		// free(inner_structure->IP);
+		// free(inner_structure->PUERTO);	
+		log_destroy(inner_structure->logger);	
+		return EXIT_FAILURE;
+		} 
+	} else {
+		return MATE_READ_FAULT;
 	}
 	return 0;
 }
