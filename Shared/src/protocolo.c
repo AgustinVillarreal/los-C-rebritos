@@ -4,31 +4,6 @@ bool send_handshake(int fd_server){
   return send_codigo_op(fd_server, HANDSHAKE);
 }
 
-bool send_memalloc(int fd_server){
-  return send_codigo_op(fd_server, MEM_ALLOC);
-}
-
-bool send_memfree(int fd_server){
-  return send_codigo_op(fd_server, MEM_FREE);
-}
-
-bool send_memread(int fd_server, uint32_t direccion_logica, int size){
-  if(!send_codigo_op(fd_server, MEM_READ)){
-    return false;
-  }
-  if(send(fd_server, &direccion_logica, sizeof(uint32_t), 0) == -1){
-    return false;
-  }
-  if(send(fd_server, &size, sizeof(int), 0) == -1){
-    return false;
-  }
-  return true;
-}
-
-bool send_memwrite(int fd_server){
-  return send_codigo_op(fd_server, MEM_WRITE);
-}
-
 bool send_mate_init(int fd_server, int generar_id){
   void* stream = malloc(sizeof(int) + sizeof(op_code));
   op_code op = MATE_INIT;
@@ -128,6 +103,43 @@ bool recv_sem(int fd, char** sem){
 
 //MEMORIA
 
+bool send_memalloc(int fd_server){
+  return send_codigo_op(fd_server, MEM_ALLOC);
+}
+
+bool send_memfree(int fd_server){
+  return send_codigo_op(fd_server, MEM_FREE);
+}
+
+bool send_memread(int fd_server, uint32_t direccion_logica, int size){
+  if(!send_codigo_op(fd_server, MEM_READ)){
+    return false;
+  }
+  if(send(fd_server, &direccion_logica, sizeof(uint32_t), 0) == -1){
+    return false;
+  }
+  if(send(fd_server, &size, sizeof(int), 0) == -1){
+    return false;
+  }
+  return true;
+}
+
+bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int size){
+  if(!send_codigo_op(fd_server, MEM_WRITE)){
+    return false;
+  }
+  if(send(fd_server, &direccion_logica, sizeof(uint32_t), 0) == -1){
+    return false;
+  }
+  if(send(fd_server, &size, sizeof(int), 0) == -1){
+    return false;
+  }
+  if(send(fd_server, data, size, 0) == -1){
+    return false;
+  }
+  return true;
+}
+
 bool send_carpincho_ready(int fd, long id_carpincho){
   send_codigo_op(fd, CARPINCHO_READY);
   return send(fd, &id_carpincho, sizeof(long), 0) != -1;
@@ -168,11 +180,25 @@ bool recv_memfree_data(int fd, long* id_carpincho, uint32_t* direccion_logica){
 }
 
 
-bool recv_memread_data(int fd, uint32_t* direccion_logica, uint32_t* size){
+bool recv_memread_data(int fd, uint32_t* direccion_logica, int* size){
   if(recv(fd, direccion_logica, sizeof(uint32_t),0) != sizeof(uint32_t)){
     return false;
   }
-  if(recv(fd, size, sizeof(uint32_t),0) != sizeof(uint32_t)){
+  if(recv(fd, size, sizeof(int),0) != sizeof(int)){
+    return false;
+  }
+  return true;
+}
+
+bool recv_memwrite_data(int fd, uint32_t* direccion_logica, void* data, int* size){
+  if(recv(fd, direccion_logica, sizeof(uint32_t),0) != sizeof(uint32_t)){
+    return false;
+  }
+  if(recv(fd, size, sizeof(int),0) != sizeof(int)){
+    return false;
+  }
+  data = malloc(size);
+  if(recv(fd, data, size,0) != size){
     return false;
   }
   return true;

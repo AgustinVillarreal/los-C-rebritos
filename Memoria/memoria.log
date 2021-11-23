@@ -3257,3 +3257,53 @@
 [INFO] 21:09:34:619 memoria/(9308:9341): ---------0 en pagina 1---------
 [INFO] 21:09:34:620 memoria/(9308:9341): ---------0 en pagina 2---------
 [INFO] 21:09:34:719 memoria/(9308:9341): DISCONNECT!
+[INFO] 21:39:46:691 memoria/(12337:12337): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:39:46:763 memoria/(12337:12337): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:39:46:773 memoria/(12337:12337): ------2---------
+
+[INFO] 21:39:46:779 memoria/(12337:12337): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:39:58:685 memoria/(12337:12337): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:39:58:824 memoria/(12337:12397): HANDSHAKE
+[INFO] 21:39:58:892 memoria/(12337:12397): Alocando size: 81 del carpincho: 0
+[INFO] 21:39:58:895 memoria/(12337:12397): El frame es el 0 
+
+[INFO] 21:39:58:901 memoria/(12337:12397): El frame es el 1 
+
+[INFO] 21:39:58:902 memoria/(12337:12397): El frame es el 2 
+
+[INFO] 21:39:58:904 memoria/(12337:12397): Allocando primer mitad del hmd en 2
+
+[INFO] 21:39:58:905 memoria/(12337:12397): El frame es el 3 
+
+[INFO] 21:39:58:906 memoria/(12337:12397): Allocando segunda mitad del hmd en 3
+
+[ERROR] 21:39:59:077 memoria/(12337:12397): Error al recibir data para leer
+[INFO] 21:41:45:124 memoria/(12337:12397): DISCONNECT!
+[INFO] 21:41:48:286 memoria/(12604:12604): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:41:48:359 memoria/(12604:12604): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:41:48:364 memoria/(12604:12604): ------2---------
+
+[INFO] 21:41:48:371 memoria/(12604:12604): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:41:50:436 memoria/(12604:12604): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:41:50:592 memoria/(12604:12631): HANDSHAKE
+[INFO] 21:41:50:673 memoria/(12604:12631): Alocando size: 81 del carpincho: 0
+[INFO] 21:41:50:676 memoria/(12604:12631): El frame es el 0 
+
+[INFO] 21:41:50:683 memoria/(12604:12631): El frame es el 1 
+
+[INFO] 21:41:50:685 memoria/(12604:12631): El frame es el 2 
+
+[INFO] 21:41:50:686 memoria/(12604:12631): Allocando primer mitad del hmd en 2
+
+[INFO] 21:41:50:688 memoria/(12604:12631): El frame es el 3 
+
+[INFO] 21:41:50:688 memoria/(12604:12631): Allocando segunda mitad del hmd en 3
+
+[ERROR] 21:41:50:891 memoria/(12604:12631): Error al recibir data para leer
+[INFO] 21:42:08:084 memoria/(12604:12631): DISCONNECT!

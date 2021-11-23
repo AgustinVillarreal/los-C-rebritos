@@ -121,7 +121,7 @@ static void procesar_conexion(void* void_args){
                 log_info(logger,"LIBERADO PADRE");
                 break;
             case MEM_READ: ; 
-                uint32_t size;
+                int size;
                 void* buff;
                 if(!recv_memread_data(cliente_socket, &direccion_logica, &size)){
                     log_error(logger, "Error al recibir data para leer");
@@ -142,12 +142,21 @@ static void procesar_conexion(void* void_args){
                 }
                 free(buff);
                 break;
-            case MEM_WRITE:
-                if(!escribir_espacio_mp(dir_logic_ini)){
-                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR ESCRIBIR LA MEMORIA");   
+            case MEM_WRITE: ;
+                int size_w;
+                void* data;
+                if(!recv_memwrite_data(cliente_socket, &direccion_logica, data, &size_w)){
+                    log_error(logger, "Error al recibir data para leer");
                     break;
                 }
-                log_info(logger,"ESCRITO JEFE");
+                uint8_t ret_code_write = write_carpincho(id_carpincho, data, size_w, direccion_logica);
+
+                if(send(cliente_socket, &ret_code_write, sizeof(uint8_t), 0) == -1){
+                   log_error(logger, "Error al enviar ret_code a cliente desde memread");
+                   break;
+                }
+
+                free(data);
                 break;
             //TODO: Liberar cosas aca
             case FREE_CARPINCHO:

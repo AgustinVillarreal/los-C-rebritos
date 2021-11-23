@@ -64,9 +64,10 @@ int main(int argc, char *argv[])
   // char* prueba = strdup("hola");
   // mate_call_io(&mate_ref, "hierbitas", prueba);
   // free(prueba);
-  // printf("1 %d\n",mate_memalloc(&mate_ref, 80)); 
-  // char* buff = malloc(80);
-  // mate_memread(&mate_ref, 9, buff, 80);
+  printf("1 %d\n",mate_memalloc(&mate_ref, 81)); 
+  mate_memwrite(&mate_ref, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et mollis libero.", 9, 81);
+  // char* buff = malloc(81);
+  // mate_memread(&mate_ref, 9, buff, 81);
   // printf("2 --%s--\n", buff);
   // free(buff);
   // printf("2 %d\n",mate_memalloc(&mate_ref, 14));
