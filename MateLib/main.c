@@ -34,9 +34,9 @@ int main(int argc, char *argv[])
   //TODO: Esto lo podria hacer el mate_init
   mate_instance mate_ref;
   mate_init(&mate_ref, "./config.config");
-  // mate_sem_init(&mate_ref, "1", 1); 
-  // mate_sem_init(&mate_ref, "2", 1); 
-  // mate_sem_init(&mate_ref, "3", 1);   
+  //mate_sem_init(&mate_ref, "1", 80); 
+  //mate_sem_init(&mate_ref, "2", 14); 
+  //mate_sem_init(&mate_ref, "3", 8);   
   // // mate_sem_destroy(&mate_ref, "holachau"); 
   // mate_sem_wait(&mate_ref, "1"); 
   // sleep(30);
@@ -64,9 +64,36 @@ int main(int argc, char *argv[])
   // char* prueba = strdup("hola");
   // mate_call_io(&mate_ref, "hierbitas", prueba);
   // free(prueba);
-  printf("1 %d\n",mate_memalloc(&mate_ref, 80)); 
-  printf("2 %d\n",mate_memalloc(&mate_ref, 14));
-  printf("3 %d\n",mate_memalloc(&mate_ref, 8));
+  /*
+  printf("1 %d\n",mate_memalloc(&mate_ref, 81));
+  
+  printf("3 %d\n",mate_memalloc(&mate_ref, 8)); 
+
+  mate_memwrite(&mate_ref, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et mollis libero.", 9, 81);
+  char* buff = malloc(81);
+  mate_memread(&mate_ref, 9, buff, 81);
+  printf("2 --%s--\n", buff);
+  free(buff);
+
+  printf("2 %d\n",mate_memalloc(&mate_ref, 18));
+
+  mate_memwrite(&mate_ref, "Ahi va la bala123", 116, 18);
+  char* buff2 = malloc(18);
+
+  printf("3 %d\n",mate_memalloc(&mate_ref, 8));  
+
+  mate_memread(&mate_ref, 116, buff2, 18);
+  printf("2 --%s--\n", buff2);
+  free(buff2);
+
+  printf("2 %d\n",mate_memalloc(&mate_ref, 2));
+
+  mate_memwrite(&mate_ref, "R", 133, 2);
+  char* buff3 = malloc(2);
+  mate_memread(&mate_ref, 133, buff3, 2);
+  printf("2 --%s--\n", buff3);
+  free(buff3);
+  */
   printf("4 %d\n",mate_memalloc(&mate_ref, 13));  
   printf("5 %d\n",mate_memalloc(&mate_ref, 1));
   printf("6 %d\n",mate_memalloc(&mate_ref, 24));
@@ -78,16 +105,24 @@ int main(int argc, char *argv[])
 
 
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
-  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,98));
- /* printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,121));
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,98));/*
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,121));
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
   printf("9 %d\n",mate_memalloc(&mate_ref, 200));
 
+  // printf("5 %d\n",mate_memalloc(&mate_ref, 1));
+  // printf("6 %d\n",mate_memalloc(&mate_ref, 24));
+  // printf("7 %d\n",mate_memalloc(&mate_ref, 8));
+  // printf("8 %d\n",mate_memalloc(&mate_ref, 4));
+  // printf("9 %d\n",mate_memalloc(&mate_ref, 81));
+  
+
+  // printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref, 24));
   /*
   printf("7 %d\n",mate_memfree(&mate_ref, 8));
   printf("8 %d\n",mate_memfree(&mate_ref, 4));
   printf("9 %d\n",mate_memfree(&mate_ref, 81));
-*/
+  */
   
   /*
   mate_memfree(&mate_ref, 1);

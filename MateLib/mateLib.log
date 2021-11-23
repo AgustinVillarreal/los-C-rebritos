@@ -88,6 +88,7 @@
 [INFO] 18:35:51:442 mateLib/(3028:3028): Cliente conectado en 127.0.0.1:5001 (a Server)
 
 [INFO] 18:35:51:510 mateLib/(3028:3028): Handshake
+<<<<<<< HEAD
 [INFO] 11:58:51:915 mateLib/(6891:6891): Cliente conectado en 127.0.0.1:5001 (a Server)
 
 [INFO] 11:58:51:990 mateLib/(6891:6891): Handshake
@@ -421,3 +422,304 @@
 [INFO] 19:33:58:676 mateLib/(29470:29470): Cliente conectado en 127.0.0.1:5001 (a Server)
 
 [INFO] 19:33:58:745 mateLib/(29470:29470): Handshake
+=======
+[INFO] 19:30:01:927 mateLib/(7756:7756): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:30:02:014 mateLib/(7756:7756): Handshake
+[INFO] 19:31:04:898 mateLib/(7858:7858): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:31:04:985 mateLib/(7858:7858): Handshake
+[INFO] 19:32:17:443 mateLib/(7962:7962): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:32:17:547 mateLib/(7962:7962): Handshake
+[INFO] 19:33:08:135 mateLib/(7962:7962): fdnasejkfsnkj
+[INFO] 19:33:21:120 mateLib/(8062:8062): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:33:21:202 mateLib/(8062:8062): Handshake
+[INFO] 19:33:21:285 mateLib/(8062:8062): Mis ops son medio opa
+[INFO] 19:39:10:018 mateLib/(8389:8389): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:39:10:104 mateLib/(8389:8389): Handshake
+[INFO] 19:39:10:187 mateLib/(8389:8389): Mis ops son medio opa
+[INFO] 19:40:54:787 mateLib/(8521:8521): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:40:54:873 mateLib/(8521:8521): Handshake
+[INFO] 19:40:54:956 mateLib/(8521:8521): Mis ops son medio opa
+[INFO] 19:44:41:399 mateLib/(8691:8691): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:44:41:508 mateLib/(8691:8691): Handshake
+[INFO] 19:44:41:596 mateLib/(8691:8691): Mis ops son medio opa
+[INFO] 19:46:13:860 mateLib/(8691:8691): result_code: 4
+[INFO] 19:46:30:665 mateLib/(8794:8794): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:46:30:791 mateLib/(8794:8794): Handshake
+[INFO] 19:46:30:948 mateLib/(8794:8794): Mis ops son medio opa
+[INFO] 19:48:14:161 mateLib/(8794:8794): result_code: 4
+[INFO] 19:48:21:106 mateLib/(8901:8901): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:48:21:192 mateLib/(8901:8901): Handshake
+[INFO] 19:48:21:271 mateLib/(8901:8901): Mis ops son medio opa
+[INFO] 19:48:21:385 mateLib/(8901:8901): result_code: 4
+[INFO] 19:56:27:303 mateLib/(9224:9224): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:56:27:390 mateLib/(9224:9224): Handshake
+[INFO] 19:56:27:476 mateLib/(9224:9224): Mis ops son medio opa
+[INFO] 19:56:27:588 mateLib/(9224:9224): result_code: 4
+[INFO] 19:57:55:144 mateLib/(9321:9321): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:57:55:232 mateLib/(9321:9321): Handshake
+[INFO] 19:57:55:312 mateLib/(9321:9321): Mis ops son medio opa
+[INFO] 19:57:55:430 mateLib/(9321:9321): result_code: 4
+[INFO] 20:00:55:636 mateLib/(9459:9459): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:00:55:823 mateLib/(9459:9459): Handshake
+[INFO] 20:00:55:931 mateLib/(9459:9459): Mis ops son medio opa
+[INFO] 20:00:56:063 mateLib/(9459:9459): result_code: 4
+[INFO] 20:04:56:686 mateLib/(9614:9614): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:04:56:768 mateLib/(9614:9614): Handshake
+[INFO] 20:04:56:888 mateLib/(9614:9614): Mis ops son medio opa
+[INFO] 20:04:57:027 mateLib/(9614:9614): result_code: 4
+[INFO] 20:13:28:138 mateLib/(9789:9789): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:13:28:222 mateLib/(9789:9789): Handshake
+[INFO] 20:13:28:318 mateLib/(9789:9789): Mis ops son medio opa
+[INFO] 20:13:28:457 mateLib/(9789:9789): result_code: 4
+[INFO] 20:15:53:405 mateLib/(10007:10007): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:15:53:484 mateLib/(10007:10007): Handshake
+[INFO] 20:15:53:569 mateLib/(10007:10007): Mis ops son medio opa
+[INFO] 20:15:53:680 mateLib/(10007:10007): result_code: 4
+[INFO] 20:18:16:454 mateLib/(10170:10170): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:18:16:537 mateLib/(10170:10170): Handshake
+[INFO] 20:18:16:678 mateLib/(10170:10170): Mis ops son medio opa
+[INFO] 20:18:16:783 mateLib/(10170:10170): result_code: 1
+[INFO] 20:30:21:556 mateLib/(3618:3618): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:30:21:627 mateLib/(3618:3618): Handshake
+[INFO] 20:30:21:703 mateLib/(3618:3618): Mis ops son medio opa
+[INFO] 20:30:21:771 mateLib/(3618:3618): result_code: 1
+[INFO] 20:35:05:952 mateLib/(4150:4150): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:35:06:031 mateLib/(4150:4150): Handshake
+[INFO] 20:35:06:112 mateLib/(4150:4150): Mis ops son medio opa
+[INFO] 20:35:06:170 mateLib/(4150:4150): result_code: 1
+[INFO] 20:36:45:448 mateLib/(4391:4391): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:36:45:522 mateLib/(4391:4391): Handshake
+[INFO] 20:36:45:601 mateLib/(4391:4391): Mis ops son medio opa
+[INFO] 20:36:45:657 mateLib/(4391:4391): result_code: 1
+[INFO] 20:38:12:779 mateLib/(4643:4643): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:38:12:854 mateLib/(4643:4643): Handshake
+[INFO] 20:38:12:931 mateLib/(4643:4643): Mis ops son medio opa
+[INFO] 20:38:12:988 mateLib/(4643:4643): result_code: 1
+[INFO] 20:40:10:618 mateLib/(4947:4947): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:40:10:694 mateLib/(4947:4947): Handshake
+[INFO] 20:40:10:768 mateLib/(4947:4947): Mis ops son medio opa
+[INFO] 20:40:10:828 mateLib/(4947:4947): result_code: 1
+[INFO] 20:41:02:626 mateLib/(5110:5110): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:41:02:701 mateLib/(5110:5110): Handshake
+[INFO] 20:41:02:775 mateLib/(5110:5110): Mis ops son medio opa
+[INFO] 20:41:02:831 mateLib/(5110:5110): result_code: 1
+[INFO] 20:41:53:794 mateLib/(5267:5267): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:41:53:879 mateLib/(5267:5267): Handshake
+[INFO] 20:41:53:959 mateLib/(5267:5267): Mis ops son medio opa
+[INFO] 20:41:54:017 mateLib/(5267:5267): result_code: 1
+[INFO] 20:43:43:651 mateLib/(5554:5554): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:43:43:728 mateLib/(5554:5554): Handshake
+[INFO] 20:43:43:804 mateLib/(5554:5554): Mis ops son medio opa
+[INFO] 20:43:43:862 mateLib/(5554:5554): result_code: 1
+[INFO] 20:44:20:704 mateLib/(5702:5702): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:44:20:785 mateLib/(5702:5702): Handshake
+[INFO] 20:44:20:861 mateLib/(5702:5702): Mis ops son medio opa
+[INFO] 20:44:20:919 mateLib/(5702:5702): result_code: 1
+[INFO] 20:49:00:307 mateLib/(6200:6200): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:49:00:397 mateLib/(6200:6200): Handshake
+[INFO] 20:49:00:480 mateLib/(6200:6200): Mis ops son medio opa
+[INFO] 20:49:00:540 mateLib/(6200:6200): result_code: 1
+[INFO] 20:50:04:954 mateLib/(6382:6382): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:50:05:041 mateLib/(6382:6382): Handshake
+[INFO] 20:50:05:127 mateLib/(6382:6382): Mis ops son medio opa
+[INFO] 20:50:05:182 mateLib/(6382:6382): result_code: 1
+[INFO] 20:51:06:231 mateLib/(6572:6572): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:51:06:316 mateLib/(6572:6572): Handshake
+[INFO] 20:51:06:394 mateLib/(6572:6572): Mis ops son medio opa
+[INFO] 20:51:06:452 mateLib/(6572:6572): result_code: 1
+[INFO] 20:51:28:442 mateLib/(6698:6698): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:51:28:535 mateLib/(6698:6698): Handshake
+[INFO] 20:51:28:619 mateLib/(6698:6698): Mis ops son medio opa
+[INFO] 20:51:28:682 mateLib/(6698:6698): result_code: 1
+[INFO] 20:53:46:931 mateLib/(6962:6962): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:53:47:001 mateLib/(6962:6962): Handshake
+[INFO] 20:53:47:062 mateLib/(6962:6962): Mis ops son medio opa
+[INFO] 20:53:47:115 mateLib/(6962:6962): result_code: 1
+[INFO] 20:53:55:087 mateLib/(7057:7057): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:53:55:175 mateLib/(7057:7057): Handshake
+[INFO] 20:53:55:257 mateLib/(7057:7057): Mis ops son medio opa
+[INFO] 20:53:55:316 mateLib/(7057:7057): result_code: 1
+[INFO] 20:54:37:228 mateLib/(7205:7205): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:54:37:310 mateLib/(7205:7205): Handshake
+[INFO] 20:54:37:389 mateLib/(7205:7205): Mis ops son medio opa
+[INFO] 20:54:37:445 mateLib/(7205:7205): result_code: 1
+[INFO] 20:56:11:922 mateLib/(7422:7422): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:56:12:006 mateLib/(7422:7422): Handshake
+[INFO] 20:56:12:091 mateLib/(7422:7422): Mis ops son medio opa
+[INFO] 20:56:12:154 mateLib/(7422:7422): result_code: 1
+[INFO] 20:58:32:693 mateLib/(7706:7706): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:58:32:791 mateLib/(7706:7706): Handshake
+[INFO] 20:58:32:877 mateLib/(7706:7706): Mis ops son medio opa
+[INFO] 20:58:32:936 mateLib/(7706:7706): result_code: 1
+[INFO] 20:59:43:033 mateLib/(7896:7896): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:59:43:121 mateLib/(7896:7896): Handshake
+[INFO] 20:59:43:199 mateLib/(7896:7896): Mis ops son medio opa
+[INFO] 20:59:43:257 mateLib/(7896:7896): result_code: 1
+[INFO] 21:01:09:086 mateLib/(8110:8110): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:01:09:169 mateLib/(8110:8110): Handshake
+[INFO] 21:01:09:246 mateLib/(8110:8110): Mis ops son medio opa
+[INFO] 21:01:09:306 mateLib/(8110:8110): result_code: 1
+[INFO] 21:05:08:143 mateLib/(8532:8532): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:05:08:244 mateLib/(8532:8532): Handshake
+[INFO] 21:05:08:337 mateLib/(8532:8532): Mis ops son medio opa
+[INFO] 21:05:08:393 mateLib/(8532:8532): result_code: 1
+[INFO] 21:06:42:786 mateLib/(8786:8786): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:06:42:875 mateLib/(8786:8786): Handshake
+[INFO] 21:06:42:958 mateLib/(8786:8786): Mis ops son medio opa
+[INFO] 21:06:43:018 mateLib/(8786:8786): result_code: 1
+[INFO] 21:08:39:723 mateLib/(9071:9071): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:08:39:825 mateLib/(9071:9071): Handshake
+[INFO] 21:08:59:245 mateLib/(9189:9189): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:08:59:350 mateLib/(9189:9189): Handshake
+[INFO] 21:09:34:391 mateLib/(9338:9338): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:09:34:488 mateLib/(9338:9338): Handshake
+[INFO] 21:39:58:724 mateLib/(12390:12390): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:39:58:828 mateLib/(12390:12390): Handshake
+[INFO] 21:41:50:484 mateLib/(12630:12630): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:41:50:599 mateLib/(12630:12630): Handshake
+[INFO] 09:52:56:480 mateLib/(3368:3368): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 09:52:56:570 mateLib/(3368:3368): Handshake
+[INFO] 09:55:51:575 mateLib/(3833:3833): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 09:55:51:716 mateLib/(3833:3833): Handshake
+[INFO] 09:56:32:179 mateLib/(4281:4281): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 09:56:32:260 mateLib/(4281:4281): Handshake
+[INFO] 09:56:54:883 mateLib/(4426:4426): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 09:56:54:965 mateLib/(4426:4426): Handshake
+[INFO] 09:58:20:391 mateLib/(4725:4725): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 09:58:20:469 mateLib/(4725:4725): Handshake
+[INFO] 10:01:49:103 mateLib/(5245:5245): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:01:49:189 mateLib/(5245:5245): Handshake
+[INFO] 10:02:10:369 mateLib/(5367:5367): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:02:10:445 mateLib/(5367:5367): Handshake
+[INFO] 10:05:06:208 mateLib/(5628:5628): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:05:06:273 mateLib/(5628:5628): Handshake
+[INFO] 10:05:38:700 mateLib/(5757:5757): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:05:38:782 mateLib/(5757:5757): Handshake
+[INFO] 10:14:08:343 mateLib/(6533:6533): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:14:08:424 mateLib/(6533:6533): Handshake
+[INFO] 10:15:15:972 mateLib/(6736:6736): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:15:16:058 mateLib/(6736:6736): Handshake
+[INFO] 10:20:26:111 mateLib/(7241:7241): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:20:26:195 mateLib/(7241:7241): Handshake
+[INFO] 10:21:16:752 mateLib/(7403:7403): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:21:16:829 mateLib/(7403:7403): Handshake
+[INFO] 10:21:54:679 mateLib/(7577:7577): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:21:54:759 mateLib/(7577:7577): Handshake
+[INFO] 10:22:50:349 mateLib/(7747:7747): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:22:50:427 mateLib/(7747:7747): Handshake
+[INFO] 10:28:17:389 mateLib/(8248:8248): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:28:17:469 mateLib/(8248:8248): Handshake
+[INFO] 10:28:48:159 mateLib/(8386:8386): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:28:48:238 mateLib/(8386:8386): Handshake
+[INFO] 10:29:29:590 mateLib/(8538:8538): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:29:29:665 mateLib/(8538:8538): Handshake
+[INFO] 10:29:52:864 mateLib/(8608:8608): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:29:52:933 mateLib/(8608:8608): Handshake
+[INFO] 10:34:40:859 mateLib/(9023:9023): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:34:40:921 mateLib/(9023:9023): Handshake
+[INFO] 10:39:02:712 mateLib/(9484:9484): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:39:02:793 mateLib/(9484:9484): Handshake
+[INFO] 10:40:49:657 mateLib/(9716:9716): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:40:49:735 mateLib/(9716:9716): Handshake
+[INFO] 10:43:18:867 mateLib/(10009:10009): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:43:18:952 mateLib/(10009:10009): Handshake
+[INFO] 10:44:08:686 mateLib/(10168:10168): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:44:08:770 mateLib/(10168:10168): Handshake
+[INFO] 10:47:44:184 mateLib/(10536:10536): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:47:44:264 mateLib/(10536:10536): Handshake
+[INFO] 10:49:26:552 mateLib/(10804:10804): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:49:26:634 mateLib/(10804:10804): Handshake
+[INFO] 10:56:16:806 mateLib/(11411:11411): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:56:16:883 mateLib/(11411:11411): Handshake
+[INFO] 11:01:43:924 mateLib/(11926:11926): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:01:43:998 mateLib/(11926:11926): Handshake
+[INFO] 11:03:59:518 mateLib/(12205:12205): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:03:59:603 mateLib/(12205:12205): Handshake
+>>>>>>> 6f70c8822c11507aafdca0a9410d8de277bd532c
+[INFO] 19:43:36:036 mateLib/(30626:30626): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:43:36:104 mateLib/(30626:30626): Handshake
+[INFO] 19:44:22:863 mateLib/(30754:30754): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:44:22:931 mateLib/(30754:30754): Handshake
+[INFO] 19:46:14:479 mateLib/(30982:30982): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 19:46:14:547 mateLib/(30982:30982): Handshake
+[ERROR] 19:46:14:560 mateLib/(30982:30982): No podes usar semaforos si no estas conectado al kernel
+
+[ERROR] 19:46:14:562 mateLib/(30982:30982): No podes usar semaforos si no estas conectado al kernel
+
+[ERROR] 19:46:14:563 mateLib/(30982:30982): No podes usar semaforos si no estas conectado al kernel
+
