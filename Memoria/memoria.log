@@ -4504,3 +4504,1330 @@
 [INFO] 10:34:41:445 memoria/(8511:9025): offset_data: 27
 [INFO] 10:34:41:446 memoria/(8511:9025): size_ 2
 [INFO] 10:34:41:536 memoria/(8511:9025): DISCONNECT!
+[INFO] 10:38:57:147 memoria/(9436:9436): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:38:57:205 memoria/(9436:9436): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 10:38:57:208 memoria/(9436:9436): ------2---------
+
+[INFO] 10:38:57:210 memoria/(9436:9436): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 10:39:02:674 memoria/(9436:9436): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:39:02:790 memoria/(9436:9488): HANDSHAKE
+[INFO] 10:39:02:858 memoria/(9436:9488): Alocando size: 81 del carpincho: 0
+[INFO] 10:39:02:861 memoria/(9436:9488): El frame es el 0 
+
+[INFO] 10:39:02:872 memoria/(9436:9488): El frame es el 1 
+
+[INFO] 10:39:02:873 memoria/(9436:9488): El frame es el 2 
+
+[INFO] 10:39:02:874 memoria/(9436:9488): Allocando primer mitad del hmd en 2
+
+[INFO] 10:39:02:875 memoria/(9436:9488): El frame es el 3 
+
+[INFO] 10:39:02:876 memoria/(9436:9488): Allocando segunda mitad del hmd en 3
+
+[INFO] 10:39:02:921 memoria/(9436:9488): Alocando size: 8 del carpincho: 0
+[INFO] 10:39:02:922 memoria/(9436:9488): ---------0 en pagina 0---------
+[INFO] 10:39:02:924 memoria/(9436:9488): size_ 9
+[INFO] 10:39:02:926 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:02:927 memoria/(9436:9488): size_ 6
+[INFO] 10:39:02:928 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:02:929 memoria/(9436:9488): size_ 3
+[INFO] 10:39:02:932 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:02:978 memoria/(9436:9488): ---------0 en pagina 0---------
+[INFO] 10:39:02:979 memoria/(9436:9488): size_ 9
+[INFO] 10:39:02:980 memoria/(9436:9488): size_acum: 0
+[INFO] 10:39:02:984 memoria/(9436:9488): offset_data: 9
+[INFO] 10:39:02:985 memoria/(9436:9488): size_a_leer: 23
+[INFO] 10:39:02:986 memoria/(9436:9488): ---------0 en pagina 1---------
+[INFO] 10:39:02:987 memoria/(9436:9488): size_acum: 23
+[INFO] 10:39:02:988 memoria/(9436:9488): offset_data: 0
+[INFO] 10:39:02:988 memoria/(9436:9488): size_a_leer: 32
+[INFO] 10:39:02:989 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:02:989 memoria/(9436:9488): size_acum: 55
+[INFO] 10:39:02:989 memoria/(9436:9488): offset_data: 0
+[INFO] 10:39:02:990 memoria/(9436:9488): size_a_leer: 26
+[INFO] 10:39:03:035 memoria/(9436:9488): ---------0 en pagina 0---------
+[INFO] 10:39:03:037 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:038 memoria/(9436:9488): size total: 81
+[INFO] 10:39:03:039 memoria/(9436:9488): offset_data: 9
+[INFO] 10:39:03:039 memoria/(9436:9488): size_ 23
+[INFO] 10:39:03:040 memoria/(9436:9488): ---------0 en pagina 1---------
+[INFO] 10:39:03:041 memoria/(9436:9488): size_ 32
+[INFO] 10:39:03:041 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:03:042 memoria/(9436:9488): size_ 26
+[INFO] 10:39:03:129 memoria/(9436:9488): Alocando size: 15 del carpincho: 0
+[INFO] 10:39:03:130 memoria/(9436:9488): ---------0 en pagina 0---------
+[INFO] 10:39:03:130 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:131 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:03:131 memoria/(9436:9488): size_ 6
+[INFO] 10:39:03:132 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:132 memoria/(9436:9488): size_ 3
+[INFO] 10:39:03:133 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:133 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:140 memoria/(9436:9488): El frame es el 4 
+
+[INFO] 10:39:03:185 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:03:186 memoria/(9436:9488): size_ 6
+[INFO] 10:39:03:186 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:187 memoria/(9436:9488): size_ 3
+[ERROR] 10:39:03:187 memoria/(9436:9488): El size a leer es mayor que el que puedo darte en esta posicion
+[INFO] 10:39:03:229 memoria/(9436:9488): Alocando size: 8 del carpincho: 0
+[INFO] 10:39:03:229 memoria/(9436:9488): ---------0 en pagina 0---------
+[INFO] 10:39:03:230 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:231 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:03:231 memoria/(9436:9488): size_ 6
+[INFO] 10:39:03:231 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:232 memoria/(9436:9488): size_ 3
+[INFO] 10:39:03:232 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:233 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:233 memoria/(9436:9488): ---------0 en pagina 4---------
+[INFO] 10:39:03:234 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:277 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:03:277 memoria/(9436:9488): size_ 6
+[INFO] 10:39:03:278 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:278 memoria/(9436:9488): size_ 3
+[ERROR] 10:39:03:279 memoria/(9436:9488): El size a leer es mayor que el que puedo darte en esta posicion
+[INFO] 10:39:03:321 memoria/(9436:9488): Alocando size: 2 del carpincho: 0
+[INFO] 10:39:03:322 memoria/(9436:9488): ---------0 en pagina 0---------
+[INFO] 10:39:03:322 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:324 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:03:329 memoria/(9436:9488): size_ 6
+[INFO] 10:39:03:330 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:330 memoria/(9436:9488): size_ 3
+[INFO] 10:39:03:330 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:331 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:331 memoria/(9436:9488): ---------0 en pagina 4---------
+[INFO] 10:39:03:331 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:332 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:332 memoria/(9436:9488): El frame es el 5 
+
+[INFO] 10:39:03:377 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:377 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:378 memoria/(9436:9488): size_acum: 0
+[INFO] 10:39:03:378 memoria/(9436:9488): offset_data: 27
+[INFO] 10:39:03:378 memoria/(9436:9488): size_a_leer: 2
+[INFO] 10:39:03:421 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:421 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:421 memoria/(9436:9488): size total: 2
+[INFO] 10:39:03:422 memoria/(9436:9488): offset_data: 27
+[INFO] 10:39:03:422 memoria/(9436:9488): size_ 2
+[INFO] 10:39:03:509 memoria/(9436:9488): Alocando size: 13 del carpincho: 0
+[INFO] 10:39:03:510 memoria/(9436:9488): ---------0 en pagina 0---------
+[INFO] 10:39:03:510 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:510 memoria/(9436:9488): ---------0 en pagina 2---------
+[INFO] 10:39:03:511 memoria/(9436:9488): size_ 6
+[INFO] 10:39:03:511 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:511 memoria/(9436:9488): size_ 3
+[INFO] 10:39:03:511 memoria/(9436:9488): ---------0 en pagina 3---------
+[INFO] 10:39:03:512 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:513 memoria/(9436:9488): ---------0 en pagina 4---------
+[INFO] 10:39:03:514 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:514 memoria/(9436:9488): size_ 9
+[INFO] 10:39:03:514 memoria/(9436:9488): size_ 1
+[INFO] 10:39:03:515 memoria/(9436:9488): ---------0 en pagina 5---------
+[INFO] 10:39:03:515 memoria/(9436:9488): size_ 8
+[INFO] 10:39:03:516 memoria/(9436:9488): ---------0 en pagina 5---------
+[INFO] 10:39:03:567 memoria/(9436:9488): DISCONNECT!
+[INFO] 10:40:44:182 memoria/(9686:9686): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:40:44:238 memoria/(9686:9686): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 10:40:44:241 memoria/(9686:9686): ------2---------
+
+[INFO] 10:40:44:243 memoria/(9686:9686): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 10:40:49:617 memoria/(9686:9686): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:40:49:732 memoria/(9686:9725): HANDSHAKE
+[INFO] 10:40:49:798 memoria/(9686:9725): Alocando size: 81 del carpincho: 0
+[INFO] 10:40:49:801 memoria/(9686:9725): El frame es el 0 
+
+[INFO] 10:40:49:806 memoria/(9686:9725): El frame es el 1 
+
+[INFO] 10:40:49:807 memoria/(9686:9725): El frame es el 2 
+
+[INFO] 10:40:49:808 memoria/(9686:9725): Allocando primer mitad del hmd en 2
+
+[INFO] 10:40:49:810 memoria/(9686:9725): El frame es el 3 
+
+[INFO] 10:40:49:811 memoria/(9686:9725): Allocando segunda mitad del hmd en 3
+
+[INFO] 10:40:49:857 memoria/(9686:9725): Alocando size: 8 del carpincho: 0
+[INFO] 10:40:49:859 memoria/(9686:9725): ---------0 en pagina 0---------
+[INFO] 10:40:49:861 memoria/(9686:9725): size_ 9
+[INFO] 10:40:49:863 memoria/(9686:9725): ---------0 en pagina 2---------
+[INFO] 10:40:49:864 memoria/(9686:9725): size_ 6
+[INFO] 10:40:49:865 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:49:866 memoria/(9686:9725): size_ 3
+[INFO] 10:40:49:869 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:49:915 memoria/(9686:9725): ---------0 en pagina 0---------
+[INFO] 10:40:49:920 memoria/(9686:9725): size_ 9
+[INFO] 10:40:49:921 memoria/(9686:9725): size_acum: 0
+[INFO] 10:40:49:922 memoria/(9686:9725): offset_data: 9
+[INFO] 10:40:49:922 memoria/(9686:9725): size_a_leer: 23
+[INFO] 10:40:49:923 memoria/(9686:9725): ---------0 en pagina 1---------
+[INFO] 10:40:49:924 memoria/(9686:9725): size_acum: 23
+[INFO] 10:40:49:924 memoria/(9686:9725): offset_data: 0
+[INFO] 10:40:49:924 memoria/(9686:9725): size_a_leer: 32
+[INFO] 10:40:49:925 memoria/(9686:9725): ---------0 en pagina 2---------
+[INFO] 10:40:49:925 memoria/(9686:9725): size_acum: 55
+[INFO] 10:40:49:926 memoria/(9686:9725): offset_data: 0
+[INFO] 10:40:49:926 memoria/(9686:9725): size_a_leer: 26
+[INFO] 10:40:49:974 memoria/(9686:9725): ---------0 en pagina 0---------
+[INFO] 10:40:49:974 memoria/(9686:9725): size_ 9
+[INFO] 10:40:49:975 memoria/(9686:9725): size total: 81
+[INFO] 10:40:49:976 memoria/(9686:9725): offset_data: 9
+[INFO] 10:40:49:977 memoria/(9686:9725): size_ 23
+[INFO] 10:40:49:978 memoria/(9686:9725): ---------0 en pagina 1---------
+[INFO] 10:40:49:979 memoria/(9686:9725): size_ 32
+[INFO] 10:40:49:985 memoria/(9686:9725): ---------0 en pagina 2---------
+[INFO] 10:40:49:985 memoria/(9686:9725): size_ 26
+[INFO] 10:40:50:073 memoria/(9686:9725): Alocando size: 15 del carpincho: 0
+[INFO] 10:40:50:074 memoria/(9686:9725): ---------0 en pagina 0---------
+[INFO] 10:40:50:075 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:075 memoria/(9686:9725): ---------0 en pagina 2---------
+[INFO] 10:40:50:075 memoria/(9686:9725): size_ 6
+[INFO] 10:40:50:076 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:076 memoria/(9686:9725): size_ 3
+[INFO] 10:40:50:077 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:077 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:079 memoria/(9686:9725): El frame es el 4 
+
+[INFO] 10:40:50:125 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:126 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:126 memoria/(9686:9725): size_acum: 0
+[INFO] 10:40:50:126 memoria/(9686:9725): offset_data: 20
+[INFO] 10:40:50:127 memoria/(9686:9725): size_a_leer: 12
+[INFO] 10:40:50:169 memoria/(9686:9725): Alocando size: 8 del carpincho: 0
+[INFO] 10:40:50:169 memoria/(9686:9725): ---------0 en pagina 0---------
+[INFO] 10:40:50:170 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:170 memoria/(9686:9725): ---------0 en pagina 2---------
+[INFO] 10:40:50:171 memoria/(9686:9725): size_ 6
+[INFO] 10:40:50:171 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:172 memoria/(9686:9725): size_ 3
+[INFO] 10:40:50:172 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:172 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:173 memoria/(9686:9725): ---------0 en pagina 4---------
+[INFO] 10:40:50:173 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:216 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:217 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:217 memoria/(9686:9725): size total: 15
+[INFO] 10:40:50:218 memoria/(9686:9725): offset_data: 20
+[INFO] 10:40:50:218 memoria/(9686:9725): size_ 12
+[INFO] 10:40:50:306 memoria/(9686:9725): Alocando size: 2 del carpincho: 0
+[INFO] 10:40:50:306 memoria/(9686:9725): ---------0 en pagina 0---------
+[INFO] 10:40:50:307 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:307 memoria/(9686:9725): ---------0 en pagina 2---------
+[INFO] 10:40:50:307 memoria/(9686:9725): size_ 6
+[INFO] 10:40:50:308 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:308 memoria/(9686:9725): size_ 3
+[INFO] 10:40:50:309 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:309 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:309 memoria/(9686:9725): ---------0 en pagina 4---------
+[INFO] 10:40:50:310 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:310 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:311 memoria/(9686:9725): El frame es el 5 
+
+[INFO] 10:40:50:353 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:353 memoria/(9686:9725): size_ 4
+[INFO] 10:40:50:354 memoria/(9686:9725): ---------0 en pagina 4---------
+[INFO] 10:40:50:355 memoria/(9686:9725): size_ 5
+[INFO] 10:40:50:355 memoria/(9686:9725): size_acum: 0
+[INFO] 10:40:50:355 memoria/(9686:9725): offset_data: 5
+[INFO] 10:40:50:356 memoria/(9686:9725): size_a_leer: 2
+[INFO] 10:40:50:396 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:397 memoria/(9686:9725): size_ 4
+[INFO] 10:40:50:398 memoria/(9686:9725): ---------0 en pagina 4---------
+[INFO] 10:40:50:398 memoria/(9686:9725): size_ 5
+[INFO] 10:40:50:398 memoria/(9686:9725): size total: 2
+[INFO] 10:40:50:399 memoria/(9686:9725): offset_data: 5
+[INFO] 10:40:50:400 memoria/(9686:9725): size_ 2
+[INFO] 10:40:50:489 memoria/(9686:9725): Alocando size: 13 del carpincho: 0
+[INFO] 10:40:50:490 memoria/(9686:9725): ---------0 en pagina 0---------
+[INFO] 10:40:50:490 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:491 memoria/(9686:9725): ---------0 en pagina 2---------
+[INFO] 10:40:50:491 memoria/(9686:9725): size_ 6
+[INFO] 10:40:50:492 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:492 memoria/(9686:9725): size_ 3
+[INFO] 10:40:50:493 memoria/(9686:9725): ---------0 en pagina 3---------
+[INFO] 10:40:50:493 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:493 memoria/(9686:9725): ---------0 en pagina 4---------
+[INFO] 10:40:50:494 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:494 memoria/(9686:9725): size_ 9
+[INFO] 10:40:50:494 memoria/(9686:9725): size_ 1
+[INFO] 10:40:50:495 memoria/(9686:9725): ---------0 en pagina 5---------
+[INFO] 10:40:50:495 memoria/(9686:9725): size_ 8
+[INFO] 10:40:50:495 memoria/(9686:9725): ---------0 en pagina 5---------
+[INFO] 10:40:50:552 memoria/(9686:9725): DISCONNECT!
+[INFO] 10:43:16:934 memoria/(9985:9985): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:43:17:010 memoria/(9985:9985): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 10:43:17:015 memoria/(9985:9985): ------2---------
+
+[INFO] 10:43:17:017 memoria/(9985:9985): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 10:43:18:833 memoria/(9985:9985): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:43:18:949 memoria/(9985:10012): HANDSHAKE
+[INFO] 10:43:19:015 memoria/(9985:10012): Alocando size: 81 del carpincho: 0
+[INFO] 10:43:19:018 memoria/(9985:10012): El frame es el 0 
+
+[INFO] 10:43:19:024 memoria/(9985:10012): El frame es el 1 
+
+[INFO] 10:43:19:025 memoria/(9985:10012): El frame es el 2 
+
+[INFO] 10:43:19:025 memoria/(9985:10012): Allocando primer mitad del hmd en 2
+
+[INFO] 10:43:19:028 memoria/(9985:10012): El frame es el 3 
+
+[INFO] 10:43:19:028 memoria/(9985:10012): Allocando segunda mitad del hmd en 3
+
+[INFO] 10:43:19:073 memoria/(9985:10012): Alocando size: 8 del carpincho: 0
+[INFO] 10:43:19:075 memoria/(9985:10012): ---------0 en pagina 0---------
+[INFO] 10:43:19:077 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:079 memoria/(9985:10012): ---------0 en pagina 2---------
+[INFO] 10:43:19:080 memoria/(9985:10012): size_ 6
+[INFO] 10:43:19:080 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:081 memoria/(9985:10012): size_ 3
+[INFO] 10:43:19:084 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:130 memoria/(9985:10012): ---------0 en pagina 0---------
+[INFO] 10:43:19:131 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:132 memoria/(9985:10012): size_acum: 0
+[INFO] 10:43:19:133 memoria/(9985:10012): offset_data: 9
+[INFO] 10:43:19:133 memoria/(9985:10012): size_a_leer: 23
+[INFO] 10:43:19:134 memoria/(9985:10012): ---------0 en pagina 1---------
+[INFO] 10:43:19:135 memoria/(9985:10012): size_acum: 23
+[INFO] 10:43:19:135 memoria/(9985:10012): offset_data: 0
+[INFO] 10:43:19:135 memoria/(9985:10012): size_a_leer: 32
+[INFO] 10:43:19:136 memoria/(9985:10012): ---------0 en pagina 2---------
+[INFO] 10:43:19:136 memoria/(9985:10012): size_acum: 55
+[INFO] 10:43:19:140 memoria/(9985:10012): offset_data: 0
+[INFO] 10:43:19:140 memoria/(9985:10012): size_a_leer: 26
+[INFO] 10:43:19:182 memoria/(9985:10012): ---------0 en pagina 0---------
+[INFO] 10:43:19:183 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:184 memoria/(9985:10012): size total: 81
+[INFO] 10:43:19:184 memoria/(9985:10012): offset_data: 9
+[INFO] 10:43:19:185 memoria/(9985:10012): cant_paginas_a_leer: 3
+[INFO] 10:43:19:186 memoria/(9985:10012): size_ 23
+[INFO] 10:43:19:187 memoria/(9985:10012): ---------0 en pagina 1---------
+[INFO] 10:43:19:187 memoria/(9985:10012): size_ 32
+[INFO] 10:43:19:188 memoria/(9985:10012): ---------0 en pagina 2---------
+[INFO] 10:43:19:188 memoria/(9985:10012): size_ 26
+[INFO] 10:43:19:277 memoria/(9985:10012): Alocando size: 15 del carpincho: 0
+[INFO] 10:43:19:277 memoria/(9985:10012): ---------0 en pagina 0---------
+[INFO] 10:43:19:278 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:278 memoria/(9985:10012): ---------0 en pagina 2---------
+[INFO] 10:43:19:278 memoria/(9985:10012): size_ 6
+[INFO] 10:43:19:279 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:279 memoria/(9985:10012): size_ 3
+[INFO] 10:43:19:280 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:280 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:283 memoria/(9985:10012): El frame es el 4 
+
+[INFO] 10:43:19:329 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:329 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:330 memoria/(9985:10012): size_acum: 0
+[INFO] 10:43:19:330 memoria/(9985:10012): offset_data: 20
+[INFO] 10:43:19:330 memoria/(9985:10012): size_a_leer: 12
+[INFO] 10:43:19:373 memoria/(9985:10012): Alocando size: 8 del carpincho: 0
+[INFO] 10:43:19:375 memoria/(9985:10012): ---------0 en pagina 0---------
+[INFO] 10:43:19:376 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:376 memoria/(9985:10012): ---------0 en pagina 2---------
+[INFO] 10:43:19:377 memoria/(9985:10012): size_ 6
+[INFO] 10:43:19:377 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:378 memoria/(9985:10012): size_ 3
+[INFO] 10:43:19:378 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:382 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:383 memoria/(9985:10012): ---------0 en pagina 4---------
+[INFO] 10:43:19:383 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:424 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:425 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:425 memoria/(9985:10012): size total: 15
+[INFO] 10:43:19:426 memoria/(9985:10012): offset_data: 20
+[INFO] 10:43:19:426 memoria/(9985:10012): cant_paginas_a_leer: 1
+[INFO] 10:43:19:427 memoria/(9985:10012): size_ 12
+[INFO] 10:43:19:513 memoria/(9985:10012): Alocando size: 2 del carpincho: 0
+[INFO] 10:43:19:514 memoria/(9985:10012): ---------0 en pagina 0---------
+[INFO] 10:43:19:514 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:515 memoria/(9985:10012): ---------0 en pagina 2---------
+[INFO] 10:43:19:515 memoria/(9985:10012): size_ 6
+[INFO] 10:43:19:515 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:516 memoria/(9985:10012): size_ 3
+[INFO] 10:43:19:517 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:522 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:522 memoria/(9985:10012): ---------0 en pagina 4---------
+[INFO] 10:43:19:522 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:523 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:523 memoria/(9985:10012): El frame es el 5 
+
+[INFO] 10:43:19:565 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:565 memoria/(9985:10012): size_ 4
+[INFO] 10:43:19:566 memoria/(9985:10012): ---------0 en pagina 4---------
+[INFO] 10:43:19:566 memoria/(9985:10012): size_ 5
+[INFO] 10:43:19:567 memoria/(9985:10012): size_acum: 0
+[INFO] 10:43:19:567 memoria/(9985:10012): offset_data: 5
+[INFO] 10:43:19:567 memoria/(9985:10012): size_a_leer: 2
+[INFO] 10:43:19:609 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:609 memoria/(9985:10012): size_ 4
+[INFO] 10:43:19:610 memoria/(9985:10012): ---------0 en pagina 4---------
+[INFO] 10:43:19:610 memoria/(9985:10012): size_ 5
+[INFO] 10:43:19:610 memoria/(9985:10012): size total: 2
+[INFO] 10:43:19:610 memoria/(9985:10012): offset_data: 5
+[INFO] 10:43:19:611 memoria/(9985:10012): cant_paginas_a_leer: 1
+[INFO] 10:43:19:618 memoria/(9985:10012): size_ 2
+[INFO] 10:43:19:705 memoria/(9985:10012): Alocando size: 13 del carpincho: 0
+[INFO] 10:43:19:706 memoria/(9985:10012): ---------0 en pagina 0---------
+[INFO] 10:43:19:708 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:708 memoria/(9985:10012): ---------0 en pagina 2---------
+[INFO] 10:43:19:709 memoria/(9985:10012): size_ 6
+[INFO] 10:43:19:709 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:709 memoria/(9985:10012): size_ 3
+[INFO] 10:43:19:710 memoria/(9985:10012): ---------0 en pagina 3---------
+[INFO] 10:43:19:711 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:712 memoria/(9985:10012): ---------0 en pagina 4---------
+[INFO] 10:43:19:714 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:716 memoria/(9985:10012): size_ 9
+[INFO] 10:43:19:717 memoria/(9985:10012): size_ 1
+[INFO] 10:43:19:717 memoria/(9985:10012): ---------0 en pagina 5---------
+[INFO] 10:43:19:717 memoria/(9985:10012): size_ 8
+[INFO] 10:43:19:718 memoria/(9985:10012): ---------0 en pagina 5---------
+[INFO] 10:43:19:820 memoria/(9985:10012): DISCONNECT!
+[INFO] 10:44:06:757 memoria/(10144:10144): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:44:06:815 memoria/(10144:10144): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 10:44:06:818 memoria/(10144:10144): ------2---------
+
+[INFO] 10:44:06:820 memoria/(10144:10144): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 10:44:08:654 memoria/(10144:10144): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:44:08:767 memoria/(10144:10171): HANDSHAKE
+[INFO] 10:44:08:835 memoria/(10144:10171): Alocando size: 81 del carpincho: 0
+[INFO] 10:44:08:838 memoria/(10144:10171): El frame es el 0 
+
+[INFO] 10:44:08:844 memoria/(10144:10171): El frame es el 1 
+
+[INFO] 10:44:08:845 memoria/(10144:10171): El frame es el 2 
+
+[INFO] 10:44:08:847 memoria/(10144:10171): Allocando primer mitad del hmd en 2
+
+[INFO] 10:44:08:849 memoria/(10144:10171): El frame es el 3 
+
+[INFO] 10:44:08:849 memoria/(10144:10171): Allocando segunda mitad del hmd en 3
+
+[INFO] 10:44:08:893 memoria/(10144:10171): Alocando size: 8 del carpincho: 0
+[INFO] 10:44:08:894 memoria/(10144:10171): ---------0 en pagina 0---------
+[INFO] 10:44:08:897 memoria/(10144:10171): size_ 9
+[INFO] 10:44:08:899 memoria/(10144:10171): ---------0 en pagina 2---------
+[INFO] 10:44:08:900 memoria/(10144:10171): size_ 6
+[INFO] 10:44:08:901 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:08:901 memoria/(10144:10171): size_ 3
+[INFO] 10:44:08:905 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:08:951 memoria/(10144:10171): ---------0 en pagina 0---------
+[INFO] 10:44:08:952 memoria/(10144:10171): size_ 9
+[INFO] 10:44:08:952 memoria/(10144:10171): size_acum: 0
+[INFO] 10:44:08:953 memoria/(10144:10171): offset_data: 9
+[INFO] 10:44:08:953 memoria/(10144:10171): size_a_leer: 23
+[INFO] 10:44:08:954 memoria/(10144:10171): ---------0 en pagina 1---------
+[INFO] 10:44:08:955 memoria/(10144:10171): size_acum: 23
+[INFO] 10:44:08:959 memoria/(10144:10171): offset_data: 0
+[INFO] 10:44:08:960 memoria/(10144:10171): size_a_leer: 32
+[INFO] 10:44:08:961 memoria/(10144:10171): ---------0 en pagina 2---------
+[INFO] 10:44:08:961 memoria/(10144:10171): size_acum: 55
+[INFO] 10:44:08:961 memoria/(10144:10171): offset_data: 0
+[INFO] 10:44:08:962 memoria/(10144:10171): size_a_leer: 26
+[INFO] 10:44:09:013 memoria/(10144:10171): ---------0 en pagina 0---------
+[INFO] 10:44:09:017 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:019 memoria/(10144:10171): size total: 81
+[INFO] 10:44:09:019 memoria/(10144:10171): offset_data: 9
+[INFO] 10:44:09:020 memoria/(10144:10171): cant_paginas_a_leer: 3
+[INFO] 10:44:09:021 memoria/(10144:10171): size_ 23
+[INFO] 10:44:09:022 memoria/(10144:10171): ---------0 en pagina 1---------
+[INFO] 10:44:09:022 memoria/(10144:10171): size_ 32
+[INFO] 10:44:09:022 memoria/(10144:10171): ---------0 en pagina 2---------
+[INFO] 10:44:09:023 memoria/(10144:10171): size_ 26
+[INFO] 10:44:09:109 memoria/(10144:10171): Alocando size: 15 del carpincho: 0
+[INFO] 10:44:09:110 memoria/(10144:10171): ---------0 en pagina 0---------
+[INFO] 10:44:09:110 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:111 memoria/(10144:10171): ---------0 en pagina 2---------
+[INFO] 10:44:09:111 memoria/(10144:10171): size_ 6
+[INFO] 10:44:09:111 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:112 memoria/(10144:10171): size_ 3
+[INFO] 10:44:09:112 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:116 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:118 memoria/(10144:10171): El frame es el 4 
+
+[INFO] 10:44:09:165 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:165 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:166 memoria/(10144:10171): size_acum: 0
+[INFO] 10:44:09:166 memoria/(10144:10171): offset_data: 20
+[INFO] 10:44:09:166 memoria/(10144:10171): size_a_leer: 12
+[INFO] 10:44:09:209 memoria/(10144:10171): Alocando size: 8 del carpincho: 0
+[INFO] 10:44:09:210 memoria/(10144:10171): ---------0 en pagina 0---------
+[INFO] 10:44:09:210 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:210 memoria/(10144:10171): ---------0 en pagina 2---------
+[INFO] 10:44:09:211 memoria/(10144:10171): size_ 6
+[INFO] 10:44:09:211 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:212 memoria/(10144:10171): size_ 3
+[INFO] 10:44:09:212 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:213 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:213 memoria/(10144:10171): ---------0 en pagina 4---------
+[INFO] 10:44:09:214 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:257 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:257 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:257 memoria/(10144:10171): size total: 15
+[INFO] 10:44:09:258 memoria/(10144:10171): offset_data: 20
+[INFO] 10:44:09:258 memoria/(10144:10171): cant_paginas_a_leer: 2
+[INFO] 10:44:09:258 memoria/(10144:10171): size_ 12
+[INFO] 10:44:09:259 memoria/(10144:10171): ---------0 en pagina 4---------
+[INFO] 10:44:09:260 memoria/(10144:10171): size_ 3
+[INFO] 10:44:09:345 memoria/(10144:10171): Alocando size: 2 del carpincho: 0
+[INFO] 10:44:09:346 memoria/(10144:10171): ---------0 en pagina 0---------
+[INFO] 10:44:09:346 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:347 memoria/(10144:10171): ---------0 en pagina 2---------
+[INFO] 10:44:09:347 memoria/(10144:10171): size_ 6
+[INFO] 10:44:09:348 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:348 memoria/(10144:10171): size_ 3
+[INFO] 10:44:09:348 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:349 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:349 memoria/(10144:10171): ---------0 en pagina 4---------
+[INFO] 10:44:09:350 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:350 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:351 memoria/(10144:10171): El frame es el 5 
+
+[INFO] 10:44:09:393 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:393 memoria/(10144:10171): size_ 4
+[INFO] 10:44:09:394 memoria/(10144:10171): ---------0 en pagina 4---------
+[INFO] 10:44:09:394 memoria/(10144:10171): size_ 5
+[INFO] 10:44:09:395 memoria/(10144:10171): size_acum: 0
+[INFO] 10:44:09:395 memoria/(10144:10171): offset_data: 5
+[INFO] 10:44:09:396 memoria/(10144:10171): size_a_leer: 2
+[INFO] 10:44:09:436 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:437 memoria/(10144:10171): size_ 4
+[INFO] 10:44:09:437 memoria/(10144:10171): ---------0 en pagina 4---------
+[INFO] 10:44:09:438 memoria/(10144:10171): size_ 5
+[INFO] 10:44:09:438 memoria/(10144:10171): size total: 2
+[INFO] 10:44:09:438 memoria/(10144:10171): offset_data: 5
+[INFO] 10:44:09:439 memoria/(10144:10171): cant_paginas_a_leer: 2
+[INFO] 10:44:09:439 memoria/(10144:10171): size_ 2
+[INFO] 10:44:09:440 memoria/(10144:10171): ---------0 en pagina 4---------
+[INFO] 10:44:09:440 memoria/(10144:10171): size_ 0
+[INFO] 10:44:09:529 memoria/(10144:10171): Alocando size: 13 del carpincho: 0
+[INFO] 10:44:09:530 memoria/(10144:10171): ---------0 en pagina 0---------
+[INFO] 10:44:09:531 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:535 memoria/(10144:10171): ---------0 en pagina 2---------
+[INFO] 10:44:09:535 memoria/(10144:10171): size_ 6
+[INFO] 10:44:09:536 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:536 memoria/(10144:10171): size_ 3
+[INFO] 10:44:09:537 memoria/(10144:10171): ---------0 en pagina 3---------
+[INFO] 10:44:09:537 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:538 memoria/(10144:10171): ---------0 en pagina 4---------
+[INFO] 10:44:09:538 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:539 memoria/(10144:10171): size_ 9
+[INFO] 10:44:09:539 memoria/(10144:10171): size_ 1
+[INFO] 10:44:09:539 memoria/(10144:10171): ---------0 en pagina 5---------
+[INFO] 10:44:09:540 memoria/(10144:10171): size_ 8
+[INFO] 10:44:09:540 memoria/(10144:10171): ---------0 en pagina 5---------
+[INFO] 10:44:09:598 memoria/(10144:10171): DISCONNECT!
+[INFO] 10:47:40:932 memoria/(10511:10511): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:47:40:991 memoria/(10511:10511): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 10:47:40:995 memoria/(10511:10511): ------2---------
+
+[INFO] 10:47:40:997 memoria/(10511:10511): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 10:47:44:143 memoria/(10511:10511): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:47:44:260 memoria/(10511:10539): HANDSHAKE
+[INFO] 10:47:44:327 memoria/(10511:10539): Alocando size: 81 del carpincho: 0
+[INFO] 10:47:44:329 memoria/(10511:10539): El frame es el 0 
+
+[INFO] 10:47:44:335 memoria/(10511:10539): El frame es el 1 
+
+[INFO] 10:47:44:336 memoria/(10511:10539): El frame es el 2 
+
+[INFO] 10:47:44:337 memoria/(10511:10539): Allocando primer mitad del hmd en 2
+
+[INFO] 10:47:44:339 memoria/(10511:10539): El frame es el 3 
+
+[INFO] 10:47:44:339 memoria/(10511:10539): Allocando segunda mitad del hmd en 3
+
+[INFO] 10:47:44:385 memoria/(10511:10539): Alocando size: 8 del carpincho: 0
+[INFO] 10:47:44:386 memoria/(10511:10539): ---------0 en pagina 0---------
+[INFO] 10:47:44:389 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:390 memoria/(10511:10539): ---------0 en pagina 2---------
+[INFO] 10:47:44:391 memoria/(10511:10539): size_ 6
+[INFO] 10:47:44:392 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:393 memoria/(10511:10539): size_ 3
+[INFO] 10:47:44:396 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:443 memoria/(10511:10539): ---------0 en pagina 0---------
+[INFO] 10:47:44:444 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:445 memoria/(10511:10539): size_acum: 0
+[INFO] 10:47:44:445 memoria/(10511:10539): offset_data: 9
+[INFO] 10:47:44:446 memoria/(10511:10539): size_a_leer: 23
+[INFO] 10:47:44:451 memoria/(10511:10539): ---------0 en pagina 1---------
+[INFO] 10:47:44:452 memoria/(10511:10539): size_acum: 23
+[INFO] 10:47:44:452 memoria/(10511:10539): offset_data: 0
+[INFO] 10:47:44:452 memoria/(10511:10539): size_a_leer: 32
+[INFO] 10:47:44:453 memoria/(10511:10539): ---------0 en pagina 2---------
+[INFO] 10:47:44:453 memoria/(10511:10539): size_acum: 55
+[INFO] 10:47:44:454 memoria/(10511:10539): offset_data: 0
+[INFO] 10:47:44:454 memoria/(10511:10539): size_a_leer: 26
+[INFO] 10:47:44:498 memoria/(10511:10539): ---------0 en pagina 0---------
+[INFO] 10:47:44:498 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:499 memoria/(10511:10539): size total: 81
+[INFO] 10:47:44:500 memoria/(10511:10539): offset_data: 9
+[INFO] 10:47:44:500 memoria/(10511:10539): cant_paginas_a_leer: 3
+[INFO] 10:47:44:501 memoria/(10511:10539): size_ 23
+[INFO] 10:47:44:502 memoria/(10511:10539): ---------0 en pagina 1---------
+[INFO] 10:47:44:503 memoria/(10511:10539): size_ 32
+[INFO] 10:47:44:503 memoria/(10511:10539): ---------0 en pagina 2---------
+[INFO] 10:47:44:504 memoria/(10511:10539): size_ 26
+[INFO] 10:47:44:593 memoria/(10511:10539): Alocando size: 15 del carpincho: 0
+[INFO] 10:47:44:594 memoria/(10511:10539): ---------0 en pagina 0---------
+[INFO] 10:47:44:595 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:595 memoria/(10511:10539): ---------0 en pagina 2---------
+[INFO] 10:47:44:596 memoria/(10511:10539): size_ 6
+[INFO] 10:47:44:596 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:597 memoria/(10511:10539): size_ 3
+[INFO] 10:47:44:597 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:598 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:600 memoria/(10511:10539): El frame es el 4 
+
+[INFO] 10:47:44:645 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:645 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:645 memoria/(10511:10539): size_acum: 0
+[INFO] 10:47:44:646 memoria/(10511:10539): offset_data: 20
+[INFO] 10:47:44:646 memoria/(10511:10539): size_a_leer: 12
+[INFO] 10:47:44:689 memoria/(10511:10539): Alocando size: 8 del carpincho: 0
+[INFO] 10:47:44:689 memoria/(10511:10539): ---------0 en pagina 0---------
+[INFO] 10:47:44:690 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:692 memoria/(10511:10539): ---------0 en pagina 2---------
+[INFO] 10:47:44:692 memoria/(10511:10539): size_ 6
+[INFO] 10:47:44:693 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:694 memoria/(10511:10539): size_ 3
+[INFO] 10:47:44:694 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:695 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:695 memoria/(10511:10539): ---------0 en pagina 4---------
+[INFO] 10:47:44:696 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:741 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:741 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:743 memoria/(10511:10539): size total: 15
+[INFO] 10:47:44:744 memoria/(10511:10539): offset_data: 20
+[INFO] 10:47:44:744 memoria/(10511:10539): cant_paginas_a_leer: 2
+[INFO] 10:47:44:744 memoria/(10511:10539): size_ 12
+[INFO] 10:47:44:745 memoria/(10511:10539): ---------0 en pagina 4---------
+[INFO] 10:47:44:746 memoria/(10511:10539): size_ 3
+[INFO] 10:47:44:833 memoria/(10511:10539): Alocando size: 2 del carpincho: 0
+[INFO] 10:47:44:834 memoria/(10511:10539): ---------0 en pagina 0---------
+[INFO] 10:47:44:834 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:834 memoria/(10511:10539): ---------0 en pagina 2---------
+[INFO] 10:47:44:835 memoria/(10511:10539): size_ 6
+[INFO] 10:47:44:835 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:836 memoria/(10511:10539): size_ 3
+[INFO] 10:47:44:836 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:837 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:837 memoria/(10511:10539): ---------0 en pagina 4---------
+[INFO] 10:47:44:837 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:837 memoria/(10511:10539): size_ 9
+[INFO] 10:47:44:838 memoria/(10511:10539): El frame es el 5 
+
+[INFO] 10:47:44:881 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:881 memoria/(10511:10539): size_ 4
+[INFO] 10:47:44:882 memoria/(10511:10539): ---------0 en pagina 4---------
+[INFO] 10:47:44:882 memoria/(10511:10539): size_ 5
+[INFO] 10:47:44:883 memoria/(10511:10539): size_acum: 0
+[INFO] 10:47:44:884 memoria/(10511:10539): offset_data: 5
+[INFO] 10:47:44:884 memoria/(10511:10539): size_a_leer: 2
+[INFO] 10:47:44:929 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:44:929 memoria/(10511:10539): size_ 4
+[INFO] 10:47:44:929 memoria/(10511:10539): ---------0 en pagina 4---------
+[INFO] 10:47:44:930 memoria/(10511:10539): size_ 5
+[INFO] 10:47:44:930 memoria/(10511:10539): size total: 2
+[INFO] 10:47:44:930 memoria/(10511:10539): offset_data: 5
+[INFO] 10:47:44:930 memoria/(10511:10539): cant_paginas_a_leer: 2
+[INFO] 10:47:44:931 memoria/(10511:10539): size_ 2
+[INFO] 10:47:44:932 memoria/(10511:10539): ---------0 en pagina 4---------
+[INFO] 10:47:44:932 memoria/(10511:10539): size_ 0
+[INFO] 10:47:45:017 memoria/(10511:10539): Alocando size: 13 del carpincho: 0
+[INFO] 10:47:45:020 memoria/(10511:10539): ---------0 en pagina 0---------
+[INFO] 10:47:45:021 memoria/(10511:10539): size_ 9
+[INFO] 10:47:45:021 memoria/(10511:10539): ---------0 en pagina 2---------
+[INFO] 10:47:45:022 memoria/(10511:10539): size_ 6
+[INFO] 10:47:45:022 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:45:023 memoria/(10511:10539): size_ 3
+[INFO] 10:47:45:023 memoria/(10511:10539): ---------0 en pagina 3---------
+[INFO] 10:47:45:024 memoria/(10511:10539): size_ 9
+[INFO] 10:47:45:024 memoria/(10511:10539): ---------0 en pagina 4---------
+[INFO] 10:47:45:025 memoria/(10511:10539): size_ 9
+[INFO] 10:47:45:025 memoria/(10511:10539): size_ 9
+[INFO] 10:47:45:026 memoria/(10511:10539): size_ 1
+[INFO] 10:47:45:026 memoria/(10511:10539): ---------0 en pagina 5---------
+[INFO] 10:47:45:027 memoria/(10511:10539): size_ 8
+[INFO] 10:47:45:028 memoria/(10511:10539): ---------0 en pagina 5---------
+[INFO] 10:47:45:086 memoria/(10511:10539): DISCONNECT!
+[INFO] 10:49:24:905 memoria/(10774:10774): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:49:24:978 memoria/(10774:10774): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 10:49:24:981 memoria/(10774:10774): ------2---------
+
+[INFO] 10:49:24:983 memoria/(10774:10774): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 10:49:26:514 memoria/(10774:10774): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:49:26:630 memoria/(10774:10807): HANDSHAKE
+[INFO] 10:49:26:694 memoria/(10774:10807): Alocando size: 81 del carpincho: 0
+[INFO] 10:49:26:696 memoria/(10774:10807): El frame es el 0 
+
+[INFO] 10:49:26:702 memoria/(10774:10807): El frame es el 1 
+
+[INFO] 10:49:26:702 memoria/(10774:10807): El frame es el 2 
+
+[INFO] 10:49:26:703 memoria/(10774:10807): Allocando primer mitad del hmd en 2
+
+[INFO] 10:49:26:704 memoria/(10774:10807): El frame es el 3 
+
+[INFO] 10:49:26:705 memoria/(10774:10807): Allocando segunda mitad del hmd en 3
+
+[INFO] 10:49:26:749 memoria/(10774:10807): Alocando size: 8 del carpincho: 0
+[INFO] 10:49:26:751 memoria/(10774:10807): ---------0 en pagina 0---------
+[INFO] 10:49:26:753 memoria/(10774:10807): size_ 9
+[INFO] 10:49:26:755 memoria/(10774:10807): ---------0 en pagina 2---------
+[INFO] 10:49:26:756 memoria/(10774:10807): size_ 6
+[INFO] 10:49:26:757 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:26:757 memoria/(10774:10807): size_ 3
+[INFO] 10:49:26:762 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:26:810 memoria/(10774:10807): ---------0 en pagina 0---------
+[INFO] 10:49:26:811 memoria/(10774:10807): size_ 9
+[INFO] 10:49:26:812 memoria/(10774:10807): size_acum: 0
+[INFO] 10:49:26:812 memoria/(10774:10807): offset_data: 9
+[INFO] 10:49:26:813 memoria/(10774:10807): size_a_leer: 23
+[INFO] 10:49:26:814 memoria/(10774:10807): ---------0 en pagina 1---------
+[INFO] 10:49:26:814 memoria/(10774:10807): size_acum: 23
+[INFO] 10:49:26:814 memoria/(10774:10807): offset_data: 0
+[INFO] 10:49:26:815 memoria/(10774:10807): size_a_leer: 32
+[INFO] 10:49:26:815 memoria/(10774:10807): ---------0 en pagina 2---------
+[INFO] 10:49:26:815 memoria/(10774:10807): size_acum: 55
+[INFO] 10:49:26:816 memoria/(10774:10807): offset_data: 0
+[INFO] 10:49:26:816 memoria/(10774:10807): size_a_leer: 26
+[INFO] 10:49:26:862 memoria/(10774:10807): ---------0 en pagina 0---------
+[INFO] 10:49:26:862 memoria/(10774:10807): size_ 9
+[INFO] 10:49:26:863 memoria/(10774:10807): size total: 81
+[INFO] 10:49:26:864 memoria/(10774:10807): offset_data: 9
+[INFO] 10:49:26:865 memoria/(10774:10807): cant_paginas_a_leer: 3
+[INFO] 10:49:26:865 memoria/(10774:10807): size_acum: 0
+[INFO] 10:49:26:866 memoria/(10774:10807): size_ 23
+[INFO] 10:49:26:867 memoria/(10774:10807): ---------0 en pagina 1---------
+[INFO] 10:49:26:868 memoria/(10774:10807): size_acum: 23
+[INFO] 10:49:26:868 memoria/(10774:10807): size_ 32
+[INFO] 10:49:26:869 memoria/(10774:10807): ---------0 en pagina 2---------
+[INFO] 10:49:26:873 memoria/(10774:10807): size_acum: 55
+[INFO] 10:49:26:874 memoria/(10774:10807): size_ 26
+[INFO] 10:49:26:962 memoria/(10774:10807): Alocando size: 15 del carpincho: 0
+[INFO] 10:49:26:963 memoria/(10774:10807): ---------0 en pagina 0---------
+[INFO] 10:49:26:964 memoria/(10774:10807): size_ 9
+[INFO] 10:49:26:965 memoria/(10774:10807): ---------0 en pagina 2---------
+[INFO] 10:49:26:965 memoria/(10774:10807): size_ 6
+[INFO] 10:49:26:966 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:26:966 memoria/(10774:10807): size_ 3
+[INFO] 10:49:26:968 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:26:969 memoria/(10774:10807): size_ 9
+[INFO] 10:49:26:971 memoria/(10774:10807): El frame es el 4 
+
+[INFO] 10:49:27:018 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:020 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:020 memoria/(10774:10807): size_acum: 0
+[INFO] 10:49:27:020 memoria/(10774:10807): offset_data: 20
+[INFO] 10:49:27:021 memoria/(10774:10807): size_a_leer: 12
+[INFO] 10:49:27:065 memoria/(10774:10807): Alocando size: 8 del carpincho: 0
+[INFO] 10:49:27:066 memoria/(10774:10807): ---------0 en pagina 0---------
+[INFO] 10:49:27:066 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:067 memoria/(10774:10807): ---------0 en pagina 2---------
+[INFO] 10:49:27:067 memoria/(10774:10807): size_ 6
+[INFO] 10:49:27:068 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:070 memoria/(10774:10807): size_ 3
+[INFO] 10:49:27:071 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:071 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:071 memoria/(10774:10807): ---------0 en pagina 4---------
+[INFO] 10:49:27:072 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:113 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:113 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:113 memoria/(10774:10807): size total: 15
+[INFO] 10:49:27:114 memoria/(10774:10807): offset_data: 20
+[INFO] 10:49:27:114 memoria/(10774:10807): cant_paginas_a_leer: 2
+[INFO] 10:49:27:114 memoria/(10774:10807): size_acum: 0
+[INFO] 10:49:27:115 memoria/(10774:10807): size_ 12
+[INFO] 10:49:27:115 memoria/(10774:10807): ---------0 en pagina 4---------
+[INFO] 10:49:27:116 memoria/(10774:10807): size_acum: 12
+[INFO] 10:49:27:116 memoria/(10774:10807): size_ 3
+[INFO] 10:49:27:205 memoria/(10774:10807): Alocando size: 2 del carpincho: 0
+[INFO] 10:49:27:206 memoria/(10774:10807): ---------0 en pagina 0---------
+[INFO] 10:49:27:206 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:207 memoria/(10774:10807): ---------0 en pagina 2---------
+[INFO] 10:49:27:207 memoria/(10774:10807): size_ 6
+[INFO] 10:49:27:208 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:208 memoria/(10774:10807): size_ 3
+[INFO] 10:49:27:209 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:209 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:209 memoria/(10774:10807): ---------0 en pagina 4---------
+[INFO] 10:49:27:209 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:210 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:210 memoria/(10774:10807): El frame es el 5 
+
+[INFO] 10:49:27:253 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:253 memoria/(10774:10807): size_ 4
+[INFO] 10:49:27:254 memoria/(10774:10807): ---------0 en pagina 4---------
+[INFO] 10:49:27:255 memoria/(10774:10807): size_ 5
+[INFO] 10:49:27:256 memoria/(10774:10807): size_acum: 0
+[INFO] 10:49:27:256 memoria/(10774:10807): offset_data: 5
+[INFO] 10:49:27:256 memoria/(10774:10807): size_a_leer: 2
+[INFO] 10:49:27:301 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:302 memoria/(10774:10807): size_ 4
+[INFO] 10:49:27:302 memoria/(10774:10807): ---------0 en pagina 4---------
+[INFO] 10:49:27:302 memoria/(10774:10807): size_ 5
+[INFO] 10:49:27:303 memoria/(10774:10807): size total: 2
+[INFO] 10:49:27:303 memoria/(10774:10807): offset_data: 5
+[INFO] 10:49:27:304 memoria/(10774:10807): cant_paginas_a_leer: 2
+[INFO] 10:49:27:304 memoria/(10774:10807): size_acum: 0
+[INFO] 10:49:27:304 memoria/(10774:10807): size_ 2
+[INFO] 10:49:27:305 memoria/(10774:10807): ---------0 en pagina 4---------
+[INFO] 10:49:27:305 memoria/(10774:10807): size_acum: 2
+[INFO] 10:49:27:306 memoria/(10774:10807): size_ 0
+[INFO] 10:49:27:393 memoria/(10774:10807): Alocando size: 13 del carpincho: 0
+[INFO] 10:49:27:393 memoria/(10774:10807): ---------0 en pagina 0---------
+[INFO] 10:49:27:394 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:394 memoria/(10774:10807): ---------0 en pagina 2---------
+[INFO] 10:49:27:395 memoria/(10774:10807): size_ 6
+[INFO] 10:49:27:395 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:395 memoria/(10774:10807): size_ 3
+[INFO] 10:49:27:396 memoria/(10774:10807): ---------0 en pagina 3---------
+[INFO] 10:49:27:396 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:396 memoria/(10774:10807): ---------0 en pagina 4---------
+[INFO] 10:49:27:397 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:397 memoria/(10774:10807): size_ 9
+[INFO] 10:49:27:397 memoria/(10774:10807): size_ 1
+[INFO] 10:49:27:398 memoria/(10774:10807): ---------0 en pagina 5---------
+[INFO] 10:49:27:398 memoria/(10774:10807): size_ 8
+[INFO] 10:49:27:398 memoria/(10774:10807): ---------0 en pagina 5---------
+[INFO] 10:49:27:455 memoria/(10774:10807): DISCONNECT!
+[INFO] 10:56:12:700 memoria/(11381:11381): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:56:12:755 memoria/(11381:11381): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 10:56:12:759 memoria/(11381:11381): ------2---------
+
+[INFO] 10:56:12:760 memoria/(11381:11381): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 10:56:16:767 memoria/(11381:11381): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:56:16:879 memoria/(11381:11414): HANDSHAKE
+[INFO] 10:56:16:946 memoria/(11381:11414): Alocando size: 81 del carpincho: 0
+[INFO] 10:56:16:950 memoria/(11381:11414): El frame es el 0 
+
+[INFO] 10:56:16:955 memoria/(11381:11414): El frame es el 1 
+
+[INFO] 10:56:16:956 memoria/(11381:11414): El frame es el 2 
+
+[INFO] 10:56:16:956 memoria/(11381:11414): Allocando primer mitad del hmd en 2
+
+[INFO] 10:56:16:957 memoria/(11381:11414): El frame es el 3 
+
+[INFO] 10:56:16:959 memoria/(11381:11414): Allocando segunda mitad del hmd en 3
+
+[INFO] 10:56:17:005 memoria/(11381:11414): Alocando size: 8 del carpincho: 0
+[INFO] 10:56:17:008 memoria/(11381:11414): ---------0 en pagina 0---------
+[INFO] 10:56:17:010 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:013 memoria/(11381:11414): ---------0 en pagina 2---------
+[INFO] 10:56:17:014 memoria/(11381:11414): size_ 6
+[INFO] 10:56:17:015 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:016 memoria/(11381:11414): size_ 3
+[INFO] 10:56:17:020 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:067 memoria/(11381:11414): ---------0 en pagina 0---------
+[INFO] 10:56:17:068 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:069 memoria/(11381:11414): size_acum: 0
+[INFO] 10:56:17:069 memoria/(11381:11414): offset_data: 9
+[INFO] 10:56:17:069 memoria/(11381:11414): size_a_leer: 23
+[INFO] 10:56:17:070 memoria/(11381:11414): ---------0 en pagina 1---------
+[INFO] 10:56:17:071 memoria/(11381:11414): size_acum: 23
+[INFO] 10:56:17:071 memoria/(11381:11414): offset_data: 0
+[INFO] 10:56:17:072 memoria/(11381:11414): size_a_leer: 32
+[INFO] 10:56:17:072 memoria/(11381:11414): ---------0 en pagina 2---------
+[INFO] 10:56:17:073 memoria/(11381:11414): size_acum: 55
+[INFO] 10:56:17:073 memoria/(11381:11414): offset_data: 0
+[INFO] 10:56:17:073 memoria/(11381:11414): size_a_leer: 26
+[INFO] 10:56:17:118 memoria/(11381:11414): ---------0 en pagina 0---------
+[INFO] 10:56:17:119 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:119 memoria/(11381:11414): size total: 81
+[INFO] 10:56:17:120 memoria/(11381:11414): offset_data: 9
+[INFO] 10:56:17:120 memoria/(11381:11414): cant_paginas_a_leer: 3
+[INFO] 10:56:17:121 memoria/(11381:11414): size_acum: 0
+[INFO] 10:56:17:122 memoria/(11381:11414): size_ 23
+[INFO] 10:56:17:123 memoria/(11381:11414): ---------0 en pagina 1---------
+[INFO] 10:56:17:123 memoria/(11381:11414): size_acum: 23
+[INFO] 10:56:17:124 memoria/(11381:11414): size_ 32
+[INFO] 10:56:17:124 memoria/(11381:11414): ---------0 en pagina 2---------
+[INFO] 10:56:17:125 memoria/(11381:11414): size_acum: 55
+[INFO] 10:56:17:128 memoria/(11381:11414): size_ 26
+[INFO] 10:56:17:217 memoria/(11381:11414): Alocando size: 18 del carpincho: 0
+[INFO] 10:56:17:218 memoria/(11381:11414): ---------0 en pagina 0---------
+[INFO] 10:56:17:218 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:219 memoria/(11381:11414): ---------0 en pagina 2---------
+[INFO] 10:56:17:219 memoria/(11381:11414): size_ 6
+[INFO] 10:56:17:220 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:220 memoria/(11381:11414): size_ 3
+[INFO] 10:56:17:221 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:221 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:224 memoria/(11381:11414): El frame es el 4 
+
+[INFO] 10:56:17:269 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:269 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:270 memoria/(11381:11414): size_acum: 0
+[INFO] 10:56:17:270 memoria/(11381:11414): offset_data: 20
+[INFO] 10:56:17:271 memoria/(11381:11414): size_a_leer: 12
+[INFO] 10:56:17:315 memoria/(11381:11414): Alocando size: 8 del carpincho: 0
+[INFO] 10:56:17:316 memoria/(11381:11414): ---------0 en pagina 0---------
+[INFO] 10:56:17:316 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:317 memoria/(11381:11414): ---------0 en pagina 2---------
+[INFO] 10:56:17:317 memoria/(11381:11414): size_ 6
+[INFO] 10:56:17:318 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:318 memoria/(11381:11414): size_ 3
+[INFO] 10:56:17:319 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:319 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:320 memoria/(11381:11414): ---------0 en pagina 4---------
+[INFO] 10:56:17:320 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:365 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:366 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:366 memoria/(11381:11414): size total: 18
+[INFO] 10:56:17:367 memoria/(11381:11414): offset_data: 20
+[INFO] 10:56:17:367 memoria/(11381:11414): cant_paginas_a_leer: 2
+[INFO] 10:56:17:368 memoria/(11381:11414): size_acum: 0
+[INFO] 10:56:17:368 memoria/(11381:11414): size_ 12
+[INFO] 10:56:17:368 memoria/(11381:11414): ---------0 en pagina 4---------
+[INFO] 10:56:17:369 memoria/(11381:11414): size_acum: 12
+[INFO] 10:56:17:369 memoria/(11381:11414): size_ 6
+[INFO] 10:56:17:457 memoria/(11381:11414): Alocando size: 2 del carpincho: 0
+[INFO] 10:56:17:458 memoria/(11381:11414): ---------0 en pagina 0---------
+[INFO] 10:56:17:458 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:458 memoria/(11381:11414): ---------0 en pagina 2---------
+[INFO] 10:56:17:459 memoria/(11381:11414): size_ 6
+[INFO] 10:56:17:459 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:460 memoria/(11381:11414): size_ 3
+[INFO] 10:56:17:460 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:461 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:461 memoria/(11381:11414): ---------0 en pagina 4---------
+[INFO] 10:56:17:462 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:463 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:464 memoria/(11381:11414): El frame es el 5 
+
+[INFO] 10:56:17:509 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:509 memoria/(11381:11414): size_ 4
+[INFO] 10:56:17:510 memoria/(11381:11414): ---------0 en pagina 4---------
+[INFO] 10:56:17:510 memoria/(11381:11414): size_ 5
+[INFO] 10:56:17:511 memoria/(11381:11414): size_acum: 0
+[INFO] 10:56:17:511 memoria/(11381:11414): offset_data: 5
+[INFO] 10:56:17:512 memoria/(11381:11414): size_a_leer: 2
+[INFO] 10:56:17:557 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:557 memoria/(11381:11414): size_ 4
+[INFO] 10:56:17:558 memoria/(11381:11414): ---------0 en pagina 4---------
+[INFO] 10:56:17:558 memoria/(11381:11414): size_ 5
+[INFO] 10:56:17:559 memoria/(11381:11414): size total: 2
+[INFO] 10:56:17:559 memoria/(11381:11414): offset_data: 5
+[INFO] 10:56:17:559 memoria/(11381:11414): cant_paginas_a_leer: 2
+[INFO] 10:56:17:560 memoria/(11381:11414): size_acum: 0
+[INFO] 10:56:17:560 memoria/(11381:11414): size_ 2
+[INFO] 10:56:17:561 memoria/(11381:11414): ---------0 en pagina 4---------
+[INFO] 10:56:17:561 memoria/(11381:11414): size_acum: 2
+[INFO] 10:56:17:562 memoria/(11381:11414): size_ 0
+[INFO] 10:56:17:649 memoria/(11381:11414): Alocando size: 13 del carpincho: 0
+[INFO] 10:56:17:650 memoria/(11381:11414): ---------0 en pagina 0---------
+[INFO] 10:56:17:651 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:652 memoria/(11381:11414): ---------0 en pagina 2---------
+[INFO] 10:56:17:652 memoria/(11381:11414): size_ 6
+[INFO] 10:56:17:653 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:654 memoria/(11381:11414): size_ 3
+[INFO] 10:56:17:654 memoria/(11381:11414): ---------0 en pagina 3---------
+[INFO] 10:56:17:654 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:655 memoria/(11381:11414): ---------0 en pagina 4---------
+[INFO] 10:56:17:655 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:655 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:656 memoria/(11381:11414): ---------0 en pagina 5---------
+[INFO] 10:56:17:656 memoria/(11381:11414): size_ 9
+[INFO] 10:56:17:657 memoria/(11381:11414): El frame es el 6 
+
+[INFO] 10:56:17:707 memoria/(11381:11414): DISCONNECT!
+[INFO] 11:01:40:647 memoria/(11900:11900): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 11:01:40:705 memoria/(11900:11900): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 11:01:40:709 memoria/(11900:11900): ------2---------
+
+[INFO] 11:01:40:711 memoria/(11900:11900): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 11:01:43:880 memoria/(11900:11900): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 11:01:43:995 memoria/(11900:11930): HANDSHAKE
+[INFO] 11:01:44:059 memoria/(11900:11930): Alocando size: 81 del carpincho: 0
+[INFO] 11:01:44:062 memoria/(11900:11930): El frame es el 0 
+
+[INFO] 11:01:44:069 memoria/(11900:11930): El frame es el 1 
+
+[INFO] 11:01:44:071 memoria/(11900:11930): El frame es el 2 
+
+[INFO] 11:01:44:072 memoria/(11900:11930): Allocando primer mitad del hmd en 2
+
+[INFO] 11:01:44:073 memoria/(11900:11930): El frame es el 3 
+
+[INFO] 11:01:44:074 memoria/(11900:11930): Allocando segunda mitad del hmd en 3
+
+[INFO] 11:01:44:117 memoria/(11900:11930): Alocando size: 8 del carpincho: 0
+[INFO] 11:01:44:120 memoria/(11900:11930): ---------0 en pagina 0---------
+[INFO] 11:01:44:123 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:124 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:125 memoria/(11900:11930): ---------0 en pagina 2---------
+[INFO] 11:01:44:126 memoria/(11900:11930): size_ 6
+[INFO] 11:01:44:126 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:127 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:128 memoria/(11900:11930): size_ 3
+[INFO] 11:01:44:128 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:131 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:178 memoria/(11900:11930): ---------0 en pagina 0---------
+[INFO] 11:01:44:179 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:179 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:180 memoria/(11900:11930): size_acum: 0
+[INFO] 11:01:44:184 memoria/(11900:11930): offset_data: 9
+[INFO] 11:01:44:184 memoria/(11900:11930): size_a_leer: 23
+[INFO] 11:01:44:185 memoria/(11900:11930): ---------0 en pagina 1---------
+[INFO] 11:01:44:186 memoria/(11900:11930): size_acum: 23
+[INFO] 11:01:44:186 memoria/(11900:11930): offset_data: 0
+[INFO] 11:01:44:187 memoria/(11900:11930): size_a_leer: 32
+[INFO] 11:01:44:187 memoria/(11900:11930): ---------0 en pagina 2---------
+[INFO] 11:01:44:187 memoria/(11900:11930): size_acum: 55
+[INFO] 11:01:44:188 memoria/(11900:11930): offset_data: 0
+[INFO] 11:01:44:188 memoria/(11900:11930): size_a_leer: 26
+[INFO] 11:01:44:230 memoria/(11900:11930): ---------0 en pagina 0---------
+[INFO] 11:01:44:231 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:231 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:232 memoria/(11900:11930): size total: 81
+[INFO] 11:01:44:232 memoria/(11900:11930): offset_data: 9
+[INFO] 11:01:44:233 memoria/(11900:11930): cant_paginas_a_leer: 3
+[INFO] 11:01:44:233 memoria/(11900:11930): size_acum: 0
+[INFO] 11:01:44:234 memoria/(11900:11930): size_ 23
+[INFO] 11:01:44:236 memoria/(11900:11930): aaaa: Lorem ipsum dolor sit a
+[INFO] 11:01:44:237 memoria/(11900:11930): ---------0 en pagina 1---------
+[INFO] 11:01:44:238 memoria/(11900:11930): size_acum: 23
+[INFO] 11:01:44:238 memoria/(11900:11930): size_ 32
+[INFO] 11:01:44:239 memoria/(11900:11930): aaaa: met, consectetur adipiscing elit
+[INFO] 11:01:44:239 memoria/(11900:11930): ---------0 en pagina 2---------
+[INFO] 11:01:44:239 memoria/(11900:11930): size_acum: 55
+[INFO] 11:01:44:239 memoria/(11900:11930): size_ 26
+[INFO] 11:01:44:240 memoria/(11900:11930): aaaa: . Donec et mollis libero.
+[INFO] 11:01:44:329 memoria/(11900:11930): Alocando size: 18 del carpincho: 0
+[INFO] 11:01:44:330 memoria/(11900:11930): ---------0 en pagina 0---------
+[INFO] 11:01:44:330 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:331 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:331 memoria/(11900:11930): ---------0 en pagina 2---------
+[INFO] 11:01:44:332 memoria/(11900:11930): size_ 6
+[INFO] 11:01:44:332 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:333 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:333 memoria/(11900:11930): size_ 3
+[INFO] 11:01:44:334 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:334 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:334 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:335 memoria/(11900:11930): aaaa: Z
+[INFO] 11:01:44:338 memoria/(11900:11930): El frame es el 4 
+
+[INFO] 11:01:44:383 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:383 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:383 memoria/(11900:11930): aaaa: Z
+[INFO] 11:01:44:384 memoria/(11900:11930): size_acum: 0
+[INFO] 11:01:44:385 memoria/(11900:11930): offset_data: 20
+[INFO] 11:01:44:385 memoria/(11900:11930): size_a_leer: 12
+[INFO] 11:01:44:429 memoria/(11900:11930): Alocando size: 8 del carpincho: 0
+[INFO] 11:01:44:430 memoria/(11900:11930): ---------0 en pagina 0---------
+[INFO] 11:01:44:430 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:430 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:431 memoria/(11900:11930): ---------0 en pagina 2---------
+[INFO] 11:01:44:431 memoria/(11900:11930): size_ 6
+[INFO] 11:01:44:432 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:433 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:433 memoria/(11900:11930): size_ 3
+[INFO] 11:01:44:433 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:434 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:436 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:436 memoria/(11900:11930): aaaa: Z
+[INFO] 11:01:44:437 memoria/(11900:11930): ---------0 en pagina 4---------
+[INFO] 11:01:44:437 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:437 memoria/(11900:11930): aaaa: k
+[INFO] 11:01:44:481 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:481 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:482 memoria/(11900:11930): aaaa: Z
+[INFO] 11:01:44:482 memoria/(11900:11930): size total: 18
+[INFO] 11:01:44:482 memoria/(11900:11930): offset_data: 20
+[INFO] 11:01:44:483 memoria/(11900:11930): cant_paginas_a_leer: 2
+[INFO] 11:01:44:483 memoria/(11900:11930): size_acum: 0
+[INFO] 11:01:44:483 memoria/(11900:11930): size_ 12
+[INFO] 11:01:44:484 memoria/(11900:11930): aaaa: Ahi va la ba
+[INFO] 11:01:44:485 memoria/(11900:11930): ---------0 en pagina 4---------
+[INFO] 11:01:44:485 memoria/(11900:11930): size_acum: 12
+[INFO] 11:01:44:486 memoria/(11900:11930): size_ 6
+[INFO] 11:01:44:486 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:573 memoria/(11900:11930): Alocando size: 2 del carpincho: 0
+[INFO] 11:01:44:574 memoria/(11900:11930): ---------0 en pagina 0---------
+[INFO] 11:01:44:575 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:575 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:576 memoria/(11900:11930): ---------0 en pagina 2---------
+[INFO] 11:01:44:576 memoria/(11900:11930): size_ 6
+[INFO] 11:01:44:576 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:577 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:577 memoria/(11900:11930): size_ 3
+[INFO] 11:01:44:577 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:578 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:578 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:578 memoria/(11900:11930): aaaa: Z
+[INFO] 11:01:44:579 memoria/(11900:11930): ---------0 en pagina 4---------
+[INFO] 11:01:44:579 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:579 memoria/(11900:11930): aaaa: k
+[INFO] 11:01:44:580 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:580 memoria/(11900:11930): aaaa: †
+[INFO] 11:01:44:581 memoria/(11900:11930): El frame es el 5 
+
+[INFO] 11:01:44:625 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:626 memoria/(11900:11930): size_ 4
+[INFO] 11:01:44:626 memoria/(11900:11930): aaaa: a ba
+[INFO] 11:01:44:626 memoria/(11900:11930): ---------0 en pagina 4---------
+[INFO] 11:01:44:627 memoria/(11900:11930): size_ 5
+[INFO] 11:01:44:627 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:627 memoria/(11900:11930): size_acum: 0
+[INFO] 11:01:44:628 memoria/(11900:11930): offset_data: 5
+[INFO] 11:01:44:628 memoria/(11900:11930): size_a_leer: 2
+[INFO] 11:01:44:673 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:673 memoria/(11900:11930): size_ 4
+[INFO] 11:01:44:674 memoria/(11900:11930): aaaa: a ba
+[INFO] 11:01:44:674 memoria/(11900:11930): ---------0 en pagina 4---------
+[INFO] 11:01:44:674 memoria/(11900:11930): size_ 5
+[INFO] 11:01:44:675 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:675 memoria/(11900:11930): size total: 2
+[INFO] 11:01:44:675 memoria/(11900:11930): offset_data: 5
+[INFO] 11:01:44:676 memoria/(11900:11930): cant_paginas_a_leer: 2
+[INFO] 11:01:44:676 memoria/(11900:11930): size_acum: 0
+[INFO] 11:01:44:677 memoria/(11900:11930): size_ 2
+[INFO] 11:01:44:677 memoria/(11900:11930): aaaa: R
+[INFO] 11:01:44:677 memoria/(11900:11930): ---------0 en pagina 4---------
+[INFO] 11:01:44:678 memoria/(11900:11930): size_acum: 2
+[INFO] 11:01:44:678 memoria/(11900:11930): size_ 0
+[INFO] 11:01:44:682 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:769 memoria/(11900:11930): Alocando size: 13 del carpincho: 0
+[INFO] 11:01:44:770 memoria/(11900:11930): ---------0 en pagina 0---------
+[INFO] 11:01:44:770 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:770 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:771 memoria/(11900:11930): ---------0 en pagina 2---------
+[INFO] 11:01:44:771 memoria/(11900:11930): size_ 6
+[INFO] 11:01:44:771 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:772 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:772 memoria/(11900:11930): size_ 3
+[INFO] 11:01:44:773 memoria/(11900:11930): aaaa: 
+[INFO] 11:01:44:773 memoria/(11900:11930): ---------0 en pagina 3---------
+[INFO] 11:01:44:773 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:774 memoria/(11900:11930): aaaa: Z
+[INFO] 11:01:44:774 memoria/(11900:11930): ---------0 en pagina 4---------
+[INFO] 11:01:44:774 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:775 memoria/(11900:11930): aaaa: k
+[INFO] 11:01:44:775 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:776 memoria/(11900:11930): aaaa: †
+[INFO] 11:01:44:777 memoria/(11900:11930): ---------0 en pagina 5---------
+[INFO] 11:01:44:777 memoria/(11900:11930): size_ 9
+[INFO] 11:01:44:777 memoria/(11900:11930): aaaa: —
+[INFO] 11:01:44:778 memoria/(11900:11930): El frame es el 6 
+
+[INFO] 11:01:44:830 memoria/(11900:11930): DISCONNECT!
+[INFO] 11:03:58:079 memoria/(12184:12184): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 11:03:58:167 memoria/(12184:12184): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 11:03:58:171 memoria/(12184:12184): ------2---------
+
+[INFO] 11:03:58:192 memoria/(12184:12184): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 11:03:59:484 memoria/(12184:12184): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 11:03:59:599 memoria/(12184:12206): HANDSHAKE
+[INFO] 11:03:59:666 memoria/(12184:12206): Alocando size: 81 del carpincho: 0
+[INFO] 11:03:59:668 memoria/(12184:12206): El frame es el 0 
+
+[INFO] 11:03:59:673 memoria/(12184:12206): El frame es el 1 
+
+[INFO] 11:03:59:674 memoria/(12184:12206): El frame es el 2 
+
+[INFO] 11:03:59:674 memoria/(12184:12206): Allocando primer mitad del hmd en 2
+
+[INFO] 11:03:59:676 memoria/(12184:12206): El frame es el 3 
+
+[INFO] 11:03:59:676 memoria/(12184:12206): Allocando segunda mitad del hmd en 3
+
+[INFO] 11:03:59:721 memoria/(12184:12206): Alocando size: 8 del carpincho: 0
+[INFO] 11:03:59:722 memoria/(12184:12206): ---------0 en pagina 0---------
+[INFO] 11:03:59:728 memoria/(12184:12206): size_ 9
+[INFO] 11:03:59:729 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:731 memoria/(12184:12206): ---------0 en pagina 2---------
+[INFO] 11:03:59:732 memoria/(12184:12206): size_ 6
+[INFO] 11:03:59:732 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:733 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:03:59:733 memoria/(12184:12206): size_ 3
+[INFO] 11:03:59:734 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:737 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:03:59:782 memoria/(12184:12206): ---------0 en pagina 0---------
+[INFO] 11:03:59:783 memoria/(12184:12206): size_ 9
+[INFO] 11:03:59:784 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:784 memoria/(12184:12206): size_acum: 0
+[INFO] 11:03:59:790 memoria/(12184:12206): offset_data: 9
+[INFO] 11:03:59:790 memoria/(12184:12206): size_a_leer: 23
+[INFO] 11:03:59:791 memoria/(12184:12206): ---------0 en pagina 1---------
+[INFO] 11:03:59:792 memoria/(12184:12206): size_acum: 23
+[INFO] 11:03:59:792 memoria/(12184:12206): offset_data: 0
+[INFO] 11:03:59:793 memoria/(12184:12206): size_a_leer: 32
+[INFO] 11:03:59:793 memoria/(12184:12206): ---------0 en pagina 2---------
+[INFO] 11:03:59:793 memoria/(12184:12206): size_acum: 55
+[INFO] 11:03:59:794 memoria/(12184:12206): offset_data: 0
+[INFO] 11:03:59:795 memoria/(12184:12206): size_a_leer: 26
+[INFO] 11:03:59:842 memoria/(12184:12206): ---------0 en pagina 0---------
+[INFO] 11:03:59:843 memoria/(12184:12206): size_ 9
+[INFO] 11:03:59:843 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:844 memoria/(12184:12206): size total: 81
+[INFO] 11:03:59:845 memoria/(12184:12206): offset_data: 9
+[INFO] 11:03:59:845 memoria/(12184:12206): cant_paginas_a_leer: 3
+[INFO] 11:03:59:846 memoria/(12184:12206): size_acum: 0
+[INFO] 11:03:59:846 memoria/(12184:12206): size_ 23
+[INFO] 11:03:59:853 memoria/(12184:12206): aaaa: Lorem ipsum dolor sit a
+[INFO] 11:03:59:854 memoria/(12184:12206): ---------0 en pagina 1---------
+[INFO] 11:03:59:855 memoria/(12184:12206): size_acum: 23
+[INFO] 11:03:59:855 memoria/(12184:12206): size_ 32
+[INFO] 11:03:59:855 memoria/(12184:12206): aaaa: met, consectetur adipiscing elit
+[INFO] 11:03:59:856 memoria/(12184:12206): ---------0 en pagina 2---------
+[INFO] 11:03:59:856 memoria/(12184:12206): size_acum: 55
+[INFO] 11:03:59:857 memoria/(12184:12206): size_ 26
+[INFO] 11:03:59:857 memoria/(12184:12206): aaaa: . Donec et mollis libero.
+[INFO] 11:03:59:945 memoria/(12184:12206): Alocando size: 18 del carpincho: 0
+[INFO] 11:03:59:946 memoria/(12184:12206): ---------0 en pagina 0---------
+[INFO] 11:03:59:946 memoria/(12184:12206): size_ 9
+[INFO] 11:03:59:946 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:947 memoria/(12184:12206): ---------0 en pagina 2---------
+[INFO] 11:03:59:947 memoria/(12184:12206): size_ 6
+[INFO] 11:03:59:947 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:948 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:03:59:948 memoria/(12184:12206): size_ 3
+[INFO] 11:03:59:949 memoria/(12184:12206): aaaa: 
+[INFO] 11:03:59:949 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:03:59:949 memoria/(12184:12206): size_ 9
+[INFO] 11:03:59:950 memoria/(12184:12206): aaaa: Z
+[INFO] 11:03:59:952 memoria/(12184:12206): El frame es el 4 
+
+[INFO] 11:03:59:997 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:03:59:997 memoria/(12184:12206): size_ 9
+[INFO] 11:03:59:998 memoria/(12184:12206): aaaa: Z
+[INFO] 11:03:59:998 memoria/(12184:12206): size_acum: 0
+[INFO] 11:03:59:998 memoria/(12184:12206): offset_data: 20
+[INFO] 11:03:59:999 memoria/(12184:12206): size_a_leer: 12
+[INFO] 11:03:59:999 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:000 memoria/(12184:12206): size_acum: 12
+[INFO] 11:04:00:000 memoria/(12184:12206): offset_data: 0
+[INFO] 11:04:00:001 memoria/(12184:12206): size_a_leer: 6
+[INFO] 11:04:00:045 memoria/(12184:12206): Alocando size: 8 del carpincho: 0
+[INFO] 11:04:00:046 memoria/(12184:12206): ---------0 en pagina 0---------
+[INFO] 11:04:00:046 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:047 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:047 memoria/(12184:12206): ---------0 en pagina 2---------
+[INFO] 11:04:00:048 memoria/(12184:12206): size_ 6
+[INFO] 11:04:00:048 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:049 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:049 memoria/(12184:12206): size_ 3
+[INFO] 11:04:00:049 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:050 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:050 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:050 memoria/(12184:12206): aaaa: Z
+[INFO] 11:04:00:051 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:051 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:051 memoria/(12184:12206): aaaa: k
+[INFO] 11:04:00:093 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:094 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:094 memoria/(12184:12206): aaaa: Z
+[INFO] 11:04:00:095 memoria/(12184:12206): size total: 18
+[INFO] 11:04:00:095 memoria/(12184:12206): offset_data: 20
+[INFO] 11:04:00:096 memoria/(12184:12206): cant_paginas_a_leer: 2
+[INFO] 11:04:00:096 memoria/(12184:12206): size_acum: 0
+[INFO] 11:04:00:096 memoria/(12184:12206): size_ 12
+[INFO] 11:04:00:097 memoria/(12184:12206): aaaa: Ahi va la ba
+[INFO] 11:04:00:097 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:098 memoria/(12184:12206): size_acum: 12
+[INFO] 11:04:00:098 memoria/(12184:12206): size_ 6
+[INFO] 11:04:00:098 memoria/(12184:12206): aaaa: la123
+[INFO] 11:04:00:181 memoria/(12184:12206): Alocando size: 2 del carpincho: 0
+[INFO] 11:04:00:182 memoria/(12184:12206): ---------0 en pagina 0---------
+[INFO] 11:04:00:182 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:182 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:183 memoria/(12184:12206): ---------0 en pagina 2---------
+[INFO] 11:04:00:184 memoria/(12184:12206): size_ 6
+[INFO] 11:04:00:184 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:185 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:185 memoria/(12184:12206): size_ 3
+[INFO] 11:04:00:186 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:186 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:187 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:187 memoria/(12184:12206): aaaa: Z
+[INFO] 11:04:00:187 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:188 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:188 memoria/(12184:12206): aaaa: k
+[INFO] 11:04:00:189 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:189 memoria/(12184:12206): aaaa: †
+[INFO] 11:04:00:190 memoria/(12184:12206): El frame es el 5 
+
+[INFO] 11:04:00:233 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:233 memoria/(12184:12206): size_ 4
+[INFO] 11:04:00:234 memoria/(12184:12206): aaaa: a ba
+[INFO] 11:04:00:234 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:235 memoria/(12184:12206): size_ 5
+[INFO] 11:04:00:239 memoria/(12184:12206): aaaa: la123
+[INFO] 11:04:00:243 memoria/(12184:12206): size_acum: 0
+[INFO] 11:04:00:243 memoria/(12184:12206): offset_data: 5
+[INFO] 11:04:00:244 memoria/(12184:12206): size_a_leer: 2
+[INFO] 11:04:00:244 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:245 memoria/(12184:12206): size_acum: 2
+[INFO] 11:04:00:245 memoria/(12184:12206): offset_data: 0
+[INFO] 11:04:00:246 memoria/(12184:12206): size_a_leer: 0
+[INFO] 11:04:00:289 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:289 memoria/(12184:12206): size_ 4
+[INFO] 11:04:00:290 memoria/(12184:12206): aaaa: a ba
+[INFO] 11:04:00:290 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:291 memoria/(12184:12206): size_ 5
+[INFO] 11:04:00:291 memoria/(12184:12206): aaaa: la123
+[INFO] 11:04:00:292 memoria/(12184:12206): size total: 2
+[INFO] 11:04:00:292 memoria/(12184:12206): offset_data: 5
+[INFO] 11:04:00:293 memoria/(12184:12206): cant_paginas_a_leer: 2
+[INFO] 11:04:00:294 memoria/(12184:12206): size_acum: 0
+[INFO] 11:04:00:294 memoria/(12184:12206): size_ 2
+[INFO] 11:04:00:295 memoria/(12184:12206): aaaa: R
+[INFO] 11:04:00:296 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:296 memoria/(12184:12206): size_acum: 2
+[INFO] 11:04:00:296 memoria/(12184:12206): size_ 0
+[INFO] 11:04:00:300 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:385 memoria/(12184:12206): Alocando size: 13 del carpincho: 0
+[INFO] 11:04:00:386 memoria/(12184:12206): ---------0 en pagina 0---------
+[INFO] 11:04:00:387 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:387 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:388 memoria/(12184:12206): ---------0 en pagina 2---------
+[INFO] 11:04:00:388 memoria/(12184:12206): size_ 6
+[INFO] 11:04:00:389 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:389 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:390 memoria/(12184:12206): size_ 3
+[INFO] 11:04:00:390 memoria/(12184:12206): aaaa: 
+[INFO] 11:04:00:391 memoria/(12184:12206): ---------0 en pagina 3---------
+[INFO] 11:04:00:391 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:391 memoria/(12184:12206): aaaa: Z
+[INFO] 11:04:00:392 memoria/(12184:12206): ---------0 en pagina 4---------
+[INFO] 11:04:00:392 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:392 memoria/(12184:12206): aaaa: k
+[INFO] 11:04:00:393 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:393 memoria/(12184:12206): aaaa: †
+[INFO] 11:04:00:394 memoria/(12184:12206): ---------0 en pagina 5---------
+[INFO] 11:04:00:394 memoria/(12184:12206): size_ 9
+[INFO] 11:04:00:395 memoria/(12184:12206): aaaa: —
+[INFO] 11:04:00:395 memoria/(12184:12206): El frame es el 6 
+
+[INFO] 11:04:00:447 memoria/(12184:12206): DISCONNECT!

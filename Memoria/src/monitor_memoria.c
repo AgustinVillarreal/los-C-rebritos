@@ -164,6 +164,7 @@ void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destin
   pthread_mutex_lock(&MUTEX_MP_BUSY);
   memcpy(destino, (void*) (memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), size);
   pthread_mutex_unlock(&MUTEX_MP_BUSY);
+  log_info(logger, "aaaa: %s", (char*) destino);
 }
  
 void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset, size_t size){

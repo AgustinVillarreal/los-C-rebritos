@@ -64,7 +64,7 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
     uint32_t posicion_hmd_a_leer = direccion_logica - sizeof(hmd_t);
     //Calculo el offset segun la posicion_logica del hmd porque despues tengo que tener en cuenta al leerlo (podría llegar a cambiar la página si el hmd esta cortado)
     uint32_t offset_hmd_a_leer =  posicion_hmd_a_leer % MEMORIA_CFG->TAMANIO_PAGINA;
-    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size);
+    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size + sizeof(hmd_t));
     
     uint32_t nro_pagina = posicion_hmd_a_leer / MEMORIA_CFG->TAMANIO_PAGINA;
     if(nro_pagina > tabla_carpincho->pages){
@@ -91,11 +91,9 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
     uint32_t size_a_leer = MIN(MEMORIA_CFG->TAMANIO_PAGINA - offset_data, size);
     u_int32_t size_rest = size;
     *dest = malloc(size);  
-    log_info(logger, "size total: %d", size);  
-    log_info(logger, "offset_data: %d", offset_data);  
     for(uint32_t i=0; i< cant_paginas_a_leer ; i++){
         //El leer hmd me deja la entrada tp en la pagina para comenzar a leer
-        lectura_memcpy_size(entrada_tp, offset_data, *dest + size_acum, size_a_leer);
+        lectura_memcpy_size(entrada_tp, offset_data, (*dest) + size_acum, size_a_leer);
         size_rest -= size_a_leer;
         size_acum += size_a_leer;
         offset_data = 0;
@@ -116,7 +114,7 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     uint32_t posicion_hmd_a_leer = direccion_logica - sizeof(hmd_t);
     //Calculo el offset segun la posicion_logica del hmd porque despues tengo que tener en cuenta al leerlo (podría llegar a cambiar la página si el hmd esta cortado)
     uint32_t offset_hmd_a_leer =  posicion_hmd_a_leer % MEMORIA_CFG->TAMANIO_PAGINA;
-    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size);
+    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size + sizeof(hmd_t));
     
     uint32_t nro_pagina = posicion_hmd_a_leer / MEMORIA_CFG->TAMANIO_PAGINA;
     if(nro_pagina > tabla_carpincho->pages){
@@ -144,10 +142,6 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     u_int32_t size_rest = size;
     for(uint32_t i=0; i< cant_paginas_a_leer ; i++){
         //El leer hmd me deja la entrada tp en la pagina para comenzar a leer
-        log_info(logger, "size_acum: %d", size_acum);
-        log_info(logger, "offset_data: %d", offset_data);
-        log_info(logger, "size_a_leer: %d", size_a_leer);
-        
         escritura_memcpy_size((*dest) + size_acum, entrada_tp, offset_data, size_a_leer);
         size_rest -= size_a_leer;
         size_acum += size_a_leer;

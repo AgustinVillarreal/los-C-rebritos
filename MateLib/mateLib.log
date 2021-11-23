@@ -345,3 +345,30 @@
 [INFO] 10:34:40:859 mateLib/(9023:9023): Cliente conectado en 127.0.0.1:5001 (a Server)
 
 [INFO] 10:34:40:921 mateLib/(9023:9023): Handshake
+[INFO] 10:39:02:712 mateLib/(9484:9484): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:39:02:793 mateLib/(9484:9484): Handshake
+[INFO] 10:40:49:657 mateLib/(9716:9716): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:40:49:735 mateLib/(9716:9716): Handshake
+[INFO] 10:43:18:867 mateLib/(10009:10009): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:43:18:952 mateLib/(10009:10009): Handshake
+[INFO] 10:44:08:686 mateLib/(10168:10168): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:44:08:770 mateLib/(10168:10168): Handshake
+[INFO] 10:47:44:184 mateLib/(10536:10536): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:47:44:264 mateLib/(10536:10536): Handshake
+[INFO] 10:49:26:552 mateLib/(10804:10804): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:49:26:634 mateLib/(10804:10804): Handshake
+[INFO] 10:56:16:806 mateLib/(11411:11411): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 10:56:16:883 mateLib/(11411:11411): Handshake
+[INFO] 11:01:43:924 mateLib/(11926:11926): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:01:43:998 mateLib/(11926:11926): Handshake
+[INFO] 11:03:59:518 mateLib/(12205:12205): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 11:03:59:603 mateLib/(12205:12205): Handshake
