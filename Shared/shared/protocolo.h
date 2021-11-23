@@ -76,7 +76,7 @@ bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int siz
 bool send_memfree(int fd_server);
 
 bool recv_memread_data(int fd, uint32_t* direccion_logica, int* size);
-bool recv_memwrite_data(int fd, uint32_t* direccion_logica, void* data, int* size);
+bool recv_memwrite_data(int fd, uint32_t* direccion_logica, void** data, int* size);
 
 bool send_ack(int fd, bool ack);
 bool recv_ack(int fd, bool* ack);

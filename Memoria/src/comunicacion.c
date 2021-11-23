@@ -145,14 +145,14 @@ static void procesar_conexion(void* void_args){
             case MEM_WRITE: ;
                 int size_w;
                 void* data;
-                if(!recv_memwrite_data(cliente_socket, &direccion_logica, data, &size_w)){
-                    log_error(logger, "Error al recibir data para leer");
+                if(!recv_memwrite_data(cliente_socket, &direccion_logica, &data, &size_w)){
+                    log_error(logger, "Error al recibir data para escribir");
                     break;
                 }
-                uint8_t ret_code_write = write_carpincho(id_carpincho, data, size_w, direccion_logica);
+                uint8_t ret_code_write = write_carpincho(id_carpincho, &data, size_w, direccion_logica);
 
                 if(send(cliente_socket, &ret_code_write, sizeof(uint8_t), 0) == -1){
-                   log_error(logger, "Error al enviar ret_code a cliente desde memread");
+                   log_error(logger, "Error al enviar ret_code a cliente desde memwrite");
                    break;
                 }
 

@@ -190,15 +190,15 @@ bool recv_memread_data(int fd, uint32_t* direccion_logica, int* size){
   return true;
 }
 
-bool recv_memwrite_data(int fd, uint32_t* direccion_logica, void* data, int* size){
+bool recv_memwrite_data(int fd, uint32_t* direccion_logica, void** data, int* size){
   if(recv(fd, direccion_logica, sizeof(uint32_t),0) != sizeof(uint32_t)){
     return false;
   }
   if(recv(fd, size, sizeof(int),0) != sizeof(int)){
     return false;
   }
-  data = malloc(size);
-  if(recv(fd, data, size,0) != size){
+  *data = malloc(*size);
+  if(recv(fd, *data, *size,0) != *size){
     return false;
   }
   return true;
