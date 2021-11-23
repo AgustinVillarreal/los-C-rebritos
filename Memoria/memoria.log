@@ -2047,3 +2047,1213 @@
 [INFO] 20:18:16:785 memoria/(10150:10171): UPS AI DIDITAGAIN
 [INFO] 20:18:16:786 memoria/(10150:10171): UPS AI DIDITAGAIN
 [INFO] 20:18:16:903 memoria/(10150:10171): DISCONNECT!
+[INFO] 20:30:12:957 memoria/(3456:3456): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:30:13:078 memoria/(3456:3456): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:30:13:085 memoria/(3456:3456): ------2---------
+
+[INFO] 20:30:13:090 memoria/(3456:3456): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:30:21:521 memoria/(3456:3456): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:30:21:624 memoria/(3456:3621): HANDSHAKE
+[INFO] 20:30:21:691 memoria/(3456:3621): Alocando size: 80 del carpincho: 0
+[INFO] 20:30:21:693 memoria/(3456:3621): El frame es el 0 
+
+[INFO] 20:30:21:698 memoria/(3456:3621): El frame es el 1 
+
+[INFO] 20:30:21:699 memoria/(3456:3621): El frame es el 2 
+
+[INFO] 20:30:21:699 memoria/(3456:3621): Allocando primer mitad del hmd en 2
+
+[INFO] 20:30:21:700 memoria/(3456:3621): El frame es el 3 
+
+[INFO] 20:30:21:700 memoria/(3456:3621): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:30:21:704 memoria/(3456:3621): OCURRIO UN ACCIDENTE
+[INFO] 20:30:21:750 memoria/(3456:3621): OCURRIO UN ACCIDENTE 2
+[INFO] 20:30:21:751 memoria/(3456:3621): Como queod la alarma?
+[INFO] 20:30:21:752 memoria/(3456:3621): cant_paginas_a_leer: 3
+[INFO] 20:30:21:752 memoria/(3456:3621): Caca culo pedo pis: 3
+[INFO] 20:30:21:753 memoria/(3456:3621): ---------0 en pagina 0---------
+[INFO] 20:30:21:756 memoria/(3456:3621): Pase, lo que quieras jeje
+[INFO] 20:30:21:757 memoria/(3456:3621): offset_data: 9
+[INFO] 20:30:21:757 memoria/(3456:3621): size_acum: 0
+[INFO] 20:30:21:757 memoria/(3456:3621): size_a_leer: 23
+[INFO] 20:30:21:758 memoria/(3456:3621): nro_pagina: 0
+[INFO] 20:30:21:758 memoria/(3456:3621): Caca culo pedo pis 2: 0
+[INFO] 20:30:21:759 memoria/(3456:3621): ---------0 en pagina 1---------
+[INFO] 20:30:21:759 memoria/(3456:3621): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:30:21:759 memoria/(3456:3621): offset_data: 0
+[INFO] 20:30:21:760 memoria/(3456:3621): size_acum: 23
+[INFO] 20:30:21:766 memoria/(3456:3621): size_a_leer: 32
+[INFO] 20:30:21:766 memoria/(3456:3621): nro_pagina: 1
+[INFO] 20:30:21:766 memoria/(3456:3621): Caca culo pedo pis 2: 1
+[INFO] 20:30:21:767 memoria/(3456:3621): ---------0 en pagina 1---------
+[INFO] 20:30:21:767 memoria/(3456:3621): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:30:21:767 memoria/(3456:3621): offset_data: 0
+[INFO] 20:30:21:768 memoria/(3456:3621): size_acum: 55
+[INFO] 20:30:21:768 memoria/(3456:3621): size_a_leer: 32
+[INFO] 20:30:21:768 memoria/(3456:3621): nro_pagina: 1
+[INFO] 20:30:21:770 memoria/(3456:3621): Caca culo pedo pis 2: 2
+[INFO] 20:30:21:772 memoria/(3456:3621): UPS AI DIDITAGAIN
+[INFO] 20:30:21:773 memoria/(3456:3621): UPS AI DIDITAGAIN
+[INFO] 20:30:21:864 memoria/(3456:3621): DISCONNECT!
+[INFO] 20:35:03:831 memoria/(4126:4126): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:35:03:888 memoria/(4126:4126): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:35:03:891 memoria/(4126:4126): ------2---------
+
+[INFO] 20:35:03:893 memoria/(4126:4126): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:35:05:919 memoria/(4126:4126): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:35:06:027 memoria/(4126:4159): HANDSHAKE
+[INFO] 20:35:06:098 memoria/(4126:4159): Alocando size: 80 del carpincho: 0
+[INFO] 20:35:06:101 memoria/(4126:4159): El frame es el 0 
+
+[INFO] 20:35:06:106 memoria/(4126:4159): El frame es el 1 
+
+[INFO] 20:35:06:106 memoria/(4126:4159): El frame es el 2 
+
+[INFO] 20:35:06:107 memoria/(4126:4159): Allocando primer mitad del hmd en 2
+
+[INFO] 20:35:06:107 memoria/(4126:4159): El frame es el 3 
+
+[INFO] 20:35:06:108 memoria/(4126:4159): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:35:06:113 memoria/(4126:4159): OCURRIO UN ACCIDENTE
+[INFO] 20:35:06:154 memoria/(4126:4159): OCURRIO UN ACCIDENTE 2
+[INFO] 20:35:06:154 memoria/(4126:4159): Como queod la alarma?
+[INFO] 20:35:06:155 memoria/(4126:4159): cant_paginas_a_leer: 3
+[INFO] 20:35:06:156 memoria/(4126:4159): Caca culo pedo pis: 3
+[INFO] 20:35:06:160 memoria/(4126:4159): ---------0 en pagina 0---------
+[INFO] 20:35:06:162 memoria/(4126:4159): Pase, lo que quieras jeje
+[INFO] 20:35:06:163 memoria/(4126:4159): offset_data: 9
+[INFO] 20:35:06:164 memoria/(4126:4159): size_acum: 0
+[INFO] 20:35:06:164 memoria/(4126:4159): size_a_leer: 23
+[INFO] 20:35:06:164 memoria/(4126:4159): nro_pagina: 0
+[INFO] 20:35:06:165 memoria/(4126:4159): Caca culo pedo pis 2: 0
+[INFO] 20:35:06:166 memoria/(4126:4159): ---------0 en pagina 1---------
+[INFO] 20:35:06:166 memoria/(4126:4159): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:35:06:166 memoria/(4126:4159): offset_data: 0
+[INFO] 20:35:06:167 memoria/(4126:4159): size_acum: 32
+[INFO] 20:35:06:167 memoria/(4126:4159): size_a_leer: 32
+[INFO] 20:35:06:167 memoria/(4126:4159): nro_pagina: 1
+[INFO] 20:35:06:167 memoria/(4126:4159): Caca culo pedo pis 2: 1
+[INFO] 20:35:06:168 memoria/(4126:4159): ---------0 en pagina 1---------
+[INFO] 20:35:06:168 memoria/(4126:4159): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:35:06:168 memoria/(4126:4159): offset_data: 0
+[INFO] 20:35:06:169 memoria/(4126:4159): size_acum: 64
+[INFO] 20:35:06:169 memoria/(4126:4159): size_a_leer: 32
+[INFO] 20:35:06:169 memoria/(4126:4159): nro_pagina: 1
+[INFO] 20:35:06:170 memoria/(4126:4159): Caca culo pedo pis 2: 2
+[INFO] 20:35:06:173 memoria/(4126:4159): UPS AI DIDITAGAIN
+[INFO] 20:35:06:176 memoria/(4126:4159): UPS AI DIDITAGAIN
+[INFO] 20:35:06:260 memoria/(4126:4159): DISCONNECT!
+[INFO] 20:36:43:058 memoria/(4367:4367): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:36:43:123 memoria/(4367:4367): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:36:43:126 memoria/(4367:4367): ------2---------
+
+[INFO] 20:36:43:128 memoria/(4367:4367): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:36:45:411 memoria/(4367:4367): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:36:45:518 memoria/(4367:4397): HANDSHAKE
+[INFO] 20:36:45:583 memoria/(4367:4397): Alocando size: 80 del carpincho: 0
+[INFO] 20:36:45:585 memoria/(4367:4397): El frame es el 0 
+
+[INFO] 20:36:45:592 memoria/(4367:4397): El frame es el 1 
+
+[INFO] 20:36:45:593 memoria/(4367:4397): El frame es el 2 
+
+[INFO] 20:36:45:593 memoria/(4367:4397): Allocando primer mitad del hmd en 2
+
+[INFO] 20:36:45:597 memoria/(4367:4397): El frame es el 3 
+
+[INFO] 20:36:45:598 memoria/(4367:4397): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:36:45:601 memoria/(4367:4397): OCURRIO UN ACCIDENTE
+[INFO] 20:36:45:642 memoria/(4367:4397): OCURRIO UN ACCIDENTE 2
+[INFO] 20:36:45:642 memoria/(4367:4397): Como queod la alarma?
+[INFO] 20:36:45:643 memoria/(4367:4397): cant_paginas_a_leer: 3
+[INFO] 20:36:45:644 memoria/(4367:4397): Caca culo pedo pis: 3
+[INFO] 20:36:45:645 memoria/(4367:4397): ---------0 en pagina 0---------
+[INFO] 20:36:45:647 memoria/(4367:4397): Pase, lo que quieras jeje
+[INFO] 20:36:45:648 memoria/(4367:4397): offset_data: 9
+[INFO] 20:36:45:648 memoria/(4367:4397): size_acum: 0
+[INFO] 20:36:45:649 memoria/(4367:4397): size_a_leer: 23
+[INFO] 20:36:45:649 memoria/(4367:4397): nro_pagina: 0
+[INFO] 20:36:45:650 memoria/(4367:4397): Caca culo pedo pis 2: 0
+[INFO] 20:36:45:651 memoria/(4367:4397): ---------0 en pagina 1---------
+[INFO] 20:36:45:651 memoria/(4367:4397): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:36:45:652 memoria/(4367:4397): offset_data: 0
+[INFO] 20:36:45:652 memoria/(4367:4397): size_acum: 32
+[INFO] 20:36:45:652 memoria/(4367:4397): size_a_leer: 32
+[INFO] 20:36:45:653 memoria/(4367:4397): nro_pagina: 1
+[INFO] 20:36:45:653 memoria/(4367:4397): Caca culo pedo pis 2: 1
+[INFO] 20:36:45:653 memoria/(4367:4397): ---------0 en pagina 1---------
+[INFO] 20:36:45:654 memoria/(4367:4397): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:36:45:654 memoria/(4367:4397): offset_data: 0
+[INFO] 20:36:45:654 memoria/(4367:4397): size_acum: 64
+[INFO] 20:36:45:655 memoria/(4367:4397): size_a_leer: 32
+[INFO] 20:36:45:655 memoria/(4367:4397): nro_pagina: 1
+[INFO] 20:36:45:655 memoria/(4367:4397): Caca culo pedo pis 2: 2
+[INFO] 20:36:45:659 memoria/(4367:4397): UPS AI DIDITAGAIN
+[INFO] 20:36:45:659 memoria/(4367:4397): 22UPS AI DIDITAGAIN
+[INFO] 20:36:45:660 memoria/(4367:4397): UPS AI DIDITAGAIN
+[INFO] 20:36:45:740 memoria/(4367:4397): DISCONNECT!
+[INFO] 20:38:11:200 memoria/(4616:4616): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:38:11:250 memoria/(4616:4616): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:38:11:253 memoria/(4616:4616): ------2---------
+
+[INFO] 20:38:11:255 memoria/(4616:4616): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:38:12:742 memoria/(4616:4616): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:38:12:851 memoria/(4616:4646): HANDSHAKE
+[INFO] 20:38:12:916 memoria/(4616:4646): Alocando size: 80 del carpincho: 0
+[INFO] 20:38:12:919 memoria/(4616:4646): El frame es el 0 
+
+[INFO] 20:38:12:924 memoria/(4616:4646): El frame es el 1 
+
+[INFO] 20:38:12:925 memoria/(4616:4646): El frame es el 2 
+
+[INFO] 20:38:12:926 memoria/(4616:4646): Allocando primer mitad del hmd en 2
+
+[INFO] 20:38:12:926 memoria/(4616:4646): El frame es el 3 
+
+[INFO] 20:38:12:928 memoria/(4616:4646): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:38:12:932 memoria/(4616:4646): OCURRIO UN ACCIDENTE
+[INFO] 20:38:12:973 memoria/(4616:4646): OCURRIO UN ACCIDENTE 2
+[INFO] 20:38:12:974 memoria/(4616:4646): Como queod la alarma?
+[INFO] 20:38:12:976 memoria/(4616:4646): cant_paginas_a_leer: 3
+[INFO] 20:38:12:976 memoria/(4616:4646): Caca culo pedo pis: 3
+[INFO] 20:38:12:977 memoria/(4616:4646): ---------0 en pagina 0---------
+[INFO] 20:38:12:980 memoria/(4616:4646): Pase, lo que quieras jeje
+[INFO] 20:38:12:980 memoria/(4616:4646): offset_data: 9
+[INFO] 20:38:12:981 memoria/(4616:4646): size_acum: 0
+[INFO] 20:38:12:981 memoria/(4616:4646): size_a_leer: 23
+[INFO] 20:38:12:982 memoria/(4616:4646): nro_pagina: 0
+[INFO] 20:38:12:983 memoria/(4616:4646): Caca culo pedo pis 2: 0
+[INFO] 20:38:12:983 memoria/(4616:4646): ---------0 en pagina 1---------
+[INFO] 20:38:12:983 memoria/(4616:4646): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:38:12:984 memoria/(4616:4646): offset_data: 0
+[INFO] 20:38:12:984 memoria/(4616:4646): size_acum: 32
+[INFO] 20:38:12:984 memoria/(4616:4646): size_a_leer: 32
+[INFO] 20:38:12:985 memoria/(4616:4646): nro_pagina: 1
+[INFO] 20:38:12:985 memoria/(4616:4646): Caca culo pedo pis 2: 1
+[INFO] 20:38:12:985 memoria/(4616:4646): ---------0 en pagina 1---------
+[INFO] 20:38:12:986 memoria/(4616:4646): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:38:12:986 memoria/(4616:4646): offset_data: 0
+[INFO] 20:38:12:986 memoria/(4616:4646): size_acum: 64
+[INFO] 20:38:12:986 memoria/(4616:4646): size_a_leer: 32
+[INFO] 20:38:12:987 memoria/(4616:4646): nro_pagina: 1
+[INFO] 20:38:12:987 memoria/(4616:4646): Caca culo pedo pis 2: 2
+[INFO] 20:38:12:989 memoria/(4616:4646): UPS AI DIDITAGAIN
+[INFO] 20:38:12:990 memoria/(4616:4646): 22UPS AI DIDITAGAIN
+[INFO] 20:38:12:990 memoria/(4616:4646): UPS AI DIDITAGAIN
+[INFO] 20:38:13:067 memoria/(4616:4646): DISCONNECT!
+[INFO] 20:40:08:661 memoria/(4923:4923): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:40:08:711 memoria/(4923:4923): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:40:08:714 memoria/(4923:4923): ------2---------
+
+[INFO] 20:40:08:715 memoria/(4923:4923): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:40:10:584 memoria/(4923:4923): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:40:10:690 memoria/(4923:4956): HANDSHAKE
+[INFO] 20:40:10:755 memoria/(4923:4956): Alocando size: 80 del carpincho: 0
+[INFO] 20:40:10:757 memoria/(4923:4956): El frame es el 0 
+
+[INFO] 20:40:10:762 memoria/(4923:4956): El frame es el 1 
+
+[INFO] 20:40:10:763 memoria/(4923:4956): El frame es el 2 
+
+[INFO] 20:40:10:764 memoria/(4923:4956): Allocando primer mitad del hmd en 2
+
+[INFO] 20:40:10:764 memoria/(4923:4956): El frame es el 3 
+
+[INFO] 20:40:10:765 memoria/(4923:4956): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:40:10:769 memoria/(4923:4956): OCURRIO UN ACCIDENTE
+[INFO] 20:40:10:810 memoria/(4923:4956): OCURRIO UN ACCIDENTE 2
+[INFO] 20:40:10:811 memoria/(4923:4956): Como queod la alarma?
+[INFO] 20:40:10:815 memoria/(4923:4956): cant_paginas_a_leer: 3
+[INFO] 20:40:10:816 memoria/(4923:4956): Caca culo pedo pis: 3
+[INFO] 20:40:10:817 memoria/(4923:4956): ---------0 en pagina 0---------
+[INFO] 20:40:10:820 memoria/(4923:4956): Pase, lo que quieras jeje
+[INFO] 20:40:10:821 memoria/(4923:4956): offset_data: 9
+[INFO] 20:40:10:821 memoria/(4923:4956): size_acum: 0
+[INFO] 20:40:10:821 memoria/(4923:4956): size_a_leer: 23
+[INFO] 20:40:10:822 memoria/(4923:4956): nro_pagina: 0
+[INFO] 20:40:10:822 memoria/(4923:4956): Caca culo pedo pis 2: 0
+[INFO] 20:40:10:823 memoria/(4923:4956): ---------0 en pagina 1---------
+[INFO] 20:40:10:823 memoria/(4923:4956): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:40:10:824 memoria/(4923:4956): offset_data: 0
+[INFO] 20:40:10:824 memoria/(4923:4956): size_acum: 32
+[INFO] 20:40:10:824 memoria/(4923:4956): size_a_leer: 32
+[INFO] 20:40:10:825 memoria/(4923:4956): nro_pagina: 1
+[INFO] 20:40:10:825 memoria/(4923:4956): Caca culo pedo pis 2: 1
+[INFO] 20:40:10:825 memoria/(4923:4956): ---------0 en pagina 1---------
+[INFO] 20:40:10:826 memoria/(4923:4956): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:40:10:826 memoria/(4923:4956): offset_data: 0
+[INFO] 20:40:10:826 memoria/(4923:4956): size_acum: 64
+[INFO] 20:40:10:826 memoria/(4923:4956): size_a_leer: 32
+[INFO] 20:40:10:827 memoria/(4923:4956): nro_pagina: 1
+[INFO] 20:40:10:827 memoria/(4923:4956): Caca culo pedo pis 2: 2
+[INFO] 20:40:10:829 memoria/(4923:4956): UPS AI DIDITAGAIN
+[INFO] 20:40:10:829 memoria/(4923:4956): 22UPS AI DIDITAGAIN
+[INFO] 20:40:10:830 memoria/(4923:4956): UPS AI DIDITAGAIN
+[INFO] 20:40:10:910 memoria/(4923:4956): DISCONNECT!
+[INFO] 20:41:00:736 memoria/(5079:5079): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:41:00:788 memoria/(5079:5079): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:41:00:791 memoria/(5079:5079): ------2---------
+
+[INFO] 20:41:00:793 memoria/(5079:5079): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:41:02:591 memoria/(5079:5079): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:41:02:697 memoria/(5079:5116): HANDSHAKE
+[INFO] 20:41:02:759 memoria/(5079:5116): Alocando size: 80 del carpincho: 0
+[INFO] 20:41:02:761 memoria/(5079:5116): El frame es el 0 
+
+[INFO] 20:41:02:767 memoria/(5079:5116): El frame es el 1 
+
+[INFO] 20:41:02:768 memoria/(5079:5116): El frame es el 2 
+
+[INFO] 20:41:02:768 memoria/(5079:5116): Allocando primer mitad del hmd en 2
+
+[INFO] 20:41:02:769 memoria/(5079:5116): El frame es el 3 
+
+[INFO] 20:41:02:770 memoria/(5079:5116): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:41:02:776 memoria/(5079:5116): OCURRIO UN ACCIDENTE
+[INFO] 20:41:02:818 memoria/(5079:5116): OCURRIO UN ACCIDENTE 2
+[INFO] 20:41:02:819 memoria/(5079:5116): Como queod la alarma?
+[INFO] 20:41:02:819 memoria/(5079:5116): cant_paginas_a_leer: 3
+[INFO] 20:41:02:820 memoria/(5079:5116): Caca culo pedo pis: 3
+[INFO] 20:41:02:821 memoria/(5079:5116): ---------0 en pagina 0---------
+[INFO] 20:41:02:823 memoria/(5079:5116): Pase, lo que quieras jeje
+[INFO] 20:41:02:824 memoria/(5079:5116): offset_data: 9
+[INFO] 20:41:02:825 memoria/(5079:5116): size_acum: 0
+[INFO] 20:41:02:825 memoria/(5079:5116): size_a_leer: 23
+[INFO] 20:41:02:825 memoria/(5079:5116): nro_pagina: 0
+[INFO] 20:41:02:826 memoria/(5079:5116): Caca culo pedo pis 2: 0
+[INFO] 20:41:02:826 memoria/(5079:5116): ---------0 en pagina 1---------
+[INFO] 20:41:02:827 memoria/(5079:5116): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:41:02:827 memoria/(5079:5116): offset_data: 0
+[INFO] 20:41:02:828 memoria/(5079:5116): size_acum: 32
+[INFO] 20:41:02:828 memoria/(5079:5116): size_a_leer: 32
+[INFO] 20:41:02:828 memoria/(5079:5116): nro_pagina: 1
+[INFO] 20:41:02:829 memoria/(5079:5116): Caca culo pedo pis 2: 1
+[INFO] 20:41:02:829 memoria/(5079:5116): ---------0 en pagina 1---------
+[INFO] 20:41:02:829 memoria/(5079:5116): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:41:02:830 memoria/(5079:5116): offset_data: 0
+[INFO] 20:41:02:830 memoria/(5079:5116): size_acum: 64
+[INFO] 20:41:02:830 memoria/(5079:5116): size_a_leer: 32
+[INFO] 20:41:02:830 memoria/(5079:5116): nro_pagina: 1
+[INFO] 20:41:02:831 memoria/(5079:5116): Caca culo pedo pis 2: 2
+[INFO] 20:41:02:832 memoria/(5079:5116): UPS AI DIDITAGAIN
+[INFO] 20:41:02:833 memoria/(5079:5116): 22UPS AI DIDITAGAIN
+[INFO] 20:41:02:833 memoria/(5079:5116): UPS AI DIDITAGAIN
+[INFO] 20:41:02:914 memoria/(5079:5116): DISCONNECT!
+[INFO] 20:41:51:434 memoria/(5240:5240): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:41:51:482 memoria/(5240:5240): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:41:51:485 memoria/(5240:5240): ------2---------
+
+[INFO] 20:41:51:487 memoria/(5240:5240): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:41:53:757 memoria/(5240:5240): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:41:53:876 memoria/(5240:5270): HANDSHAKE
+[INFO] 20:41:53:940 memoria/(5240:5270): Alocando size: 80 del carpincho: 0
+[INFO] 20:41:53:943 memoria/(5240:5270): El frame es el 0 
+
+[INFO] 20:41:53:951 memoria/(5240:5270): El frame es el 1 
+
+[INFO] 20:41:53:953 memoria/(5240:5270): El frame es el 2 
+
+[INFO] 20:41:53:954 memoria/(5240:5270): Allocando primer mitad del hmd en 2
+
+[INFO] 20:41:53:955 memoria/(5240:5270): El frame es el 3 
+
+[INFO] 20:41:53:956 memoria/(5240:5270): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:41:53:960 memoria/(5240:5270): OCURRIO UN ACCIDENTE
+[INFO] 20:41:54:002 memoria/(5240:5270): OCURRIO UN ACCIDENTE 2
+[INFO] 20:41:54:003 memoria/(5240:5270): Como queod la alarma?
+[INFO] 20:41:54:004 memoria/(5240:5270): cant_paginas_a_leer: 3
+[INFO] 20:41:54:004 memoria/(5240:5270): Caca culo pedo pis: 3
+[INFO] 20:41:54:006 memoria/(5240:5270): ---------0 en pagina 0---------
+[INFO] 20:41:54:008 memoria/(5240:5270): Pase, lo que quieras jeje
+[INFO] 20:41:54:009 memoria/(5240:5270): offset_data: 9
+[INFO] 20:41:54:009 memoria/(5240:5270): size_acum: 0
+[INFO] 20:41:54:009 memoria/(5240:5270): size_a_leer: 23
+[INFO] 20:41:54:010 memoria/(5240:5270): nro_pagina: 0
+[INFO] 20:41:54:010 memoria/(5240:5270): Caca culo pedo pis 2: 0
+[INFO] 20:41:54:011 memoria/(5240:5270): ---------0 en pagina 1---------
+[INFO] 20:41:54:011 memoria/(5240:5270): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:41:54:012 memoria/(5240:5270): offset_data: 0
+[INFO] 20:41:54:012 memoria/(5240:5270): size_acum: 32
+[INFO] 20:41:54:012 memoria/(5240:5270): size_a_leer: 32
+[INFO] 20:41:54:013 memoria/(5240:5270): nro_pagina: 1
+[INFO] 20:41:54:014 memoria/(5240:5270): Caca culo pedo pis 2: 1
+[INFO] 20:41:54:014 memoria/(5240:5270): ---------0 en pagina 1---------
+[INFO] 20:41:54:014 memoria/(5240:5270): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:41:54:015 memoria/(5240:5270): offset_data: 0
+[INFO] 20:41:54:015 memoria/(5240:5270): size_acum: 64
+[INFO] 20:41:54:015 memoria/(5240:5270): size_a_leer: 32
+[INFO] 20:41:54:016 memoria/(5240:5270): nro_pagina: 1
+[INFO] 20:41:54:016 memoria/(5240:5270): Caca culo pedo pis 2: 2
+[INFO] 20:41:54:019 memoria/(5240:5270): UPS AI DIDITAGAIN
+[INFO] 20:41:54:019 memoria/(5240:5270): 22UPS AI DIDITAGAIN
+[INFO] 20:41:54:020 memoria/(5240:5270): UPS AI DIDITAGAIN
+[INFO] 20:41:54:111 memoria/(5240:5270): DISCONNECT!
+[INFO] 20:43:41:475 memoria/(5527:5527): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:43:41:526 memoria/(5527:5527): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:43:41:529 memoria/(5527:5527): ------2---------
+
+[INFO] 20:43:41:531 memoria/(5527:5527): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:43:43:619 memoria/(5527:5527): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:43:43:724 memoria/(5527:5557): HANDSHAKE
+[INFO] 20:43:43:786 memoria/(5527:5557): Alocando size: 80 del carpincho: 0
+[INFO] 20:43:43:789 memoria/(5527:5557): El frame es el 0 
+
+[INFO] 20:43:43:794 memoria/(5527:5557): El frame es el 1 
+
+[INFO] 20:43:43:798 memoria/(5527:5557): El frame es el 2 
+
+[INFO] 20:43:43:799 memoria/(5527:5557): Allocando primer mitad del hmd en 2
+
+[INFO] 20:43:43:799 memoria/(5527:5557): El frame es el 3 
+
+[INFO] 20:43:43:800 memoria/(5527:5557): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:43:43:805 memoria/(5527:5557): OCURRIO UN ACCIDENTE
+[INFO] 20:43:43:846 memoria/(5527:5557): OCURRIO UN ACCIDENTE 2
+[INFO] 20:43:43:846 memoria/(5527:5557): Como queod la alarma?
+[INFO] 20:43:43:847 memoria/(5527:5557): cant_paginas_a_leer: 3
+[INFO] 20:43:43:848 memoria/(5527:5557): Caca culo pedo pis: 3
+[INFO] 20:43:43:852 memoria/(5527:5557): ---------0 en pagina 0---------
+[INFO] 20:43:43:854 memoria/(5527:5557): Pase, lo que quieras jeje
+[INFO] 20:43:43:855 memoria/(5527:5557): offset_data: 9
+[INFO] 20:43:43:855 memoria/(5527:5557): size_acum: 0
+[INFO] 20:43:43:856 memoria/(5527:5557): size_a_leer: 23
+[INFO] 20:43:43:856 memoria/(5527:5557): nro_pagina: 0
+[INFO] 20:43:43:857 memoria/(5527:5557): Caca culo pedo pis 2: 0
+[INFO] 20:43:43:858 memoria/(5527:5557): ---------0 en pagina 1---------
+[INFO] 20:43:43:858 memoria/(5527:5557): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:43:43:858 memoria/(5527:5557): offset_data: 0
+[INFO] 20:43:43:859 memoria/(5527:5557): size_acum: 32
+[INFO] 20:43:43:859 memoria/(5527:5557): size_a_leer: 32
+[INFO] 20:43:43:859 memoria/(5527:5557): nro_pagina: 1
+[INFO] 20:43:43:860 memoria/(5527:5557): Caca culo pedo pis 2: 1
+[INFO] 20:43:43:860 memoria/(5527:5557): ---------0 en pagina 1---------
+[INFO] 20:43:43:860 memoria/(5527:5557): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:43:43:860 memoria/(5527:5557): offset_data: 0
+[INFO] 20:43:43:861 memoria/(5527:5557): size_acum: 64
+[INFO] 20:43:43:861 memoria/(5527:5557): size_a_leer: 32
+[INFO] 20:43:43:861 memoria/(5527:5557): nro_pagina: 1
+[INFO] 20:43:43:861 memoria/(5527:5557): Caca culo pedo pis 2: 2
+[INFO] 20:43:43:863 memoria/(5527:5557): UPS AI DIDITAGAIN
+[INFO] 20:43:43:864 memoria/(5527:5557): 22UPS AI DIDITAGAIN
+[INFO] 20:43:43:864 memoria/(5527:5557): UPS AI DIDITAGAIN
+[INFO] 20:43:43:948 memoria/(5527:5557): DISCONNECT!
+[INFO] 20:44:18:865 memoria/(5677:5677): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:44:18:918 memoria/(5677:5677): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:44:18:920 memoria/(5677:5677): ------2---------
+
+[INFO] 20:44:18:922 memoria/(5677:5677): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:44:20:671 memoria/(5677:5677): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:44:20:781 memoria/(5677:5706): HANDSHAKE
+[INFO] 20:44:20:847 memoria/(5677:5706): Alocando size: 80 del carpincho: 0
+[INFO] 20:44:20:849 memoria/(5677:5706): El frame es el 0 
+
+[INFO] 20:44:20:855 memoria/(5677:5706): El frame es el 1 
+
+[INFO] 20:44:20:856 memoria/(5677:5706): El frame es el 2 
+
+[INFO] 20:44:20:856 memoria/(5677:5706): Allocando primer mitad del hmd en 2
+
+[INFO] 20:44:20:857 memoria/(5677:5706): El frame es el 3 
+
+[INFO] 20:44:20:857 memoria/(5677:5706): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:44:20:862 memoria/(5677:5706): OCURRIO UN ACCIDENTE
+[INFO] 20:44:20:901 memoria/(5677:5706): OCURRIO UN ACCIDENTE 2
+[INFO] 20:44:20:902 memoria/(5677:5706): Como queod la alarma?
+[INFO] 20:44:20:903 memoria/(5677:5706): cant_paginas_a_leer: 3
+[INFO] 20:44:20:907 memoria/(5677:5706): Caca culo pedo pis: 3
+[INFO] 20:44:20:908 memoria/(5677:5706): ---------0 en pagina 0---------
+[INFO] 20:44:20:910 memoria/(5677:5706): Pase, lo que quieras jeje
+[INFO] 20:44:20:911 memoria/(5677:5706): offset_data: 9
+[INFO] 20:44:20:911 memoria/(5677:5706): size_acum: 0
+[INFO] 20:44:20:912 memoria/(5677:5706): size_a_leer: 23
+[INFO] 20:44:20:912 memoria/(5677:5706): nro_pagina: 0
+[INFO] 20:44:20:913 memoria/(5677:5706): Caca culo pedo pis 2: 0
+[INFO] 20:44:20:913 memoria/(5677:5706): ---------0 en pagina 1---------
+[INFO] 20:44:20:914 memoria/(5677:5706): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:44:20:914 memoria/(5677:5706): offset_data: 0
+[INFO] 20:44:20:915 memoria/(5677:5706): size_acum: 32
+[INFO] 20:44:20:915 memoria/(5677:5706): size_a_leer: 32
+[INFO] 20:44:20:915 memoria/(5677:5706): nro_pagina: 1
+[INFO] 20:44:20:916 memoria/(5677:5706): Caca culo pedo pis 2: 1
+[INFO] 20:44:20:916 memoria/(5677:5706): ---------0 en pagina 1---------
+[INFO] 20:44:20:916 memoria/(5677:5706): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:44:20:917 memoria/(5677:5706): offset_data: 0
+[INFO] 20:44:20:917 memoria/(5677:5706): size_acum: 64
+[INFO] 20:44:20:917 memoria/(5677:5706): size_a_leer: 32
+[INFO] 20:44:20:917 memoria/(5677:5706): nro_pagina: 1
+[INFO] 20:44:20:918 memoria/(5677:5706): Caca culo pedo pis 2: 2
+[INFO] 20:44:20:920 memoria/(5677:5706): UPS AI DIDITAGAIN
+[INFO] 20:44:20:921 memoria/(5677:5706): 22UPS AI DIDITAGAIN
+[INFO] 20:44:20:922 memoria/(5677:5706): UPS AI DIDITAGAIN
+[INFO] 20:44:21:004 memoria/(5677:5706): DISCONNECT!
+[INFO] 20:48:55:664 memoria/(6165:6165): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:48:55:720 memoria/(6165:6165): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:48:55:724 memoria/(6165:6165): ------2---------
+
+[INFO] 20:48:55:726 memoria/(6165:6165): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:49:00:271 memoria/(6165:6165): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:49:00:393 memoria/(6165:6203): HANDSHAKE
+[INFO] 20:49:00:466 memoria/(6165:6203): Alocando size: 80 del carpincho: 0
+[INFO] 20:49:00:468 memoria/(6165:6203): El frame es el 0 
+
+[INFO] 20:49:00:473 memoria/(6165:6203): El frame es el 1 
+
+[INFO] 20:49:00:474 memoria/(6165:6203): El frame es el 2 
+
+[INFO] 20:49:00:475 memoria/(6165:6203): Allocando primer mitad del hmd en 2
+
+[INFO] 20:49:00:475 memoria/(6165:6203): El frame es el 3 
+
+[INFO] 20:49:00:476 memoria/(6165:6203): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:49:00:481 memoria/(6165:6203): OCURRIO UN ACCIDENTE
+[INFO] 20:49:00:522 memoria/(6165:6203): OCURRIO UN ACCIDENTE 2
+[INFO] 20:49:00:523 memoria/(6165:6203): Como queod la alarma?
+[INFO] 20:49:00:526 memoria/(6165:6203): cant_paginas_a_leer: 3
+[INFO] 20:49:00:527 memoria/(6165:6203): Caca culo pedo pis: 3
+[INFO] 20:49:00:528 memoria/(6165:6203): ---------0 en pagina 0---------
+[INFO] 20:49:00:531 memoria/(6165:6203): Pase, lo que quieras jeje
+[INFO] 20:49:00:531 memoria/(6165:6203): offset_data: 9
+[INFO] 20:49:00:532 memoria/(6165:6203): size_acum: 0
+[INFO] 20:49:00:532 memoria/(6165:6203): size_a_leer: 23
+[INFO] 20:49:00:533 memoria/(6165:6203): nro_pagina: 0
+[INFO] 20:49:00:533 memoria/(6165:6203): Caca culo pedo pis 2: 0
+[INFO] 20:49:00:534 memoria/(6165:6203): ---------0 en pagina 1---------
+[INFO] 20:49:00:535 memoria/(6165:6203): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:49:00:536 memoria/(6165:6203): offset_data: 0
+[INFO] 20:49:00:536 memoria/(6165:6203): size_acum: 23
+[INFO] 20:49:00:536 memoria/(6165:6203): size_a_leer: 32
+[INFO] 20:49:00:537 memoria/(6165:6203): nro_pagina: 1
+[INFO] 20:49:00:537 memoria/(6165:6203): Caca culo pedo pis 2: 1
+[INFO] 20:49:00:537 memoria/(6165:6203): ---------0 en pagina 1---------
+[INFO] 20:49:00:538 memoria/(6165:6203): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:49:00:538 memoria/(6165:6203): offset_data: 0
+[INFO] 20:49:00:538 memoria/(6165:6203): size_acum: 55
+[INFO] 20:49:00:539 memoria/(6165:6203): size_a_leer: 25
+[INFO] 20:49:00:539 memoria/(6165:6203): nro_pagina: 1
+[INFO] 20:49:00:539 memoria/(6165:6203): Caca culo pedo pis 2: 2
+[INFO] 20:49:00:541 memoria/(6165:6203): UPS AI DIDITAGAIN
+[INFO] 20:49:00:542 memoria/(6165:6203): 22UPS AI DIDITAGAIN
+[INFO] 20:49:00:542 memoria/(6165:6203): UPS AI DIDITAGAIN
+[INFO] 20:49:00:627 memoria/(6165:6203): DISCONNECT!
+[INFO] 20:50:03:035 memoria/(6358:6358): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:50:03:102 memoria/(6358:6358): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:50:03:106 memoria/(6358:6358): ------2---------
+
+[INFO] 20:50:03:107 memoria/(6358:6358): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:50:04:911 memoria/(6358:6358): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:50:05:038 memoria/(6358:6385): HANDSHAKE
+[INFO] 20:50:05:106 memoria/(6358:6385): Alocando size: 80 del carpincho: 0
+[INFO] 20:50:05:110 memoria/(6358:6385): El frame es el 0 
+
+[INFO] 20:50:05:115 memoria/(6358:6385): El frame es el 1 
+
+[INFO] 20:50:05:116 memoria/(6358:6385): El frame es el 2 
+
+[INFO] 20:50:05:117 memoria/(6358:6385): Allocando primer mitad del hmd en 2
+
+[INFO] 20:50:05:118 memoria/(6358:6385): El frame es el 3 
+
+[INFO] 20:50:05:118 memoria/(6358:6385): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:50:05:128 memoria/(6358:6385): OCURRIO UN ACCIDENTE
+[INFO] 20:50:05:166 memoria/(6358:6385): OCURRIO UN ACCIDENTE 2
+[INFO] 20:50:05:167 memoria/(6358:6385): Como queod la alarma?
+[INFO] 20:50:05:168 memoria/(6358:6385): cant_paginas_a_leer: 3
+[INFO] 20:50:05:168 memoria/(6358:6385): Caca culo pedo pis: 3
+[INFO] 20:50:05:169 memoria/(6358:6385): ---------0 en pagina 0---------
+[INFO] 20:50:05:173 memoria/(6358:6385): Pase, lo que quieras jeje
+[INFO] 20:50:05:173 memoria/(6358:6385): offset_data: 9
+[INFO] 20:50:05:174 memoria/(6358:6385): size_acum: 0
+[INFO] 20:50:05:174 memoria/(6358:6385): size_a_leer: 23
+[INFO] 20:50:05:175 memoria/(6358:6385): nro_pagina: 0
+[INFO] 20:50:05:176 memoria/(6358:6385): Caca culo pedo pis 2: 0
+[INFO] 20:50:05:176 memoria/(6358:6385): ---------0 en pagina 1---------
+[INFO] 20:50:05:177 memoria/(6358:6385): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:50:05:177 memoria/(6358:6385): offset_data: 0
+[INFO] 20:50:05:177 memoria/(6358:6385): size_acum: 23
+[INFO] 20:50:05:178 memoria/(6358:6385): size_a_leer: 32
+[INFO] 20:50:05:178 memoria/(6358:6385): nro_pagina: 1
+[INFO] 20:50:05:178 memoria/(6358:6385): Caca culo pedo pis 2: 1
+[INFO] 20:50:05:179 memoria/(6358:6385): ---------0 en pagina 1---------
+[INFO] 20:50:05:179 memoria/(6358:6385): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:50:05:180 memoria/(6358:6385): offset_data: 0
+[INFO] 20:50:05:180 memoria/(6358:6385): size_acum: 55
+[INFO] 20:50:05:181 memoria/(6358:6385): size_a_leer: 25
+[INFO] 20:50:05:181 memoria/(6358:6385): nro_pagina: 1
+[INFO] 20:50:05:181 memoria/(6358:6385): Caca culo pedo pis 2: 2
+[INFO] 20:50:05:183 memoria/(6358:6385): UPS AI DIDITAGAIN
+[INFO] 20:50:05:184 memoria/(6358:6385): 22UPS AI DIDITAGAIN
+[INFO] 20:50:05:185 memoria/(6358:6385): UPS AI DIDITAGAIN
+[INFO] 20:50:05:272 memoria/(6358:6385): DISCONNECT!
+[INFO] 20:51:03:584 memoria/(6548:6548): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:51:03:641 memoria/(6548:6548): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:51:03:644 memoria/(6548:6548): ------2---------
+
+[INFO] 20:51:03:646 memoria/(6548:6548): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:51:06:196 memoria/(6548:6548): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:51:06:312 memoria/(6548:6578): HANDSHAKE
+[INFO] 20:51:06:376 memoria/(6548:6578): Alocando size: 80 del carpincho: 0
+[INFO] 20:51:06:378 memoria/(6548:6578): El frame es el 0 
+
+[INFO] 20:51:06:385 memoria/(6548:6578): El frame es el 1 
+
+[INFO] 20:51:06:386 memoria/(6548:6578): El frame es el 2 
+
+[INFO] 20:51:06:388 memoria/(6548:6578): Allocando primer mitad del hmd en 2
+
+[INFO] 20:51:06:389 memoria/(6548:6578): El frame es el 3 
+
+[INFO] 20:51:06:390 memoria/(6548:6578): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:51:06:394 memoria/(6548:6578): OCURRIO UN ACCIDENTE
+[INFO] 20:51:06:434 memoria/(6548:6578): OCURRIO UN ACCIDENTE 2
+[INFO] 20:51:06:434 memoria/(6548:6578): Como queod la alarma?
+[INFO] 20:51:06:435 memoria/(6548:6578): cant_paginas_a_leer: 3
+[INFO] 20:51:06:436 memoria/(6548:6578): Caca culo pedo pis: 3
+[INFO] 20:51:06:437 memoria/(6548:6578): ---------0 en pagina 0---------
+[INFO] 20:51:06:440 memoria/(6548:6578): Pase, lo que quieras jeje
+[INFO] 20:51:06:441 memoria/(6548:6578): offset_data: 9
+[INFO] 20:51:06:442 memoria/(6548:6578): size_acum: 0
+[INFO] 20:51:06:442 memoria/(6548:6578): size_a_leer: 23
+[INFO] 20:51:06:443 memoria/(6548:6578): nro_pagina: 0
+[INFO] 20:51:06:443 memoria/(6548:6578): Caca culo pedo pis 2: 0
+[INFO] 20:51:06:444 memoria/(6548:6578): ---------0 en pagina 1---------
+[INFO] 20:51:06:446 memoria/(6548:6578): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:51:06:447 memoria/(6548:6578): offset_data: 0
+[INFO] 20:51:06:447 memoria/(6548:6578): size_acum: 23
+[INFO] 20:51:06:447 memoria/(6548:6578): size_a_leer: 32
+[INFO] 20:51:06:447 memoria/(6548:6578): nro_pagina: 1
+[INFO] 20:51:06:448 memoria/(6548:6578): Caca culo pedo pis 2: 1
+[INFO] 20:51:06:448 memoria/(6548:6578): ---------0 en pagina 1---------
+[INFO] 20:51:06:449 memoria/(6548:6578): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:51:06:449 memoria/(6548:6578): offset_data: 0
+[INFO] 20:51:06:450 memoria/(6548:6578): size_acum: 55
+[INFO] 20:51:06:450 memoria/(6548:6578): size_a_leer: 25
+[INFO] 20:51:06:450 memoria/(6548:6578): nro_pagina: 1
+[INFO] 20:51:06:451 memoria/(6548:6578): Caca culo pedo pis 2: 2
+[INFO] 20:51:06:453 memoria/(6548:6578): UPS AI DIDITAGAIN
+[INFO] 20:51:06:453 memoria/(6548:6578): 22UPS AI DIDITAGAIN
+[INFO] 20:51:06:455 memoria/(6548:6578): UPS AI DIDITAGAIN
+[INFO] 20:51:06:548 memoria/(6548:6578): DISCONNECT!
+[INFO] 20:51:23:025 memoria/(6668:6668): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:51:23:087 memoria/(6668:6668): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:51:23:090 memoria/(6668:6668): ------2---------
+
+[INFO] 20:51:23:092 memoria/(6668:6668): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:51:28:403 memoria/(6668:6668): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:51:28:531 memoria/(6668:6702): HANDSHAKE
+[INFO] 20:51:28:603 memoria/(6668:6702): Alocando size: 80 del carpincho: 0
+[INFO] 20:51:28:606 memoria/(6668:6702): El frame es el 0 
+
+[INFO] 20:51:28:611 memoria/(6668:6702): El frame es el 1 
+
+[INFO] 20:51:28:612 memoria/(6668:6702): El frame es el 2 
+
+[INFO] 20:51:28:613 memoria/(6668:6702): Allocando primer mitad del hmd en 2
+
+[INFO] 20:51:28:614 memoria/(6668:6702): El frame es el 3 
+
+[INFO] 20:51:28:615 memoria/(6668:6702): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:51:28:620 memoria/(6668:6702): OCURRIO UN ACCIDENTE
+[INFO] 20:51:28:662 memoria/(6668:6702): OCURRIO UN ACCIDENTE 2
+[INFO] 20:51:28:662 memoria/(6668:6702): Como queod la alarma?
+[INFO] 20:51:28:664 memoria/(6668:6702): cant_paginas_a_leer: 3
+[INFO] 20:51:28:665 memoria/(6668:6702): Caca culo pedo pis: 3
+[INFO] 20:51:28:667 memoria/(6668:6702): ---------0 en pagina 0---------
+[INFO] 20:51:28:670 memoria/(6668:6702): Pase, lo que quieras jeje
+[INFO] 20:51:28:671 memoria/(6668:6702): offset_data: 9
+[INFO] 20:51:28:672 memoria/(6668:6702): size_acum: 0
+[INFO] 20:51:28:673 memoria/(6668:6702): size_a_leer: 23
+[INFO] 20:51:28:673 memoria/(6668:6702): nro_pagina: 0
+[INFO] 20:51:28:674 memoria/(6668:6702): Caca culo pedo pis 2: 0
+[INFO] 20:51:28:675 memoria/(6668:6702): ---------0 en pagina 1---------
+[INFO] 20:51:28:675 memoria/(6668:6702): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:51:28:676 memoria/(6668:6702): offset_data: 0
+[INFO] 20:51:28:676 memoria/(6668:6702): size_acum: 23
+[INFO] 20:51:28:677 memoria/(6668:6702): size_a_leer: 32
+[INFO] 20:51:28:677 memoria/(6668:6702): nro_pagina: 1
+[INFO] 20:51:28:678 memoria/(6668:6702): Caca culo pedo pis 2: 1
+[INFO] 20:51:28:678 memoria/(6668:6702): ---------0 en pagina 1---------
+[INFO] 20:51:28:679 memoria/(6668:6702): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:51:28:679 memoria/(6668:6702): offset_data: 0
+[INFO] 20:51:28:680 memoria/(6668:6702): size_acum: 55
+[INFO] 20:51:28:680 memoria/(6668:6702): size_a_leer: 25
+[INFO] 20:51:28:680 memoria/(6668:6702): nro_pagina: 1
+[INFO] 20:51:28:681 memoria/(6668:6702): Caca culo pedo pis 2: 2
+[INFO] 20:51:28:683 memoria/(6668:6702): UPS AI DIDITAGAIN
+[INFO] 20:51:28:683 memoria/(6668:6702): 22UPS AI DIDITAGAIN
+[INFO] 20:51:28:684 memoria/(6668:6702): UPS AI DIDITAGAIN
+[INFO] 20:51:28:776 memoria/(6668:6702): DISCONNECT!
+[INFO] 20:53:46:913 memoria/(6668:6668): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:53:46:999 memoria/(6668:6972): HANDSHAKE
+[INFO] 20:53:47:054 memoria/(6668:6972): Alocando size: 80 del carpincho: 1
+[INFO] 20:53:47:055 memoria/(6668:6972): El frame es el 32 
+
+[INFO] 20:53:47:057 memoria/(6668:6972): El frame es el 33 
+
+[INFO] 20:53:47:058 memoria/(6668:6972): El frame es el 34 
+
+[INFO] 20:53:47:058 memoria/(6668:6972): Allocando primer mitad del hmd en 34
+
+[INFO] 20:53:47:059 memoria/(6668:6972): El frame es el 35 
+
+[INFO] 20:53:47:059 memoria/(6668:6972): Allocando segunda mitad del hmd en 35
+
+[INFO] 20:53:47:062 memoria/(6668:6972): OCURRIO UN ACCIDENTE
+[INFO] 20:53:47:106 memoria/(6668:6972): OCURRIO UN ACCIDENTE 2
+[INFO] 20:53:47:106 memoria/(6668:6972): Como queod la alarma?
+[INFO] 20:53:47:106 memoria/(6668:6972): cant_paginas_a_leer: 3
+[INFO] 20:53:47:107 memoria/(6668:6972): Caca culo pedo pis: 3
+[INFO] 20:53:47:107 memoria/(6668:6972): ---------1 en pagina 0---------
+[INFO] 20:53:47:108 memoria/(6668:6972): Pase, lo que quieras jeje
+[INFO] 20:53:47:108 memoria/(6668:6972): offset_data: 9
+[INFO] 20:53:47:108 memoria/(6668:6972): size_acum: 0
+[INFO] 20:53:47:109 memoria/(6668:6972): size_a_leer: 23
+[INFO] 20:53:47:110 memoria/(6668:6972): nro_pagina: 0
+[INFO] 20:53:47:110 memoria/(6668:6972): Caca culo pedo pis 2: 0
+[INFO] 20:53:47:110 memoria/(6668:6972): ---------1 en pagina 1---------
+[INFO] 20:53:47:110 memoria/(6668:6972): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:53:47:111 memoria/(6668:6972): offset_data: 0
+[INFO] 20:53:47:111 memoria/(6668:6972): size_acum: 23
+[INFO] 20:53:47:111 memoria/(6668:6972): size_a_leer: 32
+[INFO] 20:53:47:112 memoria/(6668:6972): nro_pagina: 1
+[INFO] 20:53:47:112 memoria/(6668:6972): Caca culo pedo pis 2: 1
+[INFO] 20:53:47:112 memoria/(6668:6972): ---------1 en pagina 1---------
+[INFO] 20:53:47:112 memoria/(6668:6972): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:53:47:113 memoria/(6668:6972): offset_data: 0
+[INFO] 20:53:47:113 memoria/(6668:6972): size_acum: 55
+[INFO] 20:53:47:113 memoria/(6668:6972): size_a_leer: 25
+[INFO] 20:53:47:114 memoria/(6668:6972): nro_pagina: 1
+[INFO] 20:53:47:114 memoria/(6668:6972): Caca culo pedo pis 2: 2
+[INFO] 20:53:47:116 memoria/(6668:6972): UPS AI DIDITAGAIN
+[INFO] 20:53:47:117 memoria/(6668:6972): 22UPS AI DIDITAGAIN
+[INFO] 20:53:47:123 memoria/(6668:6972): UPS AI DIDITAGAIN
+[INFO] 20:53:47:212 memoria/(6668:6972): DISCONNECT!
+[INFO] 20:53:52:372 memoria/(7029:7029): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:53:52:429 memoria/(7029:7029): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:53:52:432 memoria/(7029:7029): ------2---------
+
+[INFO] 20:53:52:434 memoria/(7029:7029): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:53:55:052 memoria/(7029:7029): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:53:55:171 memoria/(7029:7060): HANDSHAKE
+[INFO] 20:53:55:240 memoria/(7029:7060): Alocando size: 80 del carpincho: 0
+[INFO] 20:53:55:244 memoria/(7029:7060): El frame es el 0 
+
+[INFO] 20:53:55:250 memoria/(7029:7060): El frame es el 1 
+
+[INFO] 20:53:55:251 memoria/(7029:7060): El frame es el 2 
+
+[INFO] 20:53:55:252 memoria/(7029:7060): Allocando primer mitad del hmd en 2
+
+[INFO] 20:53:55:253 memoria/(7029:7060): El frame es el 3 
+
+[INFO] 20:53:55:253 memoria/(7029:7060): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:53:55:258 memoria/(7029:7060): OCURRIO UN ACCIDENTE
+[INFO] 20:53:55:298 memoria/(7029:7060): OCURRIO UN ACCIDENTE 2
+[INFO] 20:53:55:298 memoria/(7029:7060): Como queod la alarma?
+[INFO] 20:53:55:299 memoria/(7029:7060): cant_paginas_a_leer: 3
+[INFO] 20:53:55:300 memoria/(7029:7060): Caca culo pedo pis: 3
+[INFO] 20:53:55:301 memoria/(7029:7060): ---------0 en pagina 0---------
+[INFO] 20:53:55:307 memoria/(7029:7060): Pase, lo que quieras jeje
+[INFO] 20:53:55:307 memoria/(7029:7060): offset_data: 9
+[INFO] 20:53:55:308 memoria/(7029:7060): size_acum: 0
+[INFO] 20:53:55:308 memoria/(7029:7060): size_a_leer: 23
+[INFO] 20:53:55:309 memoria/(7029:7060): nro_pagina: 0
+[INFO] 20:53:55:310 memoria/(7029:7060): Caca culo pedo pis 2: 0
+[INFO] 20:53:55:310 memoria/(7029:7060): ---------0 en pagina 1---------
+[INFO] 20:53:55:311 memoria/(7029:7060): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:53:55:311 memoria/(7029:7060): offset_data: 0
+[INFO] 20:53:55:312 memoria/(7029:7060): size_acum: 23
+[INFO] 20:53:55:312 memoria/(7029:7060): size_a_leer: 32
+[INFO] 20:53:55:312 memoria/(7029:7060): nro_pagina: 1
+[INFO] 20:53:55:313 memoria/(7029:7060): Caca culo pedo pis 2: 1
+[INFO] 20:53:55:313 memoria/(7029:7060): ---------0 en pagina 1---------
+[INFO] 20:53:55:313 memoria/(7029:7060): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:53:55:313 memoria/(7029:7060): offset_data: 0
+[INFO] 20:53:55:314 memoria/(7029:7060): size_acum: 55
+[INFO] 20:53:55:314 memoria/(7029:7060): size_a_leer: 25
+[INFO] 20:53:55:314 memoria/(7029:7060): nro_pagina: 1
+[INFO] 20:53:55:315 memoria/(7029:7060): Caca culo pedo pis 2: 2
+[INFO] 20:53:55:317 memoria/(7029:7060): UPS AI DIDITAGAIN
+[INFO] 20:53:55:318 memoria/(7029:7060): 22UPS AI DIDITAGAIN
+[INFO] 20:53:55:318 memoria/(7029:7060): UPS AI DIDITAGAIN
+[INFO] 20:53:55:409 memoria/(7029:7060): DISCONNECT!
+[INFO] 20:54:34:674 memoria/(7178:7178): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:54:34:730 memoria/(7178:7178): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:54:34:733 memoria/(7178:7178): ------2---------
+
+[INFO] 20:54:34:734 memoria/(7178:7178): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:54:37:191 memoria/(7178:7178): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:54:37:306 memoria/(7178:7211): HANDSHAKE
+[INFO] 20:54:37:372 memoria/(7178:7211): Alocando size: 80 del carpincho: 0
+[INFO] 20:54:37:375 memoria/(7178:7211): El frame es el 0 
+
+[INFO] 20:54:37:381 memoria/(7178:7211): El frame es el 1 
+
+[INFO] 20:54:37:382 memoria/(7178:7211): El frame es el 2 
+
+[INFO] 20:54:37:382 memoria/(7178:7211): Allocando primer mitad del hmd en 2
+
+[INFO] 20:54:37:383 memoria/(7178:7211): El frame es el 3 
+
+[INFO] 20:54:37:383 memoria/(7178:7211): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:54:37:389 memoria/(7178:7211): OCURRIO UN ACCIDENTE
+[INFO] 20:54:37:429 memoria/(7178:7211): OCURRIO UN ACCIDENTE 2
+[INFO] 20:54:37:430 memoria/(7178:7211): Como queod la alarma?
+[INFO] 20:54:37:431 memoria/(7178:7211): cant_paginas_a_leer: 3
+[INFO] 20:54:37:432 memoria/(7178:7211): Caca culo pedo pis: 3
+[INFO] 20:54:37:433 memoria/(7178:7211): ---------0 en pagina 0---------
+[INFO] 20:54:37:435 memoria/(7178:7211): Pase, lo que quieras jeje
+[INFO] 20:54:37:436 memoria/(7178:7211): offset_data: 9
+[INFO] 20:54:37:437 memoria/(7178:7211): size_acum: 0
+[INFO] 20:54:37:437 memoria/(7178:7211): size_a_leer: 23
+[INFO] 20:54:37:438 memoria/(7178:7211): nro_pagina: 0
+[INFO] 20:54:37:439 memoria/(7178:7211): Caca culo pedo pis 2: 0
+[INFO] 20:54:37:439 memoria/(7178:7211): ---------0 en pagina 1---------
+[INFO] 20:54:37:440 memoria/(7178:7211): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:54:37:440 memoria/(7178:7211): offset_data: 0
+[INFO] 20:54:37:441 memoria/(7178:7211): size_acum: 23
+[INFO] 20:54:37:441 memoria/(7178:7211): size_a_leer: 32
+[INFO] 20:54:37:441 memoria/(7178:7211): nro_pagina: 1
+[INFO] 20:54:37:442 memoria/(7178:7211): Caca culo pedo pis 2: 1
+[INFO] 20:54:37:442 memoria/(7178:7211): ---------0 en pagina 1---------
+[INFO] 20:54:37:442 memoria/(7178:7211): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:54:37:443 memoria/(7178:7211): offset_data: 0
+[INFO] 20:54:37:443 memoria/(7178:7211): size_acum: 55
+[INFO] 20:54:37:443 memoria/(7178:7211): size_a_leer: 25
+[INFO] 20:54:37:444 memoria/(7178:7211): nro_pagina: 1
+[INFO] 20:54:37:444 memoria/(7178:7211): Caca culo pedo pis 2: 2
+[INFO] 20:54:37:446 memoria/(7178:7211): UPS AI DIDITAGAIN
+[INFO] 20:54:37:446 memoria/(7178:7211): 22UPS AI DIDITAGAIN
+[INFO] 20:54:37:447 memoria/(7178:7211): UPS AI DIDITAGAIN
+[INFO] 20:54:37:537 memoria/(7178:7211): DISCONNECT!
+[INFO] 20:56:09:942 memoria/(7398:7398): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:56:10:004 memoria/(7398:7398): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:56:10:008 memoria/(7398:7398): ------2---------
+
+[INFO] 20:56:10:010 memoria/(7398:7398): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:56:11:876 memoria/(7398:7398): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:56:12:002 memoria/(7398:7431): HANDSHAKE
+[INFO] 20:56:12:072 memoria/(7398:7431): Alocando size: 80 del carpincho: 0
+[INFO] 20:56:12:075 memoria/(7398:7431): El frame es el 0 
+
+[INFO] 20:56:12:082 memoria/(7398:7431): El frame es el 1 
+
+[INFO] 20:56:12:083 memoria/(7398:7431): El frame es el 2 
+
+[INFO] 20:56:12:084 memoria/(7398:7431): Allocando primer mitad del hmd en 2
+
+[INFO] 20:56:12:084 memoria/(7398:7431): El frame es el 3 
+
+[INFO] 20:56:12:085 memoria/(7398:7431): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:56:12:093 memoria/(7398:7431): OCURRIO UN ACCIDENTE
+[INFO] 20:56:12:134 memoria/(7398:7431): OCURRIO UN ACCIDENTE 2
+[INFO] 20:56:12:134 memoria/(7398:7431): Como queod la alarma?
+[INFO] 20:56:12:135 memoria/(7398:7431): cant_paginas_a_leer: 3
+[INFO] 20:56:12:136 memoria/(7398:7431): Caca culo pedo pis: 3
+[INFO] 20:56:12:137 memoria/(7398:7431): ---------0 en pagina 0---------
+[INFO] 20:56:12:140 memoria/(7398:7431): Pase, lo que quieras jeje
+[INFO] 20:56:12:141 memoria/(7398:7431): offset_data: 9
+[INFO] 20:56:12:142 memoria/(7398:7431): size_acum: 0
+[INFO] 20:56:12:142 memoria/(7398:7431): size_a_leer: 23
+[INFO] 20:56:12:143 memoria/(7398:7431): nro_pagina: 0
+[INFO] 20:56:12:143 memoria/(7398:7431): Caca culo pedo pis 2: 0
+[INFO] 20:56:12:144 memoria/(7398:7431): ---------0 en pagina 1---------
+[INFO] 20:56:12:145 memoria/(7398:7431): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:56:12:145 memoria/(7398:7431): offset_data: 0
+[INFO] 20:56:12:146 memoria/(7398:7431): size_acum: 23
+[INFO] 20:56:12:146 memoria/(7398:7431): size_a_leer: 32
+[INFO] 20:56:12:146 memoria/(7398:7431): nro_pagina: 1
+[INFO] 20:56:12:147 memoria/(7398:7431): Caca culo pedo pis 2: 1
+[INFO] 20:56:12:147 memoria/(7398:7431): ---------0 en pagina 1---------
+[INFO] 20:56:12:152 memoria/(7398:7431): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:56:12:152 memoria/(7398:7431): offset_data: 0
+[INFO] 20:56:12:153 memoria/(7398:7431): size_acum: 55
+[INFO] 20:56:12:153 memoria/(7398:7431): size_a_leer: 25
+[INFO] 20:56:12:153 memoria/(7398:7431): nro_pagina: 1
+[INFO] 20:56:12:154 memoria/(7398:7431): Caca culo pedo pis 2: 2
+[INFO] 20:56:12:155 memoria/(7398:7431): UPS AI DIDITAGAIN
+[INFO] 20:56:12:156 memoria/(7398:7431): 22UPS AI DIDITAGAIN
+[INFO] 20:56:12:157 memoria/(7398:7431): UPS AI DIDITAGAIN
+[INFO] 20:56:12:245 memoria/(7398:7431): DISCONNECT!
+[INFO] 20:58:30:331 memoria/(7678:7678): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:58:30:396 memoria/(7678:7678): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:58:30:400 memoria/(7678:7678): ------2---------
+
+[INFO] 20:58:30:402 memoria/(7678:7678): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:58:32:647 memoria/(7678:7678): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:58:32:787 memoria/(7678:7713): HANDSHAKE
+[INFO] 20:58:32:856 memoria/(7678:7713): Alocando size: 80 del carpincho: 0
+[INFO] 20:58:32:859 memoria/(7678:7713): El frame es el 0 
+
+[INFO] 20:58:32:866 memoria/(7678:7713): El frame es el 1 
+
+[INFO] 20:58:32:868 memoria/(7678:7713): El frame es el 2 
+
+[INFO] 20:58:32:869 memoria/(7678:7713): Allocando primer mitad del hmd en 2
+
+[INFO] 20:58:32:870 memoria/(7678:7713): El frame es el 3 
+
+[INFO] 20:58:32:871 memoria/(7678:7713): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:58:32:877 memoria/(7678:7713): OCURRIO UN ACCIDENTE
+[INFO] 20:58:32:918 memoria/(7678:7713): OCURRIO UN ACCIDENTE 2
+[INFO] 20:58:32:919 memoria/(7678:7713): Como queod la alarma?
+[INFO] 20:58:32:920 memoria/(7678:7713): cant_paginas_a_leer: 3
+[INFO] 20:58:32:921 memoria/(7678:7713): Caca culo pedo pis: 3
+[INFO] 20:58:32:922 memoria/(7678:7713): ---------0 en pagina 0---------
+[INFO] 20:58:32:924 memoria/(7678:7713): Pase, lo que quieras jeje
+[INFO] 20:58:32:925 memoria/(7678:7713): offset_data: 9
+[INFO] 20:58:32:926 memoria/(7678:7713): size_acum: 0
+[INFO] 20:58:32:926 memoria/(7678:7713): size_a_leer: 23
+[INFO] 20:58:32:927 memoria/(7678:7713): nro_pagina: 0
+[INFO] 20:58:32:928 memoria/(7678:7713): Caca culo pedo pis 2: 0
+[INFO] 20:58:32:930 memoria/(7678:7713): ---------0 en pagina 1---------
+[INFO] 20:58:32:930 memoria/(7678:7713): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:58:32:931 memoria/(7678:7713): offset_data: 0
+[INFO] 20:58:32:931 memoria/(7678:7713): size_acum: 23
+[INFO] 20:58:32:931 memoria/(7678:7713): size_a_leer: 32
+[INFO] 20:58:32:932 memoria/(7678:7713): nro_pagina: 1
+[INFO] 20:58:32:932 memoria/(7678:7713): Caca culo pedo pis 2: 1
+[INFO] 20:58:32:932 memoria/(7678:7713): ---------0 en pagina 1---------
+[INFO] 20:58:32:933 memoria/(7678:7713): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:58:32:933 memoria/(7678:7713): offset_data: 0
+[INFO] 20:58:32:934 memoria/(7678:7713): size_acum: 55
+[INFO] 20:58:32:934 memoria/(7678:7713): size_a_leer: 25
+[INFO] 20:58:32:934 memoria/(7678:7713): nro_pagina: 1
+[INFO] 20:58:32:935 memoria/(7678:7713): Caca culo pedo pis 2: 2
+[INFO] 20:58:32:936 memoria/(7678:7713): UPS AI DIDITAGAIN
+[INFO] 20:58:32:937 memoria/(7678:7713): 22UPS AI DIDITAGAIN
+[INFO] 20:58:32:938 memoria/(7678:7713): UPS AI DIDITAGAIN
+[INFO] 20:58:33:031 memoria/(7678:7713): DISCONNECT!
+[INFO] 20:59:41:414 memoria/(7866:7866): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:59:41:471 memoria/(7866:7866): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:59:41:475 memoria/(7866:7866): ------2---------
+
+[INFO] 20:59:41:477 memoria/(7866:7866): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:59:42:998 memoria/(7866:7866): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:59:43:117 memoria/(7866:7899): HANDSHAKE
+[INFO] 20:59:43:183 memoria/(7866:7899): Alocando size: 80 del carpincho: 0
+[INFO] 20:59:43:185 memoria/(7866:7899): El frame es el 0 
+
+[INFO] 20:59:43:192 memoria/(7866:7899): El frame es el 1 
+
+[INFO] 20:59:43:193 memoria/(7866:7899): El frame es el 2 
+
+[INFO] 20:59:43:194 memoria/(7866:7899): Allocando primer mitad del hmd en 2
+
+[INFO] 20:59:43:195 memoria/(7866:7899): El frame es el 3 
+
+[INFO] 20:59:43:195 memoria/(7866:7899): Allocando segunda mitad del hmd en 3
+
+[INFO] 20:59:43:200 memoria/(7866:7899): OCURRIO UN ACCIDENTE
+[INFO] 20:59:43:242 memoria/(7866:7899): OCURRIO UN ACCIDENTE 2
+[INFO] 20:59:43:243 memoria/(7866:7899): Como queod la alarma?
+[INFO] 20:59:43:244 memoria/(7866:7899): cant_paginas_a_leer: 3
+[INFO] 20:59:43:244 memoria/(7866:7899): Caca culo pedo pis: 3
+[INFO] 20:59:43:246 memoria/(7866:7899): ---------0 en pagina 0---------
+[INFO] 20:59:43:248 memoria/(7866:7899): Pase, lo que quieras jeje
+[INFO] 20:59:43:248 memoria/(7866:7899): offset_data: 9
+[INFO] 20:59:43:249 memoria/(7866:7899): size_acum: 0
+[INFO] 20:59:43:249 memoria/(7866:7899): size_a_leer: 23
+[INFO] 20:59:43:250 memoria/(7866:7899): nro_pagina: 0
+[INFO] 20:59:43:251 memoria/(7866:7899): Caca culo pedo pis 2: 0
+[INFO] 20:59:43:251 memoria/(7866:7899): ---------0 en pagina 1---------
+[INFO] 20:59:43:252 memoria/(7866:7899): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:59:43:253 memoria/(7866:7899): offset_data: 0
+[INFO] 20:59:43:253 memoria/(7866:7899): size_acum: 23
+[INFO] 20:59:43:254 memoria/(7866:7899): size_a_leer: 32
+[INFO] 20:59:43:254 memoria/(7866:7899): nro_pagina: 1
+[INFO] 20:59:43:254 memoria/(7866:7899): Caca culo pedo pis 2: 1
+[INFO] 20:59:43:255 memoria/(7866:7899): ---------0 en pagina 1---------
+[INFO] 20:59:43:255 memoria/(7866:7899): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 20:59:43:255 memoria/(7866:7899): offset_data: 0
+[INFO] 20:59:43:256 memoria/(7866:7899): size_acum: 55
+[INFO] 20:59:43:256 memoria/(7866:7899): size_a_leer: 25
+[INFO] 20:59:43:256 memoria/(7866:7899): nro_pagina: 1
+[INFO] 20:59:43:256 memoria/(7866:7899): Caca culo pedo pis 2: 2
+[INFO] 20:59:43:258 memoria/(7866:7899): UPS AI DIDITAGAIN
+[INFO] 20:59:43:259 memoria/(7866:7899): 22UPS AI DIDITAGAIN
+[INFO] 20:59:43:260 memoria/(7866:7899): UPS AI DIDITAGAIN
+[INFO] 20:59:43:348 memoria/(7866:7899): DISCONNECT!
+[INFO] 21:01:07:020 memoria/(8077:8077): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:01:07:077 memoria/(8077:8077): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:01:07:080 memoria/(8077:8077): ------2---------
+
+[INFO] 21:01:07:082 memoria/(8077:8077): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:01:09:048 memoria/(8077:8077): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:01:09:165 memoria/(8077:8113): HANDSHAKE
+[INFO] 21:01:09:232 memoria/(8077:8113): Alocando size: 80 del carpincho: 0
+[INFO] 21:01:09:234 memoria/(8077:8113): El frame es el 0 
+
+[INFO] 21:01:09:239 memoria/(8077:8113): El frame es el 1 
+
+[INFO] 21:01:09:240 memoria/(8077:8113): El frame es el 2 
+
+[INFO] 21:01:09:240 memoria/(8077:8113): Allocando primer mitad del hmd en 2
+
+[INFO] 21:01:09:241 memoria/(8077:8113): El frame es el 3 
+
+[INFO] 21:01:09:242 memoria/(8077:8113): Allocando segunda mitad del hmd en 3
+
+[INFO] 21:01:09:247 memoria/(8077:8113): OCURRIO UN ACCIDENTE
+[INFO] 21:01:09:290 memoria/(8077:8113): OCURRIO UN ACCIDENTE 2
+[INFO] 21:01:09:290 memoria/(8077:8113): Como queod la alarma?
+[INFO] 21:01:09:291 memoria/(8077:8113): cant_paginas_a_leer: 3
+[INFO] 21:01:09:292 memoria/(8077:8113): Caca culo pedo pis: 3
+[INFO] 21:01:09:294 memoria/(8077:8113): ---------0 en pagina 0---------
+[INFO] 21:01:09:296 memoria/(8077:8113): Pase, lo que quieras jeje
+[INFO] 21:01:09:297 memoria/(8077:8113): offset_data: 9
+[INFO] 21:01:09:297 memoria/(8077:8113): size_acum: 0
+[INFO] 21:01:09:297 memoria/(8077:8113): size_a_leer: 23
+[INFO] 21:01:09:298 memoria/(8077:8113): nro_pagina: 0
+[INFO] 21:01:09:299 memoria/(8077:8113): Caca culo pedo pis 2: 0
+[INFO] 21:01:09:299 memoria/(8077:8113): ---------0 en pagina 1---------
+[INFO] 21:01:09:299 memoria/(8077:8113): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 21:01:09:301 memoria/(8077:8113): offset_data: 0
+[INFO] 21:01:09:301 memoria/(8077:8113): size_acum: 23
+[INFO] 21:01:09:302 memoria/(8077:8113): size_a_leer: 32
+[INFO] 21:01:09:302 memoria/(8077:8113): nro_pagina: 1
+[INFO] 21:01:09:303 memoria/(8077:8113): Caca culo pedo pis 2: 1
+[INFO] 21:01:09:303 memoria/(8077:8113): ---------0 en pagina 1---------
+[INFO] 21:01:09:303 memoria/(8077:8113): PRINTEA PRINTEA PRINTEA : 3
+[INFO] 21:01:09:304 memoria/(8077:8113): offset_data: 0
+[INFO] 21:01:09:304 memoria/(8077:8113): size_acum: 55
+[INFO] 21:01:09:304 memoria/(8077:8113): size_a_leer: 25
+[INFO] 21:01:09:305 memoria/(8077:8113): nro_pagina: 1
+[INFO] 21:01:09:305 memoria/(8077:8113): Caca culo pedo pis 2: 2
+[INFO] 21:01:09:307 memoria/(8077:8113): UPS AI DIDITAGAIN
+[INFO] 21:01:09:307 memoria/(8077:8113): 22UPS AI DIDITAGAIN
+[INFO] 21:01:09:308 memoria/(8077:8113): UPS AI DIDITAGAIN
+[INFO] 21:01:09:398 memoria/(8077:8113): DISCONNECT!
+[INFO] 21:05:05:836 memoria/(8504:8504): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:05:05:906 memoria/(8504:8504): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:05:05:910 memoria/(8504:8504): ------2---------
+
+[INFO] 21:05:05:913 memoria/(8504:8504): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:05:08:098 memoria/(8504:8504): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:05:08:239 memoria/(8504:8538): HANDSHAKE
+[INFO] 21:05:08:313 memoria/(8504:8538): Alocando size: 80 del carpincho: 0
+[INFO] 21:05:08:315 memoria/(8504:8538): El frame es el 0 
+
+[INFO] 21:05:08:323 memoria/(8504:8538): El frame es el 1 
+
+[INFO] 21:05:08:330 memoria/(8504:8538): El frame es el 2 
+
+[INFO] 21:05:08:331 memoria/(8504:8538): Allocando primer mitad del hmd en 2
+
+[INFO] 21:05:08:332 memoria/(8504:8538): El frame es el 3 
+
+[INFO] 21:05:08:333 memoria/(8504:8538): Allocando segunda mitad del hmd en 3
+
+[INFO] 21:05:08:379 memoria/(8504:8538): ---------0 en pagina 0---------
+[INFO] 21:05:08:383 memoria/(8504:8538): offset_data: 9
+[INFO] 21:05:08:383 memoria/(8504:8538): size_acum: 0
+[INFO] 21:05:08:384 memoria/(8504:8538): size_a_leer: 23
+[INFO] 21:05:08:384 memoria/(8504:8538): nro_pagina: 0
+[INFO] 21:05:08:386 memoria/(8504:8538): ---------0 en pagina 1---------
+[INFO] 21:05:08:386 memoria/(8504:8538): offset_data: 0
+[INFO] 21:05:08:387 memoria/(8504:8538): size_acum: 23
+[INFO] 21:05:08:387 memoria/(8504:8538): size_a_leer: 32
+[INFO] 21:05:08:388 memoria/(8504:8538): nro_pagina: 1
+[INFO] 21:05:08:388 memoria/(8504:8538): ---------0 en pagina 1---------
+[INFO] 21:05:08:389 memoria/(8504:8538): offset_data: 0
+[INFO] 21:05:08:389 memoria/(8504:8538): size_acum: 55
+[INFO] 21:05:08:389 memoria/(8504:8538): size_a_leer: 25
+[INFO] 21:05:08:391 memoria/(8504:8538): nro_pagina: 1
+[INFO] 21:05:08:493 memoria/(8504:8538): DISCONNECT!
+[INFO] 21:06:40:160 memoria/(8761:8761): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:06:40:226 memoria/(8761:8761): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:06:40:229 memoria/(8761:8761): ------2---------
+
+[INFO] 21:06:40:231 memoria/(8761:8761): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:06:42:742 memoria/(8761:8761): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:06:42:871 memoria/(8761:8795): HANDSHAKE
+[INFO] 21:06:42:940 memoria/(8761:8795): Alocando size: 80 del carpincho: 0
+[INFO] 21:06:42:942 memoria/(8761:8795): El frame es el 0 
+
+[INFO] 21:06:42:949 memoria/(8761:8795): El frame es el 1 
+
+[INFO] 21:06:42:951 memoria/(8761:8795): El frame es el 2 
+
+[INFO] 21:06:42:952 memoria/(8761:8795): Allocando primer mitad del hmd en 2
+
+[INFO] 21:06:42:953 memoria/(8761:8795): El frame es el 3 
+
+[INFO] 21:06:42:954 memoria/(8761:8795): Allocando segunda mitad del hmd en 3
+
+[INFO] 21:06:43:004 memoria/(8761:8795): ---------0 en pagina 0---------
+[INFO] 21:06:43:008 memoria/(8761:8795): offset_data: 9
+[INFO] 21:06:43:009 memoria/(8761:8795): size_acum: 0
+[INFO] 21:06:43:010 memoria/(8761:8795): size_a_leer: 23
+[INFO] 21:06:43:010 memoria/(8761:8795): nro_pagina: 0
+[INFO] 21:06:43:011 memoria/(8761:8795): ---------0 en pagina 1---------
+[INFO] 21:06:43:012 memoria/(8761:8795): offset_data: 0
+[INFO] 21:06:43:012 memoria/(8761:8795): size_acum: 23
+[INFO] 21:06:43:013 memoria/(8761:8795): size_a_leer: 32
+[INFO] 21:06:43:013 memoria/(8761:8795): nro_pagina: 1
+[INFO] 21:06:43:014 memoria/(8761:8795): ---------0 en pagina 2---------
+[INFO] 21:06:43:014 memoria/(8761:8795): offset_data: 0
+[INFO] 21:06:43:015 memoria/(8761:8795): size_acum: 55
+[INFO] 21:06:43:015 memoria/(8761:8795): size_a_leer: 25
+[INFO] 21:06:43:017 memoria/(8761:8795): nro_pagina: 2
+[INFO] 21:06:43:114 memoria/(8761:8795): DISCONNECT!
+[INFO] 21:08:37:811 memoria/(9041:9041): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:08:37:875 memoria/(9041:9041): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:08:37:879 memoria/(9041:9041): ------2---------
+
+[INFO] 21:08:37:882 memoria/(9041:9041): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:08:39:679 memoria/(9041:9041): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:08:39:821 memoria/(9041:9074): HANDSHAKE
+[INFO] 21:08:39:892 memoria/(9041:9074): Alocando size: 80 del carpincho: 0
+[INFO] 21:08:39:898 memoria/(9041:9074): El frame es el 0 
+
+[INFO] 21:08:39:904 memoria/(9041:9074): El frame es el 1 
+
+[INFO] 21:08:39:906 memoria/(9041:9074): El frame es el 2 
+
+[INFO] 21:08:39:907 memoria/(9041:9074): Allocando primer mitad del hmd en 2
+
+[INFO] 21:08:39:908 memoria/(9041:9074): El frame es el 3 
+
+[INFO] 21:08:39:910 memoria/(9041:9074): Allocando segunda mitad del hmd en 3
+
+[INFO] 21:08:39:959 memoria/(9041:9074): ---------0 en pagina 0---------
+[INFO] 21:08:39:964 memoria/(9041:9074): ---------0 en pagina 1---------
+[INFO] 21:08:39:965 memoria/(9041:9074): ---------0 en pagina 2---------
+[INFO] 21:08:40:067 memoria/(9041:9074): DISCONNECT!
+[INFO] 21:08:57:162 memoria/(9158:9158): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:08:57:226 memoria/(9158:9158): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:08:57:230 memoria/(9158:9158): ------2---------
+
+[INFO] 21:08:57:232 memoria/(9158:9158): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:08:59:206 memoria/(9158:9158): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:08:59:342 memoria/(9158:9192): HANDSHAKE
+[INFO] 21:08:59:429 memoria/(9158:9192): Alocando size: 80 del carpincho: 0
+[INFO] 21:08:59:432 memoria/(9158:9192): El frame es el 0 
+
+[INFO] 21:08:59:438 memoria/(9158:9192): El frame es el 1 
+
+[INFO] 21:08:59:439 memoria/(9158:9192): El frame es el 2 
+
+[INFO] 21:08:59:439 memoria/(9158:9192): Allocando primer mitad del hmd en 2
+
+[INFO] 21:08:59:441 memoria/(9158:9192): El frame es el 3 
+
+[INFO] 21:08:59:442 memoria/(9158:9192): Allocando segunda mitad del hmd en 3
+
+[INFO] 21:08:59:488 memoria/(9158:9192): ---------0 en pagina 0---------
+[INFO] 21:08:59:492 memoria/(9158:9192): ---------0 en pagina 1---------
+[INFO] 21:08:59:493 memoria/(9158:9192): ---------0 en pagina 2---------
+[INFO] 21:08:59:593 memoria/(9158:9192): DISCONNECT!
+[INFO] 21:09:32:198 memoria/(9308:9308): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:09:32:265 memoria/(9308:9308): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:09:32:269 memoria/(9308:9308): ------2---------
+
+[INFO] 21:09:32:271 memoria/(9308:9308): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:09:34:340 memoria/(9308:9308): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:09:34:484 memoria/(9308:9341): HANDSHAKE
+[INFO] 21:09:34:554 memoria/(9308:9341): Alocando size: 80 del carpincho: 0
+[INFO] 21:09:34:557 memoria/(9308:9341): El frame es el 0 
+
+[INFO] 21:09:34:566 memoria/(9308:9341): El frame es el 1 
+
+[INFO] 21:09:34:567 memoria/(9308:9341): El frame es el 2 
+
+[INFO] 21:09:34:568 memoria/(9308:9341): Allocando primer mitad del hmd en 2
+
+[INFO] 21:09:34:569 memoria/(9308:9341): El frame es el 3 
+
+[INFO] 21:09:34:569 memoria/(9308:9341): Allocando segunda mitad del hmd en 3
+
+[INFO] 21:09:34:616 memoria/(9308:9341): ---------0 en pagina 0---------
+[INFO] 21:09:34:619 memoria/(9308:9341): ---------0 en pagina 1---------
+[INFO] 21:09:34:620 memoria/(9308:9341): ---------0 en pagina 2---------
+[INFO] 21:09:34:719 memoria/(9308:9341): DISCONNECT!

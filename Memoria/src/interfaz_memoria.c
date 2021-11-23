@@ -59,14 +59,12 @@ uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logi
 
 
 //Asumimos que la dirección lógica que llega de memoria es valida y es donde comienza la data del carpincho
-bool read_carpincho(unsigned long id_carpincho, void* dest, size_t size, uint32_t direccion_logica){
-    log_info(logger, "Como queod la alarma?");
+bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32_t direccion_logica){
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
     uint32_t posicion_hmd_a_leer = direccion_logica - sizeof(hmd_t);
     //Calculo el offset segun la posicion_logica del hmd porque despues tengo que tener en cuenta al leerlo (podría llegar a cambiar la página si el hmd esta cortado)
     uint32_t offset_hmd_a_leer =  posicion_hmd_a_leer % MEMORIA_CFG->TAMANIO_PAGINA;
     uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size);
-    log_info(logger, "cant_paginas_a_leer: %d", cant_paginas_a_leer);
     
     uint32_t nro_pagina = posicion_hmd_a_leer / MEMORIA_CFG->TAMANIO_PAGINA;
     if(nro_pagina > tabla_carpincho->pages){
@@ -76,14 +74,13 @@ bool read_carpincho(unsigned long id_carpincho, void* dest, size_t size, uint32_
     
     //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
     uint32_t offset_data = (offset_hmd_a_leer + sizeof(hmd_t)) % MEMORIA_CFG->TAMANIO_PAGINA;
-    log_info(logger, "Caca culo pedo pis: %d", cant_paginas_a_leer);          
     entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     hmd_t* hmd = leer_hmd(entrada_tp, offset_hmd_a_leer, id_carpincho);
     if(hmd->nextAlloc - posicion_hmd_a_leer - sizeof(hmd_t) < size){
         log_error(logger, "El size a leer es mayor que el que puedo darte en esta posicion");
+        free(hmd);
         return false;
     }
-    log_info(logger, "Pase, lo que quieras jeje");
     if(!offset_data){
         nro_pagina++;
     }
@@ -92,26 +89,22 @@ bool read_carpincho(unsigned long id_carpincho, void* dest, size_t size, uint32_
     }
     uint32_t size_acum = 0;
     uint32_t size_a_leer = MEMORIA_CFG->TAMANIO_PAGINA - offset_data;
-    dest = malloc(size);    
+    u_int32_t size_rest = size;
+    *dest = malloc(size);    
     for(uint32_t i=0; i< cant_paginas_a_leer ; i++){
-        log_info(logger, "offset_data: %d", offset_data);
-        log_info(logger, "size_acum: %d", size_acum);
-        log_info(logger, "size_a_leer: %d", size_a_leer); 
-        log_info(logger, "nro_pagina: %d", entrada_tp->nro_pagina); 
-               
         //El leer hmd me deja la entrada tp en la pagina para comenzar a leer
-        lectura_memcpy_size(entrada_tp, offset_data, dest + size_acum, size_a_leer);
+        lectura_memcpy_size(entrada_tp, offset_data, *dest + size_acum, size_a_leer);
+        size_rest -= size_a_leer;
         size_acum += size_a_leer;
-        size_a_leer = MIN(size - (MEMORIA_CFG->TAMANIO_PAGINA - offset_data), MEMORIA_CFG->TAMANIO_PAGINA); 
         offset_data = 0;
-        log_info(logger, "Caca culo pedo pis 2: %d", i);         
+        size_a_leer = MIN(size_rest, MEMORIA_CFG->TAMANIO_PAGINA); 
         
         if(i != (cant_paginas_a_leer - 1)){
-            entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina + 1);       
-            log_info(logger, "PRINTEA PRINTEA PRINTEA : %d", cant_paginas_a_leer);         
+            entrada_tp = buscar_entrada_tp(id_carpincho, entrada_tp->nro_pagina + 1);       
         }
     //La entrada tp me deja parado al final del hmd (si se leyo mitad y mitad me deja en la segunda mitad), entonces supongo que queda donde comienza la data
     }
+    free(hmd); 
     return true;
 }
 
