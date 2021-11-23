@@ -42,7 +42,8 @@ typedef enum {
     ESCRITURA_SWAMP,
     LECTURA_SWAMP,
     FINALIZAR_CARPINCHO,
-    ESPACIO_LIBRE
+    ESPACIO_LIBRE,
+    ALLOCAR_EN_SWAP
 } op_code;
 
 
@@ -87,7 +88,9 @@ bool recv_id(int cliente_socket, unsigned long* carpincho_id);
 
 bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina);
 
-bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, bool* asignacion_fija);
+bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data);
 
 bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas, bool* asignacion_fija);
+
+bool recv_allocar(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas,bool* asigancion_fija);
 #endif

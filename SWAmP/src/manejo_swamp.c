@@ -78,6 +78,11 @@ void* tomar_frame_swap(unsigned long id_carpincho, uint32_t nro_pagina){
         return f->pid == id_carpincho && f->nro_pagina == nro_pagina;
     }
 
+    if(!list_any_satisfy(tablas_de_frames_swap,(void*)buscar_x_id)){
+        log_error(logger,"La pagina %d del carpincho %d no esta en SWAP",nro_pagina,id_carpincho);
+        return NULL;
+    }
+
     void* dest = malloc(cfg->TAMANIO_PAGINA);
 
     frame_swap_t* frame = list_find(tablas_de_frames_swap, (void*)buscar_x_id);
@@ -109,7 +114,7 @@ void eliminar_carpincho_de_memoria(unsigned long id_carpincho){
     }
 
     if(!list_any_satisfy(tablas_de_frames_swap,(void*)buscar_x_id)){
-        log_error(logger,"El carpincho no esta en SWAP");
+        log_error(logger,"El carpincho %d no esta en SWAP",id_carpincho);
         return;
     }
 
@@ -132,82 +137,56 @@ void eliminar_carpincho_de_memoria(unsigned long id_carpincho){
 }
 
 
-uint32_t posicion_primer_byte_libre(void* data){
-    uint32_t pos = 0;
+uint32_t posicion_primer_byte_libre(uint32_t nro_swap){
 
-    for(int i = 0;((char*)data)[i]!='\0'; i++){
-        pos++;
+    bool buscar_x_nro_swap(frame_swap_t* frame){
+        return frame->nro_swap == nro_swap;
     }
 
-    if(pos % cfg->TAMANIO_PAGINA != 0){
+    bool cmp_inicio_frame(frame_swap_t* frame1,frame_swap_t* frame2){
+        return frame1->inicio < frame2->inicio;
+    }
 
-        uint32_t next_pos = 0;
+    uint32_t pos_libre = 0;
+
+    t_list* aux = list_filter(tablas_de_frames_swap,buscar_x_nro_swap);
+    list_sort(aux,(void*)cmp_inicio_frame);
+
+    if(list_size(aux) == 1){
+        frame_swap_t* frame = list_get(aux,0);
         
-        for(int i = 1 ; next_pos < cfg->TAMANIO_SWAP ; i++){
-
-            next_pos = (pos / cfg->TAMANIO_PAGINA + i) * cfg->TAMANIO_PAGINA;
-
-            if(((char*)data)[next_pos] == '\0'){
-                return next_pos;
-            }
+        if(frame->inicio != 0){
+            list_destroy(aux);
+            return 0;
         }
+        
+        list_destroy(aux);
+        return cfg->TAMANIO_PAGINA;
     }
-
-    log_info(logger,"Pos tiene el valor: %d",pos);
-
-    return pos;
-}
-
-void insertar_global(void* data , void* swap){
-
-    uint32_t pos = posicion_primer_byte_libre(swap);
-    memcpy(swap + pos , data , cfg->TAMANIO_PAGINA);
-
-}
-
-uint32_t primer_byte_no_asignado(uint32_t nro_swap){
-
-    bool cmp_nro_byte(frame_swap_t* f1, frame_swap_t* f2){
-        return (f1->inicio - f2->inicio) < 0 ;
-    }
-    bool buscar_x_nro_swap(frame_swap_t* f){
-        return f->nro_swap == nro_swap;
-    }
-
-
-    t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_nro_swap);
-    list_sort(aux, (void*)cmp_nro_byte);
-
-    log_info(logger,"Tamanio de lista AUX; %d", list_size(aux));
-
-    uint32_t primero = 0; 
-    uint32_t segundo = 0;
 
     for(int i = 0 ; i < list_size(aux) - 1 ; i++){
-        
-        frame_swap_t* frame1 = list_get(aux, i);
-        frame_swap_t* frame2 = list_get(aux, i+1);
+        frame_swap_t* frame1 = list_get(aux,i);
+        frame_swap_t* frame2 = list_get(aux,i+1);
 
-        primero = frame1->inicio;
-        segundo = frame2->inicio;
+        frame_swap_t* frame = list_get(aux,0); 
 
-        if(segundo - primero > cfg->TAMANIO_PAGINA){
+        if(frame->inicio != 0){
             list_destroy(aux);
-            return primero + cfg->TAMANIO_PAGINA;
+            return 0;
         }
 
+        if((frame2->inicio - frame1->inicio) > cfg->TAMANIO_PAGINA){
+            list_destroy(aux);
+            return frame1->inicio + cfg->TAMANIO_PAGINA;
+        }
+        pos_libre = frame2->inicio + cfg->TAMANIO_PAGINA;
     }
-
-    if(primero == 0 && segundo == 0){
-        list_destroy(aux);
-        return 0;
-    }
-
     list_destroy(aux);
-    return segundo + cfg->TAMANIO_PAGINA;
+    return pos_libre;
 }
 
-bool hay_marcos_disponibles(unsigned long id){
+
+bool hay_marcos_disponibles(unsigned long id, uint32_t a_allocar){
 
     bool buscar_x_id(frame_swap_t* f){
         return f->pid == id;
@@ -215,7 +194,7 @@ bool hay_marcos_disponibles(unsigned long id){
 
     t_list* aux = list_filter(tablas_de_frames_swap,(void*)buscar_x_id);
 
-    bool respuesta = list_size(aux) < cfg->MARCOS_POR_CARPINCHO;
+    bool respuesta = (list_size(aux) + a_allocar) <= cfg->MARCOS_POR_CARPINCHO;
 
     list_destroy(aux);
 
