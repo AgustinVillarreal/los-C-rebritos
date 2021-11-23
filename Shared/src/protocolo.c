@@ -1,5 +1,7 @@
 #include "../shared/protocolo.h"
 
+extern t_config_swamp* cfg;
+
 bool send_handshake(int fd_server){
   return send_codigo_op(fd_server, HANDSHAKE);
 }
@@ -198,29 +200,97 @@ bool send_finalizar_carpincho(int fd, unsigned long id) {
 
 /* TODO: A implementar */
 
+/* Preguntar si necesita el op code */
+/* Envia la pagina a memoria */
 bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data){
+  void* stream = malloc(sizeof(long) + sizeof(nro_pagina) + cfg->TAMANIO_PAGINA);
+  op_code op = PAGINA_DE_SWAP;
+
+  memcpy(stream, &carpincho_id, sizeof(long));
+  memcpy(stream + sizeof(long), &nro_pagina, sizeof(uint32_t));
+  memcpy(stream + sizeof(long) + sizeof(uint32_t), data, cfg->TAMANIO_PAGINA);
+  if(send(fd,stream,sizeof(long) + sizeof(nro_pagina) + cfg->TAMANIO_PAGINA,0) == -1){
+    free(stream);
+    return false;
+  }
+
+  free(stream);
   return true;
-}
-bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data){
+
   return true;
 }
 
+/* Recibe el ID de un carpincho */
 bool recv_id(int cliente_socket, unsigned long* carpincho_id){
+  void* stream = malloc(sizeof(long));
+
+  if(recv(cliente_socket,stream,sizeof(long),0) != sizeof(long)){
+    free(stream);
+    return false;
+  }
+
+  memcpy(carpincho_id,stream,sizeof(long));
+  free(stream);
   return true;
 }// TODO: Recibe el id del carpincho
 
 bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t*  nro_pagina){
+
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t));
+  if(recv(cliente_socket,stream,sizeof(long) + sizeof(uint32_t),0) != sizeof(long) + sizeof(uint32_t)){
+    free(stream);
+    return false;
+  }
+  memcpy(carpincho_id,stream,sizeof(long));
+  memcpy(nro_pagina,stream + sizeof(long) ,sizeof(uint32_t));
+  free(stream);
   return true;
 }// TODO: Recibe el pedido de lectura de memoria
 
 bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data){
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t) + cfg->TAMANIO_PAGINA);
+  if(recv(cliente_socket,stream,sizeof(long) + sizeof(uint32_t) + cfg->TAMANIO_PAGINA,0) != sizeof(long) + sizeof(uint32_t) + cfg->TAMANIO_PAGINA){
+    free(stream);
+    return false;
+  }
+  memcpy(carpincho_id,stream,sizeof(long));
+  memcpy(nro_pagina,stream + sizeof(long) ,sizeof(uint32_t));
+  memcpy(data,stream + sizeof(long) + sizeof(uint32_t) ,cfg->TAMANIO_PAGINA);
+  free(stream);
   return true;
-}// TODO: Recibe el pedido de escritura de memoria
+}
 
-bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas, bool* asignacion_fija){
+bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas){
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t));
+  if(recv(cliente_socket,stream,sizeof(long) + sizeof(uint32_t),0) != sizeof(long) + sizeof(uint32_t)){
+    free(stream);
+    return false;
+  }
+  memcpy(carpincho_id,stream,sizeof(long));
+  memcpy(cant_paginas,stream + sizeof(long) ,sizeof(uint32_t));
+  free(stream);
   return true;
-}// TODO: Recibe de solicitud para saber si hay espacio libre para la cant_paginas
+}
 
-bool recv_allocar(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas,bool* asigancion_fija){
-  // TODO:
+bool recv_allocar(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas){
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t) );
+  if(recv(cliente_socket,stream,sizeof(long) + sizeof(uint32_t),0) != sizeof(long) + sizeof(uint32_t)){
+    free(stream);
+    return false;
+  }
+  memcpy(carpincho_id,stream,sizeof(long));
+  memcpy(cant_paginas,stream + sizeof(long) ,sizeof(uint32_t));
+  free(stream);
+  return true;
+}
+
+bool recv_esquema_asignacion(int cliente_socket, bool* asignacion_fija){
+  void* stream = malloc(sizeof(bool));
+  if(recv(cliente_socket,stream,sizeof(bool),0) != sizeof(bool)){
+    free(stream);
+    return false;
+  }
+  memcpy(asignacion_fija,stream,sizeof(bool));
+  free(stream);
+  return true;
 }
