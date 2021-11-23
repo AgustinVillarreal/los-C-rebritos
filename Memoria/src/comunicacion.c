@@ -95,8 +95,9 @@ static void procesar_conexion(void* void_args){
                 break;
             case MEM_FREE: ;
                 uint32_t error;
-                uint32_t direccion_logica;
-                uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica); 
+                uint32_t direccion_logica;  
+
+
 
                 if(!recv_memfree_data(cliente_socket, &id_carpincho, &direccion_logica)){            
                     log_error(logger, "Error al enviar data para allocar");
@@ -105,20 +106,17 @@ static void procesar_conexion(void* void_args){
                 }  
 
                 log_info(logger, "Liberando direccion logica: %d del carpincho: %lu", direccion_logica, id_carpincho);
+
+                uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica); 
+
                 
-                if(!liberar_espacio_mp(id_carpincho, &direccionLogica)){
-                    log_info(logger, "No se puede liberar memoria direccion logica invalida");
-                } 
 
-                send(cliente_socket, &error, sizeof(uint32_t), 0);
-
-                if(estado_free == 0) {
-                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");
+               /* if(estado_free == 0) {*/
+                   /* log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");*/
                     send(cliente_socket,&estado_free,sizeof(uint32_t),0);    
-                    break;
-                }
+                   
+ 
                 
-                log_info(logger,"LIBERADO PADRE");
                 break;
             case MEM_READ: 
                 if(!leer_espacio_mp(dir_logic_ini)){

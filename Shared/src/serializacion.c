@@ -17,6 +17,14 @@ void * serializar_alloc_data(unsigned long id, int size){
 }
 
 
+
+void * serializar_memfree_data(unsigned long id, uint32_t direccion_logica){
+    void * stream = malloc(sizeof(uint32_t) + sizeof(long));
+    memcpy(stream, &id, sizeof(long));
+    memcpy(stream + sizeof(long), &direccion_logica, sizeof(uint32_t));    
+    return stream;
+}
+
 void * serializar_sem_init(size_t* size, char* sem, unsigned int value){
 
     size_t sz_stream_sem;
@@ -59,6 +67,10 @@ void deserializar_alloc_data(void* stream, long* id,int* size_data){
   memcpy(size_data,stream+sizeof(long),sizeof(int));
 }
 
+void deserializar_memfree_data(void* stream, long* id,uint32_t* direccion_logica){
+  memcpy(id,stream,sizeof(long));
+  memcpy(direccion_logica,stream+sizeof(long),sizeof(uint32_t));
+}
 
 
 void deserializar_sem_wait(size_t size, void* stream, char** sem_aux) {

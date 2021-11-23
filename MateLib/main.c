@@ -73,9 +73,17 @@ int main(int argc, char *argv[])
   printf("7 %d\n",mate_memalloc(&mate_ref, 8));
   printf("8 %d\n",mate_memalloc(&mate_ref, 4));
   printf("9 %d\n",mate_memalloc(&mate_ref, 81));
-  
 
-  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref, 24));/*
+
+
+
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,98));
+ /* printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,121));
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
+  printf("9 %d\n",mate_memalloc(&mate_ref, 200));
+
+  /*
   printf("7 %d\n",mate_memfree(&mate_ref, 8));
   printf("8 %d\n",mate_memfree(&mate_ref, 4));
   printf("9 %d\n",mate_memfree(&mate_ref, 81));

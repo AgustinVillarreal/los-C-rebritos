@@ -44,8 +44,8 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
 } 
 
 uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica){
-
-    uint32_t nro_de_pagina = (*direccion_logica) / MEMORIA_CFG->TAMANIO_PAGINA ; 
+    uint32_t nro_de_pagina = *direccion_logica / MEMORIA_CFG->TAMANIO_PAGINA ; 
+    
     tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
     if(nro_de_pagina > list_size(carpincho-> paginas)){
         return 0;
