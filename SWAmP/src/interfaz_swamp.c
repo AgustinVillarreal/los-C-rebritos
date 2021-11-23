@@ -20,7 +20,7 @@ void proceder_asignacion(int fd,unsigned long id,uint32_t pagina,void* data,bool
 
 
         // Me fijo si hay espacio 
-        if(cantidad_de_espacio_swamp_libre(swap) < cfg->TAMANIO_PAGINA){
+        if(cantidad_de_espacio_swamp_libre(pos_swap) < cfg->TAMANIO_PAGINA){
             log_error(logger,"No espacio sufieciente en swap");
             send_ack(fd,false);
             return;
@@ -58,6 +58,16 @@ void proceder_asignacion(int fd,unsigned long id,uint32_t pagina,void* data,bool
 
         void* swap = list_get(areas_de_swap,frame->nro_swap);
 
+
+        log_info(logger,"Cantidad de swap libre: %d",cantidad_de_espacio_swamp_libre(frame->nro_swap));
+        // Me fijo si hay espacio 
+        if(cantidad_de_espacio_swamp_libre(frame->nro_swap) < cfg->TAMANIO_PAGINA){
+            list_destroy(aux);
+            log_error(logger,"No espacio sufieciente en swap");
+            send_ack(fd,false);
+            return;
+        }
+
         // Busco el primer byte libre
         uint32_t pos_libre = posicion_primer_byte_libre(swap);
         
@@ -89,7 +99,7 @@ void borrar_carpincho_swap(unsigned long carpincho_id){
 
 }
 
-/* bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bool asignacion_fija){
+bool revisar_espacio_libre(unsigned long carpincho_id, uint32_t cant_paginas, bool asignacion_fija){
     
     bool buscar_x_id(frame_swap_t* f){
         return f->pid == carpincho_id;
@@ -104,7 +114,7 @@ void borrar_carpincho_swap(unsigned long carpincho_id){
 
             void* swap = list_get(areas_de_swap,i);
 
-            uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(swap) / cfg->TAMANIO_PAGINA;
+            uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(i) / cfg->TAMANIO_PAGINA;
 
             if(paginas_libres >= cant_paginas){
                 respuesta = true;
@@ -121,27 +131,32 @@ void borrar_carpincho_swap(unsigned long carpincho_id){
 
             t_list* aux = list_filter(tablas_de_frames_swap,(void*) buscar_x_id);
 
-            uint32_t libres = 0;
-
-            for(int i = 0 ; i<cfg->MARCOS_POR_CARPINCHO ;i++){
-                frame_swap_t* f =  list_get(aux,i);
-                
-                if(f->libre){
-                    libres++;
-                }
+            if(list_size(aux) >= cfg->MARCOS_POR_CARPINCHO){
+                list_destroy(aux);
+                return false;
             }
+
+            frame_swap_t* frame = list_get(aux,0);
+
+            void* swap = list_get(areas_de_swap,frame->nro_swap);
+
+            uint32_t libres = cantidad_de_espacio_swamp_libre(frame->nro_swap) / cfg->TAMANIO_PAGINA;
+
+            list_destroy(aux);
 
             return libres >= cant_paginas;
 
         }
         else{
+
             frame_swap_t* frame = list_find(tablas_de_frames_swap,(void*)buscar_x_id);
+
             void* swap = list_get(areas_de_swap, frame->nro_swap);
 
-            uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(swap) / cfg->TAMANIO_PAGINA;
+            uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(frame->nro_swap) / cfg->TAMANIO_PAGINA;
 
             return paginas_libres >= cant_paginas;
 
         }
     }
-} */
+}

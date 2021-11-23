@@ -8,17 +8,20 @@ extern t_log* logger;
 
 /*   Me devuelve los bytes libres de swap que tiene uno de los espacios de swap */
 
-uint32_t cantidad_de_espacio_swamp_libre(void* swamp){
+uint32_t cantidad_de_espacio_swamp_libre(uint32_t swamp){
 
-    uint32_t cant = 0;
-
-    for(int i = 0 ; i < cfg->TAMANIO_SWAP; i++){   
-        if(((char*)swamp)[i] == '\0'){
-            cant++;
-        }
+    bool filtrar_x_swap(frame_swap_t* frame){
+        return frame->nro_swap == swamp;
     }
+
+    t_list* aux = list_filter(tablas_de_frames_swap,(void*)filtrar_x_swap);
+
+    uint32_t cant_marcos_max = cfg->TAMANIO_SWAP / cfg->TAMANIO_PAGINA;
+    uint32_t cant_frames_ocupados = list_size(aux);
     
-    return cant;
+    list_destroy(aux);
+
+    return (cant_marcos_max - cant_frames_ocupados) * cfg->TAMANIO_PAGINA;
 }
 
 /* Busca la swap con mas espacio libre */
@@ -69,11 +72,13 @@ uint32_t swamp_con_mas_espacio(){
 /* Esto deberia darme un void* en -> "dest" que representa la pagina que guarde */
 /* Esto deberia poder solucionar el problema de leer de memoria */
 
-void tomar_frame_swap(unsigned long id_carpincho, uint32_t nro_pagina, void* dest){
+void* tomar_frame_swap(unsigned long id_carpincho, uint32_t nro_pagina){
 
     bool buscar_x_id(frame_swap_t* f){
         return f->pid == id_carpincho && f->nro_pagina == nro_pagina;
     }
+
+    void* dest = malloc(cfg->TAMANIO_PAGINA);
 
     frame_swap_t* frame = list_find(tablas_de_frames_swap, (void*)buscar_x_id);
 
@@ -81,12 +86,15 @@ void tomar_frame_swap(unsigned long id_carpincho, uint32_t nro_pagina, void* des
 
     memcpy(dest, swap + frame->inicio, cfg->TAMANIO_PAGINA);
 
+    return dest;
+
 }
 
 /* Setea la pagina en swap con '\0' cuando se quiere borrar al carpincho  */
 
-void formatear_pagina_swap(uint32_t inicio,void* swap){
+void formatear_pagina_swap(uint32_t inicio,uint32_t nro_swap){
 
+    void* swap = list_get(areas_de_swap,nro_swap);
     memset(swap+inicio,'\0',cfg->TAMANIO_PAGINA);
 
 }
@@ -94,19 +102,31 @@ void formatear_pagina_swap(uint32_t inicio,void* swap){
 /* Elimina al carpincho de la lista de frames y setea todas las paginas que ocupaba con '\0' */
 
 void eliminar_carpincho_de_memoria(unsigned long id_carpincho){
-  
 
-    for(int i = 0 ; i < list_size(tablas_de_frames_swap) ; i++){
 
+    bool buscar_x_id(frame_swap_t* f){
+        return f->pid == id_carpincho;
+    }
+
+    if(!list_any_satisfy(tablas_de_frames_swap,(void*)buscar_x_id)){
+        log_error(logger,"El carpincho no esta en SWAP");
+        return;
+    }
+
+    uint32_t cant = list_count_satisfying(tablas_de_frames_swap,(void*)buscar_x_id);
+
+    for(int i = 0 ; i < list_size(tablas_de_frames_swap);i++){
         frame_swap_t* frame = list_get(tablas_de_frames_swap,i);
 
         if(frame->pid == id_carpincho){
-            void* swap = list_get(areas_de_swap, frame->nro_swap);
-            formatear_pagina_swap(frame->inicio,swap);
-
-            list_remove_and_destroy_element(tablas_de_frames_swap,i,(void*)destroy_frame);   
+            formatear_pagina_swap(frame->inicio,frame->nro_swap);
         }
 
+    }
+    for(int i = 0 ; i < cant ; i++){
+
+        list_remove_and_destroy_by_condition(tablas_de_frames_swap,(void*)buscar_x_id,(void*)destroy_frame);
+        
     }
 
 }
@@ -118,6 +138,22 @@ uint32_t posicion_primer_byte_libre(void* data){
     for(int i = 0;((char*)data)[i]!='\0'; i++){
         pos++;
     }
+
+    if(pos % cfg->TAMANIO_PAGINA != 0){
+
+        uint32_t next_pos = 0;
+        
+        for(int i = 1 ; next_pos < cfg->TAMANIO_SWAP ; i++){
+
+            next_pos = (pos / cfg->TAMANIO_PAGINA + i) * cfg->TAMANIO_PAGINA;
+
+            if(((char*)data)[next_pos] == '\0'){
+                return next_pos;
+            }
+        }
+    }
+
+    log_info(logger,"Pos tiene el valor: %d",pos);
 
     return pos;
 }
