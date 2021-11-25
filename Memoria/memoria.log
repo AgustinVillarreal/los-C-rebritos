@@ -19941,3 +19941,130 @@
 [INFO] 19:46:14:999 memoria/(30959:30986): aaaa: 
 [INFO] 19:46:15:000 memoria/(30959:30986): COMPACTO A IZQUIERDA
 [INFO] 19:46:15:002 memoria/(30959:30986): ---------0 en pagina 167936---------
+[INFO] 20:33:46:908 memoria/(7463:7463): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:33:46:987 memoria/(7463:7463): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 20:33:46:991 memoria/(7463:7463): ------2---------
+
+[INFO] 20:33:46:993 memoria/(7463:7463): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 20:33:52:979 memoria/(7463:7463): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:33:53:099 memoria/(7463:7489): HANDSHAKE
+[INFO] 20:33:53:167 memoria/(7463:7489): Alocando size: 13 del carpincho: 0
+[INFO] 20:33:53:171 memoria/(7463:7489): El frame es el 0 
+
+[INFO] 20:33:53:178 memoria/(7463:7489): Allocando todo el hmd en 0
+
+[INFO] 20:33:53:214 memoria/(7463:7489): Alocando size: 1 del carpincho: 0
+[INFO] 20:33:53:216 memoria/(7463:7489): ---------0 en pagina 0---------
+[INFO] 20:33:53:219 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:222 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:224 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:225 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:237 memoria/(7463:7489): El frame es el 1 
+
+[INFO] 20:33:53:278 memoria/(7463:7489): Alocando size: 24 del carpincho: 0
+[INFO] 20:33:53:279 memoria/(7463:7489): ---------0 en pagina 0---------
+[INFO] 20:33:53:280 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:281 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:282 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:283 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:285 memoria/(7463:7489): ---------0 en pagina 1---------
+[INFO] 20:33:53:286 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:287 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:289 memoria/(7463:7489): El frame es el 2 
+
+[INFO] 20:33:53:321 memoria/(7463:7489): Alocando size: 8 del carpincho: 0
+[INFO] 20:33:53:323 memoria/(7463:7489): ---------0 en pagina 0---------
+[INFO] 20:33:53:324 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:327 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:327 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:328 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:331 memoria/(7463:7489): ---------0 en pagina 1---------
+[INFO] 20:33:53:332 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:333 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:334 memoria/(7463:7489): ---------0 en pagina 2---------
+[INFO] 20:33:53:334 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:336 memoria/(7463:7489): aaaa:  
+[INFO] 20:33:53:373 memoria/(7463:7489): Alocando size: 4 del carpincho: 0
+[INFO] 20:33:53:375 memoria/(7463:7489): ---------0 en pagina 0---------
+[INFO] 20:33:53:376 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:377 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:378 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:379 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:380 memoria/(7463:7489): ---------0 en pagina 1---------
+[INFO] 20:33:53:380 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:381 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:381 memoria/(7463:7489): ---------0 en pagina 2---------
+[INFO] 20:33:53:383 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:388 memoria/(7463:7489): aaaa:  
+[INFO] 20:33:53:390 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:390 memoria/(7463:7489): aaaa: A
+[INFO] 20:33:53:391 memoria/(7463:7489): El frame es el 3 
+
+[INFO] 20:33:53:430 memoria/(7463:7489): Alocando size: 81 del carpincho: 0
+[INFO] 20:33:53:432 memoria/(7463:7489): ---------0 en pagina 0---------
+[INFO] 20:33:53:434 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:436 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:436 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:437 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:437 memoria/(7463:7489): ---------0 en pagina 1---------
+[INFO] 20:33:53:438 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:439 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:439 memoria/(7463:7489): ---------0 en pagina 2---------
+[INFO] 20:33:53:440 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:440 memoria/(7463:7489): aaaa:  
+[INFO] 20:33:53:441 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:441 memoria/(7463:7489): aaaa: A
+[INFO] 20:33:53:449 memoria/(7463:7489): size_ 1
+[INFO] 20:33:53:450 memoria/(7463:7489): aaaa: R
+[INFO] 20:33:53:452 memoria/(7463:7489): ---------0 en pagina 3---------
+[INFO] 20:33:53:455 memoria/(7463:7489): size_ 8
+[INFO] 20:33:53:456 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:457 memoria/(7463:7489): ---------0 en pagina 3---------
+[INFO] 20:33:53:459 memoria/(7463:7489): El frame es el 4 
+
+[INFO] 20:33:53:462 memoria/(7463:7489): El frame es el 5 
+
+[INFO] 20:33:53:466 memoria/(7463:7489): El frame es el 6 
+
+[INFO] 20:33:53:507 memoria/(7463:7489): Liberando direccion logica: 9 del carpincho: 0
+[INFO] 20:33:53:510 memoria/(7463:7489): ---------0 en pagina 0---------
+[INFO] 20:33:53:512 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:513 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:514 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:515 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:517 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:520 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:521 memoria/(7463:7489): Escribo el nuevo hmd en  0
+[INFO] 20:33:53:522 memoria/(7463:7489): hmd -> prevAlloc : 0 
+[INFO] 20:33:53:523 memoria/(7463:7489): hmd-> nextAlloc : 22 
+[INFO] 20:33:53:525 memoria/(7463:7489): hmd -> isFree : 1 
+[INFO] 20:33:53:525 memoria/(7463:7489): Escribo el nuevo hmd_next en 22
+[INFO] 20:33:53:525 memoria/(7463:7489): hmd_aux_next -> prevAlloc : 0 
+[INFO] 20:33:53:526 memoria/(7463:7489): hmd_aux_next -> nextAlloc : 32 
+[INFO] 20:33:53:526 memoria/(7463:7489): hmd_aux_next -> isFree : 0 
+[INFO] 20:33:53:527 memoria/(7463:7489): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 20:33:53:570 memoria/(7463:7489): Liberando direccion logica: 91 del carpincho: 0
+[INFO] 20:33:53:576 memoria/(7463:7489): ---------0 en pagina 2---------
+[INFO] 20:33:53:577 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:578 memoria/(7463:7489): aaaa: A
+[INFO] 20:33:53:579 memoria/(7463:7489): size_ 9
+[INFO] 20:33:53:580 memoria/(7463:7489): aaaa:  
+[INFO] 20:33:53:581 memoria/(7463:7489): size_ 1
+[INFO] 20:33:53:582 memoria/(7463:7489): aaaa: R
+[INFO] 20:33:53:584 memoria/(7463:7489): ---------0 en pagina 3---------
+[INFO] 20:33:53:585 memoria/(7463:7489): size_ 8
+[INFO] 20:33:53:586 memoria/(7463:7489): aaaa: 
+[INFO] 20:33:53:586 memoria/(7463:7489): Escribo el nuevo hmd en  82
+[INFO] 20:33:53:587 memoria/(7463:7489): hmd -> prevAlloc : 65 
+[INFO] 20:33:53:588 memoria/(7463:7489): hmd-> nextAlloc : 95 
+[INFO] 20:33:53:588 memoria/(7463:7489): hmd -> isFree : 1 
+[INFO] 20:33:53:589 memoria/(7463:7489): Escribo el nuevo hmd_next en 95
+[INFO] 20:33:53:589 memoria/(7463:7489): hmd_aux_next -> prevAlloc : 82 
+[INFO] 20:33:53:590 memoria/(7463:7489): hmd_aux_next -> nextAlloc : 185 
+[INFO] 20:33:53:590 memoria/(7463:7489): hmd_aux_next -> isFree : 0 
+[INFO] 20:33:53:592 memoria/(7463:7489): ---------0 en pagina 3---------
+[INFO] 20:33:53:595 memoria/(7463:7489): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 20:33:53:660 memoria/(7463:7489): DISCONNECT!

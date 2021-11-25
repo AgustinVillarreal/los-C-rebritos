@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -42,7 +42,9 @@ typedef enum {
     ESCRITURA_SWAMP,
     LECTURA_SWAMP,
     FINALIZAR_CARPINCHO,
-    ESPACIO_LIBRE
+    ESPACIO_LIBRE,
+    ALLOCAR_EN_SWAP,
+    PAGINA_DE_SWAP
 } op_code;
 
 
@@ -86,14 +88,18 @@ bool send_finalizar_carpincho(int fd, unsigned long id);
 
 //SWAMP
 
-bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data);
+bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data, uint32_t tamanio_pagina);
 bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data);
 
 bool recv_id(int cliente_socket, unsigned long* carpincho_id);
 
 bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina);
 
-bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, bool* asignacion_fija);
+bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, uint32_t tamanio_pagina);
 
-bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas, bool* asignacion_fija);
+bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas);
+
+bool recv_allocar(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas);
+
+bool recv_esquema_asignacion(int cliente_socket, bool* asignacion_fija);
 #endif
