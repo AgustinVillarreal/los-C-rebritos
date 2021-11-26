@@ -19,4 +19,6 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
 
 void proceder_allocar(int cliente_socket,unsigned long carpincho_id, uint32_t nro_pagina, bool asigancion_fija);
 
+void liberar_marcos(int cliente_socket,unsigned long carpincho_id,uint32_t cant_paginas);
+
 #endif

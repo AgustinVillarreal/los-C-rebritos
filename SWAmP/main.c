@@ -85,12 +85,12 @@ int main(){
 
   while(server_escuchar(SERVERNAME, swamp_server));
 
-  //   char* data1 = "11111111111111111111111111111111111111111111111111\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
-  //   char* data2 = "2222222222222222222222222222222222222222222222222222222222222222";
-  //   char* data3 = "3333333333333333333333333333333333333333333333\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
-  //   char* data4 = "4444444444444444444444444444444444444444444444444\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
-  //   char* dataX = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\0\0\0\0";
-  //   char* dataY = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
+  // char* data1 = "11111111111111111111111111111111111111111111111111\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
+  // char* data2 = "2222222222222222222222222222222222222222222222222222222222222222";
+  // char* data3 = "3333333333333333333333333333333333333333333333\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
+  // char* data4 = "4444444444444444444444444444444444444444444444444\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
+  // char* dataX = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\0\0\0\0";
+  // char* dataY = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
  
   // /* Pruebo allocar memoria en swap */
 
@@ -168,6 +168,19 @@ int main(){
 
   //   getchar();
   //   log_info(logger,"------------------------");
+
+  // /* Ahora elimino unas paginas del carpincho 1 */
+
+  //   liberar_marcos(0,3,4);
+  //   liberar_marcos(0,1,4);
+
+  //   mem_hexdump(list_get(areas_de_swap,0),512);
+  //   mem_hexdump(list_get(areas_de_swap,1),512);
+
+  //   mostrar_tabla_swap(tablas_de_frames_swap);
+
+  //   getchar();
+  //   log_info(logger,"------------------------");
   // /* Ahora pruebo eliminar dos carpinchos */
 
   //   log_info(logger,"Elimino al carpincho 4");
@@ -229,6 +242,9 @@ int main(){
   //   if(revisar_espacio_libre(0,5,3,false)){
   //     log_info(logger,"Hay espacio para allocar 3 paginas para el carpincho 5 (asigancion global)");
   //   }
+
+  //   getchar();
+  //   log_info(logger,"------------------------");
 
   //   /* Mato toda la los carpinchos */
 

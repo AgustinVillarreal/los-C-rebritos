@@ -394,3 +394,8 @@ bool recv_esquema_asignacion(int cliente_socket, bool* asignacion_fija){
   free(stream);
   return true;
 }
+
+bool recv_solicitud_liberar_marcos(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas){
+  /* TODO */
+  return true;
+}
