@@ -77,7 +77,7 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
                 break;
             }
         }
-
+        log_info(logger, "Estoy a punto de retornarte una respuesta");
         return respuesta;
 
     }

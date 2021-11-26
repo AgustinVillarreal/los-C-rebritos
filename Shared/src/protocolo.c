@@ -1,9 +1,15 @@
 #include "../shared/protocolo.h"
 
-extern t_config_swamp* cfg;
-
 bool send_handshake(int fd_server){
   return send_codigo_op(fd_server, HANDSHAKE);
+}
+
+bool send_handshake_swap(int fd_server, bool asignacion_fija){
+  send_codigo_op(fd_server, HANDSHAKE);
+  if(send(fd_server, &asignacion_fija, sizeof(bool), 0) == -1) {
+    return false;
+  }
+  return true;
 }
 
 bool send_mate_init(int fd_server, int generar_id){
@@ -267,6 +273,9 @@ bool send_finalizar_carpincho(int fd, unsigned long id) {
   free(stream);    
   return true;
 }
+
+
+
 //SWAmP
 
 /* TODO: A implementar */
@@ -303,7 +312,7 @@ bool recv_id(int cliente_socket, unsigned long* carpincho_id){
   memcpy(carpincho_id,stream,sizeof(long));
   free(stream);
   return true;
-}// TODO: Recibe el id del carpincho
+}// TODO: Recibe el id del carpincho 
 
 bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t*  nro_pagina){
 
@@ -324,14 +333,14 @@ bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nr
     free(stream);
     return false;
   }
-  memcpy(carpincho_id,stream,sizeof(long));
+  memcpy(carpincho_id, stream, sizeof(long));
   memcpy(nro_pagina,stream + sizeof(long) ,sizeof(uint32_t));
   memcpy(data,stream + sizeof(long) + sizeof(uint32_t) , tamanio_pagina);
   free(stream);
   return true;
 }
 
-bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas){
+bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas){
   void* stream = malloc(sizeof(long) + sizeof(uint32_t));
   if(recv(cliente_socket,stream,sizeof(long) + sizeof(uint32_t),0) != sizeof(long) + sizeof(uint32_t)){
     free(stream);
@@ -342,6 +351,26 @@ bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_i
   free(stream);
   return true;
 }
+
+bool entra_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int fd_swamp){
+  send_codigo_op(fd_swamp, ESPACIO_LIBRE);
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t));
+  memcpy(stream, &id_carpincho, sizeof(long));
+  memcpy(stream + sizeof(long), &cantidad_de_paginas, sizeof(uint32_t));
+  if(send(fd_swamp, stream, sizeof(uint32_t) + sizeof(long), 0) == -1){
+    free(stream);    
+    return false;
+  }
+  free(stream);  
+  bool ack;
+  recv_ack(fd_swamp, &ack);  
+  if(ack){
+    return true;
+  } 
+  return false;
+}
+
+
 
 bool recv_allocar(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas){
   void* stream = malloc(sizeof(long) + sizeof(uint32_t) );

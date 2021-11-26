@@ -7,12 +7,14 @@ unsigned long global_id_mem = 0;
 typedef struct {
     int fd;
     char* server_name;
+    int swap_fd;
 } t_procesar_conexion_args;
 
 static void procesar_conexion(void* void_args){
     t_procesar_conexion_args* args = (t_procesar_conexion_args*) void_args;
     int cliente_socket = args->fd;
     char* server_name = args->server_name;
+    int swap_fd = args->swap_fd;
     unsigned long id_carpincho;
     
     free(args);
@@ -86,7 +88,7 @@ static void procesar_conexion(void* void_args){
                 }                
                 log_info(logger, "Alocando size: %d del carpincho: %lu", size_data, id_carpincho);
                 
-                if(!allocar_carpincho(id_carpincho, size_data, &direccionLogica)){
+                if(!allocar_carpincho(id_carpincho, size_data, &direccionLogica, swap_fd)){
                     log_info(logger, "No se pudo allocar carpincho");
                 } 
                 //TODO: Hacer un send de la direccionLogica, si es 0xFFFF esta mal
@@ -177,7 +179,7 @@ static void procesar_conexion(void* void_args){
     return;
 }
 
-int server_escuchar(char* server_name, int server_fd) {
+int server_escuchar(char* server_name, int server_fd, int cliente_fd) {
     int cliente_socket = esperar_cliente(logger, server_name, server_fd);
 
     if (cliente_socket != -1) {
@@ -185,6 +187,7 @@ int server_escuchar(char* server_name, int server_fd) {
         t_procesar_conexion_args* args = malloc(sizeof(t_procesar_conexion_args));
         args->fd = cliente_socket;
         args->server_name = server_name;
+        args->swap_fd = cliente_fd;
         pthread_create(&hilo, NULL, (void*) procesar_conexion, (void*) args);
         pthread_detach(hilo);
         return 1;

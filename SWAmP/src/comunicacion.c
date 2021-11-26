@@ -65,7 +65,7 @@ static void procesar_conexion(void* void_args) {
                 uint32_t nro_pagina;
                 void* data;
 
-                if (recv_ecritura(cliente_socket, &carpincho_id, &nro_pagina, &data)) {
+                if (recv_ecritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) {
                    
                     proceder_escritura(cliente_socket,carpincho_id,nro_pagina,data);
                    
@@ -115,7 +115,8 @@ static void procesar_conexion(void* void_args) {
                 unsigned long carpincho_id;
                 uint32_t cant_paginas;
 
-                if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id,&cant_paginas)) {
+                if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id, &cant_paginas)) {
+                    log_info(logger, "entre en el if");
                     bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
                     send_ack(cliente_socket,respuesta);
                 }

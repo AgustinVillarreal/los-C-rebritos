@@ -42,14 +42,14 @@ int main(){
 		return EXIT_FAILURE;
 	}
 
-	if(!send_handshake(swap_fd)){
+	if(!send_handshake_swap(swap_fd, MEMORIA_CFG->FIJA)){
 		cerrar_programa(logger,MEMORIA_CFG);
 		printf("Falle :(");
 		return EXIT_FAILURE;
 	}
 	
 
-	while(server_escuchar(SERVERNAME, memoria_server));
+	while(server_escuchar(SERVERNAME, memoria_server, swap_fd));
 
 	liberar_conexion(&memoria_server);
 
