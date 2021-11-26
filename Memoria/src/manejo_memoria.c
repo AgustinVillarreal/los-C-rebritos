@@ -323,11 +323,11 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
   hmd -> isFree = true;
   
   uint32_t nro_frame = entrada_tp-> nro_frame;
+  /*
   pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
   tabla_frames[nro_frame].libre = true;
   pthread_mutex_unlock(&MUTEX_FRAMES_BUSY); 
-  
-
+  */
   uint32_t direccion_logica_aux = hmd->prevAlloc;
   uint32_t nro_pagina_aux= direccion_logica_aux / MEMORIA_CFG->TAMANIO_PAGINA;
   uint32_t offset_hmd_aux = direccion_logica_aux % MEMORIA_CFG->TAMANIO_PAGINA;
@@ -341,9 +341,11 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
   if(hmd_aux -> isFree){
     log_info(logger,"COMPACTO A IZQUIERDA");
     nro_frame = entrada_tp_aux-> nro_frame;
+    /*
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
     tabla_frames[nro_frame].libre = true;
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
+    */
     hmd -> prevAlloc = hmd_aux -> prevAlloc;
     entrada_tp = entrada_tp_aux;
     offset_hmd = offset_hmd_aux;
@@ -371,9 +373,11 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
 
     nro_frame = entrada_tp_aux_next -> nro_frame;
     log_info(logger,"COMPACTO A DERECHA");
+    /*
     pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
     tabla_frames[nro_frame].libre = true;
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY); 
+    */
     hmd -> nextAlloc = hmd_aux_next -> nextAlloc;
     direccion_logica_aux_next = hmd_aux_next -> nextAlloc;
     nro_pagina_aux_next = direccion_logica_aux_next / MEMORIA_CFG->TAMANIO_PAGINA;

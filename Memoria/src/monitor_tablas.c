@@ -1,6 +1,7 @@
 #include "../include/monitor_tablas.h"
 
 extern t_log* logger;
+extern frame_t* tabla_frames;
 
 uint32_t static_pid;
 uint32_t static_nro_frame;
@@ -19,7 +20,12 @@ void agregar_tabla_a_tp_carpinchos(void* tp_carpincho) {
 
 void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_paginas) {
     tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
+    entrada_tp_t* entrada_tp;
     for(uint32_t i = 0; i < cantidad_paginas; i++   ){
+        entrada_tp = buscar_entrada_tp(id_carpincho, list_size(carpincho-> paginas)-1);
+        pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
+        tabla_frames[entrada_tp -> nro_frame].libre = true;
+        pthread_mutex_unlock(&MUTEX_FRAMES_BUSY); 
         pthread_mutex_lock(&MUTEX_TP_CARPINCHOS);
         list_remove (carpincho -> paginas,list_size(carpincho-> paginas)-1);        
         pthread_mutex_unlock(&MUTEX_TP_CARPINCHOS);

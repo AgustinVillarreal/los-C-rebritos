@@ -6288,3 +6288,13 @@
 [INFO] 19:46:11:406 SWAmP/(30207:30207): Cliente conectado (a SWAmP)
 
 [INFO] 19:46:11:407 SWAmP/(30207:30207): DISCONNECT!
+[INFO] 21:07:30:977 SWAmP/(14624:14624): Archivo de configuracion cargado correctamente
+[INFO] 21:07:31:033 SWAmP/(14624:14624): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 21:07:31:041 SWAmP/(14624:14624): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 21:07:31:049 SWAmP/(14624:14624): ------2---------
+
+[INFO] 21:07:31:052 SWAmP/(14624:14624): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 21:09:23:625 SWAmP/(14624:14624): Cliente conectado (a SWAmP)
+
+[INFO] 21:09:23:627 SWAmP/(14624:14624): DISCONNECT!

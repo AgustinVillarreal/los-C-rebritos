@@ -723,3 +723,6 @@
 
 [ERROR] 19:46:14:563 mateLib/(30982:30982): No podes usar semaforos si no estas conectado al kernel
 
+[INFO] 21:10:20:219 mateLib/(15234:15234): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:10:20:318 mateLib/(15234:15234): Handshake

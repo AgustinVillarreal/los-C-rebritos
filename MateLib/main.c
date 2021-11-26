@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
 
 
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
-  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,98));/*
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,91));/*
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,121));
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
   printf("9 %d\n",mate_memalloc(&mate_ref, 200));
