@@ -102,3 +102,17 @@ uint32_t* victima_clock_fija(unsigned long id_carpincho){
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
     return &(tabla_carpincho->posible_victima_fija);
 }
+
+void correr_algoritmo_tlb(tlb_t* entrada_tlb){
+    pthread_mutex_lock(&MUTEX_ALGORITMOS_TLB);
+    
+    void* minimo_TUR(void* pagina1, void* pagina2){
+        return 
+            ((tlb_t*) pagina1)->TUR <= ((tlb_t*) pagina2)->TUR ? 
+            pagina1 : pagina2;
+    }
+    tlb_t* victima_algoritmo = list_get_minimum(TLB_TABLE, minimo_TUR);
+    remove_entrada_tlb(victima_algoritmo);
+    list_add_tlb(entrada_tlb);
+    pthread_mutex_unlock(&MUTEX_ALGORITMOS_TLB);
+}

@@ -12,7 +12,12 @@ void mate_init(unsigned long id){
     tp_carpincho->pages = 0;
     tp_carpincho->paginas = list_create();
     tp_carpincho->posible_victima_fija = 0;
+    tp_carpincho->cant_hits = 0;
+    tp_carpincho->cant_miss = 0;    
     pthread_mutex_init(&tp_carpincho->mutex_paginas, NULL);
+    pthread_mutex_init(&tp_carpincho->mutex_hits, NULL);
+    pthread_mutex_init(&tp_carpincho->mutex_miss, NULL);
+    
     agregar_tabla_a_tp_carpinchos(tp_carpincho);
     return; 
 }
