@@ -42,7 +42,7 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
     return allocar_carpincho_en_mp(id_carpincho, size, primer_alloc, direccion_logica, swap_fd);    
 } 
 
-uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica){
+uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica, int swap_fd ){
     uint32_t nro_de_pagina = *direccion_logica / MEMORIA_CFG->TAMANIO_PAGINA ; 
     
     tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
@@ -50,7 +50,7 @@ uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logi
         return 0;
     }
 
-    liberar_Alloc( id_carpincho, direccion_logica);
+    liberar_Alloc( id_carpincho, direccion_logica,swap_fd);
 
     return 1;
 }

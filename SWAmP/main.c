@@ -19,55 +19,55 @@ int swamp_server;
     bool libre;
 } frame_swap_t; */
 
-void mostrar_tabla_swap(t_list* tabla){
+//void mostrar_tabla_swap(t_list* tabla){
 
-  bool filtrar_x_swap0(frame_swap_t* frame){
-    return frame->nro_swap == 0;
-  }
-  bool filtrar_x_swap1(frame_swap_t* frame){
-    return frame->nro_swap == 1;
-  }
+//   bool filtrar_x_swap0(frame_swap_t* frame){
+//     return frame->nro_swap == 0;
+//   }
+//   bool filtrar_x_swap1(frame_swap_t* frame){
+//     return frame->nro_swap == 1;
+//   }
   
-  t_list* aux1 = list_filter(tabla,(void*)filtrar_x_swap0);
-  t_list* aux2 = list_filter(tabla,(void*)filtrar_x_swap1);
+//   t_list* aux1 = list_filter(tabla,(void*)filtrar_x_swap0);
+//   t_list* aux2 = list_filter(tabla,(void*)filtrar_x_swap1);
 
-  log_info(logger,"------------------------");
-  log_info(logger,"Para SWAP 0");
-  log_info(logger,"------------------------");
+//   log_info(logger,"------------------------");
+//   log_info(logger,"Para SWAP 0");
+//   log_info(logger,"------------------------");
 
-  if(list_size(aux1) == 0){
-    log_info(logger,"---------NADA---------");
-  }
+//   if(list_size(aux1) == 0){
+//     log_info(logger,"---------NADA---------");
+//   }
 
-  for(int i = 0 ; i < list_size(aux1) ; i++){
-    frame_swap_t* frame = list_get(aux1,i);
-    log_info(logger,"PID: %d",frame->pid);
-    log_info(logger,"NRO PAGINA: %d",frame->nro_pagina);
-    log_info(logger,"INICIO: %d",frame->inicio);
-    log_info(logger,"NRO SWAP: %d",frame->nro_swap);
-    log_info(logger,"------------------------");
-  }
-    log_info(logger,"------------------------");
-    log_info(logger,"Para SWAP 1");
-    log_info(logger,"------------------------");
+//   for(int i = 0 ; i < list_size(aux1) ; i++){
+//     frame_swap_t* frame = list_get(aux1,i);
+//     log_info(logger,"PID: %d",frame->pid);
+//     log_info(logger,"NRO PAGINA: %d",frame->nro_pagina);
+//     log_info(logger,"INICIO: %d",frame->inicio);
+//     log_info(logger,"NRO SWAP: %d",frame->nro_swap);
+//     log_info(logger,"------------------------");
+//   }
+//     log_info(logger,"------------------------");
+//     log_info(logger,"Para SWAP 1");
+//     log_info(logger,"------------------------");
 
-    if(list_size(aux2) == 0){
-      log_info(logger,"---------NADA---------");
-    }
+//     if(list_size(aux2) == 0){
+//       log_info(logger,"---------NADA---------");
+//     }
 
-    for(int i = 0 ; i < list_size(aux2) ; i++){
-    frame_swap_t* frame = list_get(aux2,i);
-    log_info(logger,"PID: %d",frame->pid);
-    log_info(logger,"NRO PAGINA: %d",frame->nro_pagina);
-    log_info(logger,"INICIO: %d",frame->inicio);
-    log_info(logger,"NRO SWAP: %d",frame->nro_swap);
-    log_info(logger,"------------------------");
-  }
+//     for(int i = 0 ; i < list_size(aux2) ; i++){
+//     frame_swap_t* frame = list_get(aux2,i);
+//     log_info(logger,"PID: %d",frame->pid);
+//     log_info(logger,"NRO PAGINA: %d",frame->nro_pagina);
+//     log_info(logger,"INICIO: %d",frame->inicio);
+//     log_info(logger,"NRO SWAP: %d",frame->nro_swap);
+//     log_info(logger,"------------------------");
+//   }
 
-  list_destroy(aux1);
-  list_destroy(aux2);
+//   list_destroy(aux1);
+//   list_destroy(aux2);
 
-}
+// }
 
 int main(){
 
@@ -82,15 +82,15 @@ int main(){
     swamp_server = iniciar_servidor(logger, SERVERNAME, "0.0.0.0", puerto);
     free(puerto);
 
+  server_escuchar(SERVERNAME, swamp_server);
+  //while(server_escuchar(SERVERNAME, swamp_server));
 
-  while(server_escuchar(SERVERNAME, swamp_server));
-
-  //   char* data1 = "11111111111111111111111111111111111111111111111111\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
-  //   char* data2 = "2222222222222222222222222222222222222222222222222222222222222222";
-  //   char* data3 = "3333333333333333333333333333333333333333333333\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
-  //   char* data4 = "4444444444444444444444444444444444444444444444444\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
-  //   char* dataX = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\0\0\0\0";
-  //   char* dataY = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
+  // char* data1 = "11111111111111111111111111111111111111111111111111\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
+  // char* data2 = "2222222222222222222222222222222222222222222222222222222222222222";
+  // char* data3 = "3333333333333333333333333333333333333333333333\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
+  // char* data4 = "4444444444444444444444444444444444444444444444444\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0";
+  // char* dataX = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\0\0\0\0";
+  // char* dataY = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
  
   // /* Pruebo allocar memoria en swap */
 
@@ -168,6 +168,19 @@ int main(){
 
   //   getchar();
   //   log_info(logger,"------------------------");
+
+  // /* Ahora elimino unas paginas del carpincho 1 */
+
+  //   liberar_marcos(0,3,4);
+  //   liberar_marcos(0,1,4);
+
+  //   mem_hexdump(list_get(areas_de_swap,0),512);
+  //   mem_hexdump(list_get(areas_de_swap,1),512);
+
+  //   mostrar_tabla_swap(tablas_de_frames_swap);
+
+  //   getchar();
+  //   log_info(logger,"------------------------");
   // /* Ahora pruebo eliminar dos carpinchos */
 
   //   log_info(logger,"Elimino al carpincho 4");
@@ -229,6 +242,9 @@ int main(){
   //   if(revisar_espacio_libre(0,5,3,false)){
   //     log_info(logger,"Hay espacio para allocar 3 paginas para el carpincho 5 (asigancion global)");
   //   }
+
+  //   getchar();
+  //   log_info(logger,"------------------------");
 
   //   /* Mato toda la los carpinchos */
 

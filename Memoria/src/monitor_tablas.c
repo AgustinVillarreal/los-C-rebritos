@@ -18,10 +18,12 @@ void agregar_tabla_a_tp_carpinchos(void* tp_carpincho) {
     return;
 }
 
-void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_paginas) {
+void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_paginas_finales, int swap_fd) {
     tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
     entrada_tp_t* entrada_tp;
-    for(uint32_t i = 0; i < cantidad_paginas; i++   ){
+    uint32_t pag_sacar = list_size(carpincho-> paginas) - cantidad_paginas_finales;
+    log_info(logger,"Se van a sacar : %d ", pag_sacar);
+    for(uint32_t i = 0; i < pag_sacar; i++   ){
         entrada_tp = buscar_entrada_tp(id_carpincho, list_size(carpincho-> paginas)-1);
         pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
         tabla_frames[entrada_tp -> nro_frame].libre = true;
@@ -29,7 +31,10 @@ void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_
         pthread_mutex_lock(&MUTEX_TP_CARPINCHOS);
         list_remove (carpincho -> paginas,list_size(carpincho-> paginas)-1);        
         pthread_mutex_unlock(&MUTEX_TP_CARPINCHOS);
-        //SACAR DE TLB Y SWAPP
+        //SACAR DE TLB 
+        if(quitar_en_swap(id_carpincho, pag_sacar, swap_fd)){
+            log_info(logger, "Se elimino de SWamp");
+        }
     }
     return;
 }

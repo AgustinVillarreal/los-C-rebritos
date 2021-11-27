@@ -30,5 +30,6 @@ uint32_t buscar_espacio_entre_hmd(unsigned long id_carpincho, size_t size, uint3
 uint32_t cant_paginas_relativa(uint32_t posicion, size_t size);
 void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset, size_t size);
 void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size);
+void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_paginas_finales, int swap_fd);
 
 #endif

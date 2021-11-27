@@ -44,7 +44,8 @@ typedef enum {
     FINALIZAR_CARPINCHO,
     ESPACIO_LIBRE,
     ALLOCAR_EN_SWAP,
-    PAGINA_DE_SWAP
+    PAGINA_DE_SWAP,
+    LIBERAR_MARCOS
 } op_code;
 
 
@@ -89,6 +90,8 @@ bool send_finalizar_carpincho(int fd, unsigned long id);
 
 bool entra_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int fd_swamp);
 
+bool quitar_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int fd_swamp);
+
 
 //SWAMP
 
@@ -106,4 +109,7 @@ bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_i
 bool recv_allocar(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas);
 
 bool recv_esquema_asignacion(int cliente_socket, bool* asignacion_fija);
+
+bool recv_solicitud_liberar_marcos(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas);
+
 #endif
