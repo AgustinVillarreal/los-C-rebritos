@@ -20,11 +20,12 @@ static void procesar_conexion(void* void_args) {
     int cliente_socket = args->fd;
     char* server_name = args->server_name;
     free(args);
+    bool asigancion_fija;
 
     op_code cop;
     while (cliente_socket != -1) {
 
-        if (1/* recv(cliente_socket, &cop, sizeof(op_code), 0) != sizeof(op_code) */) {
+        if (recv(cliente_socket, &cop, sizeof(op_code), 0) != sizeof(op_code)) {
             log_info(logger, STR(DISCONNECT!));
             return;
         }
@@ -32,22 +33,42 @@ static void procesar_conexion(void* void_args) {
         switch (cop) {
             case HANDSHAKE:
                 log_info(logger, "Me llego el HANDSHAKE con MEMORIA!");
+                if(recv_esquema_asignacion(cliente_socket,&asigancion_fija)){
+
+                }
+                else{
+                    log_error(logger, "Error recibiendo ESQUEMA ASIGNACION en SWAmP");
+                    send_ack(cliente_socket, false);
+                }
                 break;
+            
+            case ALLOCAR_EN_SWAP:
+            {
+                long carpincho_id;
+                uint32_t cant_paginas;
+
+                if (recv_allocar(cliente_socket, &carpincho_id, &cant_paginas)) {
+                   
+                    proceder_allocar(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
+                   
+                }
+                else {
+                    log_error(logger, "Error recibiendo ESCRITURA en SWAmP");
+                    send_ack(cliente_socket, false);
+                }
+                break;
+            }
 
             case ESCRITURA_SWAMP:
             {
                 long carpincho_id;
                 uint32_t nro_pagina;
                 void* data;
-                bool asigancion_fija;
 
-                if (recv_ecritura(cliente_socket, &carpincho_id, &nro_pagina, &data, &asigancion_fija)) {
-                    if(asigancion_fija){
-                        proceder_asignacion_fija(cliente_socket,carpincho_id,nro_pagina,data);
-                    }
-                    else{
-                        proceder_asignacion_global(cliente_socket,carpincho_id,nro_pagina,data);
-                    }
+                if (recv_ecritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) {
+                   
+                    proceder_escritura(cliente_socket,carpincho_id,nro_pagina,data);
+                   
                 }
                 else {
                     log_error(logger, "Error recibiendo ESCRITURA en SWAmP");
@@ -61,14 +82,15 @@ static void procesar_conexion(void* void_args) {
                 unsigned long carpincho_id;
                 uint32_t nro_pagina;
                 void* data;
-                bool asignacion_fija;
 
                 if (recv_lectura(cliente_socket, &carpincho_id, &nro_pagina)) {
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
-                    buscar_frame_en_swap(carpincho_id, nro_pagina, &data, asignacion_fija);
+                    buscar_frame_en_swap(cliente_socket,carpincho_id, nro_pagina, &data);
+                    free(data);
                 }
                 else {
+                    free(data);
                     log_error(logger, "Error recibiendo LECTURA en SWAmP");
                     send_ack(cliente_socket, false);
                 }
@@ -80,7 +102,7 @@ static void procesar_conexion(void* void_args) {
                 unsigned long carpincho_id;
 
                 if (recv_id(cliente_socket, &carpincho_id)) {
-                    borrar_carpincho_swap(carpincho_id);
+                    borrar_carpincho_swap(cliente_socket,carpincho_id);
                 }
                 else {
                     log_error(logger, "Error recibiendo FINALIZAR_CARPINCHO en SWAmP");
@@ -92,10 +114,10 @@ static void procesar_conexion(void* void_args) {
             {
                 unsigned long carpincho_id;
                 uint32_t cant_paginas;
-                bool asignacion_fija;
 
-                if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id,&cant_paginas,&asignacion_fija)) {
-                    bool respuesta = revisar_espacio_libre(carpincho_id,cant_paginas,asignacion_fija);
+                if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id, &cant_paginas)) {
+                    log_info(logger, "entre en el if");
+                    bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
                     send_ack(cliente_socket,respuesta);
                 }
                 else {

@@ -104,8 +104,14 @@ int main(int argc, char *argv[])
 
 
 
+<<<<<<< HEAD
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,91));/*
+=======
+  // printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
+  // printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,91));
+  /*
+>>>>>>> 22efbaca1504a799843345b237f85d57764e642f
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,121));
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
   printf("9 %d\n",mate_memalloc(&mate_ref, 200));

@@ -723,6 +723,44 @@
 
 [ERROR] 19:46:14:563 mateLib/(30982:30982): No podes usar semaforos si no estas conectado al kernel
 
+<<<<<<< HEAD
 [INFO] 21:10:20:219 mateLib/(15234:15234): Cliente conectado en 127.0.0.1:5001 (a Server)
 
 [INFO] 21:10:20:318 mateLib/(15234:15234): Handshake
+=======
+[INFO] 20:33:53:011 mateLib/(7488:7488): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:33:53:103 mateLib/(7488:7488): Handshake
+[INFO] 20:57:15:812 mateLib/(8624:8624): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 20:57:15:912 mateLib/(8624:8624): Handshake
+[INFO] 21:12:57:029 mateLib/(9356:9356): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:12:57:123 mateLib/(9356:9356): Handshake
+[INFO] 21:16:44:969 mateLib/(9616:9616): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:16:45:062 mateLib/(9616:9616): Handshake
+[INFO] 21:21:09:413 mateLib/(9873:9873): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:21:09:511 mateLib/(9873:9873): Handshake
+[ERROR] 21:26:26:499 mateLib/(10126:10126): Error al conectar (a Server)
+
+[INFO] 21:26:37:032 mateLib/(10197:10197): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:26:37:119 mateLib/(10197:10197): Handshake
+[INFO] 21:27:26:140 mateLib/(10292:10292): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:27:26:239 mateLib/(10292:10292): Handshake
+[INFO] 21:40:59:890 mateLib/(10957:10957): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:40:59:976 mateLib/(10957:10957): Handshake
+[INFO] 21:41:26:454 mateLib/(10994:10994): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:41:26:546 mateLib/(10994:10994): Handshake
+[INFO] 21:41:56:320 mateLib/(11098:11098): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:41:56:409 mateLib/(11098:11098): Handshake
+[INFO] 21:43:34:588 mateLib/(11267:11267): Cliente conectado en 127.0.0.1:5001 (a Server)
+
+[INFO] 21:43:34:677 mateLib/(11267:11267): Handshake
+>>>>>>> 22efbaca1504a799843345b237f85d57764e642f

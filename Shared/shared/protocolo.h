@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -42,7 +42,9 @@ typedef enum {
     ESCRITURA_SWAMP,
     LECTURA_SWAMP,
     FINALIZAR_CARPINCHO,
-    ESPACIO_LIBRE
+    ESPACIO_LIBRE,
+    ALLOCAR_EN_SWAP,
+    PAGINA_DE_SWAP
 } op_code;
 
 
@@ -70,6 +72,7 @@ bool send_io(int fd, char* io, char* msg);
 //MEMORIA
 bool send_probar_en_swamp(uint32_t size, unsigned long id);
 bool send_handshake(int fd_server);
+bool send_handshake_swap(int fd_server, bool asignacion_fija);
 bool send_memalloc(int fd_server);
 bool send_memread(int fd_server, uint32_t direccion_logica, int size);
 bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int size);
@@ -84,16 +87,23 @@ bool send_carpincho_ready(int fd, long id_carpincho);
 
 bool send_finalizar_carpincho(int fd, unsigned long id);
 
+bool entra_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int fd_swamp);
+
+
 //SWAMP
 
-bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data);
+bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data, uint32_t tamanio_pagina);
 bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data);
 
 bool recv_id(int cliente_socket, unsigned long* carpincho_id);
 
 bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina);
 
-bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, bool* asignacion_fija);
+bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, uint32_t tamanio_pagina);
 
-bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas, bool* asignacion_fija);
+bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas);
+
+bool recv_allocar(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas);
+
+bool recv_esquema_asignacion(int cliente_socket, bool* asignacion_fija);
 #endif

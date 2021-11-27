@@ -8,21 +8,15 @@ extern t_log* logger;
 extern frame_t* tabla_frames;
 extern pthread_mutex_t MUTEX_FRAMES_BUSY;
 
-bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica){
-    //TODO: cant_paginas no esta teniendo en cuenta el hmd
-    // if(cant_frame_libres_fija(id_carpincho) < cant_paginas_relativa(0, size)) {
-    //     //TODO: Buscar victima segun algoritmo y swapear la difrencia entre los frames que quiere y la cant de pags
-    //     log_info(logger, "Cant_frames menor");
-    //     return true;
-    // }
-    
+bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool primer_alloc, uint32_t * direccion_logica, int swap_fd){
     if(primer_alloc){
         uint32_t hmd_cortado = 0;
         uint32_t cantidad_de_paginas = cant_paginas_relativa(0, size + sizeof(hmd_t) * 2);
-        //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
-        // if(!entra_en_swap(id_carpincho, cantidad_de_paginas)){
-        //   return false;
-        // }
+        //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía+
+        log_info(logger, "Antes del if de swap");
+        if(!entra_en_swap(id_carpincho, cantidad_de_paginas, swap_fd)){
+          return false;
+        }
         for(uint32_t i = 0; i < cantidad_de_paginas; i++){
             
             uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
@@ -52,7 +46,7 @@ bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool prime
             hmd->nextAlloc = posicion_hmd_final;
             hmd->isFree = false;
             //Escribir el size y el nuevo hmd del final
-            if(!allocar_al_final(id_carpincho, hmd, hmd_final, entrada_tp, direccion_ultimo_hmd, size)){
+            if(!allocar_al_final(id_carpincho, hmd, hmd_final, entrada_tp, direccion_ultimo_hmd, size, swap_fd)){
               //No hay lugar en SWAP
               return false;
             }
@@ -63,11 +57,10 @@ bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool prime
         }
         free(hmd);  
     }
-
     return true;
 }
 
-bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd_final, entrada_tp_t* entrada_tp, uint32_t direccion_ultimo_hmd, size_t size){
+bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd_final, entrada_tp_t* entrada_tp, uint32_t direccion_ultimo_hmd, size_t size, int swap_fd){
   uint32_t tamanio_total_a_allocar = sizeof(hmd_t)*2 + size;
   uint32_t offset = direccion_ultimo_hmd % MEMORIA_CFG->TAMANIO_PAGINA;
   uint32_t pagina_ultimo_hmd = direccion_ultimo_hmd / MEMORIA_CFG->TAMANIO_PAGINA;
@@ -83,10 +76,10 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
 
   if(nueva_pagina){
     uint32_t ultima_pagina = entrada_tp->nro_pagina;
-    /*Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
-    if(!entra_en_swap(id_carpincho, cant_paginas_a_allocar)){
+    //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
+    if(!entra_en_swap(id_carpincho, cant_paginas_a_allocar, swap_fd)){
       return false;
-    }*/    
+    }   
     void* data = malloc(tamanio_total_a_allocar);
     memcpy(data, (void*)hmd_inicial, sizeof(hmd_t));
     memset(data + sizeof(hmd_t), 0, size);
@@ -208,7 +201,8 @@ void escribir_en_mp(hmd_t* hmd, size_t size, entrada_tp_t* entrada_tp, uint32_t 
     
     free(hmd_frag);
     free(hmd_siguiente);
-  } else {
+  } else {        /*
+        *variable*/
     if(nro_pagina != entrada_tp->nro_pagina){
       entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     }
@@ -350,7 +344,7 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica){
     entrada_tp = entrada_tp_aux;
     offset_hmd = offset_hmd_aux;
     direccionlogica = direccion_logica_aux;
-    // TENGO QUE HACER FREE DE HMD AUX 
+    //TODO: TENGO QUE HACER FREE DE HMD AUX 
   }
   
   uint32_t cantidad_paginas_libres = 0;

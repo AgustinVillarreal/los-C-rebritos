@@ -31,9 +31,7 @@ void ocupar_frames_carpincho(unsigned long id){
     }
 }
 
-
-
-bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccion_logica){
+bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direccion_logica, int swap_fd){
     
     //Evaluo si es el primer alloc
     size_t size_stream;
@@ -41,7 +39,7 @@ bool allocar_carpincho(unsigned long id_carpincho, size_t size, uint32_t* direcc
     bool primer_alloc = tabla_vacia(id_carpincho);
 
     //TODO: En caso de emergencia revisar aca xd
-    return allocar_carpincho_en_mp(id_carpincho, size, primer_alloc, direccion_logica);    
+    return allocar_carpincho_en_mp(id_carpincho, size, primer_alloc, direccion_logica, swap_fd);    
 } 
 
 uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica){
