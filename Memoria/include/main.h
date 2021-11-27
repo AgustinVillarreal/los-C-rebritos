@@ -6,6 +6,7 @@
 #include <signal.h>
 #include <shared/sockets.h>
 #include "config.h"
+#include "seniales.h"
 
 t_config_memoria* MEMORIA_CFG;	
 

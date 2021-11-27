@@ -275,7 +275,7 @@ hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carp
 
 entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina){
     entrada_tp_t* entrada_buscada = NULL;
-    if(!buscar_en_TLB(id_carpincho, nro_pagina, entrada_buscada)){
+    if(!buscar_en_TLB(id_carpincho, nro_pagina, &entrada_buscada)){
         tp_carpincho_t* tp_carpincho = find_tp_carpincho(id_carpincho);
         log_info(logger, "---------%lu en pagina %d---------", tp_carpincho->id_carpincho, nro_pagina);
         entrada_buscada = list_get_pagina(tp_carpincho, nro_pagina);
@@ -284,6 +284,8 @@ entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina)
           correr_algoritmo(id_carpincho, &nro_frame_a_asignar);
           entrada_buscada->nro_frame = nro_frame_a_asignar;
         }
+        //TODO: Agregar entrada en la TLB
+        crear_en_TLB(id_carpincho, entrada_buscada);
     }    
     return entrada_buscada;
 }

@@ -3,6 +3,10 @@
 uint32_t memoria_disponible;
 frame_t* tabla_frames;
 uint32_t global_TUR;
+uint32_t global_TUR_TLB;
+uint32_t cant_hits_totales;
+uint32_t cant_miss_totales;
+
 void* memoria_principal;
 t_log* logger;
 
@@ -132,6 +136,10 @@ uint8_t cargar_memoria(t_config_memoria* cfg) {
     memoria_disponible = cfg->TAMANIO; 
 
     global_TUR = 0;
+    global_TUR_TLB = 0;
+    cant_hits_totales = 0;
+    cant_miss_totales = 0;
+    
 
     tabla_frames = malloc(cfg->CANT_PAGINAS * sizeof(frame_t));
     if (tabla_frames == NULL) {

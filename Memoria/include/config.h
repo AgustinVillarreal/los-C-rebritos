@@ -58,9 +58,12 @@ uint8_t init();
 uint8_t cargar_memoria(t_config_memoria*);
 t_config_memoria* initialize_cfg();
 
+//MMU
 void (*correr_algoritmo) (unsigned long id, uint32_t* nro_frame);
 void correr_algoritmo_clock_m (unsigned long id, uint32_t* nro_frame);
 void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame);
+
+
 
 
 #endif

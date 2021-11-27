@@ -28,8 +28,12 @@ typedef struct {
     unsigned long id_carpincho;
     uint32_t pages;
     pthread_mutex_t mutex_paginas;
+    pthread_mutex_t mutex_hits;
+    pthread_mutex_t mutex_miss;
     t_list* paginas;
     uint32_t posible_victima_fija;
+    uint32_t cant_hits;
+    uint32_t cant_miss;
 } tp_carpincho_t;
 
 typedef struct {

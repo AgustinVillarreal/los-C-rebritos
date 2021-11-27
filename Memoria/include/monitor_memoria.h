@@ -17,6 +17,7 @@ extern void* memoria_principal;
 pthread_mutex_t MUTEX_MP_BUSY;
 pthread_mutex_t MUTEX_FRAMES_BUSY;
 pthread_mutex_t MUTEX_ALGORITMOS;
+pthread_mutex_t MUTEX_ALGORITMOS_TLB;
 
 
 void mutex_init_memoria();

@@ -6,14 +6,15 @@ extern t_log* logger;
 void sighandler(int x) {
     switch (x) {
         case SIGUSR1:
-		//TODO: ver que hacer
+			dumpear_TLB(); 
             break;
         case SIGUSR2:
         //TODO: ver que hacer
             break;
         case SIGINT:
-        //TODO: ver que hacer
+			imprimir_metricas_TLB();
         	exit(EXIT_SUCCESS);
+			break;
 		
     }
 }
