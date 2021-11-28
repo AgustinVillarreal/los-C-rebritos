@@ -361,6 +361,28 @@ bool entra_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int
     free(stream);    
     return false;
   }
+  
+  bool ack;
+  recv_ack(fd_swamp, &ack);  
+  if(ack){
+    send_codigo_op(fd_swamp,ALLOCAR_EN_SWAP);
+    send(fd_swamp, stream, sizeof(uint32_t) + sizeof(long), 0);
+    free(stream);  
+    return true;
+  } 
+  free(stream);  
+  return false;
+}
+
+bool quitar_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int fd_swamp){
+  send_codigo_op(fd_swamp, LIBERAR_MARCOS);
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t));
+  memcpy(stream, &id_carpincho, sizeof(long));
+  memcpy(stream + sizeof(long), &cantidad_de_paginas, sizeof(uint32_t));
+  if(send(fd_swamp, stream, sizeof(uint32_t) + sizeof(long), 0) == -1){
+    free(stream);    
+    return false;
+  }
   free(stream);  
   bool ack;
   recv_ack(fd_swamp, &ack);  
@@ -396,6 +418,13 @@ bool recv_esquema_asignacion(int cliente_socket, bool* asignacion_fija){
 }
 
 bool recv_solicitud_liberar_marcos(int cliente_socket, unsigned long* carpincho_id, uint32_t* cant_paginas){
-  /* TODO */
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t) );
+  if(recv(cliente_socket,stream,sizeof(long) + sizeof(uint32_t),0) != sizeof(long) + sizeof(uint32_t)){
+    free(stream);
+    return false;
+  }
+  memcpy(carpincho_id,stream,sizeof(long));
+  memcpy(cant_paginas,stream + sizeof(long) ,sizeof(uint32_t));
+  free(stream);
   return true;
 }

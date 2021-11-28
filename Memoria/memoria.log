@@ -1542,7 +1542,6 @@
 
 [INFO] 18:35:51:976 memoria/(2956:3029): El frame es el 10 
 
-<<<<<<< HEAD
 [INFO] 11:57:38:877 memoria/(6713:6713): CONFIGURACION CARGADA EXITOSAMENTE
 [INFO] 11:57:38:945 memoria/(6713:6713): Cliente conectado en 127.0.0.3:5005 (a Server)
 
@@ -15299,7 +15298,6 @@
 [INFO] 19:33:59:310 memoria/(29447:29471): hmd_aux_next -> isFree : 0 
 [INFO] 19:33:59:311 memoria/(29447:29471): ME VOY DEL MEMFREE del carpincho nro 0 : 
 [INFO] 19:33:59:351 memoria/(29447:29471): DISCONNECT!
-=======
 [INFO] 19:12:36:146 memoria/(6955:6955): CONFIGURACION CARGADA EXITOSAMENTE
 [INFO] 19:12:36:310 memoria/(6955:6955): Cliente conectado en 127.0.0.3:5005 (a Server)
 
@@ -19345,7 +19343,7 @@
 [INFO] 11:01:44:579 memoria/(11900:11930): size_ 9
 [INFO] 11:01:44:579 memoria/(11900:11930): aaaa: k
 [INFO] 11:01:44:580 memoria/(11900:11930): size_ 9
-[INFO] 11:01:44:580 memoria/(11900:11930): aaaa: †
+[INFO] 11:01:44:580 memoria/(11900:11930): aaaa: ï¿½
 [INFO] 11:01:44:581 memoria/(11900:11930): El frame es el 5 
 
 [INFO] 11:01:44:625 memoria/(11900:11930): ---------0 en pagina 3---------
@@ -19390,10 +19388,10 @@
 [INFO] 11:01:44:774 memoria/(11900:11930): size_ 9
 [INFO] 11:01:44:775 memoria/(11900:11930): aaaa: k
 [INFO] 11:01:44:775 memoria/(11900:11930): size_ 9
-[INFO] 11:01:44:776 memoria/(11900:11930): aaaa: †
+[INFO] 11:01:44:776 memoria/(11900:11930): aaaa: ï¿½
 [INFO] 11:01:44:777 memoria/(11900:11930): ---------0 en pagina 5---------
 [INFO] 11:01:44:777 memoria/(11900:11930): size_ 9
-[INFO] 11:01:44:777 memoria/(11900:11930): aaaa: —
+[INFO] 11:01:44:777 memoria/(11900:11930): aaaa: ï¿½
 [INFO] 11:01:44:778 memoria/(11900:11930): El frame es el 6 
 
 [INFO] 11:01:44:830 memoria/(11900:11930): DISCONNECT!
@@ -19533,7 +19531,7 @@
 [INFO] 11:04:00:188 memoria/(12184:12206): size_ 9
 [INFO] 11:04:00:188 memoria/(12184:12206): aaaa: k
 [INFO] 11:04:00:189 memoria/(12184:12206): size_ 9
-[INFO] 11:04:00:189 memoria/(12184:12206): aaaa: †
+[INFO] 11:04:00:189 memoria/(12184:12206): aaaa: ï¿½
 [INFO] 11:04:00:190 memoria/(12184:12206): El frame es el 5 
 
 [INFO] 11:04:00:233 memoria/(12184:12206): ---------0 en pagina 3---------
@@ -19582,14 +19580,13 @@
 [INFO] 11:04:00:392 memoria/(12184:12206): size_ 9
 [INFO] 11:04:00:392 memoria/(12184:12206): aaaa: k
 [INFO] 11:04:00:393 memoria/(12184:12206): size_ 9
-[INFO] 11:04:00:393 memoria/(12184:12206): aaaa: †
+[INFO] 11:04:00:393 memoria/(12184:12206): aaaa: ï¿½
 [INFO] 11:04:00:394 memoria/(12184:12206): ---------0 en pagina 5---------
 [INFO] 11:04:00:394 memoria/(12184:12206): size_ 9
-[INFO] 11:04:00:395 memoria/(12184:12206): aaaa: —
+[INFO] 11:04:00:395 memoria/(12184:12206): aaaa: ï¿½
 [INFO] 11:04:00:395 memoria/(12184:12206): El frame es el 6 
 
 [INFO] 11:04:00:447 memoria/(12184:12206): DISCONNECT!
->>>>>>> 6f70c8822c11507aafdca0a9410d8de277bd532c
 [INFO] 19:42:02:463 memoria/(30420:30420): CONFIGURACION CARGADA EXITOSAMENTE
 [INFO] 19:42:02:529 memoria/(30420:30420): Cliente conectado en 127.0.0.3:5005 (a Server)
 
@@ -19941,6 +19938,135 @@
 [INFO] 19:46:14:999 memoria/(30959:30986): aaaa: 
 [INFO] 19:46:15:000 memoria/(30959:30986): COMPACTO A IZQUIERDA
 [INFO] 19:46:15:002 memoria/(30959:30986): ---------0 en pagina 167936---------
+<<<<<<< HEAD
+[INFO] 21:09:23:562 memoria/(14996:14996): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 21:09:23:629 memoria/(14996:14996): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 21:09:23:633 memoria/(14996:14996): ------2---------
+
+[INFO] 21:09:23:635 memoria/(14996:14996): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 21:10:20:192 memoria/(14996:14996): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:10:20:314 memoria/(14996:15235): HANDSHAKE
+[INFO] 21:10:20:373 memoria/(14996:15235): Alocando size: 13 del carpincho: 0
+[INFO] 21:10:20:376 memoria/(14996:15235): El frame es el 0 
+
+[INFO] 21:10:20:382 memoria/(14996:15235): Allocando todo el hmd en 0
+
+[INFO] 21:10:20:426 memoria/(14996:15235): Alocando size: 1 del carpincho: 0
+[INFO] 21:10:20:429 memoria/(14996:15235): ---------0 en pagina 0---------
+[INFO] 21:10:20:431 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:433 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:435 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:437 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:442 memoria/(14996:15235): El frame es el 1 
+
+[INFO] 21:10:20:484 memoria/(14996:15235): Alocando size: 24 del carpincho: 0
+[INFO] 21:10:20:485 memoria/(14996:15235): ---------0 en pagina 0---------
+[INFO] 21:10:20:486 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:487 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:488 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:489 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:490 memoria/(14996:15235): ---------0 en pagina 1---------
+[INFO] 21:10:20:490 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:492 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:493 memoria/(14996:15235): El frame es el 2 
+
+[INFO] 21:10:20:533 memoria/(14996:15235): Alocando size: 8 del carpincho: 0
+[INFO] 21:10:20:535 memoria/(14996:15235): ---------0 en pagina 0---------
+[INFO] 21:10:20:537 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:538 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:539 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:540 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:541 memoria/(14996:15235): ---------0 en pagina 1---------
+[INFO] 21:10:20:542 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:543 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:543 memoria/(14996:15235): ---------0 en pagina 2---------
+[INFO] 21:10:20:544 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:544 memoria/(14996:15235): aaaa:  
+[INFO] 21:10:20:584 memoria/(14996:15235): Alocando size: 4 del carpincho: 0
+[INFO] 21:10:20:586 memoria/(14996:15235): ---------0 en pagina 0---------
+[INFO] 21:10:20:587 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:588 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:589 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:592 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:593 memoria/(14996:15235): ---------0 en pagina 1---------
+[INFO] 21:10:20:593 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:596 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:596 memoria/(14996:15235): ---------0 en pagina 2---------
+[INFO] 21:10:20:597 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:597 memoria/(14996:15235): aaaa:  
+[INFO] 21:10:20:598 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:598 memoria/(14996:15235): aaaa: A
+[INFO] 21:10:20:599 memoria/(14996:15235): El frame es el 3 
+
+[INFO] 21:10:20:640 memoria/(14996:15235): Alocando size: 81 del carpincho: 0
+[INFO] 21:10:20:642 memoria/(14996:15235): ---------0 en pagina 0---------
+[INFO] 21:10:20:644 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:645 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:645 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:646 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:646 memoria/(14996:15235): ---------0 en pagina 1---------
+[INFO] 21:10:20:647 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:647 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:647 memoria/(14996:15235): ---------0 en pagina 2---------
+[INFO] 21:10:20:647 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:648 memoria/(14996:15235): aaaa:  
+[INFO] 21:10:20:649 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:650 memoria/(14996:15235): aaaa: A
+[INFO] 21:10:20:651 memoria/(14996:15235): size_ 1
+[INFO] 21:10:20:652 memoria/(14996:15235): aaaa: R
+[INFO] 21:10:20:654 memoria/(14996:15235): ---------0 en pagina 3---------
+[INFO] 21:10:20:657 memoria/(14996:15235): size_ 8
+[INFO] 21:10:20:658 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:660 memoria/(14996:15235): ---------0 en pagina 3---------
+[INFO] 21:10:20:661 memoria/(14996:15235): El frame es el 4 
+
+[INFO] 21:10:20:663 memoria/(14996:15235): El frame es el 5 
+
+[INFO] 21:10:20:664 memoria/(14996:15235): El frame es el 6 
+
+[INFO] 21:10:20:705 memoria/(14996:15235): Liberando direccion logica: 9 del carpincho: 0
+[INFO] 21:10:20:708 memoria/(14996:15235): ---------0 en pagina 0---------
+[INFO] 21:10:20:709 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:710 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:711 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:712 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:714 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:714 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:716 memoria/(14996:15235): Escribo el nuevo hmd en  0
+[INFO] 21:10:20:719 memoria/(14996:15235): hmd -> prevAlloc : 0 
+[INFO] 21:10:20:720 memoria/(14996:15235): hmd-> nextAlloc : 22 
+[INFO] 21:10:20:721 memoria/(14996:15235): hmd -> isFree : 1 
+[INFO] 21:10:20:723 memoria/(14996:15235): Escribo el nuevo hmd_next en 22
+[INFO] 21:10:20:724 memoria/(14996:15235): hmd_aux_next -> prevAlloc : 0 
+[INFO] 21:10:20:724 memoria/(14996:15235): hmd_aux_next -> nextAlloc : 32 
+[INFO] 21:10:20:724 memoria/(14996:15235): hmd_aux_next -> isFree : 0 
+[INFO] 21:10:20:726 memoria/(14996:15235): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 21:10:20:764 memoria/(14996:15235): Liberando direccion logica: 91 del carpincho: 0
+[INFO] 21:10:20:766 memoria/(14996:15235): ---------0 en pagina 2---------
+[INFO] 21:10:20:768 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:768 memoria/(14996:15235): aaaa: A
+[INFO] 21:10:20:770 memoria/(14996:15235): size_ 9
+[INFO] 21:10:20:770 memoria/(14996:15235): aaaa:  
+[INFO] 21:10:20:772 memoria/(14996:15235): size_ 1
+[INFO] 21:10:20:772 memoria/(14996:15235): aaaa: R
+[INFO] 21:10:20:773 memoria/(14996:15235): ---------0 en pagina 3---------
+[INFO] 21:10:20:775 memoria/(14996:15235): size_ 8
+[INFO] 21:10:20:776 memoria/(14996:15235): aaaa: 
+[INFO] 21:10:20:777 memoria/(14996:15235): Escribo el nuevo hmd en  82
+[INFO] 21:10:20:778 memoria/(14996:15235): hmd -> prevAlloc : 65 
+[INFO] 21:10:20:782 memoria/(14996:15235): hmd-> nextAlloc : 95 
+[INFO] 21:10:20:783 memoria/(14996:15235): hmd -> isFree : 1 
+[INFO] 21:10:20:784 memoria/(14996:15235): Escribo el nuevo hmd_next en 95
+[INFO] 21:10:20:785 memoria/(14996:15235): hmd_aux_next -> prevAlloc : 82 
+[INFO] 21:10:20:786 memoria/(14996:15235): hmd_aux_next -> nextAlloc : 185 
+[INFO] 21:10:20:786 memoria/(14996:15235): hmd_aux_next -> isFree : 0 
+[INFO] 21:10:20:789 memoria/(14996:15235): ---------0 en pagina 3---------
+[INFO] 21:10:20:790 memoria/(14996:15235): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 21:10:20:850 memoria/(14996:15235): DISCONNECT!
+=======
 [INFO] 20:33:46:908 memoria/(7463:7463): CONFIGURACION CARGADA EXITOSAMENTE
 [INFO] 20:33:46:987 memoria/(7463:7463): Cliente conectado en 127.0.0.3:5005 (a Server)
 
@@ -20864,6 +20990,1180 @@
 [INFO] 21:43:35:115 memoria/(11247:11268): El frame es el 6 
 
 [INFO] 21:43:35:179 memoria/(11247:11268): DISCONNECT!
+<<<<<<< HEAD
+>>>>>>> 22efbaca1504a799843345b237f85d57764e642f
+[INFO] 15:37:57:977 memoria/(10081:10081): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:37:58:046 memoria/(10081:10081): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:37:58:051 memoria/(10081:10081): ------2---------
+
+[INFO] 15:37:58:053 memoria/(10081:10081): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:39:33:747 memoria/(10285:10285): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:39:33:818 memoria/(10285:10285): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:39:33:821 memoria/(10285:10285): ------2---------
+
+[INFO] 15:39:33:824 memoria/(10285:10285): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:41:51:646 memoria/(10556:10556): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:41:51:712 memoria/(10556:10556): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:41:51:716 memoria/(10556:10556): ------2---------
+
+[INFO] 15:41:51:719 memoria/(10556:10556): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:44:09:731 memoria/(10556:10556): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:44:09:865 memoria/(10556:10934): HANDSHAKE
+[INFO] 15:44:09:928 memoria/(10556:10934): Alocando size: 15 del carpincho: 0
+[INFO] 15:44:09:930 memoria/(10556:10934): Antes del if de swap
+[INFO] 15:44:09:946 memoria/(10556:10934): El frame es el 0 
+
+[INFO] 15:44:09:954 memoria/(10556:10934): Allocando primer mitad del hmd en 0
+
+[INFO] 15:44:09:955 memoria/(10556:10934): El frame es el 1 
+
+[INFO] 15:44:09:959 memoria/(10556:10934): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:44:10:001 memoria/(10556:10934): Alocando size: 25 del carpincho: 0
+[INFO] 15:44:10:004 memoria/(10556:10934): ---------0 en pagina 0---------
+[INFO] 15:44:10:007 memoria/(10556:10934): size_ 9
+[INFO] 15:44:10:009 memoria/(10556:10934): size_ 8
+[INFO] 15:44:10:010 memoria/(10556:10934): ---------0 en pagina 1---------
+[INFO] 15:44:10:012 memoria/(10556:10934): size_ 1
+[INFO] 15:44:10:059 memoria/(10556:10934): ---------0 en pagina 1---------
+[INFO] 15:44:10:061 memoria/(10556:10934): El frame es el 2 
+
+[INFO] 15:44:10:068 memoria/(10556:10934): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:44:10:070 memoria/(10556:10934): ---------0 en pagina 0---------
+[INFO] 15:44:10:072 memoria/(10556:10934): size_ 8
+[INFO] 15:44:10:073 memoria/(10556:10934): ---------0 en pagina 1---------
+[INFO] 15:44:10:075 memoria/(10556:10934): size_ 1
+[INFO] 15:44:10:076 memoria/(10556:10934): size_ 9
+[INFO] 15:44:10:078 memoria/(10556:10934): ---------0 en pagina 1---------
+[INFO] 15:44:10:079 memoria/(10556:10934): size_ 6
+[INFO] 15:44:10:080 memoria/(10556:10934): ---------0 en pagina 2---------
+[INFO] 15:44:10:081 memoria/(10556:10934): size_ 3
+[INFO] 15:44:10:082 memoria/(10556:10934): Escribo el nuevo hmd en  24
+[INFO] 15:44:10:083 memoria/(10556:10934): hmd -> prevAlloc : 0 
+[INFO] 15:44:10:089 memoria/(10556:10934): hmd-> nextAlloc : 58 
+[INFO] 15:44:10:095 memoria/(10556:10934): hmd -> isFree : 1 
+[INFO] 15:44:10:098 memoria/(10556:10934): ---------0 en pagina 1---------
+[INFO] 15:44:10:100 memoria/(10556:10934): Escribo el nuevo hmd_next en 58
+[INFO] 15:44:10:101 memoria/(10556:10934): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:44:10:102 memoria/(10556:10934): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:44:10:103 memoria/(10556:10934): hmd_aux_next -> isFree : 1 
+[INFO] 15:44:10:103 memoria/(10556:10934): ---------0 en pagina 2---------
+[INFO] 15:44:10:105 memoria/(10556:10934): Se van a sacar : 2 
+[INFO] 15:44:10:107 memoria/(10556:10934): ---------0 en pagina 2---------
+[INFO] 15:44:10:110 memoria/(10556:10934): ---------0 en pagina 1---------
+[INFO] 15:44:10:119 memoria/(10556:10934): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:44:10:163 memoria/(10556:10934): DISCONNECT!
+[INFO] 15:50:10:603 memoria/(11520:11520): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:50:10:667 memoria/(11520:11520): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:50:10:670 memoria/(11520:11520): ------2---------
+
+[INFO] 15:50:10:672 memoria/(11520:11520): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:50:19:592 memoria/(11520:11520): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:50:19:709 memoria/(11520:11550): HANDSHAKE
+[INFO] 15:50:19:792 memoria/(11520:11550): Alocando size: 15 del carpincho: 0
+[INFO] 15:50:19:794 memoria/(11520:11550): Antes del if de swap
+[INFO] 15:50:19:800 memoria/(11520:11550): El frame es el 0 
+
+[INFO] 15:50:19:806 memoria/(11520:11550): Allocando primer mitad del hmd en 0
+
+[INFO] 15:50:19:808 memoria/(11520:11550): El frame es el 1 
+
+[INFO] 15:50:19:810 memoria/(11520:11550): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:50:19:851 memoria/(11520:11550): Alocando size: 25 del carpincho: 0
+[INFO] 15:50:19:853 memoria/(11520:11550): ---------0 en pagina 0---------
+[INFO] 15:50:19:859 memoria/(11520:11550): size_ 9
+[INFO] 15:50:19:862 memoria/(11520:11550): size_ 8
+[INFO] 15:50:19:863 memoria/(11520:11550): ---------0 en pagina 1---------
+[INFO] 15:50:19:864 memoria/(11520:11550): size_ 1
+[INFO] 15:50:19:913 memoria/(11520:11550): ---------0 en pagina 1---------
+[INFO] 15:50:19:915 memoria/(11520:11550): El frame es el 2 
+
+[INFO] 15:50:19:922 memoria/(11520:11550): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:50:19:925 memoria/(11520:11550): ---------0 en pagina 0---------
+[INFO] 15:50:19:927 memoria/(11520:11550): size_ 8
+[INFO] 15:50:19:929 memoria/(11520:11550): ---------0 en pagina 1---------
+[INFO] 15:50:19:930 memoria/(11520:11550): size_ 1
+[INFO] 15:50:19:931 memoria/(11520:11550): size_ 9
+[INFO] 15:50:19:933 memoria/(11520:11550): ---------0 en pagina 1---------
+[INFO] 15:50:19:934 memoria/(11520:11550): size_ 6
+[INFO] 15:50:19:935 memoria/(11520:11550): ---------0 en pagina 2---------
+[INFO] 15:50:19:937 memoria/(11520:11550): size_ 3
+[INFO] 15:50:19:938 memoria/(11520:11550): Escribo el nuevo hmd en  24
+[INFO] 15:50:19:939 memoria/(11520:11550): hmd -> prevAlloc : 0 
+[INFO] 15:50:19:942 memoria/(11520:11550): hmd-> nextAlloc : 58 
+[INFO] 15:50:19:943 memoria/(11520:11550): hmd -> isFree : 1 
+[INFO] 15:50:19:947 memoria/(11520:11550): ---------0 en pagina 1---------
+[INFO] 15:50:19:948 memoria/(11520:11550): Escribo el nuevo hmd_next en 58
+[INFO] 15:50:19:949 memoria/(11520:11550): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:50:19:950 memoria/(11520:11550): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:50:19:950 memoria/(11520:11550): hmd_aux_next -> isFree : 1 
+[INFO] 15:50:19:951 memoria/(11520:11550): ---------0 en pagina 2---------
+[INFO] 15:50:19:954 memoria/(11520:11550): cantidad_paginas_finales : 1
+[INFO] 15:50:19:955 memoria/(11520:11550): list_size(carpincho-> paginas : 3
+[INFO] 15:50:19:956 memoria/(11520:11550): Se van a sacar : 2 
+[INFO] 15:50:19:957 memoria/(11520:11550): ---------0 en pagina 2---------
+[INFO] 15:50:19:960 memoria/(11520:11550): ---------0 en pagina 1---------
+[INFO] 15:50:19:961 memoria/(11520:11550): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:50:20:010 memoria/(11520:11550): DISCONNECT!
+[INFO] 15:51:52:557 memoria/(11738:11738): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:51:52:621 memoria/(11738:11738): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:51:52:625 memoria/(11738:11738): ------2---------
+
+[INFO] 15:51:52:627 memoria/(11738:11738): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:51:56:095 memoria/(11738:11738): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:51:56:189 memoria/(11738:11765): HANDSHAKE
+[INFO] 15:51:56:261 memoria/(11738:11765): Alocando size: 15 del carpincho: 0
+[INFO] 15:51:56:263 memoria/(11738:11765): Antes del if de swap
+[INFO] 15:51:56:268 memoria/(11738:11765): El frame es el 0 
+
+[INFO] 15:51:56:275 memoria/(11738:11765): Allocando primer mitad del hmd en 0
+
+[INFO] 15:51:56:277 memoria/(11738:11765): El frame es el 1 
+
+[INFO] 15:51:56:279 memoria/(11738:11765): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:51:56:322 memoria/(11738:11765): Alocando size: 25 del carpincho: 0
+[INFO] 15:51:56:324 memoria/(11738:11765): ---------0 en pagina 0---------
+[INFO] 15:51:56:327 memoria/(11738:11765): size_ 9
+[INFO] 15:51:56:329 memoria/(11738:11765): size_ 8
+[INFO] 15:51:56:331 memoria/(11738:11765): ---------0 en pagina 1---------
+[INFO] 15:51:56:332 memoria/(11738:11765): size_ 1
+[INFO] 15:51:56:379 memoria/(11738:11765): ---------0 en pagina 1---------
+[INFO] 15:51:56:381 memoria/(11738:11765): El frame es el 2 
+
+[INFO] 15:51:56:390 memoria/(11738:11765): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:51:56:393 memoria/(11738:11765): ---------0 en pagina 0---------
+[INFO] 15:51:56:394 memoria/(11738:11765): size_ 8
+[INFO] 15:51:56:395 memoria/(11738:11765): ---------0 en pagina 1---------
+[INFO] 15:51:56:396 memoria/(11738:11765): size_ 1
+[INFO] 15:51:56:397 memoria/(11738:11765): size_ 9
+[INFO] 15:51:56:400 memoria/(11738:11765): ---------0 en pagina 1---------
+[INFO] 15:51:56:401 memoria/(11738:11765): size_ 6
+[INFO] 15:51:56:402 memoria/(11738:11765): ---------0 en pagina 2---------
+[INFO] 15:51:56:403 memoria/(11738:11765): size_ 3
+[INFO] 15:51:56:404 memoria/(11738:11765): Escribo el nuevo hmd en  24
+[INFO] 15:51:56:405 memoria/(11738:11765): hmd -> prevAlloc : 0 
+[INFO] 15:51:56:406 memoria/(11738:11765): hmd-> nextAlloc : 58 
+[INFO] 15:51:56:407 memoria/(11738:11765): hmd -> isFree : 1 
+[INFO] 15:51:56:408 memoria/(11738:11765): ---------0 en pagina 1---------
+[INFO] 15:51:56:409 memoria/(11738:11765): Escribo el nuevo hmd_next en 58
+[INFO] 15:51:56:410 memoria/(11738:11765): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:51:56:411 memoria/(11738:11765): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:51:56:416 memoria/(11738:11765): hmd_aux_next -> isFree : 1 
+[INFO] 15:51:56:418 memoria/(11738:11765): ---------0 en pagina 2---------
+[INFO] 15:51:56:419 memoria/(11738:11765): cantidad_paginas_finales : 1
+[INFO] 15:51:56:420 memoria/(11738:11765): list_size(carpincho-> paginas : 3
+[INFO] 15:51:56:421 memoria/(11738:11765): Se van a sacar : 2 
+[INFO] 15:51:56:423 memoria/(11738:11765): ---------0 en pagina 2---------
+[INFO] 15:51:56:426 memoria/(11738:11765): ---------0 en pagina 1---------
+[INFO] 15:51:56:427 memoria/(11738:11765): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:51:56:490 memoria/(11738:11765): DISCONNECT!
+[INFO] 15:52:53:184 memoria/(11891:11891): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:52:53:250 memoria/(11891:11891): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:52:53:253 memoria/(11891:11891): ------2---------
+
+[INFO] 15:52:53:255 memoria/(11891:11891): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:52:56:123 memoria/(11891:11891): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:52:56:247 memoria/(11891:11918): HANDSHAKE
+[INFO] 15:52:56:308 memoria/(11891:11918): Alocando size: 15 del carpincho: 0
+[INFO] 15:52:56:311 memoria/(11891:11918): Antes del if de swap
+[INFO] 15:52:56:317 memoria/(11891:11918): El frame es el 0 
+
+[INFO] 15:52:56:325 memoria/(11891:11918): Allocando primer mitad del hmd en 0
+
+[INFO] 15:52:56:327 memoria/(11891:11918): El frame es el 1 
+
+[INFO] 15:52:56:329 memoria/(11891:11918): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:52:56:371 memoria/(11891:11918): Alocando size: 25 del carpincho: 0
+[INFO] 15:52:56:373 memoria/(11891:11918): ---------0 en pagina 0---------
+[INFO] 15:52:56:376 memoria/(11891:11918): size_ 9
+[INFO] 15:52:56:378 memoria/(11891:11918): size_ 8
+[INFO] 15:52:56:380 memoria/(11891:11918): ---------0 en pagina 1---------
+[INFO] 15:52:56:381 memoria/(11891:11918): size_ 1
+[INFO] 15:52:56:428 memoria/(11891:11918): ---------0 en pagina 1---------
+[INFO] 15:52:56:430 memoria/(11891:11918): El frame es el 2 
+
+[INFO] 15:52:56:440 memoria/(11891:11918): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:52:56:443 memoria/(11891:11918): ---------0 en pagina 0---------
+[INFO] 15:52:56:444 memoria/(11891:11918): size_ 8
+[INFO] 15:52:56:445 memoria/(11891:11918): ---------0 en pagina 1---------
+[INFO] 15:52:56:447 memoria/(11891:11918): size_ 1
+[INFO] 15:52:56:448 memoria/(11891:11918): size_ 9
+[INFO] 15:52:56:450 memoria/(11891:11918): ---------0 en pagina 1---------
+[INFO] 15:52:56:452 memoria/(11891:11918): size_ 6
+[INFO] 15:52:56:453 memoria/(11891:11918): ---------0 en pagina 2---------
+[INFO] 15:52:56:454 memoria/(11891:11918): size_ 3
+[INFO] 15:52:56:455 memoria/(11891:11918): Escribo el nuevo hmd en  24
+[INFO] 15:52:56:456 memoria/(11891:11918): hmd -> prevAlloc : 0 
+[INFO] 15:52:56:457 memoria/(11891:11918): hmd-> nextAlloc : 58 
+[INFO] 15:52:56:458 memoria/(11891:11918): hmd -> isFree : 1 
+[INFO] 15:52:56:459 memoria/(11891:11918): entrada_tp -> nro_pagina : 0 
+[INFO] 15:52:56:460 memoria/(11891:11918): ---------0 en pagina 1---------
+[INFO] 15:52:56:465 memoria/(11891:11918): entrada_tp -> nro_pagina : 1 
+[INFO] 15:52:56:470 memoria/(11891:11918): Escribo el nuevo hmd_next en 58
+[INFO] 15:52:56:472 memoria/(11891:11918): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:52:56:473 memoria/(11891:11918): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:52:56:473 memoria/(11891:11918): hmd_aux_next -> isFree : 1 
+[INFO] 15:52:56:474 memoria/(11891:11918): ---------0 en pagina 2---------
+[INFO] 15:52:56:476 memoria/(11891:11918): cantidad_paginas_finales : 1
+[INFO] 15:52:56:477 memoria/(11891:11918): list_size(carpincho-> paginas : 3
+[INFO] 15:52:56:478 memoria/(11891:11918): Se van a sacar : 2 
+[INFO] 15:52:56:486 memoria/(11891:11918): ---------0 en pagina 2---------
+[INFO] 15:52:56:489 memoria/(11891:11918): ---------0 en pagina 1---------
+[INFO] 15:52:56:491 memoria/(11891:11918): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:52:56:532 memoria/(11891:11918): DISCONNECT!
+[INFO] 15:54:13:562 memoria/(12086:12086): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:54:13:626 memoria/(12086:12086): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:54:13:630 memoria/(12086:12086): ------2---------
+
+[INFO] 15:54:13:632 memoria/(12086:12086): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:54:19:343 memoria/(12086:12086): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:54:19:456 memoria/(12086:12113): HANDSHAKE
+[INFO] 15:54:19:530 memoria/(12086:12113): Alocando size: 15 del carpincho: 0
+[INFO] 15:54:19:533 memoria/(12086:12113): Antes del if de swap
+[INFO] 15:54:19:541 memoria/(12086:12113): El frame es el 0 
+
+[INFO] 15:54:19:550 memoria/(12086:12113): Allocando primer mitad del hmd en 0
+
+[INFO] 15:54:19:553 memoria/(12086:12113): El frame es el 1 
+
+[INFO] 15:54:19:555 memoria/(12086:12113): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:54:19:595 memoria/(12086:12113): Alocando size: 25 del carpincho: 0
+[INFO] 15:54:19:598 memoria/(12086:12113): ---------0 en pagina 0---------
+[INFO] 15:54:19:600 memoria/(12086:12113): size_ 9
+[INFO] 15:54:19:603 memoria/(12086:12113): size_ 8
+[INFO] 15:54:19:605 memoria/(12086:12113): ---------0 en pagina 1---------
+[INFO] 15:54:19:606 memoria/(12086:12113): size_ 1
+[INFO] 15:54:19:652 memoria/(12086:12113): ---------0 en pagina 1---------
+[INFO] 15:54:19:655 memoria/(12086:12113): El frame es el 2 
+
+[INFO] 15:54:19:664 memoria/(12086:12113): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:54:19:667 memoria/(12086:12113): ---------0 en pagina 0---------
+[INFO] 15:54:19:668 memoria/(12086:12113): size_ 8
+[INFO] 15:54:19:670 memoria/(12086:12113): ---------0 en pagina 1---------
+[INFO] 15:54:19:673 memoria/(12086:12113): size_ 1
+[INFO] 15:54:19:674 memoria/(12086:12113): size_ 9
+[INFO] 15:54:19:676 memoria/(12086:12113): ---------0 en pagina 1---------
+[INFO] 15:54:19:677 memoria/(12086:12113): size_ 6
+[INFO] 15:54:19:678 memoria/(12086:12113): ---------0 en pagina 2---------
+[INFO] 15:54:19:679 memoria/(12086:12113): size_ 3
+[INFO] 15:54:19:680 memoria/(12086:12113): Escribo el nuevo hmd en  24
+[INFO] 15:54:19:681 memoria/(12086:12113): hmd -> prevAlloc : 0 
+[INFO] 15:54:19:682 memoria/(12086:12113): hmd-> nextAlloc : 58 
+[INFO] 15:54:19:683 memoria/(12086:12113): hmd -> isFree : 1 
+[INFO] 15:54:19:684 memoria/(12086:12113): entrada_tp -> nro_pagina : 0 
+[INFO] 15:54:19:686 memoria/(12086:12113): ---------0 en pagina 1---------
+[INFO] 15:54:19:690 memoria/(12086:12113): entrada_tp -> nro_pagina : 1 
+[INFO] 15:54:19:693 memoria/(12086:12113): Escribo el nuevo hmd_next en 58
+[INFO] 15:54:19:694 memoria/(12086:12113): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:54:19:695 memoria/(12086:12113): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:54:19:696 memoria/(12086:12113): hmd_aux_next -> isFree : 1 
+[INFO] 15:54:19:698 memoria/(12086:12113): ---------0 en pagina 2---------
+[INFO] 15:54:19:699 memoria/(12086:12113): cantidad_paginas_finales : 2
+[INFO] 15:54:19:700 memoria/(12086:12113): list_size(carpincho-> paginas : 3
+[INFO] 15:54:19:701 memoria/(12086:12113): Se van a sacar : 1 
+[INFO] 15:54:19:703 memoria/(12086:12113): ---------0 en pagina 2---------
+[INFO] 15:54:19:710 memoria/(12086:12113): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:54:19:750 memoria/(12086:12113): DISCONNECT!
+[INFO] 15:54:45:395 memoria/(12086:12086): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:54:45:477 memoria/(12086:12171): HANDSHAKE
+[INFO] 15:54:45:535 memoria/(12086:12171): Alocando size: 15 del carpincho: 1
+[INFO] 15:54:45:538 memoria/(12086:12171): Antes del if de swap
+[INFO] 15:54:45:577 memoria/(12086:12171): El frame es el 32 
+
+[INFO] 15:54:45:577 memoria/(12086:12171): Allocando primer mitad del hmd en 32
+
+[INFO] 15:54:45:579 memoria/(12086:12171): El frame es el 33 
+
+[INFO] 15:54:45:580 memoria/(12086:12171): Allocando segunda mitad del hmd en 33
+
+[INFO] 15:54:45:582 memoria/(12086:12171): Alocando size: 25 del carpincho: 1
+[INFO] 15:54:45:583 memoria/(12086:12171): ---------1 en pagina 0---------
+[INFO] 15:54:45:584 memoria/(12086:12171): size_ 9
+[INFO] 15:54:45:585 memoria/(12086:12171): size_ 8
+[INFO] 15:54:45:587 memoria/(12086:12171): ---------1 en pagina 1---------
+[INFO] 15:54:45:588 memoria/(12086:12171): size_ 1
+[INFO] 15:54:45:629 memoria/(12086:12171): ---------1 en pagina 1---------
+[INFO] 15:54:45:630 memoria/(12086:12171): El frame es el 34 
+
+[INFO] 15:54:45:636 memoria/(12086:12171): Liberando direccion logica: 33 del carpincho: 1
+[INFO] 15:54:45:638 memoria/(12086:12171): ---------1 en pagina 0---------
+[INFO] 15:54:45:639 memoria/(12086:12171): size_ 8
+[INFO] 15:54:45:643 memoria/(12086:12171): ---------1 en pagina 1---------
+[INFO] 15:54:45:645 memoria/(12086:12171): size_ 1
+[INFO] 15:54:45:646 memoria/(12086:12171): size_ 9
+[INFO] 15:54:45:647 memoria/(12086:12171): ---------1 en pagina 1---------
+[INFO] 15:54:45:648 memoria/(12086:12171): size_ 6
+[INFO] 15:54:45:649 memoria/(12086:12171): ---------1 en pagina 2---------
+[INFO] 15:54:45:650 memoria/(12086:12171): size_ 3
+[INFO] 15:54:45:651 memoria/(12086:12171): Escribo el nuevo hmd en  24
+[INFO] 15:54:45:651 memoria/(12086:12171): hmd -> prevAlloc : 0 
+[INFO] 15:54:45:652 memoria/(12086:12171): hmd-> nextAlloc : 58 
+[INFO] 15:54:45:652 memoria/(12086:12171): hmd -> isFree : 1 
+[INFO] 15:54:45:653 memoria/(12086:12171): entrada_tp -> nro_pagina : 0 
+[INFO] 15:54:45:653 memoria/(12086:12171): ---------1 en pagina 1---------
+[INFO] 15:54:45:653 memoria/(12086:12171): entrada_tp -> nro_pagina : 1 
+[INFO] 15:54:45:654 memoria/(12086:12171): Escribo el nuevo hmd_next en 58
+[INFO] 15:54:45:658 memoria/(12086:12171): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:54:45:659 memoria/(12086:12171): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:54:45:660 memoria/(12086:12171): hmd_aux_next -> isFree : 1 
+[INFO] 15:54:45:660 memoria/(12086:12171): ---------1 en pagina 2---------
+[INFO] 15:54:45:661 memoria/(12086:12171): cantidad_paginas_finales : 2
+[INFO] 15:54:45:661 memoria/(12086:12171): list_size(carpincho-> paginas : 3
+[INFO] 15:54:45:662 memoria/(12086:12171): Se van a sacar : 1 
+[INFO] 15:54:45:663 memoria/(12086:12171): ---------1 en pagina 2---------
+[INFO] 15:54:45:664 memoria/(12086:12171): ME VOY DEL MEMFREE del carpincho nro 1 : 
+[INFO] 15:54:45:711 memoria/(12086:12171): DISCONNECT!
+[INFO] 15:58:08:581 memoria/(12530:12530): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:58:08:647 memoria/(12530:12530): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:58:08:651 memoria/(12530:12530): ------2---------
+
+[INFO] 15:58:08:653 memoria/(12530:12530): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:58:11:468 memoria/(12530:12530): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:58:11:581 memoria/(12530:12554): HANDSHAKE
+[INFO] 15:58:11:648 memoria/(12530:12554): Alocando size: 15 del carpincho: 0
+[INFO] 15:58:11:650 memoria/(12530:12554): Antes del if de swap
+[INFO] 15:58:11:655 memoria/(12530:12554): El frame es el 0 
+
+[INFO] 15:58:11:662 memoria/(12530:12554): Allocando primer mitad del hmd en 0
+
+[INFO] 15:58:11:665 memoria/(12530:12554): El frame es el 1 
+
+[INFO] 15:58:11:667 memoria/(12530:12554): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:58:11:707 memoria/(12530:12554): Alocando size: 25 del carpincho: 0
+[INFO] 15:58:11:710 memoria/(12530:12554): ---------0 en pagina 0---------
+[INFO] 15:58:11:712 memoria/(12530:12554): size_ 9
+[INFO] 15:58:11:715 memoria/(12530:12554): size_ 8
+[INFO] 15:58:11:717 memoria/(12530:12554): ---------0 en pagina 1---------
+[INFO] 15:58:11:718 memoria/(12530:12554): size_ 1
+[INFO] 15:58:11:764 memoria/(12530:12554): ---------0 en pagina 1---------
+[INFO] 15:58:11:766 memoria/(12530:12554): El frame es el 2 
+
+[INFO] 15:58:11:776 memoria/(12530:12554): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:58:11:779 memoria/(12530:12554): ---------0 en pagina 0---------
+[INFO] 15:58:11:780 memoria/(12530:12554): size_ 8
+[INFO] 15:58:11:782 memoria/(12530:12554): ---------0 en pagina 1---------
+[INFO] 15:58:11:784 memoria/(12530:12554): size_ 1
+[INFO] 15:58:11:786 memoria/(12530:12554): size_ 9
+[INFO] 15:58:11:787 memoria/(12530:12554): ---------0 en pagina 1---------
+[INFO] 15:58:11:789 memoria/(12530:12554): size_ 6
+[INFO] 15:58:11:790 memoria/(12530:12554): ---------0 en pagina 2---------
+[INFO] 15:58:11:791 memoria/(12530:12554): size_ 3
+[INFO] 15:58:11:792 memoria/(12530:12554): Escribo el nuevo hmd en  24
+[INFO] 15:58:11:793 memoria/(12530:12554): hmd -> prevAlloc : 0 
+[INFO] 15:58:11:794 memoria/(12530:12554): hmd-> nextAlloc : 58 
+[INFO] 15:58:11:795 memoria/(12530:12554): hmd -> isFree : 1 
+[INFO] 15:58:11:796 memoria/(12530:12554): ---------0 en pagina 1---------
+[INFO] 15:58:11:797 memoria/(12530:12554): Escribo el nuevo hmd_next en 58
+[INFO] 15:58:11:802 memoria/(12530:12554): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:58:11:803 memoria/(12530:12554): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:58:11:804 memoria/(12530:12554): hmd_aux_next -> isFree : 1 
+[INFO] 15:58:11:806 memoria/(12530:12554): ---------0 en pagina 2---------
+[INFO] 15:58:11:808 memoria/(12530:12554): Se van a sacar : 1 
+[INFO] 15:58:11:809 memoria/(12530:12554): ---------0 en pagina 2---------
+[INFO] 15:58:11:812 memoria/(12530:12554): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:58:11:862 memoria/(12530:12554): DISCONNECT!
+[INFO] 15:59:26:219 memoria/(12709:12709): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:59:26:283 memoria/(12709:12709): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:59:26:287 memoria/(12709:12709): ------2---------
+
+[INFO] 15:59:26:289 memoria/(12709:12709): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:59:30:633 memoria/(12709:12709): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:59:30:757 memoria/(12709:12736): HANDSHAKE
+[INFO] 15:59:30:824 memoria/(12709:12736): Alocando size: 15 del carpincho: 0
+[INFO] 15:59:30:826 memoria/(12709:12736): Antes del if de swap
+[INFO] 15:59:30:831 memoria/(12709:12736): El frame es el 0 
+
+[INFO] 15:59:30:838 memoria/(12709:12736): Allocando primer mitad del hmd en 0
+
+[INFO] 15:59:30:840 memoria/(12709:12736): El frame es el 1 
+
+[INFO] 15:59:30:842 memoria/(12709:12736): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:59:30:883 memoria/(12709:12736): Alocando size: 25 del carpincho: 0
+[INFO] 15:59:30:885 memoria/(12709:12736): ---------0 en pagina 0---------
+[INFO] 15:59:30:888 memoria/(12709:12736): size_ 9
+[INFO] 15:59:30:890 memoria/(12709:12736): size_ 8
+[INFO] 15:59:30:892 memoria/(12709:12736): ---------0 en pagina 1---------
+[INFO] 15:59:30:892 memoria/(12709:12736): size_ 1
+[INFO] 15:59:30:940 memoria/(12709:12736): ---------0 en pagina 1---------
+[INFO] 15:59:30:942 memoria/(12709:12736): El frame es el 2 
+
+[INFO] 15:59:30:951 memoria/(12709:12736): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:59:30:954 memoria/(12709:12736): ---------0 en pagina 0---------
+[INFO] 15:59:30:955 memoria/(12709:12736): size_ 8
+[INFO] 15:59:30:956 memoria/(12709:12736): ---------0 en pagina 1---------
+[INFO] 15:59:30:957 memoria/(12709:12736): size_ 1
+[INFO] 15:59:30:960 memoria/(12709:12736): size_ 9
+[INFO] 15:59:30:962 memoria/(12709:12736): ---------0 en pagina 1---------
+[INFO] 15:59:30:963 memoria/(12709:12736): size_ 6
+[INFO] 15:59:30:964 memoria/(12709:12736): ---------0 en pagina 2---------
+[INFO] 15:59:30:966 memoria/(12709:12736): size_ 3
+[INFO] 15:59:30:967 memoria/(12709:12736): Escribo el nuevo hmd en  24
+[INFO] 15:59:30:968 memoria/(12709:12736): hmd -> prevAlloc : 0 
+[INFO] 15:59:30:969 memoria/(12709:12736): hmd-> nextAlloc : 58 
+[INFO] 15:59:30:970 memoria/(12709:12736): hmd -> isFree : 1 
+[INFO] 15:59:30:971 memoria/(12709:12736): ---------0 en pagina 1---------
+[INFO] 15:59:30:972 memoria/(12709:12736): Escribo el nuevo hmd_next en 58
+[INFO] 15:59:30:973 memoria/(12709:12736): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:59:30:978 memoria/(12709:12736): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:59:30:979 memoria/(12709:12736): hmd_aux_next -> isFree : 1 
+[INFO] 15:59:30:984 memoria/(12709:12736): ---------0 en pagina 2---------
+[INFO] 15:59:30:988 memoria/(12709:12736): Se van a sacar : 1 
+[INFO] 15:59:30:998 memoria/(12709:12736): ---------0 en pagina 2---------
+[INFO] 15:59:31:013 memoria/(12709:12736): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:59:31:099 memoria/(12709:12736): DISCONNECT!
+[INFO] 16:05:44:512 memoria/(13292:13292): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:05:44:577 memoria/(13292:13292): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:05:44:580 memoria/(13292:13292): ------2---------
+
+[INFO] 16:05:44:582 memoria/(13292:13292): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:05:53:233 memoria/(13292:13292): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:05:53:349 memoria/(13292:13329): HANDSHAKE
+[INFO] 16:05:53:408 memoria/(13292:13329): Alocando size: 15 del carpincho: 0
+[INFO] 16:05:53:410 memoria/(13292:13329): Antes del if de swap
+[INFO] 16:05:53:422 memoria/(13292:13329): El frame es el 0 
+
+[INFO] 16:05:53:429 memoria/(13292:13329): Allocando primer mitad del hmd en 0
+
+[INFO] 16:05:53:432 memoria/(13292:13329): El frame es el 1 
+
+[INFO] 16:05:53:433 memoria/(13292:13329): Allocando segunda mitad del hmd en 1
+
+[INFO] 16:05:53:475 memoria/(13292:13329): Alocando size: 25 del carpincho: 0
+[INFO] 16:05:53:478 memoria/(13292:13329): ---------0 en pagina 0---------
+[INFO] 16:05:53:480 memoria/(13292:13329): size_ 9
+[INFO] 16:05:53:482 memoria/(13292:13329): size_ 8
+[INFO] 16:05:53:484 memoria/(13292:13329): ---------0 en pagina 1---------
+[INFO] 16:05:53:485 memoria/(13292:13329): size_ 1
+[INFO] 16:05:53:533 memoria/(13292:13329): ---------0 en pagina 1---------
+[INFO] 16:05:53:535 memoria/(13292:13329): El frame es el 2 
+
+[INFO] 16:05:53:543 memoria/(13292:13329): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 16:05:53:545 memoria/(13292:13329): ---------0 en pagina 0---------
+[INFO] 16:05:53:547 memoria/(13292:13329): size_ 8
+[INFO] 16:05:53:548 memoria/(13292:13329): ---------0 en pagina 1---------
+[INFO] 16:05:53:550 memoria/(13292:13329): size_ 1
+[INFO] 16:05:53:551 memoria/(13292:13329): size_ 9
+[INFO] 16:05:53:553 memoria/(13292:13329): ---------0 en pagina 1---------
+[INFO] 16:05:53:554 memoria/(13292:13329): size_ 6
+[INFO] 16:05:53:555 memoria/(13292:13329): ---------0 en pagina 2---------
+[INFO] 16:05:53:556 memoria/(13292:13329): size_ 3
+[INFO] 16:05:53:557 memoria/(13292:13329): Escribo el nuevo hmd en  24
+[INFO] 16:05:53:558 memoria/(13292:13329): hmd -> prevAlloc : 0 
+[INFO] 16:05:53:559 memoria/(13292:13329): hmd-> nextAlloc : 58 
+[INFO] 16:05:53:560 memoria/(13292:13329): hmd -> isFree : 1 
+[INFO] 16:05:53:562 memoria/(13292:13329): ---------0 en pagina 1---------
+[INFO] 16:05:53:563 memoria/(13292:13329): Escribo el nuevo hmd_next en 58
+[INFO] 16:05:53:563 memoria/(13292:13329): hmd_aux_next -> prevAlloc : 24 
+[INFO] 16:05:53:564 memoria/(13292:13329): hmd_aux_next -> nextAlloc : 0 
+[INFO] 16:05:53:566 memoria/(13292:13329): hmd_aux_next -> isFree : 1 
+[INFO] 16:05:53:567 memoria/(13292:13329): ---------0 en pagina 2---------
+[INFO] 16:05:53:569 memoria/(13292:13329): Se van a sacar : 1 
+[INFO] 16:05:53:570 memoria/(13292:13329): ---------0 en pagina 2---------
+[INFO] 16:05:53:573 memoria/(13292:13329): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:05:53:628 memoria/(13292:13329): DISCONNECT!
+[INFO] 16:06:31:740 memoria/(13428:13428): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:06:31:814 memoria/(13428:13428): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:06:31:817 memoria/(13428:13428): ------2---------
+
+[INFO] 16:06:31:819 memoria/(13428:13428): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:06:34:779 memoria/(13428:13428): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:06:34:912 memoria/(13428:13452): HANDSHAKE
+[INFO] 16:06:34:977 memoria/(13428:13452): Alocando size: 15 del carpincho: 0
+[INFO] 16:06:34:979 memoria/(13428:13452): Antes del if de swap
+[INFO] 16:06:34:985 memoria/(13428:13452): El frame es el 0 
+
+[INFO] 16:06:34:991 memoria/(13428:13452): Allocando primer mitad del hmd en 0
+
+[INFO] 16:06:34:994 memoria/(13428:13452): El frame es el 1 
+
+[INFO] 16:06:34:996 memoria/(13428:13452): Allocando segunda mitad del hmd en 1
+
+[INFO] 16:06:35:036 memoria/(13428:13452): Alocando size: 25 del carpincho: 0
+[INFO] 16:06:35:039 memoria/(13428:13452): ---------0 en pagina 0---------
+[INFO] 16:06:35:041 memoria/(13428:13452): size_ 9
+[INFO] 16:06:35:044 memoria/(13428:13452): size_ 8
+[INFO] 16:06:35:045 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:046 memoria/(13428:13452): size_ 1
+[INFO] 16:06:35:093 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:094 memoria/(13428:13452): El frame es el 2 
+
+[INFO] 16:06:35:100 memoria/(13428:13452): Alocando size: 15 del carpincho: 0
+[INFO] 16:06:35:101 memoria/(13428:13452): ---------0 en pagina 0---------
+[INFO] 16:06:35:102 memoria/(13428:13452): size_ 9
+[INFO] 16:06:35:103 memoria/(13428:13452): size_ 8
+[INFO] 16:06:35:104 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:105 memoria/(13428:13452): size_ 1
+[INFO] 16:06:35:106 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:107 memoria/(13428:13452): size_ 6
+[INFO] 16:06:35:109 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:110 memoria/(13428:13452): size_ 3
+[INFO] 16:06:35:112 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:151 memoria/(13428:13452): Alocando size: 25 del carpincho: 0
+[INFO] 16:06:35:152 memoria/(13428:13452): ---------0 en pagina 0---------
+[INFO] 16:06:35:153 memoria/(13428:13452): size_ 9
+[INFO] 16:06:35:154 memoria/(13428:13452): size_ 8
+[INFO] 16:06:35:155 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:156 memoria/(13428:13452): size_ 1
+[INFO] 16:06:35:157 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:158 memoria/(13428:13452): size_ 6
+[INFO] 16:06:35:162 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:163 memoria/(13428:13452): size_ 3
+[INFO] 16:06:35:164 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:165 memoria/(13428:13452): size_ 9
+[INFO] 16:06:35:205 memoria/(13428:13452): El frame es el 3 
+
+[INFO] 16:06:35:211 memoria/(13428:13452): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 16:06:35:213 memoria/(13428:13452): ---------0 en pagina 0---------
+[INFO] 16:06:35:214 memoria/(13428:13452): size_ 8
+[INFO] 16:06:35:216 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:218 memoria/(13428:13452): size_ 1
+[INFO] 16:06:35:219 memoria/(13428:13452): size_ 9
+[INFO] 16:06:35:222 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:224 memoria/(13428:13452): size_ 6
+[INFO] 16:06:35:225 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:225 memoria/(13428:13452): size_ 3
+[INFO] 16:06:35:225 memoria/(13428:13452): Escribo el nuevo hmd en  24
+[INFO] 16:06:35:226 memoria/(13428:13452): hmd -> prevAlloc : 0 
+[INFO] 16:06:35:227 memoria/(13428:13452): hmd-> nextAlloc : 58 
+[INFO] 16:06:35:228 memoria/(13428:13452): hmd -> isFree : 1 
+[INFO] 16:06:35:229 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:231 memoria/(13428:13452): Escribo el nuevo hmd_next en 58
+[INFO] 16:06:35:232 memoria/(13428:13452): hmd_aux_next -> prevAlloc : 24 
+[INFO] 16:06:35:233 memoria/(13428:13452): hmd_aux_next -> nextAlloc : 82 
+[INFO] 16:06:35:235 memoria/(13428:13452): hmd_aux_next -> isFree : 0 
+[INFO] 16:06:35:236 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:237 memoria/(13428:13452): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:06:35:279 memoria/(13428:13452): Liberando direccion logica: 9 del carpincho: 0
+[INFO] 16:06:35:281 memoria/(13428:13452): ---------0 en pagina 0---------
+[INFO] 16:06:35:284 memoria/(13428:13452): size_ 9
+[INFO] 16:06:35:284 memoria/(13428:13452): size_ 9
+[INFO] 16:06:35:285 memoria/(13428:13452): size_ 8
+[INFO] 16:06:35:287 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:288 memoria/(13428:13452): size_ 1
+[INFO] 16:06:35:289 memoria/(13428:13452): COMPACTO A DERECHA
+[INFO] 16:06:35:291 memoria/(13428:13452): ---------0 en pagina 1---------
+[INFO] 16:06:35:292 memoria/(13428:13452): size_ 6
+[INFO] 16:06:35:293 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:294 memoria/(13428:13452): size_ 3
+[INFO] 16:06:35:295 memoria/(13428:13452): Escribo el nuevo hmd en  0
+[INFO] 16:06:35:295 memoria/(13428:13452): hmd -> prevAlloc : 0 
+[INFO] 16:06:35:296 memoria/(13428:13452): hmd-> nextAlloc : 58 
+[INFO] 16:06:35:297 memoria/(13428:13452): hmd -> isFree : 1 
+[INFO] 16:06:35:298 memoria/(13428:13452): Escribo el nuevo hmd_next en 58
+[INFO] 16:06:35:299 memoria/(13428:13452): hmd_aux_next -> prevAlloc : 0 
+[INFO] 16:06:35:300 memoria/(13428:13452): hmd_aux_next -> nextAlloc : 82 
+[INFO] 16:06:35:300 memoria/(13428:13452): hmd_aux_next -> isFree : 0 
+[INFO] 16:06:35:300 memoria/(13428:13452): ---------0 en pagina 2---------
+[INFO] 16:06:35:302 memoria/(13428:13452): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:06:35:344 memoria/(13428:13452): DISCONNECT!
+[INFO] 16:34:14:068 memoria/(15900:15900): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:34:14:135 memoria/(15900:15900): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:34:14:143 memoria/(15900:15900): ------2---------
+
+[INFO] 16:34:14:150 memoria/(15900:15900): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:34:40:551 memoria/(16335:16335): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:34:40:616 memoria/(16335:16335): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:34:40:619 memoria/(16335:16335): ------2---------
+
+[INFO] 16:34:40:621 memoria/(16335:16335): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:34:52:643 memoria/(16335:16335): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:34:52:760 memoria/(16335:16372): HANDSHAKE
+[INFO] 16:34:52:820 memoria/(16335:16372): Alocando size: 15 del carpincho: 0
+[INFO] 16:34:52:822 memoria/(16335:16372): Antes del if de swap
+[INFO] 16:34:52:836 memoria/(16335:16372): El frame es el 0 
+
+[INFO] 16:34:52:845 memoria/(16335:16372): Allocando primer mitad del hmd en 0
+
+[INFO] 16:34:52:847 memoria/(16335:16372): El frame es el 1 
+
+[INFO] 16:34:52:848 memoria/(16335:16372): Allocando segunda mitad del hmd en 1
+
+[INFO] 16:34:52:887 memoria/(16335:16372): Alocando size: 25 del carpincho: 0
+[INFO] 16:34:52:889 memoria/(16335:16372): ---------0 en pagina 0---------
+[INFO] 16:34:52:892 memoria/(16335:16372): size_ 9
+[INFO] 16:34:52:894 memoria/(16335:16372): size_ 8
+[INFO] 16:34:52:895 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:52:897 memoria/(16335:16372): size_ 1
+[INFO] 16:34:52:946 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:52:949 memoria/(16335:16372): El frame es el 2 
+
+[INFO] 16:34:52:952 memoria/(16335:16372): Alocando size: 15 del carpincho: 0
+[INFO] 16:34:52:953 memoria/(16335:16372): ---------0 en pagina 0---------
+[INFO] 16:34:52:954 memoria/(16335:16372): size_ 9
+[INFO] 16:34:52:955 memoria/(16335:16372): size_ 8
+[INFO] 16:34:52:955 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:52:956 memoria/(16335:16372): size_ 1
+[INFO] 16:34:52:958 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:52:959 memoria/(16335:16372): size_ 6
+[INFO] 16:34:52:960 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:52:961 memoria/(16335:16372): size_ 3
+[INFO] 16:34:52:962 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:53:003 memoria/(16335:16372): Alocando size: 25 del carpincho: 0
+[INFO] 16:34:53:006 memoria/(16335:16372): ---------0 en pagina 0---------
+[INFO] 16:34:53:007 memoria/(16335:16372): size_ 9
+[INFO] 16:34:53:009 memoria/(16335:16372): size_ 8
+[INFO] 16:34:53:010 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:53:013 memoria/(16335:16372): size_ 1
+[INFO] 16:34:53:014 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:53:014 memoria/(16335:16372): size_ 6
+[INFO] 16:34:53:015 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:53:015 memoria/(16335:16372): size_ 3
+[INFO] 16:34:53:015 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:53:017 memoria/(16335:16372): size_ 9
+[INFO] 16:34:53:060 memoria/(16335:16372): El frame es el 3 
+
+[INFO] 16:34:53:066 memoria/(16335:16372): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 16:34:53:069 memoria/(16335:16372): ---------0 en pagina 0---------
+[INFO] 16:34:53:070 memoria/(16335:16372): size_ 8
+[INFO] 16:34:53:071 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:53:072 memoria/(16335:16372): size_ 1
+[INFO] 16:34:53:076 memoria/(16335:16372): size_ 9
+[INFO] 16:34:53:078 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:53:079 memoria/(16335:16372): size_ 6
+[INFO] 16:34:53:080 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:53:080 memoria/(16335:16372): size_ 3
+[INFO] 16:34:53:081 memoria/(16335:16372): Escribo el nuevo hmd en  24
+[INFO] 16:34:53:082 memoria/(16335:16372): hmd -> prevAlloc : 0 
+[INFO] 16:34:53:083 memoria/(16335:16372): hmd-> nextAlloc : 58 
+[INFO] 16:34:53:084 memoria/(16335:16372): hmd -> isFree : 1 
+[INFO] 16:34:53:087 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:53:088 memoria/(16335:16372): Escribo el nuevo hmd_next en 58
+[INFO] 16:34:53:089 memoria/(16335:16372): hmd_aux_next -> prevAlloc : 24 
+[INFO] 16:34:53:091 memoria/(16335:16372): hmd_aux_next -> nextAlloc : 82 
+[INFO] 16:34:53:091 memoria/(16335:16372): hmd_aux_next -> isFree : 0 
+[INFO] 16:34:53:093 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:53:094 memoria/(16335:16372): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:34:53:135 memoria/(16335:16372): Liberando direccion logica: 9 del carpincho: 0
+[INFO] 16:34:53:136 memoria/(16335:16372): ---------0 en pagina 0---------
+[INFO] 16:34:53:138 memoria/(16335:16372): size_ 9
+[INFO] 16:34:53:138 memoria/(16335:16372): size_ 9
+[INFO] 16:34:53:138 memoria/(16335:16372): size_ 8
+[INFO] 16:34:53:140 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:53:141 memoria/(16335:16372): size_ 1
+[INFO] 16:34:53:142 memoria/(16335:16372): COMPACTO A DERECHA
+[INFO] 16:34:53:143 memoria/(16335:16372): ---------0 en pagina 1---------
+[INFO] 16:34:53:145 memoria/(16335:16372): size_ 6
+[INFO] 16:34:53:146 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:53:148 memoria/(16335:16372): size_ 3
+[INFO] 16:34:53:148 memoria/(16335:16372): Escribo el nuevo hmd en  0
+[INFO] 16:34:53:149 memoria/(16335:16372): hmd -> prevAlloc : 0 
+[INFO] 16:34:53:150 memoria/(16335:16372): hmd-> nextAlloc : 58 
+[INFO] 16:34:53:151 memoria/(16335:16372): hmd -> isFree : 1 
+[INFO] 16:34:53:152 memoria/(16335:16372): Escribo el nuevo hmd_next en 58
+[INFO] 16:34:53:153 memoria/(16335:16372): hmd_aux_next -> prevAlloc : 0 
+[INFO] 16:34:53:154 memoria/(16335:16372): hmd_aux_next -> nextAlloc : 82 
+[INFO] 16:34:53:154 memoria/(16335:16372): hmd_aux_next -> isFree : 0 
+[INFO] 16:34:53:155 memoria/(16335:16372): ---------0 en pagina 2---------
+[INFO] 16:34:53:156 memoria/(16335:16372): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:34:53:198 memoria/(16335:16372): DISCONNECT!
+[INFO] 16:38:22:579 memoria/(16769:16769): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:38:22:645 memoria/(16769:16769): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:38:22:649 memoria/(16769:16769): ------2---------
+
+[INFO] 16:38:22:652 memoria/(16769:16769): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:38:26:604 memoria/(16769:16769): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:38:26:721 memoria/(16769:16798): HANDSHAKE
+[INFO] 16:38:26:783 memoria/(16769:16798): Alocando size: 15 del carpincho: 0
+[INFO] 16:38:26:786 memoria/(16769:16798): Antes del if de swap
+[INFO] 16:38:26:799 memoria/(16769:16798): El frame es el 0 
+
+[INFO] 16:38:26:807 memoria/(16769:16798): Allocando primer mitad del hmd en 0
+
+[INFO] 16:38:26:811 memoria/(16769:16798): El frame es el 1 
+
+[INFO] 16:38:26:815 memoria/(16769:16798): Allocando segunda mitad del hmd en 1
+
+[INFO] 16:38:26:819 memoria/(16769:16798): Alocando size: 25 del carpincho: 0
+[INFO] 16:38:26:821 memoria/(16769:16798): ---------0 en pagina 0---------
+[INFO] 16:38:26:824 memoria/(16769:16798): size_ 9
+[INFO] 16:38:26:828 memoria/(16769:16798): size_ 8
+[INFO] 16:38:26:831 memoria/(16769:16798): ---------0 en pagina 1---------
+[INFO] 16:38:26:832 memoria/(16769:16798): size_ 1
+[INFO] 16:38:26:880 memoria/(16769:16798): ---------0 en pagina 1---------
+[INFO] 16:38:26:882 memoria/(16769:16798): El frame es el 2 
+
+[INFO] 16:38:26:889 memoria/(16769:16798): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 16:38:26:891 memoria/(16769:16798): ---------0 en pagina 0---------
+[INFO] 16:38:26:893 memoria/(16769:16798): size_ 8
+[INFO] 16:38:26:894 memoria/(16769:16798): ---------0 en pagina 1---------
+[INFO] 16:38:26:894 memoria/(16769:16798): size_ 1
+[INFO] 16:38:26:896 memoria/(16769:16798): size_ 9
+[INFO] 16:38:26:898 memoria/(16769:16798): ---------0 en pagina 1---------
+[INFO] 16:38:26:899 memoria/(16769:16798): size_ 6
+[INFO] 16:38:26:900 memoria/(16769:16798): ---------0 en pagina 2---------
+[INFO] 16:38:26:901 memoria/(16769:16798): size_ 3
+[INFO] 16:38:26:902 memoria/(16769:16798): Escribo el nuevo hmd en  24
+[INFO] 16:38:26:903 memoria/(16769:16798): hmd -> prevAlloc : 0 
+[INFO] 16:38:26:905 memoria/(16769:16798): hmd-> nextAlloc : 58 
+[INFO] 16:38:26:906 memoria/(16769:16798): hmd -> isFree : 1 
+[INFO] 16:38:26:910 memoria/(16769:16798): ---------0 en pagina 1---------
+[INFO] 16:38:26:912 memoria/(16769:16798): Escribo el nuevo hmd_next en 58
+[INFO] 16:38:26:913 memoria/(16769:16798): hmd_aux_next -> prevAlloc : 24 
+[INFO] 16:38:26:914 memoria/(16769:16798): hmd_aux_next -> nextAlloc : 0 
+[INFO] 16:38:26:915 memoria/(16769:16798): hmd_aux_next -> isFree : 1 
+[INFO] 16:38:26:916 memoria/(16769:16798): ---------0 en pagina 2---------
+[INFO] 16:38:26:917 memoria/(16769:16798): Se van a sacar : 1 
+[INFO] 16:38:26:919 memoria/(16769:16798): ---------0 en pagina 2---------
+[INFO] 16:38:26:963 memoria/(16769:16798): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:38:27:006 memoria/(16769:16798): DISCONNECT!
+[INFO] 16:43:55:832 memoria/(17337:17337): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:43:55:898 memoria/(17337:17337): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:43:55:901 memoria/(17337:17337): ------2---------
+
+[INFO] 16:43:55:903 memoria/(17337:17337): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:44:05:008 memoria/(17337:17337): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:44:05:137 memoria/(17337:17370): HANDSHAKE
+[INFO] 16:44:05:212 memoria/(17337:17370): Alocando size: 15 del carpincho: 0
+[INFO] 16:44:05:215 memoria/(17337:17370): Antes del if de swap
+[INFO] 16:44:05:227 memoria/(17337:17370): El frame es el 0 
+
+[INFO] 16:44:05:234 memoria/(17337:17370): Allocando primer mitad del hmd en 0
+
+[INFO] 16:44:05:237 memoria/(17337:17370): El frame es el 1 
+
+[INFO] 16:44:05:238 memoria/(17337:17370): Allocando segunda mitad del hmd en 1
+
+[INFO] 16:44:05:280 memoria/(17337:17370): Alocando size: 25 del carpincho: 0
+[INFO] 16:44:05:282 memoria/(17337:17370): ---------0 en pagina 0---------
+[INFO] 16:44:05:286 memoria/(17337:17370): size_ 9
+[INFO] 16:44:05:288 memoria/(17337:17370): size_ 8
+[INFO] 16:44:05:290 memoria/(17337:17370): ---------0 en pagina 1---------
+[INFO] 16:44:05:291 memoria/(17337:17370): size_ 1
+[INFO] 16:44:05:336 memoria/(17337:17370): ---------0 en pagina 1---------
+[INFO] 16:44:05:338 memoria/(17337:17370): El frame es el 2 
+
+[INFO] 16:44:05:348 memoria/(17337:17370): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 16:44:05:350 memoria/(17337:17370): ---------0 en pagina 0---------
+[INFO] 16:44:05:351 memoria/(17337:17370): size_ 8
+[INFO] 16:44:05:353 memoria/(17337:17370): ---------0 en pagina 1---------
+[INFO] 16:44:05:354 memoria/(17337:17370): size_ 1
+[INFO] 16:44:05:356 memoria/(17337:17370): size_ 9
+[INFO] 16:44:05:358 memoria/(17337:17370): ---------0 en pagina 1---------
+[INFO] 16:44:05:360 memoria/(17337:17370): size_ 6
+[INFO] 16:44:05:361 memoria/(17337:17370): ---------0 en pagina 2---------
+[INFO] 16:44:05:362 memoria/(17337:17370): size_ 3
+[INFO] 16:44:05:363 memoria/(17337:17370): Escribo el nuevo hmd en  24
+[INFO] 16:44:05:364 memoria/(17337:17370): hmd -> prevAlloc : 0 
+[INFO] 16:44:05:365 memoria/(17337:17370): hmd-> nextAlloc : 58 
+[INFO] 16:44:05:366 memoria/(17337:17370): hmd -> isFree : 1 
+[INFO] 16:44:05:369 memoria/(17337:17370): ---------0 en pagina 1---------
+[INFO] 16:44:05:370 memoria/(17337:17370): Escribo el nuevo hmd_next en 58
+[INFO] 16:44:05:371 memoria/(17337:17370): hmd_aux_next -> prevAlloc : 24 
+[INFO] 16:44:05:372 memoria/(17337:17370): hmd_aux_next -> nextAlloc : 0 
+[INFO] 16:44:05:373 memoria/(17337:17370): hmd_aux_next -> isFree : 1 
+[INFO] 16:44:05:378 memoria/(17337:17370): ---------0 en pagina 2---------
+[INFO] 16:44:05:381 memoria/(17337:17370): Se van a sacar : 1 
+[INFO] 16:44:05:382 memoria/(17337:17370): ---------0 en pagina 2---------
+[INFO] 16:44:05:427 memoria/(17337:17370): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:44:05:470 memoria/(17337:17370): DISCONNECT!
+[INFO] 16:53:38:448 memoria/(18242:18242): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 16:53:38:513 memoria/(18242:18242): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 16:53:38:517 memoria/(18242:18242): ------2---------
+
+[INFO] 16:53:38:520 memoria/(18242:18242): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 16:53:46:417 memoria/(18242:18242): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 16:53:46:508 memoria/(18242:18272): HANDSHAKE
+[INFO] 16:53:46:572 memoria/(18242:18272): Alocando size: 15 del carpincho: 0
+[INFO] 16:53:46:583 memoria/(18242:18272): Antes del if de swap
+[INFO] 16:53:46:594 memoria/(18242:18272): El frame es el 0 
+
+[INFO] 16:53:46:603 memoria/(18242:18272): Allocando primer mitad del hmd en 0
+
+[INFO] 16:53:46:605 memoria/(18242:18272): El frame es el 1 
+
+[INFO] 16:53:46:607 memoria/(18242:18272): Allocando segunda mitad del hmd en 1
+
+[INFO] 16:53:46:610 memoria/(18242:18272): Alocando size: 25 del carpincho: 0
+[INFO] 16:53:46:612 memoria/(18242:18272): ---------0 en pagina 0---------
+[INFO] 16:53:46:617 memoria/(18242:18272): ---------0 en pagina 1---------
+[INFO] 16:53:46:665 memoria/(18242:18272): ---------0 en pagina 1---------
+[INFO] 16:53:46:667 memoria/(18242:18272): El frame es el 2 
+
+[INFO] 16:53:46:674 memoria/(18242:18272): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 16:53:46:676 memoria/(18242:18272): ---------0 en pagina 0---------
+[INFO] 16:53:46:678 memoria/(18242:18272): ---------0 en pagina 1---------
+[INFO] 16:53:46:681 memoria/(18242:18272): ---------0 en pagina 1---------
+[INFO] 16:53:46:682 memoria/(18242:18272): ---------0 en pagina 2---------
+[INFO] 16:53:46:684 memoria/(18242:18272): Escribo el nuevo hmd en  24
+[INFO] 16:53:46:684 memoria/(18242:18272): hmd -> prevAlloc : 0 
+[INFO] 16:53:46:685 memoria/(18242:18272): hmd-> nextAlloc : 58 
+[INFO] 16:53:46:686 memoria/(18242:18272): hmd -> isFree : 1 
+[INFO] 16:53:46:686 memoria/(18242:18272): ---------0 en pagina 1---------
+[INFO] 16:53:46:689 memoria/(18242:18272): Escribo el nuevo hmd_next en 58
+[INFO] 16:53:46:690 memoria/(18242:18272): hmd_aux_next -> prevAlloc : 24 
+[INFO] 16:53:46:691 memoria/(18242:18272): hmd_aux_next -> nextAlloc : 0 
+[INFO] 16:53:46:692 memoria/(18242:18272): hmd_aux_next -> isFree : 1 
+[INFO] 16:53:46:695 memoria/(18242:18272): ---------0 en pagina 2---------
+[INFO] 16:53:46:698 memoria/(18242:18272): Se van a sacar : 1 
+[INFO] 16:53:46:699 memoria/(18242:18272): ---------0 en pagina 2---------
+[INFO] 16:53:46:744 memoria/(18242:18272): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 16:53:46:786 memoria/(18242:18272): DISCONNECT!
+[INFO] 17:07:28:918 memoria/(19457:19457): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:07:29:020 memoria/(19457:19457): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:07:29:028 memoria/(19457:19457): ------2---------
+
+[INFO] 17:07:29:036 memoria/(19457:19457): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:07:35:628 memoria/(19457:19457): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:07:35:788 memoria/(19457:19484): HANDSHAKE
+[INFO] 17:07:35:860 memoria/(19457:19484): Alocando size: 15 del carpincho: 0
+[INFO] 17:07:35:866 memoria/(19457:19484): Antes del if de swap
+[INFO] 17:07:35:888 memoria/(19457:19484): El frame es el 0 
+
+[INFO] 17:07:35:901 memoria/(19457:19484): Allocando primer mitad del hmd en 0
+
+[INFO] 17:07:35:904 memoria/(19457:19484): El frame es el 1 
+
+[INFO] 17:07:35:906 memoria/(19457:19484): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:07:35:909 memoria/(19457:19484): Alocando size: 25 del carpincho: 0
+[INFO] 17:07:35:911 memoria/(19457:19484): ---------0 en pagina 0---------
+[INFO] 17:07:35:925 memoria/(19457:19484): ---------0 en pagina 1---------
+[INFO] 17:07:35:974 memoria/(19457:19484): ---------0 en pagina 1---------
+[INFO] 17:07:35:977 memoria/(19457:19484): El frame es el 2 
+
+[INFO] 17:07:35:991 memoria/(19457:19484): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 17:07:36:000 memoria/(19457:19484): ---------0 en pagina 0---------
+[INFO] 17:07:36:002 memoria/(19457:19484): ---------0 en pagina 1---------
+[INFO] 17:07:36:004 memoria/(19457:19484): ---------0 en pagina 1---------
+[INFO] 17:07:36:008 memoria/(19457:19484): ---------0 en pagina 2---------
+[INFO] 17:07:36:009 memoria/(19457:19484): Escribo el nuevo hmd en  24
+[INFO] 17:07:36:010 memoria/(19457:19484): hmd -> prevAlloc : 0 
+[INFO] 17:07:36:011 memoria/(19457:19484): hmd-> nextAlloc : 58 
+[INFO] 17:07:36:019 memoria/(19457:19484): hmd -> isFree : 1 
+[INFO] 17:07:36:021 memoria/(19457:19484): ---------0 en pagina 1---------
+[INFO] 17:07:36:024 memoria/(19457:19484): Escribo el nuevo hmd_next en 58
+[INFO] 17:07:36:025 memoria/(19457:19484): hmd_aux_next -> prevAlloc : 24 
+[INFO] 17:07:36:029 memoria/(19457:19484): hmd_aux_next -> nextAlloc : 0 
+[INFO] 17:07:36:030 memoria/(19457:19484): hmd_aux_next -> isFree : 1 
+[INFO] 17:07:36:032 memoria/(19457:19484): ---------0 en pagina 2---------
+[INFO] 17:07:36:036 memoria/(19457:19484): Se van a sacar : 1 
+[INFO] 17:07:36:038 memoria/(19457:19484): ---------0 en pagina 2---------
+[INFO] 17:07:36:084 memoria/(19457:19484): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 17:07:36:177 memoria/(19457:19484): DISCONNECT!
+[INFO] 17:17:12:099 memoria/(20323:20323): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 17:17:12:165 memoria/(20323:20323): Error al conectar (a Server)
+
+[INFO] 17:17:30:800 memoria/(20429:20429): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:17:30:867 memoria/(20429:20429): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:17:30:871 memoria/(20429:20429): ------2---------
+
+[INFO] 17:17:30:874 memoria/(20429:20429): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:17:34:490 memoria/(20429:20429): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:17:34:623 memoria/(20429:20456): HANDSHAKE
+[INFO] 17:17:34:689 memoria/(20429:20456): Alocando size: 15 del carpincho: 0
+[INFO] 17:17:34:692 memoria/(20429:20456): Antes del if de swap
+[INFO] 17:17:34:704 memoria/(20429:20456): El frame es el 0 
+
+[INFO] 17:17:34:711 memoria/(20429:20456): Allocando primer mitad del hmd en 0
+
+[INFO] 17:17:34:714 memoria/(20429:20456): El frame es el 1 
+
+[INFO] 17:17:34:716 memoria/(20429:20456): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:17:34:759 memoria/(20429:20456): Alocando size: 25 del carpincho: 0
+[INFO] 17:17:34:761 memoria/(20429:20456): ---------0 en pagina 0---------
+[INFO] 17:17:34:765 memoria/(20429:20456): ---------0 en pagina 1---------
+[INFO] 17:17:34:811 memoria/(20429:20456): ---------0 en pagina 1---------
+[INFO] 17:17:34:813 memoria/(20429:20456): El frame es el 2 
+
+[INFO] 17:17:34:820 memoria/(20429:20456): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 17:17:34:822 memoria/(20429:20456): ---------0 en pagina 0---------
+[INFO] 17:17:34:824 memoria/(20429:20456): ---------0 en pagina 1---------
+[INFO] 17:17:34:827 memoria/(20429:20456): ---------0 en pagina 1---------
+[INFO] 17:17:34:829 memoria/(20429:20456): ---------0 en pagina 2---------
+[INFO] 17:17:34:829 memoria/(20429:20456): Escribo el nuevo hmd en  24
+[INFO] 17:17:34:830 memoria/(20429:20456): hmd -> prevAlloc : 0 
+[INFO] 17:17:34:831 memoria/(20429:20456): hmd-> nextAlloc : 0 
+[INFO] 17:17:34:832 memoria/(20429:20456): hmd -> isFree : 1 
+[INFO] 17:17:34:833 memoria/(20429:20456): ---------0 en pagina 1---------
+[INFO] 17:17:34:836 memoria/(20429:20456): Escribo el nuevo hmd_next en 58
+[INFO] 17:17:34:837 memoria/(20429:20456): hmd_aux_next -> prevAlloc : 24 
+[INFO] 17:17:34:838 memoria/(20429:20456): hmd_aux_next -> nextAlloc : 0 
+[INFO] 17:17:34:841 memoria/(20429:20456): hmd_aux_next -> isFree : 1 
+[INFO] 17:17:34:843 memoria/(20429:20456): ---------0 en pagina 2---------
+[INFO] 17:17:34:845 memoria/(20429:20456): Se van a sacar : 1 
+[INFO] 17:17:34:846 memoria/(20429:20456): ---------0 en pagina 2---------
+[INFO] 17:17:34:892 memoria/(20429:20456): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 17:17:34:939 memoria/(20429:20456): DISCONNECT!
+[INFO] 17:23:04:249 memoria/(21041:21041): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:23:04:328 memoria/(21041:21041): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:23:04:331 memoria/(21041:21041): ------2---------
+
+[INFO] 17:23:04:333 memoria/(21041:21041): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:23:08:285 memoria/(21041:21041): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:23:08:421 memoria/(21041:21068): HANDSHAKE
+[INFO] 17:23:08:480 memoria/(21041:21068): Alocando size: 15 del carpincho: 0
+[INFO] 17:23:08:483 memoria/(21041:21068): Antes del if de swap
+[INFO] 17:23:08:494 memoria/(21041:21068): El frame es el 0 
+
+[INFO] 17:23:08:501 memoria/(21041:21068): Allocando primer mitad del hmd en 0
+
+[INFO] 17:23:08:503 memoria/(21041:21068): El frame es el 1 
+
+[INFO] 17:23:08:506 memoria/(21041:21068): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:23:08:547 memoria/(21041:21068): Alocando size: 25 del carpincho: 0
+[INFO] 17:23:08:550 memoria/(21041:21068): ---------0 en pagina 0---------
+[INFO] 17:23:08:554 memoria/(21041:21068): ---------0 en pagina 1---------
+[INFO] 17:23:08:604 memoria/(21041:21068): ---------0 en pagina 1---------
+[INFO] 17:23:08:609 memoria/(21041:21068): El frame es el 2 
+
+[INFO] 17:23:08:622 memoria/(21041:21068): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 17:23:08:625 memoria/(21041:21068): ---------0 en pagina 0---------
+[INFO] 17:23:08:627 memoria/(21041:21068): ---------0 en pagina 1---------
+[INFO] 17:23:08:630 memoria/(21041:21068): ---------0 en pagina 1---------
+[INFO] 17:23:08:631 memoria/(21041:21068): ---------0 en pagina 2---------
+[INFO] 17:23:08:632 memoria/(21041:21068): Escribo el nuevo hmd en  24
+[INFO] 17:23:08:633 memoria/(21041:21068): hmd -> prevAlloc : 0 
+[INFO] 17:23:08:634 memoria/(21041:21068): hmd-> nextAlloc : 0 
+[INFO] 17:23:08:637 memoria/(21041:21068): hmd -> isFree : 1 
+[INFO] 17:23:08:639 memoria/(21041:21068): ---------0 en pagina 1---------
+[INFO] 17:23:08:640 memoria/(21041:21068): Escribo el nuevo hmd_next en 58
+[INFO] 17:23:08:641 memoria/(21041:21068): hmd_aux_next -> prevAlloc : 24 
+[INFO] 17:23:08:642 memoria/(21041:21068): hmd_aux_next -> nextAlloc : 0 
+[INFO] 17:23:08:643 memoria/(21041:21068): hmd_aux_next -> isFree : 1 
+[INFO] 17:23:08:644 memoria/(21041:21068): ---------0 en pagina 2---------
+[INFO] 17:23:08:647 memoria/(21041:21068): Se van a sacar : 1 
+[INFO] 17:23:08:648 memoria/(21041:21068): ---------0 en pagina 2---------
+[INFO] 17:23:08:692 memoria/(21041:21068): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 17:23:08:747 memoria/(21041:21068): DISCONNECT!
+[INFO] 17:24:03:345 memoria/(21236:21236): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:24:03:409 memoria/(21236:21236): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:24:03:413 memoria/(21236:21236): ------2---------
+
+[INFO] 17:24:03:415 memoria/(21236:21236): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:24:10:186 memoria/(21236:21236): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:24:10:292 memoria/(21236:21278): HANDSHAKE
+[INFO] 17:24:10:364 memoria/(21236:21278): Alocando size: 15 del carpincho: 0
+[INFO] 17:24:10:367 memoria/(21236:21278): Antes del if de swap
+[INFO] 17:24:10:378 memoria/(21236:21278): El frame es el 0 
+
+[INFO] 17:24:10:385 memoria/(21236:21278): Allocando primer mitad del hmd en 0
+
+[INFO] 17:24:10:388 memoria/(21236:21278): El frame es el 1 
+
+[INFO] 17:24:10:390 memoria/(21236:21278): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:24:10:431 memoria/(21236:21278): Alocando size: 25 del carpincho: 0
+[INFO] 17:24:10:434 memoria/(21236:21278): ---------0 en pagina 0---------
+[INFO] 17:24:10:438 memoria/(21236:21278): ---------0 en pagina 1---------
+[INFO] 17:24:10:483 memoria/(21236:21278): ---------0 en pagina 1---------
+[INFO] 17:24:10:485 memoria/(21236:21278): El frame es el 2 
+
+[INFO] 17:24:10:493 memoria/(21236:21278): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 17:24:10:495 memoria/(21236:21278): ---------0 en pagina 0---------
+[INFO] 17:24:10:496 memoria/(21236:21278): ---------0 en pagina 1---------
+[INFO] 17:24:10:499 memoria/(21236:21278): ---------0 en pagina 1---------
+[INFO] 17:24:10:500 memoria/(21236:21278): ---------0 en pagina 2---------
+[INFO] 17:24:10:501 memoria/(21236:21278): Escribo el nuevo hmd en  24
+[INFO] 17:24:10:502 memoria/(21236:21278): hmd -> prevAlloc : 0 
+[INFO] 17:24:10:503 memoria/(21236:21278): hmd-> nextAlloc : 0 
+[INFO] 17:24:10:505 memoria/(21236:21278): hmd -> isFree : 1 
+[INFO] 17:24:10:506 memoria/(21236:21278): ---------0 en pagina 1---------
+[INFO] 17:24:10:507 memoria/(21236:21278): Escribo el nuevo hmd_next en 58
+[INFO] 17:24:10:508 memoria/(21236:21278): hmd_aux_next -> prevAlloc : 24 
+[INFO] 17:24:10:509 memoria/(21236:21278): hmd_aux_next -> nextAlloc : 0 
+[INFO] 17:24:10:510 memoria/(21236:21278): hmd_aux_next -> isFree : 1 
+[INFO] 17:24:10:512 memoria/(21236:21278): ---------0 en pagina 2---------
+[INFO] 17:24:10:513 memoria/(21236:21278): Se van a sacar : 1 
+[INFO] 17:24:10:514 memoria/(21236:21278): ---------0 en pagina 2---------
+[INFO] 17:24:10:558 memoria/(21236:21278): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 17:24:10:601 memoria/(21236:21278): DISCONNECT!
+[INFO] 17:28:59:564 memoria/(21820:21820): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:28:59:630 memoria/(21820:21820): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:28:59:634 memoria/(21820:21820): ------2---------
+
+[INFO] 17:28:59:636 memoria/(21820:21820): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:29:02:925 memoria/(21820:21820): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:29:03:016 memoria/(21820:21844): HANDSHAKE
+[INFO] 17:29:03:076 memoria/(21820:21844): Alocando size: 15 del carpincho: 0
+[INFO] 17:29:03:078 memoria/(21820:21844): Antes del if de swap
+[INFO] 17:29:03:091 memoria/(21820:21844): El frame es el 0 
+
+[INFO] 17:29:03:105 memoria/(21820:21844): Allocando primer mitad del hmd en 0
+
+[INFO] 17:29:03:108 memoria/(21820:21844): El frame es el 1 
+
+[INFO] 17:29:03:118 memoria/(21820:21844): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:29:03:121 memoria/(21820:21844): Alocando size: 25 del carpincho: 0
+[INFO] 17:29:03:123 memoria/(21820:21844): ---------0 en pagina 0---------
+[INFO] 17:29:03:130 memoria/(21820:21844): ---------0 en pagina 1---------
+[INFO] 17:29:03:157 memoria/(21820:21844): No se pudo allocar carpincho
+[INFO] 17:29:03:163 memoria/(21820:21844): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 17:29:03:166 memoria/(21820:21844): ---------0 en pagina 0---------
+[INFO] 17:29:03:174 memoria/(21820:21844): ---------0 en pagina 1---------
+[INFO] 17:29:03:177 memoria/(21820:21844): Escribo el nuevo hmd en  24
+[INFO] 17:29:03:178 memoria/(21820:21844): hmd -> prevAlloc : 0 
+[INFO] 17:29:03:179 memoria/(21820:21844): hmd-> nextAlloc : 0 
+[INFO] 17:29:03:185 memoria/(21820:21844): hmd -> isFree : 1 
+[INFO] 17:29:03:186 memoria/(21820:21844): ---------0 en pagina 1---------
+[INFO] 17:29:03:187 memoria/(21820:21844): Escribo el nuevo hmd_next en 0
+[INFO] 17:29:03:188 memoria/(21820:21844): hmd_aux_next -> prevAlloc : 24 
+[INFO] 17:29:03:189 memoria/(21820:21844): hmd_aux_next -> nextAlloc : 24 
+[INFO] 17:29:03:190 memoria/(21820:21844): hmd_aux_next -> isFree : 0 
+[INFO] 17:29:03:192 memoria/(21820:21844): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 17:29:03:231 memoria/(21820:21844): DISCONNECT!
+[INFO] 17:31:52:863 memoria/(22551:22551): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:31:52:929 memoria/(22551:22551): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:31:52:932 memoria/(22551:22551): ------2---------
+
+[INFO] 17:31:52:934 memoria/(22551:22551): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:31:56:158 memoria/(22551:22551): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:31:56:274 memoria/(22551:22575): HANDSHAKE
+[INFO] 17:31:56:353 memoria/(22551:22575): Alocando size: 15 del carpincho: 0
+[INFO] 17:31:56:356 memoria/(22551:22575): Antes del if de swap
+[INFO] 17:31:56:368 memoria/(22551:22575): El frame es el 0 
+
+[INFO] 17:31:56:377 memoria/(22551:22575): Allocando primer mitad del hmd en 0
+
+[INFO] 17:31:56:379 memoria/(22551:22575): El frame es el 1 
+
+[INFO] 17:31:56:381 memoria/(22551:22575): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:31:56:423 memoria/(22551:22575): Alocando size: 25 del carpincho: 0
+[INFO] 17:31:56:424 memoria/(22551:22575): ---------0 en pagina 0---------
+[INFO] 17:31:56:430 memoria/(22551:22575): ---------0 en pagina 1---------
+[INFO] 17:31:56:436 memoria/(22551:22575): ---------0 en pagina 1---------
+[INFO] 17:31:56:438 memoria/(22551:22575): El frame es el 2 
+
+[INFO] 17:31:56:480 memoria/(22551:22575): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 17:31:56:483 memoria/(22551:22575): ---------0 en pagina 0---------
+[INFO] 17:31:56:486 memoria/(22551:22575): ---------0 en pagina 1---------
+[INFO] 17:31:56:488 memoria/(22551:22575): ---------0 en pagina 1---------
+[INFO] 17:31:56:492 memoria/(22551:22575): ---------0 en pagina 2---------
+[INFO] 17:31:56:494 memoria/(22551:22575): Escribo el nuevo hmd en  24
+[INFO] 17:31:56:496 memoria/(22551:22575): hmd -> prevAlloc : 0 
+[INFO] 17:31:56:498 memoria/(22551:22575): hmd-> nextAlloc : 0 
+[INFO] 17:31:56:499 memoria/(22551:22575): hmd -> isFree : 1 
+[INFO] 17:31:56:501 memoria/(22551:22575): ---------0 en pagina 1---------
+[INFO] 17:31:56:504 memoria/(22551:22575): Escribo el nuevo hmd_next en 58
+[INFO] 17:31:56:506 memoria/(22551:22575): hmd_aux_next -> prevAlloc : 24 
+[INFO] 17:31:56:507 memoria/(22551:22575): hmd_aux_next -> nextAlloc : 0 
+[INFO] 17:31:56:508 memoria/(22551:22575): hmd_aux_next -> isFree : 1 
+[INFO] 17:31:56:511 memoria/(22551:22575): ---------0 en pagina 2---------
+[INFO] 17:31:56:512 memoria/(22551:22575): Se van a sacar : 1 
+[INFO] 17:31:56:514 memoria/(22551:22575): ---------0 en pagina 2---------
+[INFO] 17:31:56:525 memoria/(22551:22575): Se elimino de SWamp
+[INFO] 17:31:56:528 memoria/(22551:22575): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 17:31:56:601 memoria/(22551:22575): DISCONNECT!
+[INFO] 17:34:56:409 memoria/(22918:22918): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:34:56:477 memoria/(22918:22918): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 17:34:56:481 memoria/(22918:22918): ------2---------
+
+[INFO] 17:34:56:483 memoria/(22918:22918): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 17:35:00:114 memoria/(22918:22918): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 17:35:00:221 memoria/(22918:22945): HANDSHAKE
+[INFO] 17:35:00:308 memoria/(22918:22945): Alocando size: 15 del carpincho: 0
+[INFO] 17:35:00:311 memoria/(22918:22945): Antes del if de swap
+[INFO] 17:35:00:322 memoria/(22918:22945): El frame es el 0 
+
+[INFO] 17:35:00:329 memoria/(22918:22945): Allocando primer mitad del hmd en 0
+
+[INFO] 17:35:00:331 memoria/(22918:22945): El frame es el 1 
+
+[INFO] 17:35:00:333 memoria/(22918:22945): Allocando segunda mitad del hmd en 1
+
+[INFO] 17:35:00:375 memoria/(22918:22945): Alocando size: 25 del carpincho: 0
+[INFO] 17:35:00:376 memoria/(22918:22945): ---------0 en pagina 0---------
+[INFO] 17:35:00:384 memoria/(22918:22945): ---------0 en pagina 1---------
+[INFO] 17:35:00:390 memoria/(22918:22945): ---------0 en pagina 1---------
+[INFO] 17:35:00:392 memoria/(22918:22945): El frame es el 2 
+
+[INFO] 17:35:00:436 memoria/(22918:22945): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 17:35:00:439 memoria/(22918:22945): ---------0 en pagina 0---------
+[INFO] 17:35:00:442 memoria/(22918:22945): ---------0 en pagina 1---------
+[INFO] 17:35:00:447 memoria/(22918:22945): ---------0 en pagina 1---------
+[INFO] 17:35:00:451 memoria/(22918:22945): ---------0 en pagina 2---------
+[INFO] 17:35:00:453 memoria/(22918:22945): Escribo el nuevo hmd en  24
+[INFO] 17:35:00:454 memoria/(22918:22945): hmd -> prevAlloc : 0 
+[INFO] 17:35:00:455 memoria/(22918:22945): hmd-> nextAlloc : 0 
+[INFO] 17:35:00:456 memoria/(22918:22945): hmd -> isFree : 1 
+[INFO] 17:35:00:459 memoria/(22918:22945): ---------0 en pagina 1---------
+[INFO] 17:35:00:461 memoria/(22918:22945): Escribo el nuevo hmd_next en 58
+[INFO] 17:35:00:462 memoria/(22918:22945): hmd_aux_next -> prevAlloc : 24 
+[INFO] 17:35:00:463 memoria/(22918:22945): hmd_aux_next -> nextAlloc : 0 
+[INFO] 17:35:00:465 memoria/(22918:22945): hmd_aux_next -> isFree : 1 
+[INFO] 17:35:00:466 memoria/(22918:22945): ---------0 en pagina 2---------
+[INFO] 17:35:00:468 memoria/(22918:22945): Se van a sacar : 1 
+[INFO] 17:35:00:469 memoria/(22918:22945): ---------0 en pagina 2---------
+[INFO] 17:35:00:480 memoria/(22918:22945): Se elimino de SWamp
+[INFO] 17:35:00:484 memoria/(22918:22945): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 17:35:00:574 memoria/(22918:22945): DISCONNECT!
+=======
 [INFO] 14:50:54:306 memoria/(5077:5077): CONFIGURACION CARGADA EXITOSAMENTE
 [INFO] 14:50:54:390 memoria/(5077:5077): Cliente conectado en 127.0.0.3:5005 (a Server)
 
@@ -22829,6 +24129,7 @@ Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
 
 --------------------------------------------------
 
+<<<<<<< HEAD
 [INFO] 12:38:00:192 memoria/(21961:21961): CONFIGURACION CARGADA EXITOSAMENTE
 [INFO] 12:38:00:262 memoria/(21961:21961): Cliente conectado en 127.0.0.3:5005 (a Server)
 
@@ -23851,3 +25152,46 @@ Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
 [INFO] 13:55:12:756 memoria/(25384:25384): Cantidad TLB Miss totales: 0
 [INFO] 13:55:12:758 memoria/(25384:25384): Carpincho: 0 - Cantidad Hits: 14
 [INFO] 13:55:12:759 memoria/(25384:25384): Carpincho: 0 - Cantidad Miss: 0
+=======
+>>>>>>> e151f02e34d75d8dffda12274b47b5ed56721087
+>>>>>>> d981e28ae9094d71332212e09befc7769690124b
+[INFO] 13:58:31:881 memoria/(25729:25729): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:58:31:956 memoria/(25729:25729): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:58:31:960 memoria/(25729:25729): ------2---------
+
+[INFO] 13:58:31:968 memoria/(25729:25729): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:58:40:583 memoria/(25729:25729): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:58:40:720 memoria/(25729:25750): HANDSHAKE
+[INFO] 13:58:40:803 memoria/(25729:25750): Alocando size: 15 del carpincho: 0
+[INFO] 13:58:40:813 memoria/(25729:25750): Antes del if de swap
+[INFO] 13:58:40:841 memoria/(25729:25750): El frame es el 0 
+
+[INFO] 13:58:40:873 memoria/(25729:25750): Allocando primer mitad del hmd en 0
+
+[INFO] 13:58:40:900 memoria/(25729:25750): El frame es el 1 
+
+[INFO] 13:58:40:917 memoria/(25729:25750): Allocando segunda mitad del hmd en 1
+
+[INFO] 13:58:40:960 memoria/(25729:25750): Alocando size: 25 del carpincho: 0
+[INFO] 13:58:41:317 memoria/(25729:25750): El frame es el 2 
+
+[INFO] 13:58:41:331 memoria/(25729:25750): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 13:58:41:757 memoria/(25729:25750): Escribo el nuevo hmd en  24
+[INFO] 13:58:41:763 memoria/(25729:25750): hmd -> prevAlloc : 0 
+[INFO] 13:58:41:767 memoria/(25729:25750): hmd-> nextAlloc : 0 
+[INFO] 13:58:41:778 memoria/(25729:25750): hmd -> isFree : 1 
+[INFO] 13:58:41:884 memoria/(25729:25750): Escribo el nuevo hmd_next en 58
+[INFO] 13:58:41:886 memoria/(25729:25750): hmd_aux_next -> prevAlloc : 24 
+[INFO] 13:58:41:887 memoria/(25729:25750): hmd_aux_next -> nextAlloc : 0 
+[INFO] 13:58:41:887 memoria/(25729:25750): hmd_aux_next -> isFree : 1 
+[INFO] 13:58:41:990 memoria/(25729:25750): Se van a sacar : 1 
+[INFO] 13:58:42:101 memoria/(25729:25750): Se elimino de SWamp
+[INFO] 13:58:42:118 memoria/(25729:25750): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 13:58:42:400 memoria/(25729:25750): DISCONNECT!
+[INFO] 13:58:48:783 memoria/(25729:25729): Cantidad TLB Hits totales: 10
+[INFO] 13:58:48:795 memoria/(25729:25729): Cantidad TLB Miss totales: 0
+[INFO] 13:58:48:799 memoria/(25729:25729): Carpincho: 0 - Cantidad Hits: 10
+[INFO] 13:58:48:804 memoria/(25729:25729): Carpincho: 0 - Cantidad Miss: 0

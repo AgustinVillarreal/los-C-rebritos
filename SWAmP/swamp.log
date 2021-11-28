@@ -1,3 +1,467 @@
+[INFO] 15:31:35:662 SWAmP/(9220:9220): Archivo de configuracion cargado correctamente
+[INFO] 15:31:35:720 SWAmP/(9220:9220): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:31:35:727 SWAmP/(9220:9220): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:31:35:735 SWAmP/(9220:9220): ------2---------
+
+[INFO] 15:31:35:737 SWAmP/(9220:9220): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:37:58:043 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:37:58:057 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:37:58:062 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:39:24:031 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:39:33:815 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:39:33:826 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:39:33:829 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:41:50:014 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:41:51:708 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:41:51:722 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:41:51:725 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:44:09:932 SWAmP/(9220:9220): entre en el if
+[INFO] 15:44:09:943 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:44:09:952 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:44:10:055 SWAmP/(9220:9220): entre en el if
+[INFO] 15:44:10:055 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:44:10:056 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:50:09:268 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:50:10:665 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:50:10:674 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:50:10:676 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:50:19:796 SWAmP/(9220:9220): entre en el if
+[INFO] 15:50:19:797 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:50:19:797 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:50:19:907 SWAmP/(9220:9220): entre en el if
+[INFO] 15:50:19:909 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:50:19:910 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:51:51:170 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:51:52:619 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:51:52:629 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:51:52:632 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:51:56:265 SWAmP/(9220:9220): entre en el if
+[INFO] 15:51:56:266 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:51:56:266 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:51:56:375 SWAmP/(9220:9220): entre en el if
+[INFO] 15:51:56:375 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:51:56:375 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:52:51:768 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:52:53:248 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:52:53:257 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:52:53:259 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:52:56:313 SWAmP/(9220:9220): entre en el if
+[INFO] 15:52:56:313 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:52:56:314 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:52:56:423 SWAmP/(9220:9220): entre en el if
+[INFO] 15:52:56:424 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:52:56:424 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:54:10:986 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:54:13:624 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:54:13:634 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:54:13:635 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:54:19:536 SWAmP/(9220:9220): entre en el if
+[INFO] 15:54:19:537 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:54:19:537 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:54:19:647 SWAmP/(9220:9220): entre en el if
+[INFO] 15:54:19:648 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:54:19:649 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:54:45:575 SWAmP/(9220:9220): entre en el if
+[INFO] 15:54:45:575 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:54:45:576 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:54:45:627 SWAmP/(9220:9220): entre en el if
+[INFO] 15:54:45:627 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:54:45:628 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:58:07:164 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:58:08:645 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:58:08:655 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:58:08:657 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:58:11:652 SWAmP/(9220:9220): entre en el if
+[INFO] 15:58:11:652 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:58:11:653 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:58:11:760 SWAmP/(9220:9220): entre en el if
+[INFO] 15:58:11:760 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:58:11:761 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:59:24:837 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 15:59:26:281 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 15:59:26:291 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:59:26:293 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:59:30:828 SWAmP/(9220:9220): entre en el if
+[INFO] 15:59:30:828 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:59:30:829 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 15:59:30:935 SWAmP/(9220:9220): entre en el if
+[INFO] 15:59:30:936 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 15:59:30:936 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 16:05:43:123 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 16:05:44:575 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 16:05:44:584 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 16:05:44:587 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 16:05:53:417 SWAmP/(9220:9220): entre en el if
+[INFO] 16:05:53:417 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 16:05:53:418 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 16:05:53:528 SWAmP/(9220:9220): entre en el if
+[INFO] 16:05:53:528 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 16:05:53:529 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 16:06:30:273 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 16:06:31:812 SWAmP/(9220:9220): Cliente conectado (a SWAmP)
+
+[INFO] 16:06:31:822 SWAmP/(9220:9220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 16:06:31:824 SWAmP/(9220:9220): Se recibio el esquema de asigancion coreectamente
+[INFO] 16:06:34:981 SWAmP/(9220:9220): entre en el if
+[INFO] 16:06:34:982 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 16:06:34:982 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 16:06:35:087 SWAmP/(9220:9220): entre en el if
+[INFO] 16:06:35:089 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 16:06:35:089 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 16:06:35:203 SWAmP/(9220:9220): entre en el if
+[INFO] 16:06:35:203 SWAmP/(9220:9220): Estoy a punto de retornarte una respuesta
+[INFO] 16:06:35:204 SWAmP/(9220:9220): La solicitud se realizo correctamente
+[INFO] 16:32:11:734 SWAmP/(9220:9220): DISCONNECT!
+[INFO] 16:34:37:454 SWAmP/(16291:16291): Archivo de configuracion cargado correctamente
+[INFO] 16:34:37:508 SWAmP/(16291:16291): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 16:34:37:515 SWAmP/(16291:16291): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 16:34:37:522 SWAmP/(16291:16291): ------2---------
+
+[INFO] 16:34:37:525 SWAmP/(16291:16291): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 16:34:40:613 SWAmP/(16291:16291): Cliente conectado (a SWAmP)
+
+[INFO] 16:34:40:624 SWAmP/(16291:16291): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 16:34:40:629 SWAmP/(16291:16291): Se recibio el esquema de asigancion coreectamente
+[INFO] 16:34:52:827 SWAmP/(16291:16291): entre en el if
+[INFO] 16:34:52:834 SWAmP/(16291:16291): Estoy a punto de retornarte una respuesta
+[INFO] 16:34:52:843 SWAmP/(16291:16291): La solicitud se realizo correctamente
+[INFO] 16:34:52:940 SWAmP/(16291:16291): entre en el if
+[INFO] 16:34:52:941 SWAmP/(16291:16291): Estoy a punto de retornarte una respuesta
+[INFO] 16:34:52:943 SWAmP/(16291:16291): La solicitud se realizo correctamente
+[INFO] 16:34:53:055 SWAmP/(16291:16291): entre en el if
+[INFO] 16:34:53:058 SWAmP/(16291:16291): Estoy a punto de retornarte una respuesta
+[INFO] 16:34:53:059 SWAmP/(16291:16291): La solicitud se realizo correctamente
+[INFO] 16:35:53:389 SWAmP/(16291:16291): DISCONNECT!
+[INFO] 16:38:18:901 SWAmP/(16722:16722): Archivo de configuracion cargado correctamente
+[INFO] 16:38:18:956 SWAmP/(16722:16722): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 16:38:18:965 SWAmP/(16722:16722): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 16:38:18:974 SWAmP/(16722:16722): ------2---------
+
+[INFO] 16:38:18:977 SWAmP/(16722:16722): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 16:38:22:642 SWAmP/(16722:16722): Cliente conectado (a SWAmP)
+
+[INFO] 16:38:22:657 SWAmP/(16722:16722): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 16:38:22:660 SWAmP/(16722:16722): Se recibio el esquema de asigancion coreectamente
+[INFO] 16:38:26:794 SWAmP/(16722:16722): Estoy a punto de retornarte una respuesta
+[INFO] 16:38:26:803 SWAmP/(16722:16722): La solicitud se realizo correctamente
+[INFO] 16:38:26:875 SWAmP/(16722:16722): Estoy a punto de retornarte una respuesta
+[INFO] 16:38:26:876 SWAmP/(16722:16722): La solicitud se realizo correctamente
+[ERROR] 16:38:26:960 SWAmP/(16722:16722): No esta el carpincho 0 en swap
+[INFO] 16:38:26:962 SWAmP/(16722:16722): Se elimino los marcos correctamente
+[INFO] 16:40:17:098 SWAmP/(16722:16722): DISCONNECT!
+[INFO] 16:43:51:894 SWAmP/(17290:17290): Archivo de configuracion cargado correctamente
+[INFO] 16:43:51:949 SWAmP/(17290:17290): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 16:43:51:956 SWAmP/(17290:17290): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 16:43:51:964 SWAmP/(17290:17290): ------2---------
+
+[INFO] 16:43:51:966 SWAmP/(17290:17290): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 16:43:55:895 SWAmP/(17290:17290): Cliente conectado (a SWAmP)
+
+[INFO] 16:43:55:906 SWAmP/(17290:17290): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 16:43:55:911 SWAmP/(17290:17290): Se recibio el esquema de asigancion coreectamente
+[INFO] 16:44:05:223 SWAmP/(17290:17290): Estoy a punto de retornarte una respuesta
+[INFO] 16:44:05:231 SWAmP/(17290:17290): La solicitud se realizo correctamente
+[INFO] 16:44:05:331 SWAmP/(17290:17290): Estoy a punto de retornarte una respuesta
+[INFO] 16:44:05:332 SWAmP/(17290:17290): La solicitud se realizo correctamente
+[ERROR] 16:44:05:424 SWAmP/(17290:17290): No esta el carpincho 0 en swap
+[INFO] 16:44:05:426 SWAmP/(17290:17290): Se elimino los marcos correctamente
+[INFO] 16:53:09:338 SWAmP/(17290:17290): DISCONNECT!
+[INFO] 16:53:09:468 SWAmP/(17290:17290): ------------------------
+[INFO] 16:53:09:473 SWAmP/(17290:17290): Para SWAP 0
+[INFO] 16:53:09:481 SWAmP/(17290:17290): ------------------------
+[INFO] 16:53:09:484 SWAmP/(17290:17290): ---------NADA---------
+[INFO] 16:53:09:486 SWAmP/(17290:17290): ------------------------
+[INFO] 16:53:09:487 SWAmP/(17290:17290): Para SWAP 1
+[INFO] 16:53:09:488 SWAmP/(17290:17290): ------------------------
+[INFO] 16:53:09:491 SWAmP/(17290:17290): ---------NADA---------
+[INFO] 16:53:09:495 SWAmP/(17290:17290): Finalizando programa...
+[INFO] 16:53:33:628 SWAmP/(18189:18189): Archivo de configuracion cargado correctamente
+[INFO] 16:53:33:683 SWAmP/(18189:18189): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 16:53:33:690 SWAmP/(18189:18189): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 16:53:33:698 SWAmP/(18189:18189): ------2---------
+
+[INFO] 16:53:33:700 SWAmP/(18189:18189): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 16:53:38:510 SWAmP/(18189:18189): Cliente conectado (a SWAmP)
+
+[INFO] 16:53:38:523 SWAmP/(18189:18189): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 16:53:38:528 SWAmP/(18189:18189): Se recibio el esquema de asigancion coreectamente
+[INFO] 16:53:46:592 SWAmP/(18189:18189): Estoy a punto de retornarte una respuesta
+[INFO] 16:53:46:598 SWAmP/(18189:18189): La solicitud se realizo correctamente
+[INFO] 16:53:46:660 SWAmP/(18189:18189): Estoy a punto de retornarte una respuesta
+[INFO] 16:53:46:661 SWAmP/(18189:18189): La solicitud se realizo correctamente
+[ERROR] 16:53:46:740 SWAmP/(18189:18189): No esta el carpincho 0 en swap
+[INFO] 16:53:46:742 SWAmP/(18189:18189): Se elimino los marcos correctamente
+[INFO] 17:07:25:211 SWAmP/(19404:19404): Archivo de configuracion cargado correctamente
+[INFO] 17:07:25:308 SWAmP/(19404:19404): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:07:25:322 SWAmP/(19404:19404): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:07:25:338 SWAmP/(19404:19404): ------2---------
+
+[INFO] 17:07:25:340 SWAmP/(19404:19404): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:07:29:012 SWAmP/(19404:19404): Cliente conectado (a SWAmP)
+
+[INFO] 17:07:29:039 SWAmP/(19404:19404): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:07:29:041 SWAmP/(19404:19404): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:07:35:885 SWAmP/(19404:19404): Estoy a punto de retornarte una respuesta
+[INFO] 17:07:35:894 SWAmP/(19404:19404): La solicitud se realizo correctamente
+[INFO] 17:07:35:971 SWAmP/(19404:19404): Estoy a punto de retornarte una respuesta
+[INFO] 17:07:35:972 SWAmP/(19404:19404): La solicitud se realizo correctamente
+[ERROR] 17:07:36:082 SWAmP/(19404:19404): No esta el carpincho 0 en swap
+[INFO] 17:07:36:088 SWAmP/(19404:19404): Se elimino los marcos correctamente
+[INFO] 17:17:10:498 SWAmP/(19404:19404): DISCONNECT!
+[INFO] 17:17:10:589 SWAmP/(19404:19404): ------------------------
+[INFO] 17:17:10:591 SWAmP/(19404:19404): Para SWAP 0
+[INFO] 17:17:10:591 SWAmP/(19404:19404): ------------------------
+[INFO] 17:17:10:592 SWAmP/(19404:19404): ---------NADA---------
+[INFO] 17:17:10:593 SWAmP/(19404:19404): ------------------------
+[INFO] 17:17:10:594 SWAmP/(19404:19404): Para SWAP 1
+[INFO] 17:17:10:595 SWAmP/(19404:19404): ------------------------
+[INFO] 17:17:10:596 SWAmP/(19404:19404): ---------NADA---------
+[INFO] 17:17:10:598 SWAmP/(19404:19404): Finalizando programa...
+[INFO] 17:17:27:176 SWAmP/(20385:20385): Archivo de configuracion cargado correctamente
+[INFO] 17:17:27:231 SWAmP/(20385:20385): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:17:27:257 SWAmP/(20385:20385): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:17:27:266 SWAmP/(20385:20385): ------2---------
+
+[INFO] 17:17:27:269 SWAmP/(20385:20385): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:17:30:864 SWAmP/(20385:20385): Cliente conectado (a SWAmP)
+
+[INFO] 17:17:30:877 SWAmP/(20385:20385): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:17:30:883 SWAmP/(20385:20385): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:17:34:700 SWAmP/(20385:20385): Estoy a punto de retornarte una respuesta
+[INFO] 17:17:34:708 SWAmP/(20385:20385): La solicitud se realizo correctamente
+[INFO] 17:17:34:807 SWAmP/(20385:20385): Estoy a punto de retornarte una respuesta
+[INFO] 17:17:34:808 SWAmP/(20385:20385): La solicitud se realizo correctamente
+[ERROR] 17:17:34:888 SWAmP/(20385:20385): No esta el carpincho 0 en swap
+[INFO] 17:17:34:890 SWAmP/(20385:20385): Se elimino los marcos correctamente
+[INFO] 17:23:01:527 SWAmP/(20994:20994): Archivo de configuracion cargado correctamente
+[INFO] 17:23:01:582 SWAmP/(20994:20994): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:23:01:590 SWAmP/(20994:20994): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:23:01:599 SWAmP/(20994:20994): ------2---------
+
+[INFO] 17:23:01:601 SWAmP/(20994:20994): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:23:04:325 SWAmP/(20994:20994): Cliente conectado (a SWAmP)
+
+[INFO] 17:23:04:338 SWAmP/(20994:20994): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:23:04:341 SWAmP/(20994:20994): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:23:08:492 SWAmP/(20994:20994): Estoy a punto de retornarte una respuesta
+[INFO] 17:23:08:498 SWAmP/(20994:20994): La solicitud se realizo correctamente
+[INFO] 17:23:08:595 SWAmP/(20994:20994): Estoy a punto de retornarte una respuesta
+[INFO] 17:23:08:596 SWAmP/(20994:20994): La solicitud se realizo correctamente
+[ERROR] 17:23:08:688 SWAmP/(20994:20994): No esta el carpincho 0 en swap
+[INFO] 17:23:08:690 SWAmP/(20994:20994): ------------------------
+[INFO] 17:23:08:691 SWAmP/(20994:20994): Para SWAP 0
+[INFO] 17:23:08:693 SWAmP/(20994:20994): ------------------------
+[INFO] 17:23:08:694 SWAmP/(20994:20994): ---------NADA---------
+[INFO] 17:23:08:696 SWAmP/(20994:20994): ------------------------
+[INFO] 17:23:08:703 SWAmP/(20994:20994): Para SWAP 1
+[INFO] 17:23:08:708 SWAmP/(20994:20994): ------------------------
+[INFO] 17:23:08:710 SWAmP/(20994:20994): ---------NADA---------
+[INFO] 17:23:08:711 SWAmP/(20994:20994): Se elimino los marcos correctamente
+[INFO] 17:23:55:602 SWAmP/(20994:20994): DISCONNECT!
+[INFO] 17:23:55:606 SWAmP/(20994:20994): Finalizando programa...
+[INFO] 17:24:00:343 SWAmP/(21192:21192): Archivo de configuracion cargado correctamente
+[INFO] 17:24:00:397 SWAmP/(21192:21192): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:24:00:405 SWAmP/(21192:21192): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:24:00:412 SWAmP/(21192:21192): ------2---------
+
+[INFO] 17:24:00:415 SWAmP/(21192:21192): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:24:03:407 SWAmP/(21192:21192): Cliente conectado (a SWAmP)
+
+[INFO] 17:24:03:417 SWAmP/(21192:21192): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:24:03:420 SWAmP/(21192:21192): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:24:10:374 SWAmP/(21192:21192): Estoy a punto de retornarte una respuesta
+[INFO] 17:24:10:383 SWAmP/(21192:21192): La solicitud se realizo correctamente
+[INFO] 17:24:10:479 SWAmP/(21192:21192): Estoy a punto de retornarte una respuesta
+[INFO] 17:24:10:480 SWAmP/(21192:21192): La solicitud se realizo correctamente
+[INFO] 17:24:10:519 SWAmP/(21192:21192): ------------------------
+[INFO] 17:24:10:520 SWAmP/(21192:21192): Para SWAP 0
+[INFO] 17:24:10:521 SWAmP/(21192:21192): ------------------------
+[INFO] 17:24:10:522 SWAmP/(21192:21192): ---------NADA---------
+[INFO] 17:24:10:523 SWAmP/(21192:21192): ------------------------
+[INFO] 17:24:10:524 SWAmP/(21192:21192): Para SWAP 1
+[INFO] 17:24:10:525 SWAmP/(21192:21192): ------------------------
+[INFO] 17:24:10:526 SWAmP/(21192:21192): ---------NADA---------
+[ERROR] 17:24:10:556 SWAmP/(21192:21192): No esta el carpincho 0 en swap
+[INFO] 17:24:10:564 SWAmP/(21192:21192): Se elimino los marcos correctamente
+[INFO] 17:28:15:576 SWAmP/(21192:21192): DISCONNECT!
+[INFO] 17:28:15:578 SWAmP/(21192:21192): Finalizando programa...
+[INFO] 17:28:56:406 SWAmP/(21773:21773): Archivo de configuracion cargado correctamente
+[INFO] 17:28:56:477 SWAmP/(21773:21773): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:28:56:483 SWAmP/(21773:21773): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:28:56:494 SWAmP/(21773:21773): ------2---------
+
+[INFO] 17:28:56:497 SWAmP/(21773:21773): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:28:59:627 SWAmP/(21773:21773): Cliente conectado (a SWAmP)
+
+[INFO] 17:28:59:638 SWAmP/(21773:21773): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:28:59:643 SWAmP/(21773:21773): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:29:03:085 SWAmP/(21773:21773): Estoy a punto de retornarte una respuesta
+[INFO] 17:29:03:095 SWAmP/(21773:21773): La solicitud se realizo correctamente
+[INFO] 17:29:03:096 SWAmP/(21773:21773): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:29:03:097 SWAmP/(21773:21773): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:29:03:099 SWAmP/(21773:21773): DISCONNECT!
+[INFO] 17:29:03:102 SWAmP/(21773:21773): Finalizando programa...
+[INFO] 17:31:39:093 SWAmP/(22139:22139): Archivo de configuracion cargado correctamente
+[INFO] 17:31:39:149 SWAmP/(22139:22139): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:31:39:155 SWAmP/(22139:22139): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:31:39:164 SWAmP/(22139:22139): ------2---------
+
+[INFO] 17:31:39:166 SWAmP/(22139:22139): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:31:51:145 SWAmP/(22323:22323): Archivo de configuracion cargado correctamente
+[INFO] 17:31:51:322 SWAmP/(22323:22323): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:31:51:340 SWAmP/(22323:22323): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:31:51:358 SWAmP/(22323:22323): ------2---------
+
+[INFO] 17:31:51:365 SWAmP/(22323:22323): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:31:52:926 SWAmP/(22323:22323): Cliente conectado (a SWAmP)
+
+[INFO] 17:31:52:937 SWAmP/(22323:22323): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:31:52:942 SWAmP/(22323:22323): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:31:56:364 SWAmP/(22323:22323): Estoy a punto de retornarte una respuesta
+[INFO] 17:31:56:371 SWAmP/(22323:22323): La solicitud se realizo correctamente
+[INFO] 17:31:56:420 SWAmP/(22323:22323): Se allocaron 2 marcos para el carpincho 0 correctamente
+[INFO] 17:31:56:473 SWAmP/(22323:22323): La solicitud se realizo correctamente
+[INFO] 17:31:56:490 SWAmP/(22323:22323): Se allocaron 3 marcos para el carpincho 0 correctamente
+[INFO] 17:31:56:518 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:519 SWAmP/(22323:22323): Para SWAP 0
+[INFO] 17:31:56:520 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:522 SWAmP/(22323:22323): PID: 0
+[INFO] 17:31:56:523 SWAmP/(22323:22323): NRO PAGINA: 0
+[INFO] 17:31:56:524 SWAmP/(22323:22323): INICIO: 0
+[INFO] 17:31:56:526 SWAmP/(22323:22323): NRO SWAP: 0
+[INFO] 17:31:56:527 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:528 SWAmP/(22323:22323): PID: 0
+[INFO] 17:31:56:529 SWAmP/(22323:22323): NRO PAGINA: 1
+[INFO] 17:31:56:530 SWAmP/(22323:22323): INICIO: 64
+[INFO] 17:31:56:530 SWAmP/(22323:22323): NRO SWAP: 0
+[INFO] 17:31:56:537 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:537 SWAmP/(22323:22323): PID: 0
+[INFO] 17:31:56:538 SWAmP/(22323:22323): NRO PAGINA: 2
+[INFO] 17:31:56:538 SWAmP/(22323:22323): INICIO: 128
+[INFO] 17:31:56:539 SWAmP/(22323:22323): NRO SWAP: 0
+[INFO] 17:31:56:543 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:544 SWAmP/(22323:22323): PID: 0
+[INFO] 17:31:56:544 SWAmP/(22323:22323): NRO PAGINA: 3
+[INFO] 17:31:56:545 SWAmP/(22323:22323): INICIO: 192
+[INFO] 17:31:56:545 SWAmP/(22323:22323): NRO SWAP: 0
+[INFO] 17:31:56:546 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:547 SWAmP/(22323:22323): PID: 0
+[INFO] 17:31:56:551 SWAmP/(22323:22323): NRO PAGINA: 4
+[INFO] 17:31:56:551 SWAmP/(22323:22323): INICIO: 256
+[INFO] 17:31:56:552 SWAmP/(22323:22323): NRO SWAP: 0
+[INFO] 17:31:56:553 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:553 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:554 SWAmP/(22323:22323): Para SWAP 1
+[INFO] 17:31:56:554 SWAmP/(22323:22323): ------------------------
+[INFO] 17:31:56:555 SWAmP/(22323:22323): ---------NADA---------
+[INFO] 17:31:56:564 SWAmP/(22323:22323): El tamanio de aux es 5 y la ultima pos es 4
+[INFO] 17:31:56:567 SWAmP/(22323:22323): 0
+[INFO] 17:31:56:574 SWAmP/(22323:22323): Se elimino los marcos correctamente
+[INFO] 17:34:49:575 SWAmP/(22323:22323): DISCONNECT!
+[INFO] 17:34:49:577 SWAmP/(22323:22323): Finalizando programa...
+[INFO] 17:34:53:514 SWAmP/(22874:22874): Archivo de configuracion cargado correctamente
+[INFO] 17:34:53:569 SWAmP/(22874:22874): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 17:34:53:575 SWAmP/(22874:22874): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 17:34:53:583 SWAmP/(22874:22874): ------2---------
+
+[INFO] 17:34:53:586 SWAmP/(22874:22874): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 17:34:56:474 SWAmP/(22874:22874): Cliente conectado (a SWAmP)
+
+[INFO] 17:34:56:486 SWAmP/(22874:22874): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 17:34:56:492 SWAmP/(22874:22874): Se recibio el esquema de asigancion coreectamente
+[INFO] 17:35:00:317 SWAmP/(22874:22874): Estoy a punto de retornarte una respuesta
+[INFO] 17:35:00:327 SWAmP/(22874:22874): La solicitud se realizo correctamente
+[INFO] 17:35:00:365 SWAmP/(22874:22874): Se allocaron 2 marcos para el carpincho 0 correctamente
+[INFO] 17:35:00:429 SWAmP/(22874:22874): La solicitud se realizo correctamente
+[INFO] 17:35:00:450 SWAmP/(22874:22874): Se allocaron 3 marcos para el carpincho 0 correctamente
+[INFO] 17:35:00:473 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:474 SWAmP/(22874:22874): Para SWAP 0
+[INFO] 17:35:00:475 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:477 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:478 SWAmP/(22874:22874): NRO PAGINA: 0
+[INFO] 17:35:00:479 SWAmP/(22874:22874): INICIO: 0
+[INFO] 17:35:00:481 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:482 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:483 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:484 SWAmP/(22874:22874): NRO PAGINA: 1
+[INFO] 17:35:00:485 SWAmP/(22874:22874): INICIO: 32
+[INFO] 17:35:00:492 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:492 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:494 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:494 SWAmP/(22874:22874): NRO PAGINA: 2
+[INFO] 17:35:00:495 SWAmP/(22874:22874): INICIO: 64
+[INFO] 17:35:00:499 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:501 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:501 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:503 SWAmP/(22874:22874): NRO PAGINA: 3
+[INFO] 17:35:00:503 SWAmP/(22874:22874): INICIO: 96
+[INFO] 17:35:00:504 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:504 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:505 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:508 SWAmP/(22874:22874): NRO PAGINA: 4
+[INFO] 17:35:00:508 SWAmP/(22874:22874): INICIO: 128
+[INFO] 17:35:00:509 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:509 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:510 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:511 SWAmP/(22874:22874): Para SWAP 1
+[INFO] 17:35:00:511 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:512 SWAmP/(22874:22874): ---------NADA---------
+[INFO] 17:35:00:522 SWAmP/(22874:22874): El tamanio de aux es 5 y la ultima pos es 4
+[INFO] 17:35:00:524 SWAmP/(22874:22874): 0
+[INFO] 17:35:00:531 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:536 SWAmP/(22874:22874): Para SWAP 0
+[INFO] 17:35:00:536 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:538 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:539 SWAmP/(22874:22874): NRO PAGINA: 0
+[INFO] 17:35:00:539 SWAmP/(22874:22874): INICIO: 0
+[INFO] 17:35:00:540 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:541 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:542 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:543 SWAmP/(22874:22874): NRO PAGINA: 1
+[INFO] 17:35:00:543 SWAmP/(22874:22874): INICIO: 32
+[INFO] 17:35:00:544 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:547 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:547 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:548 SWAmP/(22874:22874): NRO PAGINA: 2
+[INFO] 17:35:00:548 SWAmP/(22874:22874): INICIO: 64
+[INFO] 17:35:00:552 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:553 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:553 SWAmP/(22874:22874): PID: 0
+[INFO] 17:35:00:554 SWAmP/(22874:22874): NRO PAGINA: 3
+[INFO] 17:35:00:554 SWAmP/(22874:22874): INICIO: 96
+[INFO] 17:35:00:555 SWAmP/(22874:22874): NRO SWAP: 0
+[INFO] 17:35:00:555 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:559 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:560 SWAmP/(22874:22874): Para SWAP 1
+[INFO] 17:35:00:560 SWAmP/(22874:22874): ------------------------
+[INFO] 17:35:00:561 SWAmP/(22874:22874): ---------NADA---------
+[INFO] 17:35:00:561 SWAmP/(22874:22874): Se elimino los marcos correctamente
+[INFO] 17:37:14:566 SWAmP/(22874:22874): DISCONNECT!
+[INFO] 17:37:14:568 SWAmP/(22874:22874): Finalizando programa...
+
 [INFO] 14:50:44:300 SWAmP/(4997:4997): Archivo de configuracion cargado correctamente
 [INFO] 14:50:44:369 SWAmP/(4997:4997): Creando archivos SWAP en <</home/utnso/swap1.bin>>
 [INFO] 14:50:44:379 SWAmP/(4997:4997): Creando archivos SWAP en <</home/utnso/swap2.bin>>
@@ -609,6 +1073,7 @@
 [INFO] 20:39:02:613 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
 [INFO] 20:39:02:613 SWAmP/(7663:7663): La solicitud se realizo correctamente
 [INFO] 20:39:09:270 SWAmP/(7663:7663): DISCONNECT!
+
 [INFO] 12:38:00:260 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
 
 [INFO] 12:38:00:274 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
@@ -953,3 +1418,84 @@
 [INFO] 13:53:55:202 SWAmP/(7663:7663): entre en el if
 [INFO] 13:53:55:202 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
 [INFO] 13:53:55:202 SWAmP/(7663:7663): La solicitud se realizo correctamente
+>>>>>>> d981e28ae9094d71332212e09befc7769690124b
+[INFO] 13:58:27:793 SWAmP/(25639:25639): Archivo de configuracion cargado correctamente
+[INFO] 13:58:27:857 SWAmP/(25639:25639): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 13:58:27:865 SWAmP/(25639:25639): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 13:58:27:874 SWAmP/(25639:25639): ------2---------
+
+[INFO] 13:58:27:876 SWAmP/(25639:25639): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 13:58:31:954 SWAmP/(25639:25639): Cliente conectado (a SWAmP)
+
+[INFO] 13:58:31:978 SWAmP/(25639:25639): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:58:31:991 SWAmP/(25639:25639): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:58:40:821 SWAmP/(25639:25639): Estoy a punto de retornarte una respuesta
+[INFO] 13:58:40:863 SWAmP/(25639:25639): La solicitud se realizo correctamente
+[INFO] 13:58:40:939 SWAmP/(25639:25639): Se allocaron 2 marcos para el carpincho 0 correctamente
+[INFO] 13:58:41:253 SWAmP/(25639:25639): La solicitud se realizo correctamente
+[INFO] 13:58:41:287 SWAmP/(25639:25639): Se allocaron 3 marcos para el carpincho 0 correctamente
+[INFO] 13:58:42:097 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:099 SWAmP/(25639:25639): Para SWAP 0
+[INFO] 13:58:42:100 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:102 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:119 SWAmP/(25639:25639): NRO PAGINA: 0
+[INFO] 13:58:42:120 SWAmP/(25639:25639): INICIO: 0
+[INFO] 13:58:42:126 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:143 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:148 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:150 SWAmP/(25639:25639): NRO PAGINA: 1
+[INFO] 13:58:42:153 SWAmP/(25639:25639): INICIO: 32
+[INFO] 13:58:42:153 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:162 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:179 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:179 SWAmP/(25639:25639): NRO PAGINA: 2
+[INFO] 13:58:42:179 SWAmP/(25639:25639): INICIO: 64
+[INFO] 13:58:42:180 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:181 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:181 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:181 SWAmP/(25639:25639): NRO PAGINA: 3
+[INFO] 13:58:42:190 SWAmP/(25639:25639): INICIO: 96
+[INFO] 13:58:42:200 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:200 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:201 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:201 SWAmP/(25639:25639): NRO PAGINA: 4
+[INFO] 13:58:42:202 SWAmP/(25639:25639): INICIO: 128
+[INFO] 13:58:42:202 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:203 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:204 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:208 SWAmP/(25639:25639): Para SWAP 1
+[INFO] 13:58:42:209 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:211 SWAmP/(25639:25639): ---------NADA---------
+[INFO] 13:58:42:225 SWAmP/(25639:25639): El tamanio de aux es 5 y la ultima pos es 4
+[INFO] 13:58:42:249 SWAmP/(25639:25639): 0
+[INFO] 13:58:42:303 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:307 SWAmP/(25639:25639): Para SWAP 0
+[INFO] 13:58:42:310 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:315 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:325 SWAmP/(25639:25639): NRO PAGINA: 0
+[INFO] 13:58:42:325 SWAmP/(25639:25639): INICIO: 0
+[INFO] 13:58:42:326 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:327 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:328 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:328 SWAmP/(25639:25639): NRO PAGINA: 1
+[INFO] 13:58:42:330 SWAmP/(25639:25639): INICIO: 32
+[INFO] 13:58:42:333 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:333 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:334 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:334 SWAmP/(25639:25639): NRO PAGINA: 2
+[INFO] 13:58:42:335 SWAmP/(25639:25639): INICIO: 64
+[INFO] 13:58:42:335 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:336 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:337 SWAmP/(25639:25639): PID: 0
+[INFO] 13:58:42:338 SWAmP/(25639:25639): NRO PAGINA: 3
+[INFO] 13:58:42:338 SWAmP/(25639:25639): INICIO: 96
+[INFO] 13:58:42:340 SWAmP/(25639:25639): NRO SWAP: 0
+[INFO] 13:58:42:341 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:342 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:343 SWAmP/(25639:25639): Para SWAP 1
+[INFO] 13:58:42:344 SWAmP/(25639:25639): ------------------------
+[INFO] 13:58:42:345 SWAmP/(25639:25639): ---------NADA---------
+[INFO] 13:58:42:345 SWAmP/(25639:25639): Se elimino los marcos correctamente
+[INFO] 13:58:48:873 SWAmP/(25639:25639): DISCONNECT!
+[INFO] 13:58:48:875 SWAmP/(25639:25639): Finalizando programa...

@@ -132,8 +132,7 @@ uint32_t cant_paginas_relativa(uint32_t posicion, size_t size){
 
 void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size){
   //leer de memoria principal
-  actualizar_bits(entrada_tp, false);  
-  log_info(logger, "size_ %d", size);
+  actualizar_bits(entrada_tp, false);
   pthread_mutex_lock(&MUTEX_MP_BUSY);
   memcpy(destino, (void*) (memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA + offset), size);
   pthread_mutex_unlock(&MUTEX_MP_BUSY);

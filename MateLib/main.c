@@ -94,20 +94,13 @@ int main(int argc, char *argv[])
   printf("2 --%s--\n", buff3);
   free(buff3);
   */
-  printf("4 %d\n",mate_memalloc(&mate_ref, 13));  
-  printf("5 %d\n",mate_memalloc(&mate_ref, 1));
-  printf("6 %d\n",mate_memalloc(&mate_ref, 24));
-  printf("7 %d\n",mate_memalloc(&mate_ref, 8));
-  printf("8 %d\n",mate_memalloc(&mate_ref, 4));
-  printf("9 %d\n",mate_memalloc(&mate_ref, 81));
+  printf("4 %d\n",mate_memalloc(&mate_ref, 15));  
+  printf("5 %d\n",mate_memalloc(&mate_ref, 25));
 
 
 
-
-  // printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
-  // printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,91));
-  /*
-  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,121));
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,33));/*
+  printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));/*
   printf(" aaaaaaaa %d\n",mate_memfree(&mate_ref,9));
   printf("9 %d\n",mate_memalloc(&mate_ref, 200));
 

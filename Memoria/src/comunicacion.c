@@ -109,7 +109,7 @@ static void procesar_conexion(void* void_args){
 
                 log_info(logger, "Liberando direccion logica: %d del carpincho: %lu", direccion_logica, id_carpincho);
 
-                uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica); 
+                uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica,swap_fd); 
 
                 
 

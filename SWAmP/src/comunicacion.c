@@ -3,6 +3,7 @@
 
 extern t_log* logger;
 extern t_config_swamp* cfg;
+extern t_list* tablas_de_frames_swap;
 
 
 #define STR(_) #_
@@ -12,6 +13,58 @@ typedef struct {
     char* server_name;
 } t_procesar_conexion_args;
 
+
+//BORRAR
+
+void mostrar_tabla_swap(t_list* tabla){
+
+  bool filtrar_x_swap0(frame_swap_t* frame){
+    return frame->nro_swap == 0;
+  }
+  bool filtrar_x_swap1(frame_swap_t* frame){
+    return frame->nro_swap == 1;
+  }
+  
+  t_list* aux1 = list_filter(tabla,(void*)filtrar_x_swap0);
+  t_list* aux2 = list_filter(tabla,(void*)filtrar_x_swap1);
+
+  log_info(logger,"------------------------");
+  log_info(logger,"Para SWAP 0");
+  log_info(logger,"------------------------");
+
+  if(list_size(aux1) == 0){
+    log_info(logger,"---------NADA---------");
+  }
+
+  for(int i = 0 ; i < list_size(aux1) ; i++){
+    frame_swap_t* frame = list_get(aux1,i);
+    log_info(logger,"PID: %d",frame->pid);
+    log_info(logger,"NRO PAGINA: %d",frame->nro_pagina);
+    log_info(logger,"INICIO: %d",frame->inicio);
+    log_info(logger,"NRO SWAP: %d",frame->nro_swap);
+    log_info(logger,"------------------------");
+  }
+    log_info(logger,"------------------------");
+    log_info(logger,"Para SWAP 1");
+    log_info(logger,"------------------------");
+
+    if(list_size(aux2) == 0){
+      log_info(logger,"---------NADA---------");
+    }
+
+    for(int i = 0 ; i < list_size(aux2) ; i++){
+    frame_swap_t* frame = list_get(aux2,i);
+    log_info(logger,"PID: %d",frame->pid);
+    log_info(logger,"NRO PAGINA: %d",frame->nro_pagina);
+    log_info(logger,"INICIO: %d",frame->inicio);
+    log_info(logger,"NRO SWAP: %d",frame->nro_swap);
+    log_info(logger,"------------------------");
+  }
+
+  list_destroy(aux1);
+  list_destroy(aux2);
+
+}
 
 /* Procesa los mensajes que le manda la MEMORIA */
 
@@ -118,7 +171,6 @@ static void procesar_conexion(void* void_args) {
                 uint32_t cant_paginas;
 
                 if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id, &cant_paginas)) {
-                    log_info(logger, "entre en el if");
                     bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
                     send_ack(cliente_socket,respuesta);
                     log_info(logger,"La solicitud se realizo correctamente");
@@ -133,11 +185,12 @@ static void procesar_conexion(void* void_args) {
             {
                 unsigned long carpincho_id;
                 uint32_t cant_paginas;
+                mostrar_tabla_swap(tablas_de_frames_swap);
 
                 if (recv_solicitud_liberar_marcos(cliente_socket, &carpincho_id, &cant_paginas)) {
-                    log_info(logger, "entre en el if");
                     liberar_marcos(cliente_socket,carpincho_id,cant_paginas);
                     send_ack(cliente_socket,true);
+                    mostrar_tabla_swap(tablas_de_frames_swap);
                     log_info(logger,"Se elimino los marcos correctamente");
                 }
                 else {

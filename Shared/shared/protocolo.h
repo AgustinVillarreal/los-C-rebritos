@@ -90,6 +90,8 @@ bool send_finalizar_carpincho(int fd, unsigned long id);
 
 bool entra_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int fd_swamp);
 
+bool quitar_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, int fd_swamp);
+
 
 //SWAMP
 
