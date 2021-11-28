@@ -3,6 +3,8 @@
 
 #include "config.h"
 #include "estructuras.h"
+#include <commons/txt.h>
+#include <commons/temporal.h>
 
 
 void imprimir_metricas_TLB();

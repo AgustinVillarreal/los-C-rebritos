@@ -1,0 +1,9 @@
+
+--------------------------------------------------
+Dump: 28/11/21 13:46:49
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------

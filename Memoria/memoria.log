@@ -22829,3 +22829,1025 @@ Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
 
 --------------------------------------------------
 
+[INFO] 12:38:00:192 memoria/(21961:21961): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:38:00:262 memoria/(21961:21961): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 12:38:00:270 memoria/(21961:21961): ------2---------
+
+[INFO] 12:38:00:272 memoria/(21961:21961): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 12:38:03:746 memoria/(21961:21961): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 12:38:03:854 memoria/(21961:21982): HANDSHAKE
+[INFO] 12:38:03:920 memoria/(21961:21982): Alocando size: 13 del carpincho: 0
+[INFO] 12:38:03:923 memoria/(21961:21982): Antes del if de swap
+[INFO] 12:38:03:929 memoria/(21961:21982): El frame es el 0 
+
+[INFO] 12:38:03:936 memoria/(21961:21982): Allocando todo el hmd en 0
+
+[INFO] 12:38:03:978 memoria/(21961:21982): Alocando size: 1 del carpincho: 0
+[INFO] 12:38:04:087 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:093 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:146 memoria/(21961:21982): El frame es el 1 
+
+[INFO] 12:38:04:150 memoria/(21961:21982): Alocando size: 24 del carpincho: 0
+[INFO] 12:38:04:253 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:255 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:359 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:400 memoria/(21961:21982): El frame es el 2 
+
+[INFO] 12:38:04:403 memoria/(21961:21982): Alocando size: 8 del carpincho: 0
+[INFO] 12:38:04:505 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:508 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:612 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:717 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:721 memoria/(21961:21982): Alocando size: 4 del carpincho: 0
+[INFO] 12:38:04:824 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:825 memoria/(21961:21982): size_ 9
+[INFO] 12:38:04:927 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:029 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:030 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:075 memoria/(21961:21982): El frame es el 3 
+
+[INFO] 12:38:05:077 memoria/(21961:21982): Alocando size: 81 del carpincho: 0
+[INFO] 12:38:05:178 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:179 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:281 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:382 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:382 memoria/(21961:21982): size_ 9
+[INFO] 12:38:05:382 memoria/(21961:21982): size_ 1
+[INFO] 12:38:05:485 memoria/(21961:21982): size_ 8
+[INFO] 12:38:05:631 memoria/(21961:21982): El frame es el 4 
+
+[INFO] 12:38:05:650 memoria/(21961:21982): El frame es el 5 
+
+[INFO] 12:38:05:656 memoria/(21961:21982): El frame es el 6 
+
+[INFO] 12:38:05:723 memoria/(21961:21982): DISCONNECT!
+[INFO] 12:38:16:712 memoria/(21961:21961): DATA: 
+--------------------------------------------------
+Dump: 28/11/21 12:38:16
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:05:38:117 memoria/(22741:22741): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:05:38:220 memoria/(22741:22741): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:05:38:227 memoria/(22741:22741): ------2---------
+
+[INFO] 13:05:38:232 memoria/(22741:22741): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:05:40:745 memoria/(22741:22741): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:05:40:851 memoria/(22741:22763): HANDSHAKE
+[INFO] 13:05:40:933 memoria/(22741:22763): Alocando size: 13 del carpincho: 0
+[INFO] 13:05:40:936 memoria/(22741:22763): Antes del if de swap
+[INFO] 13:05:40:943 memoria/(22741:22763): El frame es el 0 
+
+[INFO] 13:05:40:954 memoria/(22741:22763): Allocando todo el hmd en 0
+
+[INFO] 13:05:40:991 memoria/(22741:22763): Alocando size: 1 del carpincho: 0
+[INFO] 13:05:41:097 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:104 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:152 memoria/(22741:22763): El frame es el 1 
+
+[INFO] 13:05:41:169 memoria/(22741:22763): Alocando size: 24 del carpincho: 0
+[INFO] 13:05:41:274 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:274 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:378 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:420 memoria/(22741:22763): El frame es el 2 
+
+[INFO] 13:05:41:423 memoria/(22741:22763): Alocando size: 8 del carpincho: 0
+[INFO] 13:05:41:525 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:527 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:629 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:731 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:735 memoria/(22741:22763): Alocando size: 4 del carpincho: 0
+[INFO] 13:05:41:836 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:837 memoria/(22741:22763): size_ 9
+[INFO] 13:05:41:938 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:039 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:039 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:080 memoria/(22741:22763): El frame es el 3 
+
+[INFO] 13:05:42:084 memoria/(22741:22763): Alocando size: 81 del carpincho: 0
+[INFO] 13:05:42:187 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:199 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:302 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:406 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:409 memoria/(22741:22763): size_ 9
+[INFO] 13:05:42:413 memoria/(22741:22763): size_ 1
+[INFO] 13:05:42:523 memoria/(22741:22763): size_ 8
+[INFO] 13:05:42:674 memoria/(22741:22763): El frame es el 4 
+
+[INFO] 13:05:42:682 memoria/(22741:22763): El frame es el 5 
+
+[INFO] 13:05:42:702 memoria/(22741:22763): El frame es el 6 
+
+[INFO] 13:05:42:772 memoria/(22741:22763): DISCONNECT!
+[INFO] 13:05:46:970 memoria/(22741:22741): DATA: 
+--------------------------------------------------
+Dump: 28/11/21 13:05:46
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:06:50:170 memoria/(22843:22843): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:06:50:279 memoria/(22843:22843): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:06:50:283 memoria/(22843:22843): ------2---------
+
+[INFO] 13:06:50:286 memoria/(22843:22843): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:06:52:676 memoria/(22843:22843): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:06:52:783 memoria/(22843:22864): HANDSHAKE
+[INFO] 13:06:52:868 memoria/(22843:22864): Alocando size: 13 del carpincho: 0
+[INFO] 13:06:52:872 memoria/(22843:22864): Antes del if de swap
+[INFO] 13:06:52:881 memoria/(22843:22864): El frame es el 0 
+
+[INFO] 13:06:52:890 memoria/(22843:22864): Allocando todo el hmd en 0
+
+[INFO] 13:06:52:895 memoria/(22843:22864): Alocando size: 1 del carpincho: 0
+[INFO] 13:06:53:007 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:017 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:053 memoria/(22843:22864): El frame es el 1 
+
+[INFO] 13:06:53:057 memoria/(22843:22864): Alocando size: 24 del carpincho: 0
+[INFO] 13:06:53:159 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:160 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:263 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:304 memoria/(22843:22864): El frame es el 2 
+
+[INFO] 13:06:53:311 memoria/(22843:22864): Alocando size: 8 del carpincho: 0
+[INFO] 13:06:53:413 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:415 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:521 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:623 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:627 memoria/(22843:22864): Alocando size: 4 del carpincho: 0
+[INFO] 13:06:53:729 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:730 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:831 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:932 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:933 memoria/(22843:22864): size_ 9
+[INFO] 13:06:53:971 memoria/(22843:22864): El frame es el 3 
+
+[INFO] 13:06:53:975 memoria/(22843:22864): Alocando size: 81 del carpincho: 0
+[INFO] 13:06:54:077 memoria/(22843:22864): size_ 9
+[INFO] 13:06:54:079 memoria/(22843:22864): size_ 9
+[INFO] 13:06:54:181 memoria/(22843:22864): size_ 9
+[INFO] 13:06:54:283 memoria/(22843:22864): size_ 9
+[INFO] 13:06:54:283 memoria/(22843:22864): size_ 9
+[INFO] 13:06:54:284 memoria/(22843:22864): size_ 1
+[INFO] 13:06:54:387 memoria/(22843:22864): size_ 8
+[INFO] 13:06:54:530 memoria/(22843:22864): El frame es el 4 
+
+[INFO] 13:06:54:540 memoria/(22843:22864): El frame es el 5 
+
+[INFO] 13:06:54:545 memoria/(22843:22864): El frame es el 6 
+
+[INFO] 13:06:54:612 memoria/(22843:22864): DISCONNECT!
+[INFO] 13:06:58:225 memoria/(22843:22843): DATA: 
+--------------------------------------------------
+Dump: 28/11/21 13:06:58
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:07:38:416 memoria/(22942:22942): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:07:38:499 memoria/(22942:22942): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:07:38:504 memoria/(22942:22942): ------2---------
+
+[INFO] 13:07:38:506 memoria/(22942:22942): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:07:42:097 memoria/(22942:22942): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:07:42:476 memoria/(22942:22963): HANDSHAKE
+[INFO] 13:07:42:540 memoria/(22942:22963): Alocando size: 13 del carpincho: 0
+[INFO] 13:07:42:543 memoria/(22942:22963): Antes del if de swap
+[INFO] 13:07:42:560 memoria/(22942:22963): El frame es el 0 
+
+[INFO] 13:07:42:595 memoria/(22942:22963): Allocando todo el hmd en 0
+
+[INFO] 13:07:42:601 memoria/(22942:22963): Alocando size: 1 del carpincho: 0
+[INFO] 13:07:42:726 memoria/(22942:22963): size_ 9
+[INFO] 13:07:42:738 memoria/(22942:22963): size_ 9
+[INFO] 13:07:42:789 memoria/(22942:22963): El frame es el 1 
+
+[INFO] 13:07:42:794 memoria/(22942:22963): Alocando size: 24 del carpincho: 0
+[INFO] 13:07:42:900 memoria/(22942:22963): size_ 9
+[INFO] 13:07:42:902 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:006 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:050 memoria/(22942:22963): El frame es el 2 
+
+[INFO] 13:07:43:055 memoria/(22942:22963): Alocando size: 8 del carpincho: 0
+[INFO] 13:07:43:162 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:163 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:265 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:366 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:370 memoria/(22942:22963): Alocando size: 4 del carpincho: 0
+[INFO] 13:07:43:472 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:473 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:574 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:675 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:677 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:728 memoria/(22942:22963): El frame es el 3 
+
+[INFO] 13:07:43:753 memoria/(22942:22963): Alocando size: 81 del carpincho: 0
+[INFO] 13:07:43:862 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:863 memoria/(22942:22963): size_ 9
+[INFO] 13:07:43:967 memoria/(22942:22963): size_ 9
+[INFO] 13:07:44:071 memoria/(22942:22963): size_ 9
+[INFO] 13:07:44:076 memoria/(22942:22963): size_ 9
+[INFO] 13:07:44:079 memoria/(22942:22963): size_ 1
+[INFO] 13:07:44:192 memoria/(22942:22963): size_ 8
+[INFO] 13:07:44:334 memoria/(22942:22963): El frame es el 4 
+
+[INFO] 13:07:44:345 memoria/(22942:22963): El frame es el 5 
+
+[INFO] 13:07:44:350 memoria/(22942:22963): El frame es el 6 
+
+[INFO] 13:07:44:415 memoria/(22942:22963): DISCONNECT!
+[INFO] 13:07:47:850 memoria/(22942:22942): DATA: (null)
+[INFO] 13:08:52:598 memoria/(23070:23070): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:08:52:687 memoria/(23070:23070): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:08:52:691 memoria/(23070:23070): ------2---------
+
+[INFO] 13:08:52:695 memoria/(23070:23070): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:08:54:556 memoria/(23070:23070): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:08:54:804 memoria/(23070:23091): HANDSHAKE
+[INFO] 13:08:54:885 memoria/(23070:23091): Alocando size: 13 del carpincho: 0
+[INFO] 13:08:54:892 memoria/(23070:23091): Antes del if de swap
+[INFO] 13:08:54:910 memoria/(23070:23091): El frame es el 0 
+
+[INFO] 13:08:54:942 memoria/(23070:23091): Allocando todo el hmd en 0
+
+[INFO] 13:08:54:959 memoria/(23070:23091): Alocando size: 1 del carpincho: 0
+[INFO] 13:08:55:078 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:087 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:131 memoria/(23070:23091): El frame es el 1 
+
+[INFO] 13:08:55:135 memoria/(23070:23091): Alocando size: 24 del carpincho: 0
+[INFO] 13:08:55:242 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:243 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:345 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:383 memoria/(23070:23091): El frame es el 2 
+
+[INFO] 13:08:55:386 memoria/(23070:23091): Alocando size: 8 del carpincho: 0
+[INFO] 13:08:55:489 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:491 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:593 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:694 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:698 memoria/(23070:23091): Alocando size: 4 del carpincho: 0
+[INFO] 13:08:55:800 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:801 memoria/(23070:23091): size_ 9
+[INFO] 13:08:55:902 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:003 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:004 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:044 memoria/(23070:23091): El frame es el 3 
+
+[INFO] 13:08:56:046 memoria/(23070:23091): Alocando size: 81 del carpincho: 0
+[INFO] 13:08:56:147 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:148 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:255 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:356 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:356 memoria/(23070:23091): size_ 9
+[INFO] 13:08:56:357 memoria/(23070:23091): size_ 1
+[INFO] 13:08:56:459 memoria/(23070:23091): size_ 8
+[INFO] 13:08:56:601 memoria/(23070:23091): El frame es el 4 
+
+[INFO] 13:08:56:608 memoria/(23070:23091): El frame es el 5 
+
+[INFO] 13:08:56:611 memoria/(23070:23091): El frame es el 6 
+
+[INFO] 13:08:56:676 memoria/(23070:23091): DISCONNECT!
+[INFO] 13:09:01:589 memoria/(23070:23070): DATA: 
+--------------------------------------------------
+Dump: 28/11/21 13:09:01
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:12:13:323 memoria/(23190:23190): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:12:13:404 memoria/(23190:23190): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:12:13:414 memoria/(23190:23190): ------2---------
+
+[INFO] 13:12:13:419 memoria/(23190:23190): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:12:17:932 memoria/(23190:23190): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:12:18:058 memoria/(23190:23213): HANDSHAKE
+[INFO] 13:12:18:139 memoria/(23190:23213): Alocando size: 13 del carpincho: 0
+[INFO] 13:12:18:143 memoria/(23190:23213): Antes del if de swap
+[INFO] 13:12:18:152 memoria/(23190:23213): El frame es el 0 
+
+[INFO] 13:12:18:164 memoria/(23190:23213): Allocando todo el hmd en 0
+
+[INFO] 13:12:18:169 memoria/(23190:23213): Alocando size: 1 del carpincho: 0
+[INFO] 13:12:18:287 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:297 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:351 memoria/(23190:23213): El frame es el 1 
+
+[INFO] 13:12:18:358 memoria/(23190:23213): Alocando size: 24 del carpincho: 0
+[INFO] 13:12:18:461 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:462 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:565 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:607 memoria/(23190:23213): El frame es el 2 
+
+[INFO] 13:12:18:611 memoria/(23190:23213): Alocando size: 8 del carpincho: 0
+[INFO] 13:12:18:714 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:715 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:816 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:918 memoria/(23190:23213): size_ 9
+[INFO] 13:12:18:925 memoria/(23190:23213): Alocando size: 4 del carpincho: 0
+[INFO] 13:12:19:029 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:033 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:138 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:239 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:240 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:280 memoria/(23190:23213): El frame es el 3 
+
+[INFO] 13:12:19:282 memoria/(23190:23213): Alocando size: 81 del carpincho: 0
+[INFO] 13:12:19:384 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:385 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:486 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:587 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:589 memoria/(23190:23213): size_ 9
+[INFO] 13:12:19:591 memoria/(23190:23213): size_ 1
+[INFO] 13:12:19:697 memoria/(23190:23213): size_ 8
+[INFO] 13:12:19:839 memoria/(23190:23213): El frame es el 4 
+
+[INFO] 13:12:19:849 memoria/(23190:23213): El frame es el 5 
+
+[INFO] 13:12:19:852 memoria/(23190:23213): El frame es el 6 
+
+[INFO] 13:12:19:909 memoria/(23190:23213): DISCONNECT!
+[INFO] 13:12:25:740 memoria/(23190:23190): DATA: 
+--------------------------------------------------
+Dump: 28/11/21 13:12:25
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:16:29:792 memoria/(23406:23406): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:16:29:911 memoria/(23406:23406): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:16:29:917 memoria/(23406:23406): ------2---------
+
+[INFO] 13:16:29:922 memoria/(23406:23406): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:16:32:021 memoria/(23406:23406): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:16:32:135 memoria/(23406:23427): HANDSHAKE
+[INFO] 13:16:32:199 memoria/(23406:23427): Alocando size: 13 del carpincho: 0
+[INFO] 13:16:32:201 memoria/(23406:23427): Antes del if de swap
+[INFO] 13:16:32:205 memoria/(23406:23427): El frame es el 0 
+
+[INFO] 13:16:32:212 memoria/(23406:23427): Allocando todo el hmd en 0
+
+[INFO] 13:16:32:246 memoria/(23406:23427): Alocando size: 1 del carpincho: 0
+[INFO] 13:16:32:353 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:355 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:397 memoria/(23406:23427): El frame es el 1 
+
+[INFO] 13:16:32:402 memoria/(23406:23427): Alocando size: 24 del carpincho: 0
+[INFO] 13:16:32:504 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:506 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:609 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:649 memoria/(23406:23427): El frame es el 2 
+
+[INFO] 13:16:32:651 memoria/(23406:23427): Alocando size: 8 del carpincho: 0
+[INFO] 13:16:32:753 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:755 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:856 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:958 memoria/(23406:23427): size_ 9
+[INFO] 13:16:32:975 memoria/(23406:23427): Alocando size: 4 del carpincho: 0
+[INFO] 13:16:33:077 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:081 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:184 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:286 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:287 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:327 memoria/(23406:23427): El frame es el 3 
+
+[INFO] 13:16:33:331 memoria/(23406:23427): Alocando size: 81 del carpincho: 0
+[INFO] 13:16:33:433 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:434 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:536 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:637 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:638 memoria/(23406:23427): size_ 9
+[INFO] 13:16:33:639 memoria/(23406:23427): size_ 1
+[INFO] 13:16:33:744 memoria/(23406:23427): size_ 8
+[INFO] 13:16:33:889 memoria/(23406:23427): El frame es el 4 
+
+[INFO] 13:16:33:896 memoria/(23406:23427): El frame es el 5 
+
+[INFO] 13:16:33:898 memoria/(23406:23427): El frame es el 6 
+
+[INFO] 13:16:33:955 memoria/(23406:23427): DISCONNECT!
+[INFO] 13:17:11:893 memoria/(23516:23516): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:17:11:971 memoria/(23516:23516): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:17:11:974 memoria/(23516:23516): ------2---------
+
+[INFO] 13:17:11:976 memoria/(23516:23516): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:17:16:628 memoria/(23516:23516): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:17:16:732 memoria/(23516:23538): HANDSHAKE
+[INFO] 13:17:16:800 memoria/(23516:23538): Alocando size: 13 del carpincho: 0
+[INFO] 13:17:16:805 memoria/(23516:23538): Antes del if de swap
+[INFO] 13:17:16:828 memoria/(23516:23538): El frame es el 0 
+
+[INFO] 13:17:16:854 memoria/(23516:23538): Allocando todo el hmd en 0
+
+[INFO] 13:17:16:873 memoria/(23516:23538): Alocando size: 1 del carpincho: 0
+[INFO] 13:17:16:981 memoria/(23516:23538): size_ 9
+[INFO] 13:17:16:986 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:027 memoria/(23516:23538): El frame es el 1 
+
+[INFO] 13:17:17:032 memoria/(23516:23538): Alocando size: 24 del carpincho: 0
+[INFO] 13:17:17:134 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:136 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:238 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:280 memoria/(23516:23538): El frame es el 2 
+
+[INFO] 13:17:17:283 memoria/(23516:23538): Alocando size: 8 del carpincho: 0
+[INFO] 13:17:17:384 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:386 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:488 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:589 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:598 memoria/(23516:23538): Alocando size: 4 del carpincho: 0
+[INFO] 13:17:17:706 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:707 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:810 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:922 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:923 memoria/(23516:23538): size_ 9
+[INFO] 13:17:17:964 memoria/(23516:23538): El frame es el 3 
+
+[INFO] 13:17:17:967 memoria/(23516:23538): Alocando size: 81 del carpincho: 0
+[INFO] 13:17:18:069 memoria/(23516:23538): size_ 9
+[INFO] 13:17:18:070 memoria/(23516:23538): size_ 9
+[INFO] 13:17:18:172 memoria/(23516:23538): size_ 9
+[INFO] 13:17:18:274 memoria/(23516:23538): size_ 9
+[INFO] 13:17:18:275 memoria/(23516:23538): size_ 9
+[INFO] 13:17:18:277 memoria/(23516:23538): size_ 1
+[INFO] 13:17:18:382 memoria/(23516:23538): size_ 8
+[INFO] 13:17:18:526 memoria/(23516:23538): El frame es el 4 
+
+[INFO] 13:17:18:542 memoria/(23516:23538): El frame es el 5 
+
+[INFO] 13:17:18:550 memoria/(23516:23538): El frame es el 6 
+
+[INFO] 13:17:18:613 memoria/(23516:23538): DISCONNECT!
+[INFO] 13:19:35:937 memoria/(23640:23640): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:19:36:039 memoria/(23640:23640): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:19:36:046 memoria/(23640:23640): ------2---------
+
+[INFO] 13:19:36:061 memoria/(23640:23640): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:19:41:050 memoria/(23640:23640): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:19:41:222 memoria/(23640:23661): HANDSHAKE
+[INFO] 13:19:41:316 memoria/(23640:23661): Alocando size: 13 del carpincho: 0
+[INFO] 13:19:41:323 memoria/(23640:23661): Antes del if de swap
+[INFO] 13:19:41:337 memoria/(23640:23661): El frame es el 0 
+
+[INFO] 13:19:41:364 memoria/(23640:23661): Allocando todo el hmd en 0
+
+[INFO] 13:19:41:375 memoria/(23640:23661): Alocando size: 1 del carpincho: 0
+[INFO] 13:19:41:497 memoria/(23640:23661): size_ 9
+[INFO] 13:19:41:513 memoria/(23640:23661): size_ 9
+[INFO] 13:19:41:578 memoria/(23640:23661): El frame es el 1 
+
+[INFO] 13:19:41:586 memoria/(23640:23661): Alocando size: 24 del carpincho: 0
+[INFO] 13:19:41:689 memoria/(23640:23661): size_ 9
+[INFO] 13:19:41:692 memoria/(23640:23661): size_ 9
+[INFO] 13:19:41:798 memoria/(23640:23661): size_ 9
+[INFO] 13:19:41:847 memoria/(23640:23661): El frame es el 2 
+
+[INFO] 13:19:41:865 memoria/(23640:23661): Alocando size: 8 del carpincho: 0
+[INFO] 13:19:41:991 memoria/(23640:23661): size_ 9
+[INFO] 13:19:41:992 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:095 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:198 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:203 memoria/(23640:23661): Alocando size: 4 del carpincho: 0
+[INFO] 13:19:42:307 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:308 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:410 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:512 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:512 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:562 memoria/(23640:23661): El frame es el 3 
+
+[INFO] 13:19:42:564 memoria/(23640:23661): Alocando size: 81 del carpincho: 0
+[INFO] 13:19:42:667 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:669 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:771 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:873 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:874 memoria/(23640:23661): size_ 9
+[INFO] 13:19:42:876 memoria/(23640:23661): size_ 1
+[INFO] 13:19:42:982 memoria/(23640:23661): size_ 8
+[INFO] 13:19:43:127 memoria/(23640:23661): El frame es el 4 
+
+[INFO] 13:19:43:148 memoria/(23640:23661): El frame es el 5 
+
+[INFO] 13:19:43:152 memoria/(23640:23661): El frame es el 6 
+
+[INFO] 13:19:43:213 memoria/(23640:23661): DISCONNECT!
+[INFO] 13:27:52:855 memoria/(23837:23837): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:27:52:932 memoria/(23837:23837): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:27:52:939 memoria/(23837:23837): ------2---------
+
+[INFO] 13:27:52:941 memoria/(23837:23837): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:28:05:161 memoria/(23837:23837): Cantidad TLB Hits totales: 0
+[INFO] 13:28:05:167 memoria/(23837:23837): Cantidad TLB Miss totales: 0
+[INFO] 13:28:06:735 memoria/(23890:23890): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:28:06:811 memoria/(23890:23890): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:28:06:815 memoria/(23890:23890): ------2---------
+
+[INFO] 13:28:06:818 memoria/(23890:23890): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:28:09:577 memoria/(23890:23890): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:28:09:693 memoria/(23890:23914): HANDSHAKE
+[INFO] 13:28:09:773 memoria/(23890:23914): Alocando size: 13 del carpincho: 0
+[INFO] 13:28:09:776 memoria/(23890:23914): Antes del if de swap
+[INFO] 13:28:09:782 memoria/(23890:23914): El frame es el 0 
+
+[INFO] 13:28:09:796 memoria/(23890:23914): Allocando todo el hmd en 0
+
+[INFO] 13:28:09:838 memoria/(23890:23914): Alocando size: 1 del carpincho: 0
+[INFO] 13:28:09:946 memoria/(23890:23914): size_ 9
+[INFO] 13:28:09:951 memoria/(23890:23914): size_ 9
+[INFO] 13:28:09:995 memoria/(23890:23914): El frame es el 1 
+
+[INFO] 13:28:10:001 memoria/(23890:23914): Alocando size: 24 del carpincho: 0
+[INFO] 13:28:10:105 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:106 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:210 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:253 memoria/(23890:23914): El frame es el 2 
+
+[INFO] 13:28:10:255 memoria/(23890:23914): Alocando size: 8 del carpincho: 0
+[INFO] 13:28:10:358 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:359 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:461 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:562 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:566 memoria/(23890:23914): Alocando size: 4 del carpincho: 0
+[INFO] 13:28:10:669 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:670 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:772 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:876 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:877 memoria/(23890:23914): size_ 9
+[INFO] 13:28:10:916 memoria/(23890:23914): El frame es el 3 
+
+[INFO] 13:28:10:926 memoria/(23890:23914): Alocando size: 81 del carpincho: 0
+[INFO] 13:28:11:040 memoria/(23890:23914): size_ 9
+[INFO] 13:28:11:040 memoria/(23890:23914): size_ 9
+[INFO] 13:28:11:141 memoria/(23890:23914): size_ 9
+[INFO] 13:28:11:243 memoria/(23890:23914): size_ 9
+[INFO] 13:28:11:246 memoria/(23890:23914): size_ 9
+[INFO] 13:28:11:248 memoria/(23890:23914): size_ 1
+[INFO] 13:28:11:357 memoria/(23890:23914): size_ 8
+[INFO] 13:28:11:499 memoria/(23890:23914): El frame es el 4 
+
+[INFO] 13:28:11:505 memoria/(23890:23914): El frame es el 5 
+
+[INFO] 13:28:11:507 memoria/(23890:23914): El frame es el 6 
+
+[INFO] 13:28:11:563 memoria/(23890:23914): DISCONNECT!
+[INFO] 13:29:45:649 memoria/(24048:24048): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:29:45:757 memoria/(24048:24048): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:29:45:761 memoria/(24048:24048): ------2---------
+
+[INFO] 13:29:45:763 memoria/(24048:24048): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:29:47:710 memoria/(24048:24048): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:29:47:814 memoria/(24048:24069): HANDSHAKE
+[INFO] 13:29:47:870 memoria/(24048:24069): Alocando size: 13 del carpincho: 0
+[INFO] 13:29:47:872 memoria/(24048:24069): Antes del if de swap
+[INFO] 13:29:47:879 memoria/(24048:24069): El frame es el 0 
+
+[INFO] 13:29:47:894 memoria/(24048:24069): Allocando todo el hmd en 0
+
+[INFO] 13:29:47:929 memoria/(24048:24069): Alocando size: 1 del carpincho: 0
+[INFO] 13:29:48:036 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:042 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:083 memoria/(24048:24069): El frame es el 1 
+
+[INFO] 13:29:48:087 memoria/(24048:24069): Alocando size: 24 del carpincho: 0
+[INFO] 13:29:48:190 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:195 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:306 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:350 memoria/(24048:24069): El frame es el 2 
+
+[INFO] 13:29:48:356 memoria/(24048:24069): Alocando size: 8 del carpincho: 0
+[INFO] 13:29:48:470 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:475 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:577 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:680 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:683 memoria/(24048:24069): Alocando size: 4 del carpincho: 0
+[INFO] 13:29:48:785 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:786 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:887 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:988 memoria/(24048:24069): size_ 9
+[INFO] 13:29:48:989 memoria/(24048:24069): size_ 9
+[INFO] 13:29:49:030 memoria/(24048:24069): El frame es el 3 
+
+[INFO] 13:29:49:034 memoria/(24048:24069): Alocando size: 81 del carpincho: 0
+[INFO] 13:29:49:136 memoria/(24048:24069): size_ 9
+[INFO] 13:29:49:137 memoria/(24048:24069): size_ 9
+[INFO] 13:29:49:239 memoria/(24048:24069): size_ 9
+[INFO] 13:29:49:341 memoria/(24048:24069): size_ 9
+[INFO] 13:29:49:342 memoria/(24048:24069): size_ 9
+[INFO] 13:29:49:342 memoria/(24048:24069): size_ 1
+[INFO] 13:29:49:445 memoria/(24048:24069): size_ 8
+[INFO] 13:29:49:595 memoria/(24048:24069): El frame es el 4 
+
+[INFO] 13:29:49:602 memoria/(24048:24069): El frame es el 5 
+
+[INFO] 13:29:49:604 memoria/(24048:24069): El frame es el 6 
+
+[INFO] 13:29:49:666 memoria/(24048:24069): DISCONNECT!
+[INFO] 13:31:01:288 memoria/(24172:24172): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:31:01:388 memoria/(24172:24172): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:31:01:401 memoria/(24172:24172): ------2---------
+
+[INFO] 13:31:01:404 memoria/(24172:24172): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:32:57:391 memoria/(24172:24172): Cantidad TLB Hits totales: 0
+[INFO] 13:32:57:403 memoria/(24172:24172): Cantidad TLB Miss totales: 0
+[INFO] 13:33:00:051 memoria/(24255:24255): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:33:00:128 memoria/(24255:24255): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:33:00:132 memoria/(24255:24255): ------2---------
+
+[INFO] 13:33:00:135 memoria/(24255:24255): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:33:02:376 memoria/(24255:24255): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:33:02:488 memoria/(24255:24276): HANDSHAKE
+[INFO] 13:33:02:545 memoria/(24255:24276): Alocando size: 13 del carpincho: 0
+[INFO] 13:33:02:548 memoria/(24255:24276): Antes del if de swap
+[INFO] 13:33:02:554 memoria/(24255:24276): El frame es el 0 
+
+[INFO] 13:33:02:561 memoria/(24255:24276): Allocando todo el hmd en 0
+
+[INFO] 13:33:02:604 memoria/(24255:24276): Alocando size: 1 del carpincho: 0
+[INFO] 13:33:02:715 memoria/(24255:24276): size_ 9
+[INFO] 13:33:02:727 memoria/(24255:24276): size_ 9
+[INFO] 13:33:02:765 memoria/(24255:24276): El frame es el 1 
+
+[INFO] 13:33:02:770 memoria/(24255:24276): Alocando size: 24 del carpincho: 0
+[INFO] 13:33:02:873 memoria/(24255:24276): size_ 9
+[INFO] 13:33:02:875 memoria/(24255:24276): size_ 9
+[INFO] 13:33:02:981 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:031 memoria/(24255:24276): El frame es el 2 
+
+[INFO] 13:33:03:034 memoria/(24255:24276): Alocando size: 8 del carpincho: 0
+[INFO] 13:33:03:136 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:138 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:241 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:345 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:354 memoria/(24255:24276): Alocando size: 4 del carpincho: 0
+[INFO] 13:33:03:461 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:463 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:564 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:665 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:667 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:709 memoria/(24255:24276): El frame es el 3 
+
+[INFO] 13:33:03:711 memoria/(24255:24276): Alocando size: 81 del carpincho: 0
+[INFO] 13:33:03:813 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:814 memoria/(24255:24276): size_ 9
+[INFO] 13:33:03:915 memoria/(24255:24276): size_ 9
+[INFO] 13:33:04:017 memoria/(24255:24276): size_ 9
+[INFO] 13:33:04:019 memoria/(24255:24276): size_ 9
+[INFO] 13:33:04:020 memoria/(24255:24276): size_ 1
+[INFO] 13:33:04:124 memoria/(24255:24276): size_ 8
+[INFO] 13:33:04:270 memoria/(24255:24276): El frame es el 4 
+
+[INFO] 13:33:04:277 memoria/(24255:24276): El frame es el 5 
+
+[INFO] 13:33:04:280 memoria/(24255:24276): El frame es el 6 
+
+[INFO] 13:33:04:350 memoria/(24255:24276): DISCONNECT!
+[INFO] 13:35:09:683 memoria/(24389:24389): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:35:09:761 memoria/(24389:24389): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:35:09:765 memoria/(24389:24389): ------2---------
+
+[INFO] 13:35:09:766 memoria/(24389:24389): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:35:15:924 memoria/(24389:24389): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:35:16:119 memoria/(24389:24410): HANDSHAKE
+[INFO] 13:35:16:187 memoria/(24389:24410): Alocando size: 13 del carpincho: 0
+[INFO] 13:35:16:190 memoria/(24389:24410): Antes del if de swap
+[INFO] 13:35:16:209 memoria/(24389:24410): El frame es el 0 
+
+[INFO] 13:35:16:215 memoria/(24389:24410): Allocando todo el hmd en 0
+
+[INFO] 13:35:16:264 memoria/(24389:24410): Alocando size: 1 del carpincho: 0
+[INFO] 13:35:16:376 memoria/(24389:24410): size_ 9
+[INFO] 13:35:16:386 memoria/(24389:24410): size_ 9
+[INFO] 13:35:16:435 memoria/(24389:24410): El frame es el 1 
+
+[INFO] 13:35:16:439 memoria/(24389:24410): Alocando size: 24 del carpincho: 0
+[INFO] 13:35:16:541 memoria/(24389:24410): size_ 9
+[INFO] 13:35:16:544 memoria/(24389:24410): size_ 9
+[INFO] 13:35:16:648 memoria/(24389:24410): size_ 9
+[INFO] 13:35:16:688 memoria/(24389:24410): El frame es el 2 
+
+[INFO] 13:35:16:691 memoria/(24389:24410): Alocando size: 8 del carpincho: 0
+[INFO] 13:35:16:794 memoria/(24389:24410): size_ 9
+[INFO] 13:35:16:796 memoria/(24389:24410): size_ 9
+[INFO] 13:35:16:898 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:001 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:014 memoria/(24389:24410): Alocando size: 4 del carpincho: 0
+[INFO] 13:35:17:116 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:118 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:221 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:330 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:330 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:371 memoria/(24389:24410): El frame es el 3 
+
+[INFO] 13:35:17:373 memoria/(24389:24410): Alocando size: 81 del carpincho: 0
+[INFO] 13:35:17:476 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:478 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:581 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:685 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:686 memoria/(24389:24410): size_ 9
+[INFO] 13:35:17:688 memoria/(24389:24410): size_ 1
+[INFO] 13:35:17:795 memoria/(24389:24410): size_ 8
+[INFO] 13:35:17:947 memoria/(24389:24410): El frame es el 4 
+
+[INFO] 13:35:17:955 memoria/(24389:24410): El frame es el 5 
+
+[INFO] 13:35:17:962 memoria/(24389:24410): El frame es el 6 
+
+[INFO] 13:35:18:019 memoria/(24389:24410): DISCONNECT!
+[INFO] 13:38:01:300 memoria/(24513:24513): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:38:01:373 memoria/(24513:24513): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:38:01:379 memoria/(24513:24513): ------2---------
+
+[INFO] 13:38:01:382 memoria/(24513:24513): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:38:11:625 memoria/(24513:24513): hola
+[INFO] 13:39:44:491 memoria/(24513:24513): Cantidad TLB Hits totales: 0
+[INFO] 13:39:44:494 memoria/(24513:24513): Cantidad TLB Miss totales: 0
+[INFO] 13:39:47:340 memoria/(24745:24745): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:39:47:480 memoria/(24745:24745): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:39:47:507 memoria/(24745:24745): ------2---------
+
+[INFO] 13:39:47:529 memoria/(24745:24745): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:39:55:439 memoria/(24745:24745): hola
+[INFO] 13:40:32:102 memoria/(24745:24745): hola
+[INFO] 13:42:50:671 memoria/(24745:24745): Cantidad TLB Hits totales: 0
+[INFO] 13:42:50:674 memoria/(24745:24745): Cantidad TLB Miss totales: 0
+[INFO] 13:42:53:646 memoria/(24902:24902): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:42:53:729 memoria/(24902:24902): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:42:53:737 memoria/(24902:24902): ------2---------
+
+[INFO] 13:42:53:739 memoria/(24902:24902): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:42:59:809 memoria/(24902:24902): hola
+[INFO] 13:46:38:053 memoria/(24902:24902): Cantidad TLB Hits totales: 0
+[INFO] 13:46:38:057 memoria/(24902:24902): Cantidad TLB Miss totales: 0
+[INFO] 13:46:40:557 memoria/(25081:25081): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:46:40:627 memoria/(25081:25081): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:46:40:633 memoria/(25081:25081): ------2---------
+
+[INFO] 13:46:40:635 memoria/(25081:25081): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:46:42:435 memoria/(25081:25081): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:46:42:547 memoria/(25081:25102): HANDSHAKE
+[INFO] 13:46:42:612 memoria/(25081:25102): Alocando size: 13 del carpincho: 0
+[INFO] 13:46:42:615 memoria/(25081:25102): Antes del if de swap
+[INFO] 13:46:42:620 memoria/(25081:25102): El frame es el 0 
+
+[INFO] 13:46:42:627 memoria/(25081:25102): Allocando todo el hmd en 0
+
+[INFO] 13:46:42:671 memoria/(25081:25102): Alocando size: 1 del carpincho: 0
+[INFO] 13:46:42:777 memoria/(25081:25102): size_ 9
+[INFO] 13:46:42:780 memoria/(25081:25102): size_ 9
+[INFO] 13:46:42:822 memoria/(25081:25102): El frame es el 1 
+
+[INFO] 13:46:42:826 memoria/(25081:25102): Alocando size: 24 del carpincho: 0
+[INFO] 13:46:42:928 memoria/(25081:25102): size_ 9
+[INFO] 13:46:42:930 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:034 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:077 memoria/(25081:25102): El frame es el 2 
+
+[INFO] 13:46:43:080 memoria/(25081:25102): Alocando size: 8 del carpincho: 0
+[INFO] 13:46:43:183 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:184 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:287 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:392 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:395 memoria/(25081:25102): Alocando size: 4 del carpincho: 0
+[INFO] 13:46:43:498 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:498 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:600 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:703 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:703 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:743 memoria/(25081:25102): El frame es el 3 
+
+[INFO] 13:46:43:745 memoria/(25081:25102): Alocando size: 81 del carpincho: 0
+[INFO] 13:46:43:846 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:846 memoria/(25081:25102): size_ 9
+[INFO] 13:46:43:947 memoria/(25081:25102): size_ 9
+[INFO] 13:46:44:048 memoria/(25081:25102): size_ 9
+[INFO] 13:46:44:048 memoria/(25081:25102): size_ 9
+[INFO] 13:46:44:049 memoria/(25081:25102): size_ 1
+[INFO] 13:46:44:151 memoria/(25081:25102): size_ 8
+[INFO] 13:46:44:294 memoria/(25081:25102): El frame es el 4 
+
+[INFO] 13:46:44:307 memoria/(25081:25102): El frame es el 5 
+
+[INFO] 13:46:44:311 memoria/(25081:25102): El frame es el 6 
+
+[INFO] 13:46:44:456 memoria/(25081:25102): DISCONNECT!
+[INFO] 13:46:49:606 memoria/(25081:25081): DATA: 
+--------------------------------------------------
+Dump: 28/11/21 13:46:49
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:46:49:610 memoria/(25081:25081): hola
+[INFO] 13:51:08:915 memoria/(25081:25081): Cantidad TLB Hits totales: 14
+[INFO] 13:51:08:919 memoria/(25081:25081): Cantidad TLB Miss totales: 0
+[INFO] 13:51:08:924 memoria/(25081:25081): Carpincho: 0 - Cantidad Hits: 14
+[INFO] 13:51:08:928 memoria/(25081:25081): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 13:51:10:908 memoria/(25240:25240): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:51:11:035 memoria/(25240:25240): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:51:11:039 memoria/(25240:25240): ------2---------
+
+[INFO] 13:51:11:041 memoria/(25240:25240): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:51:15:482 memoria/(25240:25240): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:51:15:600 memoria/(25240:25265): HANDSHAKE
+[INFO] 13:51:15:673 memoria/(25240:25265): Alocando size: 13 del carpincho: 0
+[INFO] 13:51:15:683 memoria/(25240:25265): Antes del if de swap
+[INFO] 13:51:15:736 memoria/(25240:25265): El frame es el 0 
+
+[INFO] 13:51:15:763 memoria/(25240:25265): Allocando todo el hmd en 0
+
+[INFO] 13:51:15:767 memoria/(25240:25265): Alocando size: 1 del carpincho: 0
+[INFO] 13:51:15:882 memoria/(25240:25265): size_ 9
+[INFO] 13:51:15:890 memoria/(25240:25265): size_ 9
+[INFO] 13:51:15:930 memoria/(25240:25265): El frame es el 1 
+
+[INFO] 13:51:15:934 memoria/(25240:25265): Alocando size: 24 del carpincho: 0
+[INFO] 13:51:16:036 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:037 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:139 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:182 memoria/(25240:25265): El frame es el 2 
+
+[INFO] 13:51:16:189 memoria/(25240:25265): Alocando size: 8 del carpincho: 0
+[INFO] 13:51:16:296 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:296 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:398 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:499 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:503 memoria/(25240:25265): Alocando size: 4 del carpincho: 0
+[INFO] 13:51:16:606 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:607 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:707 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:809 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:810 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:851 memoria/(25240:25265): El frame es el 3 
+
+[INFO] 13:51:16:855 memoria/(25240:25265): Alocando size: 81 del carpincho: 0
+[INFO] 13:51:16:962 memoria/(25240:25265): size_ 9
+[INFO] 13:51:16:963 memoria/(25240:25265): size_ 9
+[INFO] 13:51:17:064 memoria/(25240:25265): size_ 9
+[INFO] 13:51:17:165 memoria/(25240:25265): size_ 9
+[INFO] 13:51:17:166 memoria/(25240:25265): size_ 9
+[INFO] 13:51:17:166 memoria/(25240:25265): size_ 1
+[INFO] 13:51:17:268 memoria/(25240:25265): size_ 8
+[INFO] 13:51:17:413 memoria/(25240:25265): El frame es el 4 
+
+[INFO] 13:51:17:426 memoria/(25240:25265): El frame es el 5 
+
+[INFO] 13:51:17:434 memoria/(25240:25265): El frame es el 6 
+
+[INFO] 13:51:17:499 memoria/(25240:25265): DISCONNECT!
+[INFO] 13:51:22:572 memoria/(25240:25240): DATA: /home/utnso/dumps/tlb/Dump_28/11/21 13:51:22.tlb
+[INFO] 13:51:22:581 memoria/(25240:25240): DATA: 
+--------------------------------------------------
+Dump: 28/11/21 13:51:22
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:53:51:108 memoria/(25384:25384): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 13:53:51:211 memoria/(25384:25384): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 13:53:51:217 memoria/(25384:25384): ------2---------
+
+[INFO] 13:53:51:219 memoria/(25384:25384): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 13:53:53:314 memoria/(25384:25384): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 13:53:53:487 memoria/(25384:25405): HANDSHAKE
+[INFO] 13:53:53:557 memoria/(25384:25405): Alocando size: 13 del carpincho: 0
+[INFO] 13:53:53:560 memoria/(25384:25405): Antes del if de swap
+[INFO] 13:53:53:567 memoria/(25384:25405): El frame es el 0 
+
+[INFO] 13:53:53:574 memoria/(25384:25405): Allocando todo el hmd en 0
+
+[INFO] 13:53:53:615 memoria/(25384:25405): Alocando size: 1 del carpincho: 0
+[INFO] 13:53:53:725 memoria/(25384:25405): size_ 9
+[INFO] 13:53:53:738 memoria/(25384:25405): size_ 9
+[INFO] 13:53:53:778 memoria/(25384:25405): El frame es el 1 
+
+[INFO] 13:53:53:782 memoria/(25384:25405): Alocando size: 24 del carpincho: 0
+[INFO] 13:53:53:884 memoria/(25384:25405): size_ 9
+[INFO] 13:53:53:885 memoria/(25384:25405): size_ 9
+[INFO] 13:53:53:987 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:028 memoria/(25384:25405): El frame es el 2 
+
+[INFO] 13:53:54:060 memoria/(25384:25405): Alocando size: 8 del carpincho: 0
+[INFO] 13:53:54:172 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:172 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:273 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:374 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:383 memoria/(25384:25405): Alocando size: 4 del carpincho: 0
+[INFO] 13:53:54:484 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:486 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:589 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:692 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:692 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:732 memoria/(25384:25405): El frame es el 3 
+
+[INFO] 13:53:54:737 memoria/(25384:25405): Alocando size: 81 del carpincho: 0
+[INFO] 13:53:54:839 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:842 memoria/(25384:25405): size_ 9
+[INFO] 13:53:54:944 memoria/(25384:25405): size_ 9
+[INFO] 13:53:55:047 memoria/(25384:25405): size_ 9
+[INFO] 13:53:55:048 memoria/(25384:25405): size_ 9
+[INFO] 13:53:55:051 memoria/(25384:25405): size_ 1
+[INFO] 13:53:55:164 memoria/(25384:25405): size_ 8
+[INFO] 13:53:55:305 memoria/(25384:25405): El frame es el 4 
+
+[INFO] 13:53:55:310 memoria/(25384:25405): El frame es el 5 
+
+[INFO] 13:53:55:313 memoria/(25384:25405): El frame es el 6 
+
+[INFO] 13:53:55:369 memoria/(25384:25405): DISCONNECT!
+[INFO] 13:54:01:302 memoria/(25384:25384): DATA: /home/utnso/dumps/tlb/Dump_28-11-21 13:54:01.tlb
+[INFO] 13:54:01:309 memoria/(25384:25384): DATA: 
+--------------------------------------------------
+Dump: 28-11-21 13:54:01
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 3	Marco: 3
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 4	Marco: 4
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 5	Marco: 5
+Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
+
+--------------------------------------------------
+
+[INFO] 13:54:01:312 memoria/(25384:25384): hola
+[INFO] 13:55:12:754 memoria/(25384:25384): Cantidad TLB Hits totales: 14
+[INFO] 13:55:12:756 memoria/(25384:25384): Cantidad TLB Miss totales: 0
+[INFO] 13:55:12:758 memoria/(25384:25384): Carpincho: 0 - Cantidad Hits: 14
+[INFO] 13:55:12:759 memoria/(25384:25384): Carpincho: 0 - Cantidad Miss: 0

@@ -7,6 +7,7 @@ void sighandler(int x) {
     switch (x) {
         case SIGUSR1:
 			dumpear_TLB(); 
+			log_info(logger, "hola");
             break;
         case SIGUSR2:
         //TODO: ver que hacer

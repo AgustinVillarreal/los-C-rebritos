@@ -609,3 +609,347 @@
 [INFO] 20:39:02:613 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
 [INFO] 20:39:02:613 SWAmP/(7663:7663): La solicitud se realizo correctamente
 [INFO] 20:39:09:270 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 12:38:00:260 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 12:38:00:274 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 12:38:00:277 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 12:38:03:925 SWAmP/(7663:7663): entre en el if
+[INFO] 12:38:03:925 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 12:38:03:927 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 12:38:04:142 SWAmP/(7663:7663): entre en el if
+[INFO] 12:38:04:142 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 12:38:04:143 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 12:38:04:398 SWAmP/(7663:7663): entre en el if
+[INFO] 12:38:04:398 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 12:38:04:399 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 12:38:05:073 SWAmP/(7663:7663): entre en el if
+[INFO] 12:38:05:073 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 12:38:05:073 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 12:38:05:526 SWAmP/(7663:7663): entre en el if
+[INFO] 12:38:05:527 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 12:38:05:528 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 12:38:16:964 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:05:38:216 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:05:38:234 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:05:38:236 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:05:40:937 SWAmP/(7663:7663): entre en el if
+[INFO] 13:05:40:938 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:05:40:939 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:05:41:146 SWAmP/(7663:7663): entre en el if
+[INFO] 13:05:41:146 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:05:41:146 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:05:41:418 SWAmP/(7663:7663): entre en el if
+[INFO] 13:05:41:418 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:05:41:419 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:05:42:078 SWAmP/(7663:7663): entre en el if
+[INFO] 13:05:42:078 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:05:42:078 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:05:42:564 SWAmP/(7663:7663): entre en el if
+[INFO] 13:05:42:565 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:05:42:566 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:05:47:171 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:06:50:277 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:06:50:289 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:06:50:291 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:06:52:873 SWAmP/(7663:7663): entre en el if
+[INFO] 13:06:52:877 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:06:52:878 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:06:53:050 SWAmP/(7663:7663): entre en el if
+[INFO] 13:06:53:050 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:06:53:050 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:06:53:302 SWAmP/(7663:7663): entre en el if
+[INFO] 13:06:53:302 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:06:53:303 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:06:53:970 SWAmP/(7663:7663): entre en el if
+[INFO] 13:06:53:970 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:06:53:970 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:06:54:426 SWAmP/(7663:7663): entre en el if
+[INFO] 13:06:54:426 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:06:54:427 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:06:58:415 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:07:38:497 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:07:38:508 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:07:38:518 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:07:42:556 SWAmP/(7663:7663): entre en el if
+[INFO] 13:07:42:556 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:07:42:557 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:07:42:786 SWAmP/(7663:7663): entre en el if
+[INFO] 13:07:42:787 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:07:42:787 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:07:43:046 SWAmP/(7663:7663): entre en el if
+[INFO] 13:07:43:047 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:07:43:048 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:07:43:722 SWAmP/(7663:7663): entre en el if
+[INFO] 13:07:43:723 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:07:43:725 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:07:44:230 SWAmP/(7663:7663): entre en el if
+[INFO] 13:07:44:230 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:07:44:231 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:07:48:038 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:08:52:679 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:08:52:697 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:08:52:700 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:08:54:905 SWAmP/(7663:7663): entre en el if
+[INFO] 13:08:54:905 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:08:54:905 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:08:55:126 SWAmP/(7663:7663): entre en el if
+[INFO] 13:08:55:127 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:08:55:128 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:08:55:382 SWAmP/(7663:7663): entre en el if
+[INFO] 13:08:55:382 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:08:55:382 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:08:56:042 SWAmP/(7663:7663): entre en el if
+[INFO] 13:08:56:043 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:08:56:043 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:08:56:498 SWAmP/(7663:7663): entre en el if
+[INFO] 13:08:56:498 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:08:56:499 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:09:01:783 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:12:13:399 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:12:13:428 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:12:13:433 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:12:18:146 SWAmP/(7663:7663): entre en el if
+[INFO] 13:12:18:147 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:12:18:147 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:12:18:344 SWAmP/(7663:7663): entre en el if
+[INFO] 13:12:18:346 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:12:18:347 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:12:18:606 SWAmP/(7663:7663): entre en el if
+[INFO] 13:12:18:606 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:12:18:607 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:12:19:278 SWAmP/(7663:7663): entre en el if
+[INFO] 13:12:19:278 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:12:19:279 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:12:19:734 SWAmP/(7663:7663): entre en el if
+[INFO] 13:12:19:734 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:12:19:735 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:12:25:927 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:16:29:907 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:16:29:926 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:16:29:929 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:16:32:202 SWAmP/(7663:7663): entre en el if
+[INFO] 13:16:32:203 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:16:32:203 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:16:32:394 SWAmP/(7663:7663): entre en el if
+[INFO] 13:16:32:394 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:16:32:394 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:16:32:647 SWAmP/(7663:7663): entre en el if
+[INFO] 13:16:32:647 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:16:32:647 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:16:33:326 SWAmP/(7663:7663): entre en el if
+[INFO] 13:16:33:326 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:16:33:326 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:16:33:782 SWAmP/(7663:7663): entre en el if
+[INFO] 13:16:33:783 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:16:33:784 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:16:40:316 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:17:11:967 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:17:11:980 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:17:11:981 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:17:16:811 SWAmP/(7663:7663): entre en el if
+[INFO] 13:17:16:816 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:17:16:819 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:17:17:022 SWAmP/(7663:7663): entre en el if
+[INFO] 13:17:17:022 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:17:17:022 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:17:17:278 SWAmP/(7663:7663): entre en el if
+[INFO] 13:17:17:278 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:17:17:279 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:17:17:962 SWAmP/(7663:7663): entre en el if
+[INFO] 13:17:17:963 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:17:17:963 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:17:18:422 SWAmP/(7663:7663): entre en el if
+[INFO] 13:17:18:422 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:17:18:422 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:17:26:064 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:19:36:037 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:19:36:063 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:19:36:069 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:19:41:327 SWAmP/(7663:7663): entre en el if
+[INFO] 13:19:41:328 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:19:41:329 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:19:41:566 SWAmP/(7663:7663): entre en el if
+[INFO] 13:19:41:569 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:19:41:570 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:19:41:841 SWAmP/(7663:7663): entre en el if
+[INFO] 13:19:41:842 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:19:41:843 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:19:42:559 SWAmP/(7663:7663): entre en el if
+[INFO] 13:19:42:560 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:19:42:563 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:19:43:022 SWAmP/(7663:7663): entre en el if
+[INFO] 13:19:43:022 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:19:43:023 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:19:45:747 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:27:52:930 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:27:52:944 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:27:52:946 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:28:05:215 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:28:06:809 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:28:06:820 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:28:06:823 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:28:09:778 SWAmP/(7663:7663): entre en el if
+[INFO] 13:28:09:778 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:28:09:779 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:28:09:990 SWAmP/(7663:7663): entre en el if
+[INFO] 13:28:09:990 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:28:09:991 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:28:10:250 SWAmP/(7663:7663): entre en el if
+[INFO] 13:28:10:250 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:28:10:251 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:28:10:914 SWAmP/(7663:7663): entre en el if
+[INFO] 13:28:10:915 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:28:10:915 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:28:11:396 SWAmP/(7663:7663): entre en el if
+[INFO] 13:28:11:397 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:28:11:397 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:28:17:886 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:29:45:755 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:29:45:767 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:29:45:771 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:29:47:874 SWAmP/(7663:7663): entre en el if
+[INFO] 13:29:47:875 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:29:47:875 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:29:48:078 SWAmP/(7663:7663): entre en el if
+[INFO] 13:29:48:079 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:29:48:079 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:29:48:346 SWAmP/(7663:7663): entre en el if
+[INFO] 13:29:48:347 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:29:48:348 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:29:49:028 SWAmP/(7663:7663): entre en el if
+[INFO] 13:29:49:028 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:29:49:029 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:29:49:490 SWAmP/(7663:7663): entre en el if
+[INFO] 13:29:49:492 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:29:49:494 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:30:04:897 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:31:01:383 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:31:01:406 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:31:01:408 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:32:57:446 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:33:00:126 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:33:00:137 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:33:00:139 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:33:02:549 SWAmP/(7663:7663): entre en el if
+[INFO] 13:33:02:550 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:33:02:551 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:33:02:762 SWAmP/(7663:7663): entre en el if
+[INFO] 13:33:02:762 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:33:02:763 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:33:03:027 SWAmP/(7663:7663): entre en el if
+[INFO] 13:33:03:028 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:33:03:028 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:33:03:706 SWAmP/(7663:7663): entre en el if
+[INFO] 13:33:03:708 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:33:03:708 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:33:04:166 SWAmP/(7663:7663): entre en el if
+[INFO] 13:33:04:166 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:33:04:167 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:33:11:950 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:35:09:759 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:35:09:768 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:35:09:769 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:35:16:192 SWAmP/(7663:7663): entre en el if
+[INFO] 13:35:16:193 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:35:16:194 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:35:16:431 SWAmP/(7663:7663): entre en el if
+[INFO] 13:35:16:432 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:35:16:433 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:35:16:686 SWAmP/(7663:7663): entre en el if
+[INFO] 13:35:16:686 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:35:16:687 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:35:17:370 SWAmP/(7663:7663): entre en el if
+[INFO] 13:35:17:370 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:35:17:371 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:35:17:834 SWAmP/(7663:7663): entre en el if
+[INFO] 13:35:17:834 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:35:17:835 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:35:23:716 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:38:01:371 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:38:01:385 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:38:01:388 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:39:44:539 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:39:47:469 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:39:47:547 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:39:47:552 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:42:50:710 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:42:53:727 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:42:53:742 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:42:53:744 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:46:38:090 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:46:40:625 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:46:40:639 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:46:40:640 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:46:42:616 SWAmP/(7663:7663): entre en el if
+[INFO] 13:46:42:617 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:46:42:618 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:46:42:818 SWAmP/(7663:7663): entre en el if
+[INFO] 13:46:42:818 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:46:42:818 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:46:43:072 SWAmP/(7663:7663): entre en el if
+[INFO] 13:46:43:074 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:46:43:075 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:46:43:742 SWAmP/(7663:7663): entre en el if
+[INFO] 13:46:43:742 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:46:43:742 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:46:44:190 SWAmP/(7663:7663): entre en el if
+[INFO] 13:46:44:190 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:46:44:190 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:51:08:982 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:51:11:033 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:51:11:047 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:51:11:048 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:51:15:691 SWAmP/(7663:7663): entre en el if
+[INFO] 13:51:15:695 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:51:15:701 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:51:15:926 SWAmP/(7663:7663): entre en el if
+[INFO] 13:51:15:926 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:51:15:926 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:51:16:178 SWAmP/(7663:7663): entre en el if
+[INFO] 13:51:16:179 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:51:16:181 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:51:16:850 SWAmP/(7663:7663): entre en el if
+[INFO] 13:51:16:850 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:51:16:851 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:51:17:310 SWAmP/(7663:7663): entre en el if
+[INFO] 13:51:17:310 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:51:17:310 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:51:22:770 SWAmP/(7663:7663): DISCONNECT!
+[INFO] 13:53:51:209 SWAmP/(7663:7663): Cliente conectado (a SWAmP)
+
+[INFO] 13:53:51:221 SWAmP/(7663:7663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 13:53:51:224 SWAmP/(7663:7663): Se recibio el esquema de asigancion coreectamente
+[INFO] 13:53:53:562 SWAmP/(7663:7663): entre en el if
+[INFO] 13:53:53:563 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:53:53:564 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:53:53:774 SWAmP/(7663:7663): entre en el if
+[INFO] 13:53:53:774 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:53:53:775 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:53:54:026 SWAmP/(7663:7663): entre en el if
+[INFO] 13:53:54:026 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:53:54:027 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:53:54:730 SWAmP/(7663:7663): entre en el if
+[INFO] 13:53:54:730 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:53:54:731 SWAmP/(7663:7663): La solicitud se realizo correctamente
+[INFO] 13:53:55:202 SWAmP/(7663:7663): entre en el if
+[INFO] 13:53:55:202 SWAmP/(7663:7663): Estoy a punto de retornarte una respuesta
+[INFO] 13:53:55:202 SWAmP/(7663:7663): La solicitud se realizo correctamente
