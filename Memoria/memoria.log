@@ -25195,3 +25195,132 @@ Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
 [INFO] 13:58:48:795 memoria/(25729:25729): Cantidad TLB Miss totales: 0
 [INFO] 13:58:48:799 memoria/(25729:25729): Carpincho: 0 - Cantidad Hits: 10
 [INFO] 13:58:48:804 memoria/(25729:25729): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 15:05:03:829 memoria/(26714:26714): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:05:03:930 memoria/(26714:26714): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:05:03:940 memoria/(26714:26714): ------2---------
+
+[INFO] 15:05:03:947 memoria/(26714:26714): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:05:08:907 memoria/(26714:26714): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:05:09:013 memoria/(26714:26748): HANDSHAKE
+[INFO] 15:05:09:084 memoria/(26714:26748): Alocando size: 15 del carpincho: 0
+[INFO] 15:05:09:089 memoria/(26714:26748): Antes del if de swap
+[INFO] 15:05:09:103 memoria/(26714:26748): El frame es el 0 
+
+[INFO] 15:05:09:113 memoria/(26714:26748): Allocando primer mitad del hmd en 0
+
+[INFO] 15:05:09:116 memoria/(26714:26748): El frame es el 1 
+
+[INFO] 15:05:09:120 memoria/(26714:26748): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:05:09:123 memoria/(26714:26748): Alocando size: 25 del carpincho: 0
+[INFO] 15:05:09:453 memoria/(26714:26748): El frame es el 2 
+
+[INFO] 15:05:09:519 memoria/(26714:26748): DISCONNECT!
+[INFO] 15:05:10:913 memoria/(26714:26714): Cantidad TLB Hits totales: 3
+[INFO] 15:05:10:917 memoria/(26714:26714): Cantidad TLB Miss totales: 0
+[INFO] 15:05:10:919 memoria/(26714:26714): Carpincho: 0 - Cantidad Hits: 3
+[INFO] 15:05:10:921 memoria/(26714:26714): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 15:05:28:695 memoria/(26798:26798): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 15:05:28:808 memoria/(26798:26798): Error al conectar (a Server)
+
+[INFO] 15:05:36:294 memoria/(26874:26874): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:05:36:373 memoria/(26874:26874): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:05:36:377 memoria/(26874:26874): ------2---------
+
+[INFO] 15:05:36:379 memoria/(26874:26874): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:05:43:962 memoria/(26874:26874): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:05:44:105 memoria/(26874:26906): HANDSHAKE
+[INFO] 15:05:44:174 memoria/(26874:26906): Alocando size: 15 del carpincho: 0
+[INFO] 15:05:44:178 memoria/(26874:26906): Antes del if de swap
+[INFO] 15:05:44:192 memoria/(26874:26906): El frame es el 0 
+
+[INFO] 15:05:44:202 memoria/(26874:26906): Allocando primer mitad del hmd en 0
+
+[INFO] 15:05:44:215 memoria/(26874:26906): El frame es el 1 
+
+[INFO] 15:05:44:220 memoria/(26874:26906): Allocando segunda mitad del hmd en 1
+
+[INFO] 15:05:44:237 memoria/(26874:26906): Alocando size: 25 del carpincho: 0
+[INFO] 15:05:44:566 memoria/(26874:26906): El frame es el 2 
+
+[INFO] 15:05:44:573 memoria/(26874:26906): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:05:44:983 memoria/(26874:26906): Escribo el nuevo hmd en  24
+[INFO] 15:05:44:987 memoria/(26874:26906): hmd -> prevAlloc : 0 
+[INFO] 15:05:44:988 memoria/(26874:26906): hmd-> nextAlloc : 0 
+[INFO] 15:05:44:990 memoria/(26874:26906): hmd -> isFree : 1 
+[INFO] 15:05:45:092 memoria/(26874:26906): Escribo el nuevo hmd_next en 58
+[INFO] 15:05:45:095 memoria/(26874:26906): hmd_aux_next -> prevAlloc : 24 
+[INFO] 15:05:45:096 memoria/(26874:26906): hmd_aux_next -> nextAlloc : 0 
+[INFO] 15:05:45:097 memoria/(26874:26906): hmd_aux_next -> isFree : 1 
+[INFO] 15:05:45:201 memoria/(26874:26906): Se van a sacar : 1 
+[INFO] 15:05:45:316 memoria/(26874:26906): Se elimino de SWamp
+[INFO] 15:05:45:323 memoria/(26874:26906): ME VOY DEL MEMFREE del carpincho nro 0 : 
+[INFO] 15:05:45:461 memoria/(26874:26906): DISCONNECT!
+[INFO] 15:05:51:506 memoria/(26874:26874): Cantidad TLB Hits totales: 10
+[INFO] 15:05:51:510 memoria/(26874:26874): Cantidad TLB Miss totales: 0
+[INFO] 15:05:51:514 memoria/(26874:26874): Carpincho: 0 - Cantidad Hits: 10
+[INFO] 15:05:51:517 memoria/(26874:26874): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 15:10:30:652 memoria/(27056:27056): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 15:10:30:741 memoria/(27056:27056): Error al conectar (a Server)
+
+[INFO] 15:10:44:024 memoria/(27139:27139): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:10:44:144 memoria/(27139:27139): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:10:44:150 memoria/(27139:27139): ------2---------
+
+[INFO] 15:10:44:154 memoria/(27139:27139): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:10:46:083 memoria/(27139:27139): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:10:46:196 memoria/(27139:27160): HANDSHAKE
+[INFO] 15:10:46:266 memoria/(27139:27160): Alocando size: 14 del carpincho: 0
+[INFO] 15:10:46:269 memoria/(27139:27160): Antes del if de swap
+[INFO] 15:10:46:285 memoria/(27139:27160): El frame es el 0 
+
+[INFO] 15:10:46:297 memoria/(27139:27160): Allocando todo el hmd en 0
+
+[INFO] 15:10:46:310 memoria/(27139:27160): Alocando size: 25 del carpincho: 0
+[INFO] 15:10:46:451 memoria/(27139:27160): El frame es el 1 
+
+[INFO] 15:10:46:456 memoria/(27139:27160): El frame es el 2 
+
+[INFO] 15:10:46:470 memoria/(27139:27160): Liberando direccion logica: 33 del carpincho: 0
+[INFO] 15:10:47:316 memoria/(27139:27139): Cantidad TLB Hits totales: 3
+[INFO] 15:10:47:323 memoria/(27139:27139): Cantidad TLB Miss totales: 1
+[INFO] 15:10:47:327 memoria/(27139:27139): Carpincho: 0 - Cantidad Hits: 3
+[INFO] 15:10:47:330 memoria/(27139:27139): Carpincho: 0 - Cantidad Miss: 1
+[INFO] 15:11:23:697 memoria/(27226:27226): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 15:11:23:804 memoria/(27226:27226): Error al conectar (a Server)
+
+[INFO] 15:11:29:690 memoria/(27303:27303): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:11:29:785 memoria/(27303:27303): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 15:11:29:793 memoria/(27303:27303): ------2---------
+
+[INFO] 15:11:29:797 memoria/(27303:27303): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 15:11:31:434 memoria/(27303:27303): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:11:31:549 memoria/(27303:27324): HANDSHAKE
+[INFO] 15:11:31:630 memoria/(27303:27324): Alocando size: 14 del carpincho: 0
+[INFO] 15:11:31:636 memoria/(27303:27324): Antes del if de swap
+[INFO] 15:11:31:654 memoria/(27303:27324): El frame es el 0 
+
+[INFO] 15:11:31:663 memoria/(27303:27324): Allocando todo el hmd en 0
+
+[INFO] 15:11:31:671 memoria/(27303:27324): Alocando size: 25 del carpincho: 0
+[INFO] 15:11:31:786 memoria/(27303:27324): El frame es el 1 
+
+[INFO] 15:11:31:789 memoria/(27303:27324): El frame es el 2 
+
+[INFO] 15:11:31:876 memoria/(27303:27324): DISCONNECT!
+[INFO] 15:11:32:622 memoria/(27303:27303): Cantidad TLB Hits totales: 1
+[INFO] 15:11:32:624 memoria/(27303:27303): Cantidad TLB Miss totales: 0
+[INFO] 15:11:32:625 memoria/(27303:27303): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 15:11:32:627 memoria/(27303:27303): Carpincho: 0 - Cantidad Miss: 0

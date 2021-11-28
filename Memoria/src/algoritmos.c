@@ -79,6 +79,7 @@ void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame){
     if(victima->bit_M){
         //TODO: Swapear
     }
+    //TODO: pedido de lectura a SWAP
     pthread_mutex_unlock(&(victima->mutex_bits));
     
 

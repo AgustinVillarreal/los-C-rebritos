@@ -283,8 +283,9 @@ entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina)
           uint32_t nro_frame_a_asignar;
           correr_algoritmo(id_carpincho, &nro_frame_a_asignar);
           entrada_buscada->nro_frame = nro_frame_a_asignar;
+          //TODO: Pedir a SWAP
+          // pedir_a_swap(id_carpincho, entrada_buscada);
         }
-        //TODO: Agregar entrada en la TLB
         crear_en_TLB(id_carpincho, entrada_buscada);
     }    
     return entrada_buscada;

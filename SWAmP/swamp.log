@@ -1499,3 +1499,137 @@
 [INFO] 13:58:42:345 SWAmP/(25639:25639): Se elimino los marcos correctamente
 [INFO] 13:58:48:873 SWAmP/(25639:25639): DISCONNECT!
 [INFO] 13:58:48:875 SWAmP/(25639:25639): Finalizando programa...
+[INFO] 15:04:55:250 SWAmP/(26642:26642): Archivo de configuracion cargado correctamente
+[INFO] 15:04:55:357 SWAmP/(26642:26642): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:04:55:371 SWAmP/(26642:26642): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:04:55:407 SWAmP/(26642:26642): ------2---------
+
+[INFO] 15:04:55:413 SWAmP/(26642:26642): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:05:03:922 SWAmP/(26642:26642): Cliente conectado (a SWAmP)
+
+[INFO] 15:05:03:957 SWAmP/(26642:26642): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:05:03:965 SWAmP/(26642:26642): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:05:09:100 SWAmP/(26642:26642): Estoy a punto de retornarte una respuesta
+[INFO] 15:05:09:107 SWAmP/(26642:26642): La solicitud se realizo correctamente
+[INFO] 15:05:09:144 SWAmP/(26642:26642): Se allocaron 2 marcos para el carpincho 0 correctamente
+[INFO] 15:05:09:384 SWAmP/(26642:26642): La solicitud se realizo correctamente
+[INFO] 15:05:09:395 SWAmP/(26642:26642): Se allocaron 3 marcos para el carpincho 0 correctamente
+[INFO] 15:05:10:966 SWAmP/(26642:26642): DISCONNECT!
+[INFO] 15:05:10:970 SWAmP/(26642:26642): Finalizando programa...
+[INFO] 15:05:34:715 SWAmP/(26831:26831): Archivo de configuracion cargado correctamente
+[INFO] 15:05:34:818 SWAmP/(26831:26831): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:05:34:824 SWAmP/(26831:26831): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:05:34:836 SWAmP/(26831:26831): ------2---------
+
+[INFO] 15:05:34:840 SWAmP/(26831:26831): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:05:36:367 SWAmP/(26831:26831): Cliente conectado (a SWAmP)
+
+[INFO] 15:05:36:384 SWAmP/(26831:26831): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:05:36:387 SWAmP/(26831:26831): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:05:44:187 SWAmP/(26831:26831): Estoy a punto de retornarte una respuesta
+[INFO] 15:05:44:204 SWAmP/(26831:26831): La solicitud se realizo correctamente
+[INFO] 15:05:44:232 SWAmP/(26831:26831): Se allocaron 2 marcos para el carpincho 0 correctamente
+[INFO] 15:05:44:499 SWAmP/(26831:26831): La solicitud se realizo correctamente
+[INFO] 15:05:44:509 SWAmP/(26831:26831): Se allocaron 3 marcos para el carpincho 0 correctamente
+[INFO] 15:05:45:309 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:310 SWAmP/(26831:26831): Para SWAP 0
+[INFO] 15:05:45:311 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:313 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:314 SWAmP/(26831:26831): NRO PAGINA: 0
+[INFO] 15:05:45:317 SWAmP/(26831:26831): INICIO: 0
+[INFO] 15:05:45:319 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:322 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:323 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:324 SWAmP/(26831:26831): NRO PAGINA: 1
+[INFO] 15:05:45:330 SWAmP/(26831:26831): INICIO: 32
+[INFO] 15:05:45:331 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:331 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:331 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:331 SWAmP/(26831:26831): NRO PAGINA: 2
+[INFO] 15:05:45:344 SWAmP/(26831:26831): INICIO: 64
+[INFO] 15:05:45:345 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:345 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:346 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:346 SWAmP/(26831:26831): NRO PAGINA: 3
+[INFO] 15:05:45:347 SWAmP/(26831:26831): INICIO: 96
+[INFO] 15:05:45:347 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:348 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:350 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:351 SWAmP/(26831:26831): NRO PAGINA: 4
+[INFO] 15:05:45:352 SWAmP/(26831:26831): INICIO: 128
+[INFO] 15:05:45:353 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:354 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:355 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:355 SWAmP/(26831:26831): Para SWAP 1
+[INFO] 15:05:45:357 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:357 SWAmP/(26831:26831): ---------NADA---------
+[INFO] 15:05:45:376 SWAmP/(26831:26831): El tamanio de aux es 5 y la ultima pos es 4
+[INFO] 15:05:45:394 SWAmP/(26831:26831): 0
+[INFO] 15:05:45:399 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:400 SWAmP/(26831:26831): Para SWAP 0
+[INFO] 15:05:45:401 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:403 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:405 SWAmP/(26831:26831): NRO PAGINA: 0
+[INFO] 15:05:45:406 SWAmP/(26831:26831): INICIO: 0
+[INFO] 15:05:45:407 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:408 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:408 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:412 SWAmP/(26831:26831): NRO PAGINA: 1
+[INFO] 15:05:45:413 SWAmP/(26831:26831): INICIO: 32
+[INFO] 15:05:45:413 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:413 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:413 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:427 SWAmP/(26831:26831): NRO PAGINA: 2
+[INFO] 15:05:45:430 SWAmP/(26831:26831): INICIO: 64
+[INFO] 15:05:45:430 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:431 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:431 SWAmP/(26831:26831): PID: 0
+[INFO] 15:05:45:432 SWAmP/(26831:26831): NRO PAGINA: 3
+[INFO] 15:05:45:433 SWAmP/(26831:26831): INICIO: 96
+[INFO] 15:05:45:433 SWAmP/(26831:26831): NRO SWAP: 0
+[INFO] 15:05:45:434 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:434 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:436 SWAmP/(26831:26831): Para SWAP 1
+[INFO] 15:05:45:437 SWAmP/(26831:26831): ------------------------
+[INFO] 15:05:45:437 SWAmP/(26831:26831): ---------NADA---------
+[INFO] 15:05:45:438 SWAmP/(26831:26831): Se elimino los marcos correctamente
+[INFO] 15:05:51:559 SWAmP/(26831:26831): DISCONNECT!
+[INFO] 15:05:51:564 SWAmP/(26831:26831): Finalizando programa...
+[INFO] 15:10:42:232 SWAmP/(27096:27096): Archivo de configuracion cargado correctamente
+[INFO] 15:10:42:300 SWAmP/(27096:27096): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:10:42:306 SWAmP/(27096:27096): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:10:42:318 SWAmP/(27096:27096): ------2---------
+
+[INFO] 15:10:42:323 SWAmP/(27096:27096): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:10:44:131 SWAmP/(27096:27096): Cliente conectado (a SWAmP)
+
+[INFO] 15:10:44:158 SWAmP/(27096:27096): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:10:44:161 SWAmP/(27096:27096): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:10:46:282 SWAmP/(27096:27096): Estoy a punto de retornarte una respuesta
+[INFO] 15:10:46:290 SWAmP/(27096:27096): La solicitud se realizo correctamente
+[INFO] 15:10:46:325 SWAmP/(27096:27096): Se allocaron 1 marcos para el carpincho 0 correctamente
+[INFO] 15:10:46:495 SWAmP/(27096:27096): La solicitud se realizo correctamente
+[INFO] 15:10:46:558 SWAmP/(27096:27096): Se allocaron 3 marcos para el carpincho 0 correctamente
+[INFO] 15:10:47:430 SWAmP/(27096:27096): DISCONNECT!
+[INFO] 15:10:47:432 SWAmP/(27096:27096): Finalizando programa...
+[INFO] 15:11:27:228 SWAmP/(27260:27260): Archivo de configuracion cargado correctamente
+[INFO] 15:11:27:328 SWAmP/(27260:27260): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:11:27:336 SWAmP/(27260:27260): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 15:11:27:346 SWAmP/(27260:27260): ------2---------
+
+[INFO] 15:11:27:350 SWAmP/(27260:27260): Escuchando en 0.0.0.0:5005 (SWAmP)
+
+[INFO] 15:11:29:782 SWAmP/(27260:27260): Cliente conectado (a SWAmP)
+
+[INFO] 15:11:29:803 SWAmP/(27260:27260): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:11:29:806 SWAmP/(27260:27260): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:11:31:650 SWAmP/(27260:27260): Estoy a punto de retornarte una respuesta
+[INFO] 15:11:31:667 SWAmP/(27260:27260): La solicitud se realizo correctamente
+[INFO] 15:11:31:692 SWAmP/(27260:27260): Se allocaron 1 marcos para el carpincho 0 correctamente
+[INFO] 15:11:31:833 SWAmP/(27260:27260): La solicitud se realizo correctamente
+[INFO] 15:11:31:866 SWAmP/(27260:27260): Se allocaron 3 marcos para el carpincho 0 correctamente
+[INFO] 15:11:32:668 SWAmP/(27260:27260): DISCONNECT!
+[INFO] 15:11:32:671 SWAmP/(27260:27260): Finalizando programa...
