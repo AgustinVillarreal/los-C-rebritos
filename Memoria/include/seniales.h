@@ -9,5 +9,5 @@
 
 void imprimir_metricas_TLB();
 void dumpear_TLB();
-
+void borrar_entradas_TLB();
 #endif

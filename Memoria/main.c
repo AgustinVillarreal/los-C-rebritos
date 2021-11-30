@@ -6,13 +6,18 @@ extern t_log* logger;
 void sighandler(int x) {
     switch (x) {
         case SIGUSR1:
+			log_info(logger, "Senial SIGUSR1");
+			log_info(logger, "-------------");
 			dumpear_TLB(); 
-			log_info(logger, "hola");
             break;
         case SIGUSR2:
-        //TODO: ver que hacer
+			log_info(logger, "Senial SIGUSR2");
+			log_info(logger, "-------------");
+			borrar_entradas_TLB();
             break;
         case SIGINT:
+			log_info(logger, "Senial SIGINT");
+			log_info(logger, "-------------");
 			imprimir_metricas_TLB();
         	exit(EXIT_SUCCESS);
 			break;

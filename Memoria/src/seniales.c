@@ -51,3 +51,7 @@ void dumpear_TLB() {
         free(data);
     return;
 }
+
+void borrar_entradas_TLB(){
+    list_clean(TLB_TABLE);
+}
