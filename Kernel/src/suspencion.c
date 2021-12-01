@@ -7,7 +7,7 @@ void listener_suspencion(){
     while(1){     
         sem_wait(&SEM_CARPINCHO_SUSPENCION);
         pthread_mutex_lock(&MUTEX_LISTA_READY); 
-        bool cola_ready_empty = queue_is_empty(COLA_READY);
+        bool cola_ready_empty = list_is_empty(LISTA_READY);
         pthread_mutex_unlock(&MUTEX_LISTA_READY);
 
         pthread_mutex_lock(&MUTEX_LISTA_NEW); 

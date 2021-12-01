@@ -1,0 +1,490 @@
+[ERROR] 23:21:47:731 memoria/(5296:5296): NO SE ENCUENTRAN TODAS LAS PROPIEDADES DEFINIDAS EN EL CONFIG
+[ERROR] 23:22:55:581 memoria/(5458:5458): NO SE ENCUENTRAN TODAS LAS PROPIEDADES DEFINIDAS EN EL CONFIG
+[INFO] 23:23:51:427 memoria/(5615:5615): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:23:51:491 memoria/(5615:5615): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:23:51:495 memoria/(5615:5615): ------2---------
+
+[INFO] 23:23:51:497 memoria/(5615:5615): ------3---------
+
+[INFO] 23:24:02:130 memoria/(5675:5675): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:02:184 memoria/(5675:5675): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:02:187 memoria/(5675:5675): ------2---------
+
+[INFO] 23:24:02:189 memoria/(5675:5675): ------3---------
+
+[INFO] 23:24:04:571 memoria/(5722:5722): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:04:626 memoria/(5722:5722): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:04:629 memoria/(5722:5722): ------2---------
+
+[INFO] 23:24:04:631 memoria/(5722:5722): ------3---------
+
+[INFO] 23:24:06:502 memoria/(5775:5775): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:06:558 memoria/(5775:5775): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:06:562 memoria/(5775:5775): ------2---------
+
+[INFO] 23:24:06:564 memoria/(5775:5775): ------3---------
+
+[INFO] 23:24:08:136 memoria/(5823:5823): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:08:194 memoria/(5823:5823): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:08:197 memoria/(5823:5823): ------2---------
+
+[INFO] 23:24:08:199 memoria/(5823:5823): ------3---------
+
+[INFO] 23:24:09:751 memoria/(5873:5873): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:09:811 memoria/(5873:5873): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:09:815 memoria/(5873:5873): ------2---------
+
+[INFO] 23:24:09:817 memoria/(5873:5873): ------3---------
+
+[INFO] 23:24:11:335 memoria/(5924:5924): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:11:391 memoria/(5924:5924): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:11:395 memoria/(5924:5924): ------2---------
+
+[INFO] 23:24:11:397 memoria/(5924:5924): ------3---------
+
+[INFO] 23:24:12:989 memoria/(5971:5971): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:13:045 memoria/(5971:5971): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:13:049 memoria/(5971:5971): ------2---------
+
+[INFO] 23:24:13:052 memoria/(5971:5971): ------3---------
+
+[INFO] 23:24:14:546 memoria/(6019:6019): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:14:606 memoria/(6019:6019): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:14:609 memoria/(6019:6019): ------2---------
+
+[INFO] 23:24:14:611 memoria/(6019:6019): ------3---------
+
+[INFO] 23:24:21:224 memoria/(6120:6120): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:21:279 memoria/(6120:6120): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:21:282 memoria/(6120:6120): ------2---------
+
+[INFO] 23:24:21:284 memoria/(6120:6120): ------3---------
+
+[INFO] 23:24:23:838 memoria/(6168:6168): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:24:23:896 memoria/(6168:6168): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:24:23:899 memoria/(6168:6168): ------2---------
+
+[INFO] 23:24:23:901 memoria/(6168:6168): ------3---------
+
+[INFO] 23:27:52:733 memoria/(6580:6580): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:27:52:802 memoria/(6580:6580): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:27:52:805 memoria/(6580:6580): ------2---------
+
+[INFO] 23:27:52:807 memoria/(6580:6580): Escuchando en 0.0.0.9:5002 (MEMORIA_SERVER)
+
+[INFO] 23:45:11:053 memoria/(8313:8313): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:45:11:109 memoria/(8313:8313): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:45:11:115 memoria/(8313:8313): ------2---------
+
+[INFO] 23:45:11:117 memoria/(8313:8313): Escuchando en 0.0.0.9:5002 (MEMORIA_SERVER)
+
+[INFO] 23:47:04:956 memoria/(8662:8662): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:47:05:036 memoria/(8662:8662): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:47:05:049 memoria/(8662:8662): ------2---------
+
+[INFO] 23:47:05:051 memoria/(8662:8662): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 23:47:07:516 memoria/(8662:8662): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 23:47:32:018 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:47:34:023 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:47:44:029 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:47:46:031 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:47:56:038 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:48:08:056 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:48:12:058 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:48:16:060 memoria/(8662:8711): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 23:50:27:773 memoria/(8662:8711): DISCONNECT!
+[INFO] 23:50:37:995 memoria/(9228:9228): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:50:38:068 memoria/(9228:9228): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:50:38:078 memoria/(9228:9228): ------2---------
+
+[INFO] 23:50:38:083 memoria/(9228:9228): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 23:50:40:063 memoria/(9228:9228): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 23:50:54:720 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:50:56:723 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:51:06:729 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:51:08:732 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:51:18:739 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:51:30:756 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:51:34:760 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:51:38:763 memoria/(9228:9270): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 23:51:46:335 memoria/(9228:9270): DISCONNECT!
+[INFO] 23:51:52:358 memoria/(9567:9567): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:51:52:452 memoria/(9567:9567): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:51:52:456 memoria/(9567:9567): ------2---------
+
+[INFO] 23:51:52:458 memoria/(9567:9567): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 23:51:53:887 memoria/(9567:9567): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 23:52:08:887 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:52:10:887 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:52:20:893 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:52:22:895 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:52:32:903 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:52:44:919 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:52:48:922 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 23:52:52:925 memoria/(9567:9610): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:12:52:535 memoria/(3148:3148): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:12:52:597 memoria/(3148:3148): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:12:52:600 memoria/(3148:3148): ------2---------
+
+[INFO] 10:12:52:602 memoria/(3148:3148): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:13:02:030 memoria/(3148:3148): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:13:27:483 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:13:29:486 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:13:39:491 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:13:41:493 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:13:51:500 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:14:03:516 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:14:07:520 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:14:11:522 memoria/(3148:3227): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:18:43:392 memoria/(3148:3227): DISCONNECT!
+[INFO] 10:18:48:894 memoria/(4359:4359): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:18:48:954 memoria/(4359:4359): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:18:48:958 memoria/(4359:4359): ------2---------
+
+[INFO] 10:18:48:960 memoria/(4359:4359): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:18:50:521 memoria/(4359:4359): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:19:05:338 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:19:07:341 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:19:17:348 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:19:19:349 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:19:29:360 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:19:41:387 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:19:45:390 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:19:49:392 memoria/(4359:4405): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:25:12:402 memoria/(4359:4405): DISCONNECT!
+[INFO] 10:25:18:169 memoria/(5164:5164): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:25:18:225 memoria/(5164:5164): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:25:18:228 memoria/(5164:5164): ------2---------
+
+[INFO] 10:25:18:230 memoria/(5164:5164): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:25:19:829 memoria/(5164:5164): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:25:33:324 memoria/(5164:5211): DISCONNECT!
+[INFO] 10:25:55:909 memoria/(5401:5401): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:25:55:968 memoria/(5401:5401): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:25:55:970 memoria/(5401:5401): ------2---------
+
+[INFO] 10:25:55:972 memoria/(5401:5401): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:25:57:481 memoria/(5401:5401): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:26:12:883 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:26:14:885 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:26:24:892 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:26:26:893 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:26:36:899 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:26:48:918 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:26:52:920 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:26:56:923 memoria/(5401:5454): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:30:28:578 memoria/(5401:5454): DISCONNECT!
+[INFO] 10:30:34:773 memoria/(6050:6050): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:30:34:830 memoria/(6050:6050): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:30:34:833 memoria/(6050:6050): ------2---------
+
+[INFO] 10:30:34:835 memoria/(6050:6050): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:30:36:286 memoria/(6050:6050): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:30:50:572 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:30:52:575 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:31:02:590 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:31:04:593 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:31:14:600 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:31:26:616 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:31:30:620 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:31:34:624 memoria/(6050:6096): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:33:12:070 memoria/(6050:6096): DISCONNECT!
+[INFO] 10:33:18:727 memoria/(6525:6525): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:33:18:784 memoria/(6525:6525): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:33:18:787 memoria/(6525:6525): ------2---------
+
+[INFO] 10:33:18:789 memoria/(6525:6525): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:33:20:130 memoria/(6525:6525): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:33:35:350 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:33:37:352 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:33:47:366 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:33:49:368 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:33:59:376 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:34:11:398 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:34:15:402 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:34:19:405 memoria/(6525:6571): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:44:40:905 memoria/(6525:6571): DISCONNECT!
+[INFO] 10:44:46:563 memoria/(7788:7788): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:44:46:620 memoria/(7788:7788): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:44:46:624 memoria/(7788:7788): ------2---------
+
+[INFO] 10:44:46:626 memoria/(7788:7788): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:45:11:979 memoria/(7788:7788): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:45:59:815 memoria/(7788:7921): DISCONNECT!
+[INFO] 10:46:01:478 memoria/(7788:7788): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:46:18:707 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:46:20:709 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:46:30:724 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:46:32:727 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:46:34:728 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:46:42:735 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:46:44:737 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:46:56:756 memoria/(7788:8050): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:47:11:607 memoria/(7788:8050): DISCONNECT!
+[INFO] 10:47:17:580 memoria/(8315:8315): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:47:17:644 memoria/(8315:8315): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:47:17:656 memoria/(8315:8315): ------2---------
+
+[INFO] 10:47:17:659 memoria/(8315:8315): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:47:19:717 memoria/(8315:8315): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:47:34:268 memoria/(8315:8361): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:47:36:270 memoria/(8315:8361): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:47:46:285 memoria/(8315:8361): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:47:48:287 memoria/(8315:8361): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:47:58:297 memoria/(8315:8361): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:48:10:319 memoria/(8315:8361): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:48:14:196 memoria/(8315:8361): DISCONNECT!
+[INFO] 10:48:19:201 memoria/(8591:8591): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:48:19:258 memoria/(8591:8591): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:48:19:261 memoria/(8591:8591): ------2---------
+
+[INFO] 10:48:19:263 memoria/(8591:8591): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:48:20:719 memoria/(8591:8591): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:48:35:525 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:48:37:527 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:48:39:529 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:48:47:541 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:48:49:542 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:48:59:551 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:49:01:556 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:49:15:578 memoria/(8591:8634): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:51:26:640 memoria/(8591:8634): DISCONNECT!
+[INFO] 10:51:31:693 memoria/(9047:9047): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:51:31:751 memoria/(9047:9047): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:51:31:753 memoria/(9047:9047): ------2---------
+
+[INFO] 10:51:31:755 memoria/(9047:9047): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:52:02:868 memoria/(9047:9047): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:52:18:628 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:52:20:630 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:52:30:645 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:52:32:647 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:52:42:655 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:52:54:678 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:52:58:685 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:53:02:696 memoria/(9047:9168): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:53:13:289 memoria/(9047:9168): DISCONNECT!
+[INFO] 10:53:19:667 memoria/(9455:9455): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:53:19:731 memoria/(9455:9455): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:53:19:734 memoria/(9455:9455): ------2---------
+
+[INFO] 10:53:19:736 memoria/(9455:9455): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:53:21:356 memoria/(9455:9455): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:53:36:747 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:53:38:750 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:53:40:753 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:53:48:765 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:53:50:767 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:54:00:778 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:54:02:783 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:54:16:807 memoria/(9455:9495): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:55:13:204 memoria/(9455:9495): DISCONNECT!
+[INFO] 10:55:19:551 memoria/(9829:9829): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:55:19:610 memoria/(9829:9829): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:55:19:613 memoria/(9829:9829): ------2---------
+
+[INFO] 10:55:19:615 memoria/(9829:9829): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:55:23:581 memoria/(9829:9829): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:55:33:311 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:55:39:468 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:55:41:470 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:55:43:475 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:55:53:489 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:55:55:491 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:55:57:496 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:56:11:524 memoria/(9829:9878): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[INFO] 10:59:06:426 memoria/(9829:9878): DISCONNECT!
+[INFO] 10:59:11:691 memoria/(10298:10298): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:59:11:754 memoria/(10298:10298): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:59:11:758 memoria/(10298:10298): ------2---------
+
+[INFO] 10:59:11:761 memoria/(10298:10298): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:59:13:739 memoria/(10298:10298): Cliente conectado (a MEMORIA_SERVER)
+
+[ERROR] 10:59:22:520 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:59:28:699 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:59:30:700 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:59:32:705 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:59:34:708 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:59:36:712 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 10:59:50:737 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+
+[ERROR] 11:00:02:751 memoria/(10298:10341): Te pasaste del grado de multiprogramacion - Incongruencia con Kernel
+

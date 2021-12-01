@@ -1,0 +1,873 @@
+[ERROR] 23:45:39:961 Kernel/(8457:8457): Error al conectar (a Server)
+
+[INFO] 23:47:07:535 Kernel/(8708:8708): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 23:47:07:612 Kernel/(8708:8708): ------2---------
+
+[INFO] 23:47:07:615 Kernel/(8708:8708): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 23:47:19:605 Kernel/(8708:8708): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:47:19:723 Kernel/(8708:8777): HANDSHAKE
+[INFO] 23:47:19:788 Kernel/(8708:8708): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:47:19:831 Kernel/(8708:8779): HANDSHAKE
+[INFO] 23:47:19:876 Kernel/(8708:8708): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:47:19:920 Kernel/(8708:8780): HANDSHAKE
+[INFO] 23:48:18:137 Kernel/(8708:8780): DISCONNECT!
+[INFO] 23:48:18:141 Kernel/(8708:8779): DISCONNECT!
+[INFO] 23:48:18:142 Kernel/(8708:8777): DISCONNECT!
+[INFO] 23:50:40:128 Kernel/(9268:9268): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 23:50:40:217 Kernel/(9268:9268): ------2---------
+
+[INFO] 23:50:40:221 Kernel/(9268:9268): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 23:50:42:336 Kernel/(9268:9268): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:50:42:447 Kernel/(9268:9309): HANDSHAKE
+[INFO] 23:50:42:508 Kernel/(9268:9268): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:50:42:548 Kernel/(9268:9311): HANDSHAKE
+[INFO] 23:50:42:592 Kernel/(9268:9268): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:50:42:625 Kernel/(9268:9312): HANDSHAKE
+[INFO] 23:51:40:843 Kernel/(9268:9312): DISCONNECT!
+[INFO] 23:51:40:848 Kernel/(9268:9311): DISCONNECT!
+[INFO] 23:51:40:849 Kernel/(9268:9309): DISCONNECT!
+[INFO] 23:51:53:935 Kernel/(9607:9607): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 23:51:54:011 Kernel/(9607:9607): ------2---------
+
+[INFO] 23:51:54:015 Kernel/(9607:9607): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 23:51:56:509 Kernel/(9607:9607): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:51:56:612 Kernel/(9607:9649): HANDSHAKE
+[INFO] 23:51:56:673 Kernel/(9607:9607): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:51:56:711 Kernel/(9607:9651): HANDSHAKE
+[INFO] 23:51:56:757 Kernel/(9607:9607): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 23:51:56:790 Kernel/(9607:9652): HANDSHAKE
+[INFO] 23:52:55:024 Kernel/(9607:9652): DISCONNECT!
+[INFO] 23:52:55:029 Kernel/(9607:9651): DISCONNECT!
+[INFO] 23:52:55:029 Kernel/(9607:9649): DISCONNECT!
+[INFO] 10:13:02:068 Kernel/(3223:3223): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:13:02:139 Kernel/(3223:3223): ------2---------
+
+[INFO] 10:13:02:143 Kernel/(3223:3223): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:13:15:003 Kernel/(3223:3223): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:13:15:124 Kernel/(3223:3285): HANDSHAKE
+[INFO] 10:13:15:194 Kernel/(3223:3223): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:13:15:251 Kernel/(3223:3286): HANDSHAKE
+[INFO] 10:13:15:300 Kernel/(3223:3223): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:13:15:383 Kernel/(3223:3287): HANDSHAKE
+[INFO] 10:14:13:629 Kernel/(3223:3287): DISCONNECT!
+[INFO] 10:14:13:633 Kernel/(3223:3286): DISCONNECT!
+[INFO] 10:14:13:633 Kernel/(3223:3285): DISCONNECT!
+[INFO] 10:18:50:553 Kernel/(4402:4402): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:18:50:628 Kernel/(4402:4402): ------2---------
+
+[INFO] 10:18:50:631 Kernel/(4402:4402): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:18:52:946 Kernel/(4402:4402): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:18:53:060 Kernel/(4402:4443): HANDSHAKE
+[INFO] 10:18:53:123 Kernel/(4402:4402): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:18:53:160 Kernel/(4402:4445): HANDSHAKE
+[INFO] 10:18:53:206 Kernel/(4402:4402): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:18:53:243 Kernel/(4402:4446): HANDSHAKE
+[INFO] 10:19:51:495 Kernel/(4402:4446): DISCONNECT!
+[INFO] 10:19:51:499 Kernel/(4402:4445): DISCONNECT!
+[INFO] 10:19:51:500 Kernel/(4402:4443): DISCONNECT!
+[INFO] 10:25:19:860 Kernel/(5208:5208): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:25:19:966 Kernel/(5208:5208): ------2---------
+
+[INFO] 10:25:19:969 Kernel/(5208:5208): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:25:24:754 Kernel/(5208:5208): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:25:24:870 Kernel/(5208:5249): HANDSHAKE
+[INFO] 10:25:24:896 Kernel/(5208:5214): Carpincho: 0 - Estimacion: d
+[INFO] 10:25:24:937 Kernel/(5208:5208): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:25:24:974 Kernel/(5208:5251): HANDSHAKE
+[INFO] 10:25:25:019 Kernel/(5208:5208): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:25:25:057 Kernel/(5208:5252): HANDSHAKE
+[INFO] 10:25:26:994 Kernel/(5208:5214): Carpincho: 2 - Estimacion: d
+[INFO] 10:25:26:994 Kernel/(5208:5214): Carpincho: 1 - Estimacion: d
+[INFO] 10:25:31:943 Kernel/(5208:5252): DISCONNECT!
+[INFO] 10:25:57:520 Kernel/(5445:5445): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:25:57:586 Kernel/(5445:5445): ------2---------
+
+[INFO] 10:25:57:589 Kernel/(5445:5445): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:26:00:493 Kernel/(5445:5445): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:26:00:606 Kernel/(5445:5489): HANDSHAKE
+[INFO] 10:26:00:638 Kernel/(5445:5457): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:26:00:663 Kernel/(5445:5445): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:26:00:707 Kernel/(5445:5491): HANDSHAKE
+[INFO] 10:26:00:754 Kernel/(5445:5445): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:26:00:789 Kernel/(5445:5492): HANDSHAKE
+[INFO] 10:26:02:726 Kernel/(5445:5457): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:26:02:727 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:10:880 Kernel/(5445:5457): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:26:10:880 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:12:884 Kernel/(5445:5457): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:26:12:885 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:22:891 Kernel/(5445:5457): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:26:22:891 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:24:893 Kernel/(5445:5457): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:26:24:893 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:34:898 Kernel/(5445:5457): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:26:34:899 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:36:904 Kernel/(5445:5457): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:26:36:905 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:46:915 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:26:48:918 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:26:52:921 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:26:56:923 Kernel/(5445:5457): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:26:59:005 Kernel/(5445:5492): DISCONNECT!
+[INFO] 10:26:59:010 Kernel/(5445:5491): DISCONNECT!
+[INFO] 10:26:59:011 Kernel/(5445:5489): DISCONNECT!
+[INFO] 10:30:36:318 Kernel/(6093:6093): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:30:36:393 Kernel/(6093:6093): ------2---------
+
+[INFO] 10:30:36:396 Kernel/(6093:6093): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:30:38:172 Kernel/(6093:6093): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:30:38:286 Kernel/(6093:6134): HANDSHAKE
+[INFO] 10:30:38:323 Kernel/(6093:6099): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:30:38:350 Kernel/(6093:6093): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:30:38:389 Kernel/(6093:6136): HANDSHAKE
+[INFO] 10:30:38:433 Kernel/(6093:6093): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:30:38:471 Kernel/(6093:6137): HANDSHAKE
+[INFO] 10:30:40:414 Kernel/(6093:6134): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:30:40:416 Kernel/(6093:6099): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:30:40:416 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:30:48:567 Kernel/(6093:6137): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:30:48:568 Kernel/(6093:6099): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:30:48:568 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:30:50:571 Kernel/(6093:6134): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:30:50:574 Kernel/(6093:6099): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:30:50:574 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:31:00:584 Kernel/(6093:6137): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:31:00:585 Kernel/(6093:6099): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:31:00:586 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:31:02:589 Kernel/(6093:6134): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:31:02:592 Kernel/(6093:6099): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:31:02:592 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:31:12:599 Kernel/(6093:6137): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:31:12:599 Kernel/(6093:6099): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:31:12:600 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:31:14:604 Kernel/(6093:6099): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:31:14:605 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:31:24:614 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:31:24:615 Kernel/(6093:6136): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:31:26:617 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:31:28:619 Kernel/(6093:6136): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:31:30:621 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:31:32:622 Kernel/(6093:6136): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:31:34:624 Kernel/(6093:6099): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:31:36:723 Kernel/(6093:6137): DISCONNECT!
+[INFO] 10:31:36:737 Kernel/(6093:6134): DISCONNECT!
+[INFO] 10:31:36:737 Kernel/(6093:6136): DISCONNECT!
+[INFO] 10:33:20:154 Kernel/(6568:6568): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:33:20:243 Kernel/(6568:6568): ------2---------
+
+[INFO] 10:33:20:246 Kernel/(6568:6568): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:33:22:862 Kernel/(6568:6568): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:33:22:991 Kernel/(6568:6609): HANDSHAKE
+[INFO] 10:33:23:029 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:23:033 Kernel/(6568:6574): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:33:23:034 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:23:059 Kernel/(6568:6568): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:33:23:108 Kernel/(6568:6611): HANDSHAKE
+[INFO] 10:33:23:155 Kernel/(6568:6568): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:33:23:199 Kernel/(6568:6612): HANDSHAKE
+[INFO] 10:33:25:127 Kernel/(6568:6609): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:33:25:130 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:25:130 Kernel/(6568:6574): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:33:25:130 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:33:25:131 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:33:345 Kernel/(6568:6612): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:33:33:346 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:33:346 Kernel/(6568:6574): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:33:33:346 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:33:33:347 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:35:349 Kernel/(6568:6609): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:33:35:352 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:35:352 Kernel/(6568:6574): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:33:35:352 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:33:35:352 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:45:363 Kernel/(6568:6612): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:33:45:364 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:45:364 Kernel/(6568:6574): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:33:45:364 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:33:45:364 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:47:366 Kernel/(6568:6609): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:33:47:367 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:47:368 Kernel/(6568:6574): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:33:47:368 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:33:47:368 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:57:374 Kernel/(6568:6612): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:33:57:375 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:57:375 Kernel/(6568:6574): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:33:57:375 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:33:57:376 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:59:380 Kernel/(6568:6574): ---------------------------
+[INFO] 10:33:59:381 Kernel/(6568:6574): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:33:59:381 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:33:59:381 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:09:394 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:09:395 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:34:09:396 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:09:396 Kernel/(6568:6611): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:34:11:398 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:11:398 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:34:11:399 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:13:400 Kernel/(6568:6611): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:34:15:402 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:15:402 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:34:15:403 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:17:404 Kernel/(6568:6611): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:34:19:405 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:19:406 Kernel/(6568:6574): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:34:19:406 Kernel/(6568:6574): ---------------------------
+[INFO] 10:34:21:491 Kernel/(6568:6612): DISCONNECT!
+[INFO] 10:34:21:495 Kernel/(6568:6611): DISCONNECT!
+[INFO] 10:34:21:496 Kernel/(6568:6609): DISCONNECT!
+[INFO] 10:45:12:003 Kernel/(7917:7917): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:45:12:069 Kernel/(7917:7917): ------2---------
+
+[INFO] 10:45:12:073 Kernel/(7917:7917): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:46:01:492 Kernel/(8048:8048): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:46:01:545 Kernel/(8048:8048): ------2---------
+
+[INFO] 10:46:01:556 Kernel/(8048:8048): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:46:06:311 Kernel/(8048:8048): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:46:06:424 Kernel/(8048:8090): HANDSHAKE
+[INFO] 10:46:06:443 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:06:445 Kernel/(8048:8054): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:46:06:446 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:06:488 Kernel/(8048:8048): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:46:06:529 Kernel/(8048:8092): HANDSHAKE
+[INFO] 10:46:06:575 Kernel/(8048:8048): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:46:06:609 Kernel/(8048:8093): HANDSHAKE
+[INFO] 10:46:08:554 Kernel/(8048:8090): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:46:08:557 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:08:557 Kernel/(8048:8054): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:46:08:557 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:46:08:558 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:16:701 Kernel/(8048:8093): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:46:16:702 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:16:702 Kernel/(8048:8054): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:46:16:703 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:46:16:703 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:18:706 Kernel/(8048:8090): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:46:18:708 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:18:708 Kernel/(8048:8054): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:46:18:708 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:46:18:709 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:28:718 Kernel/(8048:8093): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:46:28:718 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:28:719 Kernel/(8048:8054): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:46:28:719 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:46:28:719 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:30:721 Kernel/(8048:8090): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:46:30:722 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:30:722 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:46:30:722 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:30:723 Kernel/(8048:8092): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:46:30:725 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:30:725 Kernel/(8048:8054): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:46:30:725 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:40:732 Kernel/(8048:8093): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:46:40:733 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:40:733 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:46:40:733 Kernel/(8048:8054): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:46:40:734 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:42:736 Kernel/(8048:8092): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:46:42:736 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:42:736 Kernel/(8048:8054): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:46:42:737 Kernel/(8048:8054): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:46:42:737 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:52:750 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:52:751 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:46:52:751 Kernel/(8048:8054): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:46:52:752 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:54:755 Kernel/(8048:8092): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:46:54:756 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:54:757 Kernel/(8048:8054): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:46:54:757 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:56:763 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:56:763 Kernel/(8048:8054): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:46:56:763 Kernel/(8048:8054): ---------------------------
+[INFO] 10:46:58:836 Kernel/(8048:8093): DISCONNECT!
+[INFO] 10:46:58:840 Kernel/(8048:8092): DISCONNECT!
+[INFO] 10:46:58:840 Kernel/(8048:8090): DISCONNECT!
+[INFO] 10:47:19:746 Kernel/(8360:8360): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:47:19:819 Kernel/(8360:8360): ------2---------
+
+[INFO] 10:47:19:823 Kernel/(8360:8360): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:47:21:876 Kernel/(8360:8360): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:47:21:985 Kernel/(8360:8389): HANDSHAKE
+[INFO] 10:47:22:003 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:22:008 Kernel/(8360:8363): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:47:22:016 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:22:050 Kernel/(8360:8360): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:47:22:092 Kernel/(8360:8390): HANDSHAKE
+[INFO] 10:47:22:138 Kernel/(8360:8360): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:47:22:168 Kernel/(8360:8391): HANDSHAKE
+[INFO] 10:47:24:116 Kernel/(8360:8389): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:47:24:118 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:24:118 Kernel/(8360:8363): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:47:24:119 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:47:24:119 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:32:262 Kernel/(8360:8391): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:47:32:263 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:32:263 Kernel/(8360:8363): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:47:32:264 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:47:32:264 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:34:266 Kernel/(8360:8389): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:47:34:269 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:34:269 Kernel/(8360:8363): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:47:34:269 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:47:34:270 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:44:279 Kernel/(8360:8391): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:47:44:280 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:44:280 Kernel/(8360:8363): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:47:44:281 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:47:44:281 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:46:285 Kernel/(8360:8389): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:47:46:286 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:46:286 Kernel/(8360:8363): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:47:46:286 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:47:46:287 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:56:296 Kernel/(8360:8391): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:47:56:296 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:56:297 Kernel/(8360:8363): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:47:56:297 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:47:56:297 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:58:304 Kernel/(8360:8363): ---------------------------
+[INFO] 10:47:58:304 Kernel/(8360:8363): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:47:58:305 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:47:58:305 Kernel/(8360:8363): ---------------------------
+[INFO] 10:48:08:315 Kernel/(8360:8363): ---------------------------
+[INFO] 10:48:08:316 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:48:08:316 Kernel/(8360:8363): ---------------------------
+[INFO] 10:48:08:317 Kernel/(8360:8390): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:48:10:319 Kernel/(8360:8363): ---------------------------
+[INFO] 10:48:10:319 Kernel/(8360:8363): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:48:10:320 Kernel/(8360:8363): ---------------------------
+[INFO] 10:48:12:322 Kernel/(8360:8390): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:48:13:059 Kernel/(8360:8391): DISCONNECT!
+[INFO] 10:48:13:063 Kernel/(8360:8389): DISCONNECT!
+[INFO] 10:48:20:743 Kernel/(8633:8633): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:48:20:818 Kernel/(8633:8633): ------2---------
+
+[INFO] 10:48:20:821 Kernel/(8633:8633): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:48:23:101 Kernel/(8633:8633): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:48:23:214 Kernel/(8633:8665): HANDSHAKE
+[INFO] 10:48:23:249 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:23:252 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:48:23:255 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:23:257 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:23:257 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:48:23:282 Kernel/(8633:8633): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:48:23:341 Kernel/(8633:8666): HANDSHAKE
+[INFO] 10:48:23:386 Kernel/(8633:8633): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:48:23:422 Kernel/(8633:8667): HANDSHAKE
+[INFO] 10:48:25:367 Kernel/(8633:8665): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:48:25:370 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:25:370 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:48:25:370 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:48:25:371 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:25:371 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:25:371 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:48:33:514 Kernel/(8633:8667): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:48:33:515 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:33:515 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:48:33:515 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:48:33:516 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:33:516 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:33:517 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:48:35:520 Kernel/(8633:8665): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:48:35:520 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:35:521 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:48:35:521 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:35:522 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:35:522 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:48:35:523 Kernel/(8633:8666): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:48:35:527 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:35:527 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:48:35:527 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:35:528 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:35:528 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:48:45:537 Kernel/(8633:8667): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:48:45:537 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:45:537 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:48:45:538 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:48:45:538 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:45:538 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:45:538 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:48:47:541 Kernel/(8633:8666): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:48:47:542 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:47:542 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:48:47:542 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:48:47:542 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:47:543 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:47:543 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:48:57:549 Kernel/(8633:8667): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:48:57:549 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:57:550 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:48:57:550 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:48:57:550 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:57:551 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:57:551 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:48:59:553 Kernel/(8633:8666): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:48:59:554 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:59:555 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:48:59:555 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:48:59:555 Kernel/(8633:8636): ---------------------------
+[INFO] 10:48:59:555 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:48:59:556 Kernel/(8633:8636): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:49:09:566 Kernel/(8633:8636): ---------------------------
+[INFO] 10:49:09:567 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:49:09:567 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:49:09:567 Kernel/(8633:8636): ---------------------------
+[INFO] 10:49:09:568 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:49:09:568 Kernel/(8633:8636): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:49:11:573 Kernel/(8633:8636): ---------------------------
+[INFO] 10:49:11:574 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:49:11:574 Kernel/(8633:8636): ---------------------------
+[INFO] 10:49:11:575 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:49:11:575 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:49:13:577 Kernel/(8633:8665): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:49:15:579 Kernel/(8633:8636): ---------------------------
+[INFO] 10:49:15:579 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:49:15:580 Kernel/(8633:8636): ---------------------------
+[INFO] 10:49:15:580 Kernel/(8633:8636): --------sasasas-------------
+[INFO] 10:49:15:580 Kernel/(8633:8636): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:49:17:669 Kernel/(8633:8667): DISCONNECT!
+[INFO] 10:49:17:676 Kernel/(8633:8666): DISCONNECT!
+[INFO] 10:49:17:677 Kernel/(8633:8665): DISCONNECT!
+[INFO] 10:52:02:895 Kernel/(9167:9167): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:52:02:969 Kernel/(9167:9167): ------2---------
+
+[INFO] 10:52:02:976 Kernel/(9167:9167): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:52:06:218 Kernel/(9167:9167): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:52:06:332 Kernel/(9167:9202): HANDSHAKE
+[INFO] 10:52:06:362 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:06:366 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:52:06:367 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:06:369 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:06:372 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:52:06:403 Kernel/(9167:9167): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:52:06:444 Kernel/(9167:9203): HANDSHAKE
+[INFO] 10:52:06:490 Kernel/(9167:9167): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:52:06:527 Kernel/(9167:9204): HANDSHAKE
+[INFO] 10:52:08:463 Kernel/(9167:9202): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:52:08:465 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:08:466 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:52:08:466 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:08:466 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:08:467 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:08:467 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:52:16:622 Kernel/(9167:9204): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:52:16:623 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:16:623 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:52:16:623 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:16:623 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:16:624 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:16:624 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:52:18:627 Kernel/(9167:9202): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:52:18:629 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:18:629 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:52:18:629 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:18:630 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:18:630 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:18:631 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:52:28:640 Kernel/(9167:9204): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:52:28:641 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:28:641 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:52:28:641 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:28:642 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:28:642 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:28:642 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:52:30:645 Kernel/(9167:9202): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:52:30:646 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:30:647 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:52:30:647 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:30:647 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:30:648 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:30:648 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:52:40:654 Kernel/(9167:9204): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:52:40:655 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:40:655 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:52:40:655 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:40:656 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:40:656 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:40:657 Kernel/(9167:9170): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:52:42:660 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:42:661 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:52:42:661 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:42:662 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:42:664 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:42:664 Kernel/(9167:9170): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:52:52:674 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:52:675 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:52:675 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:52:675 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:52:676 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:52:52:677 Kernel/(9167:9203): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:52:54:680 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:54:680 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:52:54:681 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:54:681 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:54:682 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:52:56:684 Kernel/(9167:9203): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:52:58:686 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:58:686 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:52:58:687 Kernel/(9167:9170): ---------------------------
+[INFO] 10:52:58:687 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:52:58:688 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:53:00:690 Kernel/(9167:9203): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:53:02:697 Kernel/(9167:9170): ---------------------------
+[INFO] 10:53:02:697 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:53:02:698 Kernel/(9167:9170): ---------------------------
+[INFO] 10:53:02:699 Kernel/(9167:9170): --------sasasas-------------
+[INFO] 10:53:02:699 Kernel/(9167:9170): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:53:04:817 Kernel/(9167:9204): DISCONNECT!
+[INFO] 10:53:04:822 Kernel/(9167:9203): DISCONNECT!
+[INFO] 10:53:04:823 Kernel/(9167:9202): DISCONNECT!
+[INFO] 10:53:21:383 Kernel/(9494:9494): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:53:21:454 Kernel/(9494:9494): ------2---------
+
+[INFO] 10:53:21:457 Kernel/(9494:9494): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:53:24:349 Kernel/(9494:9494): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:53:24:457 Kernel/(9494:9530): HANDSHAKE
+[INFO] 10:53:24:479 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:24:488 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:53:24:493 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:24:494 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:24:495 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:53:24:522 Kernel/(9494:9494): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:53:24:559 Kernel/(9494:9531): HANDSHAKE
+[INFO] 10:53:24:606 Kernel/(9494:9494): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:53:24:641 Kernel/(9494:9532): HANDSHAKE
+[INFO] 10:53:26:586 Kernel/(9494:9530): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:53:26:588 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:26:588 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:53:26:589 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:53:26:589 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:26:589 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:26:590 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:53:34:738 Kernel/(9494:9532): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:53:34:738 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:34:739 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:53:34:739 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:53:34:739 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:34:740 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:34:741 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:53:36:743 Kernel/(9494:9530): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:53:36:744 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:36:744 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:53:36:744 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:36:745 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:36:745 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:53:36:746 Kernel/(9494:9531): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:53:36:749 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:36:750 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:53:36:750 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:36:750 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:36:751 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:53:46:759 Kernel/(9494:9532): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:53:46:760 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:46:761 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:53:46:761 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:53:46:761 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:46:762 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:46:762 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:53:48:765 Kernel/(9494:9531): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:53:48:766 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:48:767 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:53:48:767 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:53:48:767 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:48:768 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:48:768 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:53:58:775 Kernel/(9494:9532): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:53:58:776 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:58:776 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:53:58:777 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:53:58:777 Kernel/(9494:9497): ---------------------------
+[INFO] 10:53:58:777 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:53:58:778 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:54:00:779 Kernel/(9494:9531): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:54:00:781 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:00:781 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:54:00:782 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:54:00:782 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:00:782 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:54:00:783 Kernel/(9494:9497): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:54:10:793 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:10:793 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:54:10:794 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:54:10:794 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:10:794 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:54:10:795 Kernel/(9494:9497): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:54:12:801 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:12:802 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:54:12:802 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:12:803 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:54:12:804 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:54:14:806 Kernel/(9494:9530): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:54:16:808 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:16:808 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:54:16:809 Kernel/(9494:9497): ---------------------------
+[INFO] 10:54:16:809 Kernel/(9494:9497): --------sasasas-------------
+[INFO] 10:54:16:810 Kernel/(9494:9497): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:54:18:888 Kernel/(9494:9532): DISCONNECT!
+[INFO] 10:54:18:893 Kernel/(9494:9530): DISCONNECT!
+[INFO] 10:54:18:893 Kernel/(9494:9531): DISCONNECT!
+[INFO] 10:55:23:607 Kernel/(9874:9874): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:55:23:681 Kernel/(9874:9874): ------2---------
+
+[INFO] 10:55:23:685 Kernel/(9874:9874): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:55:27:055 Kernel/(9874:9874): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:55:27:174 Kernel/(9874:9909): HANDSHAKE
+[INFO] 10:55:27:209 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:27:210 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:55:27:211 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:27:215 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:27:215 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:55:27:236 Kernel/(9874:9874): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:55:27:278 Kernel/(9874:9910): HANDSHAKE
+[INFO] 10:55:27:322 Kernel/(9874:9874): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:55:27:364 Kernel/(9874:9911): HANDSHAKE
+[INFO] 10:55:29:298 Kernel/(9874:9909): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:55:29:301 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:29:301 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:55:29:302 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:55:29:302 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:29:303 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:29:303 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:55:29:368 Kernel/(9874:9910): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:55:29:370 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:29:373 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:55:29:373 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:29:375 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:29:376 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:55:37:462 Kernel/(9874:9911): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:55:37:463 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:37:463 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:55:37:463 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:55:37:463 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:37:464 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:37:464 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 14000
+[INFO] 10:55:39:468 Kernel/(9874:9910): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:55:39:469 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:39:469 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:55:39:469 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:55:39:470 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:39:470 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:39:471 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 14006
+[INFO] 10:55:41:474 Kernel/(9874:9909): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:55:41:474 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:41:474 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:55:41:475 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:55:41:475 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:41:475 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:41:476 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 14024
+[INFO] 10:55:51:484 Kernel/(9874:9911): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:55:51:485 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:51:485 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:55:51:486 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:55:51:486 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:51:486 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:51:487 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 32470
+[INFO] 10:55:53:488 Kernel/(9874:9910): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:55:53:490 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:53:491 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:55:53:491 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:55:53:491 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:53:492 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:53:492 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 32512
+[INFO] 10:55:55:494 Kernel/(9874:9909): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:55:55:495 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:55:495 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:55:55:496 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:55:55:496 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:55:496 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:55:497 Kernel/(9874:9880): Carpincho: 1 - Estimacion: 30688
+[INFO] 10:55:57:502 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:57:503 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:55:57:503 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:55:57:504 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:57:504 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:57:504 Kernel/(9874:9880): Carpincho: 0 - Estimacion: 30981
+[INFO] 10:55:59:511 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:59:512 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:55:59:512 Kernel/(9874:9880): ---------------------------
+[INFO] 10:55:59:514 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:55:59:515 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 32662
+[INFO] 10:56:09:521 Kernel/(9874:9911): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:56:11:525 Kernel/(9874:9880): ---------------------------
+[INFO] 10:56:11:525 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:56:11:525 Kernel/(9874:9880): ---------------------------
+[INFO] 10:56:11:526 Kernel/(9874:9880): --------sasasas-------------
+[INFO] 10:56:11:526 Kernel/(9874:9880): Carpincho: 2 - Estimacion: 32055
+[INFO] 10:56:21:610 Kernel/(9874:9911): DISCONNECT!
+[INFO] 10:56:21:614 Kernel/(9874:9910): DISCONNECT!
+[INFO] 10:56:21:616 Kernel/(9874:9909): DISCONNECT!
+[INFO] 10:59:13:772 Kernel/(10337:10337): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:59:13:842 Kernel/(10337:10337): ------2---------
+
+[INFO] 10:59:13:845 Kernel/(10337:10337): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:59:16:258 Kernel/(10337:10337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:59:16:375 Kernel/(10337:10372): HANDSHAKE
+[INFO] 10:59:16:398 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:16:405 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:59:16:410 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:16:412 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:16:415 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 2000
+[INFO] 10:59:16:439 Kernel/(10337:10337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:59:16:480 Kernel/(10337:10373): HANDSHAKE
+[INFO] 10:59:16:527 Kernel/(10337:10337): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:59:16:601 Kernel/(10337:10374): HANDSHAKE
+[INFO] 10:59:18:503 Kernel/(10337:10372): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:59:18:505 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:18:506 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:59:18:506 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:59:18:506 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:18:507 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:18:507 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 2000
+[INFO] 10:59:18:580 Kernel/(10337:10373): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 10:59:18:581 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:18:582 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:59:18:582 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:18:583 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:18:583 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 2000
+[INFO] 10:59:26:694 Kernel/(10337:10374): Estimacion- Carpincho: 2 - Rafaga: 8.000000
+[INFO] 10:59:26:694 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:26:694 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 1400
+[INFO] 10:59:26:695 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 1400
+[INFO] 10:59:26:695 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:26:695 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:26:695 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 1400
+[INFO] 10:59:28:698 Kernel/(10337:10372): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:59:28:700 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:28:700 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 1400
+[INFO] 10:59:28:700 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 1402
+[INFO] 10:59:28:701 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:28:701 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:28:702 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 1400
+[INFO] 10:59:30:703 Kernel/(10337:10373): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:59:30:704 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:30:704 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 980
+[INFO] 10:59:30:705 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 1402
+[INFO] 10:59:30:705 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:30:705 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:30:705 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 980
+[INFO] 10:59:32:707 Kernel/(10337:10372): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 10:59:32:707 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:32:708 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 980
+[INFO] 10:59:32:708 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 1402
+[INFO] 10:59:32:708 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:32:709 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:32:709 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 980
+[INFO] 10:59:34:710 Kernel/(10337:10373): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 10:59:34:711 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:34:711 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 686
+[INFO] 10:59:34:712 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 1402
+[INFO] 10:59:34:712 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:34:712 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:34:713 Kernel/(10337:10343): Carpincho: 0 - Estimacion: 686
+[INFO] 10:59:36:717 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:36:718 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 686
+[INFO] 10:59:36:718 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 1402
+[INFO] 10:59:36:718 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:36:718 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:36:719 Kernel/(10337:10343): Carpincho: 1 - Estimacion: 686
+[INFO] 10:59:38:724 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:38:724 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 1402
+[INFO] 10:59:38:724 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:38:725 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:38:725 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 1402
+[INFO] 10:59:48:736 Kernel/(10337:10374): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 10:59:50:738 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:50:738 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 984
+[INFO] 10:59:50:738 Kernel/(10337:10343): ---------------------------
+[INFO] 10:59:50:739 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 10:59:50:739 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 984
+[INFO] 11:00:00:748 Kernel/(10337:10374): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 11:00:02:751 Kernel/(10337:10343): ---------------------------
+[INFO] 11:00:02:752 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 691
+[INFO] 11:00:02:753 Kernel/(10337:10343): ---------------------------
+[INFO] 11:00:02:753 Kernel/(10337:10343): --------sasasas-------------
+[INFO] 11:00:02:753 Kernel/(10337:10343): Carpincho: 2 - Estimacion: 691
+[INFO] 11:00:12:842 Kernel/(10337:10374): DISCONNECT!
+[INFO] 11:00:12:846 Kernel/(10337:10373): DISCONNECT!
+[INFO] 11:00:12:846 Kernel/(10337:10372): DISCONNECT!
