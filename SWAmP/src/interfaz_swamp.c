@@ -21,6 +21,7 @@ void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
 
         log_error(logger,"El carpincho nro %d no esta en swap",id);
         send_ack(fd,false);
+        usleep(1000*cfg->RETARDO_SWAP);
         return;    
     }
     else{
@@ -29,6 +30,7 @@ void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
 
         if(!list_any_satisfy(tablas_de_frames_swap,(void*)buscar_x_id_y_pagina)){
             log_error(logger,"La pagina nro %d no existe para el carpincho %d",pagina,id);
+            usleep(1000*cfg->RETARDO_SWAP);
             send_ack(fd,false);
             return;
         }
@@ -41,17 +43,20 @@ void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
     }
 
     // Envio que se realizo la escritura
+    usleep(1000*cfg->RETARDO_SWAP);
     send_ack(fd,true);
 }
 
 
 void buscar_frame_en_swap(int fd,unsigned long id, uint32_t nro_pagina, void** data){
     *data = tomar_frame_swap(id,nro_pagina);
+    usleep(1000*cfg->RETARDO_SWAP);
     send_ack(fd,true);
 }
 
 void borrar_carpincho_swap(int fd,unsigned long carpincho_id){
     eliminar_carpincho_de_memoria(carpincho_id);
+    usleep(1000*cfg->RETARDO_SWAP);
     send_ack(fd,true);
 }
 
@@ -132,12 +137,14 @@ void proceder_allocar(int fd,unsigned long id, uint32_t cant_paginas, bool asign
         /* Me fijo si hay espacio */ 
         if(cantidad_de_espacio_swamp_libre(pos_swap) < cfg->TAMANIO_PAGINA * cant_paginas){
             log_error(logger,"No espacio sufieciente en swap para meter %d paginas",cant_paginas);
+            usleep(1000*cfg->RETARDO_SWAP);
             send_ack(fd,false);
             return;
         }
 
         if(asignacion_fija && !hay_marcos_disponibles(id,cant_paginas)){
             log_error(logger,"Se alcanzo la cantidad maxima de marcos por carpincho");
+            usleep(1000*cfg->RETARDO_SWAP);
             send_ack(fd,false);
             return;
         }
@@ -165,6 +172,7 @@ void proceder_allocar(int fd,unsigned long id, uint32_t cant_paginas, bool asign
         
         if(asignacion_fija && !hay_marcos_disponibles(id,cant_paginas)){
             log_error(logger,"Se alcanzo la cantidad maxima de marcos por carpincho");
+            usleep(1000*cfg->RETARDO_SWAP);
             send_ack(fd,false);
             return;
         }
@@ -180,6 +188,7 @@ void proceder_allocar(int fd,unsigned long id, uint32_t cant_paginas, bool asign
         if(cantidad_de_espacio_swamp_libre(frame->nro_swap) < cfg->TAMANIO_PAGINA * cant_paginas){
             list_destroy(aux);
             log_error(logger,"No espacio sufieciente en swap para meter %d paginas",cant_paginas);
+            usleep(1000*cfg->RETARDO_SWAP);
             send_ack(fd,false);
             return;
         }
@@ -201,6 +210,7 @@ void proceder_allocar(int fd,unsigned long id, uint32_t cant_paginas, bool asign
     }
 
     // Envio que se realizo la escritura
+    usleep(1000*cfg->RETARDO_SWAP);
     send_ack(fd,true);
 }
 
@@ -216,6 +226,7 @@ void liberar_marcos(int cliente_socket,unsigned long carpincho_id,uint32_t cant_
 
     if(!list_any_satisfy(tablas_de_frames_swap,(void*)buscar_x_id)){
         log_error(logger,"No esta el carpincho %d en swap",carpincho_id);
+        usleep(1000*cfg->RETARDO_SWAP);
         send_ack(cliente_socket,false);
         return;
     }
@@ -232,6 +243,7 @@ void liberar_marcos(int cliente_socket,unsigned long carpincho_id,uint32_t cant_
 
     if(cant_paginas > pos_ult_pagina + 1){
         log_error(logger,"EL carpincho %d tiene %d paginas y se quiere eliminar %d marcos",carpincho_id,pos_ult_pagina + 1,cant_paginas);
+        usleep(1000*cfg->RETARDO_SWAP);
         send_ack(cliente_socket,false);
         list_destroy(aux);
         return;
@@ -254,5 +266,7 @@ void liberar_marcos(int cliente_socket,unsigned long carpincho_id,uint32_t cant_
     }
 
     list_destroy(aux);
+
+    usleep(1000*cfg->RETARDO_SWAP);
 
 }

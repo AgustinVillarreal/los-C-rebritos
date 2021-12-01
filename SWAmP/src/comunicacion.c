@@ -172,11 +172,13 @@ static void procesar_conexion(void* void_args) {
 
                 if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id, &cant_paginas)) {
                     bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
+                    usleep(1000*cfg->RETARDO_SWAP);
                     send_ack(cliente_socket,respuesta);
                     log_info(logger,"La solicitud se realizo correctamente");
                 }
                 else {
                     log_error(logger, "Error recibiendo ESPACIO_LIBRE en SWAmP");
+                    usleep(1000*cfg->RETARDO_SWAP);
                     send_ack(cliente_socket, false);
                 }
                 break;

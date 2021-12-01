@@ -11,3 +11,7 @@ void destroy_memory_structs(){
     list_destroy(TLB_TABLE);
     list_destroy(CARPINCHOS_TABLE);   
 }
+
+void destroy_tlb_entry(tlb_t* tlb_entry){
+    free(tlb_entry);
+}

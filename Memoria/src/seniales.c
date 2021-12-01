@@ -53,5 +53,5 @@ void dumpear_TLB() {
 }
 
 void borrar_entradas_TLB(){
-    list_clean(TLB_TABLE);
+    list_clean_and_destroy_elements(TLB_TABLE,(void*)destroy_tlb_entry);
 }
