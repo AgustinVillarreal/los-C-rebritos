@@ -871,3 +871,30 @@
 [INFO] 11:00:12:842 Kernel/(10337:10374): DISCONNECT!
 [INFO] 11:00:12:846 Kernel/(10337:10373): DISCONNECT!
 [INFO] 11:00:12:846 Kernel/(10337:10372): DISCONNECT!
+[INFO] 11:03:37:941 Kernel/(11030:11030): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:03:38:021 Kernel/(11030:11030): ------2---------
+
+[INFO] 11:03:38:029 Kernel/(11030:11030): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:03:40:626 Kernel/(11030:11030): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:03:40:746 Kernel/(11030:11065): HANDSHAKE
+[INFO] 11:03:40:811 Kernel/(11030:11030): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:03:40:852 Kernel/(11030:11066): HANDSHAKE
+[INFO] 11:03:40:898 Kernel/(11030:11030): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:03:40:937 Kernel/(11030:11067): HANDSHAKE
+[INFO] 11:03:42:877 Kernel/(11030:11065): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 11:03:42:944 Kernel/(11030:11066): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 11:03:51:034 Kernel/(11030:11067): Estimacion- Carpincho: 2 - Rafaga: 9.000000
+[INFO] 11:03:53:038 Kernel/(11030:11065): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 11:03:55:040 Kernel/(11030:11066): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 11:04:05:054 Kernel/(11030:11067): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 11:04:07:056 Kernel/(11030:11065): Estimacion- Carpincho: 0 - Rafaga: 2.000000
+[INFO] 11:04:09:059 Kernel/(11030:11066): Estimacion- Carpincho: 1 - Rafaga: 2.000000
+[INFO] 11:04:19:066 Kernel/(11030:11067): Estimacion- Carpincho: 2 - Rafaga: 10.000000
+[INFO] 11:04:33:172 Kernel/(11030:11067): DISCONNECT!
+[INFO] 11:04:33:178 Kernel/(11030:11065): DISCONNECT!
+[INFO] 11:04:33:178 Kernel/(11030:11066): DISCONNECT!

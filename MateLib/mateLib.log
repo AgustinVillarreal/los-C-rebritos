@@ -142,3 +142,12 @@
 [INFO] 10:59:16:533 mateLib/(10368:10371): Cliente conectado en 0.0.0.0:6005 (a Server)
 
 [INFO] 10:59:16:600 mateLib/(10368:10371): Handshake
+[INFO] 11:03:40:673 mateLib/(11061:11062): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 11:03:40:748 mateLib/(11061:11062): Handshake
+[INFO] 11:03:40:816 mateLib/(11061:11063): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 11:03:40:852 mateLib/(11061:11063): Handshake
+[INFO] 11:03:40:898 mateLib/(11061:11064): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 11:03:40:936 mateLib/(11061:11064): Handshake

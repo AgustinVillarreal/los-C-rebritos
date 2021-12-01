@@ -15,8 +15,6 @@ extern t_log * logger;
 //TODO ante la duda: extern
 
 double HRRN(t_carpincho* carpincho);
-// void* minima_estimacion(void* carpincho1, void* carpincho2);
-t_carpincho* minimo_HRRN(t_carpincho* carpincho1, t_carpincho* carpincho2);
 void ejecutar_CPU(int numero_CPU);
 
 
