@@ -23,6 +23,8 @@ uint32_t cant_frame_libres_fija(unsigned long id_carpincho);
 uint32_t cant_frame_libres();
 uint32_t buscar_primer_frame_carpincho();
 
+void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica);
+
 uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t** hmd, entrada_tp_t** entrada_tp, uint32_t* direccion_hmd);
 entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina);
 hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carpincho);

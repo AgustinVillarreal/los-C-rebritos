@@ -94,7 +94,24 @@ static void procesar_conexion(void* void_args){
 
                 break;
             case MEM_FREE: ;
-                uint32_t estado_free = liberar_espacio_mp(dir_logic_ini, size); 
+                uint32_t error;
+                uint32_t direccion_logica;
+                uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica); 
+
+                if(!recv_memfree_data(cliente_socket, &id_carpincho, &direccion_logica)){            
+                    log_error(logger, "Error al enviar data para allocar");
+                    // return EXIT_FAILURE;
+                    break;
+                }  
+
+                log_info(logger, "Liberando direccion logica: %d del carpincho: %lu", direccion_logica, id_carpincho);
+                
+                if(!liberar_espacio_mp(id_carpincho, &direccionLogica)){
+                    log_info(logger, "No se puede liberar memoria direccion logica invalida");
+                } 
+
+                send(cliente_socket, &error, sizeof(uint32_t), 0);
+
                 if(estado_free == 0) {
                     log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");
                     send(cliente_socket,&estado_free,sizeof(uint32_t),0);    
@@ -103,19 +120,43 @@ static void procesar_conexion(void* void_args){
                 
                 log_info(logger,"LIBERADO PADRE");
                 break;
-            case MEM_READ: 
-                if(!leer_espacio_mp(dir_logic_ini)){
-                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR LEER LA MEMORIA");
+            case MEM_READ: ; 
+                int size;
+                void* buff;
+                if(!recv_memread_data(cliente_socket, &direccion_logica, &size)){
+                    log_error(logger, "Error al recibir data para leer");
                     break;
                 }
-                log_info(logger,"ANDA A SABER QUE ESTAS QUERIENDO LEER");
+                uint8_t ret_code = read_carpincho(id_carpincho, &buff, size, direccion_logica);
+
+                if (send(cliente_socket, &ret_code, sizeof(uint8_t), 0) == -1){
+                   log_error(logger, "Error al enviar ret_code a cliente desde memread");
+                   break;
+                }
+                
+                if(ret_code){
+                    if(send(cliente_socket, buff, size, 0) == -1){
+                        log_error(logger, "Error al enviar buff a cliente desde memread");
+                        break;
+                    }
+                }
+                free(buff);
                 break;
-            case MEM_WRITE:
-                if(!escribir_espacio_mp(dir_logic_ini)){
-                    log_info(logger,"OCURRIO UN ERROR AL INTENTAR ESCRIBIR LA MEMORIA");   
+            case MEM_WRITE: ;
+                int size_w;
+                void* data;
+                if(!recv_memwrite_data(cliente_socket, &direccion_logica, &data, &size_w)){
+                    log_error(logger, "Error al recibir data para escribir");
                     break;
                 }
-                log_info(logger,"ESCRITO JEFE");
+                uint8_t ret_code_write = write_carpincho(id_carpincho, &data, size_w, direccion_logica);
+
+                if(send(cliente_socket, &ret_code_write, sizeof(uint8_t), 0) == -1){
+                   log_error(logger, "Error al enviar ret_code a cliente desde memwrite");
+                   break;
+                }
+
+                free(data);
                 break;
             //TODO: Liberar cosas aca
             case FREE_CARPINCHO:

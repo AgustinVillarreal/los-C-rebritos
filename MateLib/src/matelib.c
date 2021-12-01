@@ -288,35 +288,75 @@ mate_pointer mate_memalloc(mate_instance *lib_ref, int size){
 	return direccion;
 }
 
-int mate_memfree(mate_instance *lib_ref, mate_pointer addr){
-	mate_inner_structure* inner_structure = lib_ref->group_info;	
+int mate_memfree(mate_instance *lib_ref, uint32_t direccion_logica){
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+	if(!inner_structure->kernel_connected){
+  		send_carpincho_ready(inner_structure->servidor_fd, inner_structure->id);
+	}	
 	if(!send_memfree(inner_structure->servidor_fd)){
 		// data_destroy(IP, PUERTO, cfg);	
-		// log_destroy(logger);	
-		return EXIT_FAILURE;
+		// log_destroy(logger);		
+		return -1;
+	}
+	send_memfree_data(inner_structure->servidor_fd, inner_structure->id, direccion_logica);
+	uint32_t recibido ;
+	recv(inner_structure->servidor_fd, &recibido, sizeof(uint32_t), 0);
+	if(recibido==0){
+		return MATE_FREE_FAULT;
 	}
 	return 0;
 }
 
 int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int size){
+	uint8_t result_code;
 	mate_inner_structure* inner_structure = lib_ref->group_info;		
-	if(!send_memread(inner_structure->servidor_fd)){
+	if(!send_memread(inner_structure->servidor_fd, origin, size)){
 		// data_destroy(IP, PUERTO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
+	if(recv(inner_structure->servidor_fd, &result_code, sizeof(uint8_t), 0) == -1){
+		// free(inner_structure->IP);
+		// free(inner_structure->PUERTO);	
+		log_destroy(inner_structure->logger);	
+		return EXIT_FAILURE;
+	}
+	if(result_code){
+		// dest = malloc(size);
+		if(recv(inner_structure->servidor_fd, dest, size, 0) == -1){
+			// free(inner_structure->IP);
+			// free(inner_structure->PUERTO);	
+			log_destroy(inner_structure->logger);
+			// free(dest);	
+			return EXIT_FAILURE;
+		} 
+	} else {
+		return MATE_READ_FAULT;
+	}
+	// free(dest);	
 	return 0;
 }
 
 
 int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int size){
-	mate_inner_structure* inner_structure = lib_ref->group_info;			
-	if(!send_memwrite(inner_structure->servidor_fd)){
+	uint8_t result_code;
+	mate_inner_structure* inner_structure = lib_ref->group_info;		
+	if(!send_memwrite(inner_structure->servidor_fd, origin, dest, size)){
 		// data_destroy(IP, PUERTO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
-	return 1;
+	if(recv(inner_structure->servidor_fd, &result_code, sizeof(uint8_t), 0) == -1){
+		// free(inner_structure->IP);
+		// free(inner_structure->PUERTO);	
+		log_destroy(inner_structure->logger);	
+		return EXIT_FAILURE;
+	}
+	if(!result_code){
+		return MATE_READ_FAULT;
+	}
+	// free(dest);	
+	return 0;
 }
 
 

@@ -204,6 +204,7 @@ static void procesar_conexion(void* void_args){
 
             case MEM_FREE:
                 send_memfree(memoria_fd);
+                
                 break;
             case MEM_READ:
                 send_memread(memoria_fd);

@@ -17,7 +17,7 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -52,6 +52,9 @@ bool send_codigo_op(int fd, op_code cop);
 bool send_alloc_data(int fd, unsigned long id, int size);
 bool recv_alloc_data(int fd, long* id_carpincho, int* size_data);
 
+bool send_memfree_data(int fd, unsigned long id, uint32_t direccion_logica);
+bool recv_memfree_data(int fd, long* id_carpincho, uint32_t* direccion_logica);
+
 bool send_data_mate_init(int fd, unsigned long id);
 
 //SEMAFOROS
@@ -68,9 +71,12 @@ bool send_io(int fd, char* io, char* msg);
 bool send_probar_en_swamp(uint32_t size, unsigned long id);
 bool send_handshake(int fd_server);
 bool send_memalloc(int fd_server);
-bool send_memwrite(int fd_server);
-bool send_memread(int fd_server);
+bool send_memread(int fd_server, uint32_t direccion_logica, int size);
+bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int size);
 bool send_memfree(int fd_server);
+
+bool recv_memread_data(int fd, uint32_t* direccion_logica, int* size);
+bool recv_memwrite_data(int fd, uint32_t* direccion_logica, void** data, int* size);
 
 bool send_ack(int fd, bool ack);
 bool recv_ack(int fd, bool* ack);
