@@ -68,5 +68,4 @@ t_list* CARPINCHOS_TABLE;
 
 void init_memory_structs();
 void destroy_memory_structs();
-void destroy_tlb_entry(tlb_t* tlb_entry);
 #endif

@@ -25324,3 +25324,440 @@ Entrada:3	Estado:Ocupado	Carpincho: 0	Pagina: 6	Marco: 6
 [INFO] 15:11:32:624 memoria/(27303:27303): Cantidad TLB Miss totales: 0
 [INFO] 15:11:32:625 memoria/(27303:27303): Carpincho: 0 - Cantidad Hits: 1
 [INFO] 15:11:32:627 memoria/(27303:27303): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 18:27:19:373 memoria/(4638:4638): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:27:19:584 memoria/(4638:4638): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:27:19:592 memoria/(4638:4638): ------2---------
+
+[INFO] 18:27:19:596 memoria/(4638:4638): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:27:38:216 memoria/(4638:4638): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:27:38:346 memoria/(4638:4684): HANDSHAKE
+[INFO] 18:27:38:418 memoria/(4638:4684): Alocando size: 14 del carpincho: 0
+[INFO] 18:27:38:422 memoria/(4638:4684): Antes del if de swap
+[INFO] 18:27:38:942 memoria/(4638:4684): El frame es el 0 
+
+[INFO] 18:27:38:976 memoria/(4638:4684): Allocando todo el hmd en 0
+
+[INFO] 18:27:38:991 memoria/(4638:4684): Alocando size: 25 del carpincho: 0
+[INFO] 18:27:39:480 memoria/(4638:4684): El frame es el 1 
+
+[INFO] 18:27:39:491 memoria/(4638:4684): El frame es el 2 
+
+[INFO] 18:27:39:555 memoria/(4638:4684): DISCONNECT!
+[INFO] 18:29:00:022 memoria/(4638:4638): Senial SIGUSR1
+[INFO] 18:29:00:027 memoria/(4638:4638): -------------
+[INFO] 18:29:00:029 memoria/(4638:4638): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 18:29:00.tlb
+[INFO] 18:29:00:039 memoria/(4638:4638): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 18:29:00
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 0	Marco: 0
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 1	Marco: 1
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 2	MarEntrada:3	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:4	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:5	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:6	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:7	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:8	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:9	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+
+--------------------------------------------------
+
+[INFO] 18:31:10:565 memoria/(4638:4638): Senial SIGINT
+[INFO] 18:31:10:566 memoria/(4638:4638): -------------
+[INFO] 18:31:10:567 memoria/(4638:4638): Cantidad TLB Hits totales: 1
+[INFO] 18:31:10:568 memoria/(4638:4638): Cantidad TLB Miss totales: 0
+[INFO] 18:31:10:569 memoria/(4638:4638): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 18:31:10:571 memoria/(4638:4638): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 18:31:12:241 memoria/(4892:4892): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 18:31:12:316 memoria/(4892:4892): Error al conectar (a Server)
+
+[INFO] 18:31:28:625 memoria/(4983:4983): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:31:28:722 memoria/(4983:4983): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:31:28:726 memoria/(4983:4983): ------2---------
+
+[INFO] 18:31:28:728 memoria/(4983:4983): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:31:33:744 memoria/(4983:4983): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:31:33:870 memoria/(4983:5015): HANDSHAKE
+[INFO] 18:31:33:939 memoria/(4983:5015): Alocando size: 14 del carpincho: 0
+[INFO] 18:31:33:946 memoria/(4983:5015): Antes del if de swap
+[INFO] 18:31:34:466 memoria/(4983:5015): El frame es el 0 
+
+[INFO] 18:31:34:493 memoria/(4983:5015): Allocando todo el hmd en 0
+
+[INFO] 18:31:34:496 memoria/(4983:5015): Alocando size: 25 del carpincho: 0
+[INFO] 18:31:34:999 memoria/(4983:5015): El frame es el 1 
+
+[INFO] 18:31:35:009 memoria/(4983:5015): El frame es el 2 
+
+[INFO] 18:31:35:080 memoria/(4983:5015): DISCONNECT!
+[INFO] 18:31:41:361 memoria/(4983:4983): Senial SIGUSR1
+[INFO] 18:31:41:364 memoria/(4983:4983): -------------
+[INFO] 18:31:41:367 memoria/(4983:4983): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 18:31:41.tlb
+[INFO] 18:31:41:382 memoria/(4983:4983): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 18:31:41
+Entrada:0	Estado:Ocupado	Carpincho: 0	Pagina: 0	Marco: 0
+Entrada:1	Estado:Ocupado	Carpincho: 0	Pagina: 1	Marco: 1
+Entrada:2	Estado:Ocupado	Carpincho: 0	Pagina: 2	MarEntrada:3	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:4	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:5	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:6	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:7	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:8	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:9	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+
+--------------------------------------------------
+
+[INFO] 18:32:36:999 memoria/(4983:4983): Senial SIGUSR2
+[INFO] 18:32:37:000 memoria/(4983:4983): -------------
+[INFO] 18:32:43:591 memoria/(4983:4983): Senial SIGUSR1
+[INFO] 18:32:43:592 memoria/(4983:4983): -------------
+[INFO] 18:32:43:592 memoria/(4983:4983): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 18:32:43.tlb
+[INFO] 18:32:43:595 memoria/(4983:4983): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 18:32:43
+Entrada:0	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:1	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:2	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:3	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:4	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:5	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:6	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:7	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:8	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+Entrada:9	Estado:Libre	Carpincho: -	Pagina: -	Marco: -
+
+--------------------------------------------------
+
+[INFO] 18:35:18:801 memoria/(4983:4983): Senial SIGINT
+[INFO] 18:35:18:826 memoria/(4983:4983): -------------
+[INFO] 18:35:18:836 memoria/(4983:4983): Cantidad TLB Hits totales: 1
+[INFO] 18:35:18:846 memoria/(4983:4983): Cantidad TLB Miss totales: 0
+[INFO] 18:35:18:852 memoria/(4983:4983): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 18:35:18:866 memoria/(4983:4983): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 18:42:27:651 memoria/(5341:5341): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:42:27:725 memoria/(5341:5341): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:42:27:729 memoria/(5341:5341): ------2---------
+
+[INFO] 18:42:27:733 memoria/(5341:5341): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:42:30:807 memoria/(5341:5341): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:42:30:919 memoria/(5341:5362): HANDSHAKE
+[INFO] 18:42:30:985 memoria/(5341:5362): Alocando size: 14 del carpincho: 0
+[INFO] 18:42:30:988 memoria/(5341:5362): Antes del if de swap
+[INFO] 18:42:31:509 memoria/(5341:5362): El frame es el 0 
+
+[INFO] 18:42:31:534 memoria/(5341:5362): Allocando todo el hmd en 0
+
+[INFO] 18:42:31:559 memoria/(5341:5362): Alocando size: 25 del carpincho: 0
+[INFO] 18:42:32:048 memoria/(5341:5362): El frame es el 1 
+
+[INFO] 18:42:32:081 memoria/(5341:5362): El frame es el 2 
+
+[INFO] 18:42:32:197 memoria/(5341:5362): DISCONNECT!
+[INFO] 18:42:47:337 memoria/(5341:5341): Senial SIGUSR1
+[INFO] 18:42:47:340 memoria/(5341:5341): -------------
+[INFO] 18:42:47:345 memoria/(5341:5341): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 18:42:47.tlb
+[INFO] 18:42:47:365 memoria/(5341:5341): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 18:42:47
+Entrada:  0	Estado:Ocupado	Carpincho:   0	Pagina:   0	Marco:   0
+
+--------------------------------------------------
+
+[INFO] 18:44:49:056 memoria/(5341:5341): Senial SIGINT
+[INFO] 18:44:49:057 memoria/(5341:5341): -------------
+[INFO] 18:44:49:059 memoria/(5341:5341): Cantidad TLB Hits totales: 1
+[INFO] 18:44:49:059 memoria/(5341:5341): Cantidad TLB Miss totales: 0
+[INFO] 18:44:49:061 memoria/(5341:5341): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 18:44:49:063 memoria/(5341:5341): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 18:44:51:298 memoria/(5482:5482): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 18:44:51:405 memoria/(5482:5482): Error al conectar (a Server)
+
+[INFO] 18:44:57:432 memoria/(5558:5558): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:44:57:569 memoria/(5558:5558): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:44:57:582 memoria/(5558:5558): ------2---------
+
+[INFO] 18:44:57:589 memoria/(5558:5558): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:45:05:449 memoria/(5558:5558): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:45:05:574 memoria/(5558:5581): HANDSHAKE
+[INFO] 18:45:05:643 memoria/(5558:5581): Alocando size: 14 del carpincho: 0
+[INFO] 18:45:05:647 memoria/(5558:5581): Antes del if de swap
+[INFO] 18:45:06:165 memoria/(5558:5581): El frame es el 0 
+
+[INFO] 18:45:06:182 memoria/(5558:5581): Allocando todo el hmd en 0
+
+[INFO] 18:45:06:188 memoria/(5558:5581): Alocando size: 25 del carpincho: 0
+[INFO] 18:45:06:693 memoria/(5558:5581): El frame es el 1 
+
+[INFO] 18:45:06:706 memoria/(5558:5581): El frame es el 2 
+
+[INFO] 18:45:06:808 memoria/(5558:5581): DISCONNECT!
+[INFO] 18:45:22:952 memoria/(5558:5558): Senial SIGUSR1
+[INFO] 18:45:22:955 memoria/(5558:5558): -------------
+[INFO] 18:45:22:957 memoria/(5558:5558): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 18:45:22.tlb
+[INFO] 18:45:22:965 memoria/(5558:5558): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 18:45:22
+Entrada:  0	Estado:Ocupado	Carpincho:   0	Pagina:   0	Marco:   0
+
+--------------------------------------------------
+
+[INFO] 18:46:04:758 memoria/(5558:5558): Senial SIGINT
+[INFO] 18:46:04:759 memoria/(5558:5558): -------------
+[INFO] 18:46:04:760 memoria/(5558:5558): Cantidad TLB Hits totales: 1
+[INFO] 18:46:04:762 memoria/(5558:5558): Cantidad TLB Miss totales: 0
+[INFO] 18:46:04:764 memoria/(5558:5558): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 18:46:04:766 memoria/(5558:5558): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 18:46:11:069 memoria/(5700:5700): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:46:11:310 memoria/(5700:5700): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:46:11:320 memoria/(5700:5700): ------2---------
+
+[INFO] 18:46:11:323 memoria/(5700:5700): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:46:20:423 memoria/(5700:5700): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:46:20:532 memoria/(5700:5721): HANDSHAKE
+[INFO] 18:46:20:597 memoria/(5700:5721): Alocando size: 14 del carpincho: 0
+[INFO] 18:46:20:600 memoria/(5700:5721): Antes del if de swap
+[INFO] 18:46:21:113 memoria/(5700:5721): El frame es el 0 
+
+[INFO] 18:46:21:121 memoria/(5700:5721): Allocando todo el hmd en 0
+
+[INFO] 18:46:21:133 memoria/(5700:5721): Alocando size: 25 del carpincho: 0
+[INFO] 18:46:21:652 memoria/(5700:5721): El frame es el 1 
+
+[INFO] 18:46:21:660 memoria/(5700:5721): El frame es el 2 
+
+[INFO] 18:46:21:752 memoria/(5700:5721): DISCONNECT!
+[INFO] 18:46:25:028 memoria/(5700:5700): Senial SIGUSR1
+[INFO] 18:46:25:031 memoria/(5700:5700): -------------
+[INFO] 18:46:25:034 memoria/(5700:5700): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 18:46:25.tlb
+[INFO] 18:46:25:044 memoria/(5700:5700): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 18:46:25
+Entrada:  0	Estado:Ocupado	Carpincho:   0	Pagina:   0	Marco:   0
+
+--------------------------------------------------
+
+[INFO] 18:50:14:280 memoria/(5700:5700): Senial SIGINT
+[INFO] 18:50:14:280 memoria/(5700:5700): -------------
+[INFO] 18:50:14:281 memoria/(5700:5700): Cantidad TLB Hits totales: 1
+[INFO] 18:50:14:281 memoria/(5700:5700): Cantidad TLB Miss totales: 0
+[INFO] 18:50:14:282 memoria/(5700:5700): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 18:50:14:283 memoria/(5700:5700): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 18:50:18:168 memoria/(5936:5936): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:50:18:264 memoria/(5936:5936): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 18:50:18:282 memoria/(5936:5936): ------2---------
+
+[INFO] 18:50:18:290 memoria/(5936:5936): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 18:50:25:502 memoria/(5936:5936): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 18:50:25:606 memoria/(5936:5957): HANDSHAKE
+[INFO] 18:50:25:690 memoria/(5936:5957): Alocando size: 14 del carpincho: 0
+[INFO] 18:50:25:697 memoria/(5936:5957): Antes del if de swap
+[INFO] 18:50:26:238 memoria/(5936:5957): El frame es el 0 
+
+[INFO] 18:50:26:278 memoria/(5936:5957): Allocando todo el hmd en 0
+
+[INFO] 18:50:26:281 memoria/(5936:5957): Alocando size: 25 del carpincho: 0
+[INFO] 18:50:26:792 memoria/(5936:5957): El frame es el 1 
+
+[INFO] 18:50:26:803 memoria/(5936:5957): El frame es el 2 
+
+[INFO] 18:50:26:864 memoria/(5936:5957): DISCONNECT!
+[INFO] 18:50:29:334 memoria/(5936:5936): Senial SIGUSR1
+[INFO] 18:50:29:336 memoria/(5936:5936): -------------
+[INFO] 18:50:29:339 memoria/(5936:5936): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 18:50:29.tlb
+[INFO] 18:50:29:348 memoria/(5936:5936): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 18:50:29
+Entrada:   0  Estado: Ocupado  Carpincho:   0  Pagina:   0  Marco:   0
+
+--------------------------------------------------
+
+[INFO] 19:31:27:006 memoria/(5936:5936): Senial SIGINT
+[INFO] 19:31:27:011 memoria/(5936:5936): -------------
+[INFO] 19:31:27:014 memoria/(5936:5936): Cantidad TLB Hits totales: 1
+[INFO] 19:31:27:016 memoria/(5936:5936): Cantidad TLB Miss totales: 0
+[INFO] 19:31:27:018 memoria/(5936:5936): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 19:31:27:020 memoria/(5936:5936): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 19:31:42:513 memoria/(6946:6946): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:31:42:620 memoria/(6946:6946): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:31:42:628 memoria/(6946:6946): ------2---------
+
+[INFO] 19:31:42:630 memoria/(6946:6946): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:31:46:205 memoria/(6946:6946): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:31:46:314 memoria/(6946:6967): HANDSHAKE
+[INFO] 19:31:46:374 memoria/(6946:6967): Alocando size: 14 del carpincho: 0
+[INFO] 19:31:46:377 memoria/(6946:6967): Antes del if de swap
+[INFO] 19:31:46:894 memoria/(6946:6967): El frame es el 0 
+
+[INFO] 19:31:46:923 memoria/(6946:6967): Allocando todo el hmd en 0
+
+[INFO] 19:31:46:927 memoria/(6946:6967): Alocando size: 25 del carpincho: 0
+[INFO] 19:31:47:424 memoria/(6946:6967): El frame es el 1 
+
+[INFO] 19:31:47:427 memoria/(6946:6967): El frame es el 2 
+
+[INFO] 19:31:47:488 memoria/(6946:6967): DISCONNECT!
+[INFO] 19:32:24:533 memoria/(6946:6946): Senial SIGUSR1
+[INFO] 19:32:24:535 memoria/(6946:6946): -------------
+[INFO] 19:32:24:538 memoria/(6946:6946): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 19:32:24.tlb
+[INFO] 19:32:24:544 memoria/(6946:6946): strlen: 71
+[INFO] 19:32:24:547 memoria/(6946:6946): strlen: 71
+[INFO] 19:32:24:548 memoria/(6946:6946): strlen: 71
+[INFO] 19:32:24:551 memoria/(6946:6946): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 19:32:24
+Entrada:   0  Estado: Ocupado  Carpincho:   0  Pagina:   0  Marco:   0
+
+--------------------------------------------------
+
+[INFO] 19:33:08:785 memoria/(6946:6946): Senial SIGINT
+[INFO] 19:33:08:787 memoria/(6946:6946): -------------
+[INFO] 19:33:08:789 memoria/(6946:6946): Cantidad TLB Hits totales: 1
+[INFO] 19:33:08:791 memoria/(6946:6946): Cantidad TLB Miss totales: 0
+[INFO] 19:33:08:793 memoria/(6946:6946): Carpincho: 0 - Cantidad Hits: 1
+[INFO] 19:33:08:797 memoria/(6946:6946): Carpincho: 0 - Cantidad Miss: 0
+[INFO] 19:33:19:038 memoria/(7102:7102): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:33:19:199 memoria/(7102:7102): Cliente conectado en 127.0.0.3:5005 (a Server)
+
+[INFO] 19:33:19:206 memoria/(7102:7102): ------2---------
+
+[INFO] 19:33:19:209 memoria/(7102:7102): Escuchando en 127.0.0.1:5001 (MEMORIA_SERVER)
+
+[INFO] 19:33:21:309 memoria/(7102:7102): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:33:21:419 memoria/(7102:7123): HANDSHAKE
+[INFO] 19:33:21:474 memoria/(7102:7123): Alocando size: 14 del carpincho: 0
+[INFO] 19:33:21:478 memoria/(7102:7123): Antes del if de swap
+[INFO] 19:33:21:992 memoria/(7102:7123): El frame es el 0 
+
+[INFO] 19:33:22:002 memoria/(7102:7123): Allocando todo el hmd en 0
+
+[INFO] 19:33:22:017 memoria/(7102:7123): Alocando size: 25 del carpincho: 0
+[INFO] 19:33:22:528 memoria/(7102:7123): El frame es el 1 
+
+[INFO] 19:33:22:542 memoria/(7102:7123): El frame es el 2 
+
+[INFO] 19:33:22:607 memoria/(7102:7123): DISCONNECT!
+[INFO] 19:33:32:823 memoria/(7102:7102): Senial SIGUSR1
+[INFO] 19:33:32:826 memoria/(7102:7102): -------------
+[INFO] 19:33:32:831 memoria/(7102:7102): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 19:33:32.tlb
+[INFO] 19:33:32:837 memoria/(7102:7102): strlen: 71
+[INFO] 19:33:32:845 memoria/(7102:7102): strlen: 71
+[INFO] 19:33:32:846 memoria/(7102:7102): strlen: 71
+[INFO] 19:33:32:851 memoria/(7102:7102): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 19:33:32
+Entrada:   0  Estado: Ocupado  Carpincho:   0  Pagina:   0  Marco:   0
+Entrada:   1  Estado: Ocupado  Carpincho:   0  Pagina:   1  Marco:   1
+Entrada:   2  Estado: Ocupado  Carpincho:   0  Pagina:   2  Marco:   2
+Entrada:   3  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   4  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   5  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   6  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   7  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   8  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   9  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  10  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  11  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  12  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  13  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  14  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  15  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  16  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  17  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  18  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  19  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  20  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  21  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  22  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  23  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  24  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  25  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  26  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  27  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  28  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  29  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  30  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  31  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  32  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  33  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  34  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  35  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  36  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  37  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  38  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  39  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+
+--------------------------------------------------
+
+[INFO] 19:34:10:381 memoria/(7102:7102): Senial SIGUSR2
+[INFO] 19:34:10:382 memoria/(7102:7102): -------------
+[INFO] 19:34:12:552 memoria/(7102:7102): Senial SIGUSR1
+[INFO] 19:34:12:553 memoria/(7102:7102): -------------
+[INFO] 19:34:12:553 memoria/(7102:7102): DATA: /home/utnso/dumps/tlb/Dump_03-12-21 19:34:12.tlb
+[INFO] 19:34:12:555 memoria/(7102:7102): DATA: 
+--------------------------------------------------
+Dump: 03-12-21 19:34:12
+Entrada:   0  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   1  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   2  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   3  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   4  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   5  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   6  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   7  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   8  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:   9  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  10  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  11  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  12  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  13  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  14  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  15  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  16  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  17  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  18  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  19  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  20  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  21  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  22  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  23  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  24  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  25  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  26  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  27  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  28  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  29  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  30  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  31  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  32  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  33  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  34  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  35  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  36  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  37  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  38  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+Entrada:  39  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  
+
+--------------------------------------------------
+

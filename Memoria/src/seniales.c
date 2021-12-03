@@ -43,7 +43,6 @@ void dumpear_TLB() {
 
     goto fallecer;
     fallecer:
-        fclose(dump_file);
         free(timestamp);
         free(filename);
         free(str_tlb);
@@ -53,5 +52,8 @@ void dumpear_TLB() {
 }
 
 void borrar_entradas_TLB(){
+    void destroy_tlb_entry(tlb_t* tlb_entry){
+        free(tlb_entry);
+    }
     list_clean_and_destroy_elements(TLB_TABLE,(void*)destroy_tlb_entry);
 }

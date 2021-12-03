@@ -275,7 +275,7 @@ t_list* paginas_presentes_dinamica(){
 
 
 char* stringify_tlb() {
-    const uint32_t size_line = 70; // sin el \0
+    const uint32_t size_line = 71; // sin el \0
     int i = 0;
     pthread_mutex_lock(&MUTEX_TLB_BUSY);
     uint32_t cant_entradas_tlb_actual = list_size(TLB_TABLE);
@@ -287,14 +287,15 @@ char* stringify_tlb() {
     for ( ; list_iterator_has_next(i_tlb_entrada); i++) {
         tlb_t* entrada = list_iterator_next(i_tlb_entrada);
         char* line = entrada_tlb_a_string_de_dump(entrada, i, true);
-        memcpy(str+strlen(line)*i, line, strlen(line)); // sin el \0
+        log_info(logger, "strlen: %d", strlen(line));
+        memcpy(str + size_line * i, line, size_line); // sin el \0
         free(line);
     }
     list_iterator_destroy(i_tlb_entrada);
     pthread_mutex_unlock(&MUTEX_TLB_BUSY);
     for (; i < MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB ; i++) {
         char* line = entrada_tlb_a_string_de_dump(NULL, i, false);
-        memcpy(str+strlen(line)*i, line, strlen(line)); // sin el \0
+        memcpy(str + size_line * i, line, size_line); // sin el \0
         free(line);
     }
     return str;
@@ -304,12 +305,12 @@ char* entrada_tlb_a_string_de_dump(tlb_t* entrada, int nro_entrada, bool ocupado
     char* str;
     if(ocupado){
         str = string_from_format(
-            "Entrada:%d	Estado:Ocupado	Carpincho: %lu	Pagina: %d	Marco: %d\n",
+            "Entrada: %3d  Estado: Ocupado  Carpincho: %3lu  Pagina: %3d  Marco: %3d\n",
             nro_entrada, entrada->id_carpincho, entrada->entrada_tp->nro_pagina, entrada->entrada_tp->nro_frame 
         );
     } else {
         str = string_from_format(
-            "Entrada:%d	Estado:Libre	Carpincho: -	Pagina: -	Marco: -\n",
+            "Entrada: %3d  Estado: Libre    Carpincho: -    Pagina: -    Marco: -  \n",
             nro_entrada
         );        
     }
