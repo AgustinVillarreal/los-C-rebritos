@@ -18,7 +18,7 @@ int main(){
     logger = log_create("Kernel.log", "Kernel", true, LOG_LEVEL_INFO);
     //TODO: Ver donde liberar esta memoria
     COLA_NEW               = queue_create();
-    COLA_READY             = queue_create();
+    LISTA_READY             = list_create();
     COLA_EXIT              = queue_create();
     COLA_SUSPENDED_READY   = queue_create();
     LISTA_SUSPENDED_BLOCKED = list_create();

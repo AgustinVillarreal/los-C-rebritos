@@ -34,5 +34,6 @@ void escribir_en_mp(hmd_t* hmd, size_t size, entrada_tp_t* entrada_tp, uint32_t 
 
 bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd_final, entrada_tp_t* entrada_tp, uint32_t direccion_ultimo_hmd, size_t size, int swap_fd);
 entrada_tp_t* crear_nueva_pagina(unsigned long id_carpincho);
+void swapear_pagina(unsigned long id, int fd, uint32_t nro_pagina, uint32_t* nro_frame);
 
 #endif

@@ -46,6 +46,9 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho, t_semaforo** sem_wait)
     }
     *sem_wait = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
 
+    log_info(logger, "size sem %d", list_size(LISTA_SEMAFOROS));
+    
+
     (*sem_wait)->value --;
     if((*sem_wait)->value < 0){
         queue_push((*sem_wait)->COLA_BLOQUEADOS, carpincho);
@@ -53,6 +56,7 @@ int sem_wait_carpincho(char* sem, t_carpincho* carpincho, t_semaforo** sem_wait)
         add_lista_blocked(carpincho);
         carpincho_blocked = true;
     }
+    log_info(logger, "id_carpincho :%lu  ---- (*sem_wait)->value: %d", carpincho->id, (*sem_wait)->value);
     pthread_mutex_unlock(&MUTEX_LISTA_SEMAFOROS);
     if(carpincho_blocked){
 		sem_post(&SEM_CPUs[carpincho->cpu_asignada]);		        
@@ -76,8 +80,10 @@ int sem_post_carpincho(char* sem_name_post){
         return -1;
     }
     t_semaforo* sem_post_c = list_find(LISTA_SEMAFOROS, existe_semaforo_nombre);
+    sem_post_c->carpincho_asignado = NULL;
+    log_info(logger, "Semaforo: %s", sem_name_post);
     sem_post_c->value ++;
-    if(sem_post_c->value <= 0){
+    if(sem_post_c->value <= 0 && !list_is_empty((sem_post_c->COLA_BLOQUEADOS)->elements)){
         carpincho = queue_pop(sem_post_c->COLA_BLOQUEADOS);
         desbloquea_carpincho = true;
         //TODO: ver si es Region critica

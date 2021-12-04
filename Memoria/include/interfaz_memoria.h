@@ -20,4 +20,6 @@ void mate_init(unsigned long id);
 uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logica, int swap_fd);
 bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32_t direccion_logica);
 bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32_t direccion_logica);
+void suspender_carpincho(unsigned long id, int fd);
+
 #endif

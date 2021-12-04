@@ -24,6 +24,7 @@ uint32_t cant_frame_libres(){
 }
 
 
+
 // Se busca y se ocupa el frame
 uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho){
     uint32_t nro_frame = 0xFFFF;
@@ -130,6 +131,16 @@ uint32_t cant_paginas_relativa(uint32_t posicion, size_t size){
     return cant_paginas;
 }
 
+//La diferencia es que no actualiza los bits pq se usa para swapear
+void lectura_pagina_completa(entrada_tp_t* entrada_tp, void* destino){
+  //leer de memoria principal
+  pthread_mutex_lock(&MUTEX_MP_BUSY);
+  memcpy(destino, (void*) (memoria_principal + entrada_tp->nro_frame * MEMORIA_CFG->TAMANIO_PAGINA), MEMORIA_CFG->TAMANIO_PAGINA);
+  pthread_mutex_unlock(&MUTEX_MP_BUSY);
+  //TODO: Comento este log porque estaba tirando error de valgrind
+  //log_info(logger, "aaaa: %s", (char*) destino);
+}
+
 void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size){
   //leer de memoria principal
   actualizar_bits(entrada_tp, false);
@@ -148,3 +159,19 @@ void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset
   pthread_mutex_unlock(&MUTEX_MP_BUSY);
 }
 
+bool no_tiene_frames(unsigned long id){
+    for(uint32_t i = 0; i <  MEMORIA_CFG->CANT_PAGINAS ; i++){
+        if(tabla_frames[i].ocupado && tabla_frames[i].id_carpincho == id){
+            return true;
+        }
+    }
+    return false;
+}
+
+void suspender_frame(uint32_t nro_frame){
+    pthread_mutex_lock(&MUTEX_FRAMES_BUSY);        
+    tabla_frames[nro_frame].id_carpincho = -1;
+    tabla_frames[nro_frame].ocupado = 0;
+    tabla_frames[nro_frame].libre = 1; 
+    pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);    
+}

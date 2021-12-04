@@ -59,7 +59,9 @@ uint16_t calcular_estimacion(t_carpincho* carpincho){
 
   double alfa = KERNEL_CFG->ALFA;
 
-  return (alfa*rafaga + (1-alfa)*carpincho->ultima_estimacion)*10;
+  log_info(logger, "Estimacion- Carpincho: %lu - Rafaga: %f", carpincho->id, rafaga);
+
+  return (alfa*rafaga + (1-alfa)*carpincho->ultima_estimacion);
 }
 
 
@@ -146,7 +148,8 @@ void* remover_cola_suspended_ready(unsigned long tid){
 
 void push_cola_ready(t_carpincho* carpincho){
   pthread_mutex_lock(&MUTEX_LISTA_READY);
-  queue_push(COLA_READY, carpincho);
+  // queue_push(LISTA_READY, carpincho);
+  list_add(LISTA_READY, carpincho);
   carpincho->tiempo_ingreso_ready = time(NULL);  
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
   send_carpincho_ready(KERNEL_CFG->MEMORIA_FD, carpincho->id);
@@ -155,7 +158,7 @@ void push_cola_ready(t_carpincho* carpincho){
 
 uint16_t largo_cola_ready() {
   pthread_mutex_lock(&MUTEX_LISTA_READY);
-  uint16_t ret = queue_size(COLA_READY);
+  uint16_t ret = list_size(LISTA_READY);
   pthread_mutex_unlock(&MUTEX_LISTA_READY);
   return ret;
 }

@@ -47,9 +47,12 @@ bool tabla_vacia(unsigned long id){
     
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id);
 
-    uint32_t is_empty;
+    bool is_empty = false;
     pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
     is_empty = list_is_empty(tabla_carpincho->paginas);
+    log_info(logger, "is_empty: %d, id: %lu", is_empty, id);
+    log_info(logger, "pages: %d",tabla_carpincho->pages);
+    
     pthread_mutex_unlock(&tabla_carpincho->mutex_paginas);
     
     return is_empty;

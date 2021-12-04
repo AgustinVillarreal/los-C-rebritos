@@ -1,7 +1,7 @@
 #include "../include/comunicacion.h"
 
 extern t_log* logger;
-unsigned long global_id_mem = 0;
+unsigned long global_id_mem = 1;
 
 
 typedef struct {
@@ -161,8 +161,13 @@ static void procesar_conexion(void* void_args){
             //TODO: Liberar cosas aca
             case FREE_CARPINCHO:
                 break;
-            case CARPINCHO_SWAP:
-                log_info(logger, "SWAPEADO PAAAA");  
+            case CARPINCHO_SWAP: ;
+                unsigned long id_a_swapear;
+                if(!recv_id(cliente_socket, &id_a_swapear)){
+                    log_error(logger, "Error swapeando el id");
+                }
+                suspender_carpincho(id_a_swapear, swap_fd);
+                
                 break;              
             case -1:
                 log_info(logger, "Cliente desconectado de Memoria");

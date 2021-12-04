@@ -17,7 +17,8 @@
 #include "frees.h"
 #include "serializacion.h"
 
-//JAJAJAJJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//Agregar un JA cada vez que se entra a esta página
+//JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -44,7 +45,6 @@ typedef enum {
     FINALIZAR_CARPINCHO,
     ESPACIO_LIBRE,
     ALLOCAR_EN_SWAP,
-    PAGINA_DE_SWAP,
     LIBERAR_MARCOS
 } op_code;
 
@@ -102,7 +102,7 @@ bool recv_id(int cliente_socket, unsigned long* carpincho_id);
 
 bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina);
 
-bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, uint32_t tamanio_pagina);
+bool recv_escritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void **data, uint32_t tamanio_pagina);
 
 bool recv_solicitud_espacio_libre(int cliente_socket, unsigned long* carpincho_id,uint32_t* cant_paginas);
 

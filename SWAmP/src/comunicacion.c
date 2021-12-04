@@ -114,12 +114,11 @@ static void procesar_conexion(void* void_args) {
 
             case ESCRITURA_SWAMP:
             {
-                long carpincho_id;
+                unsigned long carpincho_id;
                 uint32_t nro_pagina;
                 void* data;
 
-                if (recv_ecritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) {
-                   
+                if (recv_escritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) {            
                     proceder_escritura(cliente_socket,carpincho_id,nro_pagina,data);
                     log_info(logger,"Se escribio la pagina %d del carpincho %d en swap",nro_pagina,carpincho_id);
                 }

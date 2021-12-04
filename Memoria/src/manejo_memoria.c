@@ -417,6 +417,21 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica, int s
 }
 
 
+void swapear_pagina(unsigned long id, int fd, uint32_t nro_pagina, uint32_t* nro_frame){
+  log_info(logger, "Suspendiendo: %lu", id);
+  tp_carpincho_t* tp_carpincho = find_tp_carpincho(id);
+  entrada_tp_t* entrada_tp = list_get_pagina(tp_carpincho, nro_pagina);
+  *nro_frame = entrada_tp->nro_frame;
+  entrada_tp->bit_P = 0;
+  
+  if(entrada_tp->bit_M){
+      void* data = malloc(MEMORIA_CFG->TAMANIO_PAGINA);
+      lectura_pagina_completa(entrada_tp, data);
+      //SWAPEAR
+      send_pagina(fd, id, entrada_tp->nro_pagina, data, MEMORIA_CFG->TAMANIO_PAGINA);
+      free(data);
+  }
+}
 
 
 

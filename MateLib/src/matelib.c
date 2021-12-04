@@ -155,11 +155,12 @@ int mate_sem_wait(mate_instance *lib_ref, mate_sem_name sem){
 		}
 
 		if(result_code == -2) {
-			free(inner_structure->IP);
-			free(inner_structure->PUERTO);	
-			log_destroy(inner_structure->logger);
+			close(inner_structure->servidor_fd);
+			// free(inner_structure->IP);
+			// free(inner_structure->PUERTO);	
+			// log_destroy(inner_structure->logger);
 			free(inner_structure);
-			exit(ERROR);
+			pthread_exit(-1);
 		}
 	}	else {
 		log_error(inner_structure->logger, "No podes usar semaforos si no estas conectado al kernel\n");

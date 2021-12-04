@@ -283,20 +283,18 @@ bool send_finalizar_carpincho(int fd, unsigned long id) {
 /* Preguntar si necesita el op code */
 /* Envia la pagina a memoria */
 bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data, uint32_t tamanio_pagina){
-  void* stream = malloc(sizeof(long) + sizeof(nro_pagina) + tamanio_pagina);
-  op_code op = PAGINA_DE_SWAP;
+  void* stream = malloc(sizeof(long) + sizeof(uint32_t) + tamanio_pagina);
+  send_codigo_op(fd, ESCRITURA_SWAMP);
 
   memcpy(stream, &carpincho_id, sizeof(long));
   memcpy(stream + sizeof(long), &nro_pagina, sizeof(uint32_t));
   memcpy(stream + sizeof(long) + sizeof(uint32_t), data, tamanio_pagina);
-  if(send(fd,stream,sizeof(long) + sizeof(nro_pagina) + tamanio_pagina, 0) == -1){
+  if(send(fd, stream, sizeof(long) + sizeof(nro_pagina) + tamanio_pagina, 0) == -1){
     free(stream);
     return false;
   }
 
   free(stream);
-  return true;
-
   return true;
 }
 
@@ -327,7 +325,7 @@ bool recv_lectura(int cliente_socket, unsigned long* carpincho_id, uint32_t*  nr
   return true;
 }// TODO: Recibe el pedido de lectura de memoria
 
-bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void *data, uint32_t tamanio_pagina){
+bool recv_escritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nro_pagina, void **data, uint32_t tamanio_pagina){
   void* stream = malloc(sizeof(long) + sizeof(uint32_t) + tamanio_pagina);
   if(recv(cliente_socket,stream,sizeof(long) + sizeof(uint32_t) + tamanio_pagina,0) != sizeof(long) + sizeof(uint32_t) + tamanio_pagina){
     free(stream);
@@ -335,7 +333,8 @@ bool recv_ecritura(int cliente_socket, unsigned long* carpincho_id, uint32_t* nr
   }
   memcpy(carpincho_id, stream, sizeof(long));
   memcpy(nro_pagina,stream + sizeof(long) ,sizeof(uint32_t));
-  memcpy(data,stream + sizeof(long) + sizeof(uint32_t) , tamanio_pagina);
+  *data = malloc(tamanio_pagina);
+  memcpy(*data,stream + sizeof(long) + sizeof(uint32_t) , tamanio_pagina);
   free(stream);
   return true;
 }

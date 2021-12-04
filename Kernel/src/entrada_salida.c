@@ -1,6 +1,8 @@
 #include "../include/entrada_salida.h"
 
 extern t_config_kernel* KERNEL_CFG;
+extern t_log* logger;
+
 
 int procesar_entrada_salida(t_carpincho* carpincho, char* io, char* msg){
     add_lista_blocked(carpincho);
@@ -13,7 +15,10 @@ int procesar_entrada_salida(t_carpincho* carpincho, char* io, char* msg){
     if(dispositivo == NULL){
         return 0;
     }
+    log_info(logger, "Esperando dispositivo: %lu", carpincho->id);
     sem_wait(&dispositivo->sem);
+    log_info(logger, "Dispositivo asignado: %lu", carpincho->id);
+    
     usleep(dispositivo->duracion * 1000);
     if(existe_en_lista_blocked(carpincho)){
         remove_lista_blocked(carpincho);

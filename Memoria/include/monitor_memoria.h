@@ -21,6 +21,7 @@ pthread_mutex_t MUTEX_ALGORITMOS_TLB;
 
 
 void mutex_init_memoria();
+bool no_tiene_frames(unsigned long id);
 bool ocupar_frames(unsigned long id);
 uint32_t cant_frame_libres();
 uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho);
@@ -32,5 +33,7 @@ uint32_t cant_paginas_relativa(uint32_t posicion, size_t size);
 void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset, size_t size);
 void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size);
 void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_paginas_finales, int swap_fd);
+void lectura_pagina_completa(entrada_tp_t* entrada_tp, void* destino);
+void suspender_frame(uint32_t nro_frame);
 
 #endif

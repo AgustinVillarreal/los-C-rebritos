@@ -2,7 +2,7 @@
 #define MIN(A,B) ((A)<(B)?(A):(B))
 
 extern t_config_memoria* MEMORIA_CFG;
-extern t_list* tabla_frames;
+extern frame_t* tabla_frames;
 extern t_log* logger;
 
 
@@ -25,7 +25,7 @@ void mate_init(unsigned long id){
 void ocupar_frames_carpincho(unsigned long id){
     if(MEMORIA_CFG->FIJA){
         //TODO: Si tiene la tabla de paginas vacia significa que no tiene ninguna estructura en memoria --> la creo, si no, no ocupo nada
-        if(tabla_vacia(id)){
+        if(/*tabla_vacia(id)*/ no_tiene_frames(id)){
             //TODO: Si ocupar frames retorna false significa que esta algo raro con el grado de multiprogramacion
             bool ret_code = ocupar_frames(id);
             if(!ret_code){
@@ -160,3 +160,12 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     return true;
 }
 
+void suspender_carpincho(unsigned long id, int fd){
+    log_info(logger, "Suspendiendo: %lu", id);
+    uint32_t nro_frame;
+
+    for(uint32_t i = 0; i < table_size(id); i++){
+        swapear_pagina(id, fd, i, &nro_frame);
+        suspender_frame(nro_frame);
+    }
+}

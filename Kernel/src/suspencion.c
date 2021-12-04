@@ -7,7 +7,7 @@ void listener_suspencion(){
     while(1){     
         sem_wait(&SEM_CARPINCHO_SUSPENCION);
         pthread_mutex_lock(&MUTEX_LISTA_READY); 
-        bool cola_ready_empty = queue_is_empty(COLA_READY);
+        bool cola_ready_empty = list_is_empty(LISTA_READY);
         pthread_mutex_unlock(&MUTEX_LISTA_READY);
 
         pthread_mutex_lock(&MUTEX_LISTA_NEW); 
@@ -22,9 +22,10 @@ void listener_suspencion(){
             t_carpincho* carpincho = remove_lista_blocked_last(); 
             add_lista_suspended_blocked(carpincho);
             sem_post(&SEM_GRADO_MULTIPROGRAMACION);
-            send_codigo_op(KERNEL_CFG->MEMORIA_FD, CARPINCHO_SWAP);
-
+            send_codigo_op(KERNEL_CFG->MEMORIA_FD, CARPINCHO_SWAP);      
             // TODO PASAR idcarpincho
+            //Usamos send_data_mate_init pq ya estaba hecho, aunque el nombre sea medio choto para este caso
+            send_data_mate_init(KERNEL_CFG->MEMORIA_FD, carpincho->id);
         }
     }
 }
