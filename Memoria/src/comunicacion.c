@@ -2,7 +2,7 @@
 
 extern t_log* logger;
 unsigned long global_id_mem = 1;
-
+extern t_config_memoria* MEMORIA_CFG;
 
 typedef struct {
     int fd;
@@ -15,6 +15,7 @@ static void procesar_conexion(void* void_args){
     int cliente_socket = args->fd;
     char* server_name = args->server_name;
     int swap_fd = args->swap_fd;
+    MEMORIA_CFG->SWAP_FD = swap_fd;
     unsigned long id_carpincho;
     
     free(args);
@@ -166,7 +167,7 @@ static void procesar_conexion(void* void_args){
                 if(!recv_id(cliente_socket, &id_a_swapear)){
                     log_error(logger, "Error swapeando el id");
                 }
-                suspender_carpincho(id_a_swapear, swap_fd);
+                suspender_carpincho(id_a_swapear);
                 
                 break;              
             case -1:

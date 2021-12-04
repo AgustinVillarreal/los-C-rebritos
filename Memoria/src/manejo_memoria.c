@@ -284,7 +284,12 @@ entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina)
           correr_algoritmo(id_carpincho, &nro_frame_a_asignar);
           entrada_buscada->nro_frame = nro_frame_a_asignar;
           //TODO: Pedir a SWAP
-          // pedir_a_swap(id_carpincho, entrada_buscada);
+          send_lectura(MEMORIA_CFG->SWAP_FD, id_carpincho, entrada_buscada->nro_pagina);
+          void* buff;
+          recv_data_pagina(MEMORIA_CFG->SWAP_FD, buff, MEMORIA_CFG->TAMANIO_PAGINA);
+          escritura_pagina_completa(buff, entrada_buscada->nro_frame);
+          entrada_buscada->bit_P = 1; 
+          free(buff);
         }
         crear_en_TLB(id_carpincho, entrada_buscada);
     }    
@@ -417,8 +422,8 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica, int s
 }
 
 
-void swapear_pagina(unsigned long id, int fd, uint32_t nro_pagina, uint32_t* nro_frame){
-  log_info(logger, "Suspendiendo: %lu", id);
+void swapear_pagina(unsigned long id, uint32_t nro_pagina, uint32_t* nro_frame){
+  log_info(logger, "Swapeando: %lu", id);
   tp_carpincho_t* tp_carpincho = find_tp_carpincho(id);
   entrada_tp_t* entrada_tp = list_get_pagina(tp_carpincho, nro_pagina);
   *nro_frame = entrada_tp->nro_frame;
@@ -428,24 +433,9 @@ void swapear_pagina(unsigned long id, int fd, uint32_t nro_pagina, uint32_t* nro
       void* data = malloc(MEMORIA_CFG->TAMANIO_PAGINA);
       lectura_pagina_completa(entrada_tp, data);
       //SWAPEAR
-      send_pagina(fd, id, entrada_tp->nro_pagina, data, MEMORIA_CFG->TAMANIO_PAGINA);
+      send_pagina(MEMORIA_CFG->SWAP_FD, id, entrada_tp->nro_pagina, data, MEMORIA_CFG->TAMANIO_PAGINA);
       free(data);
   }
 }
 
-
-
-
-
-
-
-
-
-
-//   hmd_t* hmd_frag = malloc(sizeof(hmd_t));
-//     hmd_frag->nextAlloc = hmd->nextAlloc;
-//     hmd_frag->isFree = true;
-//     hmd_frag->prevAlloc = offset_hmd;
-
-// }
 

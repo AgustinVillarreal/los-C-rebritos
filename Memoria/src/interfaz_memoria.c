@@ -160,12 +160,12 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     return true;
 }
 
-void suspender_carpincho(unsigned long id, int fd){
+void suspender_carpincho(unsigned long id){
     log_info(logger, "Suspendiendo: %lu", id);
     uint32_t nro_frame;
 
     for(uint32_t i = 0; i < table_size(id); i++){
-        swapear_pagina(id, fd, i, &nro_frame);
+        swapear_pagina(id, i, &nro_frame);
         suspender_frame(nro_frame);
     }
 }

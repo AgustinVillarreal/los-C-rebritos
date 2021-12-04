@@ -121,6 +121,7 @@ static void procesar_conexion(void* void_args) {
                 if (recv_escritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) {            
                     proceder_escritura(cliente_socket,carpincho_id,nro_pagina,data);
                     log_info(logger,"Se escribio la pagina %d del carpincho %d en swap",nro_pagina,carpincho_id);
+                    free(data);
                 }
                 else {
                     log_error(logger, "Error recibiendo ESCRITURA en SWAmP");
@@ -139,6 +140,8 @@ static void procesar_conexion(void* void_args) {
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                     buscar_frame_en_swap(cliente_socket,carpincho_id, nro_pagina, &data);
+                    //TODO: Hacer send
+                    
                     free(data);
                     log_info(logger,"Se leyo la swap correctamente");
                 }

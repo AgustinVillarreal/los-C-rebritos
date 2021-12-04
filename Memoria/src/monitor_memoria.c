@@ -150,6 +150,13 @@ void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destin
   //TODO: Comento este log porque estaba tirando error de valgrind
   //log_info(logger, "aaaa: %s", (char*) destino);
 }
+
+void escritura_pagina_completa(void* buff, uint32_t nro_frame){
+  pthread_mutex_lock(&MUTEX_MP_BUSY);
+  memcpy((void*) (memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA), buff, MEMORIA_CFG->TAMANIO_PAGINA);
+  pthread_mutex_unlock(&MUTEX_MP_BUSY);
+}
+
  
 void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset, size_t size){
   //escribir en memoria principal

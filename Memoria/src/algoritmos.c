@@ -50,6 +50,8 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame){
                 pthread_mutex_unlock(&(posible_victima->mutex_bits));          
                 //TODO: SWAPEAR
                 *nro_frame = posible_victima->nro_frame;
+                swapear_pagina(id_carpincho, posible_victima->nro_pagina, nro_frame);
+                posible_victima->bit_M = 0; 
                 (*nro_frame_posible_victima)++;      
                 list_destroy_and_destroy_elements(victimas, (void*) free);
                 pthread_mutex_unlock(&MUTEX_ALGORITMOS);         
@@ -77,7 +79,8 @@ void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame){
     pthread_mutex_lock(&(victima->mutex_bits));            
     victima->bit_P = 0;
     if(victima->bit_M){
-        //TODO: Swapear
+        swapear_pagina(id, victima->nro_pagina, victima->nro_frame);
+        victima->bit_M = 0; 
     }
     //TODO: pedido de lectura a SWAP
     pthread_mutex_unlock(&(victima->mutex_bits));

@@ -46,6 +46,7 @@ typedef struct {
     bool LRU_MMU;
     bool LRU_TLB;    
     bool FIJA;
+    int SWAP_FD;
 } t_config_memoria;
 
 

@@ -95,7 +95,9 @@ bool quitar_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, in
 
 //SWAMP
 
-bool send_pagina(int fd, long carpincho_id, uint32_t nro_pagina, void* data, uint32_t tamanio_pagina);
+bool send_pagina(int fd, unsigned long carpincho_id, uint32_t nro_pagina, void* data, uint32_t tamanio_pagina);
+bool send_lectura(int fd, unsigned long carpincho_id, uint32_t nro_pagina);
+
 bool recv_pagina(int fd, long* carpincho_id, uint32_t* nro_pagina, void** data);
 
 bool recv_id(int cliente_socket, unsigned long* carpincho_id);

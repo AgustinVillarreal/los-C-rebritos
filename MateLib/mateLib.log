@@ -154,3 +154,27 @@
 [INFO] 23:02:49:801 mateLib/(16366:16375): Cliente conectado en 0.0.0.0:6005 (a Server)
 
 [INFO] 23:02:49:802 mateLib/(16366:16375): Handshake
+[INFO] 23:37:29:193 mateLib/(17430:17431): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:37:29:275 mateLib/(17430:17431): Handshake
+[INFO] 23:37:30:124 mateLib/(17430:17433): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:37:30:128 mateLib/(17430:17433): Handshake
+[INFO] 23:37:31:153 mateLib/(17430:17435): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:37:31:157 mateLib/(17430:17435): Handshake
+[INFO] 23:37:32:185 mateLib/(17430:17437): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:37:32:189 mateLib/(17430:17437): Handshake
+[INFO] 23:59:03:428 mateLib/(18364:18365): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:59:03:526 mateLib/(18364:18365): Handshake
+[INFO] 23:59:04:310 mateLib/(18364:18367): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:59:04:311 mateLib/(18364:18367): Handshake
+[INFO] 23:59:05:327 mateLib/(18364:18369): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:59:05:330 mateLib/(18364:18369): Handshake
+[INFO] 23:59:06:340 mateLib/(18364:18371): Cliente conectado en 0.0.0.0:6005 (a Server)
+
+[INFO] 23:59:06:342 mateLib/(18364:18371): Handshake

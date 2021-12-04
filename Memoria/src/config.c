@@ -74,7 +74,7 @@ uint8_t cargar_configuracion(t_config_memoria* config){
     config->RETARDO_ACIERTO_TLB = config_get_int_value(cfg,"RETARDO_ACIERTO_TLB");
     config->RETARDO_FALLO_TLB = config_get_int_value(cfg,"RETARDO_FALLO_TLB");
     config->PATH_DUMP_TLB = strdup(config_get_string_value(cfg,"PATH_DUMP_TLB"));
-    config->CANT_PAGINAS = config->TAMANIO / config->TAMANIO_PAGINA;
+    config->CANT_PAGINAS = config->TAMANIO / config->TAMANIO_PAGINA;    
 
     if(!strcmp(config->ALGORITMO_REEMPLAZO_MMU, "CLOCK-M")){
         correr_algoritmo = correr_algoritmo_clock_m;

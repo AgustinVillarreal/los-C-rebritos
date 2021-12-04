@@ -267,3 +267,27 @@
 [INFO] 23:02:41:229 SWAmP/(16258:16258): Se recibio el esquema de asigancion coreectamente
 [INFO] 23:06:50:080 SWAmP/(16258:16258): DISCONNECT!
 [INFO] 23:06:50:083 SWAmP/(16258:16258): Finalizando programa...
+[INFO] 23:34:42:408 SWAmP/(17220:17220): Archivo de configuracion cargado correctamente
+[INFO] 23:34:42:469 SWAmP/(17220:17220): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 23:34:42:485 SWAmP/(17220:17220): ------2---------
+
+[INFO] 23:34:42:487 SWAmP/(17220:17220): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 23:34:49:312 SWAmP/(17220:17220): Cliente conectado (a SWAmP)
+
+[INFO] 23:34:49:325 SWAmP/(17220:17220): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 23:34:49:328 SWAmP/(17220:17220): Se recibio el esquema de asigancion coreectamente
+[INFO] 23:56:43:060 SWAmP/(17220:17220): DISCONNECT!
+[INFO] 23:56:43:075 SWAmP/(17220:17220): Finalizando programa...
+[INFO] 23:58:36:866 SWAmP/(18253:18253): Archivo de configuracion cargado correctamente
+[INFO] 23:58:37:000 SWAmP/(18253:18253): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 23:58:37:053 SWAmP/(18253:18253): ------2---------
+
+[INFO] 23:58:37:064 SWAmP/(18253:18253): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 23:58:45:357 SWAmP/(18253:18253): Cliente conectado (a SWAmP)
+
+[INFO] 23:58:45:371 SWAmP/(18253:18253): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 23:58:45:376 SWAmP/(18253:18253): Se recibio el esquema de asigancion coreectamente
+[INFO] 00:09:39:840 SWAmP/(18253:18253): DISCONNECT!
+[INFO] 00:09:39:844 SWAmP/(18253:18253): Finalizando programa...

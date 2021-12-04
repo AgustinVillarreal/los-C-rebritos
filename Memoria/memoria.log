@@ -500,3 +500,51 @@
 [INFO] 23:06:50:037 memoria/(16301:16301): Carpincho: 1 - Cantidad Miss: 0
 [INFO] 23:06:50:038 memoria/(16301:16301): Carpincho: 2 - Cantidad Miss: 0
 [INFO] 23:06:50:038 memoria/(16301:16301): Carpincho: 3 - Cantidad Miss: 0
+[INFO] 23:34:49:234 memoria/(17279:17279): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:34:49:315 memoria/(17279:17279): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:34:49:320 memoria/(17279:17279): ------2---------
+
+[INFO] 23:34:49:322 memoria/(17279:17279): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 23:37:22:924 memoria/(17279:17279): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 23:37:31:162 memoria/(17279:17405): Suspendiendo: 2
+[INFO] 23:37:32:194 memoria/(17279:17405): Suspendiendo: 3
+[INFO] 23:56:41:956 memoria/(17279:17405): DISCONNECT!
+[INFO] 23:56:42:901 memoria/(17279:17279): Senial SIGINT
+[INFO] 23:56:42:907 memoria/(17279:17279): -------------
+[INFO] 23:56:42:911 memoria/(17279:17279): Cantidad TLB Hits totales: 0
+[INFO] 23:56:42:914 memoria/(17279:17279): Cantidad TLB Miss totales: 0
+[INFO] 23:56:42:920 memoria/(17279:17279): Carpincho: 1 - Cantidad Hits: 0
+[INFO] 23:56:42:922 memoria/(17279:17279): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 23:56:42:923 memoria/(17279:17279): Carpincho: 3 - Cantidad Hits: 0
+[INFO] 23:56:42:923 memoria/(17279:17279): Carpincho: 4 - Cantidad Hits: 0
+[INFO] 23:56:42:924 memoria/(17279:17279): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 23:56:42:925 memoria/(17279:17279): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 23:56:42:925 memoria/(17279:17279): Carpincho: 3 - Cantidad Miss: 0
+[INFO] 23:56:42:926 memoria/(17279:17279): Carpincho: 4 - Cantidad Miss: 0
+[INFO] 23:58:45:279 memoria/(18302:18302): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 23:58:45:360 memoria/(18302:18302): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 23:58:45:366 memoria/(18302:18302): ------2---------
+
+[INFO] 23:58:45:368 memoria/(18302:18302): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 23:58:59:749 memoria/(18302:18302): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 23:59:05:335 memoria/(18302:18339): Suspendiendo: 2
+[INFO] 23:59:06:344 memoria/(18302:18339): Suspendiendo: 3
+[INFO] 00:09:36:559 memoria/(18302:18339): DISCONNECT!
+[INFO] 00:09:39:684 memoria/(18302:18302): Senial SIGINT
+[INFO] 00:09:39:693 memoria/(18302:18302): -------------
+[INFO] 00:09:39:696 memoria/(18302:18302): Cantidad TLB Hits totales: 0
+[INFO] 00:09:39:702 memoria/(18302:18302): Cantidad TLB Miss totales: 0
+[INFO] 00:09:39:711 memoria/(18302:18302): Carpincho: 1 - Cantidad Hits: 0
+[INFO] 00:09:39:715 memoria/(18302:18302): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 00:09:39:719 memoria/(18302:18302): Carpincho: 3 - Cantidad Hits: 0
+[INFO] 00:09:39:723 memoria/(18302:18302): Carpincho: 4 - Cantidad Hits: 0
+[INFO] 00:09:39:732 memoria/(18302:18302): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 00:09:39:746 memoria/(18302:18302): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 00:09:39:748 memoria/(18302:18302): Carpincho: 3 - Cantidad Miss: 0
+[INFO] 00:09:39:760 memoria/(18302:18302): Carpincho: 4 - Cantidad Miss: 0
