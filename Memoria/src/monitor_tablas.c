@@ -85,6 +85,7 @@ bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t
     if(entrada_tlb != NULL){
         *entrada_buscada = entrada_tlb->entrada_tp;
         actualizar_hits(id_carpincho);
+        log_info(logger,"\nTLB HIT: PID: %d  PAGINA: %d  MARCO: %d \n",id_carpincho,nro_pagina,entrada_tlb->entrada_tp->nro_frame);
       
         if(MEMORIA_CFG->LRU_TLB){
             actualizarTUR(entrada_tlb);
@@ -93,6 +94,7 @@ bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t
         return true;
     }
     actualizar_miss(id_carpincho);
+    log_info(logger,"\nTLB MISS: PID: %d  PAGINA: %d \n",id_carpincho,nro_pagina);
     //No esta en la Tlb
     usleep(MEMORIA_CFG->RETARDO_FALLO_TLB * 1000);
     return false;

@@ -68,6 +68,9 @@ static void procesar_conexion(void* void_args){
                     }
                 }
                 mate_init(id_carpincho);
+                // Aca logeo la conexion del carpincho
+                log_warning(logger,"\nSe conecto el carpincho --> %d <-- a la memoria\n",id_carpincho);
+
                 break;
             case CARPINCHO_READY: ;
                 if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
