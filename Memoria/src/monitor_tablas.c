@@ -85,7 +85,7 @@ bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t
     if(entrada_tlb != NULL){
         *entrada_buscada = entrada_tlb->entrada_tp;
         actualizar_hits(id_carpincho);
-        log_info(logger,"\nTLB HIT: PID: %d  PAGINA: %d  MARCO: %d \n",id_carpincho,nro_pagina,entrada_tlb->entrada_tp->nro_frame);
+        log_info(logger, "\nTLB HIT: PID: %d  PAGINA: %d  MARCO: %d \n", id_carpincho, nro_pagina, entrada_tlb->entrada_tp->nro_frame);
       
         if(MEMORIA_CFG->LRU_TLB){
             actualizarTUR(entrada_tlb);
@@ -94,7 +94,7 @@ bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t
         return true;
     }
     actualizar_miss(id_carpincho);
-    log_info(logger,"\nTLB MISS: PID: %d  PAGINA: %d \n",id_carpincho,nro_pagina);
+    log_info(logger, "\nTLB MISS: PID: %d  PAGINA: %d \n", id_carpincho, nro_pagina);
     //No esta en la Tlb
     usleep(MEMORIA_CFG->RETARDO_FALLO_TLB * 1000);
     return false;
@@ -320,4 +320,22 @@ char* entrada_tlb_a_string_de_dump(tlb_t* entrada, int nro_entrada, bool ocupado
         );        
     }
     return str;
+}
+
+void eliminar_tabla(tp_carpincho_t* tabla_carpincho){
+    bool es_tabla(void* tabla){
+        return ((tp_carpincho_t*)tabla)->id_carpincho == tabla_carpincho->id_carpincho;
+    }
+    pthread_mutex_lock(&MUTEX_TP_CARPINCHOS);
+    list_remove_by_condition(CARPINCHOS_TABLE, es_tabla);
+    pthread_mutex_unlock(&MUTEX_TP_CARPINCHOS);
+}
+
+void sacar_entradas_TLB(unsigned long id_carpincho){
+    bool es_entrada_TLB(void* entrada){
+        return ((tlb_t*) entrada)->id_carpincho == id_carpincho;
+    }
+    pthread_mutex_lock(&MUTEX_TLB_BUSY);
+    list_remove_by_condition(TLB_TABLE, es_entrada_TLB);
+    pthread_mutex_unlock(&MUTEX_TLB_BUSY);
 }

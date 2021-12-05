@@ -18,7 +18,7 @@
 #include "serializacion.h"
 
 //Agregar un JA cada vez que se entra a esta página
-//JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -42,7 +42,6 @@ typedef enum {
     CARPINCHO_READY,
     ESCRITURA_SWAMP,
     LECTURA_SWAMP,
-    FINALIZAR_CARPINCHO,
     ESPACIO_LIBRE,
     ALLOCAR_EN_SWAP,
     LIBERAR_MARCOS
@@ -94,7 +93,7 @@ bool quitar_en_swap(unsigned long id_carpincho, uint32_t cantidad_de_paginas, in
 
 
 //SWAMP
-
+bool send_carpincho_free(int fd, unsigned long carpincho_id);
 bool send_pagina(int fd, unsigned long carpincho_id, uint32_t nro_pagina, void* data, uint32_t tamanio_pagina);
 bool send_lectura(int fd, unsigned long carpincho_id, uint32_t nro_pagina);
 

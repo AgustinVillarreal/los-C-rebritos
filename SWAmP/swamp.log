@@ -291,3 +291,61 @@
 [INFO] 23:58:45:376 SWAmP/(18253:18253): Se recibio el esquema de asigancion coreectamente
 [INFO] 00:09:39:840 SWAmP/(18253:18253): DISCONNECT!
 [INFO] 00:09:39:844 SWAmP/(18253:18253): Finalizando programa...
+[INFO] 15:02:41:972 SWAmP/(5183:5183): Archivo de configuracion cargado correctamente
+[INFO] 15:02:42:129 SWAmP/(5183:5183): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:02:42:164 SWAmP/(5183:5183): ------2---------
+
+[INFO] 15:02:42:166 SWAmP/(5183:5183): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 15:02:50:850 SWAmP/(5183:5183): Cliente conectado (a SWAmP)
+
+[INFO] 15:02:50:877 SWAmP/(5183:5183): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:02:50:879 SWAmP/(5183:5183): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:36:54:807 SWAmP/(5183:5183): DISCONNECT!
+[INFO] 15:36:54:808 SWAmP/(5183:5183): Finalizando programa...
+[INFO] 15:37:08:039 SWAmP/(7278:7278): Archivo de configuracion cargado correctamente
+[INFO] 15:37:08:103 SWAmP/(7278:7278): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:37:08:117 SWAmP/(7278:7278): ------2---------
+
+[INFO] 15:37:08:119 SWAmP/(7278:7278): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 15:37:52:041 SWAmP/(7278:7278): Cliente conectado (a SWAmP)
+
+[INFO] 15:37:52:075 SWAmP/(7278:7278): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:37:52:081 SWAmP/(7278:7278): Se recibio el esquema de asigancion coreectamente
+[ERROR] 15:38:36:564 SWAmP/(7278:7278): El carpincho 2 no esta en SWAP
+[INFO] 15:38:37:068 SWAmP/(7278:7278): Se elimnino el carpincho 2 correctamente
+[ERROR] 15:38:41:543 SWAmP/(7278:7278): El carpincho 3 no esta en SWAP
+[INFO] 15:38:42:044 SWAmP/(7278:7278): Se elimnino el carpincho 3 correctamente
+[INFO] 15:38:56:607 SWAmP/(7278:7278): DISCONNECT!
+[INFO] 15:38:56:608 SWAmP/(7278:7278): Finalizando programa...
+[INFO] 15:45:17:428 SWAmP/(7783:7783): Archivo de configuracion cargado correctamente
+[INFO] 15:45:17:536 SWAmP/(7783:7783): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:45:17:551 SWAmP/(7783:7783): ------2---------
+
+[INFO] 15:45:17:553 SWAmP/(7783:7783): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 15:46:14:486 SWAmP/(7783:7783): Cliente conectado (a SWAmP)
+
+[INFO] 15:46:14:512 SWAmP/(7783:7783): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:46:14:527 SWAmP/(7783:7783): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:46:54:996 SWAmP/(7783:7783): Se elimino el carpincho 2 correctamente
+[INFO] 15:46:59:962 SWAmP/(7783:7783): Se elimino el carpincho 4 correctamente
+[INFO] 15:47:14:578 SWAmP/(7783:7783): DISCONNECT!
+[INFO] 15:47:14:579 SWAmP/(7783:7783): Finalizando programa...
+[INFO] 15:50:39:839 SWAmP/(8084:8084): Archivo de configuracion cargado correctamente
+[INFO] 15:50:39:934 SWAmP/(8084:8084): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 15:50:39:975 SWAmP/(8084:8084): ------2---------
+
+[INFO] 15:50:39:980 SWAmP/(8084:8084): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 15:50:41:602 SWAmP/(8084:8084): Cliente conectado (a SWAmP)
+
+[INFO] 15:50:41:612 SWAmP/(8084:8084): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 15:50:41:615 SWAmP/(8084:8084): Se recibio el esquema de asigancion coreectamente
+[INFO] 15:51:22:603 SWAmP/(8084:8084): Se elimino el carpincho 2 correctamente
+[INFO] 15:51:27:582 SWAmP/(8084:8084): Se elimino el carpincho 4 correctamente
+[INFO] 15:51:42:598 SWAmP/(8084:8084): Se elimino el carpincho 2 correctamente
+[INFO] 15:51:47:623 SWAmP/(8084:8084): Se elimino el carpincho 3 correctamente
+[INFO] 15:52:55:006 SWAmP/(8084:8084): DISCONNECT!
+[INFO] 15:52:55:015 SWAmP/(8084:8084): Finalizando programa...

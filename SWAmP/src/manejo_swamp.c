@@ -114,7 +114,7 @@ void eliminar_carpincho_de_memoria(unsigned long id_carpincho){
     }
 
     if(!list_any_satisfy(tablas_de_frames_swap,(void*)buscar_x_id)){
-        log_error(logger,"El carpincho %d no esta en SWAP",id_carpincho);
+        // log_error(logger,"El carpincho %d no esta en SWAP",id_carpincho);
         return;
     }
 

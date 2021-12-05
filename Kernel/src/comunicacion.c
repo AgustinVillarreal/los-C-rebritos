@@ -280,6 +280,7 @@ static void procesar_conexion(void* void_args){
             case FREE_CARPINCHO:
 		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);	
                 push_cola_exit(carpincho);	 
+                send_codigo_op(memoria_fd, FREE_CARPINCHO);
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

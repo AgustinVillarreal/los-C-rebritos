@@ -69,8 +69,7 @@ static void procesar_conexion(void* void_args){
                 }
                 mate_init(id_carpincho);
                 // Aca logeo la conexion del carpincho
-                log_warning(logger,"\nSe conecto el carpincho --> %d <-- a la memoria\n",id_carpincho);
-
+                log_warning(logger, "\nSe conecto el carpincho: %lu \n", id_carpincho);            
                 break;
             case CARPINCHO_READY: ;
                 if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
@@ -102,9 +101,6 @@ static void procesar_conexion(void* void_args){
             case MEM_FREE: ;
                 uint32_t error;
                 uint32_t direccion_logica;  
-
-
-
                 if(!recv_memfree_data(cliente_socket, &id_carpincho, &direccion_logica)){            
                     log_error(logger, "Error al enviar data para allocar");
                     // return EXIT_FAILURE;
@@ -114,15 +110,7 @@ static void procesar_conexion(void* void_args){
                 log_info(logger, "Liberando direccion logica: %d del carpincho: %lu", direccion_logica, id_carpincho);
 
                 uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica,swap_fd); 
-
-                
-
-               /* if(estado_free == 0) {*/
-                   /* log_info(logger,"OCURRIO UN ERROR AL INTENTAR LIBERAR EL ESPACIO EN MEMORIA");*/
-                    send(cliente_socket,&estado_free,sizeof(uint32_t),0);    
-                   
- 
-                
+                send(cliente_socket,&estado_free,sizeof(uint32_t),0);      
                 break;
             case MEM_READ: ; 
                 int size;
@@ -164,6 +152,9 @@ static void procesar_conexion(void* void_args){
                 break;
             //TODO: Liberar cosas aca
             case FREE_CARPINCHO:
+                log_warning(logger, "\nSe desconecto el carpincho: %lu \n", id_carpincho);     
+                finalizar_carpincho(id_carpincho);
+                send_finalizar_carpincho(swap_fd, id_carpincho);       
                 break;
             case CARPINCHO_SWAP: ;
                 unsigned long id_a_swapear;

@@ -548,3 +548,148 @@
 [INFO] 00:09:39:746 memoria/(18302:18302): Carpincho: 2 - Cantidad Miss: 0
 [INFO] 00:09:39:748 memoria/(18302:18302): Carpincho: 3 - Cantidad Miss: 0
 [INFO] 00:09:39:760 memoria/(18302:18302): Carpincho: 4 - Cantidad Miss: 0
+[INFO] 15:02:50:688 memoria/(5271:5271): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:02:50:855 memoria/(5271:5271): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 15:02:50:866 memoria/(5271:5271): ------2---------
+
+[INFO] 15:02:50:875 memoria/(5271:5271): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 15:02:59:658 memoria/(5271:5271): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 15:03:04:696 memoria/(5271:5441): DISCONNECT!
+[INFO] 15:06:25:701 memoria/(5271:5271): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 15:06:34:266 memoria/(5271:5677): 
+Se conecto el carpincho --> 1 <-- a la memoria
+
+[WARNING] 15:06:34:774 memoria/(5271:5677): 
+Se conecto el carpincho --> 2 <-- a la memoria
+
+[WARNING] 15:06:35:788 memoria/(5271:5677): 
+Se conecto el carpincho --> 3 <-- a la memoria
+
+[INFO] 15:06:35:792 memoria/(5271:5677): Suspendiendo: 2
+[WARNING] 15:06:36:806 memoria/(5271:5677): 
+Se conecto el carpincho --> 4 <-- a la memoria
+
+[INFO] 15:06:36:807 memoria/(5271:5677): Suspendiendo: 3
+[INFO] 15:36:54:116 memoria/(5271:5677): DISCONNECT!
+[INFO] 15:36:54:770 memoria/(5271:5271): Senial SIGINT
+[INFO] 15:36:54:771 memoria/(5271:5271): -------------
+[INFO] 15:36:54:771 memoria/(5271:5271): Cantidad TLB Hits totales: 0
+[INFO] 15:36:54:772 memoria/(5271:5271): Cantidad TLB Miss totales: 0
+[INFO] 15:36:54:772 memoria/(5271:5271): Carpincho: 1 - Cantidad Hits: 0
+[INFO] 15:36:54:773 memoria/(5271:5271): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 15:36:54:774 memoria/(5271:5271): Carpincho: 3 - Cantidad Hits: 0
+[INFO] 15:36:54:774 memoria/(5271:5271): Carpincho: 4 - Cantidad Hits: 0
+[INFO] 15:36:54:775 memoria/(5271:5271): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 15:36:54:775 memoria/(5271:5271): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 15:36:54:775 memoria/(5271:5271): Carpincho: 3 - Cantidad Miss: 0
+[INFO] 15:36:54:775 memoria/(5271:5271): Carpincho: 4 - Cantidad Miss: 0
+[INFO] 15:37:51:839 memoria/(7408:7408): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:37:52:057 memoria/(7408:7408): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 15:37:52:065 memoria/(7408:7408): ------2---------
+
+[INFO] 15:37:52:070 memoria/(7408:7408): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 15:37:58:779 memoria/(7408:7408): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 15:38:01:410 memoria/(7408:7460): 
+Se conecto el carpincho: 1 
+
+[WARNING] 15:38:02:240 memoria/(7408:7460): 
+Se conecto el carpincho: 2 
+
+[WARNING] 15:38:03:258 memoria/(7408:7460): 
+Se conecto el carpincho: 3 
+
+[INFO] 15:38:03:263 memoria/(7408:7460): Suspendiendo: 2
+[WARNING] 15:38:04:281 memoria/(7408:7460): 
+Se conecto el carpincho: 4 
+
+[INFO] 15:38:04:282 memoria/(7408:7460): Suspendiendo: 3
+[WARNING] 15:38:36:544 memoria/(7408:7460): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 15:38:41:541 memoria/(7408:7460): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 15:38:56:541 memoria/(7408:7460): 
+Se desconecto el carpincho: 2 
+
+[INFO] 15:46:14:365 memoria/(7866:7866): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:46:14:496 memoria/(7866:7866): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 15:46:14:504 memoria/(7866:7866): ------2---------
+
+[INFO] 15:46:14:508 memoria/(7866:7866): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 15:46:16:557 memoria/(7866:7866): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 15:46:19:349 memoria/(7866:7906): 
+Se conecto el carpincho: 1 
+
+[WARNING] 15:46:20:091 memoria/(7866:7906): 
+Se conecto el carpincho: 2 
+
+[WARNING] 15:46:21:101 memoria/(7866:7906): 
+Se conecto el carpincho: 3 
+
+[INFO] 15:46:21:104 memoria/(7866:7906): Suspendiendo: 2
+[WARNING] 15:46:22:116 memoria/(7866:7906): 
+Se conecto el carpincho: 4 
+
+[INFO] 15:46:22:117 memoria/(7866:7906): Suspendiendo: 3
+[WARNING] 15:46:54:476 memoria/(7866:7906): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 15:46:59:458 memoria/(7866:7906): 
+Se desconecto el carpincho: 4 
+
+[WARNING] 15:47:14:479 memoria/(7866:7906): 
+Se desconecto el carpincho: 2 
+
+[INFO] 15:50:41:526 memoria/(8133:8133): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 15:50:41:604 memoria/(8133:8133): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 15:50:41:607 memoria/(8133:8133): ------2---------
+
+[INFO] 15:50:41:610 memoria/(8133:8133): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 15:50:43:777 memoria/(8133:8133): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 15:50:46:919 memoria/(8133:8173): 
+Se conecto el carpincho: 1 
+
+[WARNING] 15:50:47:742 memoria/(8133:8173): 
+Se conecto el carpincho: 2 
+
+[WARNING] 15:50:48:760 memoria/(8133:8173): 
+Se conecto el carpincho: 3 
+
+[INFO] 15:50:48:763 memoria/(8133:8173): Suspendiendo: 2
+[WARNING] 15:50:49:777 memoria/(8133:8173): 
+Se conecto el carpincho: 4 
+
+[INFO] 15:50:49:778 memoria/(8133:8173): Suspendiendo: 3
+[WARNING] 15:51:22:087 memoria/(8133:8173): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 15:51:27:079 memoria/(8133:8173): 
+Se desconecto el carpincho: 4 
+
+[WARNING] 15:51:42:094 memoria/(8133:8173): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 15:51:47:120 memoria/(8133:8173): 
+Se desconecto el carpincho: 3 
+
+[INFO] 15:52:54:760 memoria/(8133:8173): DISCONNECT!
+[INFO] 15:52:54:911 memoria/(8133:8133): Senial SIGINT
+[INFO] 15:52:54:912 memoria/(8133:8133): -------------
+[INFO] 15:52:54:916 memoria/(8133:8133): Cantidad TLB Hits totales: 0
+[INFO] 15:52:54:917 memoria/(8133:8133): Cantidad TLB Miss totales: 0
+[INFO] 15:52:54:919 memoria/(8133:8133): Carpincho: 1 - Cantidad Hits: 0
+[INFO] 15:52:54:920 memoria/(8133:8133): Carpincho: 1 - Cantidad Miss: 0

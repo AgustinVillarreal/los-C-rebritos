@@ -331,7 +331,7 @@ bool recv_id(int cliente_socket, unsigned long* carpincho_id){
     return false;
   }
 
-  memcpy(carpincho_id,stream,sizeof(long));
+  memcpy(carpincho_id, stream, sizeof(long));
   free(stream);
   return true;
 }// TODO: Recibe el id del carpincho 

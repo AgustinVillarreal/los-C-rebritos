@@ -297,3 +297,233 @@
 [INFO] 00:00:03:775 Kernel/(18338:18370): DISCONNECT!
 [INFO] 00:00:03:776 Kernel/(18338:18368): DISCONNECT!
 [INFO] 00:00:03:777 Kernel/(18338:18366): DISCONNECT!
+[INFO] 15:02:59:689 Kernel/(5438:5438): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 15:02:59:756 Kernel/(5438:5438): ------2---------
+
+[INFO] 15:02:59:760 Kernel/(5438:5438): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 15:06:25:718 Kernel/(5675:5675): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 15:06:25:782 Kernel/(5675:5675): ------2---------
+
+[INFO] 15:06:25:785 Kernel/(5675:5675): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 15:06:33:852 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:06:34:234 Kernel/(5675:5724): HANDSHAKE
+[INFO] 15:06:34:417 Kernel/(5675:5724): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:06:34:436 Kernel/(5675:5724): Esperando dispositivo: 1
+[INFO] 15:06:34:438 Kernel/(5675:5724): Dispositivo asignado: 1
+[INFO] 15:06:34:770 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:06:34:773 Kernel/(5675:5733): HANDSHAKE
+[INFO] 15:06:34:854 Kernel/(5675:5733): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:06:34:854 Kernel/(5675:5733): Esperando dispositivo: 2
+[INFO] 15:06:35:785 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:06:35:787 Kernel/(5675:5738): HANDSHAKE
+[INFO] 15:06:35:862 Kernel/(5675:5738): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:06:35:862 Kernel/(5675:5738): Esperando dispositivo: 3
+[INFO] 15:06:36:799 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:06:36:805 Kernel/(5675:5742): HANDSHAKE
+[INFO] 15:06:36:888 Kernel/(5675:5742): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:06:36:888 Kernel/(5675:5742): Esperando dispositivo: 4
+[INFO] 15:06:39:449 Kernel/(5675:5733): Dispositivo asignado: 2
+[INFO] 15:06:39:453 Kernel/(5675:5724): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:06:39:454 Kernel/(5675:5724): Esperando dispositivo: 1
+[INFO] 15:06:44:453 Kernel/(5675:5738): Dispositivo asignado: 3
+[INFO] 15:06:49:454 Kernel/(5675:5742): Dispositivo asignado: 4
+[INFO] 15:06:54:456 Kernel/(5675:5724): Dispositivo asignado: 1
+[INFO] 15:06:54:457 Kernel/(5675:5742): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:06:54:458 Kernel/(5675:5742): Esperando dispositivo: 4
+[INFO] 15:06:59:457 Kernel/(5675:5742): Dispositivo asignado: 4
+[INFO] 15:06:59:459 Kernel/(5675:5724): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:06:59:459 Kernel/(5675:5724): Esperando dispositivo: 1
+[INFO] 15:07:04:459 Kernel/(5675:5724): Dispositivo asignado: 1
+[INFO] 15:07:04:460 Kernel/(5675:5742): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:07:04:461 Kernel/(5675:5742): Esperando dispositivo: 4
+[INFO] 15:07:09:461 Kernel/(5675:5742): Dispositivo asignado: 4
+[INFO] 15:07:09:468 Kernel/(5675:5733): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:07:09:469 Kernel/(5675:5733): Esperando dispositivo: 2
+[INFO] 15:07:14:463 Kernel/(5675:5733): Dispositivo asignado: 2
+[INFO] 15:07:14:470 Kernel/(5675:5738): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:07:14:472 Kernel/(5675:5738): Esperando dispositivo: 3
+[INFO] 15:07:19:466 Kernel/(5675:5738): Dispositivo asignado: 3
+[INFO] 15:07:19:468 Kernel/(5675:5733): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:07:19:469 Kernel/(5675:5733): Esperando dispositivo: 2
+[INFO] 15:07:24:470 Kernel/(5675:5733): Dispositivo asignado: 2
+[INFO] 15:07:24:472 Kernel/(5675:5738): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:07:24:473 Kernel/(5675:5738): Esperando dispositivo: 3
+[INFO] 15:07:29:472 Kernel/(5675:5738): Dispositivo asignado: 3
+[INFO] 15:07:34:745 Kernel/(5675:5742): DISCONNECT!
+[INFO] 15:07:34:762 Kernel/(5675:5738): DISCONNECT!
+[INFO] 15:07:34:763 Kernel/(5675:5733): DISCONNECT!
+[INFO] 15:07:34:763 Kernel/(5675:5724): DISCONNECT!
+[INFO] 15:37:58:805 Kernel/(7458:7458): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 15:37:58:868 Kernel/(7458:7458): ------2---------
+
+[INFO] 15:37:58:872 Kernel/(7458:7458): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 15:38:01:294 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:01:385 Kernel/(7458:7497): HANDSHAKE
+[INFO] 15:38:01:501 Kernel/(7458:7497): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:38:01:504 Kernel/(7458:7497): Esperando dispositivo: 1
+[INFO] 15:38:01:505 Kernel/(7458:7497): Dispositivo asignado: 1
+[INFO] 15:38:02:235 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:02:239 Kernel/(7458:7506): HANDSHAKE
+[INFO] 15:38:02:314 Kernel/(7458:7506): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:38:02:315 Kernel/(7458:7506): Esperando dispositivo: 2
+[INFO] 15:38:03:253 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:03:257 Kernel/(7458:7509): HANDSHAKE
+[INFO] 15:38:03:334 Kernel/(7458:7509): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:38:03:334 Kernel/(7458:7509): Esperando dispositivo: 3
+[INFO] 15:38:04:277 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:38:04:280 Kernel/(7458:7513): HANDSHAKE
+[INFO] 15:38:04:358 Kernel/(7458:7513): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:38:04:359 Kernel/(7458:7513): Esperando dispositivo: 4
+[INFO] 15:38:06:515 Kernel/(7458:7506): Dispositivo asignado: 2
+[INFO] 15:38:06:518 Kernel/(7458:7497): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:38:06:519 Kernel/(7458:7497): Esperando dispositivo: 1
+[INFO] 15:38:11:517 Kernel/(7458:7509): Dispositivo asignado: 3
+[INFO] 15:38:16:519 Kernel/(7458:7513): Dispositivo asignado: 4
+[INFO] 15:38:21:523 Kernel/(7458:7497): Dispositivo asignado: 1
+[INFO] 15:38:21:526 Kernel/(7458:7513): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:38:21:527 Kernel/(7458:7513): Esperando dispositivo: 4
+[INFO] 15:38:26:527 Kernel/(7458:7513): Dispositivo asignado: 4
+[INFO] 15:38:26:531 Kernel/(7458:7497): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:38:26:531 Kernel/(7458:7497): Esperando dispositivo: 1
+[INFO] 15:38:31:529 Kernel/(7458:7497): Dispositivo asignado: 1
+[INFO] 15:38:31:531 Kernel/(7458:7513): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:38:31:532 Kernel/(7458:7513): Esperando dispositivo: 4
+[INFO] 15:38:36:532 Kernel/(7458:7513): Dispositivo asignado: 4
+[INFO] 15:38:36:543 Kernel/(7458:7506): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:38:36:543 Kernel/(7458:7506): Esperando dispositivo: 2
+[INFO] 15:38:41:534 Kernel/(7458:7506): Dispositivo asignado: 2
+[INFO] 15:38:41:539 Kernel/(7458:7509): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:38:41:540 Kernel/(7458:7509): Esperando dispositivo: 3
+[INFO] 15:38:46:536 Kernel/(7458:7509): Dispositivo asignado: 3
+[INFO] 15:38:46:538 Kernel/(7458:7506): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:38:46:539 Kernel/(7458:7506): Esperando dispositivo: 2
+[INFO] 15:38:51:538 Kernel/(7458:7506): Dispositivo asignado: 2
+[INFO] 15:38:51:539 Kernel/(7458:7509): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:38:51:539 Kernel/(7458:7509): Esperando dispositivo: 3
+[INFO] 15:38:56:539 Kernel/(7458:7509): Dispositivo asignado: 3
+[INFO] 15:46:16:581 Kernel/(7904:7904): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 15:46:16:644 Kernel/(7904:7904): ------2---------
+
+[INFO] 15:46:16:648 Kernel/(7904:7904): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 15:46:19:153 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:19:301 Kernel/(7904:7937): HANDSHAKE
+[INFO] 15:46:19:414 Kernel/(7904:7937): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:46:19:416 Kernel/(7904:7937): Esperando dispositivo: 1
+[INFO] 15:46:19:417 Kernel/(7904:7937): Dispositivo asignado: 1
+[INFO] 15:46:20:086 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:20:090 Kernel/(7904:7941): HANDSHAKE
+[INFO] 15:46:20:162 Kernel/(7904:7941): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:46:20:163 Kernel/(7904:7941): Esperando dispositivo: 2
+[INFO] 15:46:21:098 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:21:100 Kernel/(7904:7944): HANDSHAKE
+[INFO] 15:46:21:174 Kernel/(7904:7944): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:46:21:174 Kernel/(7904:7944): Esperando dispositivo: 3
+[INFO] 15:46:22:112 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:46:22:115 Kernel/(7904:7948): HANDSHAKE
+[INFO] 15:46:22:190 Kernel/(7904:7948): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:46:22:190 Kernel/(7904:7948): Esperando dispositivo: 4
+[INFO] 15:46:24:423 Kernel/(7904:7941): Dispositivo asignado: 2
+[INFO] 15:46:24:428 Kernel/(7904:7937): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:46:24:428 Kernel/(7904:7937): Esperando dispositivo: 1
+[INFO] 15:46:29:429 Kernel/(7904:7944): Dispositivo asignado: 3
+[INFO] 15:46:34:433 Kernel/(7904:7948): Dispositivo asignado: 4
+[INFO] 15:46:39:438 Kernel/(7904:7937): Dispositivo asignado: 1
+[INFO] 15:46:39:445 Kernel/(7904:7948): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:46:39:446 Kernel/(7904:7948): Esperando dispositivo: 4
+[INFO] 15:46:44:443 Kernel/(7904:7948): Dispositivo asignado: 4
+[INFO] 15:46:44:445 Kernel/(7904:7937): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:46:44:446 Kernel/(7904:7937): Esperando dispositivo: 1
+[INFO] 15:46:49:446 Kernel/(7904:7937): Dispositivo asignado: 1
+[INFO] 15:46:49:449 Kernel/(7904:7948): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:46:49:450 Kernel/(7904:7948): Esperando dispositivo: 4
+[INFO] 15:46:54:450 Kernel/(7904:7948): Dispositivo asignado: 4
+[INFO] 15:46:54:493 Kernel/(7904:7941): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:46:54:498 Kernel/(7904:7941): Esperando dispositivo: 2
+[INFO] 15:46:59:454 Kernel/(7904:7941): Dispositivo asignado: 2
+[INFO] 15:46:59:460 Kernel/(7904:7944): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:46:59:460 Kernel/(7904:7944): Esperando dispositivo: 3
+[INFO] 15:47:04:458 Kernel/(7904:7944): Dispositivo asignado: 3
+[INFO] 15:47:04:463 Kernel/(7904:7941): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:47:04:470 Kernel/(7904:7941): Esperando dispositivo: 2
+[INFO] 15:47:09:470 Kernel/(7904:7941): Dispositivo asignado: 2
+[INFO] 15:47:09:477 Kernel/(7904:7944): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:47:09:479 Kernel/(7904:7944): Esperando dispositivo: 3
+[INFO] 15:47:14:475 Kernel/(7904:7944): Dispositivo asignado: 3
+[INFO] 15:50:43:804 Kernel/(8171:8171): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 15:50:43:900 Kernel/(8171:8171): ------2---------
+
+[INFO] 15:50:43:910 Kernel/(8171:8171): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 15:50:46:802 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:50:46:893 Kernel/(8171:8204): HANDSHAKE
+[INFO] 15:50:47:019 Kernel/(8171:8204): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:50:47:023 Kernel/(8171:8204): Esperando dispositivo: 1
+[INFO] 15:50:47:024 Kernel/(8171:8204): Dispositivo asignado: 1
+[INFO] 15:50:47:738 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:50:47:741 Kernel/(8171:8208): HANDSHAKE
+[INFO] 15:50:47:815 Kernel/(8171:8208): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:50:47:816 Kernel/(8171:8208): Esperando dispositivo: 2
+[INFO] 15:50:48:757 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:50:48:759 Kernel/(8171:8211): HANDSHAKE
+[INFO] 15:50:48:834 Kernel/(8171:8211): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:50:48:834 Kernel/(8171:8211): Esperando dispositivo: 3
+[INFO] 15:50:49:773 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 15:50:49:776 Kernel/(8171:8215): HANDSHAKE
+[INFO] 15:50:49:846 Kernel/(8171:8215): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:50:49:846 Kernel/(8171:8215): Esperando dispositivo: 4
+[INFO] 15:50:52:033 Kernel/(8171:8208): Dispositivo asignado: 2
+[INFO] 15:50:52:037 Kernel/(8171:8204): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:50:52:037 Kernel/(8171:8204): Esperando dispositivo: 1
+[INFO] 15:50:57:038 Kernel/(8171:8211): Dispositivo asignado: 3
+[INFO] 15:51:02:043 Kernel/(8171:8215): Dispositivo asignado: 4
+[INFO] 15:51:07:050 Kernel/(8171:8204): Dispositivo asignado: 1
+[INFO] 15:51:07:054 Kernel/(8171:8215): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:51:07:059 Kernel/(8171:8215): Esperando dispositivo: 4
+[INFO] 15:51:12:055 Kernel/(8171:8215): Dispositivo asignado: 4
+[INFO] 15:51:12:058 Kernel/(8171:8204): Estimacion- Carpincho: 1 - Rafaga: 0.000000
+[INFO] 15:51:12:059 Kernel/(8171:8204): Esperando dispositivo: 1
+[INFO] 15:51:17:060 Kernel/(8171:8204): Dispositivo asignado: 1
+[INFO] 15:51:17:068 Kernel/(8171:8215): Estimacion- Carpincho: 4 - Rafaga: 0.000000
+[INFO] 15:51:17:072 Kernel/(8171:8215): Esperando dispositivo: 4
+[INFO] 15:51:22:067 Kernel/(8171:8215): Dispositivo asignado: 4
+[INFO] 15:51:22:101 Kernel/(8171:8208): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:51:22:107 Kernel/(8171:8208): Esperando dispositivo: 2
+[INFO] 15:51:27:075 Kernel/(8171:8208): Dispositivo asignado: 2
+[INFO] 15:51:27:079 Kernel/(8171:8211): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:51:27:081 Kernel/(8171:8211): Esperando dispositivo: 3
+[INFO] 15:51:32:079 Kernel/(8171:8211): Dispositivo asignado: 3
+[INFO] 15:51:32:085 Kernel/(8171:8208): Estimacion- Carpincho: 2 - Rafaga: 0.000000
+[INFO] 15:51:32:086 Kernel/(8171:8208): Esperando dispositivo: 2
+[INFO] 15:51:37:083 Kernel/(8171:8208): Dispositivo asignado: 2
+[INFO] 15:51:37:089 Kernel/(8171:8211): Estimacion- Carpincho: 3 - Rafaga: 0.000000
+[INFO] 15:51:37:090 Kernel/(8171:8211): Esperando dispositivo: 3
+[INFO] 15:51:42:088 Kernel/(8171:8211): Dispositivo asignado: 3
+[INFO] 15:51:47:189 Kernel/(8171:8215): DISCONNECT!
+[INFO] 15:51:47:195 Kernel/(8171:8204): DISCONNECT!
+[INFO] 15:51:47:195 Kernel/(8171:8208): DISCONNECT!
+[INFO] 15:51:47:195 Kernel/(8171:8211): DISCONNECT!

@@ -27,10 +27,13 @@ void agregar_tabla_a_tp_carpinchos(void* tp_carpincho);
 void mutex_init_tabla();
 uint32_t table_size(unsigned long id);
 void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame);
+void eliminar_tabla(tp_carpincho_t* tabla_carpincho);
 
 //TLB
 bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t** entrada_buscada);
 void crear_en_TLB(unsigned long id_carpincho, entrada_tp_t* entrada);
+void sacar_entradas_TLB(unsigned long id_carpincho);
+
 tlb_t* tlb_get_entrada_tlb(unsigned long id_carpincho, uint32_t nro_pagina);
 void actualizarTUR(tlb_t* entrada_tlb);
 void actualizar_hits(unsigned long id_carpincho);

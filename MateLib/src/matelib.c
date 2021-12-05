@@ -90,6 +90,7 @@ int mate_close(mate_instance *lib_ref){
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
+	
 	log_destroy(inner_structure->logger);
 	free(lib_ref->group_info);
 }

@@ -153,16 +153,16 @@ static void procesar_conexion(void* void_args) {
                 break;
             }
 
-            case FINALIZAR_CARPINCHO:
+            case FREE_CARPINCHO:
             {
                 unsigned long carpincho_id;
 
                 if (recv_id(cliente_socket, &carpincho_id)) {
                     borrar_carpincho_swap(cliente_socket,carpincho_id);
-                    log_info(logger,"Se elimnino el carpincho %d correctamente",carpincho_id);
+                    log_info(logger,"Se elimino el carpincho %d correctamente",carpincho_id);
                 }
                 else {
-                    log_error(logger, "Error recibiendo FINALIZAR_CARPINCHO en SWAmP");
+                    log_error(logger, "Error recibiendo FREE_CARPINCHO en SWAmP");
                     send_ack(cliente_socket, false);
                 }
                 break;

@@ -169,3 +169,22 @@ void suspender_carpincho(unsigned long id){
         suspender_frame(nro_frame);
     }
 }
+
+void finalizar_carpincho(unsigned long id_carpincho){
+    tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
+    if(tabla_carpincho){
+        //Sacar la tabla_carpincho de la tabla de tablas carpincho
+        eliminar_tabla(tabla_carpincho);
+        //Sacar las entradas carpinchos de la TLB
+        sacar_entradas_TLB(id_carpincho);
+        //Liberar entradas tp y adentro el clock_m
+        void destructor_loco(void* pagina){
+            entrada_tp_t* entrada_tp = pagina;
+            if(!MEMORIA_CFG->LRU_MMU){
+                free(entrada_tp->algoritmo.clock_m);
+            }
+            free(entrada_tp);
+        }
+        list_destroy_and_destroy_elements(tabla_carpincho->paginas, destructor_loco);  
+    }
+}
