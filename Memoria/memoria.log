@@ -6994,3 +6994,3317 @@ Se desconecto el carpincho: 3
 [INFO] 11:58:28:677 memoria/(24869:24869): -------------
 [INFO] 11:58:28:679 memoria/(24869:24869): Cantidad TLB Hits totales: 50
 [INFO] 11:58:28:685 memoria/(24869:24869): Cantidad TLB Miss totales: 2
+[INFO] 12:01:04:207 memoria/(25120:25120): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:01:04:280 memoria/(25120:25120): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:01:04:284 memoria/(25120:25120): ------2---------
+
+[INFO] 12:01:04:285 memoria/(25120:25120): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:01:06:112 memoria/(25120:25120): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:01:11:179 memoria/(25120:25157): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:01:11:839 memoria/(25120:25157): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:01:12:844 memoria/(25120:25157): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:01:13:861 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:01:13:967 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:01:14:893 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:01:14:994 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:01:15:916 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 8 
+
+[INFO] 12:01:16:018 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 9 
+
+[INFO] 12:01:16:933 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:01:17:043 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:01:17:144 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[INFO] 12:01:17:955 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:01:18:066 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:01:18:167 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:01:18:977 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 8 
+
+[INFO] 12:01:19:082 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 9 
+
+[INFO] 12:01:19:183 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 10 
+
+[INFO] 12:01:19:989 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:01:20:091 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:01:20:193 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[INFO] 12:01:20:295 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
+
+[INFO] 12:01:20:402 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:01:20:503 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:01:20:604 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:01:20:705 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 7 
+
+[INFO] 12:01:20:808 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 8 
+
+[INFO] 12:01:20:909 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 9 
+
+[INFO] 12:01:21:010 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 10 
+
+[INFO] 12:01:21:111 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:01:21:232 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
+
+[INFO] 12:01:21:337 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[INFO] 12:01:21:439 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:01:21:540 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:01:21:642 memoria/(25120:25157): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:01:21:745 memoria/(25120:25157): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 8 
+
+[INFO] 12:01:21:849 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:01:21:950 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:01:22:051 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[INFO] 12:01:22:152 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
+
+[INFO] 12:01:22:777 memoria/(25120:25157): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 55
+
+[INFO] 12:01:22:778 memoria/(25120:25157): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 53
+
+[INFO] 12:01:22:778 memoria/(25120:25157): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 51
+
+[INFO] 12:01:22:779 memoria/(25120:25157): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 3, TUR: 65
+
+[INFO] 12:01:22:781 memoria/(25120:25157): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 4 del carpincho 1
+[INFO] 12:01:22:788 memoria/(25120:25157): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[INFO] 12:01:23:294 memoria/(25120:25157): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[INFO] 12:01:23:796 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[INFO] 12:01:23:898 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
+
+[INFO] 12:01:24:000 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 2 
+
+[INFO] 12:01:24:104 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:01:24:206 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:01:24:307 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[INFO] 12:01:24:408 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
+
+[INFO] 12:01:24:510 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 2 
+
+[INFO] 12:01:24:615 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:01:24:716 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:01:24:817 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[INFO] 12:01:24:919 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
+
+[INFO] 12:01:25:022 memoria/(25120:25157): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 2 
+
+[WARNING] 12:01:25:132 memoria/(25120:25157): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:01:25:155 memoria/(25120:25157): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:01:25:171 memoria/(25120:25157): 
+Se desconecto el carpincho: 1 
+
+[INFO] 12:02:51:619 memoria/(25120:25157): DISCONNECT!
+[INFO] 12:02:52:381 memoria/(25120:25120): Senial SIGINT
+[INFO] 12:02:52:382 memoria/(25120:25120): -------------
+[INFO] 12:02:52:383 memoria/(25120:25120): Cantidad TLB Hits totales: 50
+[INFO] 12:02:52:384 memoria/(25120:25120): Cantidad TLB Miss totales: 2
+[INFO] 12:02:54:533 memoria/(25273:25273): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 12:02:54:605 memoria/(25273:25273): Error al conectar (a Server)
+
+[INFO] 12:03:00:500 memoria/(25350:25350): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:03:00:573 memoria/(25350:25350): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:03:00:578 memoria/(25350:25350): ------2---------
+
+[INFO] 12:03:00:579 memoria/(25350:25350): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:03:03:603 memoria/(25350:25350): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:03:12:002 memoria/(25350:25387): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:03:12:727 memoria/(25350:25387): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:03:13:702 memoria/(25350:25387): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:03:14:712 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:03:14:818 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:03:15:728 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:03:15:832 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:03:16:755 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:03:16:856 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:03:17:773 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:03:17:874 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:03:17:975 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:03:18:783 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:03:18:884 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:03:18:986 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:03:19:798 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:03:19:899 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:03:20:000 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:03:20:802 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:03:20:906 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:03:21:007 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:03:21:109 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:03:21:214 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:03:21:315 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:03:21:416 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:03:21:517 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:03:21:623 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:03:21:724 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:03:21:825 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:03:21:926 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:03:22:059 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:03:22:165 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:03:22:267 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:03:22:370 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:03:22:473 memoria/(25350:25387): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:03:22:575 memoria/(25350:25387): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:03:22:678 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:03:22:779 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:03:22:880 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:03:22:981 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:03:23:612 memoria/(25350:25387): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 55
+
+[INFO] 12:03:23:614 memoria/(25350:25387): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 53
+
+[INFO] 12:03:23:621 memoria/(25350:25387): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 51
+
+[INFO] 12:03:23:628 memoria/(25350:25387): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 65
+
+[INFO] 12:03:23:628 memoria/(25350:25387): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 57
+
+[INFO] 12:03:23:633 memoria/(25350:25387): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 12
+
+[INFO] 12:03:23:635 memoria/(25350:25387): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 26
+
+[INFO] 12:03:23:637 memoria/(25350:25387): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 42
+
+[INFO] 12:03:23:638 memoria/(25350:25387): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 59
+
+[INFO] 12:03:23:649 memoria/(25350:25387): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 16
+
+[INFO] 12:03:23:649 memoria/(25350:25387): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 31
+
+[INFO] 12:03:23:650 memoria/(25350:25387): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 47
+
+[INFO] 12:03:23:652 memoria/(25350:25387): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:03:23:687 memoria/(25350:25387): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[INFO] 12:03:24:191 memoria/(25350:25387): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[INFO] 12:03:24:693 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:03:24:795 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:03:24:896 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:03:25:505 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:03:25:609 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:03:25:710 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:03:25:811 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:03:25:912 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:03:26:014 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:03:26:118 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:03:26:221 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:03:26:322 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:03:26:423 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:03:26:524 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:03:26:625 memoria/(25350:25387): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:03:26:744 memoria/(25350:25387): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:03:26:773 memoria/(25350:25387): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:03:26:774 memoria/(25350:25387): 
+Se desconecto el carpincho: 1 
+
+[INFO] 12:10:50:414 memoria/(25350:25387): DISCONNECT!
+[INFO] 12:10:50:593 memoria/(25350:25350): Senial SIGINT
+[INFO] 12:10:50:593 memoria/(25350:25350): -------------
+[INFO] 12:10:50:594 memoria/(25350:25350): Cantidad TLB Hits totales: 52
+[INFO] 12:10:50:595 memoria/(25350:25350): Cantidad TLB Miss totales: 2
+[INFO] 12:10:55:611 memoria/(25620:25620): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:10:55:746 memoria/(25620:25620): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:10:55:750 memoria/(25620:25620): ------2---------
+
+[INFO] 12:10:55:753 memoria/(25620:25620): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:10:57:372 memoria/(25620:25620): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:11:02:176 memoria/(25620:25657): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:11:02:853 memoria/(25620:25657): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:11:03:840 memoria/(25620:25657): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:11:04:846 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:04:953 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:05:872 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:11:05:973 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:11:06:879 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:11:06:983 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:11:07:891 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:07:997 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:08:098 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:11:08:921 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:11:09:022 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:11:09:123 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:11:09:932 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:11:10:033 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:11:10:134 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:11:10:944 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:11:045 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:11:145 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:11:11:247 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:11:11:351 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:11:11:453 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:11:11:554 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:11:11:654 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:11:11:758 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:11:11:859 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:11:11:959 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:11:12:060 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:11:12:170 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:11:12:273 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:11:12:375 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:12:478 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:12:580 memoria/(25620:25657): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:11:12:682 memoria/(25620:25657): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:11:12:784 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:12:885 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:12:986 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:11:13:087 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:11:13:694 memoria/(25620:25657): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 55
+
+[INFO] 12:11:13:697 memoria/(25620:25657): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 53
+
+[INFO] 12:11:13:698 memoria/(25620:25657): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 51
+
+[INFO] 12:11:13:698 memoria/(25620:25657): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 65
+
+[INFO] 12:11:13:698 memoria/(25620:25657): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 57
+
+[INFO] 12:11:13:699 memoria/(25620:25657): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 12
+
+[INFO] 12:11:13:699 memoria/(25620:25657): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 26
+
+[INFO] 12:11:13:700 memoria/(25620:25657): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 42
+
+[INFO] 12:11:13:700 memoria/(25620:25657): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 59
+
+[INFO] 12:11:13:700 memoria/(25620:25657): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 16
+
+[INFO] 12:11:13:703 memoria/(25620:25657): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 31
+
+[INFO] 12:11:13:703 memoria/(25620:25657): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 47
+
+[INFO] 12:11:13:705 memoria/(25620:25657): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:11:13:708 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:13:812 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:13:916 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:11:14:018 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:11:14:121 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:11:14:727 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:14:831 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:14:932 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:11:15:033 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:11:15:134 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:11:15:235 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:11:15:339 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:11:15:440 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:11:15:540 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:11:15:641 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:11:15:741 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:11:15:842 memoria/(25620:25657): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:11:15:958 memoria/(25620:25657): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:11:15:986 memoria/(25620:25657): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:11:15:989 memoria/(25620:25657): 
+Se desconecto el carpincho: 1 
+
+[INFO] 12:15:18:281 memoria/(25620:25657): DISCONNECT!
+[INFO] 12:15:19:144 memoria/(25620:25620): Senial SIGINT
+[INFO] 12:15:19:146 memoria/(25620:25620): -------------
+[INFO] 12:15:19:146 memoria/(25620:25620): Cantidad TLB Hits totales: 54
+[INFO] 12:15:19:147 memoria/(25620:25620): Cantidad TLB Miss totales: 0
+[INFO] 12:15:23:416 memoria/(25854:25854): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:15:23:496 memoria/(25854:25854): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:15:23:500 memoria/(25854:25854): ------2---------
+
+[INFO] 12:15:23:501 memoria/(25854:25854): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:15:25:052 memoria/(25854:25854): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:15:30:283 memoria/(25854:25891): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:15:30:919 memoria/(25854:25891): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:15:31:927 memoria/(25854:25891): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:15:32:945 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:33:059 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:33:993 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:15:34:094 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:15:34:999 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:15:35:101 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:15:36:022 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:36:128 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:36:229 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:15:37:036 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:15:37:138 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:15:37:239 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:15:38:049 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:15:38:150 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:15:38:251 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:15:39:070 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:39:174 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:39:275 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:15:39:376 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:15:39:484 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:15:39:585 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:15:39:686 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:15:39:787 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:15:39:892 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:15:39:994 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:15:40:094 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:15:40:195 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:15:40:305 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:15:40:409 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:15:40:511 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:40:613 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:40:715 memoria/(25854:25891): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:15:40:818 memoria/(25854:25891): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:15:40:921 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:41:022 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:41:124 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:15:41:224 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:15:41:851 memoria/(25854:25891): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 105
+
+[INFO] 12:15:41:852 memoria/(25854:25891): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 107
+
+[INFO] 12:15:41:852 memoria/(25854:25891): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 109
+
+[INFO] 12:15:41:853 memoria/(25854:25891): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 114
+
+[INFO] 12:15:41:853 memoria/(25854:25891): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 101
+
+[INFO] 12:15:41:854 memoria/(25854:25891): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:15:41:855 memoria/(25854:25891): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:15:41:855 memoria/(25854:25891): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:15:41:856 memoria/(25854:25891): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 104
+
+[INFO] 12:15:41:856 memoria/(25854:25891): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:15:41:857 memoria/(25854:25891): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:15:41:857 memoria/(25854:25891): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:15:41:862 memoria/(25854:25891): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:15:41:867 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:41:968 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:42:068 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:15:42:170 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:15:42:271 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:15:42:892 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:42:993 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:43:095 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:15:43:196 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:15:43:298 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:15:43:400 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:15:43:503 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:15:43:605 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:15:43:706 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:15:43:807 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:15:43:909 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:15:44:010 memoria/(25854:25891): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:15:44:134 memoria/(25854:25891): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:15:44:165 memoria/(25854:25891): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:15:44:166 memoria/(25854:25891): 
+Se desconecto el carpincho: 1 
+
+[INFO] 12:19:23:247 memoria/(25854:25891): DISCONNECT!
+[INFO] 12:19:23:354 memoria/(25854:25854): Senial SIGINT
+[INFO] 12:19:23:356 memoria/(25854:25854): -------------
+[INFO] 12:19:23:356 memoria/(25854:25854): Cantidad TLB Hits totales: 54
+[INFO] 12:19:23:357 memoria/(25854:25854): Cantidad TLB Miss totales: 0
+[INFO] 12:19:28:789 memoria/(26061:26061): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:19:28:860 memoria/(26061:26061): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:19:28:866 memoria/(26061:26061): ------2---------
+
+[INFO] 12:19:28:867 memoria/(26061:26061): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:19:30:875 memoria/(26061:26061): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:19:34:977 memoria/(26061:26098): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:19:35:612 memoria/(26061:26098): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:19:36:625 memoria/(26061:26098): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:19:37:633 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:37:741 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:38:649 memoria/(26061:26098): id_carpincho: 1, nueva_pagina: 2
+[INFO] 12:19:38:671 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:19:38:773 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:19:39:666 memoria/(26061:26098): id_carpincho: 2, nueva_pagina: 2
+[INFO] 12:19:39:676 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:19:39:779 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:19:40:680 memoria/(26061:26098): id_carpincho: 3, nueva_pagina: 2
+[INFO] 12:19:40:684 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:40:785 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:40:885 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:19:41:693 memoria/(26061:26098): id_carpincho: 1, nueva_pagina: 3
+[INFO] 12:19:41:701 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:19:41:811 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:19:41:912 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:19:42:711 memoria/(26061:26098): id_carpincho: 2, nueva_pagina: 3
+[INFO] 12:19:42:718 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:19:42:820 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:19:42:921 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:19:43:722 memoria/(26061:26098): id_carpincho: 3, nueva_pagina: 3
+[INFO] 12:19:43:729 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:43:830 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:43:933 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:19:44:035 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:19:44:145 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:19:44:247 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:19:44:347 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:19:44:449 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:19:44:553 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:19:44:654 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:19:44:755 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:19:44:857 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:19:44:974 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:19:45:078 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:19:45:180 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:45:282 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:45:384 memoria/(26061:26098): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:19:45:487 memoria/(26061:26098): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:19:45:590 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:45:692 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:45:793 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:19:45:894 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:19:46:500 memoria/(26061:26098): id_carpincho: 1, nueva_pagina: 4
+[INFO] 12:19:46:504 memoria/(26061:26098): No hay frame
+[INFO] 12:19:46:512 memoria/(26061:26098): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 105
+
+[INFO] 12:19:46:519 memoria/(26061:26098): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 107
+
+[INFO] 12:19:46:520 memoria/(26061:26098): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 109
+
+[INFO] 12:19:46:520 memoria/(26061:26098): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 114
+
+[INFO] 12:19:46:521 memoria/(26061:26098): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 101
+
+[INFO] 12:19:46:521 memoria/(26061:26098): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:19:46:521 memoria/(26061:26098): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:19:46:522 memoria/(26061:26098): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:19:46:522 memoria/(26061:26098): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 104
+
+[INFO] 12:19:46:523 memoria/(26061:26098): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:19:46:523 memoria/(26061:26098): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:19:46:523 memoria/(26061:26098): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:19:46:526 memoria/(26061:26098): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:19:46:529 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:46:630 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:46:731 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:19:46:832 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:19:46:934 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:19:47:539 memoria/(26061:26098): id_carpincho: 1, nueva_pagina: 5
+[INFO] 12:19:47:548 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:47:650 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:47:751 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:19:47:853 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:19:47:954 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:19:48:056 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:19:48:161 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:19:48:263 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:19:48:363 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:19:48:464 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:19:48:565 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:19:48:667 memoria/(26061:26098): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:19:48:775 memoria/(26061:26098): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 12:19:48:812 memoria/(26061:26098): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:19:48:818 memoria/(26061:26098): 
+Se desconecto el carpincho: 3 
+
+[INFO] 12:22:46:495 memoria/(26061:26098): DISCONNECT!
+[INFO] 12:22:46:579 memoria/(26061:26061): Senial SIGINT
+[INFO] 12:22:46:580 memoria/(26061:26061): -------------
+[INFO] 12:22:46:581 memoria/(26061:26061): Cantidad TLB Hits totales: 54
+[INFO] 12:22:46:582 memoria/(26061:26061): Cantidad TLB Miss totales: 0
+[INFO] 12:22:50:920 memoria/(26334:26334): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:22:51:014 memoria/(26334:26334): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:22:51:018 memoria/(26334:26334): ------2---------
+
+[INFO] 12:22:51:020 memoria/(26334:26334): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:22:52:847 memoria/(26334:26334): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:23:08:846 memoria/(26334:26371): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:23:09:506 memoria/(26334:26371): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:23:10:515 memoria/(26334:26371): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:23:11:524 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:11:628 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:12:533 memoria/(26334:26371): id_carpincho: 1, nueva_pagina: 2
+[INFO] 12:23:12:555 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:23:12:658 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:23:13:549 memoria/(26334:26371): id_carpincho: 2, nueva_pagina: 2
+[INFO] 12:23:13:563 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:23:13:666 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:23:14:566 memoria/(26334:26371): id_carpincho: 3, nueva_pagina: 2
+[INFO] 12:23:14:572 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:14:679 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:14:780 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:23:15:580 memoria/(26334:26371): id_carpincho: 1, nueva_pagina: 3
+[INFO] 12:23:15:587 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:23:15:692 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:23:15:792 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:23:16:595 memoria/(26334:26371): id_carpincho: 2, nueva_pagina: 3
+[INFO] 12:23:16:601 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:23:16:705 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:23:16:806 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:23:17:609 memoria/(26334:26371): id_carpincho: 3, nueva_pagina: 3
+[INFO] 12:23:17:614 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:17:716 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:17:817 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:23:17:918 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:23:18:027 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:23:18:129 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:23:18:233 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:23:18:334 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:23:18:439 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:23:18:541 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:23:18:642 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:23:18:742 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:23:18:867 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:23:18:971 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:23:19:072 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:19:174 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:19:277 memoria/(26334:26371): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:23:19:379 memoria/(26334:26371): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:23:19:482 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:19:583 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:19:684 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:23:19:785 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:23:20:388 memoria/(26334:26371): id_carpincho: 1, nueva_pagina: 4
+[INFO] 12:23:20:391 memoria/(26334:26371): No hay frame
+[INFO] 12:23:20:396 memoria/(26334:26371): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 105
+
+[INFO] 12:23:20:397 memoria/(26334:26371): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 107
+
+[INFO] 12:23:20:397 memoria/(26334:26371): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 109
+
+[INFO] 12:23:20:398 memoria/(26334:26371): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 114
+
+[INFO] 12:23:20:398 memoria/(26334:26371): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 101
+
+[INFO] 12:23:20:399 memoria/(26334:26371): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:23:20:399 memoria/(26334:26371): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:23:20:399 memoria/(26334:26371): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:23:20:400 memoria/(26334:26371): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 104
+
+[INFO] 12:23:20:400 memoria/(26334:26371): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:23:20:401 memoria/(26334:26371): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:23:20:401 memoria/(26334:26371): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:23:20:403 memoria/(26334:26371): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:23:20:410 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:20:512 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:20:613 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:23:20:714 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:23:20:815 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:23:21:422 memoria/(26334:26371): id_carpincho: 1, nueva_pagina: 5
+[INFO] 12:23:21:443 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:21:548 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:21:649 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:23:21:750 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:23:21:851 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:23:21:953 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:23:22:057 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:23:22:158 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:23:22:259 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:23:22:359 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:23:22:461 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:23:22:562 memoria/(26334:26371): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:23:22:684 memoria/(26334:26371): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:23:22:715 memoria/(26334:26371): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:23:22:717 memoria/(26334:26371): 
+Se desconecto el carpincho: 1 
+
+[INFO] 12:24:58:073 memoria/(26334:26334): Senial SIGINT
+[INFO] 12:24:58:077 memoria/(26334:26334): -------------
+[INFO] 12:24:58:080 memoria/(26334:26334): Cantidad TLB Hits totales: 54
+[INFO] 12:24:58:081 memoria/(26334:26334): Cantidad TLB Miss totales: 0
+[INFO] 12:25:02:778 memoria/(26530:26530): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:25:02:855 memoria/(26530:26530): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:25:02:885 memoria/(26530:26530): ------2---------
+
+[INFO] 12:25:02:886 memoria/(26530:26530): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:25:04:293 memoria/(26530:26530): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:25:10:291 memoria/(26530:26567): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:25:10:914 memoria/(26530:26567): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:25:11:928 memoria/(26530:26567): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:25:12:957 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:25:13:064 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:25:13:971 memoria/(26530:26567): id_carpincho: 1, nueva_pagina: 2
+[INFO] 12:25:13:990 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:25:14:091 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:25:14:985 memoria/(26530:26567): id_carpincho: 2, nueva_pagina: 2
+[INFO] 12:25:14:996 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:25:15:098 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:25:15:993 memoria/(26530:26567): id_carpincho: 3, nueva_pagina: 2
+[INFO] 12:25:16:002 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:25:16:103 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:25:16:204 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:25:17:003 memoria/(26530:26567): id_carpincho: 1, nueva_pagina: 3
+[INFO] 12:25:17:010 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:25:17:112 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:25:17:213 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:25:18:013 memoria/(26530:26567): id_carpincho: 2, nueva_pagina: 3
+[INFO] 12:25:18:020 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:25:18:122 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:25:18:223 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:25:19:023 memoria/(26530:26567): id_carpincho: 3, nueva_pagina: 3
+[INFO] 12:25:19:033 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:25:19:135 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:25:19:235 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:25:19:336 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:25:19:440 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:25:19:542 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:25:19:643 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:25:19:743 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:25:19:846 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:25:19:947 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:25:20:048 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:25:20:149 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:25:20:264 memoria/(26530:26567): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:25:20:370 memoria/(26530:26567): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:25:20:473 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:25:20:574 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:25:20:676 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:25:20:777 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:25:21:383 memoria/(26530:26567): id_carpincho: 1, nueva_pagina: 4
+[INFO] 12:25:21:391 memoria/(26530:26567): No hay frame
+[INFO] 12:25:21:407 memoria/(26530:26567): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 12:25:21:408 memoria/(26530:26567): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 12:25:21:409 memoria/(26530:26567): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 12:25:21:410 memoria/(26530:26567): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 12:25:21:410 memoria/(26530:26567): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 12:25:21:411 memoria/(26530:26567): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:25:21:411 memoria/(26530:26567): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:25:21:412 memoria/(26530:26567): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:25:21:418 memoria/(26530:26567): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 12:25:21:425 memoria/(26530:26567): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:25:21:425 memoria/(26530:26567): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:25:21:425 memoria/(26530:26567): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:25:21:428 memoria/(26530:26567): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:25:21:433 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:25:21:535 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:25:21:637 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:25:21:739 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:25:21:840 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:25:22:445 memoria/(26530:26567): id_carpincho: 1, nueva_pagina: 5
+[INFO] 12:25:22:456 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:25:22:558 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:25:22:659 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:25:22:760 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:25:22:861 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:25:22:963 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:25:23:068 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:25:23:169 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:25:23:269 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:25:23:370 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:25:23:472 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:25:23:573 memoria/(26530:26567): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:25:23:689 memoria/(26530:26567): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:25:23:721 memoria/(26530:26567): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:25:23:722 memoria/(26530:26567): 
+Se desconecto el carpincho: 1 
+
+[INFO] 12:26:01:452 memoria/(26530:26567): DISCONNECT!
+[INFO] 12:26:01:547 memoria/(26530:26530): Senial SIGINT
+[INFO] 12:26:01:549 memoria/(26530:26530): -------------
+[INFO] 12:26:01:550 memoria/(26530:26530): Cantidad TLB Hits totales: 50
+[INFO] 12:26:01:553 memoria/(26530:26530): Cantidad TLB Miss totales: 0
+[INFO] 12:26:05:675 memoria/(26700:26700): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:26:05:750 memoria/(26700:26700): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:26:05:752 memoria/(26700:26700): ------2---------
+
+[INFO] 12:26:05:754 memoria/(26700:26700): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:26:07:648 memoria/(26700:26700): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:26:11:678 memoria/(26700:26737): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:26:12:358 memoria/(26700:26737): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:26:13:368 memoria/(26700:26737): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:26:14:379 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:26:14:502 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:26:15:399 memoria/(26700:26737): id_carpincho: 1, nueva_pagina: 2
+[INFO] 12:26:15:427 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:26:15:538 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:26:16:441 memoria/(26700:26737): id_carpincho: 2, nueva_pagina: 2
+[INFO] 12:26:16:449 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:26:16:550 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:26:17:451 memoria/(26700:26737): id_carpincho: 3, nueva_pagina: 2
+[INFO] 12:26:17:460 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:26:17:561 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:26:17:662 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:26:18:471 memoria/(26700:26737): id_carpincho: 1, nueva_pagina: 3
+[INFO] 12:26:18:485 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:26:18:588 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:26:18:689 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:26:19:481 memoria/(26700:26737): id_carpincho: 2, nueva_pagina: 3
+[INFO] 12:26:19:484 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:26:19:586 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:26:19:687 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:26:20:492 memoria/(26700:26737): id_carpincho: 3, nueva_pagina: 3
+[INFO] 12:26:20:501 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:26:20:602 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:26:20:704 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:26:20:805 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:26:20:912 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:26:21:014 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:26:21:117 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:26:21:219 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:26:21:323 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:26:21:424 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:26:21:525 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:26:21:626 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:26:21:739 memoria/(26700:26737): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:26:21:844 memoria/(26700:26737): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:26:21:947 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:26:22:048 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:26:22:152 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:26:22:253 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:26:22:858 memoria/(26700:26737): id_carpincho: 1, nueva_pagina: 4
+[INFO] 12:26:22:859 memoria/(26700:26737): No hay frame
+[INFO] 12:26:22:863 memoria/(26700:26737): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 12:26:22:864 memoria/(26700:26737): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 12:26:22:864 memoria/(26700:26737): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 12:26:22:864 memoria/(26700:26737): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 12:26:22:865 memoria/(26700:26737): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 12:26:22:865 memoria/(26700:26737): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:26:22:865 memoria/(26700:26737): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:26:22:866 memoria/(26700:26737): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:26:22:866 memoria/(26700:26737): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 12:26:22:866 memoria/(26700:26737): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:26:22:868 memoria/(26700:26737): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:26:22:870 memoria/(26700:26737): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:26:22:872 memoria/(26700:26737): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:26:22:875 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:26:22:976 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:26:23:077 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:26:23:178 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:26:23:280 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:26:23:883 memoria/(26700:26737): id_carpincho: 1, nueva_pagina: 5
+[INFO] 12:26:23:892 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:26:23:994 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:26:24:095 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:26:24:197 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:26:24:298 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:26:24:401 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:26:24:505 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:26:24:606 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:26:24:707 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:26:24:808 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:26:24:909 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:26:25:010 memoria/(26700:26737): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:26:25:125 memoria/(26700:26737): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:26:25:169 memoria/(26700:26737): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 12:26:25:171 memoria/(26700:26737): 
+Se desconecto el carpincho: 3 
+
+[INFO] 12:27:52:945 memoria/(26700:26737): DISCONNECT!
+[INFO] 12:27:52:991 memoria/(26700:26700): Senial SIGINT
+[INFO] 12:27:52:993 memoria/(26700:26700): -------------
+[INFO] 12:27:52:993 memoria/(26700:26700): Cantidad TLB Hits totales: 50
+[INFO] 12:27:52:994 memoria/(26700:26700): Cantidad TLB Miss totales: 0
+[INFO] 12:27:56:968 memoria/(26886:26886): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:27:57:044 memoria/(26886:26886): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:27:57:049 memoria/(26886:26886): ------2---------
+
+[INFO] 12:27:57:050 memoria/(26886:26886): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:27:58:217 memoria/(26886:26886): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:28:00:542 memoria/(26886:26923): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:28:01:158 memoria/(26886:26923): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:28:02:161 memoria/(26886:26923): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:28:03:178 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:28:03:288 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:28:04:208 memoria/(26886:26923): id_carpincho: 1, nueva_pagina: 2
+[INFO] 12:28:04:214 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:28:04:316 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:28:05:209 memoria/(26886:26923): id_carpincho: 2, nueva_pagina: 2
+[INFO] 12:28:05:216 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:28:05:329 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:28:06:240 memoria/(26886:26923): id_carpincho: 3, nueva_pagina: 2
+[INFO] 12:28:06:249 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:28:06:354 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:28:06:455 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:28:07:261 memoria/(26886:26923): id_carpincho: 1, nueva_pagina: 3
+[INFO] 12:28:07:276 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:28:07:377 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:28:07:478 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:28:08:270 memoria/(26886:26923): id_carpincho: 2, nueva_pagina: 3
+[INFO] 12:28:08:283 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:28:08:385 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:28:08:487 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:28:09:278 memoria/(26886:26923): id_carpincho: 3, nueva_pagina: 3
+[INFO] 12:28:09:283 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:28:09:384 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:28:09:485 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:28:09:585 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:28:09:691 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:28:09:792 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:28:09:894 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:28:09:994 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:28:10:098 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:28:10:199 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:28:10:300 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:28:10:401 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:28:10:513 memoria/(26886:26923): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:28:10:618 memoria/(26886:26923): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:28:10:724 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:28:10:825 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:28:10:926 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:28:11:028 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:28:11:637 memoria/(26886:26923): id_carpincho: 1, nueva_pagina: 4
+[INFO] 12:28:11:637 memoria/(26886:26923): No hay frame
+[INFO] 12:28:11:644 memoria/(26886:26923): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 12:28:11:646 memoria/(26886:26923): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 12:28:11:647 memoria/(26886:26923): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 12:28:11:647 memoria/(26886:26923): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 12:28:11:648 memoria/(26886:26923): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 12:28:11:649 memoria/(26886:26923): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:28:11:649 memoria/(26886:26923): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:28:11:650 memoria/(26886:26923): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:28:11:650 memoria/(26886:26923): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 12:28:11:650 memoria/(26886:26923): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:28:11:651 memoria/(26886:26923): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:28:11:651 memoria/(26886:26923): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:28:11:653 memoria/(26886:26923): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:28:11:657 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:28:11:758 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:28:11:859 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:28:11:960 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:28:12:061 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:28:12:666 memoria/(26886:26923): id_carpincho: 1, nueva_pagina: 5
+[INFO] 12:28:12:678 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:28:12:780 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:28:12:880 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:28:12:981 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:28:13:083 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:28:13:185 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:28:13:290 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:28:13:392 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:28:13:494 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:28:13:595 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:28:13:697 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:28:13:798 memoria/(26886:26923): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:28:13:908 memoria/(26886:26923): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 12:28:13:946 memoria/(26886:26923): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:28:13:955 memoria/(26886:26923): 
+Se desconecto el carpincho: 3 
+
+[INFO] 12:29:54:388 memoria/(26886:26923): DISCONNECT!
+[INFO] 12:29:54:439 memoria/(26886:26886): Senial SIGINT
+[INFO] 12:29:54:448 memoria/(26886:26886): -------------
+[INFO] 12:29:54:449 memoria/(26886:26886): Cantidad TLB Hits totales: 50
+[INFO] 12:29:54:450 memoria/(26886:26886): Cantidad TLB Miss totales: 0
+[INFO] 12:29:58:755 memoria/(27091:27091): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:29:58:868 memoria/(27091:27091): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:29:58:871 memoria/(27091:27091): ------2---------
+
+[INFO] 12:29:58:874 memoria/(27091:27091): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:30:00:480 memoria/(27091:27091): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:30:06:385 memoria/(27091:27128): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:30:07:043 memoria/(27091:27128): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:30:08:064 memoria/(27091:27128): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:30:09:067 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:30:09:175 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:30:10:086 memoria/(27091:27128): id_carpincho: 1, nueva_pagina: 2
+[INFO] 12:30:10:096 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:30:10:198 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:30:11:089 memoria/(27091:27128): id_carpincho: 2, nueva_pagina: 2
+[INFO] 12:30:11:092 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:30:11:193 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:30:12:100 memoria/(27091:27128): id_carpincho: 3, nueva_pagina: 2
+[INFO] 12:30:12:104 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:30:12:205 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:30:12:306 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:30:13:112 memoria/(27091:27128): id_carpincho: 1, nueva_pagina: 3
+[INFO] 12:30:13:119 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:30:13:227 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:30:13:329 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:30:14:128 memoria/(27091:27128): id_carpincho: 2, nueva_pagina: 3
+[INFO] 12:30:14:132 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:30:14:234 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:30:14:334 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:30:15:143 memoria/(27091:27128): id_carpincho: 3, nueva_pagina: 3
+[INFO] 12:30:15:146 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:30:15:247 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:30:15:349 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:30:15:450 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:30:15:556 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:30:15:658 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:30:15:758 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:30:15:860 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:30:15:963 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:30:16:064 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:30:16:165 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:30:16:266 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:30:16:384 memoria/(27091:27128): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:30:16:488 memoria/(27091:27128): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:30:16:593 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:30:16:694 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:30:16:795 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:30:16:896 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:30:17:501 memoria/(27091:27128): id_carpincho: 1, nueva_pagina: 4
+[INFO] 12:30:17:503 memoria/(27091:27128): No hay frame
+[INFO] 12:30:17:508 memoria/(27091:27128): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 12:30:17:508 memoria/(27091:27128): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 12:30:17:509 memoria/(27091:27128): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 12:30:17:509 memoria/(27091:27128): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 12:30:17:509 memoria/(27091:27128): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 12:30:17:510 memoria/(27091:27128): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:30:17:510 memoria/(27091:27128): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:30:17:510 memoria/(27091:27128): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:30:17:511 memoria/(27091:27128): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 12:30:17:511 memoria/(27091:27128): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:30:17:511 memoria/(27091:27128): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:30:17:512 memoria/(27091:27128): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:30:17:514 memoria/(27091:27128): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:30:17:518 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:30:17:619 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:30:17:722 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:30:17:824 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:30:17:925 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:30:18:528 memoria/(27091:27128): id_carpincho: 1, nueva_pagina: 5
+[INFO] 12:30:18:534 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:30:18:636 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:30:18:737 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:30:18:838 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:30:18:939 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:30:19:041 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:30:19:146 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:30:19:247 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:30:19:348 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:30:19:448 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:30:19:549 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:30:19:651 memoria/(27091:27128): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:30:19:771 memoria/(27091:27128): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:30:19:803 memoria/(27091:27128): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:30:19:804 memoria/(27091:27128): 
+Se desconecto el carpincho: 1 
+
+[INFO] 12:33:16:369 memoria/(27091:27128): DISCONNECT!
+[INFO] 12:33:17:868 memoria/(27091:27091): Senial SIGINT
+[INFO] 12:33:17:869 memoria/(27091:27091): -------------
+[INFO] 12:33:17:869 memoria/(27091:27091): Cantidad TLB Hits totales: 50
+[INFO] 12:33:17:870 memoria/(27091:27091): Cantidad TLB Miss totales: 0
+[INFO] 12:33:23:615 memoria/(27298:27298): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 12:33:23:727 memoria/(27298:27298): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 12:33:23:730 memoria/(27298:27298): ------2---------
+
+[INFO] 12:33:23:738 memoria/(27298:27298): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 12:33:25:221 memoria/(27298:27298): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 12:33:30:090 memoria/(27298:27335): 
+Se conecto el carpincho: 1 
+
+[WARNING] 12:33:30:702 memoria/(27298:27335): 
+Se conecto el carpincho: 2 
+
+[WARNING] 12:33:31:737 memoria/(27298:27335): 
+Se conecto el carpincho: 3 
+
+[INFO] 12:33:32:751 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:33:32:856 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:33:32:958 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 12:33:33:762 memoria/(27298:27335): id_carpincho: 1, nueva_pagina: 2
+[INFO] 12:33:33:775 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:33:33:877 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:33:33:979 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 12:33:34:778 memoria/(27298:27335): id_carpincho: 2, nueva_pagina: 2
+[INFO] 12:33:34:783 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:33:34:885 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:33:34:986 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 12:33:35:793 memoria/(27298:27335): id_carpincho: 3, nueva_pagina: 2
+[INFO] 12:33:35:798 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:33:35:902 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:33:36:004 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:33:36:105 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 12:33:36:807 memoria/(27298:27335): id_carpincho: 1, nueva_pagina: 3
+[INFO] 12:33:36:815 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:33:36:917 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:33:37:018 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:33:37:119 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 12:33:37:814 memoria/(27298:27335): id_carpincho: 2, nueva_pagina: 3
+[INFO] 12:33:37:822 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:33:37:923 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:33:38:025 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:33:38:126 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 12:33:38:826 memoria/(27298:27335): id_carpincho: 3, nueva_pagina: 3
+[INFO] 12:33:38:833 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:33:38:940 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:33:39:043 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:33:39:144 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:33:39:245 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 1, size: 10
+[INFO] 12:33:39:250 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:33:39:351 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 12:33:39:452 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 12:33:39:552 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 12:33:39:653 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 2, size: 10
+[INFO] 12:33:39:656 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:33:39:757 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 12:33:39:858 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 12:33:39:960 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 12:33:40:061 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 3, size: 10
+[INFO] 12:33:40:079 memoria/(27298:27335): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 12:33:40:193 memoria/(27298:27335): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 12:33:40:298 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:33:40:399 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:33:40:500 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:33:40:602 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:33:40:703 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 12:33:41:207 memoria/(27298:27335): id_carpincho: 1, nueva_pagina: 4
+[INFO] 12:33:41:217 memoria/(27298:27335): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 12:33:41:222 memoria/(27298:27335): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 12:33:41:222 memoria/(27298:27335): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 12:33:41:223 memoria/(27298:27335): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 12:33:41:223 memoria/(27298:27335): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 12:33:41:224 memoria/(27298:27335): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 12:33:41:224 memoria/(27298:27335): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 12:33:41:225 memoria/(27298:27335): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 12:33:41:225 memoria/(27298:27335): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 12:33:41:225 memoria/(27298:27335): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 12:33:41:226 memoria/(27298:27335): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 12:33:41:226 memoria/(27298:27335): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 12:33:41:229 memoria/(27298:27335): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 12:33:41:234 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:33:41:348 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:33:41:449 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:33:41:550 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:33:41:651 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:33:41:752 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 12:33:42:256 memoria/(27298:27335): id_carpincho: 1, nueva_pagina: 5
+[INFO] 12:33:42:267 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:33:42:369 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:33:42:469 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:33:42:570 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:33:42:671 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:33:42:772 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 12:33:42:774 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 12:33:42:878 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 12:33:42:979 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 12:33:43:080 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 12:33:43:181 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 12:33:43:283 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 12:33:43:385 memoria/(27298:27335): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 12:33:43:388 memoria/(27298:27335): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 12:33:43:506 memoria/(27298:27335): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 12:33:43:528 memoria/(27298:27335): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 12:33:43:533 memoria/(27298:27335): 
+Se desconecto el carpincho: 1 
+
+[INFO] 17:58:47:753 memoria/(27298:27335): DISCONNECT!
+[INFO] 17:58:48:192 memoria/(27298:27298): Senial SIGINT
+[INFO] 17:58:48:193 memoria/(27298:27298): -------------
+[INFO] 17:58:48:194 memoria/(27298:27298): Cantidad TLB Hits totales: 50
+[INFO] 17:58:48:194 memoria/(27298:27298): Cantidad TLB Miss totales: 0
+[INFO] 17:58:57:964 memoria/(29703:29703): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:58:58:043 memoria/(29703:29703): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 17:58:58:050 memoria/(29703:29703): ------2---------
+
+[INFO] 17:58:58:052 memoria/(29703:29703): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 17:59:02:639 memoria/(29703:29703): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 17:59:31:059 memoria/(29703:29740): 
+Se conecto el carpincho: 1 
+
+[WARNING] 17:59:31:704 memoria/(29703:29740): 
+Se conecto el carpincho: 2 
+
+[WARNING] 17:59:32:715 memoria/(29703:29740): 
+Se conecto el carpincho: 3 
+
+[INFO] 17:59:33:734 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 17:59:33:850 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 17:59:33:951 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:33:952 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 17:59:34:751 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:34:761 memoria/(29703:29740): id_carpincho: 1, nueva_pagina: 2
+[INFO] 17:59:34:770 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 17:59:34:872 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 17:59:34:973 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:34:974 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 17:59:35:761 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:35:766 memoria/(29703:29740): id_carpincho: 2, nueva_pagina: 2
+[INFO] 17:59:35:772 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 17:59:35:880 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 17:59:35:981 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:35:982 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 17:59:36:777 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:36:780 memoria/(29703:29740): id_carpincho: 3, nueva_pagina: 2
+[INFO] 17:59:36:784 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 17:59:36:885 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 17:59:36:986 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 17:59:37:087 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:37:087 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 17:59:37:783 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:37:784 memoria/(29703:29740): id_carpincho: 1, nueva_pagina: 3
+[INFO] 17:59:37:793 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 17:59:37:896 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 17:59:37:997 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 17:59:38:098 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:38:098 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 17:59:38:791 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:38:792 memoria/(29703:29740): id_carpincho: 2, nueva_pagina: 3
+[INFO] 17:59:38:801 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 17:59:38:903 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 17:59:39:004 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 17:59:39:105 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:39:106 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 17:59:39:807 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:39:807 memoria/(29703:29740): id_carpincho: 3, nueva_pagina: 3
+[INFO] 17:59:39:812 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 17:59:39:913 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 17:59:40:019 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 17:59:40:120 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 17:59:40:221 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:40:222 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 1, size: 10
+[INFO] 17:59:40:227 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 17:59:40:333 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 17:59:40:439 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 17:59:40:546 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 17:59:40:649 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:40:649 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 2, size: 10
+[INFO] 17:59:40:663 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 17:59:40:771 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 17:59:40:872 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 17:59:40:973 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 17:59:41:074 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:41:075 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 3, size: 10
+[INFO] 17:59:41:109 memoria/(29703:29740): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 17:59:41:219 memoria/(29703:29740): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 17:59:41:325 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 17:59:41:427 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 17:59:41:528 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 17:59:41:629 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 17:59:41:735 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:41:736 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 17:59:42:238 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:42:239 memoria/(29703:29740): id_carpincho: 1, nueva_pagina: 4
+[INFO] 17:59:42:246 memoria/(29703:29740): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 17:59:42:247 memoria/(29703:29740): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 17:59:42:247 memoria/(29703:29740): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 17:59:42:248 memoria/(29703:29740): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 17:59:42:248 memoria/(29703:29740): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 17:59:42:252 memoria/(29703:29740): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 17:59:42:253 memoria/(29703:29740): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 17:59:42:253 memoria/(29703:29740): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 17:59:42:254 memoria/(29703:29740): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 17:59:42:254 memoria/(29703:29740): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 17:59:42:254 memoria/(29703:29740): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 17:59:42:255 memoria/(29703:29740): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 17:59:42:257 memoria/(29703:29740): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 17:59:42:262 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 17:59:42:364 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 17:59:42:466 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 17:59:42:567 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 17:59:42:667 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 17:59:42:768 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:42:769 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 17:59:43:271 memoria/(29703:29740): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 17:59:43:276 memoria/(29703:29740): id_carpincho: 1, nueva_pagina: 5
+[INFO] 17:59:43:284 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 17:59:43:392 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 17:59:43:494 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 17:59:43:599 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 17:59:43:705 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 17:59:43:805 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:43:805 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 17:59:43:807 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 17:59:43:919 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 17:59:44:031 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 17:59:44:138 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 17:59:44:238 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 17:59:44:341 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 17:59:44:443 memoria/(29703:29740): direccion_hmd: 82018976
+[INFO] 17:59:44:444 memoria/(29703:29740): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 17:59:44:449 memoria/(29703:29740): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 17:59:44:588 memoria/(29703:29740): 
+Se desconecto el carpincho: 3 
+
+[WARNING] 17:59:44:637 memoria/(29703:29740): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 17:59:44:638 memoria/(29703:29740): 
+Se desconecto el carpincho: 1 
+
+[INFO] 17:59:51:943 memoria/(29703:29740): DISCONNECT!
+[INFO] 17:59:52:211 memoria/(29703:29703): Senial SIGINT
+[INFO] 17:59:52:212 memoria/(29703:29703): -------------
+[INFO] 17:59:52:213 memoria/(29703:29703): Cantidad TLB Hits totales: 50
+[INFO] 17:59:52:213 memoria/(29703:29703): Cantidad TLB Miss totales: 0
+[INFO] 17:59:56:350 memoria/(29874:29874): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 17:59:56:429 memoria/(29874:29874): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 17:59:56:432 memoria/(29874:29874): ------2---------
+
+[INFO] 17:59:56:433 memoria/(29874:29874): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 18:00:00:247 memoria/(29874:29874): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 18:00:05:218 memoria/(29874:29911): 
+Se conecto el carpincho: 1 
+
+[WARNING] 18:00:05:837 memoria/(29874:29911): 
+Se conecto el carpincho: 2 
+
+[WARNING] 18:00:06:865 memoria/(29874:29911): 
+Se conecto el carpincho: 3 
+
+[INFO] 18:00:07:871 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:00:07:981 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:00:08:082 memoria/(29874:29911): direccion_hmd: 32
+[INFO] 18:00:08:085 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:00:08:880 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:08:886 memoria/(29874:29911): id_carpincho: 1, nueva_pagina: 2
+[INFO] 18:00:08:891 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:00:08:995 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 18:00:09:096 memoria/(29874:29911): direccion_hmd: 32
+[INFO] 18:00:09:096 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 18:00:09:897 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:09:901 memoria/(29874:29911): id_carpincho: 2, nueva_pagina: 2
+[INFO] 18:00:09:908 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:00:10:014 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 18:00:10:114 memoria/(29874:29911): direccion_hmd: 32
+[INFO] 18:00:10:114 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 18:00:10:914 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:10:915 memoria/(29874:29911): id_carpincho: 3, nueva_pagina: 2
+[INFO] 18:00:10:924 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:00:11:027 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:00:11:128 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:00:11:229 memoria/(29874:29911): direccion_hmd: 64
+[INFO] 18:00:11:229 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:00:11:922 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:11:928 memoria/(29874:29911): id_carpincho: 1, nueva_pagina: 3
+[INFO] 18:00:11:934 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:00:12:036 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 18:00:12:137 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 18:00:12:239 memoria/(29874:29911): direccion_hmd: 64
+[INFO] 18:00:12:239 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 18:00:12:939 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:12:940 memoria/(29874:29911): id_carpincho: 2, nueva_pagina: 3
+[INFO] 18:00:12:953 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:00:13:055 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 18:00:13:156 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 18:00:13:257 memoria/(29874:29911): direccion_hmd: 64
+[INFO] 18:00:13:257 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 18:00:13:949 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:13:950 memoria/(29874:29911): id_carpincho: 3, nueva_pagina: 3
+[INFO] 18:00:13:968 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:00:14:077 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:00:14:178 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:00:14:279 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:00:14:380 memoria/(29874:29911): direccion_hmd: 96
+[INFO] 18:00:14:380 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 1, size: 10
+[INFO] 18:00:14:387 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:00:14:488 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 18:00:14:589 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 18:00:14:690 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 18:00:14:791 memoria/(29874:29911): direccion_hmd: 96
+[INFO] 18:00:14:791 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 2, size: 10
+[INFO] 18:00:14:794 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:00:14:896 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 18:00:14:997 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 18:00:15:098 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 18:00:15:198 memoria/(29874:29911): direccion_hmd: 96
+[INFO] 18:00:15:199 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 3, size: 10
+[INFO] 18:00:15:209 memoria/(29874:29911): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:00:15:313 memoria/(29874:29911): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:00:15:416 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:00:15:517 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:00:15:619 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:00:15:720 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:00:15:821 memoria/(29874:29911): direccion_hmd: 115
+[INFO] 18:00:15:821 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:00:16:326 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:16:327 memoria/(29874:29911): id_carpincho: 1, nueva_pagina: 4
+[INFO] 18:00:16:331 memoria/(29874:29911): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 18:00:16:331 memoria/(29874:29911): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 18:00:16:332 memoria/(29874:29911): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 18:00:16:332 memoria/(29874:29911): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 18:00:16:333 memoria/(29874:29911): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 18:00:16:333 memoria/(29874:29911): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 18:00:16:333 memoria/(29874:29911): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 18:00:16:334 memoria/(29874:29911): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 18:00:16:334 memoria/(29874:29911): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 18:00:16:334 memoria/(29874:29911): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 18:00:16:335 memoria/(29874:29911): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 18:00:16:335 memoria/(29874:29911): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 18:00:16:337 memoria/(29874:29911): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 18:00:16:342 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:00:16:443 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:00:16:544 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:00:16:645 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:00:16:746 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 18:00:16:847 memoria/(29874:29911): direccion_hmd: 147
+[INFO] 18:00:16:847 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:00:17:354 memoria/(29874:29911): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:00:17:355 memoria/(29874:29911): id_carpincho: 1, nueva_pagina: 5
+[INFO] 18:00:17:361 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:00:17:463 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:00:17:565 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:00:17:665 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:00:17:766 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 18:00:17:867 memoria/(29874:29911): direccion_hmd: 147
+[INFO] 18:00:17:868 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:00:17:869 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 18:00:17:973 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:00:18:074 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:00:18:175 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:00:18:276 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:00:18:377 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 18:00:18:478 memoria/(29874:29911): direccion_hmd: 147
+[INFO] 18:00:18:479 memoria/(29874:29911): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:00:18:480 memoria/(29874:29911): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 18:00:18:587 memoria/(29874:29911): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 18:00:18:626 memoria/(29874:29911): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 18:00:18:628 memoria/(29874:29911): 
+Se desconecto el carpincho: 3 
+
+[INFO] 18:07:23:414 memoria/(29874:29911): DISCONNECT!
+[INFO] 18:07:23:574 memoria/(29874:29874): Senial SIGINT
+[INFO] 18:07:23:575 memoria/(29874:29874): -------------
+[INFO] 18:07:23:576 memoria/(29874:29874): Cantidad TLB Hits totales: 50
+[INFO] 18:07:23:577 memoria/(29874:29874): Cantidad TLB Miss totales: 0
+[INFO] 18:07:28:701 memoria/(30089:30089): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 18:07:28:822 memoria/(30089:30089): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 18:07:28:827 memoria/(30089:30089): ------2---------
+
+[INFO] 18:07:28:832 memoria/(30089:30089): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 18:07:32:358 memoria/(30089:30089): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 18:07:40:431 memoria/(30089:30126): 
+Se conecto el carpincho: 1 
+
+[WARNING] 18:07:41:082 memoria/(30089:30126): 
+Se conecto el carpincho: 2 
+
+[WARNING] 18:07:42:081 memoria/(30089:30126): 
+Se conecto el carpincho: 3 
+
+[INFO] 18:07:43:090 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:07:43:196 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:07:43:298 memoria/(30089:30126): direccion_hmd: 32
+[INFO] 18:07:43:299 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:07:43:302 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 64
+[INFO] 18:07:44:090 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:44:093 memoria/(30089:30126): id_carpincho: 1, nueva_pagina: 2
+[INFO] 18:07:44:101 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:07:44:203 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 18:07:44:304 memoria/(30089:30126): direccion_hmd: 32
+[INFO] 18:07:44:304 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 18:07:44:305 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 64
+[INFO] 18:07:45:111 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:45:114 memoria/(30089:30126): id_carpincho: 2, nueva_pagina: 2
+[INFO] 18:07:45:131 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:07:45:236 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 18:07:45:337 memoria/(30089:30126): direccion_hmd: 32
+[INFO] 18:07:45:337 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 18:07:45:338 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 64
+[INFO] 18:07:46:133 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:46:134 memoria/(30089:30126): id_carpincho: 3, nueva_pagina: 2
+[INFO] 18:07:46:143 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:07:46:244 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:07:46:345 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:07:46:446 memoria/(30089:30126): direccion_hmd: 64
+[INFO] 18:07:46:446 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:07:46:447 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 96
+[INFO] 18:07:47:142 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:47:144 memoria/(30089:30126): id_carpincho: 1, nueva_pagina: 3
+[INFO] 18:07:47:208 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:07:47:310 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 18:07:47:411 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 18:07:47:512 memoria/(30089:30126): direccion_hmd: 64
+[INFO] 18:07:47:516 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 2, size: 23
+[INFO] 18:07:47:521 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 96
+[INFO] 18:07:48:216 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:48:224 memoria/(30089:30126): id_carpincho: 2, nueva_pagina: 3
+[INFO] 18:07:48:270 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:07:48:373 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 18:07:48:475 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 18:07:48:579 memoria/(30089:30126): direccion_hmd: 64
+[INFO] 18:07:48:580 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 3, size: 23
+[INFO] 18:07:48:583 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 96
+[INFO] 18:07:49:267 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:49:275 memoria/(30089:30126): id_carpincho: 3, nueva_pagina: 3
+[INFO] 18:07:49:289 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:07:49:394 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:07:49:509 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:07:49:612 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:07:49:714 memoria/(30089:30126): direccion_hmd: 96
+[INFO] 18:07:49:715 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 1, size: 10
+[INFO] 18:07:49:763 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:07:49:874 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 1  MARCO: 3 
+
+[INFO] 18:07:49:977 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 2  MARCO: 7 
+
+[INFO] 18:07:50:080 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 3  MARCO: 10 
+
+[INFO] 18:07:50:182 memoria/(30089:30126): direccion_hmd: 96
+[INFO] 18:07:50:184 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 2, size: 10
+[INFO] 18:07:50:199 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:07:50:303 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 1  MARCO: 5 
+
+[INFO] 18:07:50:407 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 2  MARCO: 8 
+
+[INFO] 18:07:50:509 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 3  MARCO: 11 
+
+[INFO] 18:07:50:610 memoria/(30089:30126): direccion_hmd: 96
+[INFO] 18:07:50:610 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 3, size: 10
+[INFO] 18:07:50:662 memoria/(30089:30126): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 2 
+
+[INFO] 18:07:50:791 memoria/(30089:30126): 
+TLB HIT: PID: 3  PAGINA: 0  MARCO: 4 
+
+[INFO] 18:07:50:896 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:07:50:999 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:07:51:101 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:07:51:203 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:07:51:306 memoria/(30089:30126): direccion_hmd: 115
+[INFO] 18:07:51:307 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:07:51:311 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 147
+[INFO] 18:07:51:818 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:51:821 memoria/(30089:30126): id_carpincho: 1, nueva_pagina: 4
+[INFO] 18:07:51:853 memoria/(30089:30126): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 18:07:51:863 memoria/(30089:30126): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 95
+
+[INFO] 18:07:51:864 memoria/(30089:30126): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 6, TUR: 97
+
+[INFO] 18:07:51:864 memoria/(30089:30126): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 9, TUR: 102
+
+[INFO] 18:07:51:864 memoria/(30089:30126): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 89
+
+[INFO] 18:07:51:865 memoria/(30089:30126): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 3, TUR: 71
+
+[INFO] 18:07:51:865 memoria/(30089:30126): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 7, TUR: 73
+
+[INFO] 18:07:51:866 memoria/(30089:30126): 
+VICTIMA ID: 2, nro_pagina: 3, nro_frame 10, TUR: 77
+
+[INFO] 18:07:51:866 memoria/(30089:30126): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 4, TUR: 92
+
+[INFO] 18:07:51:866 memoria/(30089:30126): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 5, TUR: 80
+
+[INFO] 18:07:51:871 memoria/(30089:30126): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 8, TUR: 82
+
+[INFO] 18:07:51:871 memoria/(30089:30126): 
+VICTIMA ID: 3, nro_pagina: 3, nro_frame 11, TUR: 86
+
+[INFO] 18:07:51:874 memoria/(30089:30126): Marco: 3 - Reemplazo la pagina 1 del carpincho 2 con la pagina 4 del carpincho 1
+[INFO] 18:07:51:877 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:07:51:979 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:07:52:080 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:07:52:182 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:07:52:282 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 18:07:52:383 memoria/(30089:30126): direccion_hmd: 147
+[INFO] 18:07:52:383 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:07:52:384 memoria/(30089:30126): NUEVA PAGINA hmd_inicial->nextAlloc: 179
+[INFO] 18:07:52:886 memoria/(30089:30126): ALLOCAR AL FINAL cant_paginas: 2
+[INFO] 18:07:52:886 memoria/(30089:30126): id_carpincho: 1, nueva_pagina: 5
+[INFO] 18:07:52:895 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:07:52:996 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:07:53:097 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:07:53:198 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:07:53:301 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 18:07:53:405 memoria/(30089:30126): direccion_hmd: 147
+[INFO] 18:07:53:406 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:07:53:413 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[INFO] 18:07:53:522 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 18:07:53:624 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 18:07:53:725 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 6 
+
+[INFO] 18:07:53:826 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 9 
+
+[INFO] 18:07:53:928 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 4  MARCO: 3 
+
+[INFO] 18:07:54:029 memoria/(30089:30126): direccion_hmd: 147
+[INFO] 18:07:54:030 memoria/(30089:30126): ALLOCAR AL FINAL id_carpincho: 1, size: 23
+[INFO] 18:07:54:031 memoria/(30089:30126): 
+TLB HIT: PID: 1  PAGINA: 5  MARCO: 3 
+
+[WARNING] 18:07:54:158 memoria/(30089:30126): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 18:07:54:211 memoria/(30089:30126): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 18:07:54:212 memoria/(30089:30126): 
+Se desconecto el carpincho: 3 
+
