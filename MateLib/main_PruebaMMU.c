@@ -1,7 +1,7 @@
 /*
  ============================================================================
- Name        : PruebaAsignacion.c
- Description : Prueba de asignación de memoria del TP CarpinchOS
+ Name        : PruebaMMU.c
+ Description : Prueba de MMU del TP CarpinchOS
  ============================================================================
  */
 
@@ -51,32 +51,8 @@ void* carpincho1_func(void* config){
 	printf("C1 - Freno a C1\n");
 	sem_wait(&semCarpincho1);
 
-	printf("C1 - Reservo un alloc de 10 bytes\n");
-	mate_pointer alloc3 = mate_memalloc(&instanceC1, 10);
-
-	printf("C1 - Libero al C2\n");
-	sem_post(&semCarpincho2);
-
-	printf("C1 - Freno a C1\n");
-	sem_wait(&semCarpincho1);
-
-	printf("C1 - Escribo en la página 3\n");
-	mate_memwrite(&instanceC1, "Hola", alloc3, 5);
-
-	printf("C1 - Escribo en la página 2\n");
-	mate_memwrite(&instanceC1, "Hola", alloc2, 5);
-
-	printf("C1 - Escribo en la página 1\n");
-	mate_memwrite(&instanceC1, "Hola", alloc1, 5);
-
-	printf("C1 - Escribo en la página 0\n");
-	mate_memwrite(&instanceC1, "Hola", alloc0, 5);
-
-	printf("C1 - Libero al C2\n");
-	sem_post(&semCarpincho2);
-
-	printf("C1 - Freno a C1\n");
-	sem_wait(&semCarpincho1);
+	printf("C1 - Reservo un alloc de 23 bytes\n");
+	mate_pointer alloc3 = mate_memalloc(&instanceC1, 23);
 
 	printf("C1 - Reservo un alloc de 23 bytes\n");
 	mate_pointer alloc4 = mate_memalloc(&instanceC1, 23);
@@ -87,11 +63,35 @@ void* carpincho1_func(void* config){
 	printf("C1 - Reservo un alloc de 23 bytes\n");
 	mate_pointer alloc6 = mate_memalloc(&instanceC1, 23);
 
-	printf("C1 - Reservo un alloc de 23 bytes\n");
-	mate_pointer alloc7 = mate_memalloc(&instanceC1, 23);
+	printf("C1 - Escribo en la página 0\n");
+	mate_memwrite(&instanceC1, "Hola", alloc0, 5);
+
+	printf("C1 - Escribo en la página 1\n");
+	mate_memwrite(&instanceC1, "Chau", alloc1, 5);
+
+	printf("C1 - Libero al C2\n");
+	sem_post(&semCarpincho2);
+
+	printf("C1 - Freno a C1\n");
+	sem_wait(&semCarpincho1);
+
+	printf("C1 - Escribo en la página 2\n");
+	mate_memwrite(&instanceC1, "Carpincho", alloc2, 10);
+
+	printf("C1 - Escribo en la página 3\n");
+	mate_memwrite(&instanceC1, "Capibara", alloc3, 9);
+
+	printf("C1 - Escribo en la página 4\n");
+	mate_memwrite(&instanceC1, "Hydrochaeris", alloc4, 13);
+
+	printf("C1 - Reservo un alloc de 21 bytes\n");
+	mate_pointer alloc7 = mate_memalloc(&instanceC1, 21);
 
 	printf("C1 - Libero al C2 para que finalice\n");
 	sem_post(&semCarpincho2);
+	
+	printf("C1 - Libero al C3 para que finalice\n");
+	sem_post(&semCarpincho3);
 
 	printf("C1 - Se retira a descansar\n");
 	mate_close(&instanceC1);
@@ -134,26 +134,19 @@ void* carpincho2_func(void* config){
 	printf("C2 - Freno a C2\n");
 	sem_wait(&semCarpincho2);
 
-	printf("C2 - Reservo un alloc de 10 bytes\n");
-	mate_pointer alloc3 = mate_memalloc(&instanceC2, 10);
+	void* localMalloc = malloc(5);
+
+	printf("C2 - Leo de la página 0\n");
+	mate_memread(&instanceC2, alloc0, localMalloc , 5);
+
+	printf("C2 - Leo de la página 1\n");
+	mate_memread(&instanceC2, alloc1, localMalloc, 5);
 
 	printf("C2 - Libero al C3\n");
 	sem_post(&semCarpincho3);
 
 	printf("C2 - Freno a C2\n");
 	sem_wait(&semCarpincho2);
-
-	printf("C2 - Escribo en la página 0\n");
-	mate_memwrite(&instanceC2, "Hola", alloc0, 5);
-
-	printf("C2 - Libero al C3\n");
-	sem_post(&semCarpincho3);
-
-	printf("C2 - Freno a C2\n");
-	sem_wait(&semCarpincho2);
-
-	printf("C2 - Libero al C3 para que finalice\n");
-	sem_post(&semCarpincho3);
 
 	printf("C2 - Se retira a descansar\n");
 	mate_close(&instanceC2);
@@ -196,17 +189,13 @@ void* carpincho3_func(void* config){
 	printf("C3 - Freno a C3\n");
 	sem_wait(&semCarpincho3);
 
-	printf("C3 - Reservo un alloc de 10 bytes\n");
-	mate_pointer alloc3 = mate_memalloc(&instanceC3, 10);
+	void* localMalloc = malloc(5);
 
-	printf("C3 - Libero al C1\n");
-	sem_post(&semCarpincho1);
+	printf("C3 - Leo de la página 0\n");
+	mate_memread(&instanceC3, alloc0, localMalloc , 5);
 
-	printf("C3 - Freno a C3\n");
-	sem_wait(&semCarpincho3);
-
-	printf("C3 - Escribo en la página 0\n");
-	mate_memwrite(&instanceC3, "Hola", alloc0, 5);
+	printf("C3 - Leo de la página 1\n");
+	mate_memread(&instanceC3, alloc1, localMalloc, 5);
 
 	printf("C3 - Libero al C1\n");
 	sem_post(&semCarpincho1);

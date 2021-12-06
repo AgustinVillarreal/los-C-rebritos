@@ -1,529 +1,2045 @@
-[INFO] 22:59:03:308 Kernel/(15661:15661): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 22:59:03:372 Kernel/(15661:15661): ------2---------
-
-[INFO] 22:59:03:384 Kernel/(15661:15661): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 22:59:10:582 Kernel/(15661:15661): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 22:59:10:809 Kernel/(15661:15692): HANDSHAKE
-[INFO] 22:59:10:966 Kernel/(15661:15692): Estimacion- Carpincho: 0 - Rafaga: 0.000000
-[INFO] 22:59:10:984 Kernel/(15661:15692): Esperando dispositivo: 0
-[INFO] 22:59:10:987 Kernel/(15661:15692): Dispositivo asignado: 0
-[INFO] 22:59:11:501 Kernel/(15661:15661): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 22:59:11:515 Kernel/(15661:15694): HANDSHAKE
-[INFO] 22:59:11:596 Kernel/(15661:15694): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 22:59:11:599 Kernel/(15661:15694): Esperando dispositivo: 1
-[INFO] 22:59:12:545 Kernel/(15661:15661): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 22:59:12:549 Kernel/(15661:15696): HANDSHAKE
-[INFO] 22:59:12:556 Kernel/(15661:15666): ---------0---------------
-[INFO] 22:59:12:639 Kernel/(15661:15696): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 22:59:12:640 Kernel/(15661:15696): Esperando dispositivo: 2
-[INFO] 22:59:13:585 Kernel/(15661:15661): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 22:59:13:590 Kernel/(15661:15698): HANDSHAKE
-[INFO] 22:59:13:598 Kernel/(15661:15666): ---------0---------------
-[INFO] 22:59:13:680 Kernel/(15661:15698): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 22:59:13:685 Kernel/(15661:15698): Esperando dispositivo: 3
-[INFO] 22:59:54:809 Kernel/(15848:15848): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 22:59:54:881 Kernel/(15848:15848): ------2---------
-
-[INFO] 22:59:54:889 Kernel/(15848:15848): ------3---------
-
-[ERROR] 23:00:28:923 Kernel/(15899:15899): Error al conectar (a Server)
-
-[ERROR] 23:00:33:333 Kernel/(15941:15941): Error al conectar (a Server)
-
-[INFO] 23:00:41:964 Kernel/(16058:16058): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 23:00:42:041 Kernel/(16058:16058): ------2---------
-
-[INFO] 23:00:42:047 Kernel/(16058:16058): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 23:00:46:124 Kernel/(16058:16058): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:00:46:225 Kernel/(16058:16089): HANDSHAKE
-[INFO] 23:00:46:338 Kernel/(16058:16089): Estimacion- Carpincho: 0 - Rafaga: 0.000000
-[INFO] 23:00:46:342 Kernel/(16058:16089): Esperando dispositivo: 0
-[INFO] 23:00:46:343 Kernel/(16058:16089): Dispositivo asignado: 0
-[INFO] 23:00:47:042 Kernel/(16058:16058): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:00:47:048 Kernel/(16058:16091): HANDSHAKE
-[INFO] 23:00:47:135 Kernel/(16058:16091): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:00:47:137 Kernel/(16058:16091): Esperando dispositivo: 1
-[INFO] 23:00:48:058 Kernel/(16058:16058): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:00:48:064 Kernel/(16058:16093): HANDSHAKE
-[INFO] 23:00:48:151 Kernel/(16058:16093): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:00:48:152 Kernel/(16058:16093): Esperando dispositivo: 2
-[INFO] 23:00:49:081 Kernel/(16058:16058): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:00:49:087 Kernel/(16058:16095): HANDSHAKE
-[INFO] 23:00:49:163 Kernel/(16058:16095): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:00:49:165 Kernel/(16058:16095): Esperando dispositivo: 3
-[INFO] 23:00:51:353 Kernel/(16058:16091): Dispositivo asignado: 1
-[INFO] 23:00:51:358 Kernel/(16058:16089): Estimacion- Carpincho: 0 - Rafaga: 0.000000
-[INFO] 23:00:51:360 Kernel/(16058:16089): Esperando dispositivo: 0
-[INFO] 23:00:56:359 Kernel/(16058:16093): Dispositivo asignado: 2
-[INFO] 23:01:01:365 Kernel/(16058:16095): Dispositivo asignado: 3
-[INFO] 23:01:06:369 Kernel/(16058:16089): Dispositivo asignado: 0
-[INFO] 23:01:06:372 Kernel/(16058:16095): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:01:06:376 Kernel/(16058:16095): Esperando dispositivo: 3
-[INFO] 23:01:11:373 Kernel/(16058:16095): Dispositivo asignado: 3
-[INFO] 23:01:11:379 Kernel/(16058:16089): Estimacion- Carpincho: 0 - Rafaga: 0.000000
-[INFO] 23:01:11:385 Kernel/(16058:16089): Esperando dispositivo: 0
-[INFO] 23:01:16:383 Kernel/(16058:16089): Dispositivo asignado: 0
-[INFO] 23:01:16:390 Kernel/(16058:16095): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:01:16:392 Kernel/(16058:16095): Esperando dispositivo: 3
-[INFO] 23:01:21:390 Kernel/(16058:16095): Dispositivo asignado: 3
-[INFO] 23:01:21:401 Kernel/(16058:16091): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:01:21:403 Kernel/(16058:16091): Esperando dispositivo: 1
-[INFO] 23:01:26:393 Kernel/(16058:16091): Dispositivo asignado: 1
-[INFO] 23:01:26:398 Kernel/(16058:16093): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:01:26:398 Kernel/(16058:16093): Esperando dispositivo: 2
-[INFO] 23:01:31:395 Kernel/(16058:16093): Dispositivo asignado: 2
-[INFO] 23:01:31:398 Kernel/(16058:16091): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:01:31:399 Kernel/(16058:16091): Esperando dispositivo: 1
-[INFO] 23:01:36:398 Kernel/(16058:16091): Dispositivo asignado: 1
-[INFO] 23:01:36:401 Kernel/(16058:16093): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:01:36:402 Kernel/(16058:16093): Esperando dispositivo: 2
-[INFO] 23:01:41:400 Kernel/(16058:16093): Dispositivo asignado: 2
-[INFO] 23:01:46:525 Kernel/(16058:16095): DISCONNECT!
-[INFO] 23:01:46:530 Kernel/(16058:16093): DISCONNECT!
-[INFO] 23:01:46:533 Kernel/(16058:16091): DISCONNECT!
-[INFO] 23:01:46:534 Kernel/(16058:16089): DISCONNECT!
-[INFO] 23:02:43:989 Kernel/(16340:16340): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 23:02:44:090 Kernel/(16340:16340): ------2---------
-
-[INFO] 23:02:44:130 Kernel/(16340:16340): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 23:02:46:795 Kernel/(16340:16340): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:02:46:891 Kernel/(16340:16370): HANDSHAKE
-[INFO] 23:02:47:004 Kernel/(16340:16370): Estimacion- Carpincho: 0 - Rafaga: 0.000000
-[INFO] 23:02:47:007 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:47:010 Kernel/(16340:16370): Esperando dispositivo: 0
-[INFO] 23:02:47:011 Kernel/(16340:16370): Dispositivo asignado: 0
-[INFO] 23:02:47:744 Kernel/(16340:16340): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:02:47:750 Kernel/(16340:16372): HANDSHAKE
-[INFO] 23:02:47:752 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:47:827 Kernel/(16340:16372): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:02:47:828 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:47:829 Kernel/(16340:16345): ---------1---------------
-[INFO] 23:02:47:829 Kernel/(16340:16372): Esperando dispositivo: 1
-[INFO] 23:02:48:778 Kernel/(16340:16340): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:02:48:792 Kernel/(16340:16374): HANDSHAKE
-[INFO] 23:02:48:799 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:48:799 Kernel/(16340:16345): ---------1---------------
-[INFO] 23:02:48:895 Kernel/(16340:16374): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:02:48:895 Kernel/(16340:16374): Esperando dispositivo: 2
-[INFO] 23:02:48:896 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:48:898 Kernel/(16340:16345): ---------2---------------
-[INFO] 23:02:49:798 Kernel/(16340:16340): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:02:49:803 Kernel/(16340:16376): HANDSHAKE
-[INFO] 23:02:49:803 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:49:804 Kernel/(16340:16345): ---------2---------------
-[INFO] 23:02:49:875 Kernel/(16340:16376): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:02:49:876 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:49:876 Kernel/(16340:16345): ---------3---------------
-[INFO] 23:02:49:877 Kernel/(16340:16376): Esperando dispositivo: 3
-[INFO] 23:02:52:020 Kernel/(16340:16372): Dispositivo asignado: 1
-[INFO] 23:02:52:024 Kernel/(16340:16370): Estimacion- Carpincho: 0 - Rafaga: 0.000000
-[INFO] 23:02:52:026 Kernel/(16340:16345): ---------3---------------
-[INFO] 23:02:52:027 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:02:52:029 Kernel/(16340:16370): Esperando dispositivo: 0
-[INFO] 23:02:57:024 Kernel/(16340:16374): Dispositivo asignado: 2
-[INFO] 23:03:02:030 Kernel/(16340:16376): Dispositivo asignado: 3
-[INFO] 23:03:07:036 Kernel/(16340:16370): Dispositivo asignado: 0
-[INFO] 23:03:07:043 Kernel/(16340:16376): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:03:07:048 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:03:07:048 Kernel/(16340:16345): ---------3---------------
-[INFO] 23:03:07:052 Kernel/(16340:16376): Esperando dispositivo: 3
-[INFO] 23:03:12:041 Kernel/(16340:16376): Dispositivo asignado: 3
-[INFO] 23:03:12:044 Kernel/(16340:16370): Estimacion- Carpincho: 0 - Rafaga: 0.000000
-[INFO] 23:03:12:048 Kernel/(16340:16345): ---------3---------------
-[INFO] 23:03:12:048 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:03:12:049 Kernel/(16340:16370): Esperando dispositivo: 0
-[INFO] 23:03:17:045 Kernel/(16340:16370): Dispositivo asignado: 0
-[INFO] 23:03:17:059 Kernel/(16340:16376): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:03:17:061 Kernel/(16340:16345): ---------0---------------
-[INFO] 23:03:17:062 Kernel/(16340:16345): ---------3---------------
-[INFO] 23:03:17:063 Kernel/(16340:16376): Esperando dispositivo: 3
-[INFO] 23:03:22:054 Kernel/(16340:16376): Dispositivo asignado: 3
-[INFO] 23:03:22:100 Kernel/(16340:16372): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:03:22:104 Kernel/(16340:16372): Esperando dispositivo: 1
-[INFO] 23:03:22:104 Kernel/(16340:16345): ---------3---------------
-[INFO] 23:03:22:107 Kernel/(16340:16345): ---------1---------------
-[INFO] 23:03:27:060 Kernel/(16340:16372): Dispositivo asignado: 1
-[INFO] 23:03:27:074 Kernel/(16340:16374): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:03:27:076 Kernel/(16340:16374): Esperando dispositivo: 2
-[INFO] 23:03:27:077 Kernel/(16340:16345): ---------1---------------
-[INFO] 23:03:27:077 Kernel/(16340:16345): ---------2---------------
-[INFO] 23:03:32:069 Kernel/(16340:16374): Dispositivo asignado: 2
-[INFO] 23:03:32:076 Kernel/(16340:16372): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:03:32:077 Kernel/(16340:16345): ---------2---------------
-[INFO] 23:03:32:077 Kernel/(16340:16345): ---------1---------------
-[INFO] 23:03:32:078 Kernel/(16340:16372): Esperando dispositivo: 1
-[INFO] 23:03:37:080 Kernel/(16340:16372): Dispositivo asignado: 1
-[INFO] 23:03:37:085 Kernel/(16340:16374): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:03:37:086 Kernel/(16340:16345): ---------1---------------
-[INFO] 23:03:37:087 Kernel/(16340:16345): ---------2---------------
-[INFO] 23:03:37:088 Kernel/(16340:16374): Esperando dispositivo: 2
-[INFO] 23:03:42:084 Kernel/(16340:16374): Dispositivo asignado: 2
-[INFO] 23:03:47:305 Kernel/(16340:16376): DISCONNECT!
-[INFO] 23:03:47:310 Kernel/(16340:16374): DISCONNECT!
-[INFO] 23:03:47:311 Kernel/(16340:16372): DISCONNECT!
-[INFO] 23:03:47:331 Kernel/(16340:16370): DISCONNECT!
-[INFO] 23:37:22:947 Kernel/(17404:17404): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 23:37:23:011 Kernel/(17404:17404): ------2---------
-
-[INFO] 23:37:23:021 Kernel/(17404:17404): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 23:37:29:172 Kernel/(17404:17404): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:37:29:272 Kernel/(17404:17432): HANDSHAKE
-[INFO] 23:37:29:393 Kernel/(17404:17432): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:37:29:399 Kernel/(17404:17432): Esperando dispositivo: 1
-[INFO] 23:37:29:400 Kernel/(17404:17432): Dispositivo asignado: 1
-[INFO] 23:37:30:119 Kernel/(17404:17404): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:37:30:133 Kernel/(17404:17434): HANDSHAKE
-[INFO] 23:37:30:210 Kernel/(17404:17434): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:37:30:211 Kernel/(17404:17434): Esperando dispositivo: 2
-[INFO] 23:37:31:151 Kernel/(17404:17404): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:37:31:155 Kernel/(17404:17436): HANDSHAKE
-[INFO] 23:37:31:245 Kernel/(17404:17436): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:37:31:246 Kernel/(17404:17436): Esperando dispositivo: 3
-[INFO] 23:37:32:181 Kernel/(17404:17404): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:37:32:188 Kernel/(17404:17438): HANDSHAKE
-[INFO] 23:37:32:266 Kernel/(17404:17438): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 23:37:32:267 Kernel/(17404:17438): Esperando dispositivo: 4
-[INFO] 23:37:34:409 Kernel/(17404:17434): Dispositivo asignado: 2
-[INFO] 23:37:34:413 Kernel/(17404:17432): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:37:34:415 Kernel/(17404:17432): Esperando dispositivo: 1
-[INFO] 23:37:39:412 Kernel/(17404:17436): Dispositivo asignado: 3
-[INFO] 23:37:44:418 Kernel/(17404:17438): Dispositivo asignado: 4
-[INFO] 23:37:49:423 Kernel/(17404:17432): Dispositivo asignado: 1
-[INFO] 23:37:49:428 Kernel/(17404:17438): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 23:37:49:432 Kernel/(17404:17438): Esperando dispositivo: 4
-[INFO] 23:37:54:428 Kernel/(17404:17438): Dispositivo asignado: 4
-[INFO] 23:37:54:432 Kernel/(17404:17432): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:37:54:434 Kernel/(17404:17432): Esperando dispositivo: 1
-[INFO] 23:37:59:433 Kernel/(17404:17432): Dispositivo asignado: 1
-[INFO] 23:37:59:441 Kernel/(17404:17438): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 23:37:59:444 Kernel/(17404:17438): Esperando dispositivo: 4
-[INFO] 23:38:04:442 Kernel/(17404:17438): Dispositivo asignado: 4
-[INFO] 23:38:04:464 Kernel/(17404:17434): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:38:04:465 Kernel/(17404:17434): Esperando dispositivo: 2
-[INFO] 23:38:09:464 Kernel/(17404:17434): Dispositivo asignado: 2
-[INFO] 23:38:09:473 Kernel/(17404:17436): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:38:09:474 Kernel/(17404:17436): Esperando dispositivo: 3
-[INFO] 23:38:14:467 Kernel/(17404:17436): Dispositivo asignado: 3
-[INFO] 23:38:14:470 Kernel/(17404:17434): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:38:14:473 Kernel/(17404:17434): Esperando dispositivo: 2
-[INFO] 23:38:19:470 Kernel/(17404:17434): Dispositivo asignado: 2
-[INFO] 23:38:19:476 Kernel/(17404:17436): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:38:19:480 Kernel/(17404:17436): Esperando dispositivo: 3
-[INFO] 23:38:24:476 Kernel/(17404:17436): Dispositivo asignado: 3
-[INFO] 23:38:29:557 Kernel/(17404:17438): DISCONNECT!
-[INFO] 23:38:29:561 Kernel/(17404:17436): DISCONNECT!
-[INFO] 23:38:29:563 Kernel/(17404:17434): DISCONNECT!
-[INFO] 23:38:29:564 Kernel/(17404:17432): DISCONNECT!
-[INFO] 23:58:59:772 Kernel/(18338:18338): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 23:58:59:843 Kernel/(18338:18338): ------2---------
-
-[INFO] 23:58:59:847 Kernel/(18338:18338): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 23:59:03:404 Kernel/(18338:18338): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:59:03:523 Kernel/(18338:18366): HANDSHAKE
-[INFO] 23:59:03:622 Kernel/(18338:18366): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:59:03:627 Kernel/(18338:18366): Esperando dispositivo: 1
-[INFO] 23:59:03:628 Kernel/(18338:18366): Dispositivo asignado: 1
-[INFO] 23:59:04:304 Kernel/(18338:18338): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:59:04:311 Kernel/(18338:18368): HANDSHAKE
-[INFO] 23:59:04:398 Kernel/(18338:18368): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:59:04:400 Kernel/(18338:18368): Esperando dispositivo: 2
-[INFO] 23:59:05:323 Kernel/(18338:18338): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:59:05:329 Kernel/(18338:18370): HANDSHAKE
-[INFO] 23:59:05:418 Kernel/(18338:18370): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:59:05:419 Kernel/(18338:18370): Esperando dispositivo: 3
-[INFO] 23:59:06:338 Kernel/(18338:18338): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 23:59:06:343 Kernel/(18338:18372): HANDSHAKE
-[INFO] 23:59:06:414 Kernel/(18338:18372): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 23:59:06:416 Kernel/(18338:18372): Esperando dispositivo: 4
-[INFO] 23:59:08:636 Kernel/(18338:18368): Dispositivo asignado: 2
-[INFO] 23:59:08:639 Kernel/(18338:18366): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:59:08:641 Kernel/(18338:18366): Esperando dispositivo: 1
-[INFO] 23:59:13:639 Kernel/(18338:18370): Dispositivo asignado: 3
-[INFO] 23:59:18:644 Kernel/(18338:18372): Dispositivo asignado: 4
-[INFO] 23:59:23:651 Kernel/(18338:18366): Dispositivo asignado: 1
-[INFO] 23:59:23:655 Kernel/(18338:18372): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 23:59:23:658 Kernel/(18338:18372): Esperando dispositivo: 4
-[INFO] 23:59:28:655 Kernel/(18338:18372): Dispositivo asignado: 4
-[INFO] 23:59:28:662 Kernel/(18338:18366): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 23:59:28:667 Kernel/(18338:18366): Esperando dispositivo: 1
-[INFO] 23:59:33:659 Kernel/(18338:18366): Dispositivo asignado: 1
-[INFO] 23:59:33:662 Kernel/(18338:18372): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 23:59:33:665 Kernel/(18338:18372): Esperando dispositivo: 4
-[INFO] 23:59:38:663 Kernel/(18338:18372): Dispositivo asignado: 4
-[INFO] 23:59:38:678 Kernel/(18338:18368): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:59:38:682 Kernel/(18338:18368): Esperando dispositivo: 2
-[INFO] 23:59:43:667 Kernel/(18338:18368): Dispositivo asignado: 2
-[INFO] 23:59:43:678 Kernel/(18338:18370): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:59:43:682 Kernel/(18338:18370): Esperando dispositivo: 3
-[INFO] 23:59:48:672 Kernel/(18338:18370): Dispositivo asignado: 3
-[INFO] 23:59:48:683 Kernel/(18338:18368): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 23:59:48:689 Kernel/(18338:18368): Esperando dispositivo: 2
-[INFO] 23:59:53:677 Kernel/(18338:18368): Dispositivo asignado: 2
-[INFO] 23:59:53:683 Kernel/(18338:18370): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 23:59:53:685 Kernel/(18338:18370): Esperando dispositivo: 3
-[INFO] 23:59:58:681 Kernel/(18338:18370): Dispositivo asignado: 3
-[INFO] 00:00:03:769 Kernel/(18338:18372): DISCONNECT!
-[INFO] 00:00:03:775 Kernel/(18338:18370): DISCONNECT!
-[INFO] 00:00:03:776 Kernel/(18338:18368): DISCONNECT!
-[INFO] 00:00:03:777 Kernel/(18338:18366): DISCONNECT!
-[INFO] 15:02:59:689 Kernel/(5438:5438): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 15:02:59:756 Kernel/(5438:5438): ------2---------
-
-[INFO] 15:02:59:760 Kernel/(5438:5438): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 15:06:25:718 Kernel/(5675:5675): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 15:06:25:782 Kernel/(5675:5675): ------2---------
-
-[INFO] 15:06:25:785 Kernel/(5675:5675): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 15:06:33:852 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:06:34:234 Kernel/(5675:5724): HANDSHAKE
-[INFO] 15:06:34:417 Kernel/(5675:5724): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:06:34:436 Kernel/(5675:5724): Esperando dispositivo: 1
-[INFO] 15:06:34:438 Kernel/(5675:5724): Dispositivo asignado: 1
-[INFO] 15:06:34:770 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:06:34:773 Kernel/(5675:5733): HANDSHAKE
-[INFO] 15:06:34:854 Kernel/(5675:5733): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:06:34:854 Kernel/(5675:5733): Esperando dispositivo: 2
-[INFO] 15:06:35:785 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:06:35:787 Kernel/(5675:5738): HANDSHAKE
-[INFO] 15:06:35:862 Kernel/(5675:5738): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:06:35:862 Kernel/(5675:5738): Esperando dispositivo: 3
-[INFO] 15:06:36:799 Kernel/(5675:5675): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:06:36:805 Kernel/(5675:5742): HANDSHAKE
-[INFO] 15:06:36:888 Kernel/(5675:5742): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:06:36:888 Kernel/(5675:5742): Esperando dispositivo: 4
-[INFO] 15:06:39:449 Kernel/(5675:5733): Dispositivo asignado: 2
-[INFO] 15:06:39:453 Kernel/(5675:5724): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:06:39:454 Kernel/(5675:5724): Esperando dispositivo: 1
-[INFO] 15:06:44:453 Kernel/(5675:5738): Dispositivo asignado: 3
-[INFO] 15:06:49:454 Kernel/(5675:5742): Dispositivo asignado: 4
-[INFO] 15:06:54:456 Kernel/(5675:5724): Dispositivo asignado: 1
-[INFO] 15:06:54:457 Kernel/(5675:5742): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:06:54:458 Kernel/(5675:5742): Esperando dispositivo: 4
-[INFO] 15:06:59:457 Kernel/(5675:5742): Dispositivo asignado: 4
-[INFO] 15:06:59:459 Kernel/(5675:5724): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:06:59:459 Kernel/(5675:5724): Esperando dispositivo: 1
-[INFO] 15:07:04:459 Kernel/(5675:5724): Dispositivo asignado: 1
-[INFO] 15:07:04:460 Kernel/(5675:5742): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:07:04:461 Kernel/(5675:5742): Esperando dispositivo: 4
-[INFO] 15:07:09:461 Kernel/(5675:5742): Dispositivo asignado: 4
-[INFO] 15:07:09:468 Kernel/(5675:5733): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:07:09:469 Kernel/(5675:5733): Esperando dispositivo: 2
-[INFO] 15:07:14:463 Kernel/(5675:5733): Dispositivo asignado: 2
-[INFO] 15:07:14:470 Kernel/(5675:5738): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:07:14:472 Kernel/(5675:5738): Esperando dispositivo: 3
-[INFO] 15:07:19:466 Kernel/(5675:5738): Dispositivo asignado: 3
-[INFO] 15:07:19:468 Kernel/(5675:5733): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:07:19:469 Kernel/(5675:5733): Esperando dispositivo: 2
-[INFO] 15:07:24:470 Kernel/(5675:5733): Dispositivo asignado: 2
-[INFO] 15:07:24:472 Kernel/(5675:5738): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:07:24:473 Kernel/(5675:5738): Esperando dispositivo: 3
-[INFO] 15:07:29:472 Kernel/(5675:5738): Dispositivo asignado: 3
-[INFO] 15:07:34:745 Kernel/(5675:5742): DISCONNECT!
-[INFO] 15:07:34:762 Kernel/(5675:5738): DISCONNECT!
-[INFO] 15:07:34:763 Kernel/(5675:5733): DISCONNECT!
-[INFO] 15:07:34:763 Kernel/(5675:5724): DISCONNECT!
-[INFO] 15:37:58:805 Kernel/(7458:7458): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 15:37:58:868 Kernel/(7458:7458): ------2---------
-
-[INFO] 15:37:58:872 Kernel/(7458:7458): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 15:38:01:294 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:38:01:385 Kernel/(7458:7497): HANDSHAKE
-[INFO] 15:38:01:501 Kernel/(7458:7497): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:38:01:504 Kernel/(7458:7497): Esperando dispositivo: 1
-[INFO] 15:38:01:505 Kernel/(7458:7497): Dispositivo asignado: 1
-[INFO] 15:38:02:235 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:38:02:239 Kernel/(7458:7506): HANDSHAKE
-[INFO] 15:38:02:314 Kernel/(7458:7506): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:38:02:315 Kernel/(7458:7506): Esperando dispositivo: 2
-[INFO] 15:38:03:253 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:38:03:257 Kernel/(7458:7509): HANDSHAKE
-[INFO] 15:38:03:334 Kernel/(7458:7509): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:38:03:334 Kernel/(7458:7509): Esperando dispositivo: 3
-[INFO] 15:38:04:277 Kernel/(7458:7458): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:38:04:280 Kernel/(7458:7513): HANDSHAKE
-[INFO] 15:38:04:358 Kernel/(7458:7513): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:38:04:359 Kernel/(7458:7513): Esperando dispositivo: 4
-[INFO] 15:38:06:515 Kernel/(7458:7506): Dispositivo asignado: 2
-[INFO] 15:38:06:518 Kernel/(7458:7497): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:38:06:519 Kernel/(7458:7497): Esperando dispositivo: 1
-[INFO] 15:38:11:517 Kernel/(7458:7509): Dispositivo asignado: 3
-[INFO] 15:38:16:519 Kernel/(7458:7513): Dispositivo asignado: 4
-[INFO] 15:38:21:523 Kernel/(7458:7497): Dispositivo asignado: 1
-[INFO] 15:38:21:526 Kernel/(7458:7513): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:38:21:527 Kernel/(7458:7513): Esperando dispositivo: 4
-[INFO] 15:38:26:527 Kernel/(7458:7513): Dispositivo asignado: 4
-[INFO] 15:38:26:531 Kernel/(7458:7497): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:38:26:531 Kernel/(7458:7497): Esperando dispositivo: 1
-[INFO] 15:38:31:529 Kernel/(7458:7497): Dispositivo asignado: 1
-[INFO] 15:38:31:531 Kernel/(7458:7513): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:38:31:532 Kernel/(7458:7513): Esperando dispositivo: 4
-[INFO] 15:38:36:532 Kernel/(7458:7513): Dispositivo asignado: 4
-[INFO] 15:38:36:543 Kernel/(7458:7506): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:38:36:543 Kernel/(7458:7506): Esperando dispositivo: 2
-[INFO] 15:38:41:534 Kernel/(7458:7506): Dispositivo asignado: 2
-[INFO] 15:38:41:539 Kernel/(7458:7509): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:38:41:540 Kernel/(7458:7509): Esperando dispositivo: 3
-[INFO] 15:38:46:536 Kernel/(7458:7509): Dispositivo asignado: 3
-[INFO] 15:38:46:538 Kernel/(7458:7506): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:38:46:539 Kernel/(7458:7506): Esperando dispositivo: 2
-[INFO] 15:38:51:538 Kernel/(7458:7506): Dispositivo asignado: 2
-[INFO] 15:38:51:539 Kernel/(7458:7509): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:38:51:539 Kernel/(7458:7509): Esperando dispositivo: 3
-[INFO] 15:38:56:539 Kernel/(7458:7509): Dispositivo asignado: 3
-[INFO] 15:46:16:581 Kernel/(7904:7904): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 15:46:16:644 Kernel/(7904:7904): ------2---------
-
-[INFO] 15:46:16:648 Kernel/(7904:7904): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 15:46:19:153 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:46:19:301 Kernel/(7904:7937): HANDSHAKE
-[INFO] 15:46:19:414 Kernel/(7904:7937): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:46:19:416 Kernel/(7904:7937): Esperando dispositivo: 1
-[INFO] 15:46:19:417 Kernel/(7904:7937): Dispositivo asignado: 1
-[INFO] 15:46:20:086 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:46:20:090 Kernel/(7904:7941): HANDSHAKE
-[INFO] 15:46:20:162 Kernel/(7904:7941): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:46:20:163 Kernel/(7904:7941): Esperando dispositivo: 2
-[INFO] 15:46:21:098 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:46:21:100 Kernel/(7904:7944): HANDSHAKE
-[INFO] 15:46:21:174 Kernel/(7904:7944): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:46:21:174 Kernel/(7904:7944): Esperando dispositivo: 3
-[INFO] 15:46:22:112 Kernel/(7904:7904): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:46:22:115 Kernel/(7904:7948): HANDSHAKE
-[INFO] 15:46:22:190 Kernel/(7904:7948): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:46:22:190 Kernel/(7904:7948): Esperando dispositivo: 4
-[INFO] 15:46:24:423 Kernel/(7904:7941): Dispositivo asignado: 2
-[INFO] 15:46:24:428 Kernel/(7904:7937): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:46:24:428 Kernel/(7904:7937): Esperando dispositivo: 1
-[INFO] 15:46:29:429 Kernel/(7904:7944): Dispositivo asignado: 3
-[INFO] 15:46:34:433 Kernel/(7904:7948): Dispositivo asignado: 4
-[INFO] 15:46:39:438 Kernel/(7904:7937): Dispositivo asignado: 1
-[INFO] 15:46:39:445 Kernel/(7904:7948): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:46:39:446 Kernel/(7904:7948): Esperando dispositivo: 4
-[INFO] 15:46:44:443 Kernel/(7904:7948): Dispositivo asignado: 4
-[INFO] 15:46:44:445 Kernel/(7904:7937): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:46:44:446 Kernel/(7904:7937): Esperando dispositivo: 1
-[INFO] 15:46:49:446 Kernel/(7904:7937): Dispositivo asignado: 1
-[INFO] 15:46:49:449 Kernel/(7904:7948): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:46:49:450 Kernel/(7904:7948): Esperando dispositivo: 4
-[INFO] 15:46:54:450 Kernel/(7904:7948): Dispositivo asignado: 4
-[INFO] 15:46:54:493 Kernel/(7904:7941): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:46:54:498 Kernel/(7904:7941): Esperando dispositivo: 2
-[INFO] 15:46:59:454 Kernel/(7904:7941): Dispositivo asignado: 2
-[INFO] 15:46:59:460 Kernel/(7904:7944): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:46:59:460 Kernel/(7904:7944): Esperando dispositivo: 3
-[INFO] 15:47:04:458 Kernel/(7904:7944): Dispositivo asignado: 3
-[INFO] 15:47:04:463 Kernel/(7904:7941): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:47:04:470 Kernel/(7904:7941): Esperando dispositivo: 2
-[INFO] 15:47:09:470 Kernel/(7904:7941): Dispositivo asignado: 2
-[INFO] 15:47:09:477 Kernel/(7904:7944): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:47:09:479 Kernel/(7904:7944): Esperando dispositivo: 3
-[INFO] 15:47:14:475 Kernel/(7904:7944): Dispositivo asignado: 3
-[INFO] 15:50:43:804 Kernel/(8171:8171): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 15:50:43:900 Kernel/(8171:8171): ------2---------
-
-[INFO] 15:50:43:910 Kernel/(8171:8171): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 15:50:46:802 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:50:46:893 Kernel/(8171:8204): HANDSHAKE
-[INFO] 15:50:47:019 Kernel/(8171:8204): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:50:47:023 Kernel/(8171:8204): Esperando dispositivo: 1
-[INFO] 15:50:47:024 Kernel/(8171:8204): Dispositivo asignado: 1
-[INFO] 15:50:47:738 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:50:47:741 Kernel/(8171:8208): HANDSHAKE
-[INFO] 15:50:47:815 Kernel/(8171:8208): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:50:47:816 Kernel/(8171:8208): Esperando dispositivo: 2
-[INFO] 15:50:48:757 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:50:48:759 Kernel/(8171:8211): HANDSHAKE
-[INFO] 15:50:48:834 Kernel/(8171:8211): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:50:48:834 Kernel/(8171:8211): Esperando dispositivo: 3
-[INFO] 15:50:49:773 Kernel/(8171:8171): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 15:50:49:776 Kernel/(8171:8215): HANDSHAKE
-[INFO] 15:50:49:846 Kernel/(8171:8215): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:50:49:846 Kernel/(8171:8215): Esperando dispositivo: 4
-[INFO] 15:50:52:033 Kernel/(8171:8208): Dispositivo asignado: 2
-[INFO] 15:50:52:037 Kernel/(8171:8204): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:50:52:037 Kernel/(8171:8204): Esperando dispositivo: 1
-[INFO] 15:50:57:038 Kernel/(8171:8211): Dispositivo asignado: 3
-[INFO] 15:51:02:043 Kernel/(8171:8215): Dispositivo asignado: 4
-[INFO] 15:51:07:050 Kernel/(8171:8204): Dispositivo asignado: 1
-[INFO] 15:51:07:054 Kernel/(8171:8215): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:51:07:059 Kernel/(8171:8215): Esperando dispositivo: 4
-[INFO] 15:51:12:055 Kernel/(8171:8215): Dispositivo asignado: 4
-[INFO] 15:51:12:058 Kernel/(8171:8204): Estimacion- Carpincho: 1 - Rafaga: 0.000000
-[INFO] 15:51:12:059 Kernel/(8171:8204): Esperando dispositivo: 1
-[INFO] 15:51:17:060 Kernel/(8171:8204): Dispositivo asignado: 1
-[INFO] 15:51:17:068 Kernel/(8171:8215): Estimacion- Carpincho: 4 - Rafaga: 0.000000
-[INFO] 15:51:17:072 Kernel/(8171:8215): Esperando dispositivo: 4
-[INFO] 15:51:22:067 Kernel/(8171:8215): Dispositivo asignado: 4
-[INFO] 15:51:22:101 Kernel/(8171:8208): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:51:22:107 Kernel/(8171:8208): Esperando dispositivo: 2
-[INFO] 15:51:27:075 Kernel/(8171:8208): Dispositivo asignado: 2
-[INFO] 15:51:27:079 Kernel/(8171:8211): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:51:27:081 Kernel/(8171:8211): Esperando dispositivo: 3
-[INFO] 15:51:32:079 Kernel/(8171:8211): Dispositivo asignado: 3
-[INFO] 15:51:32:085 Kernel/(8171:8208): Estimacion- Carpincho: 2 - Rafaga: 0.000000
-[INFO] 15:51:32:086 Kernel/(8171:8208): Esperando dispositivo: 2
-[INFO] 15:51:37:083 Kernel/(8171:8208): Dispositivo asignado: 2
-[INFO] 15:51:37:089 Kernel/(8171:8211): Estimacion- Carpincho: 3 - Rafaga: 0.000000
-[INFO] 15:51:37:090 Kernel/(8171:8211): Esperando dispositivo: 3
-[INFO] 15:51:42:088 Kernel/(8171:8211): Dispositivo asignado: 3
-[INFO] 15:51:47:189 Kernel/(8171:8215): DISCONNECT!
-[INFO] 15:51:47:195 Kernel/(8171:8204): DISCONNECT!
-[INFO] 15:51:47:195 Kernel/(8171:8208): DISCONNECT!
-[INFO] 15:51:47:195 Kernel/(8171:8211): DISCONNECT!
+[INFO] 16:08:55:003 Kernel/(9284:9284): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:08:55:066 Kernel/(9284:9284): ------2---------
+
+[INFO] 16:08:55:069 Kernel/(9284:9284): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:08:59:970 Kernel/(9284:9284): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:00:095 Kernel/(9284:9317): HANDSHAKE
+[INFO] 16:09:00:154 Kernel/(9284:9317): 5
+[INFO] 16:09:00:190 Kernel/(9284:9317): 6
+[INFO] 16:09:00:732 Kernel/(9284:9317): 7
+[INFO] 16:09:00:736 Kernel/(9284:9284): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:00:739 Kernel/(9284:9318): HANDSHAKE
+[INFO] 16:09:00:778 Kernel/(9284:9318): 5
+[INFO] 16:09:00:818 Kernel/(9284:9318): 6
+[INFO] 16:09:01:230 Kernel/(9284:9318): 7
+[INFO] 16:09:01:234 Kernel/(9284:9284): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:09:01:241 Kernel/(9284:9319): HANDSHAKE
+[INFO] 16:09:01:282 Kernel/(9284:9319): 5
+[INFO] 16:09:01:322 Kernel/(9284:9319): 6
+[INFO] 16:09:01:748 Kernel/(9284:9319): 7
+[INFO] 16:09:01:749 Kernel/(9284:9317): 5
+[INFO] 16:09:01:750 Kernel/(9284:9317): 6
+[INFO] 16:09:02:265 Kernel/(9284:9317): 7
+[INFO] 16:09:02:266 Kernel/(9284:9318): 5
+[INFO] 16:09:02:266 Kernel/(9284:9318): 6
+[INFO] 16:09:02:765 Kernel/(9284:9318): 7
+[INFO] 16:09:02:767 Kernel/(9284:9319): 5
+[INFO] 16:09:02:767 Kernel/(9284:9319): 6
+[INFO] 16:09:03:272 Kernel/(9284:9319): 7
+[INFO] 16:09:03:275 Kernel/(9284:9317): 5
+[INFO] 16:09:03:276 Kernel/(9284:9317): 6
+[INFO] 16:09:03:787 Kernel/(9284:9317): 7
+[INFO] 16:09:03:789 Kernel/(9284:9318): 5
+[INFO] 16:09:03:789 Kernel/(9284:9318): 6
+[INFO] 16:09:04:308 Kernel/(9284:9318): 7
+[INFO] 16:09:04:314 Kernel/(9284:9319): 5
+[INFO] 16:09:04:315 Kernel/(9284:9319): 6
+[INFO] 16:09:04:804 Kernel/(9284:9319): 7
+[INFO] 16:09:04:805 Kernel/(9284:9317): 5
+[INFO] 16:09:04:806 Kernel/(9284:9317): 6
+[INFO] 16:09:05:318 Kernel/(9284:9317): 7
+[INFO] 16:09:05:320 Kernel/(9284:9317): 5
+[INFO] 16:09:05:320 Kernel/(9284:9317): 6
+[INFO] 16:09:05:626 Kernel/(9284:9317): 7
+[INFO] 16:09:05:628 Kernel/(9284:9317): 5
+[INFO] 16:09:05:628 Kernel/(9284:9317): 6
+[INFO] 16:09:06:040 Kernel/(9284:9317): 7
+[INFO] 16:09:06:042 Kernel/(9284:9317): 5
+[INFO] 16:09:06:042 Kernel/(9284:9317): 6
+[INFO] 16:09:06:550 Kernel/(9284:9317): 7
+[INFO] 16:09:07:641 Kernel/(9284:9317): 5
+[INFO] 16:09:07:642 Kernel/(9284:9317): 6
+[INFO] 16:09:08:150 Kernel/(9284:9317): 7
+[INFO] 16:09:08:251 Kernel/(9284:9319): DISCONNECT!
+[INFO] 16:09:08:257 Kernel/(9284:9318): DISCONNECT!
+[INFO] 16:09:08:257 Kernel/(9284:9317): DISCONNECT!
+[INFO] 16:25:31:758 Kernel/(10025:10025): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:25:31:818 Kernel/(10025:10025): ------2---------
+
+[INFO] 16:25:31:822 Kernel/(10025:10025): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:25:34:105 Kernel/(10025:10025): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:34:195 Kernel/(10025:10059): HANDSHAKE
+[INFO] 16:25:34:243 Kernel/(10025:10059): 5
+[INFO] 16:25:34:282 Kernel/(10025:10059): 6
+[INFO] 16:25:34:836 Kernel/(10025:10059): 7
+[INFO] 16:25:34:842 Kernel/(10025:10025): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:34:851 Kernel/(10025:10060): HANDSHAKE
+[INFO] 16:25:34:894 Kernel/(10025:10060): 5
+[INFO] 16:25:34:934 Kernel/(10025:10060): 6
+[INFO] 16:25:35:340 Kernel/(10025:10060): 7
+[INFO] 16:25:35:342 Kernel/(10025:10025): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:25:35:345 Kernel/(10025:10061): HANDSHAKE
+[INFO] 16:25:35:376 Kernel/(10025:10061): 5
+[INFO] 16:25:35:414 Kernel/(10025:10061): 6
+[INFO] 16:25:35:843 Kernel/(10025:10061): 7
+[INFO] 16:25:35:845 Kernel/(10025:10059): 5
+[INFO] 16:25:35:846 Kernel/(10025:10059): 6
+[INFO] 16:25:36:364 Kernel/(10025:10059): 7
+[INFO] 16:25:36:366 Kernel/(10025:10060): 5
+[INFO] 16:25:36:366 Kernel/(10025:10060): 6
+[INFO] 16:25:36:871 Kernel/(10025:10060): 7
+[INFO] 16:25:36:874 Kernel/(10025:10061): 5
+[INFO] 16:25:36:875 Kernel/(10025:10061): 6
+[INFO] 16:25:37:383 Kernel/(10025:10061): 7
+[INFO] 16:25:37:385 Kernel/(10025:10059): 5
+[INFO] 16:25:37:385 Kernel/(10025:10059): 6
+[INFO] 16:25:37:890 Kernel/(10025:10059): 7
+[INFO] 16:25:37:892 Kernel/(10025:10060): 5
+[INFO] 16:25:37:892 Kernel/(10025:10060): 6
+[INFO] 16:25:38:405 Kernel/(10025:10060): 7
+[INFO] 16:25:38:408 Kernel/(10025:10061): 5
+[INFO] 16:25:38:409 Kernel/(10025:10061): 6
+[INFO] 16:25:38:921 Kernel/(10025:10061): 7
+[INFO] 16:25:38:923 Kernel/(10025:10059): 5
+[INFO] 16:25:38:924 Kernel/(10025:10059): 6
+[INFO] 16:25:39:437 Kernel/(10025:10059): 7
+[INFO] 16:25:39:438 Kernel/(10025:10059): 5
+[INFO] 16:25:39:439 Kernel/(10025:10059): 6
+[INFO] 16:25:39:746 Kernel/(10025:10059): 7
+[INFO] 16:25:39:747 Kernel/(10025:10059): 5
+[INFO] 16:25:39:747 Kernel/(10025:10059): 6
+[INFO] 16:25:40:157 Kernel/(10025:10059): 7
+[INFO] 16:25:40:158 Kernel/(10025:10059): 5
+[INFO] 16:25:40:158 Kernel/(10025:10059): 6
+[INFO] 16:25:40:666 Kernel/(10025:10059): 7
+[INFO] 16:25:41:757 Kernel/(10025:10059): 5
+[INFO] 16:25:41:757 Kernel/(10025:10059): 6
+[INFO] 16:25:42:267 Kernel/(10025:10059): 7
+[INFO] 16:25:42:379 Kernel/(10025:10061): DISCONNECT!
+[INFO] 16:25:42:382 Kernel/(10025:10060): DISCONNECT!
+[INFO] 16:25:42:383 Kernel/(10025:10059): DISCONNECT!
+[INFO] 16:27:36:098 Kernel/(10231:10231): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:27:36:174 Kernel/(10231:10231): ------2---------
+
+[INFO] 16:27:36:178 Kernel/(10231:10231): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:27:37:905 Kernel/(10231:10231): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:38:083 Kernel/(10231:10272): HANDSHAKE
+[INFO] 16:27:38:147 Kernel/(10231:10272): 5
+[INFO] 16:27:38:185 Kernel/(10231:10272): 6
+[INFO] 16:27:38:743 Kernel/(10231:10272): 7
+[INFO] 16:27:38:748 Kernel/(10231:10231): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:38:752 Kernel/(10231:10273): HANDSHAKE
+[INFO] 16:27:38:786 Kernel/(10231:10273): 5
+[INFO] 16:27:38:826 Kernel/(10231:10273): 6
+[INFO] 16:27:39:240 Kernel/(10231:10273): 7
+[INFO] 16:27:39:245 Kernel/(10231:10231): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:27:39:252 Kernel/(10231:10274): HANDSHAKE
+[INFO] 16:27:39:286 Kernel/(10231:10274): 5
+[INFO] 16:27:39:326 Kernel/(10231:10274): 6
+[INFO] 16:27:39:764 Kernel/(10231:10274): 7
+[INFO] 16:27:39:766 Kernel/(10231:10272): 5
+[INFO] 16:27:39:767 Kernel/(10231:10272): 6
+[INFO] 16:27:40:284 Kernel/(10231:10272): 7
+[INFO] 16:27:40:286 Kernel/(10231:10273): 5
+[INFO] 16:27:40:286 Kernel/(10231:10273): 6
+[INFO] 16:27:40:779 Kernel/(10231:10273): 7
+[INFO] 16:27:40:780 Kernel/(10231:10274): 5
+[INFO] 16:27:40:781 Kernel/(10231:10274): 6
+[INFO] 16:27:41:287 Kernel/(10231:10274): 7
+[INFO] 16:27:41:289 Kernel/(10231:10272): 5
+[INFO] 16:27:41:289 Kernel/(10231:10272): 6
+[INFO] 16:27:41:793 Kernel/(10231:10272): 7
+[INFO] 16:27:41:795 Kernel/(10231:10273): 5
+[INFO] 16:27:41:796 Kernel/(10231:10273): 6
+[INFO] 16:27:42:304 Kernel/(10231:10273): 7
+[INFO] 16:27:42:307 Kernel/(10231:10274): 5
+[INFO] 16:27:42:308 Kernel/(10231:10274): 6
+[INFO] 16:27:42:817 Kernel/(10231:10274): 7
+[INFO] 16:27:42:820 Kernel/(10231:10272): 5
+[INFO] 16:27:42:821 Kernel/(10231:10272): 6
+[INFO] 16:27:43:334 Kernel/(10231:10272): 7
+[INFO] 16:27:43:340 Kernel/(10231:10272): 5
+[INFO] 16:27:43:340 Kernel/(10231:10272): 6
+[INFO] 16:27:43:649 Kernel/(10231:10272): 7
+[INFO] 16:27:43:651 Kernel/(10231:10272): 5
+[INFO] 16:27:43:651 Kernel/(10231:10272): 6
+[INFO] 16:27:44:057 Kernel/(10231:10272): 7
+[INFO] 16:27:44:058 Kernel/(10231:10272): 5
+[INFO] 16:27:44:058 Kernel/(10231:10272): 6
+[INFO] 16:27:44:567 Kernel/(10231:10272): 7
+[INFO] 16:27:45:658 Kernel/(10231:10272): 5
+[INFO] 16:27:45:658 Kernel/(10231:10272): 6
+[INFO] 16:27:46:167 Kernel/(10231:10272): 7
+[INFO] 16:27:46:281 Kernel/(10231:10274): DISCONNECT!
+[INFO] 16:27:46:289 Kernel/(10231:10272): DISCONNECT!
+[INFO] 16:27:46:289 Kernel/(10231:10273): DISCONNECT!
+[INFO] 16:39:05:307 Kernel/(10586:10586): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:39:05:410 Kernel/(10586:10586): ------2---------
+
+[INFO] 16:39:05:414 Kernel/(10586:10586): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:39:07:187 Kernel/(10586:10586): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:39:07:295 Kernel/(10586:10619): HANDSHAKE
+[INFO] 16:39:07:371 Kernel/(10586:10619): 5
+[INFO] 16:39:07:409 Kernel/(10586:10619): 6
+[INFO] 16:39:07:969 Kernel/(10586:10619): 7
+[INFO] 16:39:07:974 Kernel/(10586:10586): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:39:07:985 Kernel/(10586:10620): HANDSHAKE
+[INFO] 16:39:08:026 Kernel/(10586:10620): 5
+[INFO] 16:39:08:066 Kernel/(10586:10620): 6
+[INFO] 16:39:08:488 Kernel/(10586:10620): 7
+[INFO] 16:39:08:491 Kernel/(10586:10586): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:39:08:504 Kernel/(10586:10621): HANDSHAKE
+[INFO] 16:39:08:538 Kernel/(10586:10621): 5
+[INFO] 16:39:08:578 Kernel/(10586:10621): 6
+[INFO] 16:39:09:006 Kernel/(10586:10621): 7
+[INFO] 16:39:09:009 Kernel/(10586:10619): 5
+[INFO] 16:39:09:010 Kernel/(10586:10619): 6
+[INFO] 16:39:09:538 Kernel/(10586:10619): 7
+[INFO] 16:39:09:540 Kernel/(10586:10620): 5
+[INFO] 16:39:09:540 Kernel/(10586:10620): 6
+[INFO] 16:39:10:037 Kernel/(10586:10620): 7
+[INFO] 16:39:10:042 Kernel/(10586:10621): 5
+[INFO] 16:39:10:043 Kernel/(10586:10621): 6
+[INFO] 16:39:10:560 Kernel/(10586:10621): 7
+[INFO] 16:39:10:562 Kernel/(10586:10619): 5
+[INFO] 16:39:10:563 Kernel/(10586:10619): 6
+[INFO] 16:39:11:073 Kernel/(10586:10619): 7
+[INFO] 16:39:11:076 Kernel/(10586:10620): 5
+[INFO] 16:39:11:076 Kernel/(10586:10620): 6
+[INFO] 16:39:11:589 Kernel/(10586:10620): 7
+[INFO] 16:39:11:591 Kernel/(10586:10621): 5
+[INFO] 16:39:11:592 Kernel/(10586:10621): 6
+[INFO] 16:39:12:102 Kernel/(10586:10621): 7
+[INFO] 16:39:12:106 Kernel/(10586:10619): 5
+[INFO] 16:39:12:106 Kernel/(10586:10619): 6
+[INFO] 16:39:12:622 Kernel/(10586:10619): 7
+[INFO] 16:39:12:623 Kernel/(10586:10619): 5
+[INFO] 16:39:12:623 Kernel/(10586:10619): 6
+[INFO] 16:39:12:930 Kernel/(10586:10619): 7
+[INFO] 16:39:12:931 Kernel/(10586:10619): 5
+[INFO] 16:39:12:932 Kernel/(10586:10619): 6
+[INFO] 16:39:13:339 Kernel/(10586:10619): 7
+[INFO] 16:39:13:340 Kernel/(10586:10619): 5
+[INFO] 16:39:13:341 Kernel/(10586:10619): 6
+[INFO] 16:39:13:854 Kernel/(10586:10619): 7
+[INFO] 16:39:14:940 Kernel/(10586:10619): 5
+[INFO] 16:39:14:941 Kernel/(10586:10619): 6
+[INFO] 16:39:15:449 Kernel/(10586:10619): 7
+[INFO] 16:39:15:551 Kernel/(10586:10621): DISCONNECT!
+[INFO] 16:39:15:555 Kernel/(10586:10620): DISCONNECT!
+[INFO] 16:39:15:555 Kernel/(10586:10619): DISCONNECT!
+[INFO] 16:45:30:204 Kernel/(10864:10864): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:45:30:290 Kernel/(10864:10864): ------2---------
+
+[INFO] 16:45:30:294 Kernel/(10864:10864): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:45:33:249 Kernel/(10864:10864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:45:33:345 Kernel/(10864:10897): HANDSHAKE
+[INFO] 16:45:33:400 Kernel/(10864:10897): 5
+[INFO] 16:45:33:435 Kernel/(10864:10897): 6
+[INFO] 16:45:34:015 Kernel/(10864:10897): 7
+[INFO] 16:45:34:024 Kernel/(10864:10864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:45:34:028 Kernel/(10864:10898): HANDSHAKE
+[INFO] 16:45:34:070 Kernel/(10864:10898): 5
+[INFO] 16:45:34:110 Kernel/(10864:10898): 6
+[INFO] 16:45:34:519 Kernel/(10864:10898): 7
+[INFO] 16:45:34:523 Kernel/(10864:10864): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:45:34:529 Kernel/(10864:10899): HANDSHAKE
+[INFO] 16:45:34:574 Kernel/(10864:10899): 5
+[INFO] 16:45:34:614 Kernel/(10864:10899): 6
+[INFO] 16:45:35:034 Kernel/(10864:10899): 7
+[INFO] 16:45:35:042 Kernel/(10864:10897): 5
+[INFO] 16:45:35:042 Kernel/(10864:10897): 6
+[INFO] 16:45:35:555 Kernel/(10864:10897): 7
+[INFO] 16:45:35:556 Kernel/(10864:10898): 5
+[INFO] 16:45:35:557 Kernel/(10864:10898): 6
+[INFO] 16:45:36:056 Kernel/(10864:10898): 7
+[INFO] 16:45:36:058 Kernel/(10864:10899): 5
+[INFO] 16:45:36:058 Kernel/(10864:10899): 6
+[INFO] 16:45:36:562 Kernel/(10864:10899): 7
+[INFO] 16:45:36:564 Kernel/(10864:10897): 5
+[INFO] 16:45:36:564 Kernel/(10864:10897): 6
+[INFO] 16:45:37:068 Kernel/(10864:10897): 7
+[INFO] 16:45:37:069 Kernel/(10864:10898): 5
+[INFO] 16:45:37:070 Kernel/(10864:10898): 6
+[INFO] 16:45:37:570 Kernel/(10864:10898): 7
+[INFO] 16:45:37:573 Kernel/(10864:10899): 5
+[INFO] 16:45:37:574 Kernel/(10864:10899): 6
+[INFO] 16:45:38:084 Kernel/(10864:10899): 7
+[INFO] 16:45:38:087 Kernel/(10864:10897): 5
+[INFO] 16:45:38:087 Kernel/(10864:10897): 6
+[INFO] 16:45:38:613 Kernel/(10864:10897): 7
+[INFO] 16:45:38:614 Kernel/(10864:10897): 5
+[INFO] 16:45:38:614 Kernel/(10864:10897): 6
+[INFO] 16:45:38:920 Kernel/(10864:10897): 7
+[INFO] 16:45:38:921 Kernel/(10864:10897): 5
+[INFO] 16:45:38:921 Kernel/(10864:10897): 6
+[INFO] 16:45:39:328 Kernel/(10864:10897): 7
+[INFO] 16:45:39:329 Kernel/(10864:10897): 5
+[INFO] 16:45:39:329 Kernel/(10864:10897): 6
+[INFO] 16:45:39:839 Kernel/(10864:10897): 7
+[INFO] 16:45:40:922 Kernel/(10864:10897): 5
+[INFO] 16:45:40:922 Kernel/(10864:10897): 6
+[INFO] 16:45:41:435 Kernel/(10864:10897): 7
+[INFO] 16:45:41:571 Kernel/(10864:10899): DISCONNECT!
+[INFO] 16:45:41:575 Kernel/(10864:10898): DISCONNECT!
+[INFO] 16:45:41:576 Kernel/(10864:10897): DISCONNECT!
+[INFO] 16:48:48:632 Kernel/(11113:11113): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:48:48:699 Kernel/(11113:11113): ------2---------
+
+[INFO] 16:48:48:702 Kernel/(11113:11113): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:48:51:191 Kernel/(11113:11113): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:48:51:281 Kernel/(11113:11146): HANDSHAKE
+[INFO] 16:48:51:332 Kernel/(11113:11146): 5
+[INFO] 16:48:51:371 Kernel/(11113:11146): 6
+[INFO] 16:48:51:896 Kernel/(11113:11146): 7
+[INFO] 16:48:51:901 Kernel/(11113:11113): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:48:51:911 Kernel/(11113:11147): HANDSHAKE
+[INFO] 16:48:51:946 Kernel/(11113:11147): 5
+[INFO] 16:48:51:986 Kernel/(11113:11147): 6
+[INFO] 16:48:52:417 Kernel/(11113:11147): 7
+[INFO] 16:48:52:418 Kernel/(11113:11113): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:48:52:423 Kernel/(11113:11148): HANDSHAKE
+[INFO] 16:48:52:462 Kernel/(11113:11148): 5
+[INFO] 16:48:52:502 Kernel/(11113:11148): 6
+[INFO] 16:48:52:927 Kernel/(11113:11148): 7
+[INFO] 16:48:52:933 Kernel/(11113:11146): 5
+[INFO] 16:48:52:933 Kernel/(11113:11146): 6
+[INFO] 16:48:53:443 Kernel/(11113:11146): 7
+[INFO] 16:48:53:445 Kernel/(11113:11147): 5
+[INFO] 16:48:53:445 Kernel/(11113:11147): 6
+[INFO] 16:48:53:940 Kernel/(11113:11147): 7
+[INFO] 16:48:53:942 Kernel/(11113:11148): 5
+[INFO] 16:48:53:943 Kernel/(11113:11148): 6
+[INFO] 16:48:54:440 Kernel/(11113:11148): 7
+[INFO] 16:48:54:442 Kernel/(11113:11146): 5
+[INFO] 16:48:54:442 Kernel/(11113:11146): 6
+[INFO] 16:48:54:949 Kernel/(11113:11146): 7
+[INFO] 16:48:54:951 Kernel/(11113:11147): 5
+[INFO] 16:48:54:951 Kernel/(11113:11147): 6
+[INFO] 16:48:55:460 Kernel/(11113:11147): 7
+[INFO] 16:48:55:461 Kernel/(11113:11148): 5
+[INFO] 16:48:55:462 Kernel/(11113:11148): 6
+[INFO] 16:48:55:969 Kernel/(11113:11148): 7
+[INFO] 16:48:55:976 Kernel/(11113:11146): 5
+[INFO] 16:48:55:977 Kernel/(11113:11146): 6
+[INFO] 16:48:56:512 Kernel/(11113:11146): 7
+[INFO] 16:48:56:512 Kernel/(11113:11146): 5
+[INFO] 16:48:56:513 Kernel/(11113:11146): 6
+[INFO] 16:48:56:820 Kernel/(11113:11146): 7
+[INFO] 16:48:56:821 Kernel/(11113:11146): 5
+[INFO] 16:48:56:821 Kernel/(11113:11146): 6
+[INFO] 16:48:57:229 Kernel/(11113:11146): 7
+[INFO] 16:48:57:230 Kernel/(11113:11146): 5
+[INFO] 16:48:57:230 Kernel/(11113:11146): 6
+[INFO] 16:48:57:739 Kernel/(11113:11146): 7
+[INFO] 16:48:58:826 Kernel/(11113:11146): 5
+[INFO] 16:48:58:826 Kernel/(11113:11146): 6
+[INFO] 16:48:59:334 Kernel/(11113:11146): 7
+[INFO] 16:48:59:438 Kernel/(11113:11148): DISCONNECT!
+[INFO] 16:48:59:444 Kernel/(11113:11146): DISCONNECT!
+[INFO] 16:48:59:444 Kernel/(11113:11147): DISCONNECT!
+[INFO] 16:51:57:139 Kernel/(11304:11304): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:51:57:201 Kernel/(11304:11304): ------2---------
+
+[INFO] 16:51:57:206 Kernel/(11304:11304): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:51:58:907 Kernel/(11304:11304): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:51:58:997 Kernel/(11304:11337): HANDSHAKE
+[INFO] 16:51:59:054 Kernel/(11304:11337): 5
+[INFO] 16:51:59:090 Kernel/(11304:11337): 6
+[INFO] 16:51:59:649 Kernel/(11304:11337): 7
+[INFO] 16:51:59:666 Kernel/(11304:11304): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:51:59:669 Kernel/(11304:11338): HANDSHAKE
+[INFO] 16:51:59:714 Kernel/(11304:11338): 5
+[INFO] 16:51:59:754 Kernel/(11304:11338): 6
+[INFO] 16:52:00:174 Kernel/(11304:11338): 7
+[INFO] 16:52:00:177 Kernel/(11304:11304): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:52:00:183 Kernel/(11304:11339): HANDSHAKE
+[INFO] 16:52:00:218 Kernel/(11304:11339): 5
+[INFO] 16:52:00:257 Kernel/(11304:11339): 6
+[INFO] 16:52:00:692 Kernel/(11304:11339): 7
+[INFO] 16:52:00:696 Kernel/(11304:11337): 5
+[INFO] 16:52:00:697 Kernel/(11304:11337): 6
+[INFO] 16:52:01:198 Kernel/(11304:11337): 7
+[INFO] 16:52:01:200 Kernel/(11304:11338): 5
+[INFO] 16:52:01:200 Kernel/(11304:11338): 6
+[INFO] 16:52:01:699 Kernel/(11304:11338): 7
+[INFO] 16:52:01:701 Kernel/(11304:11339): 5
+[INFO] 16:52:01:702 Kernel/(11304:11339): 6
+[INFO] 16:52:02:201 Kernel/(11304:11339): 7
+[INFO] 16:52:02:204 Kernel/(11304:11337): 5
+[INFO] 16:52:02:205 Kernel/(11304:11337): 6
+[INFO] 16:52:02:714 Kernel/(11304:11337): 7
+[INFO] 16:52:02:716 Kernel/(11304:11338): 5
+[INFO] 16:52:02:717 Kernel/(11304:11338): 6
+[INFO] 16:52:03:228 Kernel/(11304:11338): 7
+[INFO] 16:52:03:229 Kernel/(11304:11339): 5
+[INFO] 16:52:03:229 Kernel/(11304:11339): 6
+[INFO] 16:52:03:738 Kernel/(11304:11339): 7
+[INFO] 16:52:03:740 Kernel/(11304:11337): 5
+[INFO] 16:52:03:741 Kernel/(11304:11337): 6
+[INFO] 16:52:04:267 Kernel/(11304:11337): 7
+[INFO] 16:52:04:268 Kernel/(11304:11337): 5
+[INFO] 16:52:04:268 Kernel/(11304:11337): 6
+[INFO] 16:52:04:574 Kernel/(11304:11337): 7
+[INFO] 16:52:04:576 Kernel/(11304:11337): 5
+[INFO] 16:52:04:576 Kernel/(11304:11337): 6
+[INFO] 16:52:04:983 Kernel/(11304:11337): 7
+[INFO] 16:52:04:984 Kernel/(11304:11337): 5
+[INFO] 16:52:04:985 Kernel/(11304:11337): 6
+[INFO] 16:52:05:496 Kernel/(11304:11337): 7
+[INFO] 16:52:06:584 Kernel/(11304:11337): 5
+[INFO] 16:52:06:585 Kernel/(11304:11337): 6
+[INFO] 16:52:07:094 Kernel/(11304:11337): 7
+[INFO] 16:52:07:194 Kernel/(11304:11339): DISCONNECT!
+[INFO] 16:52:07:200 Kernel/(11304:11337): DISCONNECT!
+[INFO] 16:52:07:200 Kernel/(11304:11338): DISCONNECT!
+[INFO] 16:54:05:245 Kernel/(11493:11493): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:54:05:307 Kernel/(11493:11493): ------2---------
+
+[INFO] 16:54:05:310 Kernel/(11493:11493): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:54:06:744 Kernel/(11493:11493): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:06:839 Kernel/(11493:11526): HANDSHAKE
+[INFO] 16:54:06:887 Kernel/(11493:11526): 5
+[INFO] 16:54:06:922 Kernel/(11493:11526): 6
+[INFO] 16:54:07:469 Kernel/(11493:11526): 7
+[INFO] 16:54:07:479 Kernel/(11493:11493): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:07:484 Kernel/(11493:11527): HANDSHAKE
+[INFO] 16:54:07:522 Kernel/(11493:11527): 5
+[INFO] 16:54:07:561 Kernel/(11493:11527): 6
+[INFO] 16:54:07:984 Kernel/(11493:11527): 7
+[INFO] 16:54:07:993 Kernel/(11493:11493): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:54:07:999 Kernel/(11493:11528): HANDSHAKE
+[INFO] 16:54:08:038 Kernel/(11493:11528): 5
+[INFO] 16:54:08:078 Kernel/(11493:11528): 6
+[INFO] 16:54:08:505 Kernel/(11493:11528): 7
+[INFO] 16:54:08:517 Kernel/(11493:11526): 5
+[INFO] 16:54:08:517 Kernel/(11493:11526): 6
+[INFO] 16:54:09:035 Kernel/(11493:11526): 7
+[INFO] 16:54:09:036 Kernel/(11493:11527): 5
+[INFO] 16:54:09:036 Kernel/(11493:11527): 6
+[INFO] 16:54:09:545 Kernel/(11493:11527): 7
+[INFO] 16:54:09:548 Kernel/(11493:11528): 5
+[INFO] 16:54:09:549 Kernel/(11493:11528): 6
+[INFO] 16:54:10:047 Kernel/(11493:11528): 7
+[INFO] 16:54:10:049 Kernel/(11493:11526): 5
+[INFO] 16:54:10:049 Kernel/(11493:11526): 6
+[INFO] 16:54:10:551 Kernel/(11493:11526): 7
+[INFO] 16:54:10:554 Kernel/(11493:11527): 5
+[INFO] 16:54:10:555 Kernel/(11493:11527): 6
+[INFO] 16:54:11:066 Kernel/(11493:11527): 7
+[INFO] 16:54:11:067 Kernel/(11493:11528): 5
+[INFO] 16:54:11:068 Kernel/(11493:11528): 6
+[INFO] 16:54:11:575 Kernel/(11493:11528): 7
+[INFO] 16:54:11:577 Kernel/(11493:11526): 5
+[INFO] 16:54:11:578 Kernel/(11493:11526): 6
+[INFO] 16:54:12:135 Kernel/(11493:11526): 7
+[INFO] 16:54:12:136 Kernel/(11493:11526): 5
+[INFO] 16:54:12:136 Kernel/(11493:11526): 6
+[INFO] 16:54:12:444 Kernel/(11493:11526): 7
+[INFO] 16:54:12:444 Kernel/(11493:11526): 5
+[INFO] 16:54:12:445 Kernel/(11493:11526): 6
+[INFO] 16:54:12:851 Kernel/(11493:11526): 7
+[INFO] 16:54:12:852 Kernel/(11493:11526): 5
+[INFO] 16:54:12:853 Kernel/(11493:11526): 6
+[INFO] 16:54:13:365 Kernel/(11493:11526): 7
+[INFO] 16:54:14:463 Kernel/(11493:11526): 5
+[INFO] 16:54:14:464 Kernel/(11493:11526): 6
+[INFO] 16:54:14:970 Kernel/(11493:11526): 7
+[INFO] 16:54:15:106 Kernel/(11493:11528): DISCONNECT!
+[INFO] 16:54:15:110 Kernel/(11493:11527): DISCONNECT!
+[INFO] 16:54:15:110 Kernel/(11493:11526): DISCONNECT!
+[INFO] 16:56:02:045 Kernel/(11675:11675): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 16:56:02:177 Kernel/(11675:11675): ------2---------
+
+[INFO] 16:56:02:183 Kernel/(11675:11675): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 16:56:04:029 Kernel/(11675:11675): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:56:04:124 Kernel/(11675:11708): HANDSHAKE
+[INFO] 16:56:04:187 Kernel/(11675:11708): 5
+[INFO] 16:56:04:222 Kernel/(11675:11708): 6
+[INFO] 16:56:04:772 Kernel/(11675:11708): 7
+[INFO] 16:56:04:778 Kernel/(11675:11675): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:56:04:781 Kernel/(11675:11709): HANDSHAKE
+[INFO] 16:56:04:826 Kernel/(11675:11709): 5
+[INFO] 16:56:04:866 Kernel/(11675:11709): 6
+[INFO] 16:56:05:295 Kernel/(11675:11709): 7
+[INFO] 16:56:05:297 Kernel/(11675:11675): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 16:56:05:304 Kernel/(11675:11710): HANDSHAKE
+[INFO] 16:56:05:343 Kernel/(11675:11710): 5
+[INFO] 16:56:05:382 Kernel/(11675:11710): 6
+[INFO] 16:56:05:807 Kernel/(11675:11710): 7
+[INFO] 16:56:05:810 Kernel/(11675:11708): 5
+[INFO] 16:56:05:811 Kernel/(11675:11708): 6
+[INFO] 16:56:06:342 Kernel/(11675:11708): 7
+[INFO] 16:56:06:344 Kernel/(11675:11709): 5
+[INFO] 16:56:06:345 Kernel/(11675:11709): 6
+[INFO] 16:56:06:839 Kernel/(11675:11709): 7
+[INFO] 16:56:06:842 Kernel/(11675:11710): 5
+[INFO] 16:56:06:843 Kernel/(11675:11710): 6
+[INFO] 16:56:07:355 Kernel/(11675:11710): 7
+[INFO] 16:56:07:357 Kernel/(11675:11708): 5
+[INFO] 16:56:07:357 Kernel/(11675:11708): 6
+[INFO] 16:56:07:855 Kernel/(11675:11708): 7
+[INFO] 16:56:07:856 Kernel/(11675:11709): 5
+[INFO] 16:56:07:857 Kernel/(11675:11709): 6
+[INFO] 16:56:08:376 Kernel/(11675:11709): 7
+[INFO] 16:56:08:378 Kernel/(11675:11710): 5
+[INFO] 16:56:08:379 Kernel/(11675:11710): 6
+[INFO] 16:56:08:871 Kernel/(11675:11710): 7
+[INFO] 16:56:08:876 Kernel/(11675:11708): 5
+[INFO] 16:56:08:877 Kernel/(11675:11708): 6
+[INFO] 16:56:09:427 Kernel/(11675:11708): 7
+[INFO] 16:56:09:428 Kernel/(11675:11708): 5
+[INFO] 16:56:09:428 Kernel/(11675:11708): 6
+[INFO] 16:56:09:742 Kernel/(11675:11708): 7
+[INFO] 16:56:09:742 Kernel/(11675:11708): 5
+[INFO] 16:56:09:743 Kernel/(11675:11708): 6
+[INFO] 16:56:10:148 Kernel/(11675:11708): 7
+[INFO] 16:56:10:149 Kernel/(11675:11708): 5
+[INFO] 16:56:10:150 Kernel/(11675:11708): 6
+[INFO] 16:56:10:656 Kernel/(11675:11708): 7
+[INFO] 16:56:11:756 Kernel/(11675:11708): 5
+[INFO] 16:56:11:757 Kernel/(11675:11708): 6
+[INFO] 16:56:12:264 Kernel/(11675:11708): 7
+[INFO] 16:56:12:367 Kernel/(11675:11710): DISCONNECT!
+[INFO] 16:56:12:371 Kernel/(11675:11709): DISCONNECT!
+[INFO] 16:56:12:375 Kernel/(11675:11708): DISCONNECT!
+[INFO] 17:01:32:300 Kernel/(11927:11927): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:01:32:369 Kernel/(11927:11927): ------2---------
+
+[INFO] 17:01:32:372 Kernel/(11927:11927): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:01:33:812 Kernel/(11927:11927): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:01:33:924 Kernel/(11927:11966): HANDSHAKE
+[INFO] 17:01:34:000 Kernel/(11927:11966): 5
+[INFO] 17:01:34:039 Kernel/(11927:11966): 6
+[INFO] 17:01:34:594 Kernel/(11927:11966): 7
+[INFO] 17:01:34:599 Kernel/(11927:11927): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:01:34:612 Kernel/(11927:11967): HANDSHAKE
+[INFO] 17:01:34:650 Kernel/(11927:11967): 5
+[INFO] 17:01:34:690 Kernel/(11927:11967): 6
+[INFO] 17:01:35:120 Kernel/(11927:11967): 7
+[INFO] 17:01:35:123 Kernel/(11927:11927): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:01:35:133 Kernel/(11927:11968): HANDSHAKE
+[INFO] 17:01:35:174 Kernel/(11927:11968): 5
+[INFO] 17:01:35:214 Kernel/(11927:11968): 6
+[INFO] 17:01:35:630 Kernel/(11927:11968): 7
+[INFO] 17:01:35:631 Kernel/(11927:11966): 5
+[INFO] 17:01:35:632 Kernel/(11927:11966): 6
+[INFO] 17:01:36:143 Kernel/(11927:11966): 7
+[INFO] 17:01:36:144 Kernel/(11927:11967): 5
+[INFO] 17:01:36:145 Kernel/(11927:11967): 6
+[INFO] 17:01:36:639 Kernel/(11927:11967): 7
+[INFO] 17:01:36:641 Kernel/(11927:11968): 5
+[INFO] 17:01:36:641 Kernel/(11927:11968): 6
+[INFO] 17:01:37:147 Kernel/(11927:11968): 7
+[INFO] 17:01:37:149 Kernel/(11927:11966): 5
+[INFO] 17:01:37:149 Kernel/(11927:11966): 6
+[INFO] 17:01:37:655 Kernel/(11927:11966): 7
+[INFO] 17:01:37:657 Kernel/(11927:11967): 5
+[INFO] 17:01:37:657 Kernel/(11927:11967): 6
+[INFO] 17:01:38:155 Kernel/(11927:11967): 7
+[INFO] 17:01:38:156 Kernel/(11927:11968): 5
+[INFO] 17:01:38:156 Kernel/(11927:11968): 6
+[INFO] 17:01:38:665 Kernel/(11927:11968): 7
+[INFO] 17:01:38:668 Kernel/(11927:11966): 5
+[INFO] 17:01:38:668 Kernel/(11927:11966): 6
+[INFO] 17:01:39:078 Kernel/(11927:11966): 7
+[INFO] 17:01:39:081 Kernel/(11927:11967): 5
+[INFO] 17:01:39:081 Kernel/(11927:11967): 6
+[INFO] 17:01:39:488 Kernel/(11927:11967): 7
+[INFO] 17:01:39:489 Kernel/(11927:11968): 5
+[INFO] 17:01:39:489 Kernel/(11927:11968): 6
+[INFO] 17:01:39:895 Kernel/(11927:11968): 7
+[INFO] 17:01:40:521 Kernel/(11927:11966): 5
+[INFO] 17:01:40:521 Kernel/(11927:11966): 6
+[INFO] 17:01:40:935 Kernel/(11927:11966): 7
+[INFO] 17:01:40:936 Kernel/(11927:11966): 5
+[INFO] 17:01:40:937 Kernel/(11927:11966): 6
+[INFO] 17:01:41:244 Kernel/(11927:11966): 7
+[INFO] 17:01:41:245 Kernel/(11927:11966): 5
+[INFO] 17:01:41:245 Kernel/(11927:11966): 6
+[INFO] 17:01:41:653 Kernel/(11927:11966): 7
+[INFO] 17:01:41:654 Kernel/(11927:11966): 5
+[INFO] 17:01:41:654 Kernel/(11927:11966): 6
+[INFO] 17:01:42:163 Kernel/(11927:11966): 7
+[INFO] 17:01:42:278 Kernel/(11927:11968): DISCONNECT!
+[INFO] 17:01:42:282 Kernel/(11927:11967): DISCONNECT!
+[INFO] 17:01:42:282 Kernel/(11927:11966): DISCONNECT!
+[INFO] 17:07:03:190 Kernel/(12187:12187): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:07:03:287 Kernel/(12187:12187): ------2---------
+
+[INFO] 17:07:03:290 Kernel/(12187:12187): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:07:05:273 Kernel/(12187:12187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:07:05:363 Kernel/(12187:12220): HANDSHAKE
+[INFO] 17:07:05:422 Kernel/(12187:12220): 5
+[INFO] 17:07:05:458 Kernel/(12187:12220): 6
+[INFO] 17:07:06:006 Kernel/(12187:12220): 7
+[INFO] 17:07:06:013 Kernel/(12187:12187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:07:06:016 Kernel/(12187:12221): HANDSHAKE
+[INFO] 17:07:06:051 Kernel/(12187:12221): 5
+[INFO] 17:07:06:090 Kernel/(12187:12221): 6
+[INFO] 17:07:06:502 Kernel/(12187:12221): 7
+[INFO] 17:07:06:506 Kernel/(12187:12187): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:07:06:517 Kernel/(12187:12222): HANDSHAKE
+[INFO] 17:07:06:558 Kernel/(12187:12222): 5
+[INFO] 17:07:06:598 Kernel/(12187:12222): 6
+[INFO] 17:07:07:016 Kernel/(12187:12222): 7
+[INFO] 17:07:07:018 Kernel/(12187:12220): 5
+[INFO] 17:07:07:018 Kernel/(12187:12220): 6
+[INFO] 17:07:07:540 Kernel/(12187:12220): 7
+[INFO] 17:07:07:542 Kernel/(12187:12221): 5
+[INFO] 17:07:07:543 Kernel/(12187:12221): 6
+[INFO] 17:07:08:040 Kernel/(12187:12221): 7
+[INFO] 17:07:08:041 Kernel/(12187:12222): 5
+[INFO] 17:07:08:042 Kernel/(12187:12222): 6
+[INFO] 17:07:08:547 Kernel/(12187:12222): 7
+[INFO] 17:07:08:549 Kernel/(12187:12220): 5
+[INFO] 17:07:08:550 Kernel/(12187:12220): 6
+[INFO] 17:07:09:057 Kernel/(12187:12220): 7
+[INFO] 17:07:09:058 Kernel/(12187:12221): 5
+[INFO] 17:07:09:058 Kernel/(12187:12221): 6
+[INFO] 17:07:09:566 Kernel/(12187:12221): 7
+[INFO] 17:07:09:568 Kernel/(12187:12222): 5
+[INFO] 17:07:09:569 Kernel/(12187:12222): 6
+[INFO] 17:07:10:077 Kernel/(12187:12222): 7
+[INFO] 17:07:10:079 Kernel/(12187:12220): 5
+[INFO] 17:07:10:080 Kernel/(12187:12220): 6
+[INFO] 17:07:10:487 Kernel/(12187:12220): 7
+[INFO] 17:07:10:491 Kernel/(12187:12221): 5
+[INFO] 17:07:10:494 Kernel/(12187:12221): 6
+[INFO] 17:07:10:901 Kernel/(12187:12221): 7
+[INFO] 17:07:10:902 Kernel/(12187:12222): 5
+[INFO] 17:07:10:903 Kernel/(12187:12222): 6
+[INFO] 17:07:11:308 Kernel/(12187:12222): 7
+[INFO] 17:07:11:934 Kernel/(12187:12220): 5
+[INFO] 17:07:11:935 Kernel/(12187:12220): 6
+[INFO] 17:07:12:351 Kernel/(12187:12220): 7
+[INFO] 17:07:12:352 Kernel/(12187:12220): 5
+[INFO] 17:07:12:352 Kernel/(12187:12220): 6
+[INFO] 17:07:12:659 Kernel/(12187:12220): 7
+[INFO] 17:07:12:660 Kernel/(12187:12220): 5
+[INFO] 17:07:12:661 Kernel/(12187:12220): 6
+[INFO] 17:07:13:069 Kernel/(12187:12220): 7
+[INFO] 17:07:13:070 Kernel/(12187:12220): 5
+[INFO] 17:07:13:070 Kernel/(12187:12220): 6
+[INFO] 17:07:13:578 Kernel/(12187:12220): 7
+[INFO] 17:07:13:701 Kernel/(12187:12222): DISCONNECT!
+[INFO] 17:07:13:705 Kernel/(12187:12221): DISCONNECT!
+[INFO] 17:07:13:705 Kernel/(12187:12220): DISCONNECT!
+[INFO] 17:09:53:787 Kernel/(12433:12433): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:09:53:858 Kernel/(12433:12433): ------2---------
+
+[INFO] 17:09:53:861 Kernel/(12433:12433): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:09:55:779 Kernel/(12433:12433): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:09:55:872 Kernel/(12433:12466): HANDSHAKE
+[INFO] 17:09:55:927 Kernel/(12433:12466): 5
+[INFO] 17:09:55:962 Kernel/(12433:12466): 6
+[INFO] 17:09:56:500 Kernel/(12433:12466): 7
+[INFO] 17:09:56:508 Kernel/(12433:12433): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:09:56:513 Kernel/(12433:12467): HANDSHAKE
+[INFO] 17:09:56:550 Kernel/(12433:12467): 5
+[INFO] 17:09:56:590 Kernel/(12433:12467): 6
+[INFO] 17:09:57:001 Kernel/(12433:12467): 7
+[INFO] 17:09:57:007 Kernel/(12433:12433): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:09:57:012 Kernel/(12433:12468): HANDSHAKE
+[INFO] 17:09:57:054 Kernel/(12433:12468): 5
+[INFO] 17:09:57:094 Kernel/(12433:12468): 6
+[INFO] 17:09:57:519 Kernel/(12433:12468): 7
+[INFO] 17:09:57:520 Kernel/(12433:12466): 5
+[INFO] 17:09:57:520 Kernel/(12433:12466): 6
+[INFO] 17:09:58:034 Kernel/(12433:12466): 7
+[INFO] 17:09:58:036 Kernel/(12433:12467): 5
+[INFO] 17:09:58:036 Kernel/(12433:12467): 6
+[INFO] 17:09:58:534 Kernel/(12433:12467): 7
+[INFO] 17:09:58:537 Kernel/(12433:12468): 5
+[INFO] 17:09:58:537 Kernel/(12433:12468): 6
+[INFO] 17:09:59:040 Kernel/(12433:12468): 7
+[INFO] 17:09:59:043 Kernel/(12433:12466): 5
+[INFO] 17:09:59:043 Kernel/(12433:12466): 6
+[INFO] 17:09:59:554 Kernel/(12433:12466): 7
+[INFO] 17:09:59:556 Kernel/(12433:12467): 5
+[INFO] 17:09:59:557 Kernel/(12433:12467): 6
+[INFO] 17:10:00:061 Kernel/(12433:12467): 7
+[INFO] 17:10:00:064 Kernel/(12433:12468): 5
+[INFO] 17:10:00:065 Kernel/(12433:12468): 6
+[INFO] 17:10:00:563 Kernel/(12433:12468): 7
+[INFO] 17:10:00:566 Kernel/(12433:12466): 5
+[INFO] 17:10:00:566 Kernel/(12433:12466): 6
+[INFO] 17:10:00:989 Kernel/(12433:12466): 7
+[INFO] 17:10:00:991 Kernel/(12433:12467): 5
+[INFO] 17:10:00:992 Kernel/(12433:12467): 6
+[INFO] 17:10:01:399 Kernel/(12433:12467): 7
+[INFO] 17:10:01:401 Kernel/(12433:12468): 5
+[INFO] 17:10:01:401 Kernel/(12433:12468): 6
+[INFO] 17:10:01:808 Kernel/(12433:12468): 7
+[INFO] 17:10:02:435 Kernel/(12433:12466): 5
+[INFO] 17:10:02:436 Kernel/(12433:12466): 6
+[INFO] 17:10:02:850 Kernel/(12433:12466): 7
+[INFO] 17:10:02:851 Kernel/(12433:12466): 5
+[INFO] 17:10:02:852 Kernel/(12433:12466): 6
+[INFO] 17:10:03:159 Kernel/(12433:12466): 7
+[INFO] 17:10:03:159 Kernel/(12433:12466): 5
+[INFO] 17:10:03:160 Kernel/(12433:12466): 6
+[INFO] 17:10:03:566 Kernel/(12433:12466): 7
+[INFO] 17:10:03:567 Kernel/(12433:12466): 5
+[INFO] 17:10:03:568 Kernel/(12433:12466): 6
+[INFO] 17:10:04:074 Kernel/(12433:12466): 7
+[INFO] 17:10:04:245 Kernel/(12433:12468): DISCONNECT!
+[INFO] 17:10:04:250 Kernel/(12433:12467): DISCONNECT!
+[INFO] 17:10:04:251 Kernel/(12433:12466): DISCONNECT!
+[INFO] 17:13:49:978 Kernel/(12731:12731): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:13:50:045 Kernel/(12731:12731): ------2---------
+
+[INFO] 17:13:50:049 Kernel/(12731:12731): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:13:52:918 Kernel/(12731:12731): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:13:53:010 Kernel/(12731:12765): HANDSHAKE
+[INFO] 17:13:53:059 Kernel/(12731:12765): 5
+[INFO] 17:13:53:087 Kernel/(12731:12765): 6
+[INFO] 17:13:53:675 Kernel/(12731:12765): 7
+[INFO] 17:13:53:680 Kernel/(12731:12731): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:13:53:689 Kernel/(12731:12766): HANDSHAKE
+[INFO] 17:13:53:723 Kernel/(12731:12766): 5
+[INFO] 17:13:53:761 Kernel/(12731:12766): 6
+[INFO] 17:13:54:182 Kernel/(12731:12766): 7
+[INFO] 17:13:54:185 Kernel/(12731:12731): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:13:54:191 Kernel/(12731:12767): HANDSHAKE
+[INFO] 17:13:54:226 Kernel/(12731:12767): 5
+[INFO] 17:13:54:266 Kernel/(12731:12767): 6
+[INFO] 17:13:54:697 Kernel/(12731:12767): 7
+[INFO] 17:13:54:699 Kernel/(12731:12765): 5
+[INFO] 17:13:54:699 Kernel/(12731:12765): 6
+[INFO] 17:13:55:212 Kernel/(12731:12765): 7
+[INFO] 17:13:55:213 Kernel/(12731:12766): 5
+[INFO] 17:13:55:214 Kernel/(12731:12766): 6
+[INFO] 17:13:55:714 Kernel/(12731:12766): 7
+[INFO] 17:13:55:717 Kernel/(12731:12767): 5
+[INFO] 17:13:55:717 Kernel/(12731:12767): 6
+[INFO] 17:13:56:242 Kernel/(12731:12767): 7
+[INFO] 17:13:56:250 Kernel/(12731:12765): 5
+[INFO] 17:13:56:250 Kernel/(12731:12765): 6
+[INFO] 17:13:56:755 Kernel/(12731:12765): 7
+[INFO] 17:13:56:756 Kernel/(12731:12766): 5
+[INFO] 17:13:56:757 Kernel/(12731:12766): 6
+[INFO] 17:13:57:264 Kernel/(12731:12766): 7
+[INFO] 17:13:57:269 Kernel/(12731:12767): 5
+[INFO] 17:13:57:270 Kernel/(12731:12767): 6
+[INFO] 17:13:57:792 Kernel/(12731:12767): 7
+[INFO] 17:13:57:795 Kernel/(12731:12765): 5
+[INFO] 17:13:57:796 Kernel/(12731:12765): 6
+[INFO] 17:13:58:205 Kernel/(12731:12765): 7
+[INFO] 17:13:58:206 Kernel/(12731:12766): 5
+[INFO] 17:13:58:206 Kernel/(12731:12766): 6
+[INFO] 17:13:58:611 Kernel/(12731:12766): 7
+[INFO] 17:13:58:612 Kernel/(12731:12767): 5
+[INFO] 17:13:58:612 Kernel/(12731:12767): 6
+[INFO] 17:13:59:018 Kernel/(12731:12767): 7
+[INFO] 17:13:59:638 Kernel/(12731:12765): 5
+[INFO] 17:13:59:639 Kernel/(12731:12765): 6
+[INFO] 17:14:00:072 Kernel/(12731:12765): 7
+[INFO] 17:14:00:075 Kernel/(12731:12765): 5
+[INFO] 17:14:00:075 Kernel/(12731:12765): 6
+[INFO] 17:14:00:382 Kernel/(12731:12765): 7
+[INFO] 17:14:00:382 Kernel/(12731:12765): 5
+[INFO] 17:14:00:383 Kernel/(12731:12765): 6
+[INFO] 17:14:00:792 Kernel/(12731:12765): 7
+[INFO] 17:14:00:794 Kernel/(12731:12765): 5
+[INFO] 17:14:00:795 Kernel/(12731:12765): 6
+[INFO] 17:14:01:307 Kernel/(12731:12765): 7
+[INFO] 17:14:01:426 Kernel/(12731:12767): DISCONNECT!
+[INFO] 17:14:01:430 Kernel/(12731:12766): DISCONNECT!
+[INFO] 17:14:01:430 Kernel/(12731:12765): DISCONNECT!
+[INFO] 17:18:58:124 Kernel/(12988:12988): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:18:58:189 Kernel/(12988:12988): ------2---------
+
+[INFO] 17:18:58:193 Kernel/(12988:12988): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:18:59:623 Kernel/(12988:12988): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:18:59:723 Kernel/(12988:13022): HANDSHAKE
+[INFO] 17:18:59:779 Kernel/(12988:13022): 5
+[INFO] 17:18:59:822 Kernel/(12988:13022): 6
+[INFO] 17:19:00:379 Kernel/(12988:13022): 7
+[INFO] 17:19:00:386 Kernel/(12988:12988): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:19:00:393 Kernel/(12988:13023): HANDSHAKE
+[INFO] 17:19:00:431 Kernel/(12988:13023): 5
+[INFO] 17:19:00:470 Kernel/(12988:13023): 6
+[INFO] 17:19:00:901 Kernel/(12988:13023): 7
+[INFO] 17:19:00:904 Kernel/(12988:12988): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:19:00:911 Kernel/(12988:13024): HANDSHAKE
+[INFO] 17:19:00:950 Kernel/(12988:13024): 5
+[INFO] 17:19:00:989 Kernel/(12988:13024): 6
+[INFO] 17:19:01:412 Kernel/(12988:13024): 7
+[INFO] 17:19:01:414 Kernel/(12988:13022): 5
+[INFO] 17:19:01:414 Kernel/(12988:13022): 6
+[INFO] 17:19:01:939 Kernel/(12988:13022): 7
+[INFO] 17:19:01:941 Kernel/(12988:13023): 5
+[INFO] 17:19:01:942 Kernel/(12988:13023): 6
+[INFO] 17:19:02:434 Kernel/(12988:13023): 7
+[INFO] 17:19:02:435 Kernel/(12988:13024): 5
+[INFO] 17:19:02:435 Kernel/(12988:13024): 6
+[INFO] 17:19:02:943 Kernel/(12988:13024): 7
+[INFO] 17:19:02:948 Kernel/(12988:13022): 5
+[INFO] 17:19:02:949 Kernel/(12988:13022): 6
+[INFO] 17:19:03:451 Kernel/(12988:13022): 7
+[INFO] 17:19:03:453 Kernel/(12988:13023): 5
+[INFO] 17:19:03:454 Kernel/(12988:13023): 6
+[INFO] 17:19:03:959 Kernel/(12988:13023): 7
+[INFO] 17:19:03:962 Kernel/(12988:13024): 5
+[INFO] 17:19:03:963 Kernel/(12988:13024): 6
+[INFO] 17:19:04:472 Kernel/(12988:13024): 7
+[INFO] 17:19:04:475 Kernel/(12988:13022): 5
+[INFO] 17:19:04:476 Kernel/(12988:13022): 6
+[INFO] 17:19:04:900 Kernel/(12988:13022): 7
+[INFO] 17:19:04:902 Kernel/(12988:13023): 5
+[INFO] 17:19:04:903 Kernel/(12988:13023): 6
+[INFO] 17:19:05:308 Kernel/(12988:13023): 7
+[INFO] 17:19:05:310 Kernel/(12988:13024): 5
+[INFO] 17:19:05:311 Kernel/(12988:13024): 6
+[INFO] 17:19:05:716 Kernel/(12988:13024): 7
+[INFO] 17:19:06:338 Kernel/(12988:13022): 5
+[INFO] 17:19:06:339 Kernel/(12988:13022): 6
+[INFO] 17:19:06:765 Kernel/(12988:13022): 7
+[INFO] 17:19:06:766 Kernel/(12988:13022): 5
+[INFO] 17:19:06:767 Kernel/(12988:13022): 6
+[INFO] 17:19:07:275 Kernel/(12988:13022): 7
+[INFO] 17:19:07:276 Kernel/(12988:13022): 5
+[INFO] 17:19:07:276 Kernel/(12988:13022): 6
+[INFO] 17:19:07:887 Kernel/(12988:13022): 7
+[INFO] 17:19:07:888 Kernel/(12988:13022): 5
+[INFO] 17:19:07:888 Kernel/(12988:13022): 6
+[INFO] 17:19:08:498 Kernel/(12988:13022): 7
+[INFO] 17:19:08:638 Kernel/(12988:13024): DISCONNECT!
+[INFO] 17:19:08:644 Kernel/(12988:13022): DISCONNECT!
+[INFO] 17:19:08:644 Kernel/(12988:13023): DISCONNECT!
+[INFO] 17:22:48:294 Kernel/(13192:13192): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:22:48:365 Kernel/(13192:13192): ------2---------
+
+[INFO] 17:22:48:368 Kernel/(13192:13192): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:22:50:894 Kernel/(13192:13192): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:22:51:036 Kernel/(13192:13225): HANDSHAKE
+[INFO] 17:22:51:098 Kernel/(13192:13225): 5
+[INFO] 17:22:51:135 Kernel/(13192:13225): 6
+[INFO] 17:22:51:686 Kernel/(13192:13225): 7
+[INFO] 17:22:51:692 Kernel/(13192:13192): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:22:51:694 Kernel/(13192:13226): HANDSHAKE
+[INFO] 17:22:51:734 Kernel/(13192:13226): 5
+[INFO] 17:22:51:774 Kernel/(13192:13226): 6
+[INFO] 17:22:52:193 Kernel/(13192:13226): 7
+[INFO] 17:22:52:197 Kernel/(13192:13192): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:22:52:202 Kernel/(13192:13227): HANDSHAKE
+[INFO] 17:22:52:246 Kernel/(13192:13227): 5
+[INFO] 17:22:52:286 Kernel/(13192:13227): 6
+[INFO] 17:22:52:716 Kernel/(13192:13227): 7
+[INFO] 17:22:52:718 Kernel/(13192:13225): 5
+[INFO] 17:22:52:718 Kernel/(13192:13225): 6
+[INFO] 17:22:53:232 Kernel/(13192:13225): 7
+[INFO] 17:22:53:234 Kernel/(13192:13226): 5
+[INFO] 17:22:53:234 Kernel/(13192:13226): 6
+[INFO] 17:22:53:731 Kernel/(13192:13226): 7
+[INFO] 17:22:53:733 Kernel/(13192:13227): 5
+[INFO] 17:22:53:734 Kernel/(13192:13227): 6
+[INFO] 17:22:54:237 Kernel/(13192:13227): 7
+[INFO] 17:22:54:239 Kernel/(13192:13225): 5
+[INFO] 17:22:54:240 Kernel/(13192:13225): 6
+[INFO] 17:22:54:740 Kernel/(13192:13225): 7
+[INFO] 17:22:54:742 Kernel/(13192:13226): 5
+[INFO] 17:22:54:743 Kernel/(13192:13226): 6
+[INFO] 17:22:55:251 Kernel/(13192:13226): 7
+[INFO] 17:22:55:253 Kernel/(13192:13227): 5
+[INFO] 17:22:55:254 Kernel/(13192:13227): 6
+[INFO] 17:22:55:764 Kernel/(13192:13227): 7
+[INFO] 17:22:55:767 Kernel/(13192:13225): 5
+[INFO] 17:22:55:767 Kernel/(13192:13225): 6
+[INFO] 17:22:56:181 Kernel/(13192:13225): 7
+[INFO] 17:22:56:183 Kernel/(13192:13226): 5
+[INFO] 17:22:56:184 Kernel/(13192:13226): 6
+[INFO] 17:22:56:591 Kernel/(13192:13226): 7
+[INFO] 17:22:56:593 Kernel/(13192:13227): 5
+[INFO] 17:22:56:593 Kernel/(13192:13227): 6
+[INFO] 17:22:56:999 Kernel/(13192:13227): 7
+[INFO] 17:22:57:624 Kernel/(13192:13225): 5
+[INFO] 17:22:57:625 Kernel/(13192:13225): 6
+[INFO] 17:22:58:048 Kernel/(13192:13225): 7
+[INFO] 17:22:58:049 Kernel/(13192:13225): 5
+[INFO] 17:22:58:049 Kernel/(13192:13225): 6
+[INFO] 17:22:58:558 Kernel/(13192:13225): 7
+[INFO] 17:22:58:560 Kernel/(13192:13225): 5
+[INFO] 17:22:58:560 Kernel/(13192:13225): 6
+[INFO] 17:22:59:169 Kernel/(13192:13225): 7
+[INFO] 17:22:59:170 Kernel/(13192:13225): 5
+[INFO] 17:22:59:171 Kernel/(13192:13225): 6
+[INFO] 17:22:59:781 Kernel/(13192:13225): 7
+[INFO] 17:22:59:896 Kernel/(13192:13227): DISCONNECT!
+[INFO] 17:22:59:900 Kernel/(13192:13226): DISCONNECT!
+[INFO] 17:22:59:900 Kernel/(13192:13225): DISCONNECT!
+[INFO] 17:27:59:838 Kernel/(13412:13412): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:27:59:915 Kernel/(13412:13412): ------2---------
+
+[INFO] 17:27:59:920 Kernel/(13412:13412): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:28:02:460 Kernel/(13412:13412): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:28:02:553 Kernel/(13412:13445): HANDSHAKE
+[INFO] 17:28:02:623 Kernel/(13412:13445): 5
+[INFO] 17:28:02:663 Kernel/(13412:13445): 6
+[INFO] 17:28:03:218 Kernel/(13412:13445): 7
+[INFO] 17:28:03:224 Kernel/(13412:13412): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:28:03:228 Kernel/(13412:13446): HANDSHAKE
+[INFO] 17:28:03:262 Kernel/(13412:13446): 5
+[INFO] 17:28:03:302 Kernel/(13412:13446): 6
+[INFO] 17:28:03:732 Kernel/(13412:13446): 7
+[INFO] 17:28:03:735 Kernel/(13412:13412): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:28:03:738 Kernel/(13412:13447): HANDSHAKE
+[INFO] 17:28:03:774 Kernel/(13412:13447): 5
+[INFO] 17:28:03:814 Kernel/(13412:13447): 6
+[INFO] 17:28:04:240 Kernel/(13412:13447): 7
+[INFO] 17:28:04:242 Kernel/(13412:13445): 5
+[INFO] 17:28:04:242 Kernel/(13412:13445): 6
+[INFO] 17:28:04:755 Kernel/(13412:13445): 7
+[INFO] 17:28:04:757 Kernel/(13412:13446): 5
+[INFO] 17:28:04:757 Kernel/(13412:13446): 6
+[INFO] 17:28:05:252 Kernel/(13412:13446): 7
+[INFO] 17:28:05:254 Kernel/(13412:13447): 5
+[INFO] 17:28:05:254 Kernel/(13412:13447): 6
+[INFO] 17:28:05:760 Kernel/(13412:13447): 7
+[INFO] 17:28:05:761 Kernel/(13412:13445): 5
+[INFO] 17:28:05:761 Kernel/(13412:13445): 6
+[INFO] 17:28:06:265 Kernel/(13412:13445): 7
+[INFO] 17:28:06:267 Kernel/(13412:13446): 5
+[INFO] 17:28:06:268 Kernel/(13412:13446): 6
+[INFO] 17:28:06:779 Kernel/(13412:13446): 7
+[INFO] 17:28:06:781 Kernel/(13412:13447): 5
+[INFO] 17:28:06:781 Kernel/(13412:13447): 6
+[INFO] 17:28:07:287 Kernel/(13412:13447): 7
+[INFO] 17:28:07:289 Kernel/(13412:13445): 5
+[INFO] 17:28:07:290 Kernel/(13412:13445): 6
+[INFO] 17:28:07:705 Kernel/(13412:13445): 7
+[INFO] 17:28:07:706 Kernel/(13412:13446): 5
+[INFO] 17:28:07:706 Kernel/(13412:13446): 6
+[INFO] 17:28:08:112 Kernel/(13412:13446): 7
+[INFO] 17:28:08:113 Kernel/(13412:13447): 5
+[INFO] 17:28:08:113 Kernel/(13412:13447): 6
+[INFO] 17:28:08:518 Kernel/(13412:13447): 7
+[INFO] 17:28:09:146 Kernel/(13412:13445): 5
+[INFO] 17:28:09:147 Kernel/(13412:13445): 6
+[INFO] 17:28:09:564 Kernel/(13412:13445): 7
+[INFO] 17:28:09:565 Kernel/(13412:13445): 5
+[INFO] 17:28:09:565 Kernel/(13412:13445): 6
+[INFO] 17:28:09:873 Kernel/(13412:13445): 7
+[INFO] 17:28:09:875 Kernel/(13412:13445): 5
+[INFO] 17:28:09:875 Kernel/(13412:13445): 6
+[INFO] 17:28:10:281 Kernel/(13412:13445): 7
+[INFO] 17:28:10:282 Kernel/(13412:13445): 5
+[INFO] 17:28:10:283 Kernel/(13412:13445): 6
+[INFO] 17:28:10:791 Kernel/(13412:13445): 7
+[INFO] 17:28:10:916 Kernel/(13412:13447): DISCONNECT!
+[INFO] 17:28:10:920 Kernel/(13412:13445): DISCONNECT!
+[INFO] 17:28:10:921 Kernel/(13412:13446): DISCONNECT!
+[INFO] 17:39:16:382 Kernel/(13707:13707): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:39:16:465 Kernel/(13707:13707): ------2---------
+
+[INFO] 17:39:16:468 Kernel/(13707:13707): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:39:18:477 Kernel/(13707:13707): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:39:18:571 Kernel/(13707:13740): HANDSHAKE
+[INFO] 17:39:18:642 Kernel/(13707:13740): 5
+[INFO] 17:39:18:682 Kernel/(13707:13740): 6
+[INFO] 17:39:19:232 Kernel/(13707:13740): 7
+[INFO] 17:39:19:236 Kernel/(13707:13707): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:39:19:239 Kernel/(13707:13741): HANDSHAKE
+[INFO] 17:39:19:273 Kernel/(13707:13741): 5
+[INFO] 17:39:19:309 Kernel/(13707:13741): 6
+[INFO] 17:39:19:734 Kernel/(13707:13741): 7
+[INFO] 17:39:19:736 Kernel/(13707:13707): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:39:19:739 Kernel/(13707:13742): HANDSHAKE
+[INFO] 17:39:19:774 Kernel/(13707:13742): 5
+[INFO] 17:39:19:814 Kernel/(13707:13742): 6
+[INFO] 17:39:20:241 Kernel/(13707:13742): 7
+[INFO] 17:39:20:243 Kernel/(13707:13740): 5
+[INFO] 17:39:20:243 Kernel/(13707:13740): 6
+[INFO] 17:39:20:770 Kernel/(13707:13740): 7
+[INFO] 17:39:20:773 Kernel/(13707:13741): 5
+[INFO] 17:39:20:773 Kernel/(13707:13741): 6
+[INFO] 17:39:21:266 Kernel/(13707:13741): 7
+[INFO] 17:39:21:268 Kernel/(13707:13742): 5
+[INFO] 17:39:21:270 Kernel/(13707:13742): 6
+[INFO] 17:39:21:777 Kernel/(13707:13742): 7
+[INFO] 17:39:21:778 Kernel/(13707:13740): 5
+[INFO] 17:39:21:779 Kernel/(13707:13740): 6
+[INFO] 17:39:22:289 Kernel/(13707:13740): 7
+[INFO] 17:39:22:290 Kernel/(13707:13741): 5
+[INFO] 17:39:22:290 Kernel/(13707:13741): 6
+[INFO] 17:39:22:794 Kernel/(13707:13741): 7
+[INFO] 17:39:22:796 Kernel/(13707:13742): 5
+[INFO] 17:39:22:796 Kernel/(13707:13742): 6
+[INFO] 17:39:23:304 Kernel/(13707:13742): 7
+[INFO] 17:39:23:306 Kernel/(13707:13740): 5
+[INFO] 17:39:23:306 Kernel/(13707:13740): 6
+[INFO] 17:39:23:713 Kernel/(13707:13740): 7
+[INFO] 17:39:23:715 Kernel/(13707:13741): 5
+[INFO] 17:39:23:715 Kernel/(13707:13741): 6
+[INFO] 17:39:24:122 Kernel/(13707:13741): 7
+[INFO] 17:39:24:123 Kernel/(13707:13742): 5
+[INFO] 17:39:24:124 Kernel/(13707:13742): 6
+[INFO] 17:39:24:532 Kernel/(13707:13742): 7
+[INFO] 17:39:25:155 Kernel/(13707:13740): 5
+[INFO] 17:39:25:156 Kernel/(13707:13740): 6
+[INFO] 17:39:25:580 Kernel/(13707:13740): 7
+[INFO] 17:39:25:581 Kernel/(13707:13740): 5
+[INFO] 17:39:25:586 Kernel/(13707:13740): 6
+[INFO] 17:39:26:096 Kernel/(13707:13740): 7
+[INFO] 17:39:26:097 Kernel/(13707:13740): 5
+[INFO] 17:39:26:098 Kernel/(13707:13740): 6
+[INFO] 17:39:26:710 Kernel/(13707:13740): 7
+[INFO] 17:39:26:711 Kernel/(13707:13740): 5
+[INFO] 17:39:26:712 Kernel/(13707:13740): 6
+[INFO] 17:39:27:320 Kernel/(13707:13740): 7
+[INFO] 17:39:27:453 Kernel/(13707:13742): DISCONNECT!
+[INFO] 17:39:27:456 Kernel/(13707:13741): DISCONNECT!
+[INFO] 17:39:27:457 Kernel/(13707:13740): DISCONNECT!
+[INFO] 17:44:08:815 Kernel/(13959:13959): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:44:08:878 Kernel/(13959:13959): ------2---------
+
+[INFO] 17:44:08:881 Kernel/(13959:13959): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:44:11:663 Kernel/(13959:13959): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:44:11:755 Kernel/(13959:13992): HANDSHAKE
+[INFO] 17:44:11:806 Kernel/(13959:13992): 5
+[INFO] 17:44:11:846 Kernel/(13959:13992): 6
+[INFO] 17:44:12:392 Kernel/(13959:13992): 7
+[INFO] 17:44:12:398 Kernel/(13959:13959): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:44:12:401 Kernel/(13959:13993): HANDSHAKE
+[INFO] 17:44:12:435 Kernel/(13959:13993): 5
+[INFO] 17:44:12:480 Kernel/(13959:13993): 6
+[INFO] 17:44:12:887 Kernel/(13959:13993): 7
+[INFO] 17:44:12:891 Kernel/(13959:13959): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:44:12:903 Kernel/(13959:13994): HANDSHAKE
+[INFO] 17:44:12:942 Kernel/(13959:13994): 5
+[INFO] 17:44:12:982 Kernel/(13959:13994): 6
+[INFO] 17:44:13:412 Kernel/(13959:13994): 7
+[INFO] 17:44:13:414 Kernel/(13959:13992): 5
+[INFO] 17:44:13:414 Kernel/(13959:13992): 6
+[INFO] 17:44:13:925 Kernel/(13959:13992): 7
+[INFO] 17:44:13:927 Kernel/(13959:13993): 5
+[INFO] 17:44:13:928 Kernel/(13959:13993): 6
+[INFO] 17:44:14:420 Kernel/(13959:13993): 7
+[INFO] 17:44:14:422 Kernel/(13959:13994): 5
+[INFO] 17:44:14:423 Kernel/(13959:13994): 6
+[INFO] 17:44:14:924 Kernel/(13959:13994): 7
+[INFO] 17:44:14:928 Kernel/(13959:13992): 5
+[INFO] 17:44:14:929 Kernel/(13959:13992): 6
+[INFO] 17:44:15:445 Kernel/(13959:13992): 7
+[INFO] 17:44:15:446 Kernel/(13959:13993): 5
+[INFO] 17:44:15:447 Kernel/(13959:13993): 6
+[INFO] 17:44:15:945 Kernel/(13959:13993): 7
+[INFO] 17:44:15:948 Kernel/(13959:13994): 5
+[INFO] 17:44:15:949 Kernel/(13959:13994): 6
+[INFO] 17:44:16:456 Kernel/(13959:13994): 7
+[INFO] 17:44:16:457 Kernel/(13959:13992): 5
+[INFO] 17:44:16:458 Kernel/(13959:13992): 6
+[INFO] 17:44:16:864 Kernel/(13959:13992): 7
+[INFO] 17:44:16:866 Kernel/(13959:13993): 5
+[INFO] 17:44:16:866 Kernel/(13959:13993): 6
+[INFO] 17:44:17:272 Kernel/(13959:13993): 7
+[INFO] 17:44:17:273 Kernel/(13959:13994): 5
+[INFO] 17:44:17:273 Kernel/(13959:13994): 6
+[INFO] 17:44:17:678 Kernel/(13959:13994): 7
+[INFO] 17:44:18:300 Kernel/(13959:13992): 5
+[INFO] 17:44:18:300 Kernel/(13959:13992): 6
+[INFO] 17:44:18:717 Kernel/(13959:13992): 7
+[INFO] 17:44:18:718 Kernel/(13959:13992): 5
+[INFO] 17:44:18:718 Kernel/(13959:13992): 6
+[INFO] 17:44:19:226 Kernel/(13959:13992): 7
+[INFO] 17:44:19:227 Kernel/(13959:13992): 5
+[INFO] 17:44:19:227 Kernel/(13959:13992): 6
+[INFO] 17:44:19:835 Kernel/(13959:13992): 7
+[INFO] 17:44:19:836 Kernel/(13959:13992): 5
+[INFO] 17:44:19:836 Kernel/(13959:13992): 6
+[INFO] 17:44:20:443 Kernel/(13959:13992): 7
+[INFO] 17:44:20:554 Kernel/(13959:13994): DISCONNECT!
+[INFO] 17:44:20:558 Kernel/(13959:13993): DISCONNECT!
+[INFO] 17:44:20:559 Kernel/(13959:13992): DISCONNECT!
+[INFO] 17:45:21:385 Kernel/(14166:14166): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:45:21:530 Kernel/(14166:14166): ------2---------
+
+[INFO] 17:45:21:542 Kernel/(14166:14166): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:45:24:335 Kernel/(14166:14166): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:45:24:427 Kernel/(14166:14200): HANDSHAKE
+[INFO] 17:45:24:482 Kernel/(14166:14200): 5
+[INFO] 17:45:24:518 Kernel/(14166:14200): 6
+[INFO] 17:45:25:053 Kernel/(14166:14200): 7
+[INFO] 17:45:25:059 Kernel/(14166:14166): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:45:25:062 Kernel/(14166:14201): HANDSHAKE
+[INFO] 17:45:25:102 Kernel/(14166:14201): 5
+[INFO] 17:45:25:142 Kernel/(14166:14201): 6
+[INFO] 17:45:25:557 Kernel/(14166:14201): 7
+[INFO] 17:45:25:562 Kernel/(14166:14166): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:45:25:571 Kernel/(14166:14202): HANDSHAKE
+[INFO] 17:45:25:614 Kernel/(14166:14202): 5
+[INFO] 17:45:25:653 Kernel/(14166:14202): 6
+[INFO] 17:45:26:084 Kernel/(14166:14202): 7
+[INFO] 17:45:26:085 Kernel/(14166:14200): 5
+[INFO] 17:45:26:085 Kernel/(14166:14200): 6
+[INFO] 17:45:26:597 Kernel/(14166:14200): 7
+[INFO] 17:45:26:599 Kernel/(14166:14201): 5
+[INFO] 17:45:26:600 Kernel/(14166:14201): 6
+[INFO] 17:45:27:091 Kernel/(14166:14201): 7
+[INFO] 17:45:27:092 Kernel/(14166:14202): 5
+[INFO] 17:45:27:093 Kernel/(14166:14202): 6
+[INFO] 17:45:27:593 Kernel/(14166:14202): 7
+[INFO] 17:45:27:596 Kernel/(14166:14200): 5
+[INFO] 17:45:27:597 Kernel/(14166:14200): 6
+[INFO] 17:45:28:106 Kernel/(14166:14200): 7
+[INFO] 17:45:28:107 Kernel/(14166:14201): 5
+[INFO] 17:45:28:108 Kernel/(14166:14201): 6
+[INFO] 17:45:28:614 Kernel/(14166:14201): 7
+[INFO] 17:45:28:615 Kernel/(14166:14202): 5
+[INFO] 17:45:28:615 Kernel/(14166:14202): 6
+[INFO] 17:45:29:120 Kernel/(14166:14202): 7
+[INFO] 17:45:29:121 Kernel/(14166:14200): 5
+[INFO] 17:45:29:121 Kernel/(14166:14200): 6
+[INFO] 17:45:29:532 Kernel/(14166:14200): 7
+[INFO] 17:45:29:534 Kernel/(14166:14201): 5
+[INFO] 17:45:29:535 Kernel/(14166:14201): 6
+[INFO] 17:45:29:941 Kernel/(14166:14201): 7
+[INFO] 17:45:29:943 Kernel/(14166:14202): 5
+[INFO] 17:45:29:943 Kernel/(14166:14202): 6
+[INFO] 17:45:30:350 Kernel/(14166:14202): 7
+[INFO] 17:45:30:974 Kernel/(14166:14200): 5
+[INFO] 17:45:30:975 Kernel/(14166:14200): 6
+[INFO] 17:45:31:400 Kernel/(14166:14200): 7
+[INFO] 17:45:31:401 Kernel/(14166:14200): 5
+[INFO] 17:45:31:402 Kernel/(14166:14200): 6
+[INFO] 17:45:31:909 Kernel/(14166:14200): 7
+[INFO] 17:45:31:910 Kernel/(14166:14200): 5
+[INFO] 17:45:31:910 Kernel/(14166:14200): 6
+[INFO] 17:45:32:517 Kernel/(14166:14200): 7
+[INFO] 17:45:32:518 Kernel/(14166:14200): 5
+[INFO] 17:45:32:518 Kernel/(14166:14200): 6
+[INFO] 17:45:33:128 Kernel/(14166:14200): 7
+[INFO] 17:45:33:248 Kernel/(14166:14202): DISCONNECT!
+[INFO] 17:45:33:253 Kernel/(14166:14201): DISCONNECT!
+[INFO] 17:45:33:253 Kernel/(14166:14200): DISCONNECT!
+[INFO] 17:49:11:350 Kernel/(14445:14445): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:49:11:413 Kernel/(14445:14445): ------2---------
+
+[INFO] 17:49:11:416 Kernel/(14445:14445): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:49:14:848 Kernel/(14445:14445): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:49:14:940 Kernel/(14445:14478): HANDSHAKE
+[INFO] 17:49:14:990 Kernel/(14445:14478): 5
+[INFO] 17:49:15:029 Kernel/(14445:14478): 6
+[INFO] 17:49:15:589 Kernel/(14445:14478): 7
+[INFO] 17:49:15:607 Kernel/(14445:14445): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:49:15:611 Kernel/(14445:14479): HANDSHAKE
+[INFO] 17:49:15:646 Kernel/(14445:14479): 5
+[INFO] 17:49:15:685 Kernel/(14445:14479): 6
+[INFO] 17:49:16:119 Kernel/(14445:14479): 7
+[INFO] 17:49:16:123 Kernel/(14445:14445): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:49:16:128 Kernel/(14445:14480): HANDSHAKE
+[INFO] 17:49:16:169 Kernel/(14445:14480): 5
+[INFO] 17:49:16:206 Kernel/(14445:14480): 6
+[INFO] 17:49:16:620 Kernel/(14445:14480): 7
+[INFO] 17:49:16:631 Kernel/(14445:14478): 5
+[INFO] 17:49:16:635 Kernel/(14445:14478): 6
+[INFO] 17:49:17:204 Kernel/(14445:14478): 7
+[INFO] 17:49:17:206 Kernel/(14445:14479): 5
+[INFO] 17:49:17:207 Kernel/(14445:14479): 6
+[INFO] 17:49:17:699 Kernel/(14445:14479): 7
+[INFO] 17:49:17:700 Kernel/(14445:14480): 5
+[INFO] 17:49:17:700 Kernel/(14445:14480): 6
+[INFO] 17:49:18:213 Kernel/(14445:14480): 7
+[INFO] 17:49:18:218 Kernel/(14445:14478): 5
+[INFO] 17:49:18:223 Kernel/(14445:14478): 6
+[INFO] 17:49:18:716 Kernel/(14445:14478): 7
+[INFO] 17:49:18:718 Kernel/(14445:14479): 5
+[INFO] 17:49:18:719 Kernel/(14445:14479): 6
+[INFO] 17:49:19:233 Kernel/(14445:14479): 7
+[INFO] 17:49:19:238 Kernel/(14445:14480): 5
+[INFO] 17:49:19:239 Kernel/(14445:14480): 6
+[INFO] 17:49:19:752 Kernel/(14445:14480): 7
+[INFO] 17:49:19:754 Kernel/(14445:14478): 5
+[INFO] 17:49:19:755 Kernel/(14445:14478): 6
+[INFO] 17:49:20:282 Kernel/(14445:14478): 7
+[INFO] 17:49:20:283 Kernel/(14445:14478): 5
+[INFO] 17:49:20:283 Kernel/(14445:14478): 6
+[INFO] 17:49:20:594 Kernel/(14445:14478): 7
+[INFO] 17:49:20:596 Kernel/(14445:14478): 5
+[INFO] 17:49:20:596 Kernel/(14445:14478): 6
+[INFO] 17:49:21:003 Kernel/(14445:14478): 7
+[INFO] 17:49:21:004 Kernel/(14445:14478): 5
+[INFO] 17:49:21:004 Kernel/(14445:14478): 6
+[INFO] 17:49:21:513 Kernel/(14445:14478): 7
+[INFO] 17:49:22:605 Kernel/(14445:14478): 5
+[INFO] 17:49:22:606 Kernel/(14445:14478): 6
+[INFO] 17:49:23:112 Kernel/(14445:14478): 7
+[INFO] 17:49:23:206 Kernel/(14445:14480): DISCONNECT!
+[INFO] 17:49:23:213 Kernel/(14445:14478): DISCONNECT!
+[INFO] 17:49:23:213 Kernel/(14445:14479): DISCONNECT!
+[INFO] 17:59:41:940 Kernel/(14803:14803): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 17:59:42:000 Kernel/(14803:14803): ------2---------
+
+[INFO] 17:59:42:003 Kernel/(14803:14803): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 17:59:43:929 Kernel/(14803:14803): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 17:59:44:018 Kernel/(14803:14836): HANDSHAKE
+[INFO] 17:59:44:093 Kernel/(14803:14836): 5
+[INFO] 17:59:44:127 Kernel/(14803:14836): 6
+[ERROR] 17:59:44:760 Kernel/(14803:14836): Error al recibir direccion logica
+[INFO] 18:01:21:307 Kernel/(14971:14971): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 18:01:21:398 Kernel/(14971:14971): ------2---------
+
+[INFO] 18:01:21:403 Kernel/(14971:14971): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 18:01:24:596 Kernel/(14971:14971): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:01:24:693 Kernel/(14971:15004): HANDSHAKE
+[INFO] 18:01:24:750 Kernel/(14971:15004): 5
+[INFO] 18:01:24:787 Kernel/(14971:15004): 6
+[ERROR] 18:01:25:387 Kernel/(14971:15004): Error al recibir direccion logica
+[INFO] 18:08:03:640 Kernel/(15389:15389): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 18:08:03:720 Kernel/(15389:15389): ------2---------
+
+[INFO] 18:08:03:728 Kernel/(15389:15389): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 18:08:06:424 Kernel/(15389:15389): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 18:08:06:590 Kernel/(15389:15422): HANDSHAKE
+[INFO] 18:08:06:658 Kernel/(15389:15422): 5
+[INFO] 18:08:06:697 Kernel/(15389:15422): 6
+[ERROR] 18:08:07:296 Kernel/(15389:15422): Error al recibir direccion logica
+[INFO] 10:10:50:282 Kernel/(20303:20303): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:10:50:353 Kernel/(20303:20303): ------2---------
+
+[INFO] 10:10:50:357 Kernel/(20303:20303): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:10:56:990 Kernel/(20303:20303): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:10:57:078 Kernel/(20303:20336): HANDSHAKE
+[INFO] 10:10:57:132 Kernel/(20303:20336): 5
+[INFO] 10:10:57:168 Kernel/(20303:20336): 6
+[ERROR] 10:10:57:760 Kernel/(20303:20336): Error al recibir direccion logica
+[INFO] 10:15:05:982 Kernel/(20529:20529): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:15:06:082 Kernel/(20529:20529): ------2---------
+
+[INFO] 10:15:06:087 Kernel/(20529:20529): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:15:08:636 Kernel/(20529:20529): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:15:08:728 Kernel/(20529:20562): HANDSHAKE
+[INFO] 10:15:08:805 Kernel/(20529:20562): 5
+[INFO] 10:15:08:844 Kernel/(20529:20562): 6
+[ERROR] 10:15:09:454 Kernel/(20529:20562): Error al recibir direccion logica
+[INFO] 10:18:52:286 Kernel/(20795:20795): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:18:52:350 Kernel/(20795:20795): ------2---------
+
+[INFO] 10:18:52:353 Kernel/(20795:20795): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:18:56:629 Kernel/(20795:20795): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:18:56:755 Kernel/(20795:20828): HANDSHAKE
+[INFO] 10:18:56:893 Kernel/(20795:20828): 5
+[INFO] 10:18:56:908 Kernel/(20795:20828): 6
+[INFO] 10:18:57:449 Kernel/(20795:20828): 7
+[INFO] 10:18:57:454 Kernel/(20795:20795): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:18:57:457 Kernel/(20795:20829): HANDSHAKE
+[INFO] 10:18:57:496 Kernel/(20795:20829): 5
+[INFO] 10:18:57:535 Kernel/(20795:20829): 6
+[INFO] 10:18:57:951 Kernel/(20795:20829): 7
+[INFO] 10:18:57:956 Kernel/(20795:20795): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:18:57:961 Kernel/(20795:20830): HANDSHAKE
+[INFO] 10:18:58:000 Kernel/(20795:20830): 5
+[INFO] 10:18:58:039 Kernel/(20795:20830): 6
+[INFO] 10:18:58:475 Kernel/(20795:20830): 7
+[INFO] 10:18:58:478 Kernel/(20795:20828): 5
+[INFO] 10:18:58:478 Kernel/(20795:20828): 6
+[INFO] 10:18:59:000 Kernel/(20795:20828): 7
+[INFO] 10:18:59:002 Kernel/(20795:20829): 5
+[INFO] 10:18:59:003 Kernel/(20795:20829): 6
+[INFO] 10:18:59:496 Kernel/(20795:20829): 7
+[INFO] 10:18:59:497 Kernel/(20795:20830): 5
+[INFO] 10:18:59:497 Kernel/(20795:20830): 6
+[INFO] 10:19:00:005 Kernel/(20795:20830): 7
+[INFO] 10:19:00:009 Kernel/(20795:20828): 5
+[INFO] 10:19:00:010 Kernel/(20795:20828): 6
+[INFO] 10:19:00:509 Kernel/(20795:20828): 7
+[INFO] 10:19:00:512 Kernel/(20795:20829): 5
+[INFO] 10:19:00:513 Kernel/(20795:20829): 6
+[INFO] 10:19:01:030 Kernel/(20795:20829): 7
+[INFO] 10:19:01:035 Kernel/(20795:20830): 5
+[INFO] 10:19:01:036 Kernel/(20795:20830): 6
+[INFO] 10:19:01:557 Kernel/(20795:20830): 7
+[INFO] 10:19:01:561 Kernel/(20795:20828): 5
+[INFO] 10:19:01:563 Kernel/(20795:20828): 6
+[INFO] 10:19:01:980 Kernel/(20795:20828): 7
+[INFO] 10:19:01:982 Kernel/(20795:20829): 5
+[INFO] 10:19:01:983 Kernel/(20795:20829): 6
+[INFO] 10:19:02:390 Kernel/(20795:20829): 7
+[INFO] 10:19:02:392 Kernel/(20795:20830): 5
+[INFO] 10:19:02:393 Kernel/(20795:20830): 6
+[INFO] 10:19:02:800 Kernel/(20795:20830): 7
+[INFO] 10:19:03:432 Kernel/(20795:20828): 5
+[INFO] 10:19:03:432 Kernel/(20795:20828): 6
+[INFO] 10:19:03:853 Kernel/(20795:20828): 7
+[INFO] 10:19:03:854 Kernel/(20795:20828): 5
+[INFO] 10:19:03:854 Kernel/(20795:20828): 6
+[ERROR] 10:19:05:460 Kernel/(20795:20828): Error al recibir direccion logica
+[INFO] 10:22:39:019 Kernel/(20795:20830): DISCONNECT!
+[INFO] 10:22:39:020 Kernel/(20795:20829): DISCONNECT!
+[INFO] 10:22:47:458 Kernel/(21035:21035): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:22:47:563 Kernel/(21035:21035): ------2---------
+
+[INFO] 10:22:47:570 Kernel/(21035:21035): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:22:52:881 Kernel/(21035:21035): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:22:52:972 Kernel/(21035:21068): HANDSHAKE
+[INFO] 10:22:53:022 Kernel/(21035:21068): 5
+[INFO] 10:22:53:061 Kernel/(21035:21068): 6
+[INFO] 10:22:53:595 Kernel/(21035:21068): 7
+[INFO] 10:22:53:602 Kernel/(21035:21035): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:22:53:605 Kernel/(21035:21069): HANDSHAKE
+[INFO] 10:22:53:637 Kernel/(21035:21069): 5
+[INFO] 10:22:53:676 Kernel/(21035:21069): 6
+[INFO] 10:22:54:104 Kernel/(21035:21069): 7
+[INFO] 10:22:54:115 Kernel/(21035:21035): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:22:54:136 Kernel/(21035:21070): HANDSHAKE
+[INFO] 10:22:54:180 Kernel/(21035:21070): 5
+[INFO] 10:22:54:219 Kernel/(21035:21070): 6
+[INFO] 10:22:54:636 Kernel/(21035:21070): 7
+[INFO] 10:22:54:637 Kernel/(21035:21068): 5
+[INFO] 10:22:54:637 Kernel/(21035:21068): 6
+[INFO] 10:22:55:145 Kernel/(21035:21068): 7
+[INFO] 10:22:55:147 Kernel/(21035:21069): 5
+[INFO] 10:22:55:147 Kernel/(21035:21069): 6
+[INFO] 10:22:55:644 Kernel/(21035:21069): 7
+[INFO] 10:22:55:646 Kernel/(21035:21070): 5
+[INFO] 10:22:55:647 Kernel/(21035:21070): 6
+[INFO] 10:22:56:154 Kernel/(21035:21070): 7
+[INFO] 10:22:56:155 Kernel/(21035:21068): 5
+[INFO] 10:22:56:156 Kernel/(21035:21068): 6
+[INFO] 10:22:56:660 Kernel/(21035:21068): 7
+[INFO] 10:22:56:661 Kernel/(21035:21069): 5
+[INFO] 10:22:56:662 Kernel/(21035:21069): 6
+[INFO] 10:22:57:164 Kernel/(21035:21069): 7
+[INFO] 10:22:57:168 Kernel/(21035:21070): 5
+[INFO] 10:22:57:169 Kernel/(21035:21070): 6
+[INFO] 10:22:57:680 Kernel/(21035:21070): 7
+[INFO] 10:22:57:682 Kernel/(21035:21068): 5
+[INFO] 10:22:57:683 Kernel/(21035:21068): 6
+[INFO] 10:22:58:091 Kernel/(21035:21068): 7
+[INFO] 10:22:58:092 Kernel/(21035:21069): 5
+[INFO] 10:22:58:093 Kernel/(21035:21069): 6
+[INFO] 10:22:58:497 Kernel/(21035:21069): 7
+[INFO] 10:22:58:500 Kernel/(21035:21070): 5
+[INFO] 10:22:58:500 Kernel/(21035:21070): 6
+[INFO] 10:22:58:906 Kernel/(21035:21070): 7
+[INFO] 10:22:59:551 Kernel/(21035:21068): 5
+[INFO] 10:22:59:551 Kernel/(21035:21068): 6
+[INFO] 10:22:59:987 Kernel/(21035:21068): 7
+[INFO] 10:22:59:989 Kernel/(21035:21068): 5
+[INFO] 10:22:59:989 Kernel/(21035:21068): 6
+[INFO] 10:23:01:132 Kernel/(21035:21068): 7
+[INFO] 10:23:01:134 Kernel/(21035:21068): 5
+[INFO] 10:23:01:134 Kernel/(21035:21068): 6
+[INFO] 10:23:01:540 Kernel/(21035:21068): 7
+[INFO] 10:23:01:541 Kernel/(21035:21068): 5
+[INFO] 10:23:01:541 Kernel/(21035:21068): 6
+[INFO] 10:23:01:946 Kernel/(21035:21068): 7
+[INFO] 10:23:02:102 Kernel/(21035:21070): DISCONNECT!
+[INFO] 10:23:02:106 Kernel/(21035:21069): DISCONNECT!
+[INFO] 10:23:02:106 Kernel/(21035:21068): DISCONNECT!
+[INFO] 10:27:31:024 Kernel/(21266:21266): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:27:31:088 Kernel/(21266:21266): ------2---------
+
+[INFO] 10:27:31:091 Kernel/(21266:21266): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:27:35:100 Kernel/(21266:21266): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:27:35:187 Kernel/(21266:21299): HANDSHAKE
+[INFO] 10:27:35:241 Kernel/(21266:21299): 5
+[INFO] 10:27:35:276 Kernel/(21266:21299): 6
+[INFO] 10:27:35:840 Kernel/(21266:21299): 7
+[INFO] 10:27:35:857 Kernel/(21266:21266): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:27:35:879 Kernel/(21266:21300): HANDSHAKE
+[INFO] 10:27:35:934 Kernel/(21266:21300): 5
+[INFO] 10:27:35:972 Kernel/(21266:21300): 6
+[INFO] 10:27:36:339 Kernel/(21266:21300): 7
+[INFO] 10:27:36:341 Kernel/(21266:21266): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:27:36:345 Kernel/(21266:21301): HANDSHAKE
+[INFO] 10:27:36:380 Kernel/(21266:21301): 5
+[INFO] 10:27:36:419 Kernel/(21266:21301): 6
+[INFO] 10:27:36:850 Kernel/(21266:21301): 7
+[INFO] 10:27:36:851 Kernel/(21266:21299): 5
+[INFO] 10:27:36:851 Kernel/(21266:21299): 6
+[INFO] 10:27:37:363 Kernel/(21266:21299): 7
+[INFO] 10:27:37:365 Kernel/(21266:21300): 5
+[INFO] 10:27:37:365 Kernel/(21266:21300): 6
+[INFO] 10:27:37:862 Kernel/(21266:21300): 7
+[INFO] 10:27:37:863 Kernel/(21266:21301): 5
+[INFO] 10:27:37:864 Kernel/(21266:21301): 6
+[INFO] 10:27:38:364 Kernel/(21266:21301): 7
+[INFO] 10:27:38:367 Kernel/(21266:21299): 5
+[INFO] 10:27:38:372 Kernel/(21266:21299): 6
+[INFO] 10:27:38:878 Kernel/(21266:21299): 7
+[INFO] 10:27:38:880 Kernel/(21266:21300): 5
+[INFO] 10:27:38:880 Kernel/(21266:21300): 6
+[INFO] 10:27:39:390 Kernel/(21266:21300): 7
+[INFO] 10:27:39:391 Kernel/(21266:21301): 5
+[INFO] 10:27:39:392 Kernel/(21266:21301): 6
+[INFO] 10:27:39:895 Kernel/(21266:21301): 7
+[INFO] 10:27:39:896 Kernel/(21266:21299): 5
+[INFO] 10:27:39:896 Kernel/(21266:21299): 6
+[INFO] 10:27:40:306 Kernel/(21266:21299): 7
+[INFO] 10:27:40:309 Kernel/(21266:21300): 5
+[INFO] 10:27:40:309 Kernel/(21266:21300): 6
+[INFO] 10:27:40:717 Kernel/(21266:21300): 7
+[INFO] 10:27:40:719 Kernel/(21266:21301): 5
+[INFO] 10:27:40:719 Kernel/(21266:21301): 6
+[INFO] 10:27:41:125 Kernel/(21266:21301): 7
+[INFO] 10:27:41:751 Kernel/(21266:21299): 5
+[INFO] 10:27:41:752 Kernel/(21266:21299): 6
+[INFO] 10:27:42:169 Kernel/(21266:21299): 7
+[INFO] 10:27:42:170 Kernel/(21266:21299): 5
+[INFO] 10:27:42:170 Kernel/(21266:21299): 6
+[INFO] 10:27:43:322 Kernel/(21266:21299): 7
+[INFO] 10:27:43:323 Kernel/(21266:21299): 5
+[INFO] 10:27:43:323 Kernel/(21266:21299): 6
+[INFO] 10:27:43:731 Kernel/(21266:21299): 7
+[INFO] 10:27:43:732 Kernel/(21266:21299): 5
+[INFO] 10:27:43:733 Kernel/(21266:21299): 6
+[INFO] 10:27:44:139 Kernel/(21266:21299): 7
+[INFO] 10:27:44:263 Kernel/(21266:21301): DISCONNECT!
+[INFO] 10:27:44:269 Kernel/(21266:21299): DISCONNECT!
+[INFO] 10:27:44:269 Kernel/(21266:21300): DISCONNECT!
+[INFO] 10:31:24:938 Kernel/(21540:21540): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:31:25:000 Kernel/(21540:21540): ------2---------
+
+[INFO] 10:31:25:008 Kernel/(21540:21540): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:31:30:127 Kernel/(21540:21540): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:31:30:218 Kernel/(21540:21573): HANDSHAKE
+[INFO] 10:31:30:291 Kernel/(21540:21573): 5
+[INFO] 10:31:30:334 Kernel/(21540:21573): 6
+[INFO] 10:31:30:874 Kernel/(21540:21573): 7
+[INFO] 10:31:30:880 Kernel/(21540:21540): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:31:30:889 Kernel/(21540:21574): HANDSHAKE
+[INFO] 10:31:30:928 Kernel/(21540:21574): 5
+[INFO] 10:31:30:967 Kernel/(21540:21574): 6
+[INFO] 10:31:31:404 Kernel/(21540:21574): 7
+[INFO] 10:31:31:412 Kernel/(21540:21540): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:31:31:425 Kernel/(21540:21575): HANDSHAKE
+[INFO] 10:31:31:461 Kernel/(21540:21575): 5
+[INFO] 10:31:31:499 Kernel/(21540:21575): 6
+[INFO] 10:31:31:931 Kernel/(21540:21575): 7
+[INFO] 10:31:31:933 Kernel/(21540:21573): 5
+[INFO] 10:31:31:933 Kernel/(21540:21573): 6
+[INFO] 10:31:32:457 Kernel/(21540:21573): 7
+[INFO] 10:31:32:460 Kernel/(21540:21574): 5
+[INFO] 10:31:32:461 Kernel/(21540:21574): 6
+[INFO] 10:31:32:959 Kernel/(21540:21574): 7
+[INFO] 10:31:32:961 Kernel/(21540:21575): 5
+[INFO] 10:31:32:962 Kernel/(21540:21575): 6
+[INFO] 10:31:33:463 Kernel/(21540:21575): 7
+[INFO] 10:31:33:466 Kernel/(21540:21573): 5
+[INFO] 10:31:33:467 Kernel/(21540:21573): 6
+[INFO] 10:31:33:978 Kernel/(21540:21573): 7
+[INFO] 10:31:33:980 Kernel/(21540:21574): 5
+[INFO] 10:31:33:980 Kernel/(21540:21574): 6
+[INFO] 10:31:34:487 Kernel/(21540:21574): 7
+[INFO] 10:31:34:489 Kernel/(21540:21575): 5
+[INFO] 10:31:34:489 Kernel/(21540:21575): 6
+[INFO] 10:31:34:998 Kernel/(21540:21575): 7
+[INFO] 10:31:35:002 Kernel/(21540:21573): 5
+[INFO] 10:31:35:005 Kernel/(21540:21573): 6
+[INFO] 10:31:35:426 Kernel/(21540:21573): 7
+[INFO] 10:31:35:428 Kernel/(21540:21574): 5
+[INFO] 10:31:35:429 Kernel/(21540:21574): 6
+[INFO] 10:31:35:836 Kernel/(21540:21574): 7
+[INFO] 10:31:35:837 Kernel/(21540:21575): 5
+[INFO] 10:31:35:838 Kernel/(21540:21575): 6
+[INFO] 10:31:36:244 Kernel/(21540:21575): 7
+[INFO] 10:31:36:869 Kernel/(21540:21573): 5
+[INFO] 10:31:36:870 Kernel/(21540:21573): 6
+[INFO] 10:31:37:302 Kernel/(21540:21573): 7
+[INFO] 10:31:37:303 Kernel/(21540:21573): 5
+[INFO] 10:31:37:303 Kernel/(21540:21573): 6
+[INFO] 10:31:38:441 Kernel/(21540:21573): 7
+[INFO] 10:31:38:443 Kernel/(21540:21573): 5
+[INFO] 10:31:38:443 Kernel/(21540:21573): 6
+[INFO] 10:31:38:852 Kernel/(21540:21573): 7
+[INFO] 10:31:38:853 Kernel/(21540:21573): 5
+[INFO] 10:31:38:853 Kernel/(21540:21573): 6
+[INFO] 10:31:39:259 Kernel/(21540:21573): 7
+[INFO] 10:31:39:371 Kernel/(21540:21575): DISCONNECT!
+[INFO] 10:31:39:375 Kernel/(21540:21574): DISCONNECT!
+[INFO] 10:31:39:375 Kernel/(21540:21573): DISCONNECT!
+[INFO] 10:33:58:122 Kernel/(21782:21782): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:33:58:205 Kernel/(21782:21782): ------2---------
+
+[INFO] 10:33:58:211 Kernel/(21782:21782): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:34:02:300 Kernel/(21782:21782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:34:02:410 Kernel/(21782:21815): HANDSHAKE
+[INFO] 10:34:02:480 Kernel/(21782:21815): 5
+[INFO] 10:34:02:520 Kernel/(21782:21815): 6
+[INFO] 10:34:03:080 Kernel/(21782:21815): 7
+[INFO] 10:34:03:087 Kernel/(21782:21782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:34:03:090 Kernel/(21782:21816): HANDSHAKE
+[INFO] 10:34:03:132 Kernel/(21782:21816): 5
+[INFO] 10:34:03:171 Kernel/(21782:21816): 6
+[INFO] 10:34:03:584 Kernel/(21782:21816): 7
+[INFO] 10:34:03:586 Kernel/(21782:21782): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:34:03:589 Kernel/(21782:21817): HANDSHAKE
+[INFO] 10:34:03:624 Kernel/(21782:21817): 5
+[INFO] 10:34:03:664 Kernel/(21782:21817): 6
+[INFO] 10:34:04:094 Kernel/(21782:21817): 7
+[INFO] 10:34:04:095 Kernel/(21782:21815): 5
+[INFO] 10:34:04:096 Kernel/(21782:21815): 6
+[INFO] 10:34:04:601 Kernel/(21782:21815): 7
+[INFO] 10:34:04:603 Kernel/(21782:21816): 5
+[INFO] 10:34:04:603 Kernel/(21782:21816): 6
+[INFO] 10:34:05:100 Kernel/(21782:21816): 7
+[INFO] 10:34:05:101 Kernel/(21782:21817): 5
+[INFO] 10:34:05:102 Kernel/(21782:21817): 6
+[INFO] 10:34:05:602 Kernel/(21782:21817): 7
+[INFO] 10:34:05:604 Kernel/(21782:21815): 5
+[INFO] 10:34:05:604 Kernel/(21782:21815): 6
+[INFO] 10:34:06:110 Kernel/(21782:21815): 7
+[INFO] 10:34:06:111 Kernel/(21782:21816): 5
+[INFO] 10:34:06:112 Kernel/(21782:21816): 6
+[INFO] 10:34:06:610 Kernel/(21782:21816): 7
+[INFO] 10:34:06:611 Kernel/(21782:21817): 5
+[INFO] 10:34:06:612 Kernel/(21782:21817): 6
+[INFO] 10:34:07:116 Kernel/(21782:21817): 7
+[INFO] 10:34:07:118 Kernel/(21782:21815): 5
+[INFO] 10:34:07:118 Kernel/(21782:21815): 6
+[INFO] 10:34:07:529 Kernel/(21782:21815): 7
+[INFO] 10:34:07:531 Kernel/(21782:21816): 5
+[INFO] 10:34:07:531 Kernel/(21782:21816): 6
+[INFO] 10:34:07:936 Kernel/(21782:21816): 7
+[INFO] 10:34:07:938 Kernel/(21782:21817): 5
+[INFO] 10:34:07:938 Kernel/(21782:21817): 6
+[INFO] 10:34:08:344 Kernel/(21782:21817): 7
+[INFO] 10:34:08:969 Kernel/(21782:21815): 5
+[INFO] 10:34:08:969 Kernel/(21782:21815): 6
+[INFO] 10:34:09:405 Kernel/(21782:21815): 7
+[INFO] 10:34:09:406 Kernel/(21782:21815): 5
+[INFO] 10:34:09:407 Kernel/(21782:21815): 6
+[INFO] 10:34:10:559 Kernel/(21782:21815): 7
+[INFO] 10:34:10:560 Kernel/(21782:21815): 5
+[INFO] 10:34:10:560 Kernel/(21782:21815): 6
+[INFO] 10:34:10:967 Kernel/(21782:21815): 7
+[INFO] 10:34:10:968 Kernel/(21782:21815): 5
+[INFO] 10:34:10:969 Kernel/(21782:21815): 6
+[INFO] 10:34:11:376 Kernel/(21782:21815): 7
+[INFO] 10:34:11:483 Kernel/(21782:21817): DISCONNECT!
+[INFO] 10:34:11:487 Kernel/(21782:21816): DISCONNECT!
+[INFO] 10:34:11:487 Kernel/(21782:21815): DISCONNECT!
+[INFO] 10:55:27:973 Kernel/(22353:22353): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:55:28:029 Kernel/(22353:22353): ------2---------
+
+[INFO] 10:55:28:032 Kernel/(22353:22353): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:55:37:456 Kernel/(22353:22353): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:55:37:542 Kernel/(22353:22386): HANDSHAKE
+[INFO] 10:55:37:596 Kernel/(22353:22386): 5
+[INFO] 10:55:37:636 Kernel/(22353:22386): 6
+[INFO] 10:55:38:213 Kernel/(22353:22386): 7
+[INFO] 10:55:38:235 Kernel/(22353:22353): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:55:38:250 Kernel/(22353:22387): HANDSHAKE
+[INFO] 10:55:38:296 Kernel/(22353:22387): 5
+[INFO] 10:55:38:335 Kernel/(22353:22387): 6
+[INFO] 10:55:38:713 Kernel/(22353:22387): 7
+[INFO] 10:55:38:720 Kernel/(22353:22353): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:55:38:724 Kernel/(22353:22388): HANDSHAKE
+[INFO] 10:55:38:771 Kernel/(22353:22388): 5
+[INFO] 10:55:38:807 Kernel/(22353:22388): 6
+[INFO] 10:55:39:253 Kernel/(22353:22388): 7
+[INFO] 10:55:39:255 Kernel/(22353:22386): 5
+[INFO] 10:55:39:255 Kernel/(22353:22386): 6
+[INFO] 10:55:39:787 Kernel/(22353:22386): 7
+[INFO] 10:55:39:789 Kernel/(22353:22387): 5
+[INFO] 10:55:39:790 Kernel/(22353:22387): 6
+[INFO] 10:55:40:291 Kernel/(22353:22387): 7
+[INFO] 10:55:40:292 Kernel/(22353:22388): 5
+[INFO] 10:55:40:292 Kernel/(22353:22388): 6
+[INFO] 10:55:40:795 Kernel/(22353:22388): 7
+[INFO] 10:55:40:797 Kernel/(22353:22386): 5
+[INFO] 10:55:40:798 Kernel/(22353:22386): 6
+[INFO] 10:55:41:306 Kernel/(22353:22386): 7
+[INFO] 10:55:41:309 Kernel/(22353:22387): 5
+[INFO] 10:55:41:310 Kernel/(22353:22387): 6
+[INFO] 10:55:41:824 Kernel/(22353:22387): 7
+[INFO] 10:55:41:825 Kernel/(22353:22388): 5
+[INFO] 10:55:41:826 Kernel/(22353:22388): 6
+[INFO] 10:55:42:334 Kernel/(22353:22388): 7
+[INFO] 10:55:42:337 Kernel/(22353:22386): 5
+[INFO] 10:55:42:340 Kernel/(22353:22386): 6
+[INFO] 10:55:42:750 Kernel/(22353:22386): 7
+[INFO] 10:55:42:753 Kernel/(22353:22387): 5
+[INFO] 10:55:42:754 Kernel/(22353:22387): 6
+[INFO] 10:55:43:162 Kernel/(22353:22387): 7
+[INFO] 10:55:43:163 Kernel/(22353:22388): 5
+[INFO] 10:55:43:164 Kernel/(22353:22388): 6
+[INFO] 10:55:43:571 Kernel/(22353:22388): 7
+[INFO] 10:55:44:198 Kernel/(22353:22386): 5
+[INFO] 10:55:44:199 Kernel/(22353:22386): 6
+[INFO] 10:55:44:625 Kernel/(22353:22386): 7
+[INFO] 10:55:44:626 Kernel/(22353:22386): 5
+[INFO] 10:55:44:627 Kernel/(22353:22386): 6
+[INFO] 10:55:45:766 Kernel/(22353:22386): 7
+[INFO] 10:55:45:767 Kernel/(22353:22386): 5
+[INFO] 10:55:45:768 Kernel/(22353:22386): 6
+[INFO] 10:55:46:175 Kernel/(22353:22386): 7
+[INFO] 10:55:46:176 Kernel/(22353:22386): 5
+[INFO] 10:55:46:177 Kernel/(22353:22386): 6
+[INFO] 10:55:46:585 Kernel/(22353:22386): 7
+[INFO] 10:55:46:699 Kernel/(22353:22388): DISCONNECT!
+[INFO] 10:55:46:704 Kernel/(22353:22387): DISCONNECT!
+[INFO] 10:55:46:705 Kernel/(22353:22386): DISCONNECT!
+[INFO] 11:04:56:271 Kernel/(22701:22701): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:04:56:362 Kernel/(22701:22701): ------2---------
+
+[INFO] 11:04:56:392 Kernel/(22701:22701): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:05:00:454 Kernel/(22701:22701): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:05:00:544 Kernel/(22701:22734): HANDSHAKE
+[INFO] 11:05:00:605 Kernel/(22701:22734): 5
+[INFO] 11:05:00:644 Kernel/(22701:22734): 6
+[INFO] 11:05:01:206 Kernel/(22701:22734): 7
+[INFO] 11:05:01:211 Kernel/(22701:22701): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:05:01:216 Kernel/(22701:22735): HANDSHAKE
+[INFO] 11:05:01:256 Kernel/(22701:22735): 5
+[INFO] 11:05:01:295 Kernel/(22701:22735): 6
+[INFO] 11:05:02:203 Kernel/(22701:22735): 7
+[INFO] 11:05:02:208 Kernel/(22701:22701): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:05:02:222 Kernel/(22701:22736): HANDSHAKE
+[INFO] 11:05:02:257 Kernel/(22701:22736): 5
+[INFO] 11:05:02:295 Kernel/(22701:22736): 6
+[INFO] 11:05:03:233 Kernel/(22701:22736): 7
+[INFO] 11:05:03:235 Kernel/(22701:22734): 5
+[INFO] 11:05:03:235 Kernel/(22701:22734): 6
+[INFO] 11:05:04:257 Kernel/(22701:22734): 7
+[INFO] 11:05:04:260 Kernel/(22701:22735): 5
+[INFO] 11:05:04:261 Kernel/(22701:22735): 6
+[INFO] 11:05:05:275 Kernel/(22701:22735): 7
+[INFO] 11:05:05:277 Kernel/(22701:22736): 5
+[INFO] 11:05:05:277 Kernel/(22701:22736): 6
+[INFO] 11:05:06:288 Kernel/(22701:22736): 7
+[INFO] 11:05:06:290 Kernel/(22701:22734): 5
+[INFO] 11:05:06:290 Kernel/(22701:22734): 6
+[INFO] 11:05:07:301 Kernel/(22701:22734): 7
+[INFO] 11:05:07:304 Kernel/(22701:22735): 5
+[INFO] 11:05:07:308 Kernel/(22701:22735): 6
+[INFO] 11:05:08:313 Kernel/(22701:22735): 7
+[INFO] 11:05:08:316 Kernel/(22701:22736): 5
+[INFO] 11:05:08:317 Kernel/(22701:22736): 6
+[INFO] 11:05:09:331 Kernel/(22701:22736): 7
+[INFO] 11:05:09:333 Kernel/(22701:22734): 5
+[INFO] 11:05:09:334 Kernel/(22701:22734): 6
+[INFO] 11:05:09:748 Kernel/(22701:22734): 7
+[INFO] 11:05:09:750 Kernel/(22701:22735): 5
+[INFO] 11:05:09:750 Kernel/(22701:22735): 6
+[INFO] 11:05:10:160 Kernel/(22701:22735): 7
+[INFO] 11:05:10:163 Kernel/(22701:22736): 5
+[INFO] 11:05:10:163 Kernel/(22701:22736): 6
+[INFO] 11:05:10:570 Kernel/(22701:22736): 7
+[INFO] 11:05:11:206 Kernel/(22701:22734): 5
+[INFO] 11:05:11:207 Kernel/(22701:22734): 6
+[INFO] 11:05:12:146 Kernel/(22701:22734): 7
+[INFO] 11:05:12:147 Kernel/(22701:22734): 5
+[INFO] 11:05:12:147 Kernel/(22701:22734): 6
+[INFO] 11:05:14:333 Kernel/(22701:22734): 7
+[INFO] 11:05:14:334 Kernel/(22701:22734): 5
+[INFO] 11:05:14:335 Kernel/(22701:22734): 6
+[INFO] 11:05:14:742 Kernel/(22701:22734): 7
+[INFO] 11:05:14:745 Kernel/(22701:22734): 5
+[INFO] 11:05:14:746 Kernel/(22701:22734): 6
+[INFO] 11:05:15:160 Kernel/(22701:22734): 7
+[INFO] 11:05:15:280 Kernel/(22701:22736): DISCONNECT!
+[INFO] 11:05:15:286 Kernel/(22701:22734): DISCONNECT!
+[INFO] 11:05:15:286 Kernel/(22701:22735): DISCONNECT!
+[INFO] 11:13:00:834 Kernel/(22970:22970): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:13:00:895 Kernel/(22970:22970): ------2---------
+
+[INFO] 11:13:00:899 Kernel/(22970:22970): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:16:37:799 Kernel/(23324:23324): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:16:37:922 Kernel/(23324:23324): ------2---------
+
+[INFO] 11:16:37:930 Kernel/(23324:23324): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:16:41:698 Kernel/(23324:23324): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:16:41:792 Kernel/(23324:23357): HANDSHAKE
+[INFO] 11:16:41:849 Kernel/(23324:23357): 5
+[INFO] 11:16:41:884 Kernel/(23324:23357): 6
+[INFO] 11:16:42:439 Kernel/(23324:23357): 7
+[INFO] 11:16:42:444 Kernel/(23324:23324): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:16:42:448 Kernel/(23324:23358): HANDSHAKE
+[INFO] 11:16:42:488 Kernel/(23324:23358): 5
+[INFO] 11:16:42:528 Kernel/(23324:23358): 6
+[INFO] 11:16:43:446 Kernel/(23324:23358): 7
+[INFO] 11:16:43:451 Kernel/(23324:23324): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:16:43:469 Kernel/(23324:23361): HANDSHAKE
+[INFO] 11:16:43:508 Kernel/(23324:23361): 5
+[INFO] 11:16:43:547 Kernel/(23324:23361): 6
+[INFO] 11:16:44:470 Kernel/(23324:23361): 7
+[INFO] 11:16:44:472 Kernel/(23324:23357): 5
+[INFO] 11:16:44:473 Kernel/(23324:23357): 6
+[INFO] 11:16:45:503 Kernel/(23324:23357): 7
+[INFO] 11:16:45:506 Kernel/(23324:23358): 5
+[INFO] 11:16:45:507 Kernel/(23324:23358): 6
+[INFO] 11:16:46:523 Kernel/(23324:23358): 7
+[INFO] 11:16:46:526 Kernel/(23324:23361): 5
+[INFO] 11:16:46:526 Kernel/(23324:23361): 6
+[INFO] 11:16:47:540 Kernel/(23324:23361): 7
+[INFO] 11:16:47:550 Kernel/(23324:23357): 5
+[INFO] 11:16:47:550 Kernel/(23324:23357): 6
+[INFO] 11:16:48:553 Kernel/(23324:23357): 7
+[INFO] 11:16:48:554 Kernel/(23324:23358): 5
+[INFO] 11:16:48:554 Kernel/(23324:23358): 6
+[INFO] 11:16:49:561 Kernel/(23324:23358): 7
+[INFO] 11:16:49:563 Kernel/(23324:23361): 5
+[INFO] 11:16:49:563 Kernel/(23324:23361): 6
+[INFO] 11:16:50:573 Kernel/(23324:23361): 7
+[INFO] 11:16:50:576 Kernel/(23324:23357): 5
+[INFO] 11:16:50:576 Kernel/(23324:23357): 6
+[INFO] 11:16:50:991 Kernel/(23324:23357): 7
+[INFO] 11:16:50:993 Kernel/(23324:23358): 5
+[INFO] 11:16:50:993 Kernel/(23324:23358): 6
+[INFO] 11:16:51:399 Kernel/(23324:23358): 7
+[INFO] 11:16:51:401 Kernel/(23324:23361): 5
+[INFO] 11:16:51:401 Kernel/(23324:23361): 6
+[INFO] 11:16:51:806 Kernel/(23324:23361): 7
+[INFO] 11:16:52:432 Kernel/(23324:23357): 5
+[INFO] 11:16:52:432 Kernel/(23324:23357): 6
+[INFO] 11:16:53:370 Kernel/(23324:23357): 7
+[INFO] 11:16:53:371 Kernel/(23324:23357): 5
+[INFO] 11:16:53:371 Kernel/(23324:23357): 6
+[INFO] 11:16:55:515 Kernel/(23324:23357): 7
+[INFO] 11:16:55:516 Kernel/(23324:23357): 5
+[INFO] 11:16:55:516 Kernel/(23324:23357): 6
+[INFO] 11:16:55:922 Kernel/(23324:23357): 7
+[INFO] 11:16:55:923 Kernel/(23324:23357): 5
+[INFO] 11:16:55:924 Kernel/(23324:23357): 6
+[INFO] 11:16:56:332 Kernel/(23324:23357): 7
+[INFO] 11:16:56:438 Kernel/(23324:23361): DISCONNECT!
+[INFO] 11:16:56:442 Kernel/(23324:23358): DISCONNECT!
+[INFO] 11:16:56:442 Kernel/(23324:23357): DISCONNECT!
+[INFO] 11:19:38:345 Kernel/(23526:23526): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:19:38:410 Kernel/(23526:23526): ------2---------
+
+[INFO] 11:19:38:413 Kernel/(23526:23526): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:19:42:100 Kernel/(23526:23526): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:19:42:191 Kernel/(23526:23559): HANDSHAKE
+[INFO] 11:19:42:244 Kernel/(23526:23559): 5
+[INFO] 11:19:42:284 Kernel/(23526:23559): 6
+[INFO] 11:19:42:837 Kernel/(23526:23559): 7
+[INFO] 11:19:42:841 Kernel/(23526:23526): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:19:42:847 Kernel/(23526:23560): HANDSHAKE
+[INFO] 11:19:42:884 Kernel/(23526:23560): 5
+[INFO] 11:19:42:924 Kernel/(23526:23560): 6
+[INFO] 11:19:43:852 Kernel/(23526:23560): 7
+[INFO] 11:19:43:861 Kernel/(23526:23526): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:19:43:869 Kernel/(23526:23563): HANDSHAKE
+[INFO] 11:19:43:906 Kernel/(23526:23563): 5
+[INFO] 11:19:43:943 Kernel/(23526:23563): 6
+[INFO] 11:19:44:869 Kernel/(23526:23563): 7
+[INFO] 11:19:44:873 Kernel/(23526:23559): 5
+[INFO] 11:19:44:873 Kernel/(23526:23559): 6
+[INFO] 11:19:45:908 Kernel/(23526:23559): 7
+[INFO] 11:19:45:909 Kernel/(23526:23560): 5
+[INFO] 11:19:45:910 Kernel/(23526:23560): 6
+[INFO] 11:19:46:918 Kernel/(23526:23560): 7
+[INFO] 11:19:46:921 Kernel/(23526:23563): 5
+[INFO] 11:19:46:922 Kernel/(23526:23563): 6
+[INFO] 11:19:47:936 Kernel/(23526:23563): 7
+[INFO] 11:19:47:939 Kernel/(23526:23559): 5
+[INFO] 11:19:47:940 Kernel/(23526:23559): 6
+[INFO] 11:19:48:956 Kernel/(23526:23559): 7
+[INFO] 11:19:48:958 Kernel/(23526:23560): 5
+[INFO] 11:19:48:958 Kernel/(23526:23560): 6
+[INFO] 11:19:49:968 Kernel/(23526:23560): 7
+[INFO] 11:19:49:970 Kernel/(23526:23563): 5
+[INFO] 11:19:49:971 Kernel/(23526:23563): 6
+[INFO] 11:19:50:985 Kernel/(23526:23563): 7
+[INFO] 11:19:50:988 Kernel/(23526:23559): 5
+[INFO] 11:19:50:988 Kernel/(23526:23559): 6
+[INFO] 11:19:51:409 Kernel/(23526:23559): 7
+[INFO] 11:19:51:411 Kernel/(23526:23560): 5
+[INFO] 11:19:51:412 Kernel/(23526:23560): 6
+[INFO] 11:19:51:819 Kernel/(23526:23560): 7
+[INFO] 11:19:51:820 Kernel/(23526:23563): 5
+[INFO] 11:19:51:821 Kernel/(23526:23563): 6
+[INFO] 11:19:52:226 Kernel/(23526:23563): 7
+[INFO] 11:19:52:854 Kernel/(23526:23559): 5
+[INFO] 11:19:52:854 Kernel/(23526:23559): 6
+[INFO] 11:19:53:790 Kernel/(23526:23559): 7
+[INFO] 11:19:53:791 Kernel/(23526:23559): 5
+[INFO] 11:19:53:791 Kernel/(23526:23559): 6
+[INFO] 11:19:55:956 Kernel/(23526:23559): 7
+[INFO] 11:19:55:958 Kernel/(23526:23559): 5
+[INFO] 11:19:55:958 Kernel/(23526:23559): 6
+[INFO] 11:19:56:367 Kernel/(23526:23559): 7
+[INFO] 11:19:56:369 Kernel/(23526:23559): 5
+[INFO] 11:19:56:370 Kernel/(23526:23559): 6
+[INFO] 11:19:56:780 Kernel/(23526:23559): 7
+[INFO] 11:19:56:884 Kernel/(23526:23563): DISCONNECT!
+[INFO] 11:19:56:890 Kernel/(23526:23559): DISCONNECT!
+[INFO] 11:19:56:891 Kernel/(23526:23560): DISCONNECT!
+[INFO] 11:23:50:524 Kernel/(23792:23792): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:23:50:585 Kernel/(23792:23792): ------2---------
+
+[INFO] 11:23:50:589 Kernel/(23792:23792): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:23:56:712 Kernel/(23792:23792): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:23:56:805 Kernel/(23792:23825): HANDSHAKE
+[INFO] 11:23:56:852 Kernel/(23792:23825): 5
+[INFO] 11:23:56:888 Kernel/(23792:23825): 6
+[INFO] 11:23:57:433 Kernel/(23792:23825): 7
+[INFO] 11:23:57:440 Kernel/(23792:23792): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:23:57:446 Kernel/(23792:23826): HANDSHAKE
+[INFO] 11:23:57:488 Kernel/(23792:23826): 5
+[INFO] 11:23:57:527 Kernel/(23792:23826): 6
+[INFO] 11:23:58:454 Kernel/(23792:23826): 7
+[INFO] 11:23:58:462 Kernel/(23792:23792): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:23:58:474 Kernel/(23792:23827): HANDSHAKE
+[INFO] 11:23:58:513 Kernel/(23792:23827): 5
+[INFO] 11:23:58:552 Kernel/(23792:23827): 6
+[INFO] 11:23:59:489 Kernel/(23792:23827): 7
+[INFO] 11:23:59:490 Kernel/(23792:23825): 5
+[INFO] 11:23:59:491 Kernel/(23792:23825): 6
+[INFO] 11:24:00:522 Kernel/(23792:23825): 7
+[INFO] 11:24:00:524 Kernel/(23792:23826): 5
+[INFO] 11:24:00:525 Kernel/(23792:23826): 6
+[INFO] 11:24:01:525 Kernel/(23792:23826): 7
+[INFO] 11:24:01:526 Kernel/(23792:23827): 5
+[INFO] 11:24:01:526 Kernel/(23792:23827): 6
+[INFO] 11:24:02:537 Kernel/(23792:23827): 7
+[INFO] 11:24:02:541 Kernel/(23792:23825): 5
+[INFO] 11:24:02:543 Kernel/(23792:23825): 6
+[INFO] 11:24:03:553 Kernel/(23792:23825): 7
+[INFO] 11:24:03:555 Kernel/(23792:23826): 5
+[INFO] 11:24:03:555 Kernel/(23792:23826): 6
+[INFO] 11:24:04:565 Kernel/(23792:23826): 7
+[INFO] 11:24:04:567 Kernel/(23792:23827): 5
+[INFO] 11:24:04:567 Kernel/(23792:23827): 6
+[INFO] 11:24:05:577 Kernel/(23792:23827): 7
+[INFO] 11:24:05:579 Kernel/(23792:23825): 5
+[INFO] 11:24:05:580 Kernel/(23792:23825): 6
+[INFO] 11:24:05:993 Kernel/(23792:23825): 7
+[INFO] 11:24:05:994 Kernel/(23792:23826): 5
+[INFO] 11:24:05:995 Kernel/(23792:23826): 6
+[INFO] 11:24:06:400 Kernel/(23792:23826): 7
+[INFO] 11:24:06:402 Kernel/(23792:23827): 5
+[INFO] 11:24:06:402 Kernel/(23792:23827): 6
+[INFO] 11:24:06:807 Kernel/(23792:23827): 7
+[INFO] 11:24:07:435 Kernel/(23792:23825): 5
+[INFO] 11:24:07:435 Kernel/(23792:23825): 6
+[INFO] 11:24:08:361 Kernel/(23792:23825): 7
+[INFO] 11:24:08:364 Kernel/(23792:23825): 5
+[INFO] 11:24:08:364 Kernel/(23792:23825): 6
+[INFO] 11:24:10:503 Kernel/(23792:23825): 7
+[INFO] 11:24:10:504 Kernel/(23792:23825): 5
+[INFO] 11:24:10:504 Kernel/(23792:23825): 6
+[INFO] 11:24:10:911 Kernel/(23792:23825): 7
+[INFO] 11:24:10:912 Kernel/(23792:23825): 5
+[INFO] 11:24:10:912 Kernel/(23792:23825): 6
+[INFO] 11:24:11:321 Kernel/(23792:23825): 7
+[INFO] 11:24:11:432 Kernel/(23792:23827): DISCONNECT!
+[INFO] 11:24:11:449 Kernel/(23792:23825): DISCONNECT!
+[INFO] 11:24:11:449 Kernel/(23792:23826): DISCONNECT!
+[INFO] 11:49:23:857 Kernel/(24682:24682): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:49:23:967 Kernel/(24682:24682): ------2---------
+
+[INFO] 11:49:23:970 Kernel/(24682:24682): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:49:27:072 Kernel/(24682:24682): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:49:27:160 Kernel/(24682:24715): HANDSHAKE
+[INFO] 11:49:27:216 Kernel/(24682:24715): 5
+[INFO] 11:49:27:256 Kernel/(24682:24715): 6
+[INFO] 11:49:27:807 Kernel/(24682:24715): 7
+[INFO] 11:49:27:815 Kernel/(24682:24682): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:49:27:818 Kernel/(24682:24716): HANDSHAKE
+[INFO] 11:49:27:855 Kernel/(24682:24716): 5
+[INFO] 11:49:27:891 Kernel/(24682:24716): 6
+[INFO] 11:49:28:824 Kernel/(24682:24716): 7
+[INFO] 11:49:28:828 Kernel/(24682:24682): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:49:28:845 Kernel/(24682:24717): HANDSHAKE
+[INFO] 11:49:28:887 Kernel/(24682:24717): 5
+[INFO] 11:49:28:923 Kernel/(24682:24717): 6
+[INFO] 11:49:29:875 Kernel/(24682:24717): 7
+[INFO] 11:49:29:880 Kernel/(24682:24715): 5
+[INFO] 11:49:29:881 Kernel/(24682:24715): 6
+[INFO] 11:49:30:915 Kernel/(24682:24715): 7
+[INFO] 11:49:30:917 Kernel/(24682:24716): 5
+[INFO] 11:49:30:918 Kernel/(24682:24716): 6
+[INFO] 11:49:31:931 Kernel/(24682:24716): 7
+[INFO] 11:49:31:934 Kernel/(24682:24717): 5
+[INFO] 11:49:31:934 Kernel/(24682:24717): 6
+[INFO] 11:49:32:950 Kernel/(24682:24717): 7
+[INFO] 11:49:32:951 Kernel/(24682:24715): 5
+[INFO] 11:49:32:952 Kernel/(24682:24715): 6
+[INFO] 11:49:33:959 Kernel/(24682:24715): 7
+[INFO] 11:49:33:961 Kernel/(24682:24716): 5
+[INFO] 11:49:33:961 Kernel/(24682:24716): 6
+[INFO] 11:49:34:969 Kernel/(24682:24716): 7
+[INFO] 11:49:34:971 Kernel/(24682:24717): 5
+[INFO] 11:49:34:976 Kernel/(24682:24717): 6
+[INFO] 11:49:35:982 Kernel/(24682:24717): 7
+[INFO] 11:49:35:984 Kernel/(24682:24715): 5
+[INFO] 11:49:35:985 Kernel/(24682:24715): 6
+[INFO] 11:49:36:396 Kernel/(24682:24715): 7
+[INFO] 11:49:36:397 Kernel/(24682:24716): 5
+[INFO] 11:49:36:398 Kernel/(24682:24716): 6
+[INFO] 11:49:36:802 Kernel/(24682:24716): 7
+[INFO] 11:49:36:803 Kernel/(24682:24717): 5
+[INFO] 11:49:36:804 Kernel/(24682:24717): 6
+[INFO] 11:49:37:209 Kernel/(24682:24717): 7
+[INFO] 11:49:37:840 Kernel/(24682:24715): 5
+[INFO] 11:49:37:840 Kernel/(24682:24715): 6
+[INFO] 11:49:38:762 Kernel/(24682:24715): 7
+[INFO] 11:49:38:763 Kernel/(24682:24715): 5
+[INFO] 11:49:38:763 Kernel/(24682:24715): 6
+[INFO] 11:49:40:085 Kernel/(24682:24715): 7
+[INFO] 11:49:40:085 Kernel/(24682:24715): 5
+[INFO] 11:49:40:086 Kernel/(24682:24715): 6
+[INFO] 11:49:40:593 Kernel/(24682:24715): 7
+[INFO] 11:49:40:594 Kernel/(24682:24715): 5
+[INFO] 11:49:40:595 Kernel/(24682:24715): 6
+[INFO] 11:49:41:104 Kernel/(24682:24715): 7
+[INFO] 11:49:41:213 Kernel/(24682:24717): DISCONNECT!
+[INFO] 11:49:41:217 Kernel/(24682:24716): DISCONNECT!
+[INFO] 11:49:41:218 Kernel/(24682:24715): DISCONNECT!

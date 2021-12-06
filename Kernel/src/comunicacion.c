@@ -180,7 +180,7 @@ static void procesar_conexion(void* void_args){
                 int size_data;
                 log_info(logger, "5");
                 
-                if(!recv_alloc_data(cliente_socket,&id_carpincho,&size_data)){
+                if(!recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
                     log_error(logger, "Error al recibir data de alloc");
                     free(server_name);
                     return;
@@ -189,8 +189,8 @@ static void procesar_conexion(void* void_args){
                 log_info(logger, "6");
                 
                 send_memalloc(memoria_fd);
-                send_alloc_data(memoria_fd,id_carpincho,size_data);
-                if(!recv(memoria_fd, &direccion_logica, sizeof(uint32_t), 0)){
+                send_alloc_data(memoria_fd, id_carpincho, size_data);
+                if(recv(memoria_fd, &direccion_logica, sizeof(uint32_t), 0) != sizeof(uint32_t)){
                     log_error(logger, "Error al recibir direccion logica");
                     free(server_name);
                     return;
@@ -224,11 +224,13 @@ static void procesar_conexion(void* void_args){
                 break;
             case MEM_READ: ;
                 int size;
+                unsigned long id_memread;
+                recv_id(cliente_socket, &id_memread);
                 if(!recv_memread_data(cliente_socket, &direccion_logica, &size)){
                     log_error(logger, "Error al recibir data para leer");
                     break;
                 }
-                send_memread(memoria_fd, direccion_logica, size);
+                send_memread(memoria_fd, direccion_logica, size, id_memread);
 
                 uint8_t result_read;
 
@@ -237,7 +239,7 @@ static void procesar_conexion(void* void_args){
                 send(cliente_socket, &result_read, sizeof(uint8_t), 0);
 
                 if(result_read) {
-                    void* buff;
+                    void* buff = malloc(size);
                     recv(memoria_fd, buff, size, 0);
                     if(send(cliente_socket, buff, size, 0) == -1){
                         log_error(logger, "Error al enviar buff a cliente desde memread");
@@ -248,15 +250,16 @@ static void procesar_conexion(void* void_args){
 
                 break;
             case MEM_WRITE: ;
-
+                unsigned long id_memwrite;
                 int size_w;
                 void* data;
+                recv_id(cliente_socket, &id_memwrite);                
                 if(!recv_memwrite_data(cliente_socket, &direccion_logica, &data, &size_w)){
                     log_error(logger, "Error al recibir data para escribir");
                     break;
                 }
 
-                send_memwrite(memoria_fd, data, direccion_logica, size_w);
+                send_memwrite(memoria_fd, data, direccion_logica, size_w, id_memwrite);
 
                 uint8_t ret_code_write;
 
@@ -277,10 +280,13 @@ static void procesar_conexion(void* void_args){
 
 
             //TODO ver donde se libera
-            case FREE_CARPINCHO:
+            case FREE_CARPINCHO: ;
+                unsigned long id_free;
+                recv_id(cliente_socket, &id_free);                            
 		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);	
                 push_cola_exit(carpincho);	 
                 send_codigo_op(memoria_fd, FREE_CARPINCHO);
+                send_data_mate_init(memoria_fd, id_free);               
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

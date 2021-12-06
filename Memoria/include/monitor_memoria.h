@@ -21,7 +21,7 @@ pthread_mutex_t MUTEX_ALGORITMOS_TLB;
 
 
 void mutex_init_memoria();
-bool no_tiene_frames(unsigned long id);
+bool tiene_frames(unsigned long id);
 bool ocupar_frames(unsigned long id);
 uint32_t cant_frame_libres();
 uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho);

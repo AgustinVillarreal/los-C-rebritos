@@ -13,7 +13,6 @@ bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool prime
         uint32_t hmd_cortado = 0;
         uint32_t cantidad_de_paginas = cant_paginas_relativa(0, size + sizeof(hmd_t) * 2);
         //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía+
-        log_info(logger, "Antes del if de swap");
         if(!entra_en_swap(id_carpincho, cantidad_de_paginas, swap_fd)){
           return false;
         }
@@ -21,7 +20,7 @@ bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool prime
             
             uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
             if(nro_frame == 0xFFFF){
-              correr_algoritmo(id_carpincho, &nro_frame);              
+              correr_algoritmo(id_carpincho, &nro_frame, i);              
             }
             append_frame_tp(id_carpincho, i, nro_frame);  
             tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
@@ -124,10 +123,10 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
 entrada_tp_t* crear_nueva_pagina(unsigned long id_carpincho){
   tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
   uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
-  if(nro_frame == 0xFFFF){
-    correr_algoritmo(id_carpincho, &nro_frame);
-  }
   uint32_t nueva_pagina = tabla_carpincho->pages;
+  if(nro_frame == 0xFFFF){
+    correr_algoritmo(id_carpincho, &nro_frame, nueva_pagina);
+  }
   append_frame_tp(id_carpincho, nueva_pagina, nro_frame);
   return list_get_pagina(tabla_carpincho, nueva_pagina);
 }
@@ -216,7 +215,6 @@ void escribir_en_mp(hmd_t* hmd, size_t size, entrada_tp_t* entrada_tp, uint32_t 
 void alloc_size_en_mp(void* data, uint32_t offset, size_t size, entrada_tp_t* entrada_tp, unsigned long id_carpincho){
   
   uint32_t cant_paginas_a_allocar = cant_paginas_relativa(offset, size);
-  log_info(logger,"cantidad de paginas %d ", cant_paginas_a_allocar);
   uint32_t size_a_allocar;
   uint32_t size_acum = 0;
   for(uint32_t i = 0; i < cant_paginas_a_allocar; i++){
@@ -277,22 +275,30 @@ entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina)
     entrada_tp_t* entrada_buscada = NULL;
     if(!buscar_en_TLB(id_carpincho, nro_pagina, &entrada_buscada)){
         tp_carpincho_t* tp_carpincho = find_tp_carpincho(id_carpincho);
-        log_info(logger, "---------%lu en pagina %d---------", tp_carpincho->id_carpincho, nro_pagina);
         entrada_buscada = list_get_pagina(tp_carpincho, nro_pagina);
         if(!entrada_buscada->bit_P){
           uint32_t nro_frame_a_asignar;
-          correr_algoritmo(id_carpincho, &nro_frame_a_asignar);
+          correr_algoritmo(id_carpincho, &nro_frame_a_asignar, nro_pagina);
           entrada_buscada->nro_frame = nro_frame_a_asignar;
           //TODO: Pedir a SWAP
           send_lectura(MEMORIA_CFG->SWAP_FD, id_carpincho, entrada_buscada->nro_pagina);
-          void* buff;
-          recv_data_pagina(MEMORIA_CFG->SWAP_FD, buff, MEMORIA_CFG->TAMANIO_PAGINA);
+          void* buff = malloc(MEMORIA_CFG->TAMANIO_PAGINA);
+
+          if(!recv_data_pagina(MEMORIA_CFG->SWAP_FD, &buff, MEMORIA_CFG->TAMANIO_PAGINA)){
+            log_info(logger, "OK");
+          }
+          log_info(logger, "NO OK");
+          
           escritura_pagina_completa(buff, entrada_buscada->nro_frame);
           entrada_buscada->bit_P = 1; 
           free(buff);
         }
         crear_en_TLB(id_carpincho, entrada_buscada);
-    }    
+    }
+    // //TODO: CUIDADOOOOO
+    // if(MEMORIA_CFG->LRU_MMU){
+    //   actualizar_bits(entrada_buscada, false);
+    // }    
     return entrada_buscada;
 }
 
@@ -336,7 +342,6 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica, int s
 
 
   if(hmd_aux -> isFree){
-    log_info(logger,"COMPACTO A IZQUIERDA");
     nro_frame = entrada_tp_aux-> nro_frame;
     hmd -> prevAlloc = hmd_aux -> prevAlloc;
     entrada_tp = entrada_tp_aux;
@@ -360,7 +365,6 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica, int s
   if(hmd_aux_next -> isFree && (hmd_aux_next -> nextAlloc != 0)){
     
     nro_frame = entrada_tp_aux_next -> nro_frame;
-    log_info(logger,"COMPACTO A DERECHA");
     hmd -> nextAlloc = hmd_aux_next -> nextAlloc;
     direccion_logica_aux_next = hmd_aux_next -> nextAlloc;
     nro_pagina_aux_next = direccion_logica_aux_next / MEMORIA_CFG->TAMANIO_PAGINA;
@@ -379,10 +383,6 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica, int s
   }
   
   uint32_t diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd;
-  log_info(logger,"Escribo el nuevo hmd en  %d", direccionlogica);
-  log_info(logger,"hmd -> prevAlloc : %d ", hmd -> prevAlloc);
-  log_info(logger,"hmd-> nextAlloc : %d ", hmd -> nextAlloc);
-  log_info(logger,"hmd -> isFree : %d ", hmd -> isFree);
   if( diff >= 9){
     escritura_memcpy_size(hmd,entrada_tp, offset_hmd, sizeof(hmd_t));
   }else{
@@ -392,12 +392,6 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica, int s
   }
 
   cantidad_paginas_finales = entrada_tp -> nro_pagina + 1;
-  
-
-  log_info(logger,"Escribo el nuevo hmd_next en %d", direccion_logica_aux_next);
-  log_info(logger,"hmd_aux_next -> prevAlloc : %d ", hmd_aux_next -> prevAlloc);
-  log_info(logger,"hmd_aux_next -> nextAlloc : %d ", hmd_aux_next -> nextAlloc);
-  log_info(logger,"hmd_aux_next -> isFree : %d ", hmd_aux_next -> isFree);
 
   diff = MEMORIA_CFG->TAMANIO_PAGINA - offset_hmd_aux_next;
   if( diff >= 9){
@@ -418,12 +412,10 @@ void liberar_Alloc(unsigned long id_carpincho, uint32_t* direccion_logica, int s
   free(hmd_aux);
   free(hmd_aux_next);
 
-  log_info(logger,"ME VOY DEL MEMFREE del carpincho nro %d : ", id_carpincho);
 }
 
 
 void swapear_pagina(unsigned long id, uint32_t nro_pagina, uint32_t* nro_frame){
-  log_info(logger, "Swapeando: %lu", id);
   tp_carpincho_t* tp_carpincho = find_tp_carpincho(id);
   entrada_tp_t* entrada_tp = list_get_pagina(tp_carpincho, nro_pagina);
   *nro_frame = entrada_tp->nro_frame;

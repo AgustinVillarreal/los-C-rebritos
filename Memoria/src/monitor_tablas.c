@@ -25,7 +25,6 @@ void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_
     tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
     entrada_tp_t* entrada_tp;
     uint32_t pag_sacar = list_size(carpincho-> paginas) - cantidad_paginas_finales;
-    log_info(logger,"Se van a sacar : %d ", pag_sacar);
     for(uint32_t i = 0; i < pag_sacar; i++   ){
         entrada_tp = buscar_entrada_tp(id_carpincho, list_size(carpincho-> paginas)-1);
         pthread_mutex_lock(&MUTEX_FRAMES_BUSY);
@@ -36,7 +35,7 @@ void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_
         pthread_mutex_unlock(&MUTEX_TP_CARPINCHOS);
         //SACAR DE TLB 
         if(quitar_en_swap(id_carpincho, pag_sacar, swap_fd)){
-            log_info(logger, "Se elimino de SWamp");
+            // log_info(logger, "Se elimino de SWamp");
         }
     }
     return;
@@ -49,10 +48,7 @@ bool tabla_vacia(unsigned long id){
 
     bool is_empty = false;
     pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
-    is_empty = list_is_empty(tabla_carpincho->paginas);
-    log_info(logger, "is_empty: %d, id: %lu", is_empty, id);
-    log_info(logger, "pages: %d",tabla_carpincho->pages);
-    
+    is_empty = list_is_empty(tabla_carpincho->paginas);    
     pthread_mutex_unlock(&tabla_carpincho->mutex_paginas);
     
     return is_empty;
@@ -85,6 +81,10 @@ bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t
     if(entrada_tlb != NULL){
         *entrada_buscada = entrada_tlb->entrada_tp;
         actualizar_hits(id_carpincho);
+        //TODO: Cuidado
+        // if(MEMORIA_CFG->LRU_MMU){
+        //     actualizar_bits(*entrada_buscada, false);
+        // }
         log_info(logger, "\nTLB HIT: PID: %d  PAGINA: %d  MARCO: %d \n", id_carpincho, nro_pagina, entrada_tlb->entrada_tp->nro_frame);
       
         if(MEMORIA_CFG->LRU_TLB){
@@ -202,10 +202,16 @@ void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
     entrada_tp->nro_pagina = nro_pagina;
     entrada_tp->nro_frame = nro_frame;
     entrada_tp->bit_P = 1;
-    //TODO: Ver mi TUR
+    //TODO: CUIDADO CONE STO
+    entrada_tp->bit_M = 0;
     if(!MEMORIA_CFG->LRU_MMU){
         entrada_tp->algoritmo.clock_m = malloc(sizeof(clock_m_t));
-    }
+        //TODO: TENER CUIDADO CON EL ELSE
+    }// else {
+    //     pthread_mutex_lock(&MUTEX_GLOBAL_TUR);      
+    //     entrada_tp->algoritmo.TUR = global_TUR++;
+    //     pthread_mutex_unlock(&MUTEX_GLOBAL_TUR);
+    // }
     pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
     tabla_carpincho->pages++;
     list_add(tabla_carpincho->paginas, entrada_tp);
@@ -268,7 +274,7 @@ t_list* paginas_presentes_dinamica(){
             algoritmo_t* pagina_carpincho = malloc(sizeof(algoritmo_t));
             pagina_carpincho->entrada_tp = pagina;
             pagina_carpincho->id_carpincho = tabla_carpincho->id_carpincho;
-            list_add(frames_presentes, (void*) pagina_carpincho);
+            list_add(frames_presentes, pagina_carpincho);
         }
         list_iterator_destroy(i_paginas);
         pthread_mutex_unlock(&(tabla_carpincho->mutex_paginas));        
@@ -292,7 +298,6 @@ char* stringify_tlb() {
     for ( ; list_iterator_has_next(i_tlb_entrada); i++) {
         tlb_t* entrada = list_iterator_next(i_tlb_entrada);
         char* line = entrada_tlb_a_string_de_dump(entrada, i, true);
-        log_info(logger, "strlen: %d", strlen(line));
         memcpy(str + size_line * i, line, size_line); // sin el \0
         free(line);
     }

@@ -25,14 +25,14 @@ void mate_init(unsigned long id){
 void ocupar_frames_carpincho(unsigned long id){
     if(MEMORIA_CFG->FIJA){
         //TODO: Si tiene la tabla de paginas vacia significa que no tiene ninguna estructura en memoria --> la creo, si no, no ocupo nada
-        if(/*tabla_vacia(id)*/ no_tiene_frames(id)){
+        if(/*tabla_vacia(id)*/ !tiene_frames(id)){
             //TODO: Si ocupar frames retorna false significa que esta algo raro con el grado de multiprogramacion
             bool ret_code = ocupar_frames(id);
             if(!ret_code){
                 log_error(logger, "Te pasaste del grado de multiprogramacion - Incongruencia con Kernel\n");
                 return;
             }
-        }    
+        }   
     }
 }
 

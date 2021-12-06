@@ -28,7 +28,6 @@ void dumpear_TLB() {
     char* timestamp = temporal_get_string_time("%d-%m-%y %H:%M:%S");
     
     char* filename = string_from_format("%s/Dump_%s.tlb", MEMORIA_CFG->PATH_DUMP_TLB ,timestamp);
-    log_info(logger, "DATA: %s", filename);
     FILE* dump_file = txt_open_for_append(filename);
     char* hr = string_repeat('-', 50);
     char* str_tlb = stringify_tlb();
@@ -37,7 +36,6 @@ void dumpear_TLB() {
             "\n%s\nDump: %s\n%s\n%s\n",
             hr, timestamp, str_tlb, hr
     ); 
-    log_info(logger, "DATA: %s", data);
     txt_write_in_file(dump_file, data);
     txt_close_file(dump_file);
 

@@ -90,7 +90,7 @@ int mate_close(mate_instance *lib_ref){
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
-	
+	send_data_mate_init(inner_structure->servidor_fd, inner_structure->id);
 	log_destroy(inner_structure->logger);
 	free(lib_ref->group_info);
 }
@@ -310,12 +310,14 @@ int mate_memfree(mate_instance *lib_ref, uint32_t direccion_logica){
 
 int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int size){
 	uint8_t result_code;
-	mate_inner_structure* inner_structure = lib_ref->group_info;		
-	if(!send_memread(inner_structure->servidor_fd, origin, size)){
+	mate_inner_structure* inner_structure = lib_ref->group_info;
+
+	if(!send_memread(inner_structure->servidor_fd, origin, size, inner_structure->id)){
 		// data_destroy(IP, PUERTO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;
 	}
+
 	if(recv(inner_structure->servidor_fd, &result_code, sizeof(uint8_t), 0) == -1){
 		// free(inner_structure->IP);
 		// free(inner_structure->PUERTO);	
@@ -342,7 +344,7 @@ int mate_memread(mate_instance *lib_ref, mate_pointer origin, void *dest, int si
 int mate_memwrite(mate_instance *lib_ref, void *origin, mate_pointer dest, int size){
 	uint8_t result_code;
 	mate_inner_structure* inner_structure = lib_ref->group_info;		
-	if(!send_memwrite(inner_structure->servidor_fd, origin, dest, size)){
+	if(!send_memwrite(inner_structure->servidor_fd, origin, dest, size, inner_structure->id)){
 		// data_destroy(IP, PUERTO, cfg);	
 		// log_destroy(logger);	
 		return EXIT_FAILURE;

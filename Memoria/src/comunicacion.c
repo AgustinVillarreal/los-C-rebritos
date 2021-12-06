@@ -43,7 +43,6 @@ static void procesar_conexion(void* void_args){
                    //return EXIT_FAILURE;
                    break;
                }
-               log_info(logger, "HANDSHAKE");
                break;
             case MATE_INIT: ;
                 int value;
@@ -81,16 +80,14 @@ static void procesar_conexion(void* void_args){
                 
                 break; 
 
-            case MEM_ALLOC: ;
+            case MEM_ALLOC: ;            
                 size_t size_data;
                 uint32_t direccionLogica;                
                 if(!recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){            
                     log_error(logger, "Error al enviar data para allocar");
                     // return EXIT_FAILURE;
                     break;
-                }                
-                log_info(logger, "Alocando size: %d del carpincho: %lu", size_data, id_carpincho);
-                
+                }                                 
                 if(!allocar_carpincho(id_carpincho, size_data, &direccionLogica, swap_fd)){
                     log_info(logger, "No se pudo allocar carpincho");
                 } 
@@ -106,15 +103,13 @@ static void procesar_conexion(void* void_args){
                     // return EXIT_FAILURE;
                     break;
                 }  
-
-                log_info(logger, "Liberando direccion logica: %d del carpincho: %lu", direccion_logica, id_carpincho);
-
                 uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica,swap_fd); 
                 send(cliente_socket,&estado_free,sizeof(uint32_t),0);      
                 break;
             case MEM_READ: ; 
                 int size;
                 void* buff;
+                recv_id(cliente_socket, &id_carpincho);
                 if(!recv_memread_data(cliente_socket, &direccion_logica, &size)){
                     log_error(logger, "Error al recibir data para leer");
                     break;
@@ -137,6 +132,7 @@ static void procesar_conexion(void* void_args){
             case MEM_WRITE: ;
                 int size_w;
                 void* data;
+                recv_id(cliente_socket, &id_carpincho);                
                 if(!recv_memwrite_data(cliente_socket, &direccion_logica, &data, &size_w)){
                     log_error(logger, "Error al recibir data para escribir");
                     break;
@@ -152,6 +148,7 @@ static void procesar_conexion(void* void_args){
                 break;
             //TODO: Liberar cosas aca
             case FREE_CARPINCHO:
+                recv_id(cliente_socket, &id_carpincho);                            
                 log_warning(logger, "\nSe desconecto el carpincho: %lu \n", id_carpincho);     
                 finalizar_carpincho(id_carpincho);
                 send_finalizar_carpincho(swap_fd, id_carpincho);       
@@ -161,8 +158,7 @@ static void procesar_conexion(void* void_args){
                 if(!recv_id(cliente_socket, &id_a_swapear)){
                     log_error(logger, "Error swapeando el id");
                 }
-                suspender_carpincho(id_a_swapear);
-                
+                suspender_carpincho(id_a_swapear);             
                 break;              
             case -1:
                 log_info(logger, "Cliente desconectado de Memoria");

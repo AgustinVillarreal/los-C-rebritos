@@ -91,7 +91,7 @@ static void procesar_conexion(void* void_args) {
                 }
                 else{
                     log_error(logger, "Error recibiendo ESQUEMA ASIGNACION en SWAmP");
-                    send_ack(cliente_socket, false);
+                    // send_ack(cliente_socket, false);
                 }
                 break;
             
@@ -107,7 +107,7 @@ static void procesar_conexion(void* void_args) {
                 }
                 else {
                     log_error(logger, "Error recibiendo ESCRITURA en SWAmP");
-                    send_ack(cliente_socket, false);
+                    // send_ack(cliente_socket, false);
                 }
                 break;
             }
@@ -125,7 +125,7 @@ static void procesar_conexion(void* void_args) {
                 }
                 else {
                     log_error(logger, "Error recibiendo ESCRITURA en SWAmP");
-                    send_ack(cliente_socket, false);
+                    // send_ack(cliente_socket, false);
                 }
                 break;
             }
@@ -139,16 +139,16 @@ static void procesar_conexion(void* void_args) {
                 if (recv_lectura(cliente_socket, &carpincho_id, &nro_pagina)) {
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
-                    buscar_frame_en_swap(cliente_socket,carpincho_id, nro_pagina, &data);
+                    buscar_frame_en_swap(cliente_socket, carpincho_id, nro_pagina, &data);
                     //TODO: Hacer send
-                    
+                    send(cliente_socket, data, cfg->TAMANIO_PAGINA, 0);
                     free(data);
                     log_info(logger,"Se leyo la swap correctamente");
                 }
                 else {
                     free(data);
                     log_error(logger, "Error recibiendo LECTURA en SWAmP");
-                    send_ack(cliente_socket, false);
+                    // send_ack(cliente_socket, false);
                 }
                 break;
             }
@@ -163,7 +163,7 @@ static void procesar_conexion(void* void_args) {
                 }
                 else {
                     log_error(logger, "Error recibiendo FREE_CARPINCHO en SWAmP");
-                    send_ack(cliente_socket, false);
+                    // send_ack(cliente_socket, false);
                 }
                 break;
             }
@@ -175,7 +175,7 @@ static void procesar_conexion(void* void_args) {
                 if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id, &cant_paginas)) {
                     bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
                     usleep(1000*cfg->RETARDO_SWAP);
-                    send_ack(cliente_socket,respuesta);
+                    send_ack(cliente_socket, respuesta);
                     log_info(logger,"La solicitud se realizo correctamente");
                 }
                 else {

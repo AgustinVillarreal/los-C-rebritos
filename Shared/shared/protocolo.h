@@ -18,7 +18,7 @@
 #include "serializacion.h"
 
 //Agregar un JA cada vez que se entra a esta página
-//JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+//JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 
 typedef enum {
     HANDSHAKE,
@@ -74,9 +74,10 @@ bool send_probar_en_swamp(uint32_t size, unsigned long id);
 bool send_handshake(int fd_server);
 bool send_handshake_swap(int fd_server, bool asignacion_fija);
 bool send_memalloc(int fd_server);
-bool send_memread(int fd_server, uint32_t direccion_logica, int size);
-bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int size);
+bool send_memread(int fd_server, uint32_t direccion_logica, int size, unsigned long id);
+bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int size, unsigned long id);
 bool send_memfree(int fd_server);
+
 
 bool recv_memread_data(int fd, uint32_t* direccion_logica, int* size);
 bool recv_memwrite_data(int fd, uint32_t* direccion_logica, void** data, int* size);

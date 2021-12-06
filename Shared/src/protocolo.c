@@ -119,8 +119,11 @@ bool send_memfree(int fd_server){
   return send_codigo_op(fd_server, MEM_FREE);
 }
 
-bool send_memread(int fd_server, uint32_t direccion_logica, int size){
+bool send_memread(int fd_server, uint32_t direccion_logica, int size, unsigned long id){
   if(!send_codigo_op(fd_server, MEM_READ)){
+    return false;
+  }
+  if(send(fd_server, &id, sizeof(long), 0) == -1){
     return false;
   }
   if(send(fd_server, &direccion_logica, sizeof(uint32_t), 0) == -1){
@@ -132,8 +135,12 @@ bool send_memread(int fd_server, uint32_t direccion_logica, int size){
   return true;
 }
 
-bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int size){
+
+bool send_memwrite(int fd_server, void* data, uint32_t direccion_logica, int size, unsigned long id){
   if(!send_codigo_op(fd_server, MEM_WRITE)){
+    return false;
+  }
+  if(send(fd_server, &id, sizeof(uint32_t), 0) == -1){
     return false;
   }
   if(send(fd_server, &direccion_logica, sizeof(uint32_t), 0) == -1){
@@ -314,11 +321,11 @@ bool send_lectura(int fd, unsigned long carpincho_id, uint32_t nro_pagina){
 }
 
 bool recv_data_pagina(int fd, void** buff, uint32_t tamanio_pagina){
-  *buff = malloc(tamanio_pagina);
   if(recv(fd, *buff, tamanio_pagina, 0) != tamanio_pagina){
-    free(buff);
+    free(*buff);
     return false;
   }
+  return true;
 }
 
 

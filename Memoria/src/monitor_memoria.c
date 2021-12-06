@@ -34,7 +34,6 @@ uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho){
             if(MEMORIA_CFG->FIJA && tabla_frames[i].id_carpincho == id_carpincho){
                 tabla_frames[i].libre = false;
                 pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);
-                log_info(logger, "El frame es el %d \n", i);                                 
                 return i;
             } else if (!MEMORIA_CFG->FIJA){
                 tabla_frames[i].libre = false;   
@@ -48,7 +47,7 @@ uint32_t buscar_primer_frame_carpincho(unsigned long id_carpincho){
 }
 
 
-void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest,entrada_tp_t* entrada_tp, uint32_t* hmd_cortado){
+void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest, entrada_tp_t* entrada_tp, uint32_t* hmd_cortado){
     hmd_t* hmd = malloc(sizeof(hmd_t));
     if(entrada_tp->nro_pagina == 0){
         hmd->prevAlloc = (int) NULL;
@@ -65,7 +64,6 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest,ent
         hmd->nextAlloc = (int) NULL;
         hmd->isFree = true;
         if(dif < 9){
-            log_info(logger, "Allocando primer mitad del hmd en %d\n", entrada_tp->nro_frame);   
             escritura_memcpy_size((void*)hmd, entrada_tp, *size_rest, dif);
             *hmd_cortado = 1;
             *size_rest = sizeof(hmd_t) - dif;
@@ -74,13 +72,11 @@ void primer_memalloc_carpincho(unsigned long id_carpincho, size_t* size_rest,ent
             return;        
         }
         if(*hmd_cortado){
-            log_info(logger, "Allocando segunda mitad del hmd en %d\n", entrada_tp->nro_frame);
             escritura_memcpy_size(((void*) hmd) + sizeof(hmd_t) - *size_rest, entrada_tp, 0, *size_rest);            
             free(hmd);
             
             return;
         }
-        log_info(logger, "Allocando todo el hmd en %d\n", entrada_tp->nro_frame);  
         escritura_memcpy_size((void*) hmd, entrada_tp, *size_rest, sizeof(hmd_t));            
         free(hmd);
         return;
@@ -166,7 +162,7 @@ void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset
   pthread_mutex_unlock(&MUTEX_MP_BUSY);
 }
 
-bool no_tiene_frames(unsigned long id){
+bool tiene_frames(unsigned long id){
     for(uint32_t i = 0; i <  MEMORIA_CFG->CANT_PAGINAS ; i++){
         if(tabla_frames[i].ocupado && tabla_frames[i].id_carpincho == id){
             return true;
