@@ -33,6 +33,7 @@ void eliminar_tabla(tp_carpincho_t* tabla_carpincho);
 bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t** entrada_buscada);
 void crear_en_TLB(unsigned long id_carpincho, entrada_tp_t* entrada);
 void sacar_entradas_TLB(unsigned long id_carpincho);
+void sacar_entrada_TLB(unsigned long id_carpincho, entrada_tp_t* entrada_tp);
 
 tlb_t* tlb_get_entrada_tlb(unsigned long id_carpincho, uint32_t nro_pagina);
 void actualizarTUR(tlb_t* entrada_tlb);

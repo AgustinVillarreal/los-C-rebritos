@@ -39,6 +39,7 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
                     *nro_frame, posible_victima->nro_pagina, posible_victima_algoritmo->id_carpincho, nro_pagina, id_carpincho
                 );                             
                 list_destroy_and_destroy_elements(victimas, (void*) free);
+                sacar_entrada_TLB(posible_victima_algoritmo->id_carpincho, posible_victima);                  
                 pthread_mutex_unlock(&MUTEX_ALGORITMOS); 
                 return;
             }
@@ -64,7 +65,8 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
                     *nro_frame, posible_victima->nro_pagina, posible_victima_algoritmo->id_carpincho, nro_pagina, id_carpincho
                 );
                 list_destroy_and_destroy_elements(victimas, (void*) free);
-                pthread_mutex_unlock(&MUTEX_ALGORITMOS);       
+                sacar_entrada_TLB(posible_victima_algoritmo->id_carpincho, posible_victima);  
+                pthread_mutex_unlock(&MUTEX_ALGORITMOS); 
                 return;
             }
             posible_victima->algoritmo.clock_m->bit_U = 0;
@@ -104,10 +106,12 @@ void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame, uint32_t nro_p
 
     *nro_frame = victima->nro_frame;
     tabla_frames[*nro_frame].libre = 1;
+    sacar_entrada_TLB(victima_algoritmo->id_carpincho, victima);
     log_info(logger, 
         "Marco: %d - Reemplazo la pagina %d del carpincho %lu con la pagina %d del carpincho %lu",
         *nro_frame, victima->nro_pagina, victima_algoritmo->id_carpincho, nro_pagina, id
         );
+
     pthread_mutex_unlock(&MUTEX_ALGORITMOS);         
     return;
 }

@@ -216,6 +216,7 @@ void append_frame_tp(unsigned long id, uint32_t nro_pagina, uint32_t nro_frame){
     tabla_carpincho->pages++;
     list_add(tabla_carpincho->paginas, entrada_tp);
     pthread_mutex_unlock(&tabla_carpincho->mutex_paginas);
+    // setear_en_0(nro_frame);
     crear_en_TLB(id, entrada_tp); 
     return;
 }
@@ -339,6 +340,16 @@ void eliminar_tabla(tp_carpincho_t* tabla_carpincho){
 void sacar_entradas_TLB(unsigned long id_carpincho){
     bool es_entrada_TLB(void* entrada){
         return ((tlb_t*) entrada)->id_carpincho == id_carpincho;
+    }
+    pthread_mutex_lock(&MUTEX_TLB_BUSY);
+    list_remove_by_condition(TLB_TABLE, es_entrada_TLB);
+    pthread_mutex_unlock(&MUTEX_TLB_BUSY);
+}
+
+void sacar_entrada_TLB(unsigned long id_carpincho, entrada_tp_t* entrada_tp){
+     bool es_entrada_TLB(void* entrada){
+        return ((tlb_t*) entrada)->id_carpincho == id_carpincho && 
+            ((tlb_t*) entrada)->entrada_tp->nro_pagina == entrada_tp->nro_pagina;
     }
     pthread_mutex_lock(&MUTEX_TLB_BUSY);
     list_remove_by_condition(TLB_TABLE, es_entrada_TLB);

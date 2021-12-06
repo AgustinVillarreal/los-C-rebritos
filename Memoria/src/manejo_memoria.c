@@ -82,9 +82,9 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
       return false;
     }   
     void* data = malloc(tamanio_total_a_allocar);
-    memcpy(data, (void*)hmd_inicial, sizeof(hmd_t));
+    memcpy(data, hmd_inicial, sizeof(hmd_t));
     memset(data + sizeof(hmd_t), 0, size);
-    memcpy(data + sizeof(hmd_t) + size, (void*)hmd_final, sizeof(hmd_t));
+    memcpy(data + sizeof(hmd_t) + size, hmd_final, sizeof(hmd_t));
     
     uint32_t tamanio_a_allocar;
     log_info(logger, "ALLOCAR AL FINAL cant_paginas: %d", cant_paginas_a_allocar);  
@@ -92,6 +92,15 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
     for(uint32_t i = 0; i < cant_paginas_a_allocar; i++){
       tamanio_a_allocar = MIN(espacio_restante, tamanio_total_a_allocar - size_acum);    
       escritura_memcpy_size(data + size_acum, entrada_tp, offset, tamanio_a_allocar);
+      // if(entrada_tp->nro_pagina == 4){
+      //   void* buff = malloc(tamanio_a_allocar);
+      //   lectura_memcpy_size(entrada_tp, offset, buff, tamanio_a_allocar);
+      //   void* buff2 = malloc(sizeof(hmd_t));
+      //   memcpy(buff2, buff, 9);
+      //   log_info(logger, "(hmd_t*) buff2)->nextAlloc: %d",((hmd_t*) buff2)->nextAlloc);
+      //   log_info(logger, "(hmd_t*) buff2)->prevAlloc: %d",((hmd_t*) buff2)->prevAlloc);
+      //   log_info(logger, "(hmd_t*) buff2)->isFree: %d",((hmd_t*) buff2)->isFree);
+      // }
       size_acum += espacio_restante;
       if(size_acum != tamanio_total_a_allocar && i != (cant_paginas_a_allocar - 1)){
         if(table_size(id_carpincho) > (entrada_tp->nro_pagina + 1)){
@@ -149,6 +158,9 @@ uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t**
       *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     }
     *hmd = leer_hmd(*entrada_tp, offset_hmd, id_carpincho);
+    log_info(logger, "HMD nextAlloc: %d", (*hmd)->nextAlloc);
+    log_info(logger, "HMD isFree: %d", (*hmd)->isFree);
+    log_info(logger, "HMD prevAlloc: %d", (*hmd)->prevAlloc);    
 
     if(entra_en_hmd(*hmd, size, (*direccion_hmd))){
       //escribir en memoria principal y retornar direccion logica
@@ -254,6 +266,11 @@ bool entra_en_hmd(hmd_t* hmd, size_t size, uint32_t direccion_hmd){
 
 // se le pasa el offset y la entrada_tp que corresponde
 hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carpincho){
+  log_info(logger, "offset: %d", offset);
+  log_info(logger, "entrada_tp->nro_pagina: %d", entrada_tp->nro_pagina);
+  log_info(logger, "entrada_tp->nro_frame: %d", entrada_tp->nro_frame);
+  
+  
   bool pedir_nueva_pagina = (MEMORIA_CFG->TAMANIO_PAGINA - offset) < sizeof(hmd_t);  
   void* hmd_buff = malloc(sizeof(hmd_t)); 
   uint32_t size_a_leer = pedir_nueva_pagina ? MEMORIA_CFG->TAMANIO_PAGINA - offset : sizeof(hmd_t);
@@ -273,7 +290,11 @@ hmd_t* leer_hmd(entrada_tp_t* entrada_tp, uint32_t offset, unsigned long id_carp
     }
   } else {
     //leer de memoria principal
-    lectura_memcpy_size(entrada_tp_aux, offset, hmd_buff, size_a_leer);
+    lectura_memcpy_size(entrada_tp, offset, hmd_buff, size_a_leer);
+    
+    log_info(logger, "((hmd_t*) hmd_buff)->nextAlloc: %d", ((hmd_t*) hmd_buff)->nextAlloc);
+    log_info(logger, "((hmd_t*) hmd_buff)->prevAlloc: %d", ((hmd_t*) hmd_buff)->prevAlloc);
+    log_info(logger, "((hmd_t*) hmd_buff)->isFree: %d", ((hmd_t*) hmd_buff)->isFree);
   }
   free(entrada_tp_aux);
   return (hmd_t*) hmd_buff;

@@ -178,3 +178,9 @@ void suspender_frame(uint32_t nro_frame){
     tabla_frames[nro_frame].libre = 1; 
     pthread_mutex_unlock(&MUTEX_FRAMES_BUSY);    
 }
+
+// void setear_en_0(uint32_t nro_frame){
+//     pthread_mutex_lock(&MUTEX_MP_BUSY);        
+//     memset(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, 0, MEMORIA_CFG->TAMANIO_PAGINA);
+//     pthread_mutex_unlock(&MUTEX_MP_BUSY);    
+// }
