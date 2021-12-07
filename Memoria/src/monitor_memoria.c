@@ -123,6 +123,7 @@ uint32_t cant_paginas_relativa(uint32_t posicion, size_t size){
     // if(posicion + size > MEMORIA_CFG->TAMANIO_PAGINA) {
     //     cant_paginas++;
     // }
+
     
     return cant_paginas;
 }
@@ -184,3 +185,20 @@ void suspender_frame(uint32_t nro_frame){
 //     memset(memoria_principal + nro_frame * MEMORIA_CFG->TAMANIO_PAGINA, 0, MEMORIA_CFG->TAMANIO_PAGINA);
 //     pthread_mutex_unlock(&MUTEX_MP_BUSY);    
 // }
+
+uint32_t cantidad_paginas_swap(uint32_t posicion, size_t size){
+    size_t rem;
+    uint32_t t_pag = MEMORIA_CFG->TAMANIO_PAGINA;
+    uint32_t offset = posicion % t_pag;
+    uint32_t size_acum = size - (t_pag - offset);
+    rem = size_acum % t_pag; 
+    uint32_t pags_parcial = (size_acum)/t_pag;
+    uint32_t cant_paginas = (rem) ? pags_parcial + 1 : pags_parcial;
+    // if(posicion + size > MEMORIA_CFG->TAMANIO_PAGINA) {
+    //     cant_paginas++;
+    // }
+
+    
+    return cant_paginas;
+}
+

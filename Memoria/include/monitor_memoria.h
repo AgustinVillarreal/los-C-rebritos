@@ -36,5 +36,6 @@ void escritura_memcpy_size(void* data, entrada_tp_t* entrada_tp, uint32_t offset
 void lectura_memcpy_size(entrada_tp_t* entrada_tp, uint32_t offset, void* destino, size_t size);
 void quitar_paginas_a_carpinchos(unsigned long  id_carpincho, uint32_t cantidad_paginas_finales, int swap_fd);
 void suspender_frame(uint32_t nro_frame);
+uint32_t cantidad_paginas_swap(uint32_t posicion, size_t size);
 
 #endif

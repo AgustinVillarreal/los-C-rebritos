@@ -74,9 +74,11 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
   }
 
   if(nueva_pagina){
+    log_warning(logger,"Direccion de ultimo hdm : %d", direccion_ultimo_hmd);
+    uint32_t cant_paginas_a_swapear = cantidad_paginas_swap(direccion_ultimo_hmd + sizeof(hmd_t), size + sizeof(hmd_t));
     uint32_t ultima_pagina = entrada_tp->nro_pagina;
     //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
-    if(!entra_en_swap(id_carpincho, cant_paginas_a_allocar, swap_fd)){
+    if(!entra_en_swap(id_carpincho, cant_paginas_a_swapear, swap_fd)){
       return false;
     }   
     void* data = malloc(tamanio_total_a_allocar);
@@ -139,14 +141,17 @@ uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t**
   uint32_t nro_pagina = 0;
   uint32_t offset_hmd; 
   *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina); 
-  while(1){    
+  while(1){   
     nro_pagina = (*direccion_hmd) / MEMORIA_CFG->TAMANIO_PAGINA;
     offset_hmd = (*direccion_hmd) % MEMORIA_CFG->TAMANIO_PAGINA;    
     if(nro_pagina != (*entrada_tp)->nro_pagina){
       *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     }
     *hmd = leer_hmd(*entrada_tp, offset_hmd, id_carpincho);
-
+  /*   log_warning(logger,"Hmd is free: %d",(*hmd)->isFree); 
+    log_warning(logger,"hmd next alloc: %d", (*hmd)->nextAlloc); 
+    log_warning(logger,"hmd prev alloc:  %d", (*hmd)->prevAlloc);  */
+    
     if(entra_en_hmd(*hmd, size, (*direccion_hmd))){
       //escribir en memoria principal y retornar direccion logica
       escribir_en_mp(*hmd, size, *entrada_tp, (*direccion_hmd), id_carpincho);
@@ -291,7 +296,6 @@ entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina)
 
           if(!recv_data_pagina(MEMORIA_CFG->SWAP_FD, &buff, MEMORIA_CFG->TAMANIO_PAGINA)){
           }
-          
           escritura_pagina_completa(buff, entrada_buscada->nro_frame);
           entrada_buscada->bit_P = 1; 
           free(buff);
@@ -430,7 +434,15 @@ void swapear_pagina(unsigned long id, uint32_t nro_pagina, uint32_t* nro_frame){
       //SWAPEAR
       log_info(logger, "paginaaaaaaaa: %d", entrada_tp->nro_pagina);
       send_pagina(MEMORIA_CFG->SWAP_FD, id, entrada_tp->nro_pagina, data, MEMORIA_CFG->TAMANIO_PAGINA);
+      if(nro_pagina == 6){
+            hmd_t* hmd = malloc(9);
+            memcpy(hmd,data+19,9);
+            log_warning(logger,"Hmd is free: %d",hmd->isFree); 
+            log_warning(logger,"hmd next alloc: %d", hmd->nextAlloc); 
+            log_warning(logger,"hmd prev alloc:  %d", hmd->prevAlloc); 
+      }
       free(data);
+
   }
 }
 

@@ -8,12 +8,6 @@ extern t_list* tablas_de_frames_swap;
               
 void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
 
-    if(pagina == 5) {
-    
-        mem_hexdump(data, cfg->TAMANIO_PAGINA);           
-
-    }
-
 
     bool buscar_x_id(frame_swap_t* f){
         return f->pid == id;
@@ -48,14 +42,7 @@ void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
         void* swap = list_get(areas_de_swap,frame->nro_swap);        
         memcpy(swap + frame->inicio , data , cfg->TAMANIO_PAGINA);
     }
-
-    if(pagina == 5) {
-    
-        mem_hexdump(list_get(areas_de_swap,0), cfg->TAMANIO_SWAP);           
-
-    }
-
-    
+  
 
     // Envio que se realizo la escritura
     usleep(1000*cfg->RETARDO_SWAP);
@@ -65,11 +52,6 @@ void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
 
 void buscar_frame_en_swap(int fd,unsigned long id, uint32_t nro_pagina, void** data){
     *data = tomar_frame_swap(id,nro_pagina);
-    if(nro_pagina == 5) {
-    
-        mem_hexdump(*data, cfg->TAMANIO_PAGINA);           
-
-    }
     usleep(1000*cfg->RETARDO_SWAP);
     // send_ack(fd,true);
 }
@@ -102,7 +84,6 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
                 break;
             }
         }
-        log_info(logger, "Estoy a punto de retornarte una respuesta");
         return respuesta;
 
     }
@@ -111,6 +92,7 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
         if(asignacion_fija){
 
             t_list* aux = list_filter(tablas_de_frames_swap,(void*) buscar_x_id);
+
 
             if(list_size(aux) >= cfg->MARCOS_POR_CARPINCHO){
                 list_destroy(aux);
