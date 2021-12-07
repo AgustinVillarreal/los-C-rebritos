@@ -17,6 +17,13 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
         return entrada1->entrada_tp->nro_frame < entrada2->entrada_tp->nro_frame;
     }
     list_sort(victimas, &frame_precede_frame);
+
+    void logeador (void* victima){
+        algoritmo_t* victima_log = victima;
+        log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d\n", 
+        victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame);
+    }
+    list_iterate(victimas, logeador);
     
     uint32_t* nro_frame_posible_victima = MEMORIA_CFG->FIJA ? victima_clock_fija(id_carpincho) : &posible_victima_global ;
 
@@ -37,8 +44,8 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
                 log_info(logger, "Marco: %d - Reemplazo la pagina %d del carpincho %lu con la pagina %d del carpincho %lu",
                     *nro_frame, posible_victima->nro_pagina, posible_victima_algoritmo->id_carpincho, nro_pagina, id_carpincho
                 );                             
-                list_destroy_and_destroy_elements(victimas, (void*) free);
                 sacar_entrada_TLB(posible_victima_algoritmo->id_carpincho, posible_victima);                  
+                list_destroy_and_destroy_elements(victimas, (void*) free);
                 pthread_mutex_unlock(&MUTEX_ALGORITMOS); 
                 return;
             }
@@ -63,8 +70,8 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
                     "Marco: %d - Reemplazo la pagina %d del carpincho %lu con la pagina %d del carpincho %lu",
                     *nro_frame, posible_victima->nro_pagina, posible_victima_algoritmo->id_carpincho, nro_pagina, id_carpincho
                 );
-                list_destroy_and_destroy_elements(victimas, (void*) free);
                 sacar_entrada_TLB(posible_victima_algoritmo->id_carpincho, posible_victima);  
+                list_destroy_and_destroy_elements(victimas, (void*) free);
                 pthread_mutex_unlock(&MUTEX_ALGORITMOS); 
                 return;
             }
@@ -79,12 +86,12 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
 void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame, uint32_t nro_pagina){
     pthread_mutex_lock(&MUTEX_ALGORITMOS);    
     t_list* victimas = posibles_victimas(id);
-    // void logeador (void* victima){
-    //     algoritmo_t* victima_log = victima;
-    //     log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d, TUR: %d\n", 
-    //     victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame, victima_log->entrada_tp->algoritmo.TUR);
-    // }
-    // list_iterate(victimas, logeador);
+    void logeador (void* victima){
+        algoritmo_t* victima_log = victima;
+        log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d, TUR: %d\n", 
+        victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame, victima_log->entrada_tp->algoritmo.TUR);
+    }
+    list_iterate(victimas, logeador);
     //TODO: Consultar sobre si es necesario un mutex en el global TUR
     void* minimo_TUR(void* pagina1, void* pagina2){
         return 

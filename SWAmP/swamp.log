@@ -1,0 +1,382 @@
+[INFO] 19:04:43:926 SWAmP/(14334:14334): Archivo de configuracion cargado correctamente
+[INFO] 19:04:44:004 SWAmP/(14334:14334): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:04:44:021 SWAmP/(14334:14334): ------2---------
+
+[INFO] 19:04:44:025 SWAmP/(14334:14334): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:05:00:646 SWAmP/(14334:14334): Cliente conectado (a SWAmP)
+
+[INFO] 19:05:00:662 SWAmP/(14334:14334): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:05:00:667 SWAmP/(14334:14334): Se recibio el esquema de asigancion coreectamente
+[WARNING] 19:05:05:623 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:05:623 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:06:130 SWAmP/(14334:14334): Se allocaron 2 marcos para el carpincho 1 correctamente
+[WARNING] 19:05:06:632 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:06:633 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:07:137 SWAmP/(14334:14334): Se allocaron 2 marcos para el carpincho 2 correctamente
+[WARNING] 19:05:07:638 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:07:639 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:08:140 SWAmP/(14334:14334): Se allocaron 2 marcos para el carpincho 3 correctamente
+[WARNING] 19:05:08:643 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:08:644 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:09:153 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:05:09:654 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:09:656 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:10:158 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:05:10:659 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:10:661 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:11:163 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:05:11:665 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:11:666 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:12:170 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:05:12:671 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:12:672 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:13:174 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:05:13:675 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:13:677 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:14:179 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:05:14:681 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:14:684 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:15:185 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:05:15:690 SWAmP/(14334:14334): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 19:05:16:226 SWAmP/(14334:14334): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 19:05:16:730 SWAmP/(14334:14334): Se leyo la swap correctamente
+[INFO] 19:05:18:238 SWAmP/(14334:14334): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 19:05:18:740 SWAmP/(14334:14334): Se leyo la swap correctamente
+[WARNING] 19:05:19:546 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:19:547 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:20:050 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:05:20:551 SWAmP/(14334:14334): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 19:05:21:053 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:21:054 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:21:557 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:05:22:058 SWAmP/(14334:14334): Se escribio la pagina 0 del carpincho 3 en swap
+[WARNING] 19:05:22:560 SWAmP/(14334:14334): aaa: 1
+[INFO] 19:05:22:561 SWAmP/(14334:14334): La solicitud se realizo correctamente
+[INFO] 19:05:23:063 SWAmP/(14334:14334): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:05:23:564 SWAmP/(14334:14334): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 19:05:24:302 SWAmP/(14334:14334): Se escribio la pagina 2 del carpincho 2 en swap
+[INFO] 19:05:24:803 SWAmP/(14334:14334): Se leyo la swap correctamente
+[INFO] 19:05:26:355 SWAmP/(14334:14334): Se escribio la pagina 2 del carpincho 3 en swap
+[INFO] 19:05:26:856 SWAmP/(14334:14334): Se leyo la swap correctamente
+[INFO] 19:05:28:405 SWAmP/(14334:14334): Se escribio la pagina 3 del carpincho 2 en swap
+[INFO] 19:05:28:907 SWAmP/(14334:14334): Se leyo la swap correctamente
+[INFO] 19:05:30:460 SWAmP/(14334:14334): Se escribio la pagina 3 del carpincho 3 en swap
+[INFO] 19:05:30:961 SWAmP/(14334:14334): Se leyo la swap correctamente
+[INFO] 19:05:33:409 SWAmP/(14334:14334): DISCONNECT!
+[INFO] 19:05:33:410 SWAmP/(14334:14334): Finalizando programa...
+[INFO] 19:05:58:808 SWAmP/(14622:14622): Archivo de configuracion cargado correctamente
+[INFO] 19:05:58:856 SWAmP/(14622:14622): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:05:58:870 SWAmP/(14622:14622): ------2---------
+
+[INFO] 19:05:58:872 SWAmP/(14622:14622): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:06:02:809 SWAmP/(14622:14622): Cliente conectado (a SWAmP)
+
+[INFO] 19:06:02:819 SWAmP/(14622:14622): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:06:02:827 SWAmP/(14622:14622): Se recibio el esquema de asigancion coreectamente
+[WARNING] 19:06:06:974 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:06:977 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:07:512 SWAmP/(14622:14622): Se allocaron 2 marcos para el carpincho 1 correctamente
+[WARNING] 19:06:08:014 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:08:022 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:08:533 SWAmP/(14622:14622): Se allocaron 2 marcos para el carpincho 2 correctamente
+[WARNING] 19:06:09:034 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:09:038 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:09:540 SWAmP/(14622:14622): Se allocaron 2 marcos para el carpincho 3 correctamente
+[WARNING] 19:06:10:046 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:10:047 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:10:551 SWAmP/(14622:14622): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:06:11:053 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:11:053 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:11:557 SWAmP/(14622:14622): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:06:12:058 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:12:058 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:12:562 SWAmP/(14622:14622): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:06:13:063 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:13:063 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:13:567 SWAmP/(14622:14622): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:06:14:068 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:14:068 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:14:571 SWAmP/(14622:14622): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:06:15:075 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:15:075 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:15:577 SWAmP/(14622:14622): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:06:16:078 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:16:079 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:16:583 SWAmP/(14622:14622): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:06:17:088 SWAmP/(14622:14622): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 19:06:17:622 SWAmP/(14622:14622): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 19:06:18:127 SWAmP/(14622:14622): Se leyo la swap correctamente
+[INFO] 19:06:19:643 SWAmP/(14622:14622): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 19:06:20:144 SWAmP/(14622:14622): Se leyo la swap correctamente
+[WARNING] 19:06:20:950 SWAmP/(14622:14622): aaa: 1
+[INFO] 19:06:20:950 SWAmP/(14622:14622): La solicitud se realizo correctamente
+[INFO] 19:06:20:951 SWAmP/(14622:14622): DISCONNECT!
+[INFO] 19:06:20:952 SWAmP/(14622:14622): Finalizando programa...
+[INFO] 19:07:48:007 SWAmP/(14925:14925): Archivo de configuracion cargado correctamente
+[INFO] 19:07:48:052 SWAmP/(14925:14925): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:07:48:068 SWAmP/(14925:14925): ------2---------
+
+[INFO] 19:07:48:071 SWAmP/(14925:14925): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:07:49:689 SWAmP/(14925:14925): Cliente conectado (a SWAmP)
+
+[INFO] 19:07:49:699 SWAmP/(14925:14925): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:07:49:707 SWAmP/(14925:14925): Se recibio el esquema de asigancion coreectamente
+[WARNING] 19:07:54:290 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:07:54:295 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:07:54:817 SWAmP/(14925:14925): Se allocaron 2 marcos para el carpincho 1 correctamente
+[WARNING] 19:07:55:327 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:07:55:327 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:07:55:836 SWAmP/(14925:14925): Se allocaron 2 marcos para el carpincho 2 correctamente
+[WARNING] 19:07:56:337 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:07:56:337 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:07:56:839 SWAmP/(14925:14925): Se allocaron 2 marcos para el carpincho 3 correctamente
+[WARNING] 19:07:57:342 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:07:57:342 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:07:57:850 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:07:58:351 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:07:58:353 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:07:58:855 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:07:59:358 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:07:59:361 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:07:59:867 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:08:00:368 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:00:370 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:00:872 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:08:01:374 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:01:375 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:01:878 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:08:02:379 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:02:381 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:02:884 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:08:03:386 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:03:390 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:03:892 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:08:04:397 SWAmP/(14925:14925): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 19:08:04:919 SWAmP/(14925:14925): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 19:08:05:425 SWAmP/(14925:14925): Se leyo la swap correctamente
+[INFO] 19:08:06:930 SWAmP/(14925:14925): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 19:08:07:431 SWAmP/(14925:14925): Se leyo la swap correctamente
+[WARNING] 19:08:08:236 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:08:237 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:08:740 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:08:09:241 SWAmP/(14925:14925): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 19:08:09:742 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:09:744 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:10:246 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:08:10:747 SWAmP/(14925:14925): Se escribio la pagina 0 del carpincho 3 en swap
+[WARNING] 19:08:11:249 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:11:250 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:11:752 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:08:12:253 SWAmP/(14925:14925): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 19:08:12:983 SWAmP/(14925:14925): Se escribio la pagina 2 del carpincho 2 en swap
+[INFO] 19:08:13:484 SWAmP/(14925:14925): Se leyo la swap correctamente
+[INFO] 19:08:15:040 SWAmP/(14925:14925): Se escribio la pagina 2 del carpincho 3 en swap
+[INFO] 19:08:15:541 SWAmP/(14925:14925): Se leyo la swap correctamente
+[INFO] 19:08:17:089 SWAmP/(14925:14925): Se escribio la pagina 3 del carpincho 2 en swap
+[INFO] 19:08:17:590 SWAmP/(14925:14925): Se leyo la swap correctamente
+[INFO] 19:08:19:141 SWAmP/(14925:14925): Se escribio la pagina 3 del carpincho 3 en swap
+[INFO] 19:08:19:643 SWAmP/(14925:14925): Se leyo la swap correctamente
+[WARNING] 19:08:21:303 SWAmP/(14925:14925): aaa: 1
+[INFO] 19:08:21:304 SWAmP/(14925:14925): La solicitud se realizo correctamente
+[INFO] 19:08:21:806 SWAmP/(14925:14925): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:08:22:312 SWAmP/(14925:14925): Se elimino el carpincho 1 correctamente
+[INFO] 19:08:22:814 SWAmP/(14925:14925): Se elimino el carpincho 3 correctamente
+[INFO] 19:08:23:315 SWAmP/(14925:14925): Se elimino el carpincho 2 correctamente
+[INFO] 19:08:43:106 SWAmP/(14925:14925): DISCONNECT!
+[INFO] 19:08:43:107 SWAmP/(14925:14925): Finalizando programa...
+[INFO] 19:09:11:033 SWAmP/(15197:15197): Archivo de configuracion cargado correctamente
+[INFO] 19:09:11:078 SWAmP/(15197:15197): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:09:11:092 SWAmP/(15197:15197): ------2---------
+
+[INFO] 19:09:11:094 SWAmP/(15197:15197): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:09:12:616 SWAmP/(15197:15197): Cliente conectado (a SWAmP)
+
+[INFO] 19:09:12:626 SWAmP/(15197:15197): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:09:12:634 SWAmP/(15197:15197): Se recibio el esquema de asigancion coreectamente
+[WARNING] 19:09:16:735 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:16:735 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:17:242 SWAmP/(15197:15197): Se allocaron 2 marcos para el carpincho 1 correctamente
+[WARNING] 19:09:17:744 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:17:744 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:18:256 SWAmP/(15197:15197): Se allocaron 2 marcos para el carpincho 2 correctamente
+[WARNING] 19:09:18:758 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:18:758 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:19:260 SWAmP/(15197:15197): Se allocaron 2 marcos para el carpincho 3 correctamente
+[WARNING] 19:09:19:763 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:19:766 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:20:270 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:09:20:771 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:20:772 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:21:275 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:09:21:776 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:21:778 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:22:279 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:09:22:780 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:22:782 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:23:284 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:09:23:785 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:23:787 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:24:290 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:09:24:791 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:24:794 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:25:296 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:09:25:797 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:25:802 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:26:304 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:09:26:810 SWAmP/(15197:15197): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 19:09:27:350 SWAmP/(15197:15197): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 19:09:27:854 SWAmP/(15197:15197): Se leyo la swap correctamente
+[INFO] 19:09:29:365 SWAmP/(15197:15197): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 19:09:29:866 SWAmP/(15197:15197): Se leyo la swap correctamente
+[WARNING] 19:09:30:673 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:30:675 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:31:177 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:09:31:678 SWAmP/(15197:15197): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 19:09:32:180 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:32:182 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:32:683 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:09:33:185 SWAmP/(15197:15197): Se escribio la pagina 0 del carpincho 3 en swap
+[WARNING] 19:09:33:687 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:33:688 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:34:190 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:09:34:692 SWAmP/(15197:15197): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 19:09:35:424 SWAmP/(15197:15197): Se escribio la pagina 2 del carpincho 2 en swap
+[INFO] 19:09:35:925 SWAmP/(15197:15197): Se leyo la swap correctamente
+[INFO] 19:09:37:481 SWAmP/(15197:15197): Se escribio la pagina 2 del carpincho 3 en swap
+[INFO] 19:09:37:982 SWAmP/(15197:15197): Se leyo la swap correctamente
+[INFO] 19:09:39:533 SWAmP/(15197:15197): Se escribio la pagina 3 del carpincho 2 en swap
+[INFO] 19:09:40:034 SWAmP/(15197:15197): Se leyo la swap correctamente
+[INFO] 19:09:41:587 SWAmP/(15197:15197): Se escribio la pagina 3 del carpincho 3 en swap
+[INFO] 19:09:42:089 SWAmP/(15197:15197): Se leyo la swap correctamente
+[WARNING] 19:09:43:743 SWAmP/(15197:15197): aaa: 1
+[INFO] 19:09:43:745 SWAmP/(15197:15197): La solicitud se realizo correctamente
+[INFO] 19:09:44:247 SWAmP/(15197:15197): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:09:44:752 SWAmP/(15197:15197): Se elimino el carpincho 1 correctamente
+[INFO] 19:09:45:254 SWAmP/(15197:15197): Se elimino el carpincho 3 correctamente
+[INFO] 19:09:45:756 SWAmP/(15197:15197): Se elimino el carpincho 2 correctamente
+[INFO] 19:11:38:976 SWAmP/(15197:15197): DISCONNECT!
+[INFO] 19:11:38:977 SWAmP/(15197:15197): Finalizando programa...
+[INFO] 19:13:04:575 SWAmP/(15743:15743): Archivo de configuracion cargado correctamente
+[INFO] 19:13:04:625 SWAmP/(15743:15743): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:13:04:640 SWAmP/(15743:15743): ------2---------
+
+[INFO] 19:13:04:643 SWAmP/(15743:15743): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:13:06:403 SWAmP/(15743:15743): Cliente conectado (a SWAmP)
+
+[INFO] 19:13:06:412 SWAmP/(15743:15743): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:13:06:414 SWAmP/(15743:15743): Se recibio el esquema de asigancion coreectamente
+[WARNING] 19:13:10:595 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:10:596 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:11:121 SWAmP/(15743:15743): Se allocaron 2 marcos para el carpincho 1 correctamente
+[WARNING] 19:13:11:623 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:11:624 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:12:139 SWAmP/(15743:15743): Se allocaron 2 marcos para el carpincho 2 correctamente
+[WARNING] 19:13:12:641 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:12:642 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:13:144 SWAmP/(15743:15743): Se allocaron 2 marcos para el carpincho 3 correctamente
+[WARNING] 19:13:13:647 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:13:648 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:14:156 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:13:14:657 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:14:658 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:15:161 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:13:15:662 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:15:664 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:16:166 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:13:16:668 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:16:670 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:17:173 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:13:17:674 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:17:676 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:18:177 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:13:18:679 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:18:680 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:19:182 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:13:21:427 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:21:430 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:21:932 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:13:22:436 SWAmP/(15743:15743): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 19:13:22:962 SWAmP/(15743:15743): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 19:13:23:465 SWAmP/(15743:15743): Se leyo la swap correctamente
+[INFO] 19:13:24:973 SWAmP/(15743:15743): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 19:13:25:476 SWAmP/(15743:15743): Se leyo la swap correctamente
+[WARNING] 19:13:26:280 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:26:281 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:26:784 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:13:27:285 SWAmP/(15743:15743): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 19:13:27:787 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:27:789 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:28:291 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:13:28:793 SWAmP/(15743:15743): Se escribio la pagina 0 del carpincho 3 en swap
+[WARNING] 19:13:29:294 SWAmP/(15743:15743): aaa: 1
+[INFO] 19:13:29:295 SWAmP/(15743:15743): La solicitud se realizo correctamente
+[INFO] 19:13:29:796 SWAmP/(15743:15743): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:13:30:298 SWAmP/(15743:15743): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 19:13:30:804 SWAmP/(15743:15743): Se elimino el carpincho 1 correctamente
+[INFO] 19:13:31:306 SWAmP/(15743:15743): Se elimino el carpincho 2 correctamente
+[INFO] 19:13:31:808 SWAmP/(15743:15743): Se elimino el carpincho 3 correctamente
+[INFO] 19:15:14:506 SWAmP/(15743:15743): DISCONNECT!
+[INFO] 19:15:14:508 SWAmP/(15743:15743): Finalizando programa...
+[INFO] 19:15:17:129 SWAmP/(16078:16078): Archivo de configuracion cargado correctamente
+[INFO] 19:15:17:176 SWAmP/(16078:16078): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:15:17:189 SWAmP/(16078:16078): ------2---------
+
+[INFO] 19:15:17:192 SWAmP/(16078:16078): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:15:18:933 SWAmP/(16078:16078): Cliente conectado (a SWAmP)
+
+[INFO] 19:15:18:943 SWAmP/(16078:16078): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:15:18:948 SWAmP/(16078:16078): Se recibio el esquema de asigancion coreectamente
+[WARNING] 19:15:23:077 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:23:082 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:23:604 SWAmP/(16078:16078): Se allocaron 2 marcos para el carpincho 1 correctamente
+[WARNING] 19:15:24:106 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:24:106 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:24:616 SWAmP/(16078:16078): Se allocaron 2 marcos para el carpincho 2 correctamente
+[WARNING] 19:15:25:118 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:25:123 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:25:624 SWAmP/(16078:16078): Se allocaron 2 marcos para el carpincho 3 correctamente
+[WARNING] 19:15:26:127 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:26:127 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:26:633 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:15:27:135 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:27:136 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:27:638 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:15:28:140 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:28:142 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:28:644 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:15:29:145 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:29:147 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:29:649 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 19:15:30:150 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:30:153 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:30:655 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 19:15:31:156 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:31:158 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:31:660 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 19:15:33:910 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:33:914 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:34:416 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:15:34:922 SWAmP/(16078:16078): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 19:15:35:425 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:35:427 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:35:929 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:15:36:431 SWAmP/(16078:16078): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 19:15:36:932 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:36:933 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:37:437 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:15:37:938 SWAmP/(16078:16078): Se escribio la pagina 3 del carpincho 2 en swap
+[WARNING] 19:15:38:440 SWAmP/(16078:16078): aaa: 1
+[INFO] 19:15:38:441 SWAmP/(16078:16078): La solicitud se realizo correctamente
+[INFO] 19:15:38:943 SWAmP/(16078:16078): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 19:15:39:445 SWAmP/(16078:16078): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 19:15:39:952 SWAmP/(16078:16078): Se elimino el carpincho 1 correctamente
+[INFO] 19:15:40:454 SWAmP/(16078:16078): Se elimino el carpincho 2 correctamente
+[INFO] 19:15:40:957 SWAmP/(16078:16078): Se elimino el carpincho 3 correctamente
+[INFO] 19:17:08:445 SWAmP/(16078:16078): DISCONNECT!
+[INFO] 19:17:08:446 SWAmP/(16078:16078): Finalizando programa...
