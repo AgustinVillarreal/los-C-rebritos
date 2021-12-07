@@ -59,7 +59,7 @@ uint16_t calcular_estimacion(t_carpincho* carpincho){
 
   double alfa = KERNEL_CFG->ALFA;
 
-  log_info(logger, "Estimacion- Carpincho: %lu - Rafaga: %f", carpincho->id, rafaga);
+  // log_info(logger, "Estimacion- Carpincho: %lu - Rafaga: %f", carpincho->id, rafaga);
 
   return (alfa*rafaga + (1-alfa)*carpincho->ultima_estimacion);
 }

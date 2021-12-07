@@ -6,7 +6,6 @@ extern frame_t* tabla_frames;
 uint32_t posible_victima_global = 0;
 
 void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, uint32_t nro_pagina){
-    log_info(logger, "Corrio el algoritmo CLOCK");
     
     pthread_mutex_lock(&MUTEX_ALGORITMOS);
     t_list* victimas = posibles_victimas(id_carpincho);
@@ -57,7 +56,7 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
                 pthread_mutex_unlock(&(posible_victima->mutex_bits));          
                 //SWAPEAR
                 *nro_frame = posible_victima->nro_frame;
-                swapear_pagina(id_carpincho, posible_victima->nro_pagina, nro_frame);
+                swapear_pagina(posible_victima_algoritmo->id_carpincho, posible_victima->nro_pagina, nro_frame);
                 posible_victima->bit_M = 0; 
                 (*nro_frame_posible_victima)++;      
                 log_info(logger, 
@@ -80,12 +79,12 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
 void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame, uint32_t nro_pagina){
     pthread_mutex_lock(&MUTEX_ALGORITMOS);    
     t_list* victimas = posibles_victimas(id);
-    void logeador (void* victima){
-        algoritmo_t* victima_log = victima;
-        log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d, TUR: %d\n", 
-        victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame, victima_log->entrada_tp->algoritmo.TUR);
-    }
-    list_iterate(victimas, logeador);
+    // void logeador (void* victima){
+    //     algoritmo_t* victima_log = victima;
+    //     log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d, TUR: %d\n", 
+    //     victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame, victima_log->entrada_tp->algoritmo.TUR);
+    // }
+    // list_iterate(victimas, logeador);
     //TODO: Consultar sobre si es necesario un mutex en el global TUR
     void* minimo_TUR(void* pagina1, void* pagina2){
         return 
@@ -98,7 +97,7 @@ void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame, uint32_t nro_p
     victima->bit_P = 0;
     if(victima->bit_M){
         log_info(logger, "Swapeo pagina %d del carpincho %lu", victima->nro_pagina, victima_algoritmo->id_carpincho);
-        swapear_pagina(id, victima->nro_pagina, &victima->nro_frame);
+        swapear_pagina(victima_algoritmo->id_carpincho, victima->nro_pagina, &victima->nro_frame);
         victima->bit_M = 0;
          
     }
@@ -107,7 +106,6 @@ void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame, uint32_t nro_p
     
 
     *nro_frame = victima->nro_frame;
-    tabla_frames[*nro_frame].libre = 1;
     sacar_entrada_TLB(victima_algoritmo->id_carpincho, victima);
     log_info(logger, 
         "Marco: %d - Reemplazo la pagina %d del carpincho %lu con la pagina %d del carpincho %lu",

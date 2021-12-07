@@ -148,9 +148,6 @@ uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t**
       *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     }
     *hmd = leer_hmd(*entrada_tp, offset_hmd, id_carpincho);
-  /*   log_warning(logger,"Hmd is free: %d",(*hmd)->isFree); 
-    log_warning(logger,"hmd next alloc: %d", (*hmd)->nextAlloc); 
-    log_warning(logger,"hmd prev alloc:  %d", (*hmd)->prevAlloc);  */
     
     if(entra_en_hmd(*hmd, size, (*direccion_hmd))){
       //escribir en memoria principal y retornar direccion logica
@@ -432,15 +429,7 @@ void swapear_pagina(unsigned long id, uint32_t nro_pagina, uint32_t* nro_frame){
       void* data = malloc(MEMORIA_CFG->TAMANIO_PAGINA);
       lectura_pagina_completa(entrada_tp, data);
       //SWAPEAR
-      log_info(logger, "paginaaaaaaaa: %d", entrada_tp->nro_pagina);
       send_pagina(MEMORIA_CFG->SWAP_FD, id, entrada_tp->nro_pagina, data, MEMORIA_CFG->TAMANIO_PAGINA);
-      if(nro_pagina == 6){
-            hmd_t* hmd = malloc(9);
-            memcpy(hmd,data+19,9);
-            log_warning(logger,"Hmd is free: %d",hmd->isFree); 
-            log_warning(logger,"hmd next alloc: %d", hmd->nextAlloc); 
-            log_warning(logger,"hmd prev alloc:  %d", hmd->prevAlloc); 
-      }
       free(data);
 
   }

@@ -16,22 +16,21 @@ t_carpincho* obtener_carpincho_HRRN(){
 }
 t_carpincho* obtener_carpincho_SJF(){
 	t_carpincho* carpincho;
-	void mostrar_estimacion(t_carpincho* carpincho){
-		log_info(logger, "Carpincho: %lu - Estimacion: %d", carpincho->id, carpincho->ultima_estimacion);
-	}
+	// void mostrar_estimacion(t_carpincho* carpincho){
+	// 	log_info(logger, "Carpincho: %lu - Estimacion: %d", carpincho->id, carpincho->ultima_estimacion);
+	// }
 	bool minima_estimacion(void* carpincho1, void* carpincho2){
 		return ((t_carpincho*)carpincho1)->ultima_estimacion <= ((t_carpincho*)carpincho2)->ultima_estimacion;
 	}
 	pthread_mutex_lock(&MUTEX_LISTA_READY);
 	list_sort(LISTA_READY, (void*)minima_estimacion);
-	log_info(logger, "---------------------------");
+	// log_info(logger, "---------------------------");
 	
-	list_iterate(LISTA_READY, mostrar_estimacion);	
-	log_info(logger, "---------------------------");
+	// list_iterate(LISTA_READY, mostrar_estimacion);	
+	// log_info(logger, "---------------------------");
 
 	
 	carpincho = list_get(LISTA_READY, 0);
-	log_info(logger, "--------sasasas-------------");
 	mostrar_estimacion(carpincho);
 	list_remove(LISTA_READY, 0);
 	// carpincho = queue_pop(LISTA_READY);

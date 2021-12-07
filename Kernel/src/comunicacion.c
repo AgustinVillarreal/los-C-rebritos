@@ -44,7 +44,6 @@ static void procesar_conexion(void* void_args){
                    free(server_name);
                    return;
                }
-               log_info(logger, "HANDSHAKE");
                break;
 
             case MATE_INIT: ;
@@ -124,7 +123,6 @@ static void procesar_conexion(void* void_args){
 
             case SEM_POST: ;
                 char * sem_name_post;
-                log_info(logger, "Error haciendo sem_post %lu", carpincho->id);
                 
                 if(!recv_sem(cliente_socket, &sem_name_post)){
                     log_info(logger, "Error haciendo sem_post");
@@ -178,7 +176,6 @@ static void procesar_conexion(void* void_args){
             case MEM_ALLOC: ;
                 long id_carpincho;
                 int size_data;
-                log_info(logger, "5");
                 
                 if(!recv_alloc_data(cliente_socket, &id_carpincho, &size_data)){
                     log_error(logger, "Error al recibir data de alloc");
@@ -186,8 +183,6 @@ static void procesar_conexion(void* void_args){
                     return;
                 }
 
-                log_info(logger, "6");
-                
                 send_memalloc(memoria_fd);
                 send_alloc_data(memoria_fd, id_carpincho, size_data);
                 if(recv(memoria_fd, &direccion_logica, sizeof(uint32_t), 0) != sizeof(uint32_t)){
@@ -195,7 +190,6 @@ static void procesar_conexion(void* void_args){
                     free(server_name);
                     return;
                 }
-                log_info(logger, "7");
                 
                 if(!send(cliente_socket, &direccion_logica, sizeof(uint32_t), 0)){
                     log_error(logger, "Error al enviar direccion logica a Matelib");

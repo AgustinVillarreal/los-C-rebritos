@@ -21,7 +21,7 @@ int iniciar_servidor(t_log* logger, const char* name, char* ip, char* puerto) {
         socket_servidor = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
         if (socket_servidor == -1) // fallo de crear socket
             continue;
-
+        setsockopt(socket_servidor, SOL_SOCKET, SO_REUSEADDR, &(int){ 1 }, sizeof(int));
         if (bind(socket_servidor, p->ai_addr, p->ai_addrlen) == -1) {
             // Si entra aca fallo el bind
             close(socket_servidor);
