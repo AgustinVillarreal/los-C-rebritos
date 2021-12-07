@@ -97,7 +97,8 @@ void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame, uint32_t nro_p
     pthread_mutex_lock(&(victima->mutex_bits));            
     victima->bit_P = 0;
     if(victima->bit_M){
-        swapear_pagina(id, victima->nro_pagina, victima->nro_frame);
+        log_info(logger, "Swapeo pagina %d del carpincho %lu", victima->nro_pagina, victima_algoritmo->id_carpincho);
+        swapear_pagina(id, victima->nro_pagina, &victima->nro_frame);
         victima->bit_M = 0; 
     }
     //TODO: pedido de lectura a SWAP

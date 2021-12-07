@@ -118,7 +118,7 @@ static void procesar_conexion(void* void_args) {
                 uint32_t nro_pagina;
                 void* data;
 
-                if (recv_escritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) {            
+                if (recv_escritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) { 
                     proceder_escritura(cliente_socket,carpincho_id,nro_pagina,data);
                     log_info(logger,"Se escribio la pagina %d del carpincho %d en swap",nro_pagina,carpincho_id);
                     free(data);
@@ -141,6 +141,7 @@ static void procesar_conexion(void* void_args) {
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                     buscar_frame_en_swap(cliente_socket, carpincho_id, nro_pagina, &data);
                     //TODO: Hacer send
+                    
                     send(cliente_socket, data, cfg->TAMANIO_PAGINA, 0);
                     free(data);
                     log_info(logger,"Se leyo la swap correctamente");
@@ -176,6 +177,7 @@ static void procesar_conexion(void* void_args) {
                     bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
                     usleep(1000*cfg->RETARDO_SWAP);
                     send_ack(cliente_socket, respuesta);
+                    log_warning(logger, "aaa: %d", respuesta);
                     log_info(logger,"La solicitud se realizo correctamente");
                 }
                 else {

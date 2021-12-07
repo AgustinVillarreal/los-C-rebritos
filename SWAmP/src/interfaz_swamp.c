@@ -8,6 +8,13 @@ extern t_list* tablas_de_frames_swap;
               
 void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
 
+    if(pagina == 5) {
+    
+        mem_hexdump(data, cfg->TAMANIO_PAGINA);           
+
+    }
+
+
     bool buscar_x_id(frame_swap_t* f){
         return f->pid == id;
     }
@@ -42,6 +49,14 @@ void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
         memcpy(swap + frame->inicio , data , cfg->TAMANIO_PAGINA);
     }
 
+    if(pagina == 5) {
+    
+        mem_hexdump(list_get(areas_de_swap,0), cfg->TAMANIO_SWAP);           
+
+    }
+
+    
+
     // Envio que se realizo la escritura
     usleep(1000*cfg->RETARDO_SWAP);
     // send_ack(fd,true);
@@ -50,6 +65,11 @@ void proceder_escritura(int fd,unsigned long id,uint32_t pagina,void* data){
 
 void buscar_frame_en_swap(int fd,unsigned long id, uint32_t nro_pagina, void** data){
     *data = tomar_frame_swap(id,nro_pagina);
+    if(nro_pagina == 5) {
+    
+        mem_hexdump(*data, cfg->TAMANIO_PAGINA);           
+
+    }
     usleep(1000*cfg->RETARDO_SWAP);
     // send_ack(fd,true);
 }

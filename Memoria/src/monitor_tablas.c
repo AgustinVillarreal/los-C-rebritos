@@ -229,9 +229,9 @@ void actualizar_bits(entrada_tp_t* entrada_tp, bool se_modifica){
         pthread_mutex_unlock(&MUTEX_GLOBAL_TUR);
     } else {
         entrada_tp->algoritmo.clock_m->bit_U = 1;
-        if(se_modifica){
-            entrada_tp->bit_M = 1; 
-        }
+    }
+    if(se_modifica){
+        entrada_tp->bit_M = 1; 
     }
     pthread_mutex_unlock(&(entrada_tp->mutex_bits));
 }
