@@ -31,7 +31,7 @@ t_carpincho* obtener_carpincho_SJF(){
 
 	
 	carpincho = list_get(LISTA_READY, 0);
-	mostrar_estimacion(carpincho);
+	// mostrar_estimacion(carpincho);
 	list_remove(LISTA_READY, 0);
 	// carpincho = queue_pop(LISTA_READY);
 	pthread_mutex_unlock(&MUTEX_LISTA_READY);
