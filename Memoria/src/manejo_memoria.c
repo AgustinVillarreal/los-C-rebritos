@@ -305,7 +305,6 @@ entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina)
           send_lectura(MEMORIA_CFG->SWAP_FD, id_carpincho, entrada_buscada->nro_pagina);
           void* buff = malloc(MEMORIA_CFG->TAMANIO_PAGINA);
           int prueba = recv(MEMORIA_CFG->SWAP_FD, buff, MEMORIA_CFG->TAMANIO_PAGINA, 0);
-          log_warning(logger, "TAMAÑO CHOTO : %d", prueba);
           if(prueba != MEMORIA_CFG->TAMANIO_PAGINA){
               free(buff);
             }

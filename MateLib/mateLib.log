@@ -713,3 +713,39 @@
 [INFO] 12:10:45:385 mateLib/(25886:25888): Handshake
 [INFO] 12:10:45:546 mateLib/(25886:25891): Handshake
 [INFO] 12:10:45:554 mateLib/(25886:25889): Handshake
+[INFO] 12:27:07:404 mateLib/(27317:27319): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:27:07:428 mateLib/(27317:27321): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:27:07:430 mateLib/(27317:27318): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:27:07:527 mateLib/(27317:27321): Handshake
+[INFO] 12:27:07:528 mateLib/(27317:27318): Handshake
+[INFO] 12:27:07:528 mateLib/(27317:27319): Handshake
+[INFO] 12:45:39:255 mateLib/(29417:29423): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:45:39:278 mateLib/(29417:29422): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:45:39:279 mateLib/(29417:29424): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:45:39:385 mateLib/(29417:29424): Handshake
+[INFO] 12:45:39:432 mateLib/(29417:29423): Handshake
+[INFO] 12:45:39:435 mateLib/(29417:29422): Handshake
+[INFO] 13:00:01:865 mateLib/(31031:31033): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 13:00:01:887 mateLib/(31031:31035): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 13:00:01:885 mateLib/(31031:31032): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 13:00:01:979 mateLib/(31031:31032): Handshake
+[INFO] 13:00:01:980 mateLib/(31031:31033): Handshake
+[INFO] 13:00:01:991 mateLib/(31031:31035): Handshake
+[INFO] 13:00:30:788 mateLib/(31188:31194): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 13:00:30:806 mateLib/(31188:31189): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 13:00:30:808 mateLib/(31188:31196): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 13:00:30:903 mateLib/(31188:31196): Handshake
+[INFO] 13:00:30:904 mateLib/(31188:31189): Handshake
+[INFO] 13:00:30:912 mateLib/(31188:31194): Handshake

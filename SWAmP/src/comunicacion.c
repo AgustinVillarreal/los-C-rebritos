@@ -101,7 +101,7 @@ static void procesar_conexion(void* void_args) {
     while (cliente_socket != -1) {
 
         if (recv(cliente_socket, &cop, sizeof(op_code), 0) != sizeof(op_code)) {
-            // mostrar_tabla_swap(tablas_de_frames_swap);
+            mostrar_tabla_swap(tablas_de_frames_swap);
             log_info(logger, STR(DISCONNECT!));
             return;
         }
