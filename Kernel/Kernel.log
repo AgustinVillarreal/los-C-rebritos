@@ -1,595 +1,2130 @@
-[INFO] 19:05:02:073 Kernel/(14473:14473): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 19:05:02:148 Kernel/(14473:14473): ------2---------
-
-[INFO] 19:05:02:152 Kernel/(14473:14473): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 19:05:04:898 Kernel/(14473:14473): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:05:05:639 Kernel/(14473:14473): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:05:06:638 Kernel/(14473:14473): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:05:30:303 Kernel/(14473:14513): DISCONNECT!
-[INFO] 19:05:30:307 Kernel/(14473:14512): DISCONNECT!
-[INFO] 19:06:04:195 Kernel/(14707:14707): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 19:06:04:269 Kernel/(14707:14707): ------2---------
-
-[INFO] 19:06:04:273 Kernel/(14707:14707): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 19:06:06:246 Kernel/(14707:14707): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:06:06:997 Kernel/(14707:14707): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:06:08:018 Kernel/(14707:14707): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:06:17:354 Kernel/(14707:14748): DISCONNECT!
-[INFO] 19:06:17:360 Kernel/(14707:14747): DISCONNECT!
-[INFO] 19:07:51:505 Kernel/(15013:15013): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 19:07:51:574 Kernel/(15013:15013): ------2---------
-
-[INFO] 19:07:51:577 Kernel/(15013:15013): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 19:07:53:521 Kernel/(15013:15013): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:07:54:305 Kernel/(15013:15013): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:07:55:322 Kernel/(15013:15013): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:08:21:416 Kernel/(15013:15054): DISCONNECT!
-[INFO] 19:08:21:420 Kernel/(15013:15047): DISCONNECT!
-[INFO] 19:08:21:422 Kernel/(15013:15046): DISCONNECT!
-[INFO] 19:09:14:050 Kernel/(15276:15276): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 19:09:14:118 Kernel/(15276:15276): ------2---------
-
-[INFO] 19:09:14:121 Kernel/(15276:15276): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 19:09:16:007 Kernel/(15276:15276): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:09:16:748 Kernel/(15276:15276): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:09:17:748 Kernel/(15276:15276): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:09:43:851 Kernel/(15276:15317): DISCONNECT!
-[INFO] 19:09:43:856 Kernel/(15276:15315): DISCONNECT!
-[INFO] 19:09:43:856 Kernel/(15276:15316): DISCONNECT!
-[INFO] 19:13:07:837 Kernel/(15828:15828): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 19:13:07:903 Kernel/(15828:15828): ------2---------
-
-[INFO] 19:13:07:908 Kernel/(15828:15828): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 19:13:09:869 Kernel/(15828:15828): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:13:10:612 Kernel/(15828:15828): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:13:11:626 Kernel/(15828:15828): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:13:29:397 Kernel/(15828:15875): DISCONNECT!
-[INFO] 19:13:29:403 Kernel/(15828:15869): DISCONNECT!
-[INFO] 19:13:29:403 Kernel/(15828:15874): DISCONNECT!
-[INFO] 19:15:20:487 Kernel/(16157:16157): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 19:15:20:556 Kernel/(16157:16157): ------2---------
-
-[INFO] 19:15:20:559 Kernel/(16157:16157): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 19:15:22:344 Kernel/(16157:16157): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:15:23:092 Kernel/(16157:16157): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:15:24:110 Kernel/(16157:16157): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 19:15:38:547 Kernel/(16157:16201): DISCONNECT!
-[INFO] 19:15:38:552 Kernel/(16157:16198): DISCONNECT!
-[INFO] 19:15:38:553 Kernel/(16157:16200): DISCONNECT!
-[INFO] 20:58:43:688 Kernel/(28551:28551): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 20:58:43:756 Kernel/(28551:28551): ------2---------
-
-[INFO] 20:58:43:760 Kernel/(28551:28551): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 20:58:46:254 Kernel/(28551:28551): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 20:58:46:366 Kernel/(28551:28551): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 20:58:46:428 Kernel/(28551:28551): Cliente conectado (a KERNEL_SERVER)
-
-[ERROR] 20:59:01:652 Kernel/(28551:28589): Error al recibir direccion logica
-[INFO] 20:59:13:187 Kernel/(28551:28593): DISCONNECT!
-[INFO] 20:59:13:685 Kernel/(28551:28591): DISCONNECT!
-[INFO] 20:59:22:170 Kernel/(28745:28745): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 20:59:22:241 Kernel/(28745:28745): ------2---------
-
-[INFO] 20:59:22:245 Kernel/(28745:28745): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 20:59:23:741 Kernel/(28745:28745): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 20:59:23:850 Kernel/(28745:28745): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 20:59:23:908 Kernel/(28745:28745): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 20:59:39:048 Kernel/(28916:28916): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 20:59:39:117 Kernel/(28916:28916): ------2---------
-
-[INFO] 20:59:39:122 Kernel/(28916:28916): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 20:59:40:781 Kernel/(28916:28916): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 20:59:40:890 Kernel/(28916:28916): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 20:59:40:949 Kernel/(28916:28916): Cliente conectado (a KERNEL_SERVER)
-
-[ERROR] 20:59:56:165 Kernel/(28916:28953): Error al recibir direccion logica
-[ERROR] 21:00:10:206 Kernel/(28916:28956): Error al recibir direccion logica
-[INFO] 21:00:12:029 Kernel/(28916:28955): DISCONNECT!
-[INFO] 21:00:21:432 Kernel/(29109:29109): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 21:00:21:499 Kernel/(29109:29109): ------2---------
-
-[INFO] 21:00:21:503 Kernel/(29109:29109): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 21:00:23:363 Kernel/(29109:29109): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 21:00:23:469 Kernel/(29109:29109): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 21:00:23:527 Kernel/(29109:29109): Cliente conectado (a KERNEL_SERVER)
-
-[ERROR] 21:00:38:741 Kernel/(29109:29145): Error al recibir direccion logica
-[INFO] 10:12:23:619 Kernel/(7632:7632): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:12:23:688 Kernel/(7632:7632): ------2---------
-
-[INFO] 10:12:23:691 Kernel/(7632:7632): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:12:26:795 Kernel/(7632:7632): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:12:26:862 Kernel/(7632:7632): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:14:58:541 Kernel/(7632:7666): DISCONNECT!
-[INFO] 10:15:07:522 Kernel/(8003:8003): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:15:07:590 Kernel/(8003:8003): ------2---------
-
-[INFO] 10:15:07:594 Kernel/(8003:8003): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:15:09:399 Kernel/(8003:8003): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:15:09:470 Kernel/(8003:8003): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:16:33:082 Kernel/(8003:8032): DISCONNECT!
-[INFO] 10:16:41:216 Kernel/(8270:8270): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:16:41:290 Kernel/(8270:8270): ------2---------
-
-[INFO] 10:16:41:294 Kernel/(8270:8270): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:16:42:919 Kernel/(8270:8270): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:16:42:987 Kernel/(8270:8270): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:25:54:314 Kernel/(8270:8305): DISCONNECT!
-[INFO] 10:26:05:680 Kernel/(9256:9256): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:26:05:746 Kernel/(9256:9256): ------2---------
-
-[INFO] 10:26:05:750 Kernel/(9256:9256): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:26:08:100 Kernel/(9256:9256): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:26:08:166 Kernel/(9256:9256): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:26:08:230 Kernel/(9256:9290): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:26:08:239 Kernel/(9256:9291): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:28:10:086 Kernel/(9256:9290): DISCONNECT!
-[INFO] 10:30:28:372 Kernel/(9820:9820): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:30:28:443 Kernel/(9820:9820): ------2---------
-
-[INFO] 10:30:28:446 Kernel/(9820:9820): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:30:31:060 Kernel/(9820:9820): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:30:31:133 Kernel/(9820:9852): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:30:31:272 Kernel/(9820:9820): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:30:31:313 Kernel/(9820:9857): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:30:31:356 Kernel/(9820:9820): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:30:31:400 Kernel/(9820:9859): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:31:23:680 Kernel/(9820:9859): DISCONNECT!
-[INFO] 10:31:23:684 Kernel/(9820:9857): DISCONNECT!
-[INFO] 10:31:23:684 Kernel/(9820:9852): DISCONNECT!
-[INFO] 10:31:57:907 Kernel/(10090:10090): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:31:57:982 Kernel/(10090:10090): ------2---------
-
-[INFO] 10:31:57:986 Kernel/(10090:10090): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:31:59:465 Kernel/(10090:10090): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:31:59:530 Kernel/(10090:10119): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:31:59:675 Kernel/(10090:10090): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:31:59:714 Kernel/(10090:10121): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:31:59:760 Kernel/(10090:10090): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:31:59:805 Kernel/(10090:10123): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:32:52:034 Kernel/(10090:10123): DISCONNECT!
-[INFO] 10:32:52:039 Kernel/(10090:10119): DISCONNECT!
-[INFO] 10:32:52:039 Kernel/(10090:10121): DISCONNECT!
-[INFO] 10:33:31:472 Kernel/(10369:10369): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:33:31:543 Kernel/(10369:10369): ------2---------
-
-[INFO] 10:33:31:547 Kernel/(10369:10369): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:33:33:111 Kernel/(10369:10369): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:33:33:185 Kernel/(10369:10401): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:33:33:322 Kernel/(10369:10369): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:33:33:361 Kernel/(10369:10403): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:33:33:404 Kernel/(10369:10369): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:33:33:447 Kernel/(10369:10405): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:34:25:682 Kernel/(10369:10405): DISCONNECT!
-[INFO] 10:34:25:687 Kernel/(10369:10401): DISCONNECT!
-[INFO] 10:34:25:688 Kernel/(10369:10403): DISCONNECT!
-[INFO] 10:34:58:154 Kernel/(10662:10662): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:34:58:229 Kernel/(10662:10662): ------2---------
-
-[INFO] 10:34:58:234 Kernel/(10662:10662): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:34:59:813 Kernel/(10662:10662): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:34:59:881 Kernel/(10662:10691): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[WARNING] 10:34:59:994 Kernel/(10662:10665): SJFFFFFFF
-[INFO] 10:35:00:032 Kernel/(10662:10662): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:35:00:078 Kernel/(10662:10693): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:35:00:124 Kernel/(10662:10662): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:35:00:160 Kernel/(10662:10695): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[WARNING] 10:35:02:094 Kernel/(10662:10665): SJFFFFFFF
-[WARNING] 10:35:02:170 Kernel/(10662:10665): SJFFFFFFF
-[WARNING] 10:35:10:250 Kernel/(10662:10665): SJFFFFFFF
-[WARNING] 10:35:12:254 Kernel/(10662:10665): SJFFFFFFF
-[WARNING] 10:35:14:256 Kernel/(10662:10665): SJFFFFFFF
-[INFO] 10:35:15:264 Kernel/(10662:10695): DISCONNECT!
-[INFO] 10:35:52:528 Kernel/(10890:10890): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:35:52:596 Kernel/(10890:10890): ------2---------
-
-[INFO] 10:35:52:599 Kernel/(10890:10890): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:35:54:944 Kernel/(10890:10890): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:35:55:011 Kernel/(10890:10919): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[WARNING] 10:35:55:127 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:35:55:131 Kernel/(10890:10893): ---------------------------
-[INFO] 10:35:55:132 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 2000
-[INFO] 10:35:55:133 Kernel/(10890:10893): ---------------------------
-[INFO] 10:35:55:135 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 2000
-[INFO] 10:35:55:170 Kernel/(10890:10890): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:35:55:212 Kernel/(10890:10921): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:35:55:260 Kernel/(10890:10890): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:35:55:299 Kernel/(10890:10923): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[WARNING] 10:35:57:226 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:35:57:228 Kernel/(10890:10893): ---------------------------
-[INFO] 10:35:57:228 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 2000
-[INFO] 10:35:57:228 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 2000
-[INFO] 10:35:57:229 Kernel/(10890:10893): ---------------------------
-[INFO] 10:35:57:229 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 2000
-[WARNING] 10:35:57:306 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:35:57:306 Kernel/(10890:10893): ---------------------------
-[INFO] 10:35:57:307 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 2000
-[INFO] 10:35:57:308 Kernel/(10890:10893): ---------------------------
-[INFO] 10:35:57:309 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 2000
-[WARNING] 10:36:05:395 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:05:396 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:05:396 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 1400
-[INFO] 10:36:05:396 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 1400
-[INFO] 10:36:05:397 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:05:397 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 1400
-[WARNING] 10:36:07:400 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:07:400 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:07:400 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 1400
-[INFO] 10:36:07:401 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:07:401 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 1400
-[WARNING] 10:36:09:403 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:09:404 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:09:404 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 1402
-[INFO] 10:36:09:404 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:09:404 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 1402
-[WARNING] 10:36:19:409 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:19:410 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:19:410 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 980
-[INFO] 10:36:19:410 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 980
-[INFO] 10:36:19:411 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:19:411 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 980
-[WARNING] 10:36:21:413 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:21:413 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:21:414 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 980
-[INFO] 10:36:21:414 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:21:415 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 980
-[WARNING] 10:36:23:417 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:23:418 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:23:418 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 984
-[INFO] 10:36:23:418 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:23:419 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 984
-[WARNING] 10:36:33:425 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:33:426 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:33:426 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 686
-[INFO] 10:36:33:427 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 686
-[INFO] 10:36:33:427 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:33:428 Kernel/(10890:10893): Carpincho: 1 - Estimacion: 686
-[WARNING] 10:36:35:435 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:35:435 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:35:436 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 686
-[INFO] 10:36:35:436 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:35:436 Kernel/(10890:10893): Carpincho: 2 - Estimacion: 686
-[WARNING] 10:36:37:459 Kernel/(10890:10893): SJFFFFFFF
-[INFO] 10:36:37:460 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:37:461 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 691
-[INFO] 10:36:37:461 Kernel/(10890:10893): ---------------------------
-[INFO] 10:36:37:462 Kernel/(10890:10893): Carpincho: 3 - Estimacion: 691
-[INFO] 10:36:47:550 Kernel/(10890:10923): DISCONNECT!
-[INFO] 10:36:47:556 Kernel/(10890:10919): DISCONNECT!
-[INFO] 10:36:47:556 Kernel/(10890:10921): DISCONNECT!
-[INFO] 10:37:05:704 Kernel/(11143:11143): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:37:05:779 Kernel/(11143:11143): ------2---------
-
-[INFO] 10:37:05:782 Kernel/(11143:11143): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:37:07:347 Kernel/(11143:11143): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:37:07:418 Kernel/(11143:11178): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[WARNING] 10:37:07:532 Kernel/(11143:11149): SJFFFFFFF
-[INFO] 10:37:07:564 Kernel/(11143:11143): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:37:07:604 Kernel/(11143:11180): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:37:07:648 Kernel/(11143:11143): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:37:07:685 Kernel/(11143:11182): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[WARNING] 10:37:09:622 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:09:694 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:17:779 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:19:781 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:21:783 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:23:786 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:25:788 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:27:794 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:29:811 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:41:820 Kernel/(11143:11149): SJFFFFFFF
-[WARNING] 10:37:53:831 Kernel/(11143:11149): SJFFFFFFF
-[INFO] 10:38:03:922 Kernel/(11143:11182): DISCONNECT!
-[INFO] 10:38:03:925 Kernel/(11143:11180): DISCONNECT!
-[INFO] 10:38:03:927 Kernel/(11143:11178): DISCONNECT!
-[INFO] 10:41:00:873 Kernel/(11654:11654): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:41:00:951 Kernel/(11654:11654): ------2---------
-
-[INFO] 10:41:00:954 Kernel/(11654:11654): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:41:02:293 Kernel/(11654:11654): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:41:02:365 Kernel/(11654:11686): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:41:49:058 Kernel/(11654:11654): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:41:49:124 Kernel/(11654:11890): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:41:49:704 Kernel/(11654:11890): DISCONNECT!
-[INFO] 10:41:49:892 Kernel/(11654:11686): DISCONNECT!
-[INFO] 10:42:27:196 Kernel/(12066:12066): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:42:27:273 Kernel/(12066:12066): ------2---------
-
-[INFO] 10:42:27:276 Kernel/(12066:12066): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:42:29:074 Kernel/(12066:12066): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:42:29:152 Kernel/(12066:12095): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:42:29:762 Kernel/(12066:12095): DISCONNECT!
-[INFO] 10:43:21:933 Kernel/(12292:12292): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:43:22:007 Kernel/(12292:12292): ------2---------
-
-[INFO] 10:43:22:012 Kernel/(12292:12292): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:43:23:506 Kernel/(12292:12292): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:43:23:573 Kernel/(12292:12323): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:43:24:030 Kernel/(12292:12323): DISCONNECT!
-[INFO] 10:43:46:285 Kernel/(12486:12486): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:43:46:359 Kernel/(12486:12486): ------2---------
-
-[INFO] 10:43:46:362 Kernel/(12486:12486): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:43:47:633 Kernel/(12486:12486): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:43:47:702 Kernel/(12486:12518): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:43:47:995 Kernel/(12486:12518): DISCONNECT!
-[INFO] 10:44:15:561 Kernel/(12674:12674): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:44:15:640 Kernel/(12674:12674): ------2---------
-
-[INFO] 10:44:15:644 Kernel/(12674:12674): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:44:18:677 Kernel/(12674:12674): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:44:18:753 Kernel/(12674:12706): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:44:18:994 Kernel/(12674:12706): DISCONNECT!
-[INFO] 10:47:55:008 Kernel/(13221:13221): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:47:55:084 Kernel/(13221:13221): ------2---------
-
-[INFO] 10:47:55:088 Kernel/(13221:13221): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:47:56:670 Kernel/(13221:13221): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:47:56:737 Kernel/(13221:13250): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:47:57:369 Kernel/(13221:13250): DISCONNECT!
-[INFO] 10:49:16:436 Kernel/(13507:13507): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:49:16:510 Kernel/(13507:13507): ------2---------
-
-[INFO] 10:49:16:513 Kernel/(13507:13507): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:51:57:632 Kernel/(13876:13876): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:51:57:701 Kernel/(13876:13876): ------2---------
-
-[INFO] 10:51:57:705 Kernel/(13876:13876): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:51:58:943 Kernel/(13876:13876): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:51:59:009 Kernel/(13876:13905): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:51:59:196 Kernel/(13876:13905): DISCONNECT!
-[INFO] 10:52:23:250 Kernel/(14068:14068): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:52:23:323 Kernel/(14068:14068): ------2---------
-
-[INFO] 10:52:23:328 Kernel/(14068:14068): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:52:24:572 Kernel/(14068:14068): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:52:24:638 Kernel/(14068:14094): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:52:24:824 Kernel/(14068:14094): DISCONNECT!
-[INFO] 10:53:24:304 Kernel/(14317:14317): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:53:24:371 Kernel/(14317:14317): ------2---------
-
-[INFO] 10:53:24:375 Kernel/(14317:14317): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:53:25:937 Kernel/(14317:14317): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:53:26:011 Kernel/(14317:14343): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:53:26:186 Kernel/(14317:14343): DISCONNECT!
-[INFO] 10:55:40:709 Kernel/(14648:14648): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:55:40:783 Kernel/(14648:14648): ------2---------
-
-[INFO] 10:55:40:788 Kernel/(14648:14648): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:55:42:098 Kernel/(14648:14648): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:55:42:169 Kernel/(14648:14677): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:55:42:350 Kernel/(14648:14677): DISCONNECT!
-[INFO] 10:56:04:192 Kernel/(14846:14846): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:56:04:262 Kernel/(14846:14846): ------2---------
-
-[INFO] 10:56:04:271 Kernel/(14846:14846): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:56:05:412 Kernel/(14846:14846): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:56:05:485 Kernel/(14846:14872): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:56:05:742 Kernel/(14846:14872): DISCONNECT!
-[INFO] 10:57:05:485 Kernel/(15078:15078): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:57:05:561 Kernel/(15078:15078): ------2---------
-
-[INFO] 10:57:05:564 Kernel/(15078:15078): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:57:06:798 Kernel/(15078:15078): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:57:06:873 Kernel/(15078:15107): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:57:07:096 Kernel/(15078:15107): DISCONNECT!
-[INFO] 10:59:07:564 Kernel/(15484:15484): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:59:07:633 Kernel/(15484:15484): ------2---------
-
-[INFO] 10:59:07:637 Kernel/(15484:15484): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 10:59:08:931 Kernel/(15484:15484): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 10:59:09:011 Kernel/(15484:15516): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 10:59:09:263 Kernel/(15484:15516): DISCONNECT!
-[INFO] 11:01:10:014 Kernel/(15879:15879): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 11:01:10:087 Kernel/(15879:15879): ------2---------
-
-[INFO] 11:01:10:091 Kernel/(15879:15879): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 11:01:11:368 Kernel/(15879:15879): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 11:01:11:445 Kernel/(15879:15905): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[ERROR] 11:01:11:901 Kernel/(15879:15905): Error al recibir direccion logica
-[INFO] 11:02:44:048 Kernel/(16189:16189): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 11:02:44:120 Kernel/(16189:16189): ------2---------
-
-[INFO] 11:02:44:124 Kernel/(16189:16189): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 11:02:45:445 Kernel/(16189:16189): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 11:02:45:518 Kernel/(16189:16215): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 11:02:45:769 Kernel/(16189:16215): DISCONNECT!
-[INFO] 11:03:16:676 Kernel/(16387:16387): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 11:03:16:753 Kernel/(16387:16387): ------2---------
-
-[INFO] 11:03:16:757 Kernel/(16387:16387): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 11:03:18:004 Kernel/(16387:16387): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 11:03:18:070 Kernel/(16387:16421): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 11:03:18:335 Kernel/(16387:16421): DISCONNECT!
-[INFO] 11:08:06:777 Kernel/(16968:16968): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 11:08:06:852 Kernel/(16968:16968): ------2---------
-
-[INFO] 11:08:06:855 Kernel/(16968:16968): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
-
-[INFO] 11:08:08:318 Kernel/(16968:16968): Cliente conectado (a KERNEL_SERVER)
-
-[INFO] 11:08:08:388 Kernel/(16968:17000): Cliente conectado en 0.0.0.0:5002 (a Server)
-
-[INFO] 11:08:08:648 Kernel/(16968:17000): DISCONNECT!
+[INFO] 12:01:10:188 Kernel/(24695:24695): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:01:10:259 Kernel/(24695:24695): ------2---------
+
+[INFO] 12:01:10:262 Kernel/(24695:24695): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 12:01:19:257 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:01:19:326 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:01:19:388 Kernel/(24695:24756): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:01:19:394 Kernel/(24695:24757): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:01:19:508 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:01:19:611 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:01:19:668 Kernel/(24695:24761): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:01:19:690 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[WARNING] 12:01:19:758 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[INFO] 12:01:19:765 Kernel/(24695:24762): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:01:19:764 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:01:19:851 Kernel/(24695:24764): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 12:01:19:870 Kernel/(24695:24762): carpincho 4 MEM_ALLOC
+[INFO] 12:01:19:872 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:01:19:956 Kernel/(24695:24765): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:01:19:978 Kernel/(24695:24767): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:01:19:978 Kernel/(24695:24695): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:01:20:061 Kernel/(24695:24769): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 12:01:21:032 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:21:058 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:21:147 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:21:304 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:21:406 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:21:555 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:21:657 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:21:807 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:21:908 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:22:059 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:22:161 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:22:166 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:22:311 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:22:413 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:22:563 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:22:665 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:22:815 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:22:917 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:23:067 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:23:169 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:23:269 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:23:320 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:23:423 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:23:572 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:23:674 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:23:823 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:23:925 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:24:076 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:24:177 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:24:327 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:24:373 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:24:428 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:24:576 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:24:678 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:24:828 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:24:930 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:25:080 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:25:182 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:25:331 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:25:432 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:25:483 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:25:583 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:25:685 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:25:836 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:25:937 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:26:087 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:26:188 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:26:335 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:26:437 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:26:587 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:26:686 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:26:688 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:26:835 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:26:938 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:27:088 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:27:189 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:27:339 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:27:441 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:27:591 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:27:693 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:27:844 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:27:890 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:27:945 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:28:093 Kernel/(24695:24757): carpincho 1 MEM_ALLOC
+[WARNING] 12:01:28:096 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:28:197 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:28:348 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:28:450 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:28:599 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:28:701 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:28:852 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:28:953 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:29:103 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:29:205 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:29:301 Kernel/(24695:24756): carpincho 2 MEM_ALLOC
+[WARNING] 12:01:29:356 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:29:457 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:29:607 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:29:708 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:29:855 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:29:957 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:30:107 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:30:210 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:30:359 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:30:461 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:30:612 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:30:713 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:30:864 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:30:966 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:31:116 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:31:218 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:31:368 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:31:469 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:31:503 Kernel/(24695:24765): carpincho 6 FREE
+[WARNING] 12:01:31:620 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:31:722 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:31:872 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:31:973 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:32:124 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:32:225 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:32:376 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:32:477 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:32:627 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:32:729 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:32:879 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:32:982 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:33:131 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:33:233 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:33:305 Kernel/(24695:24757): carpincho 1 MEM_FREE
+[WARNING] 12:01:33:383 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:33:485 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:33:635 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:33:737 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:33:887 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:33:989 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:34:139 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:34:241 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:34:391 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:34:493 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:34:643 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:34:744 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:34:895 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:34:997 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:35:148 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:35:249 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:35:400 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:35:502 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:35:651 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:35:753 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:35:903 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:36:005 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:36:155 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:36:257 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:36:407 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:36:509 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:36:660 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:36:762 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:36:912 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:37:013 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:37:164 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:37:266 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:37:415 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:37:517 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:37:669 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:37:771 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:37:920 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:38:021 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:38:172 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:38:273 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:38:423 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:38:525 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:38:676 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:38:778 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:38:927 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:39:029 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:39:179 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:39:281 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:39:432 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:39:533 Kernel/(24695:24762): carpincho 4 READ
+[WARNING] 12:01:39:684 Kernel/(24695:24762): carpincho 4 WRITE
+[WARNING] 12:01:39:785 Kernel/(24695:24762): carpincho 4 READ
+[INFO] 12:01:40:331 Kernel/(24695:24765): DISCONNECT!
+[INFO] 12:01:40:337 Kernel/(24695:24764): DISCONNECT!
+[ERROR] 12:01:40:338 Kernel/(24695:24762): Error al recibir data para leer
+[INFO] 12:01:40:338 Kernel/(24695:24762): DISCONNECT!
+[INFO] 12:01:40:338 Kernel/(24695:24761): Error haciendo sem_post
+[INFO] 12:04:35:961 Kernel/(25215:25215): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:04:36:037 Kernel/(25215:25215): ------2---------
+
+[INFO] 12:04:36:042 Kernel/(25215:25215): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 12:04:38:440 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:04:38:502 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:04:38:558 Kernel/(25215:25257): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:04:38:570 Kernel/(25215:25258): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:04:38:672 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:04:38:785 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:04:38:833 Kernel/(25215:25262): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:04:38:857 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[WARNING] 12:04:38:923 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[INFO] 12:04:38:928 Kernel/(25215:25263): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:04:38:949 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:04:39:024 Kernel/(25215:25265): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 12:04:39:025 Kernel/(25215:25263): carpincho 4 MEM_ALLOC
+[INFO] 12:04:39:053 Kernel/(25215:25267): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:04:39:055 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:04:39:145 Kernel/(25215:25269): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:04:39:147 Kernel/(25215:25215): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:04:39:220 Kernel/(25215:25271): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 12:04:40:144 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:40:146 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:40:273 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:40:429 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:40:531 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:40:679 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:40:781 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:40:931 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:41:032 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:41:183 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:41:278 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:41:285 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:41:436 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:41:539 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:41:687 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:41:789 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:41:939 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:42:041 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:42:191 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:42:293 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:42:382 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:42:443 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:42:545 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:42:695 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:42:797 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:42:948 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:43:050 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:43:200 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:43:301 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:43:453 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:43:486 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:43:555 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:43:703 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:43:805 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:43:955 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:44:058 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:44:208 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:44:310 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:44:459 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:44:560 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:44:594 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:44:712 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:44:813 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:44:963 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:45:066 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:45:215 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:45:316 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:45:467 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:45:568 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:45:720 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:45:799 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:45:822 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:45:971 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:46:073 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:46:223 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:46:325 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:46:475 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:46:577 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:46:728 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:46:830 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:46:979 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:47:004 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:47:080 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:47:207 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:47:231 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:47:333 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:47:484 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:47:585 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:47:736 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:47:838 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:47:987 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:48:089 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:48:239 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:48:341 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:48:412 Kernel/(25215:25257): carpincho 2 MEM_ALLOC
+[WARNING] 12:04:48:491 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:48:592 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:48:743 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:48:845 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:48:996 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:49:097 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:49:247 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:49:349 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:49:499 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:49:601 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:49:751 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:49:853 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:49:953 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:04:50:007 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:50:108 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:50:255 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:50:357 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:50:507 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:50:609 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:50:759 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:50:860 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:51:011 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:51:112 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:51:264 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:51:366 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:51:515 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:51:617 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:51:767 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:51:869 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:52:019 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:52:121 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:52:272 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:52:373 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:52:416 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:04:52:523 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:52:528 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:52:625 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:52:775 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:52:878 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:53:028 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:53:131 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:53:279 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:53:381 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:53:500 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:04:53:531 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:53:632 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:53:645 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:04:53:784 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:53:886 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:54:035 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:54:137 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:54:287 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:54:389 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:54:540 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:54:642 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:54:791 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:54:893 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:55:044 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:55:145 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:55:235 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:04:55:295 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:55:338 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:55:397 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:55:547 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:55:649 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:55:799 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:55:901 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:56:052 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:56:154 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:56:304 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:56:407 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:56:555 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:56:657 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:56:807 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:56:909 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:57:059 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:57:161 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:57:248 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:04:57:312 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:57:351 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:04:57:413 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:57:564 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:57:665 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:57:815 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:57:917 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:58:042 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:04:58:068 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:58:144 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:04:58:169 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:58:321 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:58:422 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:58:572 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:58:673 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:58:824 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:58:925 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:59:075 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:59:177 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:59:328 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:59:429 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:59:579 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:59:681 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:04:59:832 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:04:59:933 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:00:083 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:00:186 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:00:335 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:00:437 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:00:587 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:00:689 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:00:839 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:00:850 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:00:941 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:00:952 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:01:091 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:01:156 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:01:192 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:01:258 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:01:343 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:01:445 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:01:595 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:01:697 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:01:847 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:01:949 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:02:100 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:02:201 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:02:352 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:02:454 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:02:604 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:02:615 Kernel/(25215:25262): carpincho 3 FREE
+[WARNING] 12:05:02:616 Kernel/(25215:25257): carpincho 2 WRITE
+[WARNING] 12:05:02:706 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:02:856 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:02:957 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:03:108 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:03:209 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:03:359 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:03:462 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:03:612 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:03:713 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:03:834 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:03:863 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:03:886 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:03:965 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:04:032 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:04:118 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:04:140 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:04:219 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:04:242 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:04:350 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:04:371 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:04:453 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:04:472 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:04:561 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:04:623 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:04:664 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:04:725 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:04:771 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:04:862 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:04:872 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:04:875 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:04:964 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:04:976 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:04:980 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:05:083 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:05:123 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:05:191 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:05:225 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:05:293 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:05:375 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:05:405 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:05:477 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:05:507 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:05:615 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:05:627 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:05:717 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:05:729 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:05:825 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:05:879 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:05:927 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:05:981 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:06:034 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:06:132 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:06:137 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:06:233 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:06:244 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:06:347 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:06:387 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:06:454 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:06:488 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:06:557 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:06:640 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:06:670 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:06:742 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:06:775 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:06:883 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:06:891 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:06:986 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:06:993 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:07:094 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:07:144 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:07:196 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:07:245 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:07:305 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:07:396 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:07:407 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:07:497 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:07:514 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:07:616 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:07:647 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:07:725 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:07:748 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:07:827 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:07:899 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:07:935 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:08:001 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:08:037 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:08:145 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:08:152 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:08:247 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:08:253 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:08:355 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:08:403 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:08:457 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:08:505 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:08:564 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:08:568 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:08:655 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:08:666 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:08:670 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:08:757 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:08:774 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:08:876 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:08:910 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:08:984 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:09:018 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:09:086 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:09:168 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:09:195 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:09:269 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:09:297 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:09:405 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:09:419 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:09:508 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:09:521 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:09:615 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:09:672 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:09:717 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:09:773 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:09:825 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:09:924 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:09:928 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:10:026 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:10:035 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:10:138 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:10:180 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:10:245 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:10:281 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:10:348 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:10:432 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:10:459 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:10:534 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:10:562 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:10:670 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:10:683 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:10:772 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:10:784 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:10:879 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:10:935 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:10:982 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:11:037 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:11:089 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:11:193 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:11:204 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:11:301 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:11:306 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:11:374 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:11:404 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:11:459 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:11:477 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:11:513 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:11:561 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:11:616 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:11:711 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:11:724 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:11:813 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:11:826 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:11:934 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:11:965 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:12:037 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:12:066 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:12:145 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:12:215 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:12:247 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:12:317 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:12:355 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:12:458 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:12:467 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:12:567 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:12:568 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:12:670 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:12:715 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:12:777 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:12:816 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:12:880 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:12:963 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:12:987 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:13:065 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:13:090 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:13:197 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:13:215 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:13:299 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:13:316 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:13:408 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:13:468 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:13:510 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:13:569 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:13:617 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:13:720 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:13:720 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:13:822 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:13:829 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:13:932 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:13:973 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:14:039 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:14:074 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:14:142 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:14:197 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:14:223 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:14:249 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:14:300 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:14:325 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:14:351 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:14:459 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:14:475 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:14:563 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:14:576 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:14:670 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:14:723 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:14:772 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:14:825 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:14:880 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:14:975 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:14:982 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:15:077 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:15:089 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:15:192 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:15:228 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:15:299 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:15:334 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:15:402 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:15:483 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:15:509 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:15:584 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:15:612 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:15:719 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:15:735 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:15:822 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:15:837 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:15:930 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:15:988 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:16:032 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:16:089 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:16:140 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:16:240 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:16:242 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:16:341 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:16:349 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:16:451 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:16:494 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:16:559 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:16:595 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:16:662 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:16:743 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:16:771 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:16:845 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:16:875 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:16:982 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:16:996 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:17:006 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:17:084 Kernel/(25215:25269): carpincho 7 MEM_ALLOC
+[WARNING] 12:05:17:097 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:17:108 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:17:192 Kernel/(25215:25269): carpincho 7 MEM_FREE
+[WARNING] 12:05:17:247 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:17:296 Kernel/(25215:25269): carpincho 7 FREE
+[WARNING] 12:05:17:349 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:17:500 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:17:602 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:17:751 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:17:853 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:18:003 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:18:104 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:18:255 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:18:297 Kernel/(25215:25257): carpincho 2 READ
+[WARNING] 12:05:18:357 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:18:399 Kernel/(25215:25257): carpincho 2 FREE
+[WARNING] 12:05:18:507 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:18:608 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:18:759 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:18:861 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:19:011 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:19:113 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:19:263 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:19:365 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:19:516 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:19:617 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:19:768 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:19:812 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:19:869 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:19:914 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:20:019 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:20:120 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:20:271 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:20:373 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:20:524 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:20:625 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:20:776 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:20:877 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:21:027 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:21:129 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:21:279 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:21:381 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:21:531 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:21:632 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:21:780 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:21:882 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:22:031 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:22:133 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:22:283 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:22:384 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:22:535 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:22:619 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:22:637 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:22:722 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:22:788 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:22:889 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:23:040 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:23:142 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:23:292 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:23:393 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:23:544 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:23:646 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:23:795 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:23:896 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:24:048 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:24:149 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:24:300 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:24:402 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:24:552 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:24:653 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:24:804 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:24:905 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:25:056 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:25:157 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:25:307 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:25:408 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:25:559 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:25:662 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:25:811 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:25:912 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:26:063 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:26:165 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:26:315 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:26:326 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:26:417 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:26:429 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:26:568 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:26:670 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:26:819 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:26:921 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:27:071 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:27:173 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:27:319 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:27:421 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:27:572 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:27:674 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:27:824 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:27:925 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:28:075 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:28:176 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:28:328 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:28:429 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:28:579 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:28:681 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:28:831 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:28:933 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:29:083 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:29:185 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:29:335 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:29:437 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:29:588 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:29:690 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:29:840 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:29:941 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:30:033 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:30:092 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:30:136 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:30:193 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:30:344 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:30:445 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:30:595 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:30:697 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:30:847 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:30:949 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:31:099 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:31:201 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:31:351 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:31:452 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:31:601 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:31:702 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:31:852 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:31:954 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:32:103 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:32:205 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:32:356 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:32:458 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:32:608 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:32:711 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:32:860 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:32:962 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:33:111 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:33:213 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:33:363 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:33:464 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:33:615 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:33:717 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:33:739 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:33:842 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:33:867 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:33:970 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:34:120 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:34:221 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:34:371 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:34:474 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:34:623 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:34:725 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:34:876 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:34:978 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:35:127 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:35:228 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:35:380 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:35:482 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:35:631 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:35:732 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:35:880 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:35:982 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:36:131 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:36:233 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:36:383 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:36:484 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:36:636 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:36:737 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:36:887 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:36:990 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:37:139 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:37:241 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:37:392 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:37:445 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:37:493 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:37:549 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:37:644 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:37:745 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:37:896 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:37:998 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:38:148 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:38:250 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:38:400 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:38:502 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:38:651 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:38:753 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:38:903 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:39:004 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:39:118 Kernel/(25215:25265): carpincho 5 FREE
+[WARNING] 12:05:39:119 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:39:155 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:39:223 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:39:257 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:39:407 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:39:509 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:39:659 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:39:761 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:39:912 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:40:014 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:40:163 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:40:265 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:40:415 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:40:517 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:40:668 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:40:769 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:40:920 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:41:022 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:41:153 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:41:171 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:41:255 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:41:273 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:41:424 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:41:526 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:41:676 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:41:777 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:41:928 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:41:928 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:42:033 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:42:034 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:42:184 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:42:285 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:42:436 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:42:538 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:42:687 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:42:789 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:42:940 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:43:042 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:43:192 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:43:294 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:43:443 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:43:546 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:43:695 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:43:797 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:43:947 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:44:048 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:44:200 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:44:302 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:44:451 Kernel/(25215:25263): carpincho 4 WRITE
+[WARNING] 12:05:44:553 Kernel/(25215:25263): carpincho 4 READ
+[WARNING] 12:05:44:698 Kernel/(25215:25263): carpincho 4 FREE
+[WARNING] 12:05:44:738 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:44:842 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:44:859 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:44:962 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:45:402 Kernel/(25215:25271): carpincho 8 FREE
+[WARNING] 12:05:47:547 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:47:650 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:48:565 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:48:669 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:50:354 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:50:457 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:52:272 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:52:375 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:53:162 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:53:265 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:55:971 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:55:979 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:56:073 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:56:081 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:05:58:778 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:05:58:882 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:05:59:684 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:05:59:787 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:01:586 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:01:688 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:03:392 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:03:495 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:04:393 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:04:495 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:07:098 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:07:201 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:07:203 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:07:304 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:10:010 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:10:113 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:10:807 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:10:909 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:12:819 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:12:922 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:14:512 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:14:615 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:15:627 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:15:729 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:18:219 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:18:322 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:18:434 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:18:537 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:21:241 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:21:343 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:21:925 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:22:028 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:24:048 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:24:151 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:25:633 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:25:735 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:26:856 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:26:959 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:29:339 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:29:442 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:29:665 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:29:767 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:32:471 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:32:575 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:33:046 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:33:148 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:35:279 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:35:382 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:36:752 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:36:855 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:38:087 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:38:190 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:40:459 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:40:562 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:40:894 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:41:002 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:43:712 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:43:816 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:44:166 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:44:269 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:46:521 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:46:623 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:47:872 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:47:976 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:49:328 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:49:430 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:51:580 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:51:682 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:52:137 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:52:240 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:54:946 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:55:048 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:55:287 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:55:389 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:06:57:752 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:06:57:855 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:06:58:993 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:06:59:097 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:00:561 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:00:664 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:02:701 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:02:804 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:03:369 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:03:472 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:06:179 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:06:282 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:06:408 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:06:512 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:08:989 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:09:092 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:10:116 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:10:223 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:11:799 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:11:902 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:13:826 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:13:930 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:14:607 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:14:710 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:17:414 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:17:517 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:17:534 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:17:637 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:20:222 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:20:325 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:21:241 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:21:344 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:23:029 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:23:134 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:24:948 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:25:051 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:25:838 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:25:941 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:28:645 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:28:654 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:28:748 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:28:758 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:31:454 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:31:557 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:32:364 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:32:468 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:34:270 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:34:373 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:36:072 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:36:174 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:37:077 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:37:180 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:39:779 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:39:882 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:39:886 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:39:989 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:42:694 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:42:796 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:43:487 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:43:590 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:45:501 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:45:605 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:47:194 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:47:296 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:48:309 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:48:412 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:50:900 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:51:003 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:51:118 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:51:221 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:53:926 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:54:030 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:54:607 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:54:710 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:56:735 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:56:838 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:07:58:313 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:07:58:416 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:07:59:543 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:07:59:646 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:08:02:019 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:02:122 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:02:350 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:08:02:453 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:08:05:160 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:08:05:263 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:08:05:726 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:05:829 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:07:970 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:08:08:073 Kernel/(25215:25258): carpincho 1 MEM_ALLOC
+[WARNING] 12:08:09:434 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:09:536 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:10:776 Kernel/(25215:25258): carpincho 1 MEM_FREE
+[WARNING] 12:08:10:882 Kernel/(25215:25258): carpincho 1 FREE
+[WARNING] 12:08:13:139 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:13:241 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:16:845 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:16:949 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:20:553 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:20:655 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:24:259 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:24:362 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:27:966 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:28:068 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:31:672 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:31:774 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:35:377 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:35:481 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:39:084 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:39:187 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:42:791 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:42:894 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:46:500 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:46:602 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:50:206 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:50:308 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:53:911 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:54:014 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:08:57:617 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:08:57:720 Kernel/(25215:25267): carpincho 6 MEM_ALLOC
+[WARNING] 12:09:01:325 Kernel/(25215:25267): carpincho 6 MEM_FREE
+[WARNING] 12:09:01:430 Kernel/(25215:25267): carpincho 6 FREE
+[INFO] 12:09:01:590 Kernel/(25215:25271): DISCONNECT!
+[INFO] 12:09:01:596 Kernel/(25215:25257): DISCONNECT!
+[INFO] 12:09:01:596 Kernel/(25215:25258): DISCONNECT!
+[INFO] 12:09:01:596 Kernel/(25215:25262): DISCONNECT!
+[INFO] 12:09:01:596 Kernel/(25215:25263): DISCONNECT!
+[INFO] 12:09:01:596 Kernel/(25215:25265): DISCONNECT!
+[INFO] 12:09:01:597 Kernel/(25215:25267): DISCONNECT!
+[INFO] 12:09:01:597 Kernel/(25215:25269): DISCONNECT!
+[INFO] 12:10:42:880 Kernel/(25855:25855): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:10:42:949 Kernel/(25855:25855): ------2---------
+
+[INFO] 12:10:42:952 Kernel/(25855:25855): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 12:10:44:781 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:44:850 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:44:913 Kernel/(25855:25894): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:10:44:918 Kernel/(25855:25895): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:10:45:024 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:45:133 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:45:175 Kernel/(25855:25899): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:10:45:202 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:45:263 Kernel/(25855:25900): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 12:10:45:264 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[INFO] 12:10:45:277 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:45:353 Kernel/(25855:25902): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 12:10:45:362 Kernel/(25855:25900): carpincho 4 MEM_ALLOC
+[INFO] 12:10:45:383 Kernel/(25855:25904): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:10:45:394 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:45:489 Kernel/(25855:25855): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 12:10:45:544 Kernel/(25855:25906): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 12:10:45:554 Kernel/(25855:25908): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 12:10:46:485 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:46:546 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:46:605 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:46:760 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:46:862 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:47:012 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:47:115 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:47:264 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:47:365 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:47:515 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:47:617 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:47:653 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:47:767 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:47:870 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:48:020 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:48:121 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:48:271 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:48:373 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:48:523 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:48:625 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:48:757 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:48:775 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:48:877 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:49:028 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:49:130 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:49:279 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:49:381 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:49:533 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:49:634 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:49:783 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:49:859 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:49:885 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:50:035 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:50:137 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:50:287 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:50:389 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:50:539 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:50:640 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:50:792 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:50:894 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:50:969 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:51:043 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:51:145 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:51:295 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:51:397 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:51:547 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:51:649 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:51:799 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:51:901 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:52:052 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:52:154 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:52:184 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:52:303 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:52:404 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:52:551 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:52:653 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:52:804 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:52:906 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:53:056 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:53:157 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:53:308 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:53:390 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:53:412 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:53:560 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:53:593 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:53:661 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:53:812 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:53:914 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:54:064 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:54:165 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:54:315 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:54:417 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:54:568 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:54:670 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:54:798 Kernel/(25855:25894): carpincho 1 MEM_ALLOC
+[WARNING] 12:10:54:821 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:54:923 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:55:071 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:55:172 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:55:323 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:55:425 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:55:576 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:55:678 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:55:828 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:55:929 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:56:079 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:56:181 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:56:331 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:56:433 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:56:583 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:56:685 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:56:836 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:56:938 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:57:089 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:57:191 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:57:340 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:57:441 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:57:592 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:57:693 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:57:844 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:57:946 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:58:095 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:58:197 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:58:347 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:58:449 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:58:599 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:58:701 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:58:804 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:10:58:851 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:58:913 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:10:58:953 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:59:104 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:59:205 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:59:356 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:59:458 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:59:607 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:59:709 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:10:59:859 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:10:59:961 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:00:111 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:00:213 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:00:363 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:00:465 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:00:615 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:00:717 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:00:867 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:00:968 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:01:119 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:01:220 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:01:368 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:01:469 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:01:620 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:01:625 Kernel/(25855:25894): carpincho 1 WRITE
+[WARNING] 12:11:01:724 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:01:873 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:01:975 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:02:124 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:02:226 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:02:376 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:02:478 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:02:629 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:02:730 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:02:880 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:02:981 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:03:132 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:03:233 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:03:383 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:03:485 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:03:636 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:03:737 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:03:888 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:03:989 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:04:139 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:04:241 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:04:391 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:04:492 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:04:643 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:04:745 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:04:895 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:04:996 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:05:143 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:05:245 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:05:271 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:11:05:374 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:11:05:395 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:05:496 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:05:645 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:05:747 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:05:896 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:05:998 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:06:147 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:06:248 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:06:395 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:06:498 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:06:648 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:06:749 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:06:899 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:07:000 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:07:151 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:07:253 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:07:403 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:07:505 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:07:655 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:07:757 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:07:907 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:08:008 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:08:079 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:11:08:155 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:08:182 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:11:08:257 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:08:407 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:08:508 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:08:655 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:08:757 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:08:908 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:08:971 Kernel/(25855:25899): carpincho 3 FREE
+[WARNING] 12:11:09:010 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:09:159 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:09:260 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:09:412 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:09:515 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:09:664 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:09:766 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:09:915 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:09:976 Kernel/(25855:25894): carpincho 1 READ
+[WARNING] 12:11:10:018 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:10:078 Kernel/(25855:25894): carpincho 1 FREE
+[WARNING] 12:11:10:168 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:10:269 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:10:419 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:10:521 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:10:671 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:10:773 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:10:887 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:11:10:926 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:10:988 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:11:11:028 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:11:176 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:11:277 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:11:428 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:11:529 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:11:679 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:11:781 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:11:931 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:12:033 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:12:184 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:12:285 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:12:436 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:12:537 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:12:687 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:12:789 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:12:940 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:13:042 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:13:193 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:13:296 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:13:448 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:13:550 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:13:700 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:13:801 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:13:953 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:14:055 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:14:203 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:14:304 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:14:407 Kernel/(25855:25906): carpincho 7 FREE
+[WARNING] 12:11:14:455 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:14:557 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:14:708 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:14:809 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:14:959 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:15:061 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:15:211 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:15:313 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:15:464 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:15:565 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:15:715 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:15:817 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:15:967 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:16:068 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:16:219 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:16:320 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:16:468 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:16:570 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:16:719 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:16:821 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:16:973 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:17:074 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:17:224 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:17:325 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:17:475 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:17:577 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:17:728 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:17:831 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:17:979 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:18:081 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:18:232 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:18:334 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:18:483 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:18:585 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:18:735 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:18:837 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:18:987 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:19:088 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:19:239 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:19:341 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:19:492 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:19:594 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:19:743 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:19:845 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:19:997 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:20:098 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:20:248 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:20:349 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:20:500 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:20:603 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:20:751 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:20:853 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:21:004 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:21:105 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:21:255 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:21:357 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:21:509 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:21:610 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:21:759 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:21:861 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:22:011 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:22:113 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:22:263 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:22:365 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:22:516 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:22:618 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:22:768 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:22:869 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:23:019 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:23:121 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:23:272 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:23:374 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:23:524 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:23:626 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:23:775 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:23:877 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:24:028 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:24:130 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:24:279 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:24:381 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:24:532 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:24:634 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:24:785 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:24:886 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:25:036 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:25:137 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:25:289 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:25:390 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:25:540 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:25:641 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:25:792 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:25:894 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:26:044 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:26:145 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:26:295 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:26:397 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:26:548 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:26:650 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:26:800 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:26:901 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:27:051 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:27:153 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:27:304 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:27:405 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:27:556 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:27:657 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:27:808 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:27:910 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:28:059 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:28:161 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:28:312 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:28:414 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:28:564 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:28:665 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:28:816 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:28:917 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:29:068 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:29:169 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:29:320 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:29:421 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:29:572 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:29:673 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:29:824 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:29:926 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:30:075 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:30:177 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:30:327 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:30:429 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:30:579 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:30:681 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:30:832 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:30:933 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:31:084 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:31:185 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:31:336 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:31:437 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:31:588 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:31:689 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:31:840 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:31:942 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:32:092 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:32:193 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:32:343 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:32:444 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:32:595 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:32:697 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:32:848 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:32:949 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:33:100 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:33:201 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:33:351 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:33:453 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:33:603 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:33:704 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:33:851 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:33:953 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:34:104 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:34:206 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:34:356 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:34:457 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:34:607 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:34:709 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:34:859 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:34:961 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:35:111 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:35:213 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:35:363 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:35:465 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:35:616 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:35:718 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:35:867 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:35:969 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:36:120 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:36:221 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:36:372 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:36:474 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:36:624 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:36:725 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:36:876 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:36:979 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:37:127 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:37:229 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:37:379 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:37:481 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:37:632 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:37:733 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:37:883 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:37:984 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:38:136 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:38:237 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:38:388 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:38:490 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:38:639 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:38:741 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:38:891 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:38:993 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:39:143 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:39:246 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:39:396 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:39:497 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:39:647 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:39:749 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:39:899 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:40:000 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:40:152 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:40:253 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:40:404 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:40:505 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:40:655 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:40:757 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:40:907 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:41:009 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:41:160 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:41:261 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:41:411 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:41:513 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:41:663 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:41:765 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:41:915 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:42:017 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:42:167 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:42:269 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:42:419 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:42:521 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:42:671 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:42:773 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:42:924 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:43:025 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:43:175 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:43:276 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:43:423 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:43:525 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:43:675 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:43:777 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:43:927 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:44:029 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:44:180 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:44:281 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:44:432 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:44:533 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:44:684 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:44:785 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:44:935 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:45:037 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:45:187 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:45:289 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:45:441 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:45:450 Kernel/(25855:25902): carpincho 5 FREE
+[WARNING] 12:11:45:451 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:11:45:543 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:45:555 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:11:45:693 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:45:794 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:45:944 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:46:045 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:46:196 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:46:297 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:46:447 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:46:549 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:46:700 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:46:802 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:46:951 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:47:052 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:47:200 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:47:301 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:47:451 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:47:552 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:47:703 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:47:805 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:47:956 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:48:057 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:48:207 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:48:260 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:11:48:309 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:48:362 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:11:48:460 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:48:561 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:48:711 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:48:813 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:48:964 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:49:065 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:49:215 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:49:317 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:49:467 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:49:569 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:49:719 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:49:821 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:49:972 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:50:074 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:50:224 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:50:325 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:50:476 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:50:578 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:50:727 Kernel/(25855:25900): carpincho 4 WRITE
+[WARNING] 12:11:50:829 Kernel/(25855:25900): carpincho 4 READ
+[WARNING] 12:11:50:975 Kernel/(25855:25900): carpincho 4 FREE
+[WARNING] 12:11:50:980 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:51:026 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:11:51:030 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:51:066 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:11:51:168 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:11:51:176 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:51:283 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:51:386 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:51:492 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:51:594 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:51:702 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:51:805 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:51:911 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:52:014 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:52:121 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:52:224 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:52:331 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:52:434 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:52:541 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:52:643 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:52:750 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:52:852 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:52:960 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:53:062 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:53:169 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:53:271 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:53:378 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:53:481 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:53:589 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:53:692 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:53:799 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:53:872 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:11:53:901 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:53:974 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:11:54:008 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:54:110 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:54:217 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:54:319 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:54:426 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:54:529 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:54:636 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:54:739 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:54:846 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:54:948 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:55:055 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:55:158 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:55:265 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:55:368 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:55:475 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:55:527 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:11:55:578 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:55:630 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:11:55:685 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:55:788 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:55:896 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:55:999 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:56:106 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:56:208 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:56:315 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:56:418 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:56:525 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:56:627 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:56:734 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:56:836 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:56:943 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:57:046 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:57:153 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:57:256 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:57:363 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:57:466 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:57:573 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:57:676 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:57:783 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:57:886 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:57:993 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:58:096 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:58:203 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:58:305 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:58:412 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:58:515 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:58:622 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:58:725 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:58:832 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:58:935 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:59:042 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:59:144 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:59:234 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:11:59:251 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:59:336 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:11:59:354 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:59:461 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:59:564 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:59:671 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:59:773 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:11:59:880 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:11:59:983 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:00:090 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:00:192 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:00:300 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:00:402 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:00:510 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:00:612 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:00:719 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:00:822 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:00:929 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:01:032 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:01:139 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:01:241 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:01:348 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:01:451 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:01:558 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:01:661 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:01:768 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:01:871 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:01:978 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:02:082 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:02:194 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:02:299 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:02:406 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:02:509 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:02:616 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:02:718 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:02:826 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:02:929 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:02:940 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:03:036 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:03:042 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:03:139 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:03:246 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:03:348 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:03:456 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:03:559 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:03:666 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:03:768 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:03:876 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:03:978 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:04:085 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:04:188 Kernel/(25855:25904): carpincho 6 MEM_ALLOC
+[WARNING] 12:12:04:295 Kernel/(25855:25904): carpincho 6 MEM_FREE
+[WARNING] 12:12:04:398 Kernel/(25855:25904): carpincho 6 FREE
+[WARNING] 12:12:04:399 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:04:502 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:06:645 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:06:748 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:07:206 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:07:309 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:10:013 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:10:115 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:10:352 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:10:454 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:12:820 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:12:922 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:14:057 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:14:159 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:15:626 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:15:728 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:17:763 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:17:866 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:18:433 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:18:536 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:21:240 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:21:342 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:21:471 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:21:574 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:24:049 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:24:151 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:25:177 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:25:279 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:26:858 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:26:960 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:28:883 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:28:986 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:29:666 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:29:769 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:32:473 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:32:577 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:32:590 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:32:693 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:35:281 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:35:384 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:36:298 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:36:401 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:38:089 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:38:192 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:40:005 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:40:109 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:40:896 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:40:999 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:43:703 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:43:712 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:43:806 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:43:816 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:46:511 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:46:614 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:47:419 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:47:522 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:49:318 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:49:421 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:51:126 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:51:229 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:52:125 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:52:228 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:54:832 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:54:933 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:54:935 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:12:55:039 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:57:744 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:12:57:849 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:12:58:541 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:12:58:643 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:00:555 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:00:658 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:02:248 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:02:351 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:03:363 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:03:466 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:05:954 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:06:057 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:06:171 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:06:274 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:08:979 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:09:081 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:09:662 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:09:764 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:11:786 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:11:888 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:13:368 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:13:471 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:14:594 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:14:696 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:17:075 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:17:177 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:17:401 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:17:503 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:20:216 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:20:326 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:20:781 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:20:883 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:23:031 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:23:134 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:24:487 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:24:589 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:25:842 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:25:944 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:28:193 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:28:298 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:28:648 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:28:750 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:31:454 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:31:557 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:31:903 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:32:005 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:34:263 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:34:366 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:35:610 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:35:713 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:37:070 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:37:173 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:39:316 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:39:419 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:39:878 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:39:981 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:42:685 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:42:788 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:43:023 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:43:125 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:45:492 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:45:595 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:46:728 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:46:831 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:48:300 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:48:403 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:50:434 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:50:538 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:51:109 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:51:211 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:53:916 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:54:018 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:54:142 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:54:244 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:56:723 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:56:826 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:13:57:847 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:13:57:950 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:13:59:531 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:13:59:634 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:01:554 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:01:656 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:02:339 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:02:442 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:05:146 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:05:248 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:05:261 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:05:363 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:07:954 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:08:057 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:08:967 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:09:070 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:10:761 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:10:864 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:12:674 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:12:777 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:13:569 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:13:672 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:16:376 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:16:380 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:16:479 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:16:482 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:19:184 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:19:287 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:20:086 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:20:188 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:21:992 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:22:095 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:23:792 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:23:894 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:24:800 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:24:903 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:27:498 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:27:602 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:27:609 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:27:712 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:30:417 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:30:520 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:31:206 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:31:308 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:33:224 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:33:327 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:34:912 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:35:015 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:36:031 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:36:135 Kernel/(25855:25895): carpincho 2 MEM_ALLOC
+[WARNING] 12:14:38:619 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:38:722 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:38:839 Kernel/(25855:25895): carpincho 2 MEM_FREE
+[WARNING] 12:14:38:945 Kernel/(25855:25895): carpincho 2 FREE
+[WARNING] 12:14:42:326 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:42:429 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:46:034 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:46:136 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:49:740 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:49:843 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:53:447 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:53:550 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:14:57:154 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:14:57:258 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:00:861 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:00:964 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:04:567 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:04:671 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:08:275 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:08:378 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:11:983 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:12:086 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:15:690 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:15:792 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:19:397 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:19:500 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:23:103 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:23:206 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:26:810 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:26:912 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:30:516 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:30:618 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:34:222 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:34:324 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:37:928 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:38:031 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:41:634 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:41:736 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:45:340 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:45:443 Kernel/(25855:25908): carpincho 8 MEM_ALLOC
+[WARNING] 12:15:49:047 Kernel/(25855:25908): carpincho 8 MEM_FREE
+[WARNING] 12:15:49:154 Kernel/(25855:25908): carpincho 8 FREE
+[INFO] 12:15:49:318 Kernel/(25855:25908): DISCONNECT!
+[INFO] 12:15:49:322 Kernel/(25855:25906): DISCONNECT!
+[INFO] 12:15:49:323 Kernel/(25855:25904): DISCONNECT!
+[INFO] 12:15:49:324 Kernel/(25855:25902): DISCONNECT!
+[INFO] 12:15:49:324 Kernel/(25855:25900): DISCONNECT!
+[INFO] 12:15:49:327 Kernel/(25855:25899): DISCONNECT!
+[INFO] 12:15:49:328 Kernel/(25855:25895): DISCONNECT!
+[INFO] 12:15:49:329 Kernel/(25855:25894): DISCONNECT!

@@ -27,8 +27,6 @@ static void procesar_conexion(void* void_args){
     generar_conexion(&(carpincho->memoria_fd), KERNEL_CFG);
 
     uint32_t direccion_logica;
-    
-
 
     // Mientras la conexion este abierta
     op_code cop;
@@ -208,8 +206,9 @@ static void procesar_conexion(void* void_args){
                     // return EXIT_FAILURE;
                     break;
                 }
-                send_memfree_data(carpincho->memoria_fd, id_carpincho_free, direccion_logica);
+                
                 send_memfree(carpincho->memoria_fd);
+                send_memfree_data(carpincho->memoria_fd, id_carpincho_free, direccion_logica);
 
                 uint32_t result_free;
 
@@ -226,6 +225,7 @@ static void procesar_conexion(void* void_args){
                     log_error(logger, "Error al recibir data para leer");
                     break;
                 }
+                
                 send_memread(carpincho->memoria_fd, direccion_logica, size, id_memread);
 
                 uint8_t result_read;

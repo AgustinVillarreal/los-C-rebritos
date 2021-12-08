@@ -51,6 +51,9 @@ uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logi
     uint32_t nro_de_pagina = *direccion_logica / MEMORIA_CFG->TAMANIO_PAGINA ; 
     
     tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
+    if(carpincho == NULL){
+        log_warning(logger, "---------------------dfdfdfdf");
+    }
     if(nro_de_pagina > list_size(carpincho-> paginas)){
         return 0;
     }

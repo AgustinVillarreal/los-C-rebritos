@@ -97,7 +97,9 @@ uint8_t cargar_configuracion(t_config_memoria* config){
         config->FIJA = false;
     }
 
+
     log_info(logger,"CONFIGURACION CARGADA EXITOSAMENTE");
+    log_warning(logger, "fijaaaa %d", config->FIJA);
 
     config_destroy(cfg);
 

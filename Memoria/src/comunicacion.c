@@ -97,12 +97,15 @@ static void procesar_conexion(void* void_args){
             case MEM_FREE: ;
                 uint32_t error;
                 uint32_t direccion_logica;  
+                
                 if(!recv_memfree_data(cliente_socket, &id_carpincho, &direccion_logica)){            
                     log_error(logger, "Error al enviar data para allocar");
                     // return EXIT_FAILURE;
                     break;
                 }  
+                
                 uint32_t estado_free = liberar_espacio_mp(id_carpincho, &direccion_logica,swap_fd); 
+                
                 send(cliente_socket,&estado_free,sizeof(uint32_t),0);      
                 break;
             case MEM_READ: ; 

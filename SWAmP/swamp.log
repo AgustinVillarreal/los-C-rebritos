@@ -3397,3 +3397,503 @@
 [INFO] 11:08:09:147 SWAmP/(16883:16883): Se elimino el carpincho 1 correctamente
 [INFO] 11:08:12:115 SWAmP/(16883:16883): DISCONNECT!
 [INFO] 11:08:12:117 SWAmP/(16883:16883): Finalizando programa...
+[INFO] 11:30:03:877 SWAmP/(20241:20241): Archivo de configuracion cargado correctamente
+[INFO] 11:30:03:951 SWAmP/(20241:20241): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:30:03:963 SWAmP/(20241:20241): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:30:03:977 SWAmP/(20241:20241): ------2---------
+
+[INFO] 11:30:03:980 SWAmP/(20241:20241): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:30:12:627 SWAmP/(20241:20241): Cliente conectado (a SWAmP)
+
+[INFO] 11:30:12:635 SWAmP/(20241:20241): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:30:33:873 SWAmP/(20241:20241): id: 4 cant 1 asig fija 0
+[WARNING] 11:30:33:875 SWAmP/(20241:20241): Vuelta 0
+[WARNING] 11:30:33:887 SWAmP/(20241:20241): paginas_libres 256
+[WARNING] 11:30:33:891 SWAmP/(20241:20241): aaa: 1
+[INFO] 11:30:33:896 SWAmP/(20241:20241): La solicitud se realizo correctamente
+[WARNING] 11:30:37:212 SWAmP/(20241:20241): id: 1 cant 1 asig fija 0
+[WARNING] 11:30:37:213 SWAmP/(20241:20241): Vuelta 0
+[WARNING] 11:30:37:214 SWAmP/(20241:20241): paginas_libres 255
+[WARNING] 11:30:37:215 SWAmP/(20241:20241): aaa: 1
+[INFO] 11:30:37:216 SWAmP/(20241:20241): La solicitud se realizo correctamente
+[WARNING] 11:30:38:380 SWAmP/(20241:20241): id: 4 cant 1 asig fija 0
+[WARNING] 11:30:38:382 SWAmP/(20241:20241): aaa: 1
+[INFO] 11:30:38:385 SWAmP/(20241:20241): La solicitud se realizo correctamente
+[WARNING] 11:30:39:429 SWAmP/(20241:20241): id: 2 cant 1 asig fija 0
+[WARNING] 11:30:39:429 SWAmP/(20241:20241): Vuelta 0
+[WARNING] 11:30:39:430 SWAmP/(20241:20241): paginas_libres 254
+[WARNING] 11:30:39:433 SWAmP/(20241:20241): aaa: 1
+[INFO] 11:30:39:434 SWAmP/(20241:20241): La solicitud se realizo correctamente
+[INFO] 11:30:39:436 SWAmP/(20241:20241): Se elimino el carpincho 6 correctamente
+[WARNING] 11:30:40:438 SWAmP/(20241:20241): id: 5 cant 1 asig fija 0
+[WARNING] 11:30:40:438 SWAmP/(20241:20241): Vuelta 0
+[WARNING] 11:30:40:439 SWAmP/(20241:20241): paginas_libres 254
+[WARNING] 11:30:40:440 SWAmP/(20241:20241): aaa: 1
+[INFO] 11:30:40:441 SWAmP/(20241:20241): La solicitud se realizo correctamente
+[WARNING] 11:30:41:445 SWAmP/(20241:20241): id: 7 cant 1 asig fija 0
+[WARNING] 11:30:41:446 SWAmP/(20241:20241): Vuelta 0
+[WARNING] 11:30:41:446 SWAmP/(20241:20241): paginas_libres 253
+[WARNING] 11:30:41:447 SWAmP/(20241:20241): aaa: 1
+[INFO] 11:30:41:448 SWAmP/(20241:20241): La solicitud se realizo correctamente
+[INFO] 11:30:57:308 SWAmP/(20241:20241): Se elimino el carpincho 3 correctamente
+[INFO] 11:30:58:415 SWAmP/(20241:20241): Se elimino el carpincho 1 correctamente
+[INFO] 11:31:10:326 SWAmP/(20241:20241): DISCONNECT!
+[INFO] 11:31:10:328 SWAmP/(20241:20241): Finalizando programa...
+[INFO] 11:31:13:080 SWAmP/(20587:20587): Archivo de configuracion cargado correctamente
+[INFO] 11:31:13:128 SWAmP/(20587:20587): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:31:13:136 SWAmP/(20587:20587): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:31:13:145 SWAmP/(20587:20587): ------2---------
+
+[INFO] 11:31:13:148 SWAmP/(20587:20587): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:31:14:664 SWAmP/(20587:20587): Cliente conectado (a SWAmP)
+
+[INFO] 11:31:14:679 SWAmP/(20587:20587): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:31:19:644 SWAmP/(20587:20587): id: 3 cant 1 asig fija 0
+[WARNING] 11:31:19:651 SWAmP/(20587:20587): Vuelta 0
+[WARNING] 11:31:19:659 SWAmP/(20587:20587): paginas_libres 256
+[WARNING] 11:31:19:671 SWAmP/(20587:20587): aaa: 1
+[INFO] 11:31:19:676 SWAmP/(20587:20587): La solicitud se realizo correctamente
+[WARNING] 11:31:20:777 SWAmP/(20587:20587): id: 1 cant 1 asig fija 0
+[WARNING] 11:31:20:778 SWAmP/(20587:20587): Vuelta 0
+[WARNING] 11:31:20:780 SWAmP/(20587:20587): paginas_libres 255
+[WARNING] 11:31:20:781 SWAmP/(20587:20587): aaa: 1
+[INFO] 11:31:20:782 SWAmP/(20587:20587): La solicitud se realizo correctamente
+[INFO] 11:31:20:783 SWAmP/(20587:20587): Se elimino el carpincho 4 correctamente
+[WARNING] 11:31:23:053 SWAmP/(20587:20587): id: 2 cant 1 asig fija 0
+[WARNING] 11:31:23:053 SWAmP/(20587:20587): Vuelta 0
+[WARNING] 11:31:23:054 SWAmP/(20587:20587): paginas_libres 255
+[WARNING] 11:31:23:055 SWAmP/(20587:20587): aaa: 1
+[INFO] 11:31:23:056 SWAmP/(20587:20587): La solicitud se realizo correctamente
+[WARNING] 11:31:24:834 SWAmP/(20587:20587): id: 6 cant 1 asig fija 0
+[WARNING] 11:31:24:834 SWAmP/(20587:20587): Vuelta 0
+[WARNING] 11:31:24:835 SWAmP/(20587:20587): paginas_libres 254
+[WARNING] 11:31:24:837 SWAmP/(20587:20587): aaa: 1
+[INFO] 11:31:24:837 SWAmP/(20587:20587): La solicitud se realizo correctamente
+[WARNING] 11:31:25:881 SWAmP/(20587:20587): id: 5 cant 1 asig fija 0
+[WARNING] 11:31:25:881 SWAmP/(20587:20587): Vuelta 0
+[WARNING] 11:31:25:882 SWAmP/(20587:20587): paginas_libres 254
+[WARNING] 11:31:25:883 SWAmP/(20587:20587): aaa: 1
+[INFO] 11:31:25:883 SWAmP/(20587:20587): La solicitud se realizo correctamente
+[WARNING] 11:31:26:887 SWAmP/(20587:20587): id: 1 cant 1 asig fija 0
+[WARNING] 11:31:26:893 SWAmP/(20587:20587): aaa: 1
+[INFO] 11:31:26:893 SWAmP/(20587:20587): La solicitud se realizo correctamente
+[INFO] 11:31:43:118 SWAmP/(20587:20587): DISCONNECT!
+[INFO] 11:31:43:119 SWAmP/(20587:20587): Finalizando programa...
+[INFO] 11:38:24:650 SWAmP/(21315:21315): Archivo de configuracion cargado correctamente
+[INFO] 11:38:24:697 SWAmP/(21315:21315): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:38:24:705 SWAmP/(21315:21315): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:38:24:715 SWAmP/(21315:21315): ------2---------
+
+[INFO] 11:38:24:717 SWAmP/(21315:21315): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:38:26:073 SWAmP/(21315:21315): Cliente conectado (a SWAmP)
+
+[INFO] 11:38:26:087 SWAmP/(21315:21315): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:38:29:579 SWAmP/(21315:21315): id: 1 cant 1 asig fija 0
+[WARNING] 11:38:29:582 SWAmP/(21315:21315): Vuelta 0
+[WARNING] 11:38:29:585 SWAmP/(21315:21315): paginas_libres 256
+[WARNING] 11:38:29:595 SWAmP/(21315:21315): aaa: 1
+[INFO] 11:38:29:595 SWAmP/(21315:21315): La solicitud se realizo correctamente
+[INFO] 11:39:34:109 SWAmP/(21315:21315): Se elimino el carpincho 1 correctamente
+[INFO] 11:39:53:697 SWAmP/(21315:21315): DISCONNECT!
+[INFO] 11:39:53:698 SWAmP/(21315:21315): Finalizando programa...
+[INFO] 11:39:56:185 SWAmP/(21587:21587): Archivo de configuracion cargado correctamente
+[INFO] 11:39:56:232 SWAmP/(21587:21587): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:39:56:238 SWAmP/(21587:21587): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:39:56:251 SWAmP/(21587:21587): ------2---------
+
+[INFO] 11:39:56:255 SWAmP/(21587:21587): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:39:57:747 SWAmP/(21587:21587): Cliente conectado (a SWAmP)
+
+[INFO] 11:39:57:759 SWAmP/(21587:21587): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:40:01:614 SWAmP/(21587:21587): id: 1 cant 1 asig fija 0
+[WARNING] 11:40:01:617 SWAmP/(21587:21587): Vuelta 0
+[WARNING] 11:40:01:620 SWAmP/(21587:21587): paginas_libres 256
+[WARNING] 11:40:01:626 SWAmP/(21587:21587): aaa: 1
+[INFO] 11:40:01:634 SWAmP/(21587:21587): La solicitud se realizo correctamente
+[INFO] 11:40:25:236 SWAmP/(21587:21587): Se elimino el carpincho 2 correctamente
+[INFO] 11:40:48:400 SWAmP/(21587:21587): DISCONNECT!
+[INFO] 11:40:48:401 SWAmP/(21587:21587): Finalizando programa...
+[INFO] 11:41:12:118 SWAmP/(21843:21843): Archivo de configuracion cargado correctamente
+[INFO] 11:41:12:169 SWAmP/(21843:21843): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:41:12:180 SWAmP/(21843:21843): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:41:12:190 SWAmP/(21843:21843): ------2---------
+
+[INFO] 11:41:12:196 SWAmP/(21843:21843): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:41:13:771 SWAmP/(21843:21843): Cliente conectado (a SWAmP)
+
+[INFO] 11:41:13:787 SWAmP/(21843:21843): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:41:18:154 SWAmP/(21843:21843): id: 2 cant 1 asig fija 0
+[WARNING] 11:41:18:156 SWAmP/(21843:21843): Vuelta 0
+[WARNING] 11:41:18:174 SWAmP/(21843:21843): paginas_libres 256
+[WARNING] 11:41:18:185 SWAmP/(21843:21843): aaa: 1
+[INFO] 11:41:18:186 SWAmP/(21843:21843): La solicitud se realizo correctamente
+[WARNING] 11:41:19:298 SWAmP/(21843:21843): id: 5 cant 1 asig fija 0
+[WARNING] 11:41:19:299 SWAmP/(21843:21843): Vuelta 0
+[WARNING] 11:41:19:301 SWAmP/(21843:21843): paginas_libres 255
+[WARNING] 11:41:19:305 SWAmP/(21843:21843): aaa: 1
+[INFO] 11:41:19:305 SWAmP/(21843:21843): La solicitud se realizo correctamente
+[INFO] 11:41:19:307 SWAmP/(21843:21843): Se elimino el carpincho 6 correctamente
+[WARNING] 11:41:22:689 SWAmP/(21843:21843): id: 2 cant 1 asig fija 0
+[WARNING] 11:41:22:691 SWAmP/(21843:21843): aaa: 1
+[INFO] 11:41:22:692 SWAmP/(21843:21843): La solicitud se realizo correctamente
+[WARNING] 11:41:23:737 SWAmP/(21843:21843): id: 4 cant 1 asig fija 0
+[WARNING] 11:41:23:737 SWAmP/(21843:21843): Vuelta 0
+[WARNING] 11:41:23:738 SWAmP/(21843:21843): paginas_libres 254
+[WARNING] 11:41:23:740 SWAmP/(21843:21843): aaa: 1
+[INFO] 11:41:23:740 SWAmP/(21843:21843): La solicitud se realizo correctamente
+[WARNING] 11:41:24:741 SWAmP/(21843:21843): id: 3 cant 1 asig fija 0
+[WARNING] 11:41:24:742 SWAmP/(21843:21843): Vuelta 0
+[WARNING] 11:41:24:743 SWAmP/(21843:21843): paginas_libres 254
+[WARNING] 11:41:24:746 SWAmP/(21843:21843): aaa: 1
+[INFO] 11:41:24:746 SWAmP/(21843:21843): La solicitud se realizo correctamente
+[WARNING] 11:41:25:750 SWAmP/(21843:21843): id: 1 cant 1 asig fija 0
+[WARNING] 11:41:25:751 SWAmP/(21843:21843): Vuelta 0
+[WARNING] 11:41:25:751 SWAmP/(21843:21843): paginas_libres 253
+[WARNING] 11:41:25:753 SWAmP/(21843:21843): aaa: 1
+[INFO] 11:41:25:753 SWAmP/(21843:21843): La solicitud se realizo correctamente
+[INFO] 11:41:29:610 SWAmP/(21843:21843): DISCONNECT!
+[INFO] 11:41:29:611 SWAmP/(21843:21843): Finalizando programa...
+[INFO] 11:43:16:400 SWAmP/(22195:22195): Archivo de configuracion cargado correctamente
+[INFO] 11:43:16:450 SWAmP/(22195:22195): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:43:16:457 SWAmP/(22195:22195): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:43:16:466 SWAmP/(22195:22195): ------2---------
+
+[INFO] 11:43:16:469 SWAmP/(22195:22195): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:43:17:951 SWAmP/(22195:22195): Cliente conectado (a SWAmP)
+
+[INFO] 11:43:17:959 SWAmP/(22195:22195): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:43:21:932 SWAmP/(22195:22195): id: 2 cant 1 asig fija 0
+[WARNING] 11:43:21:934 SWAmP/(22195:22195): Vuelta 0
+[WARNING] 11:43:21:938 SWAmP/(22195:22195): paginas_libres 256
+[WARNING] 11:43:21:966 SWAmP/(22195:22195): aaa: 1
+[INFO] 11:43:21:967 SWAmP/(22195:22195): La solicitud se realizo correctamente
+[WARNING] 11:43:23:048 SWAmP/(22195:22195): id: 5 cant 1 asig fija 0
+[WARNING] 11:43:23:050 SWAmP/(22195:22195): Vuelta 0
+[WARNING] 11:43:23:051 SWAmP/(22195:22195): paginas_libres 255
+[WARNING] 11:43:23:058 SWAmP/(22195:22195): aaa: 1
+[INFO] 11:43:23:058 SWAmP/(22195:22195): La solicitud se realizo correctamente
+[INFO] 11:43:23:067 SWAmP/(22195:22195): Se elimino el carpincho 3 correctamente
+[WARNING] 11:43:26:441 SWAmP/(22195:22195): id: 2 cant 1 asig fija 0
+[WARNING] 11:43:26:443 SWAmP/(22195:22195): aaa: 1
+[INFO] 11:43:26:446 SWAmP/(22195:22195): La solicitud se realizo correctamente
+[WARNING] 11:43:27:489 SWAmP/(22195:22195): id: 6 cant 1 asig fija 0
+[WARNING] 11:43:27:489 SWAmP/(22195:22195): Vuelta 0
+[WARNING] 11:43:27:490 SWAmP/(22195:22195): paginas_libres 254
+[WARNING] 11:43:27:494 SWAmP/(22195:22195): aaa: 1
+[INFO] 11:43:27:494 SWAmP/(22195:22195): La solicitud se realizo correctamente
+[WARNING] 11:43:28:496 SWAmP/(22195:22195): id: 1 cant 1 asig fija 0
+[WARNING] 11:43:28:496 SWAmP/(22195:22195): Vuelta 0
+[WARNING] 11:43:28:497 SWAmP/(22195:22195): paginas_libres 254
+[WARNING] 11:43:28:498 SWAmP/(22195:22195): aaa: 1
+[INFO] 11:43:28:498 SWAmP/(22195:22195): La solicitud se realizo correctamente
+[WARNING] 11:43:30:266 SWAmP/(22195:22195): id: 4 cant 1 asig fija 0
+[WARNING] 11:43:30:267 SWAmP/(22195:22195): Vuelta 0
+[WARNING] 11:43:30:267 SWAmP/(22195:22195): paginas_libres 253
+[WARNING] 11:43:30:269 SWAmP/(22195:22195): aaa: 1
+[INFO] 11:43:30:269 SWAmP/(22195:22195): La solicitud se realizo correctamente
+[INFO] 11:43:46:184 SWAmP/(22195:22195): Se elimino el carpincho 7 correctamente
+[INFO] 11:43:56:382 SWAmP/(22195:22195): DISCONNECT!
+[INFO] 11:43:56:383 SWAmP/(22195:22195): Finalizando programa...
+[INFO] 11:44:00:370 SWAmP/(22425:22425): Archivo de configuracion cargado correctamente
+[INFO] 11:44:00:422 SWAmP/(22425:22425): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:44:00:430 SWAmP/(22425:22425): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:44:00:439 SWAmP/(22425:22425): ------2---------
+
+[INFO] 11:44:00:442 SWAmP/(22425:22425): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:44:02:306 SWAmP/(22425:22425): Cliente conectado (a SWAmP)
+
+[INFO] 11:44:02:314 SWAmP/(22425:22425): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:44:06:702 SWAmP/(22425:22425): id: 3 cant 1 asig fija 0
+[WARNING] 11:44:06:704 SWAmP/(22425:22425): Vuelta 0
+[WARNING] 11:44:06:727 SWAmP/(22425:22425): paginas_libres 256
+[WARNING] 11:44:06:734 SWAmP/(22425:22425): aaa: 1
+[INFO] 11:44:06:735 SWAmP/(22425:22425): La solicitud se realizo correctamente
+[WARNING] 11:44:07:816 SWAmP/(22425:22425): id: 6 cant 1 asig fija 0
+[WARNING] 11:44:07:817 SWAmP/(22425:22425): Vuelta 0
+[WARNING] 11:44:07:819 SWAmP/(22425:22425): paginas_libres 255
+[WARNING] 11:44:07:824 SWAmP/(22425:22425): aaa: 1
+[INFO] 11:44:07:824 SWAmP/(22425:22425): La solicitud se realizo correctamente
+[INFO] 11:44:07:835 SWAmP/(22425:22425): Se elimino el carpincho 1 correctamente
+[WARNING] 11:44:11:205 SWAmP/(22425:22425): id: 3 cant 1 asig fija 0
+[WARNING] 11:44:11:208 SWAmP/(22425:22425): aaa: 1
+[INFO] 11:44:11:212 SWAmP/(22425:22425): La solicitud se realizo correctamente
+[WARNING] 11:44:12:253 SWAmP/(22425:22425): id: 5 cant 1 asig fija 0
+[WARNING] 11:44:12:254 SWAmP/(22425:22425): Vuelta 0
+[WARNING] 11:44:12:254 SWAmP/(22425:22425): paginas_libres 254
+[WARNING] 11:44:12:257 SWAmP/(22425:22425): aaa: 1
+[INFO] 11:44:12:257 SWAmP/(22425:22425): La solicitud se realizo correctamente
+[WARNING] 11:44:13:259 SWAmP/(22425:22425): id: 2 cant 1 asig fija 0
+[WARNING] 11:44:13:259 SWAmP/(22425:22425): Vuelta 0
+[WARNING] 11:44:13:260 SWAmP/(22425:22425): paginas_libres 254
+[WARNING] 11:44:13:262 SWAmP/(22425:22425): aaa: 1
+[INFO] 11:44:13:262 SWAmP/(22425:22425): La solicitud se realizo correctamente
+[WARNING] 11:44:15:206 SWAmP/(22425:22425): id: 7 cant 1 asig fija 0
+[WARNING] 11:44:15:207 SWAmP/(22425:22425): Vuelta 0
+[WARNING] 11:44:15:207 SWAmP/(22425:22425): paginas_libres 253
+[WARNING] 11:44:15:208 SWAmP/(22425:22425): aaa: 1
+[INFO] 11:44:15:209 SWAmP/(22425:22425): La solicitud se realizo correctamente
+[INFO] 11:44:30:232 SWAmP/(22425:22425): Se elimino el carpincho 4 correctamente
+[INFO] 11:45:00:387 SWAmP/(22425:22425): DISCONNECT!
+[INFO] 11:45:00:389 SWAmP/(22425:22425): Finalizando programa...
+[INFO] 11:45:16:080 SWAmP/(22717:22717): Archivo de configuracion cargado correctamente
+[INFO] 11:45:16:138 SWAmP/(22717:22717): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:45:16:155 SWAmP/(22717:22717): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:45:16:168 SWAmP/(22717:22717): ------2---------
+
+[INFO] 11:45:16:171 SWAmP/(22717:22717): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:45:29:246 SWAmP/(22717:22717): Cliente conectado (a SWAmP)
+
+[INFO] 11:45:29:265 SWAmP/(22717:22717): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:45:33:887 SWAmP/(22717:22717): id: 1 cant 1 asig fija 0
+[WARNING] 11:45:33:890 SWAmP/(22717:22717): Vuelta 0
+[WARNING] 11:45:33:901 SWAmP/(22717:22717): paginas_libres 256
+[WARNING] 11:45:33:930 SWAmP/(22717:22717): aaa: 1
+[INFO] 11:45:33:931 SWAmP/(22717:22717): La solicitud se realizo correctamente
+[INFO] 11:45:34:997 SWAmP/(22717:22717): Se elimino el carpincho 4 correctamente
+[WARNING] 11:45:37:315 SWAmP/(22717:22717): id: 3 cant 1 asig fija 0
+[WARNING] 11:45:37:316 SWAmP/(22717:22717): Vuelta 0
+[WARNING] 11:45:37:317 SWAmP/(22717:22717): paginas_libres 255
+[WARNING] 11:45:37:319 SWAmP/(22717:22717): aaa: 1
+[INFO] 11:45:37:319 SWAmP/(22717:22717): La solicitud se realizo correctamente
+[WARNING] 11:45:38:479 SWAmP/(22717:22717): id: 1 cant 1 asig fija 0
+[WARNING] 11:45:38:481 SWAmP/(22717:22717): aaa: 1
+[INFO] 11:45:38:484 SWAmP/(22717:22717): La solicitud se realizo correctamente
+[WARNING] 11:45:39:529 SWAmP/(22717:22717): id: 6 cant 1 asig fija 0
+[WARNING] 11:45:39:529 SWAmP/(22717:22717): Vuelta 0
+[WARNING] 11:45:39:530 SWAmP/(22717:22717): paginas_libres 254
+[WARNING] 11:45:39:532 SWAmP/(22717:22717): aaa: 1
+[INFO] 11:45:39:533 SWAmP/(22717:22717): La solicitud se realizo correctamente
+[WARNING] 11:45:40:535 SWAmP/(22717:22717): id: 7 cant 1 asig fija 0
+[WARNING] 11:45:40:536 SWAmP/(22717:22717): Vuelta 0
+[WARNING] 11:45:40:536 SWAmP/(22717:22717): paginas_libres 254
+[WARNING] 11:45:40:538 SWAmP/(22717:22717): aaa: 1
+[INFO] 11:45:40:538 SWAmP/(22717:22717): La solicitud se realizo correctamente
+[WARNING] 11:45:41:542 SWAmP/(22717:22717): id: 5 cant 1 asig fija 0
+[WARNING] 11:45:41:543 SWAmP/(22717:22717): Vuelta 0
+[WARNING] 11:45:41:543 SWAmP/(22717:22717): paginas_libres 253
+[WARNING] 11:45:41:544 SWAmP/(22717:22717): aaa: 1
+[INFO] 11:45:41:545 SWAmP/(22717:22717): La solicitud se realizo correctamente
+[INFO] 11:48:31:107 SWAmP/(22717:22717): DISCONNECT!
+[INFO] 11:48:31:108 SWAmP/(22717:22717): Finalizando programa...
+[INFO] 11:48:33:878 SWAmP/(23158:23158): Archivo de configuracion cargado correctamente
+[INFO] 11:48:33:927 SWAmP/(23158:23158): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:48:33:934 SWAmP/(23158:23158): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:48:33:943 SWAmP/(23158:23158): ------2---------
+
+[INFO] 11:48:33:945 SWAmP/(23158:23158): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:48:35:443 SWAmP/(23158:23158): Cliente conectado (a SWAmP)
+
+[INFO] 11:48:35:451 SWAmP/(23158:23158): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:48:39:539 SWAmP/(23158:23158): id: 1 cant 1 asig fija 0
+[WARNING] 11:48:39:550 SWAmP/(23158:23158): Vuelta 0
+[WARNING] 11:48:39:553 SWAmP/(23158:23158): paginas_libres 256
+[WARNING] 11:48:39:586 SWAmP/(23158:23158): aaa: 1
+[INFO] 11:48:39:588 SWAmP/(23158:23158): La solicitud se realizo correctamente
+[WARNING] 11:48:40:660 SWAmP/(23158:23158): id: 4 cant 1 asig fija 0
+[WARNING] 11:48:40:660 SWAmP/(23158:23158): Vuelta 0
+[WARNING] 11:48:40:663 SWAmP/(23158:23158): paginas_libres 255
+[WARNING] 11:48:40:664 SWAmP/(23158:23158): aaa: 1
+[INFO] 11:48:40:665 SWAmP/(23158:23158): La solicitud se realizo correctamente
+[WARNING] 11:48:44:156 SWAmP/(23158:23158): id: 1 cant 1 asig fija 0
+[WARNING] 11:48:44:162 SWAmP/(23158:23158): aaa: 1
+[INFO] 11:48:44:162 SWAmP/(23158:23158): La solicitud se realizo correctamente
+[WARNING] 11:48:45:207 SWAmP/(23158:23158): id: 5 cant 1 asig fija 0
+[WARNING] 11:48:45:208 SWAmP/(23158:23158): Vuelta 0
+[WARNING] 11:48:45:209 SWAmP/(23158:23158): paginas_libres 254
+[WARNING] 11:48:45:212 SWAmP/(23158:23158): aaa: 1
+[INFO] 11:48:45:212 SWAmP/(23158:23158): La solicitud se realizo correctamente
+[WARNING] 11:48:46:214 SWAmP/(23158:23158): id: 2 cant 1 asig fija 0
+[WARNING] 11:48:46:215 SWAmP/(23158:23158): Vuelta 0
+[WARNING] 11:48:46:215 SWAmP/(23158:23158): paginas_libres 254
+[WARNING] 11:48:46:216 SWAmP/(23158:23158): aaa: 1
+[INFO] 11:48:46:216 SWAmP/(23158:23158): La solicitud se realizo correctamente
+[INFO] 11:48:48:687 SWAmP/(23158:23158): Se elimino el carpincho 6 correctamente
+[WARNING] 11:48:48:891 SWAmP/(23158:23158): id: 7 cant 1 asig fija 0
+[WARNING] 11:48:48:891 SWAmP/(23158:23158): Vuelta 0
+[WARNING] 11:48:48:892 SWAmP/(23158:23158): paginas_libres 253
+[WARNING] 11:48:48:893 SWAmP/(23158:23158): aaa: 1
+[INFO] 11:48:48:893 SWAmP/(23158:23158): La solicitud se realizo correctamente
+[INFO] 11:49:03:184 SWAmP/(23158:23158): Se elimino el carpincho 3 correctamente
+[INFO] 11:54:59:324 SWAmP/(23158:23158): DISCONNECT!
+[INFO] 11:54:59:325 SWAmP/(23158:23158): Finalizando programa...
+[INFO] 11:55:02:444 SWAmP/(23848:23848): Archivo de configuracion cargado correctamente
+[INFO] 11:55:02:491 SWAmP/(23848:23848): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:55:02:500 SWAmP/(23848:23848): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:55:02:510 SWAmP/(23848:23848): ------2---------
+
+[INFO] 11:55:02:516 SWAmP/(23848:23848): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:55:04:110 SWAmP/(23848:23848): Cliente conectado (a SWAmP)
+
+[INFO] 11:55:04:119 SWAmP/(23848:23848): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 11:55:08:566 SWAmP/(23848:23848): DISCONNECT!
+[INFO] 11:55:08:567 SWAmP/(23848:23848): Finalizando programa...
+[INFO] 11:55:43:483 SWAmP/(23986:23986): Archivo de configuracion cargado correctamente
+[INFO] 11:55:43:530 SWAmP/(23986:23986): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:55:43:537 SWAmP/(23986:23986): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 11:55:43:546 SWAmP/(23986:23986): ------2---------
+
+[INFO] 11:55:43:549 SWAmP/(23986:23986): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:55:44:989 SWAmP/(23986:23986): Cliente conectado (a SWAmP)
+
+[INFO] 11:55:44:998 SWAmP/(23986:23986): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:55:49:795 SWAmP/(23986:23986): id: 5 cant 1 asig fija 0
+[WARNING] 11:55:49:796 SWAmP/(23986:23986): Vuelta 0
+[WARNING] 11:55:49:819 SWAmP/(23986:23986): paginas_libres 256
+[WARNING] 11:55:49:821 SWAmP/(23986:23986): aaa: 1
+[INFO] 11:55:49:822 SWAmP/(23986:23986): La solicitud se realizo correctamente
+[INFO] 11:55:50:903 SWAmP/(23986:23986): Se elimino el carpincho 4 correctamente
+[WARNING] 11:55:54:497 SWAmP/(23986:23986): id: 6 cant 1 asig fija 0
+[WARNING] 11:55:54:498 SWAmP/(23986:23986): Vuelta 0
+[WARNING] 11:55:54:499 SWAmP/(23986:23986): paginas_libres 255
+[WARNING] 11:55:54:501 SWAmP/(23986:23986): aaa: 1
+[INFO] 11:55:54:501 SWAmP/(23986:23986): La solicitud se realizo correctamente
+[WARNING] 11:55:55:545 SWAmP/(23986:23986): id: 2 cant 1 asig fija 0
+[WARNING] 11:55:55:545 SWAmP/(23986:23986): Vuelta 0
+[WARNING] 11:55:55:546 SWAmP/(23986:23986): paginas_libres 255
+[WARNING] 11:55:55:557 SWAmP/(23986:23986): aaa: 1
+[INFO] 11:55:55:558 SWAmP/(23986:23986): La solicitud se realizo correctamente
+[WARNING] 11:55:56:560 SWAmP/(23986:23986): id: 1 cant 1 asig fija 0
+[WARNING] 11:55:56:560 SWAmP/(23986:23986): Vuelta 0
+[WARNING] 11:55:56:561 SWAmP/(23986:23986): paginas_libres 254
+[WARNING] 11:55:56:562 SWAmP/(23986:23986): aaa: 1
+[INFO] 11:55:56:562 SWAmP/(23986:23986): La solicitud se realizo correctamente
+[INFO] 12:00:30:936 SWAmP/(23986:23986): DISCONNECT!
+[INFO] 12:00:30:938 SWAmP/(23986:23986): Finalizando programa...
+[INFO] 12:01:07:606 SWAmP/(24610:24610): Archivo de configuracion cargado correctamente
+[INFO] 12:01:07:650 SWAmP/(24610:24610): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 12:01:07:657 SWAmP/(24610:24610): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 12:01:07:666 SWAmP/(24610:24610): ------2---------
+
+[INFO] 12:01:07:668 SWAmP/(24610:24610): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 12:01:09:065 SWAmP/(24610:24610): Cliente conectado (a SWAmP)
+
+[INFO] 12:01:09:074 SWAmP/(24610:24610): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 12:01:19:862 SWAmP/(24610:24610): id: 1 cant 1 asig fija 0
+[WARNING] 12:01:19:868 SWAmP/(24610:24610): Vuelta 0
+[WARNING] 12:01:19:880 SWAmP/(24610:24610): paginas_libres 256
+[WARNING] 12:01:19:906 SWAmP/(24610:24610): aaa: 1
+[INFO] 12:01:19:906 SWAmP/(24610:24610): La solicitud se realizo correctamente
+[WARNING] 12:01:21:019 SWAmP/(24610:24610): id: 4 cant 1 asig fija 0
+[WARNING] 12:01:21:020 SWAmP/(24610:24610): Vuelta 0
+[WARNING] 12:01:21:021 SWAmP/(24610:24610): paginas_libres 255
+[WARNING] 12:01:21:023 SWAmP/(24610:24610): aaa: 1
+[INFO] 12:01:21:024 SWAmP/(24610:24610): La solicitud se realizo correctamente
+[WARNING] 12:01:24:476 SWAmP/(24610:24610): id: 1 cant 1 asig fija 0
+[WARNING] 12:01:24:479 SWAmP/(24610:24610): aaa: 1
+[INFO] 12:01:24:481 SWAmP/(24610:24610): La solicitud se realizo correctamente
+[WARNING] 12:01:29:302 SWAmP/(24610:24610): id: 2 cant 1 asig fija 0
+[WARNING] 12:01:29:302 SWAmP/(24610:24610): Vuelta 0
+[WARNING] 12:01:29:303 SWAmP/(24610:24610): paginas_libres 254
+[WARNING] 12:01:29:303 SWAmP/(24610:24610): aaa: 1
+[INFO] 12:01:29:304 SWAmP/(24610:24610): La solicitud se realizo correctamente
+[INFO] 12:01:31:513 SWAmP/(24610:24610): Se elimino el carpincho 6 correctamente
+[INFO] 12:01:50:936 SWAmP/(24610:24610): DISCONNECT!
+[INFO] 12:01:50:937 SWAmP/(24610:24610): Finalizando programa...
+[INFO] 12:04:32:464 SWAmP/(25130:25130): Archivo de configuracion cargado correctamente
+[INFO] 12:04:32:510 SWAmP/(25130:25130): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 12:04:32:517 SWAmP/(25130:25130): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 12:04:32:527 SWAmP/(25130:25130): ------2---------
+
+[INFO] 12:04:32:529 SWAmP/(25130:25130): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 12:04:34:036 SWAmP/(25130:25130): Cliente conectado (a SWAmP)
+
+[INFO] 12:04:34:053 SWAmP/(25130:25130): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 12:04:39:015 SWAmP/(25130:25130): id: 1 cant 1 asig fija 0
+[WARNING] 12:04:39:017 SWAmP/(25130:25130): Vuelta 0
+[WARNING] 12:04:39:052 SWAmP/(25130:25130): paginas_libres 256
+[WARNING] 12:04:39:071 SWAmP/(25130:25130): aaa: 1
+[INFO] 12:04:39:075 SWAmP/(25130:25130): La solicitud se realizo correctamente
+[WARNING] 12:04:40:131 SWAmP/(25130:25130): id: 4 cant 1 asig fija 0
+[WARNING] 12:04:40:132 SWAmP/(25130:25130): Vuelta 0
+[WARNING] 12:04:40:134 SWAmP/(25130:25130): paginas_libres 255
+[WARNING] 12:04:40:136 SWAmP/(25130:25130): aaa: 1
+[INFO] 12:04:40:136 SWAmP/(25130:25130): La solicitud se realizo correctamente
+[WARNING] 12:04:43:588 SWAmP/(25130:25130): id: 1 cant 1 asig fija 0
+[WARNING] 12:04:43:591 SWAmP/(25130:25130): aaa: 1
+[INFO] 12:04:43:593 SWAmP/(25130:25130): La solicitud se realizo correctamente
+[WARNING] 12:04:48:413 SWAmP/(25130:25130): id: 2 cant 1 asig fija 0
+[WARNING] 12:04:48:413 SWAmP/(25130:25130): Vuelta 0
+[WARNING] 12:04:48:414 SWAmP/(25130:25130): paginas_libres 254
+[WARNING] 12:04:48:415 SWAmP/(25130:25130): aaa: 1
+[INFO] 12:04:48:416 SWAmP/(25130:25130): La solicitud se realizo correctamente
+[WARNING] 12:04:49:955 SWAmP/(25130:25130): id: 6 cant 1 asig fija 0
+[WARNING] 12:04:49:955 SWAmP/(25130:25130): Vuelta 0
+[WARNING] 12:04:49:956 SWAmP/(25130:25130): paginas_libres 254
+[WARNING] 12:04:49:956 SWAmP/(25130:25130): aaa: 1
+[INFO] 12:04:49:957 SWAmP/(25130:25130): La solicitud se realizo correctamente
+[INFO] 12:05:02:627 SWAmP/(25130:25130): Se elimino el carpincho 3 correctamente
+[WARNING] 12:05:03:835 SWAmP/(25130:25130): id: 7 cant 1 asig fija 0
+[WARNING] 12:05:03:835 SWAmP/(25130:25130): Vuelta 0
+[WARNING] 12:05:03:836 SWAmP/(25130:25130): paginas_libres 253
+[WARNING] 12:05:03:836 SWAmP/(25130:25130): aaa: 1
+[INFO] 12:05:03:837 SWAmP/(25130:25130): La solicitud se realizo correctamente
+[INFO] 12:05:17:302 SWAmP/(25130:25130): Se elimino el carpincho 7 correctamente
+[INFO] 12:05:18:402 SWAmP/(25130:25130): Se elimino el carpincho 2 correctamente
+[INFO] 12:05:39:121 SWAmP/(25130:25130): Se elimino el carpincho 5 correctamente
+[INFO] 12:05:44:702 SWAmP/(25130:25130): Se elimino el carpincho 4 correctamente
+[INFO] 12:05:45:403 SWAmP/(25130:25130): Se elimino el carpincho 8 correctamente
+[INFO] 12:08:10:884 SWAmP/(25130:25130): Se elimino el carpincho 1 correctamente
+[INFO] 12:09:01:432 SWAmP/(25130:25130): Se elimino el carpincho 6 correctamente
+[INFO] 12:10:28:876 SWAmP/(25130:25130): DISCONNECT!
+[INFO] 12:10:28:877 SWAmP/(25130:25130): Finalizando programa...
+[INFO] 12:10:39:765 SWAmP/(25773:25773): Archivo de configuracion cargado correctamente
+[INFO] 12:10:39:817 SWAmP/(25773:25773): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 12:10:39:824 SWAmP/(25773:25773): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 12:10:39:833 SWAmP/(25773:25773): ------2---------
+
+[INFO] 12:10:39:835 SWAmP/(25773:25773): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 12:10:41:456 SWAmP/(25773:25773): Cliente conectado (a SWAmP)
+
+[INFO] 12:10:41:464 SWAmP/(25773:25773): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 12:10:45:368 SWAmP/(25773:25773): id: 2 cant 1 asig fija 0
+[WARNING] 12:10:45:369 SWAmP/(25773:25773): Vuelta 0
+[WARNING] 12:10:45:380 SWAmP/(25773:25773): paginas_libres 256
+[WARNING] 12:10:45:408 SWAmP/(25773:25773): aaa: 1
+[INFO] 12:10:45:410 SWAmP/(25773:25773): La solicitud se realizo correctamente
+[WARNING] 12:10:46:472 SWAmP/(25773:25773): id: 4 cant 1 asig fija 0
+[WARNING] 12:10:46:473 SWAmP/(25773:25773): Vuelta 0
+[WARNING] 12:10:46:474 SWAmP/(25773:25773): paginas_libres 255
+[WARNING] 12:10:46:477 SWAmP/(25773:25773): aaa: 1
+[INFO] 12:10:46:477 SWAmP/(25773:25773): La solicitud se realizo correctamente
+[WARNING] 12:10:49:962 SWAmP/(25773:25773): id: 2 cant 1 asig fija 0
+[WARNING] 12:10:49:964 SWAmP/(25773:25773): aaa: 1
+[INFO] 12:10:49:968 SWAmP/(25773:25773): La solicitud se realizo correctamente
+[WARNING] 12:10:54:798 SWAmP/(25773:25773): id: 1 cant 1 asig fija 0
+[WARNING] 12:10:54:799 SWAmP/(25773:25773): Vuelta 0
+[WARNING] 12:10:54:799 SWAmP/(25773:25773): paginas_libres 254
+[WARNING] 12:10:54:801 SWAmP/(25773:25773): aaa: 1
+[INFO] 12:10:54:801 SWAmP/(25773:25773): La solicitud se realizo correctamente
+[INFO] 12:11:08:993 SWAmP/(25773:25773): Se elimino el carpincho 3 correctamente
+[INFO] 12:11:10:086 SWAmP/(25773:25773): Se elimino el carpincho 1 correctamente
+[INFO] 12:11:14:409 SWAmP/(25773:25773): Se elimino el carpincho 7 correctamente
+[INFO] 12:11:45:453 SWAmP/(25773:25773): Se elimino el carpincho 5 correctamente
+[INFO] 12:11:50:979 SWAmP/(25773:25773): Se elimino el carpincho 4 correctamente
+[WARNING] 12:11:50:981 SWAmP/(25773:25773): id: 6 cant 1 asig fija 0
+[WARNING] 12:11:50:981 SWAmP/(25773:25773): Vuelta 0
+[WARNING] 12:11:50:982 SWAmP/(25773:25773): paginas_libres 254
+[WARNING] 12:11:50:983 SWAmP/(25773:25773): aaa: 1
+[INFO] 12:11:50:983 SWAmP/(25773:25773): La solicitud se realizo correctamente
+[WARNING] 12:11:52:023 SWAmP/(25773:25773): id: 8 cant 1 asig fija 0
+[WARNING] 12:11:52:024 SWAmP/(25773:25773): Vuelta 0
+[WARNING] 12:11:52:024 SWAmP/(25773:25773): paginas_libres 254
+[WARNING] 12:11:52:026 SWAmP/(25773:25773): aaa: 1
+[INFO] 12:11:52:026 SWAmP/(25773:25773): La solicitud se realizo correctamente
+[INFO] 12:12:04:402 SWAmP/(25773:25773): Se elimino el carpincho 6 correctamente
+[INFO] 12:14:38:948 SWAmP/(25773:25773): Se elimino el carpincho 2 correctamente
+[INFO] 12:15:49:156 SWAmP/(25773:25773): Se elimino el carpincho 8 correctamente
+[INFO] 12:20:25:106 SWAmP/(25773:25773): DISCONNECT!
+[INFO] 12:20:25:107 SWAmP/(25773:25773): Finalizando programa...
