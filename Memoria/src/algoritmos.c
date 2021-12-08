@@ -147,6 +147,11 @@ void correr_algoritmo_tlb(tlb_t* entrada_tlb){
             pagina1 : pagina2;
     }
     tlb_t* victima_algoritmo = list_get_minimum(TLB_TABLE, minimo_TUR);
+    log_info(logger, 
+        "Reemplazo TLB: saco la pagina %d del carpincho %lu con la pagina %d del carpincho %lu",
+        victima_algoritmo->entrada_tp->nro_pagina, victima_algoritmo->id_carpincho, 
+        entrada_tlb->entrada_tp->nro_pagina, entrada_tlb->id_carpincho
+        );
     remove_entrada_tlb(victima_algoritmo);
     list_add_tlb(entrada_tlb);
     pthread_mutex_unlock(&MUTEX_ALGORITMOS_TLB);

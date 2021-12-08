@@ -70,7 +70,8 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
     uint32_t posicion_hmd_a_leer = direccion_logica - sizeof(hmd_t);
     //Calculo el offset segun la posicion_logica del hmd porque despues tengo que tener en cuenta al leerlo (podría llegar a cambiar la página si el hmd esta cortado)
     uint32_t offset_hmd_a_leer =  posicion_hmd_a_leer % MEMORIA_CFG->TAMANIO_PAGINA;
-    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size + sizeof(hmd_t));
+    uint32_t offset_data = (offset_hmd_a_leer + sizeof(hmd_t)) % MEMORIA_CFG->TAMANIO_PAGINA;
+    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_data, size);
     
     uint32_t nro_pagina = posicion_hmd_a_leer / MEMORIA_CFG->TAMANIO_PAGINA;
     if(nro_pagina > tabla_carpincho->pages){
@@ -79,7 +80,6 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
     }
     
     //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
-    uint32_t offset_data = (offset_hmd_a_leer + sizeof(hmd_t)) % MEMORIA_CFG->TAMANIO_PAGINA;
     entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     hmd_t* hmd = leer_hmd(entrada_tp, offset_hmd_a_leer, id_carpincho);
     if(hmd->nextAlloc - posicion_hmd_a_leer - sizeof(hmd_t) < size){
@@ -120,16 +120,24 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     uint32_t posicion_hmd_a_leer = direccion_logica - sizeof(hmd_t);
     //Calculo el offset segun la posicion_logica del hmd porque despues tengo que tener en cuenta al leerlo (podría llegar a cambiar la página si el hmd esta cortado)
     uint32_t offset_hmd_a_leer =  posicion_hmd_a_leer % MEMORIA_CFG->TAMANIO_PAGINA;
-    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size + sizeof(hmd_t));
+    uint32_t offset_data = (offset_hmd_a_leer + sizeof(hmd_t)) % MEMORIA_CFG->TAMANIO_PAGINA;
+    uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_data, size);
+    
+    // uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size + sizeof(hmd_t));
     
     uint32_t nro_pagina = posicion_hmd_a_leer / MEMORIA_CFG->TAMANIO_PAGINA;
+    log_warning(logger, "nro_pagina %d", nro_pagina);
     if(nro_pagina > tabla_carpincho->pages){
         log_error(logger, "Estas buscando una pagina que no existe pa");
         return false; 
     }
+    log_warning(logger, "offset_hmd_a_leer %d", offset_hmd_a_leer);
+    log_warning(logger, "cant_paginas_a_leer %d", cant_paginas_a_leer);
+    log_warning(logger, "size %d", size);
     
     //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
-    uint32_t offset_data = (offset_hmd_a_leer + sizeof(hmd_t)) % MEMORIA_CFG->TAMANIO_PAGINA;
+    log_warning(logger, "offset_data %d", offset_data);    
+
     entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     hmd_t* hmd = leer_hmd(entrada_tp, offset_hmd_a_leer, id_carpincho);
     if(hmd->nextAlloc - posicion_hmd_a_leer - sizeof(hmd_t) < size){
@@ -137,7 +145,7 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
         free(hmd);
         return false;
     }
-    if(!offset_data){
+    if(!offset_data || offset_data <= offset_hmd_a_leer){
         nro_pagina++;
     }
     if(nro_pagina != entrada_tp->nro_pagina){

@@ -188,12 +188,29 @@ void suspender_frame(uint32_t nro_frame){
 
 uint32_t cantidad_paginas_swap(uint32_t posicion, size_t size){
     size_t rem;
+    uint32_t pags_parcial;
+    uint32_t cant_paginas;
     uint32_t t_pag = MEMORIA_CFG->TAMANIO_PAGINA;
     uint32_t offset = posicion % t_pag;
-    uint32_t size_acum = size - (t_pag - offset);
-    rem = size_acum % t_pag; 
-    uint32_t pags_parcial = (size_acum)/t_pag;
-    uint32_t cant_paginas = (rem) ? pags_parcial + 1 : pags_parcial;
+    
+    if(offset == 0){
+        pags_parcial = size / t_pag;
+        rem = size % t_pag;
+        cant_paginas = (rem) ? pags_parcial + 1 : pags_parcial;
+        return cant_paginas;
+    }
+    if(offset + size <= t_pag){
+        return 0;
+    }
+    // uint32_t size_acum = size - (t_pag - offset);
+    pags_parcial = (size + offset - t_pag) / t_pag;
+    rem = (size + offset - t_pag) % t_pag; 
+    // uint32_t pags_parcial = (size_acum)/t_pag;
+    cant_paginas = (rem) ? pags_parcial + 1 : pags_parcial;
+    log_error(logger, "offset %d", offset);
+    // log_error(logger, "size_acum %d", size_acum);
+    log_error(logger, "pags_parcial %d", pags_parcial);
+    log_error(logger, "cant_paginas %d", cant_paginas);
     // if(posicion + size > MEMORIA_CFG->TAMANIO_PAGINA) {
     //     cant_paginas++;
     // }
