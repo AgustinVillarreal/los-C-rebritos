@@ -75,28 +75,30 @@ entrada_tp_t* list_get_pagina(tp_carpincho_t* tabla_carpincho ,uint32_t index){
 }
 
 bool buscar_en_TLB(unsigned long id_carpincho, uint32_t nro_pagina, entrada_tp_t** entrada_buscada){
-    //TODO: busca en tlb 
-    tlb_t* entrada_tlb = tlb_get_entrada_tlb(id_carpincho, nro_pagina);
-    //Ya estaría en la tlb
-    if(entrada_tlb != NULL){
-        *entrada_buscada = entrada_tlb->entrada_tp;
-        actualizar_hits(id_carpincho);
-        //TODO: Cuidado
-        // if(MEMORIA_CFG->LRU_MMU){
-        //     actualizar_bits(*entrada_buscada, false);
-        // }
-        log_info(logger, "\nTLB HIT: PID: %d  PAGINA: %d  MARCO: %d \n", id_carpincho, nro_pagina, entrada_tlb->entrada_tp->nro_frame);
-      
-        if(MEMORIA_CFG->LRU_TLB){
-            actualizarTUR(entrada_tlb);
+    if(MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB){
+        //TODO: busca en tlb 
+        tlb_t* entrada_tlb = tlb_get_entrada_tlb(id_carpincho, nro_pagina);
+        //Ya estaría en la tlb
+        if(entrada_tlb != NULL){
+            *entrada_buscada = entrada_tlb->entrada_tp;
+            actualizar_hits(id_carpincho);
+            //TODO: Cuidado
+            // if(MEMORIA_CFG->LRU_MMU){
+            //     actualizar_bits(*entrada_buscada, false);
+            // }
+            log_info(logger, "\nTLB HIT: PID: %d  PAGINA: %d  MARCO: %d \n", id_carpincho, nro_pagina, entrada_tlb->entrada_tp->nro_frame);
+        
+            if(MEMORIA_CFG->LRU_TLB){
+                actualizarTUR(entrada_tlb);
+            }
+            usleep(MEMORIA_CFG->RETARDO_ACIERTO_TLB * 1000);
+            return true;
         }
-        usleep(MEMORIA_CFG->RETARDO_ACIERTO_TLB * 1000);
-        return true;
+        actualizar_miss(id_carpincho);
+        log_info(logger, "\nTLB MISS: PID: %d  PAGINA: %d \n", id_carpincho, nro_pagina);
+        //No esta en la Tlb
+        usleep(MEMORIA_CFG->RETARDO_FALLO_TLB * 1000);
     }
-    actualizar_miss(id_carpincho);
-    log_info(logger, "\nTLB MISS: PID: %d  PAGINA: %d \n", id_carpincho, nro_pagina);
-    //No esta en la Tlb
-    usleep(MEMORIA_CFG->RETARDO_FALLO_TLB * 1000);
     return false;
 }
 
@@ -343,8 +345,11 @@ void sacar_entradas_TLB(unsigned long id_carpincho){
     bool es_entrada_TLB(void* entrada){
         return ((tlb_t*) entrada)->id_carpincho == id_carpincho;
     }
+    void destroyer(void* entrada){
+        free(entrada);
+    }
     pthread_mutex_lock(&MUTEX_TLB_BUSY);
-    list_remove_by_condition(TLB_TABLE, es_entrada_TLB);
+    list_remove_and_destroy_by_condition(TLB_TABLE, es_entrada_TLB, destroyer);
     pthread_mutex_unlock(&MUTEX_TLB_BUSY);
 }
 
@@ -353,7 +358,10 @@ void sacar_entrada_TLB(unsigned long id_carpincho, entrada_tp_t* entrada_tp){
         return ((tlb_t*) entrada)->id_carpincho == id_carpincho && 
             ((tlb_t*) entrada)->entrada_tp->nro_pagina == entrada_tp->nro_pagina;
     }
+    void destroyer(void* entrada){
+        free(entrada);
+    }
     pthread_mutex_lock(&MUTEX_TLB_BUSY);
-    list_remove_by_condition(TLB_TABLE, es_entrada_TLB);
+    list_remove_and_destroy_by_condition(TLB_TABLE, es_entrada_TLB, destroyer);
     pthread_mutex_unlock(&MUTEX_TLB_BUSY);
 }

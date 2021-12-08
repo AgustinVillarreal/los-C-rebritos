@@ -26,7 +26,6 @@ static void procesar_conexion(void* void_args){
     //Tabla del carpincho que se conecta
 
     // TODO VER DONDE VA ESTO
-    char* dir_logic_ini;
     int* size;
 
     while (cliente_socket != -1) {

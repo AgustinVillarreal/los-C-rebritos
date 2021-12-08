@@ -101,7 +101,7 @@ static void procesar_conexion(void* void_args) {
     while (cliente_socket != -1) {
 
         if (recv(cliente_socket, &cop, sizeof(op_code), 0) != sizeof(op_code)) {
-            mostrar_tabla_swap(tablas_de_frames_swap);
+            // mostrar_tabla_swap(tablas_de_frames_swap);
             log_info(logger, STR(DISCONNECT!));
             return;
         }
@@ -110,7 +110,7 @@ static void procesar_conexion(void* void_args) {
             case HANDSHAKE:
                 log_info(logger, "Me llego el HANDSHAKE con MEMORIA!");
                 if(recv_esquema_asignacion(cliente_socket,&asigancion_fija)){
-                    log_info(logger,"Se recibio el esquema de asigancion coreectamente");
+                    // log_info(logger,"Se recibio el esquema de asigancion coreectamente");
                 }
                 else{
                     log_error(logger, "Error recibiendo ESQUEMA ASIGNACION en SWAmP");
@@ -126,7 +126,7 @@ static void procesar_conexion(void* void_args) {
                 if (recv_allocar(cliente_socket, &carpincho_id, &cant_paginas)) {
                    
                     proceder_allocar(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
-                    log_info(logger,"Se allocaron %d marcos para el carpincho %d correctamente",cant_paginas,carpincho_id);
+                    // log_info(logger,"Se allocaron %d marcos para el carpincho %d correctamente",cant_paginas,carpincho_id);
                 }
                 else {
                     log_error(logger, "Error recibiendo ESCRITURA en SWAmP");
@@ -143,7 +143,7 @@ static void procesar_conexion(void* void_args) {
 
                 if (recv_escritura(cliente_socket, &carpincho_id, &nro_pagina, &data, cfg->TAMANIO_PAGINA)) { 
                     proceder_escritura(cliente_socket,carpincho_id,nro_pagina,data);
-                    log_info(logger,"Se escribio la pagina %d del carpincho %d en swap",nro_pagina,carpincho_id);
+                    // log_info(logger,"Se escribio la pagina %d del carpincho %d en swap",nro_pagina,carpincho_id);
                     free(data);
                 }
                 else {
@@ -160,8 +160,6 @@ static void procesar_conexion(void* void_args) {
                 void* data;
 
                 if (recv_lectura(cliente_socket, &carpincho_id, &nro_pagina)) {
-                    log_warning(logger,"DIEGOOOOOOOOO");
-                    
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                     buscar_frame_en_swap(cliente_socket, carpincho_id, nro_pagina, &data);
@@ -169,7 +167,7 @@ static void procesar_conexion(void* void_args) {
                     
                     send(cliente_socket, data, cfg->TAMANIO_PAGINA, 0);
                     free(data);
-                    log_info(logger,"Se leyo la swap correctamente");
+                    // log_info(logger,"Se leyo la swap correctamente");
                 }
                 else {
                     free(data);
@@ -200,14 +198,14 @@ static void procesar_conexion(void* void_args) {
 
                 if (recv_solicitud_espacio_libre(cliente_socket, &carpincho_id, &cant_paginas)) {
                     bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
-                    usleep(1000*cfg->RETARDO_SWAP);
+                    // usleep(1000*cfg->RETARDO_SWAP);
                     send_ack(cliente_socket, respuesta);
                     log_warning(logger, "aaa: %d", respuesta);
                     log_info(logger,"La solicitud se realizo correctamente");
                 }
                 else {
                     log_error(logger, "Error recibiendo ESPACIO_LIBRE en SWAmP");
-                    usleep(1000*cfg->RETARDO_SWAP);
+                    // usleep(1000*cfg->RETARDO_SWAP);
                     send_ack(cliente_socket, false);
                 }
                 break;

@@ -21,8 +21,10 @@ static void procesar_conexion(void* void_args){
 
     t_carpincho * carpincho;
     carpincho = malloc(sizeof(t_carpincho));
-    carpincho->memoria_fd = memoria_fd;
+    // carpincho->memoria_fd = memoria_fd;
     carpincho->matelib_fd = cliente_socket;
+
+    generar_conexion(&(carpincho->memoria_fd), KERNEL_CFG);
 
     uint32_t direccion_logica;
     
@@ -58,13 +60,13 @@ static void procesar_conexion(void* void_args){
                     return;
                 }
 
-                if(!send_mate_init(memoria_fd, 0)){
+                if(!send_mate_init(carpincho->memoria_fd, 0)){
                     log_error(logger, "Error al enviar handshake desde kernel a matelib");
                     free(server_name);
                     return;
                 }
 
-                if(!send_data_mate_init(memoria_fd, id)){
+                if(!send_data_mate_init(carpincho->memoria_fd, id)){
                     log_error(logger, "Error al enviar id");
                     free(server_name);
                     return;
@@ -183,9 +185,9 @@ static void procesar_conexion(void* void_args){
                     return;
                 }
 
-                send_memalloc(memoria_fd);
-                send_alloc_data(memoria_fd, id_carpincho, size_data);
-                if(recv(memoria_fd, &direccion_logica, sizeof(uint32_t), 0) != sizeof(uint32_t)){
+                send_memalloc(carpincho->memoria_fd);
+                send_alloc_data(carpincho->memoria_fd, id_carpincho, size_data);
+                if(recv(carpincho->memoria_fd, &direccion_logica, sizeof(uint32_t), 0) != sizeof(uint32_t)){
                     log_error(logger, "Error al recibir direccion logica");
                     free(server_name);
                     return;
@@ -206,12 +208,12 @@ static void procesar_conexion(void* void_args){
                     // return EXIT_FAILURE;
                     break;
                 }
-                send_memfree_data(memoria_fd, id_carpincho_free, direccion_logica);
-                send_memfree(memoria_fd);
+                send_memfree_data(carpincho->memoria_fd, id_carpincho_free, direccion_logica);
+                send_memfree(carpincho->memoria_fd);
 
                 uint32_t result_free;
 
-                recv(memoria_fd,&result_free,sizeof(uint32_t),0);
+                recv(carpincho->memoria_fd,&result_free,sizeof(uint32_t),0);
 
                 send(cliente_socket,&result_free,sizeof(uint32_t),0);
                 
@@ -224,17 +226,17 @@ static void procesar_conexion(void* void_args){
                     log_error(logger, "Error al recibir data para leer");
                     break;
                 }
-                send_memread(memoria_fd, direccion_logica, size, id_memread);
+                send_memread(carpincho->memoria_fd, direccion_logica, size, id_memread);
 
                 uint8_t result_read;
 
-                recv(memoria_fd, &result_read, sizeof(uint8_t), 0);               
+                recv(carpincho->memoria_fd, &result_read, sizeof(uint8_t), 0);               
 
                 send(cliente_socket, &result_read, sizeof(uint8_t), 0);
 
                 if(result_read) {
                     void* buff = malloc(size);
-                    recv(memoria_fd, buff, size, 0);
+                    recv(carpincho->memoria_fd, buff, size, 0);
                     if(send(cliente_socket, buff, size, 0) == -1){
                         log_error(logger, "Error al enviar buff a cliente desde memread");
                         break;
@@ -253,11 +255,11 @@ static void procesar_conexion(void* void_args){
                     break;
                 }
 
-                send_memwrite(memoria_fd, data, direccion_logica, size_w, id_memwrite);
+                send_memwrite(carpincho->memoria_fd, data, direccion_logica, size_w, id_memwrite);
 
                 uint8_t ret_code_write;
 
-                if(recv(memoria_fd, &ret_code_write, sizeof(uint8_t), 0) == -1){
+                if(recv(carpincho->memoria_fd, &ret_code_write, sizeof(uint8_t), 0) == -1){
                    log_error(logger, "Error al recibir ret_code a cliente desde memwrite");
                    break;
                 }
@@ -279,8 +281,8 @@ static void procesar_conexion(void* void_args){
                 recv_id(cliente_socket, &id_free);                            
 		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);	
                 push_cola_exit(carpincho);	 
-                send_codigo_op(memoria_fd, FREE_CARPINCHO);
-                send_data_mate_init(memoria_fd, id_free);               
+                send_codigo_op(carpincho->memoria_fd, FREE_CARPINCHO);
+                send_data_mate_init(carpincho->memoria_fd, id_free);               
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

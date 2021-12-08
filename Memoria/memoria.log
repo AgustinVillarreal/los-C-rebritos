@@ -53755,3 +53755,3724 @@ TLB MISS: PID: 1  PAGINA: 0
 [INFO] 23:41:52:156 memoria/(29982:30014): 
 TLB MISS: PID: 3  PAGINA: 2 
 
+[INFO] 09:40:21:674 memoria/(4493:4493): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 09:40:21:731 memoria/(4493:4493): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 09:40:21:734 memoria/(4493:4493): ------2---------
+
+[INFO] 09:40:21:736 memoria/(4493:4493): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 09:40:32:072 memoria/(4493:4493): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 09:40:32:195 memoria/(4493:4493): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 09:40:32:261 memoria/(4493:4493): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 09:40:32:350 memoria/(4493:4555): 
+Se conecto el carpincho: 1 
+
+[WARNING] 09:40:32:350 memoria/(4493:4557): 
+Se conecto el carpincho: 2 
+
+[WARNING] 09:40:32:360 memoria/(4493:4559): 
+Se conecto el carpincho: 3 
+
+[WARNING] 09:40:32:510 memoria/(4493:4555): Direccion de ultimo hdm : 19
+[INFO] 09:40:47:487 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 478
+
+[INFO] 09:40:47:490 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 3, TUR: 480
+
+[INFO] 09:40:47:491 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 4, TUR: 482
+
+[INFO] 09:40:47:491 memoria/(4493:4555): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 1, TUR: 477
+
+[INFO] 09:40:47:497 memoria/(4493:4555): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 2, TUR: 485
+
+[INFO] 09:40:47:499 memoria/(4493:4555): Swapeo pagina 0 del carpincho 2
+[INFO] 09:40:47:505 memoria/(4493:4555): Marco: 1 - Reemplazo la pagina 0 del carpincho 2 con la pagina 3 del carpincho 1
+[INFO] 09:40:47:506 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 478
+
+[INFO] 09:40:47:506 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 3, TUR: 480
+
+[INFO] 09:40:47:507 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 4, TUR: 482
+
+[INFO] 09:40:47:507 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 487
+
+[INFO] 09:40:47:508 memoria/(4493:4555): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 2, TUR: 485
+
+[INFO] 09:40:47:508 memoria/(4493:4555): Swapeo pagina 0 del carpincho 1
+[INFO] 09:40:47:509 memoria/(4493:4555): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 4 del carpincho 1
+[INFO] 09:40:47:509 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 3, TUR: 480
+
+[INFO] 09:40:47:510 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 4, TUR: 482
+
+[INFO] 09:40:47:510 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 487
+
+[INFO] 09:40:47:517 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 4, nro_frame 0, TUR: 489
+
+[INFO] 09:40:47:518 memoria/(4493:4555): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 2, TUR: 485
+
+[INFO] 09:40:47:519 memoria/(4493:4555): Swapeo pagina 1 del carpincho 1
+[INFO] 09:40:47:519 memoria/(4493:4555): Marco: 3 - Reemplazo la pagina 1 del carpincho 1 con la pagina 5 del carpincho 1
+[INFO] 09:40:47:520 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 4, TUR: 482
+
+[INFO] 09:40:47:520 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 487
+
+[INFO] 09:40:47:521 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 4, nro_frame 0, TUR: 489
+
+[INFO] 09:40:47:521 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 5, nro_frame 3, TUR: 491
+
+[INFO] 09:40:47:522 memoria/(4493:4555): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 2, TUR: 485
+
+[INFO] 09:40:47:522 memoria/(4493:4555): Swapeo pagina 2 del carpincho 1
+[INFO] 09:40:47:522 memoria/(4493:4555): Marco: 4 - Reemplazo la pagina 2 del carpincho 1 con la pagina 6 del carpincho 1
+[INFO] 09:40:47:523 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 487
+
+[INFO] 09:40:47:523 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 4, nro_frame 0, TUR: 489
+
+[INFO] 09:40:47:524 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 5, nro_frame 3, TUR: 491
+
+[INFO] 09:40:47:524 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 6, nro_frame 4, TUR: 493
+
+[INFO] 09:40:47:524 memoria/(4493:4555): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 2, TUR: 485
+
+[INFO] 09:40:47:525 memoria/(4493:4555): Swapeo pagina 0 del carpincho 3
+[INFO] 09:40:47:525 memoria/(4493:4555): Marco: 2 - Reemplazo la pagina 0 del carpincho 3 con la pagina 7 del carpincho 1
+[INFO] 09:40:47:526 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 487
+
+[INFO] 09:40:47:526 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 4, nro_frame 0, TUR: 489
+
+[INFO] 09:40:47:527 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 5, nro_frame 3, TUR: 491
+
+[INFO] 09:40:47:529 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 6, nro_frame 4, TUR: 493
+
+[INFO] 09:40:47:529 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 7, nro_frame 2, TUR: 495
+
+[INFO] 09:40:47:530 memoria/(4493:4555): Swapeo pagina 3 del carpincho 1
+[INFO] 09:40:47:531 memoria/(4493:4555): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 8 del carpincho 1
+[INFO] 09:40:47:531 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 4, nro_frame 0, TUR: 489
+
+[INFO] 09:40:47:532 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 5, nro_frame 3, TUR: 491
+
+[INFO] 09:40:47:532 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 6, nro_frame 4, TUR: 493
+
+[INFO] 09:40:47:533 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 7, nro_frame 2, TUR: 495
+
+[INFO] 09:40:47:534 memoria/(4493:4559): Swapeo pagina 4 del carpincho 1
+[INFO] 09:40:47:535 memoria/(4493:4559): Marco: 0 - Reemplazo la pagina 4 del carpincho 1 con la pagina 0 del carpincho 3
+[INFO] 09:40:47:537 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 5, nro_frame 3, TUR: 491
+
+[INFO] 09:40:47:537 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 6, nro_frame 4, TUR: 493
+
+[INFO] 09:40:47:538 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 7, nro_frame 2, TUR: 495
+
+[INFO] 09:40:47:538 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 8, nro_frame 1, TUR: 497
+
+[INFO] 09:40:47:539 memoria/(4493:4555): Swapeo pagina 5 del carpincho 1
+[WARNING] 09:41:32:526 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:41:32:527 memoria/(4493:4555): Marco: 3 - Reemplazo la pagina 5 del carpincho 1 con la pagina 9 del carpincho 1
+[INFO] 09:41:32:528 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 6, nro_frame 4, TUR: 493
+
+[INFO] 09:41:32:530 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 7, nro_frame 2, TUR: 495
+
+[INFO] 09:41:32:530 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 8, nro_frame 1, TUR: 497
+
+[INFO] 09:41:32:531 memoria/(4493:4555): 
+VICTIMA ID: 1, nro_pagina: 9, nro_frame 3, TUR: 499
+
+[INFO] 09:41:32:531 memoria/(4493:4555): Swapeo pagina 6 del carpincho 1
+[INFO] 09:41:32:532 memoria/(4493:4555): Marco: 4 - Reemplazo la pagina 6 del carpincho 1 con la pagina 0 del carpincho 1
+[INFO] 09:41:32:662 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 7, nro_frame 2, TUR: 495
+
+[INFO] 09:41:32:663 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 8, nro_frame 1, TUR: 497
+
+[INFO] 09:41:32:663 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 9, nro_frame 3, TUR: 499
+
+[INFO] 09:41:32:664 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 521
+
+[INFO] 09:41:32:664 memoria/(4493:4557): Swapeo pagina 7 del carpincho 1
+[WARNING] 09:41:47:534 memoria/(4493:4555): TAMAÑO CHOTO : 2048
+[INFO] 09:41:47:536 memoria/(4493:4557): Marco: 2 - Reemplazo la pagina 7 del carpincho 1 con la pagina 0 del carpincho 2
+[WARNING] 09:41:57:540 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[WARNING] 09:43:20:427 memoria/(4493:4557): Direccion de ultimo hdm : 2032
+[INFO] 09:43:20:430 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 48627
+
+[INFO] 09:43:20:430 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 8, nro_frame 1, TUR: 497
+
+[INFO] 09:43:20:431 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 9, nro_frame 3, TUR: 499
+
+[INFO] 09:43:20:432 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 48832
+
+[INFO] 09:43:20:437 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 48615
+
+[INFO] 09:43:20:438 memoria/(4493:4557): Swapeo pagina 8 del carpincho 1
+[INFO] 09:43:20:441 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 8 del carpincho 1 con la pagina 1 del carpincho 2
+[WARNING] 09:43:20:667 memoria/(4493:4559): Direccion de ultimo hdm : 2032
+[INFO] 09:43:30:474 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 49389
+
+[INFO] 09:43:30:474 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 9, nro_frame 3, TUR: 499
+
+[INFO] 09:43:30:475 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 48840
+
+[INFO] 09:43:30:475 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 48834
+
+[INFO] 09:43:30:476 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 49390
+
+[INFO] 09:43:30:476 memoria/(4493:4559): Swapeo pagina 9 del carpincho 1
+[INFO] 09:43:30:478 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 9 del carpincho 1 con la pagina 1 del carpincho 3
+[WARNING] 09:45:01:345 memoria/(4493:4557): Direccion de ultimo hdm : 4082
+[INFO] 09:45:01:347 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 182855
+
+[INFO] 09:45:01:348 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 183059
+
+[INFO] 09:45:01:354 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 183268
+
+[INFO] 09:45:01:354 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 182843
+
+[INFO] 09:45:01:354 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 3, TUR: 182840
+
+[INFO] 09:45:01:355 memoria/(4493:4557): Swapeo pagina 1 del carpincho 3
+[INFO] 09:45:01:355 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 1 del carpincho 3 con la pagina 2 del carpincho 2
+[INFO] 09:45:01:576 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 183288
+
+[INFO] 09:45:01:576 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 183276
+
+[INFO] 09:45:01:576 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 183268
+
+[INFO] 09:45:01:576 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 183270
+
+[INFO] 09:45:01:577 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 183492
+
+[INFO] 09:45:01:577 memoria/(4493:4559): Swapeo pagina 1 del carpincho 2
+[INFO] 09:45:01:581 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:45:21:395 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[WARNING] 09:45:21:397 memoria/(4493:4559): Direccion de ultimo hdm : 4082
+[INFO] 09:45:21:400 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 184168
+
+[INFO] 09:45:21:400 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 183276
+
+[INFO] 09:45:21:401 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 183270
+
+[INFO] 09:45:21:401 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 183492
+
+[INFO] 09:45:21:402 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 184376
+
+[INFO] 09:45:21:402 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:45:21:403 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[INFO] 09:45:21:580 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 184393
+
+[INFO] 09:45:21:580 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 184597
+
+[INFO] 09:45:21:580 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 184381
+
+[INFO] 09:45:21:580 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 184376
+
+[INFO] 09:45:21:581 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 184378
+
+[INFO] 09:45:21:581 memoria/(4493:4557): Swapeo pagina 1 del carpincho 3
+[INFO] 09:45:21:583 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:45:41:447 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:45:41:449 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 185276
+
+[INFO] 09:45:41:450 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 184597
+
+[INFO] 09:45:41:450 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 185483
+
+[INFO] 09:45:41:450 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 184381
+
+[INFO] 09:45:41:450 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 184378
+
+[INFO] 09:45:41:451 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:45:41:452 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:45:51:454 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:45:51:632 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 185843
+
+[INFO] 09:45:51:632 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 185831
+
+[INFO] 09:45:51:633 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 185826
+
+[INFO] 09:45:51:633 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 185828
+
+[INFO] 09:45:51:633 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 186047
+
+[INFO] 09:45:51:634 memoria/(4493:4559): Swapeo pagina 1 del carpincho 2
+[INFO] 09:45:51:635 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:46:01:637 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:46:01:639 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 186390
+
+[INFO] 09:46:01:640 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 185831
+
+[INFO] 09:46:01:640 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 185828
+
+[INFO] 09:46:01:640 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 186047
+
+[INFO] 09:46:01:641 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 186597
+
+[INFO] 09:46:01:641 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:46:01:642 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:46:11:644 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:46:11:819 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 186960
+
+[INFO] 09:46:11:820 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 187164
+
+[INFO] 09:46:11:820 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 186948
+
+[INFO] 09:46:11:820 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 186943
+
+[INFO] 09:46:11:820 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 186945
+
+[INFO] 09:46:11:821 memoria/(4493:4557): Swapeo pagina 1 del carpincho 3
+[INFO] 09:46:11:822 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:46:21:824 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:46:21:826 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 187504
+
+[INFO] 09:46:21:827 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 187164
+
+[INFO] 09:46:21:827 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 187711
+
+[INFO] 09:46:21:828 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 186948
+
+[INFO] 09:46:21:828 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 186945
+
+[INFO] 09:46:21:829 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:46:21:830 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:46:31:832 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:46:32:012 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 188074
+
+[INFO] 09:46:32:012 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 188062
+
+[INFO] 09:46:32:012 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 187711
+
+[INFO] 09:46:32:013 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 188059
+
+[INFO] 09:46:32:013 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 188278
+
+[INFO] 09:46:32:014 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:46:37:017 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:46:37:019 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 188450
+
+[INFO] 09:46:37:019 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 188062
+
+[INFO] 09:46:37:019 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 188059
+
+[INFO] 09:46:37:020 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 188278
+
+[INFO] 09:46:37:020 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 188657
+
+[INFO] 09:46:37:020 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:46:37:022 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:46:47:025 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:46:47:203 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 189020
+
+[INFO] 09:46:47:203 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 189224
+
+[INFO] 09:46:47:204 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 189008
+
+[INFO] 09:46:47:204 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 188657
+
+[INFO] 09:46:47:204 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 189005
+
+[INFO] 09:46:47:204 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:46:52:206 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:46:52:208 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 189396
+
+[INFO] 09:46:52:208 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 189224
+
+[INFO] 09:46:52:209 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 189603
+
+[INFO] 09:46:52:209 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 189008
+
+[INFO] 09:46:52:209 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 189005
+
+[INFO] 09:46:52:210 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:46:52:210 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:47:02:212 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:47:02:387 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 189964
+
+[INFO] 09:47:02:388 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 189952
+
+[INFO] 09:47:02:388 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 189603
+
+[INFO] 09:47:02:388 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 189949
+
+[INFO] 09:47:02:388 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 190168
+
+[INFO] 09:47:02:389 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:47:07:392 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:47:07:394 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 190340
+
+[INFO] 09:47:07:394 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 189952
+
+[INFO] 09:47:07:395 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 189949
+
+[INFO] 09:47:07:395 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 190168
+
+[INFO] 09:47:07:395 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 190547
+
+[INFO] 09:47:07:396 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:47:07:398 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:47:17:400 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:47:17:576 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 190911
+
+[INFO] 09:47:17:576 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 191115
+
+[INFO] 09:47:17:577 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 190899
+
+[INFO] 09:47:17:577 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 190547
+
+[INFO] 09:47:17:578 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 190896
+
+[INFO] 09:47:17:578 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:47:22:580 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:47:22:582 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 191287
+
+[INFO] 09:47:22:582 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 191115
+
+[INFO] 09:47:22:582 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 191494
+
+[INFO] 09:47:22:582 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 190899
+
+[INFO] 09:47:22:583 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 190896
+
+[INFO] 09:47:22:583 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:47:22:584 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:47:32:586 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:47:32:765 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 191856
+
+[INFO] 09:47:32:765 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 191844
+
+[INFO] 09:47:32:766 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 191494
+
+[INFO] 09:47:32:769 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 191841
+
+[INFO] 09:47:32:770 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 192060
+
+[INFO] 09:47:32:770 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:47:37:772 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:47:37:774 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 192232
+
+[INFO] 09:47:37:776 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 191844
+
+[INFO] 09:47:37:777 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 191841
+
+[INFO] 09:47:37:778 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 192060
+
+[INFO] 09:47:37:782 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 192439
+
+[INFO] 09:47:37:782 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:47:37:783 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:47:47:785 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:47:47:963 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 192804
+
+[INFO] 09:47:47:963 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 193008
+
+[INFO] 09:47:47:964 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 192792
+
+[INFO] 09:47:47:964 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 192439
+
+[INFO] 09:47:47:964 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 192789
+
+[INFO] 09:47:47:964 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:47:52:966 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:47:52:968 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 193180
+
+[INFO] 09:47:52:968 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 193008
+
+[INFO] 09:47:52:969 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 193387
+
+[INFO] 09:47:52:969 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 192792
+
+[INFO] 09:47:52:969 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 192789
+
+[INFO] 09:47:52:969 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:47:52:970 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:48:02:972 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:48:03:151 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 193753
+
+[INFO] 09:48:03:152 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 193741
+
+[INFO] 09:48:03:152 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 193387
+
+[INFO] 09:48:03:152 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 193738
+
+[INFO] 09:48:03:152 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 193957
+
+[INFO] 09:48:03:153 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:48:08:158 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:48:08:159 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 194129
+
+[INFO] 09:48:08:160 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 193741
+
+[INFO] 09:48:08:160 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 193738
+
+[INFO] 09:48:08:161 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 193957
+
+[INFO] 09:48:08:161 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 194336
+
+[INFO] 09:48:08:162 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:48:08:162 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:48:18:164 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:48:18:343 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 194699
+
+[INFO] 09:48:18:344 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 194903
+
+[INFO] 09:48:18:344 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 194687
+
+[INFO] 09:48:18:344 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 194336
+
+[INFO] 09:48:18:345 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 194684
+
+[INFO] 09:48:18:345 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:48:23:348 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:48:23:349 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 195075
+
+[INFO] 09:48:23:350 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 194903
+
+[INFO] 09:48:23:350 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 195282
+
+[INFO] 09:48:23:350 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 194687
+
+[INFO] 09:48:23:350 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 194684
+
+[INFO] 09:48:23:351 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:48:23:351 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:48:33:354 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:48:33:531 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 195649
+
+[INFO] 09:48:33:532 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 195637
+
+[INFO] 09:48:33:532 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 195282
+
+[INFO] 09:48:33:532 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 195634
+
+[INFO] 09:48:33:532 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 195853
+
+[INFO] 09:48:33:533 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:48:38:534 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:48:38:536 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 196025
+
+[INFO] 09:48:38:536 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 195637
+
+[INFO] 09:48:38:537 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 195634
+
+[INFO] 09:48:38:537 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 195853
+
+[INFO] 09:48:38:537 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 196232
+
+[INFO] 09:48:38:538 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:48:38:539 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:48:48:541 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:48:48:719 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 196596
+
+[INFO] 09:48:48:720 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 196800
+
+[INFO] 09:48:48:720 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 196584
+
+[INFO] 09:48:48:720 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 196232
+
+[INFO] 09:48:48:720 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 196581
+
+[INFO] 09:48:48:724 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:48:53:726 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:48:53:728 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 196972
+
+[INFO] 09:48:53:728 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 196800
+
+[INFO] 09:48:53:729 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 197179
+
+[INFO] 09:48:53:729 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 196584
+
+[INFO] 09:48:53:729 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 196581
+
+[INFO] 09:48:53:730 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:48:53:731 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:49:03:733 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:49:03:912 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 197547
+
+[INFO] 09:49:03:912 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 197535
+
+[INFO] 09:49:03:913 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 197179
+
+[INFO] 09:49:03:913 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 197532
+
+[INFO] 09:49:03:914 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 197751
+
+[INFO] 09:49:03:914 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:49:08:916 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:49:08:918 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 197923
+
+[INFO] 09:49:08:919 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 197535
+
+[INFO] 09:49:08:919 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 197532
+
+[INFO] 09:49:08:919 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 197751
+
+[INFO] 09:49:08:919 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 198130
+
+[INFO] 09:49:08:920 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:49:08:921 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:49:18:924 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:49:19:103 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 198498
+
+[INFO] 09:49:19:104 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 198702
+
+[INFO] 09:49:19:104 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 198486
+
+[INFO] 09:49:19:104 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 198130
+
+[INFO] 09:49:19:105 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 198483
+
+[INFO] 09:49:19:106 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:49:24:108 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:49:24:109 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 198871
+
+[INFO] 09:49:24:109 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 198702
+
+[INFO] 09:49:24:110 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 199078
+
+[INFO] 09:49:24:110 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 198486
+
+[INFO] 09:49:24:110 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 198483
+
+[INFO] 09:49:24:110 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:49:24:111 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:49:34:113 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:49:34:292 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 199447
+
+[INFO] 09:49:34:292 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 199435
+
+[INFO] 09:49:34:293 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 199078
+
+[INFO] 09:49:34:293 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 199432
+
+[INFO] 09:49:34:293 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 199651
+
+[INFO] 09:49:34:294 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:49:39:296 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:49:39:299 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 199823
+
+[INFO] 09:49:39:299 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 199435
+
+[INFO] 09:49:39:300 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 199432
+
+[INFO] 09:49:39:300 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 199651
+
+[INFO] 09:49:39:300 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 200030
+
+[INFO] 09:49:39:301 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:49:39:302 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:49:49:304 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:49:49:485 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 200399
+
+[INFO] 09:49:49:486 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 200603
+
+[INFO] 09:49:49:487 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 200387
+
+[INFO] 09:49:49:487 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 200030
+
+[INFO] 09:49:49:488 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 200384
+
+[INFO] 09:49:49:488 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:49:54:491 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:49:54:493 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 200775
+
+[INFO] 09:49:54:494 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 200603
+
+[INFO] 09:49:54:495 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 200982
+
+[INFO] 09:49:54:498 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 200387
+
+[INFO] 09:49:54:499 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 200384
+
+[INFO] 09:49:54:499 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:49:54:500 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:50:04:502 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:50:04:681 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 201349
+
+[INFO] 09:50:04:681 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 201337
+
+[INFO] 09:50:04:682 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 200982
+
+[INFO] 09:50:04:682 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 201334
+
+[INFO] 09:50:04:683 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 201553
+
+[INFO] 09:50:04:683 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:50:09:685 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:50:09:687 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 201725
+
+[INFO] 09:50:09:688 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 201337
+
+[INFO] 09:50:09:688 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 201334
+
+[INFO] 09:50:09:689 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 201553
+
+[INFO] 09:50:09:689 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 201932
+
+[INFO] 09:50:09:694 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:50:09:694 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:50:19:696 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:50:19:875 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 202302
+
+[INFO] 09:50:19:875 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 202506
+
+[INFO] 09:50:19:876 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 202290
+
+[INFO] 09:50:19:876 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 201932
+
+[INFO] 09:50:19:876 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 202287
+
+[INFO] 09:50:19:877 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:50:24:879 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:50:24:881 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 202678
+
+[INFO] 09:50:24:881 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 202506
+
+[INFO] 09:50:24:881 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 202885
+
+[INFO] 09:50:24:881 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 202290
+
+[INFO] 09:50:24:881 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 202287
+
+[INFO] 09:50:24:882 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:50:24:883 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:50:34:884 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:50:35:063 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 203256
+
+[INFO] 09:50:35:064 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 203244
+
+[INFO] 09:50:35:064 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 202885
+
+[INFO] 09:50:35:064 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 203241
+
+[INFO] 09:50:35:064 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 203460
+
+[INFO] 09:50:35:065 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:50:40:066 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:50:40:068 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 203629
+
+[INFO] 09:50:40:069 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 203244
+
+[INFO] 09:50:40:069 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 203241
+
+[INFO] 09:50:40:069 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 203460
+
+[INFO] 09:50:40:070 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 203836
+
+[INFO] 09:50:40:071 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:50:40:072 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:50:50:077 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:50:50:255 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 204207
+
+[INFO] 09:50:50:256 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 204411
+
+[INFO] 09:50:50:256 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 204195
+
+[INFO] 09:50:50:256 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 203836
+
+[INFO] 09:50:50:256 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 204192
+
+[INFO] 09:50:50:257 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:50:55:259 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:50:55:261 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 204583
+
+[INFO] 09:50:55:261 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 204411
+
+[INFO] 09:50:55:261 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 204790
+
+[INFO] 09:50:55:262 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 204195
+
+[INFO] 09:50:55:262 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 204192
+
+[INFO] 09:50:55:262 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:50:55:264 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:51:05:266 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:51:05:444 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 205162
+
+[INFO] 09:51:05:444 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 205150
+
+[INFO] 09:51:05:445 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 204790
+
+[INFO] 09:51:05:445 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 205147
+
+[INFO] 09:51:05:445 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 205366
+
+[INFO] 09:51:05:446 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:51:10:448 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:51:10:450 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 205538
+
+[INFO] 09:51:10:451 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 205150
+
+[INFO] 09:51:10:451 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 205147
+
+[INFO] 09:51:10:452 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 205366
+
+[INFO] 09:51:10:452 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 205745
+
+[INFO] 09:51:10:453 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:51:10:454 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:51:20:457 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:51:20:635 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 206114
+
+[INFO] 09:51:20:636 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 206318
+
+[INFO] 09:51:20:636 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 206102
+
+[INFO] 09:51:20:636 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 205745
+
+[INFO] 09:51:20:637 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 206099
+
+[INFO] 09:51:20:641 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:51:25:643 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:51:25:645 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 206490
+
+[INFO] 09:51:25:645 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 206318
+
+[INFO] 09:51:25:646 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 206697
+
+[INFO] 09:51:25:646 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 206102
+
+[INFO] 09:51:25:647 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 206099
+
+[INFO] 09:51:25:648 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:51:25:654 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:51:35:657 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:51:35:836 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 207070
+
+[INFO] 09:51:35:838 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 207058
+
+[INFO] 09:51:35:838 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 206697
+
+[INFO] 09:51:35:839 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 207055
+
+[INFO] 09:51:35:839 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 207274
+
+[INFO] 09:51:35:840 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:51:40:842 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:51:40:844 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 207446
+
+[INFO] 09:51:40:844 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 207058
+
+[INFO] 09:51:40:845 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 207055
+
+[INFO] 09:51:40:845 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 207274
+
+[INFO] 09:51:40:846 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 207653
+
+[INFO] 09:51:40:846 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:51:40:847 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:51:50:849 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:51:51:027 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 208026
+
+[INFO] 09:51:51:028 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 208230
+
+[INFO] 09:51:51:028 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 208014
+
+[INFO] 09:51:51:028 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 207653
+
+[INFO] 09:51:51:029 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 208011
+
+[INFO] 09:51:51:029 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:51:56:032 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:51:56:034 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 208399
+
+[INFO] 09:51:56:034 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 208230
+
+[INFO] 09:51:56:034 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 208606
+
+[INFO] 09:51:56:035 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 208014
+
+[INFO] 09:51:56:035 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 208011
+
+[INFO] 09:51:56:035 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:51:56:036 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:52:06:040 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:52:06:224 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 208980
+
+[INFO] 09:52:06:224 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 208968
+
+[INFO] 09:52:06:225 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 208606
+
+[INFO] 09:52:06:225 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 208965
+
+[INFO] 09:52:06:226 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 209184
+
+[INFO] 09:52:06:226 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:52:11:229 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:52:11:231 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 209356
+
+[INFO] 09:52:11:231 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 208968
+
+[INFO] 09:52:11:231 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 208965
+
+[INFO] 09:52:11:231 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 209184
+
+[INFO] 09:52:11:232 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 209563
+
+[INFO] 09:52:11:233 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:52:11:234 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:52:21:236 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:52:21:416 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 209937
+
+[INFO] 09:52:21:416 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 210141
+
+[INFO] 09:52:21:417 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 209925
+
+[INFO] 09:52:21:417 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 209563
+
+[INFO] 09:52:21:417 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 209922
+
+[INFO] 09:52:21:418 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:52:26:420 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:52:26:422 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 210313
+
+[INFO] 09:52:26:422 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 210141
+
+[INFO] 09:52:26:423 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 210520
+
+[INFO] 09:52:26:423 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 209925
+
+[INFO] 09:52:26:423 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 209922
+
+[INFO] 09:52:26:423 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:52:26:424 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:52:36:426 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:52:36:605 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 210892
+
+[INFO] 09:52:36:605 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 210880
+
+[INFO] 09:52:36:606 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 210520
+
+[INFO] 09:52:36:606 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 210877
+
+[INFO] 09:52:36:606 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 211096
+
+[INFO] 09:52:36:607 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:52:41:609 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:52:41:611 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 211268
+
+[INFO] 09:52:41:611 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 210880
+
+[INFO] 09:52:41:612 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 210877
+
+[INFO] 09:52:41:612 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 211096
+
+[INFO] 09:52:41:618 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 211475
+
+[INFO] 09:52:41:618 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:52:41:621 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:52:51:622 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:52:51:800 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 211850
+
+[INFO] 09:52:51:801 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 212054
+
+[INFO] 09:52:51:801 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 211838
+
+[INFO] 09:52:51:801 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 211475
+
+[INFO] 09:52:51:802 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 211835
+
+[INFO] 09:52:51:802 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:52:56:804 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:52:56:806 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 212226
+
+[INFO] 09:52:56:807 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 212054
+
+[INFO] 09:52:56:807 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 212433
+
+[INFO] 09:52:56:807 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 211838
+
+[INFO] 09:52:56:807 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 211835
+
+[INFO] 09:52:56:808 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:52:56:809 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:53:06:811 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:53:06:991 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 212809
+
+[INFO] 09:53:06:992 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 212797
+
+[INFO] 09:53:06:992 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 212433
+
+[INFO] 09:53:06:992 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 212794
+
+[INFO] 09:53:06:993 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 213013
+
+[INFO] 09:53:06:993 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:53:11:998 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:53:12:001 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 213185
+
+[INFO] 09:53:12:002 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 212797
+
+[INFO] 09:53:12:003 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 212794
+
+[INFO] 09:53:12:003 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 213013
+
+[INFO] 09:53:12:004 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 213392
+
+[INFO] 09:53:12:005 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:53:12:006 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:53:22:008 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:53:22:187 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 213765
+
+[INFO] 09:53:22:188 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 213969
+
+[INFO] 09:53:22:188 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 213753
+
+[INFO] 09:53:22:188 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 213392
+
+[INFO] 09:53:22:188 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 213750
+
+[INFO] 09:53:22:189 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:53:27:190 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:53:27:192 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 214141
+
+[INFO] 09:53:27:193 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 213969
+
+[INFO] 09:53:27:193 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 214348
+
+[INFO] 09:53:27:193 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 213753
+
+[INFO] 09:53:27:193 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 213750
+
+[INFO] 09:53:27:194 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:53:27:195 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:53:37:197 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:53:37:376 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 214725
+
+[INFO] 09:53:37:376 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 214713
+
+[INFO] 09:53:37:376 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 214348
+
+[INFO] 09:53:37:377 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 214710
+
+[INFO] 09:53:37:377 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 214929
+
+[INFO] 09:53:37:378 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:53:42:380 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:53:42:382 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 215101
+
+[INFO] 09:53:42:383 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 214713
+
+[INFO] 09:53:42:383 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 214710
+
+[INFO] 09:53:42:384 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 214929
+
+[INFO] 09:53:42:384 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 215308
+
+[INFO] 09:53:42:385 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:53:42:391 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:53:52:393 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:53:52:571 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 215682
+
+[INFO] 09:53:52:572 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 215886
+
+[INFO] 09:53:52:572 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 215670
+
+[INFO] 09:53:52:572 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 215308
+
+[INFO] 09:53:52:572 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 215667
+
+[INFO] 09:53:52:573 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:53:57:574 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:53:57:576 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 216058
+
+[INFO] 09:53:57:577 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 215886
+
+[INFO] 09:53:57:577 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 216265
+
+[INFO] 09:53:57:577 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 215670
+
+[INFO] 09:53:57:577 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 215667
+
+[INFO] 09:53:57:582 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:53:57:583 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:54:07:585 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:54:07:764 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 216643
+
+[INFO] 09:54:07:764 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 216631
+
+[INFO] 09:54:07:764 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 216265
+
+[INFO] 09:54:07:765 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 216628
+
+[INFO] 09:54:07:766 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 216847
+
+[INFO] 09:54:07:766 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:54:12:768 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:54:12:771 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 217019
+
+[INFO] 09:54:12:771 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 216631
+
+[INFO] 09:54:12:772 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 216628
+
+[INFO] 09:54:12:772 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 216847
+
+[INFO] 09:54:12:773 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 217226
+
+[INFO] 09:54:12:775 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:54:12:777 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:54:22:779 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:54:22:959 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 217604
+
+[INFO] 09:54:22:960 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 217808
+
+[INFO] 09:54:22:960 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 217592
+
+[INFO] 09:54:22:960 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 217226
+
+[INFO] 09:54:22:960 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 217589
+
+[INFO] 09:54:22:961 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:54:27:963 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:54:27:964 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 217980
+
+[INFO] 09:54:27:965 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 217808
+
+[INFO] 09:54:27:965 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 218187
+
+[INFO] 09:54:27:965 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 217592
+
+[INFO] 09:54:27:966 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 217589
+
+[INFO] 09:54:27:966 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:54:27:967 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:54:37:969 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:54:38:147 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 218563
+
+[INFO] 09:54:38:148 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 218551
+
+[INFO] 09:54:38:148 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 218187
+
+[INFO] 09:54:38:148 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 218548
+
+[INFO] 09:54:38:148 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 218767
+
+[INFO] 09:54:38:149 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:54:43:151 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:54:43:153 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 218939
+
+[INFO] 09:54:43:153 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 218551
+
+[INFO] 09:54:43:153 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 218548
+
+[INFO] 09:54:43:158 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 218767
+
+[INFO] 09:54:43:158 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 219146
+
+[INFO] 09:54:43:158 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:54:43:159 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:54:53:161 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:54:53:335 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 219525
+
+[INFO] 09:54:53:335 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 219729
+
+[INFO] 09:54:53:336 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 219513
+
+[INFO] 09:54:53:336 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 219146
+
+[INFO] 09:54:53:336 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 219510
+
+[INFO] 09:54:53:336 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:54:58:338 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:54:58:340 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 219901
+
+[INFO] 09:54:58:341 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 219729
+
+[INFO] 09:54:58:342 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 220108
+
+[INFO] 09:54:58:342 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 219513
+
+[INFO] 09:54:58:343 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 219510
+
+[INFO] 09:54:58:343 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:54:58:344 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:55:08:346 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:55:08:523 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 220485
+
+[INFO] 09:55:08:524 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 220473
+
+[INFO] 09:55:08:524 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 220108
+
+[INFO] 09:55:08:524 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 220470
+
+[INFO] 09:55:08:524 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 220689
+
+[INFO] 09:55:08:525 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:55:13:527 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:55:13:529 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 220861
+
+[INFO] 09:55:13:530 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 220473
+
+[INFO] 09:55:13:530 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 220470
+
+[INFO] 09:55:13:531 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 220689
+
+[INFO] 09:55:13:531 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 221068
+
+[INFO] 09:55:13:532 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:55:13:533 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:55:23:535 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:55:23:711 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 221448
+
+[INFO] 09:55:23:712 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 221652
+
+[INFO] 09:55:23:712 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 221436
+
+[INFO] 09:55:23:712 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 221068
+
+[INFO] 09:55:23:712 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 221433
+
+[INFO] 09:55:23:713 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:55:28:715 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:55:28:717 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 221824
+
+[INFO] 09:55:28:717 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 221652
+
+[INFO] 09:55:28:718 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 222031
+
+[INFO] 09:55:28:718 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 221436
+
+[INFO] 09:55:28:726 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 221433
+
+[INFO] 09:55:28:727 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:55:28:728 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:55:38:729 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:55:38:908 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 222409
+
+[INFO] 09:55:38:908 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 222397
+
+[INFO] 09:55:38:908 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 222031
+
+[INFO] 09:55:38:909 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 222394
+
+[INFO] 09:55:38:909 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 222613
+
+[INFO] 09:55:38:910 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:55:43:912 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:55:43:913 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 222785
+
+[INFO] 09:55:43:914 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 222397
+
+[INFO] 09:55:43:914 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 222394
+
+[INFO] 09:55:43:915 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 222613
+
+[INFO] 09:55:43:915 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 222992
+
+[INFO] 09:55:43:916 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:55:43:923 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:55:53:925 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:55:54:103 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 223373
+
+[INFO] 09:55:54:104 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 223577
+
+[INFO] 09:55:54:104 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 223361
+
+[INFO] 09:55:54:104 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 222992
+
+[INFO] 09:55:54:105 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 223358
+
+[INFO] 09:55:54:105 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:55:59:107 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:55:59:109 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 223749
+
+[INFO] 09:55:59:109 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 223577
+
+[INFO] 09:55:59:110 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 223956
+
+[INFO] 09:55:59:111 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 223361
+
+[INFO] 09:55:59:111 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 223358
+
+[INFO] 09:55:59:112 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:55:59:112 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:56:09:115 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:56:09:291 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 224338
+
+[INFO] 09:56:09:293 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 224326
+
+[INFO] 09:56:09:294 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 223956
+
+[INFO] 09:56:09:294 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 224323
+
+[INFO] 09:56:09:295 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 224542
+
+[INFO] 09:56:09:295 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:56:14:297 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:56:14:299 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 224714
+
+[INFO] 09:56:14:299 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 224326
+
+[INFO] 09:56:14:299 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 224323
+
+[INFO] 09:56:14:299 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 224542
+
+[INFO] 09:56:14:300 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 224921
+
+[INFO] 09:56:14:300 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:56:14:301 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:56:24:303 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:56:24:479 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 225300
+
+[INFO] 09:56:24:479 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 225504
+
+[INFO] 09:56:24:480 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 225288
+
+[INFO] 09:56:24:480 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 224921
+
+[INFO] 09:56:24:480 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 225285
+
+[INFO] 09:56:24:480 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:56:29:482 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:56:29:484 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 225676
+
+[INFO] 09:56:29:485 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 225504
+
+[INFO] 09:56:29:485 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 225883
+
+[INFO] 09:56:29:486 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 225288
+
+[INFO] 09:56:29:486 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 225285
+
+[INFO] 09:56:29:486 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:56:29:487 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:56:39:489 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:56:39:668 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 226266
+
+[INFO] 09:56:39:668 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 226254
+
+[INFO] 09:56:39:669 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 225883
+
+[INFO] 09:56:39:669 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 226251
+
+[INFO] 09:56:39:669 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 226470
+
+[INFO] 09:56:39:670 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:56:44:672 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:56:44:674 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 226642
+
+[INFO] 09:56:44:674 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 226254
+
+[INFO] 09:56:44:675 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 226251
+
+[INFO] 09:56:44:675 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 226470
+
+[INFO] 09:56:44:675 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 226849
+
+[INFO] 09:56:44:675 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:56:44:676 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:56:54:679 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:56:54:856 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 227229
+
+[INFO] 09:56:54:856 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 227433
+
+[INFO] 09:56:54:856 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 227217
+
+[INFO] 09:56:54:856 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 226849
+
+[INFO] 09:56:54:857 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 227214
+
+[INFO] 09:56:54:857 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:56:59:860 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:56:59:862 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 227605
+
+[INFO] 09:56:59:862 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 227433
+
+[INFO] 09:56:59:863 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 227812
+
+[INFO] 09:56:59:863 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 227217
+
+[INFO] 09:56:59:863 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 227214
+
+[INFO] 09:56:59:864 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:56:59:865 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:57:09:867 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:57:10:047 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 228196
+
+[INFO] 09:57:10:048 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 228184
+
+[INFO] 09:57:10:048 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 227812
+
+[INFO] 09:57:10:048 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 228181
+
+[INFO] 09:57:10:049 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 228400
+
+[INFO] 09:57:10:051 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:57:15:053 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:57:15:055 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 228572
+
+[INFO] 09:57:15:055 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 228184
+
+[INFO] 09:57:15:056 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 228181
+
+[INFO] 09:57:15:056 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 228400
+
+[INFO] 09:57:15:056 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 228779
+
+[INFO] 09:57:15:057 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:57:15:058 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:57:25:060 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:57:25:239 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 229163
+
+[INFO] 09:57:25:240 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 229367
+
+[INFO] 09:57:25:240 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 229151
+
+[INFO] 09:57:25:240 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 228779
+
+[INFO] 09:57:25:240 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 229148
+
+[INFO] 09:57:25:241 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:57:30:243 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:57:30:244 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 229536
+
+[INFO] 09:57:30:245 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 229367
+
+[INFO] 09:57:30:245 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 229743
+
+[INFO] 09:57:30:245 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 229151
+
+[INFO] 09:57:30:246 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 229148
+
+[INFO] 09:57:30:246 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:57:30:247 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:57:40:250 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:57:40:428 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 230128
+
+[INFO] 09:57:40:428 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 230116
+
+[INFO] 09:57:40:428 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 229743
+
+[INFO] 09:57:40:429 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 230113
+
+[INFO] 09:57:40:430 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 230332
+
+[INFO] 09:57:40:431 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:57:45:433 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:57:45:436 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 230504
+
+[INFO] 09:57:45:436 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 230116
+
+[INFO] 09:57:45:436 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 230113
+
+[INFO] 09:57:45:437 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 230332
+
+[INFO] 09:57:45:437 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 230711
+
+[INFO] 09:57:45:437 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:57:45:438 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:57:55:440 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:57:55:619 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 231096
+
+[INFO] 09:57:55:620 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 231300
+
+[INFO] 09:57:55:620 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 231084
+
+[INFO] 09:57:55:620 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 230711
+
+[INFO] 09:57:55:620 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 231081
+
+[INFO] 09:57:55:621 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:58:00:623 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:58:00:625 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 231472
+
+[INFO] 09:58:00:626 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 231300
+
+[INFO] 09:58:00:626 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 231679
+
+[INFO] 09:58:00:626 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 231084
+
+[INFO] 09:58:00:626 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 231081
+
+[INFO] 09:58:00:627 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:58:00:628 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:58:10:630 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:58:10:808 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 232062
+
+[INFO] 09:58:10:808 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 232050
+
+[INFO] 09:58:10:808 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 231679
+
+[INFO] 09:58:10:809 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 232047
+
+[INFO] 09:58:10:809 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 232266
+
+[INFO] 09:58:10:810 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:58:15:811 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:58:15:814 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 232438
+
+[INFO] 09:58:15:814 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 232050
+
+[INFO] 09:58:15:814 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 232047
+
+[INFO] 09:58:15:815 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 232266
+
+[INFO] 09:58:15:816 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 232645
+
+[INFO] 09:58:15:816 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:58:15:817 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:58:25:820 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:58:25:999 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 233031
+
+[INFO] 09:58:26:000 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 233235
+
+[INFO] 09:58:26:000 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 233019
+
+[INFO] 09:58:26:000 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 232645
+
+[INFO] 09:58:26:000 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 233016
+
+[INFO] 09:58:26:001 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:58:31:003 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:58:31:005 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 233407
+
+[INFO] 09:58:31:006 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 233235
+
+[INFO] 09:58:31:006 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 233614
+
+[INFO] 09:58:31:006 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 233019
+
+[INFO] 09:58:31:007 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 233016
+
+[INFO] 09:58:31:007 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:58:31:008 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:58:41:010 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:58:41:187 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 233998
+
+[INFO] 09:58:41:188 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 233986
+
+[INFO] 09:58:41:188 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 233614
+
+[INFO] 09:58:41:188 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 233983
+
+[INFO] 09:58:41:189 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 234202
+
+[INFO] 09:58:41:189 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:58:46:191 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:58:46:193 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 234374
+
+[INFO] 09:58:46:194 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 233986
+
+[INFO] 09:58:46:198 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 233983
+
+[INFO] 09:58:46:199 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 234202
+
+[INFO] 09:58:46:199 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 234581
+
+[INFO] 09:58:46:200 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:58:46:201 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:58:56:203 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:58:56:380 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 234968
+
+[INFO] 09:58:56:383 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 235172
+
+[INFO] 09:58:56:384 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 234956
+
+[INFO] 09:58:56:386 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 234581
+
+[INFO] 09:58:56:386 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 234953
+
+[INFO] 09:58:56:387 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:59:01:389 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:59:01:401 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 235344
+
+[INFO] 09:59:01:402 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 235172
+
+[INFO] 09:59:01:403 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 235551
+
+[INFO] 09:59:01:404 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 234956
+
+[INFO] 09:59:01:405 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 234953
+
+[INFO] 09:59:01:406 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:59:01:407 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:59:11:410 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:59:11:587 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 235939
+
+[INFO] 09:59:11:589 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 235927
+
+[INFO] 09:59:11:589 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 235551
+
+[INFO] 09:59:11:590 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 235924
+
+[INFO] 09:59:11:590 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 236143
+
+[INFO] 09:59:11:591 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:59:16:592 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:59:16:594 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 236315
+
+[INFO] 09:59:16:595 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 235927
+
+[INFO] 09:59:16:595 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 235924
+
+[INFO] 09:59:16:595 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 236143
+
+[INFO] 09:59:16:595 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 236522
+
+[INFO] 09:59:16:596 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:59:16:597 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:59:26:598 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:59:26:775 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 236907
+
+[INFO] 09:59:26:776 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 237111
+
+[INFO] 09:59:26:782 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 236895
+
+[INFO] 09:59:26:782 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 236522
+
+[INFO] 09:59:26:782 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 236892
+
+[INFO] 09:59:26:784 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 09:59:31:786 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:59:31:788 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 237283
+
+[INFO] 09:59:31:788 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 237111
+
+[INFO] 09:59:31:788 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 237490
+
+[INFO] 09:59:31:788 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 236895
+
+[INFO] 09:59:31:789 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 236892
+
+[INFO] 09:59:31:789 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 09:59:31:790 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 09:59:41:792 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 09:59:41:971 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 237879
+
+[INFO] 09:59:41:972 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 237867
+
+[INFO] 09:59:41:972 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 237490
+
+[INFO] 09:59:41:973 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 237864
+
+[INFO] 09:59:41:973 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 238083
+
+[INFO] 09:59:41:975 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 09:59:46:976 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:59:46:978 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 238255
+
+[INFO] 09:59:46:979 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 237867
+
+[INFO] 09:59:46:979 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 237864
+
+[INFO] 09:59:46:979 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 238083
+
+[INFO] 09:59:46:979 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 238462
+
+[INFO] 09:59:46:980 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 09:59:46:981 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 09:59:56:983 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 09:59:57:160 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 238848
+
+[INFO] 09:59:57:160 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 239052
+
+[INFO] 09:59:57:161 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 238836
+
+[INFO] 09:59:57:162 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 238462
+
+[INFO] 09:59:57:162 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 238833
+
+[INFO] 09:59:57:163 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:00:02:165 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:00:02:168 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 239224
+
+[INFO] 10:00:02:168 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 239052
+
+[INFO] 10:00:02:169 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 239431
+
+[INFO] 10:00:02:169 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 238836
+
+[INFO] 10:00:02:169 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 238833
+
+[INFO] 10:00:02:171 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:00:02:172 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:00:12:176 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:00:12:355 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 239821
+
+[INFO] 10:00:12:356 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 239809
+
+[INFO] 10:00:12:356 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 239431
+
+[INFO] 10:00:12:356 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 239806
+
+[INFO] 10:00:12:357 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 240025
+
+[INFO] 10:00:12:357 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:00:17:360 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:00:17:362 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 240197
+
+[INFO] 10:00:17:362 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 239809
+
+[INFO] 10:00:17:363 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 239806
+
+[INFO] 10:00:17:363 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 240025
+
+[INFO] 10:00:17:363 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 240404
+
+[INFO] 10:00:17:364 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:00:17:365 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:00:27:366 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:00:27:545 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 240794
+
+[INFO] 10:00:27:545 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 240998
+
+[INFO] 10:00:27:547 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 240782
+
+[INFO] 10:00:27:547 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 240404
+
+[INFO] 10:00:27:548 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 240779
+
+[INFO] 10:00:27:550 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:00:32:553 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:00:32:555 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 241170
+
+[INFO] 10:00:32:555 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 240998
+
+[INFO] 10:00:32:555 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 241377
+
+[INFO] 10:00:32:556 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 240782
+
+[INFO] 10:00:32:556 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 240779
+
+[INFO] 10:00:32:557 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:00:32:562 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:00:42:564 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:00:42:744 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 241765
+
+[INFO] 10:00:42:745 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 241753
+
+[INFO] 10:00:42:745 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 241377
+
+[INFO] 10:00:42:745 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 241750
+
+[INFO] 10:00:42:746 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 241969
+
+[INFO] 10:00:42:746 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:00:47:749 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:00:47:751 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 242141
+
+[INFO] 10:00:47:752 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 241753
+
+[INFO] 10:00:47:752 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 241750
+
+[INFO] 10:00:47:753 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 241969
+
+[INFO] 10:00:47:753 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 242348
+
+[INFO] 10:00:47:754 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:00:47:755 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:00:57:757 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:00:57:931 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 242739
+
+[INFO] 10:00:57:931 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 242943
+
+[INFO] 10:00:57:932 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 242727
+
+[INFO] 10:00:57:932 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 242348
+
+[INFO] 10:00:57:932 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 242724
+
+[INFO] 10:00:57:933 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:01:02:935 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:01:02:936 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 243115
+
+[INFO] 10:01:02:937 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 242943
+
+[INFO] 10:01:02:937 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 243322
+
+[INFO] 10:01:02:937 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 242727
+
+[INFO] 10:01:02:937 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 242724
+
+[INFO] 10:01:02:938 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:01:02:939 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:01:12:941 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:01:13:119 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 243711
+
+[INFO] 10:01:13:119 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 243699
+
+[INFO] 10:01:13:120 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 243322
+
+[INFO] 10:01:13:120 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 243696
+
+[INFO] 10:01:13:120 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 243915
+
+[INFO] 10:01:13:121 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:01:18:122 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:01:18:124 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 244087
+
+[INFO] 10:01:18:124 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 243699
+
+[INFO] 10:01:18:124 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 243696
+
+[INFO] 10:01:18:125 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 243915
+
+[INFO] 10:01:18:125 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 244294
+
+[INFO] 10:01:18:125 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:01:18:130 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:01:28:131 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:01:28:307 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 244686
+
+[INFO] 10:01:28:308 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 244890
+
+[INFO] 10:01:28:308 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 244674
+
+[INFO] 10:01:28:308 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 244294
+
+[INFO] 10:01:28:308 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 244671
+
+[INFO] 10:01:28:309 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:01:33:311 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:01:33:312 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 245062
+
+[INFO] 10:01:33:313 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 244890
+
+[INFO] 10:01:33:313 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 245269
+
+[INFO] 10:01:33:313 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 244674
+
+[INFO] 10:01:33:313 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 244671
+
+[INFO] 10:01:33:314 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:01:33:315 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:01:43:317 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:01:43:496 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 245662
+
+[INFO] 10:01:43:496 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 245650
+
+[INFO] 10:01:43:496 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 245269
+
+[INFO] 10:01:43:496 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 245644
+
+[INFO] 10:01:43:497 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 245866
+
+[INFO] 10:01:43:497 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:01:48:500 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:01:48:501 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 246035
+
+[INFO] 10:01:48:502 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 245650
+
+[INFO] 10:01:48:502 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 245644
+
+[INFO] 10:01:48:502 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 245866
+
+[INFO] 10:01:48:502 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 246242
+
+[INFO] 10:01:48:503 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:01:48:503 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:01:58:505 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:01:58:683 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 246635
+
+[INFO] 10:01:58:684 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 246839
+
+[INFO] 10:01:58:684 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 246623
+
+[INFO] 10:01:58:684 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 246242
+
+[INFO] 10:01:58:684 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 246620
+
+[INFO] 10:01:58:685 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:02:03:687 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:02:03:689 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 247011
+
+[INFO] 10:02:03:690 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 246839
+
+[INFO] 10:02:03:690 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 247218
+
+[INFO] 10:02:03:690 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 246623
+
+[INFO] 10:02:03:690 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 246620
+
+[INFO] 10:02:03:691 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:02:03:692 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:02:13:694 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:02:13:871 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 247609
+
+[INFO] 10:02:13:872 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 247597
+
+[INFO] 10:02:13:872 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 247218
+
+[INFO] 10:02:13:872 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 247594
+
+[INFO] 10:02:13:872 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 247813
+
+[INFO] 10:02:13:873 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:02:18:874 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:02:18:876 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 247985
+
+[INFO] 10:02:18:876 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 247597
+
+[INFO] 10:02:18:877 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 247594
+
+[INFO] 10:02:18:877 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 247813
+
+[INFO] 10:02:18:877 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 248192
+
+[INFO] 10:02:18:881 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:02:18:882 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:02:28:884 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:02:29:063 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 248586
+
+[INFO] 10:02:29:064 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 248790
+
+[INFO] 10:02:29:064 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 248574
+
+[INFO] 10:02:29:065 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 248192
+
+[INFO] 10:02:29:065 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 248571
+
+[INFO] 10:02:29:065 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:02:34:067 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:02:34:069 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 248962
+
+[INFO] 10:02:34:070 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 248790
+
+[INFO] 10:02:34:070 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 249169
+
+[INFO] 10:02:34:070 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 248574
+
+[INFO] 10:02:34:071 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 248571
+
+[INFO] 10:02:34:072 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:02:34:072 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:02:44:075 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:02:44:251 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 249564
+
+[INFO] 10:02:44:252 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 249552
+
+[INFO] 10:02:44:252 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 249169
+
+[INFO] 10:02:44:253 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 249549
+
+[INFO] 10:02:44:253 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 249768
+
+[INFO] 10:02:44:254 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:02:49:256 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:02:49:258 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 249937
+
+[INFO] 10:02:49:259 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 249552
+
+[INFO] 10:02:49:259 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 249549
+
+[INFO] 10:02:49:260 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 249768
+
+[INFO] 10:02:49:260 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 250144
+
+[INFO] 10:02:49:261 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:02:49:262 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:02:59:267 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:02:59:444 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 250539
+
+[INFO] 10:02:59:444 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 250743
+
+[INFO] 10:02:59:444 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 250527
+
+[INFO] 10:02:59:444 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 250144
+
+[INFO] 10:02:59:445 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 250524
+
+[INFO] 10:02:59:445 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:03:04:447 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:03:04:449 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 250915
+
+[INFO] 10:03:04:449 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 250743
+
+[INFO] 10:03:04:449 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 251122
+
+[INFO] 10:03:04:450 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 250527
+
+[INFO] 10:03:04:450 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 250524
+
+[INFO] 10:03:04:450 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:03:04:451 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:03:14:453 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:03:14:631 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 251518
+
+[INFO] 10:03:14:632 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 251506
+
+[INFO] 10:03:14:632 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 251122
+
+[INFO] 10:03:14:632 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 251503
+
+[INFO] 10:03:14:632 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 251722
+
+[INFO] 10:03:14:633 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:03:19:635 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:03:19:637 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 251894
+
+[INFO] 10:03:19:637 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 251506
+
+[INFO] 10:03:19:637 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 251503
+
+[INFO] 10:03:19:637 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 251722
+
+[INFO] 10:03:19:638 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 252101
+
+[INFO] 10:03:19:638 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:03:19:639 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:03:29:641 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:03:29:820 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 252494
+
+[INFO] 10:03:29:820 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 252698
+
+[INFO] 10:03:29:820 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 252482
+
+[INFO] 10:03:29:821 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 252101
+
+[INFO] 10:03:29:821 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 252479
+
+[INFO] 10:03:29:826 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:03:34:828 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:03:34:829 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 252870
+
+[INFO] 10:03:34:830 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 252698
+
+[INFO] 10:03:34:830 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 253077
+
+[INFO] 10:03:34:830 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 252482
+
+[INFO] 10:03:34:831 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 252479
+
+[INFO] 10:03:34:831 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:03:34:832 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[WARNING] 10:03:44:834 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:03:45:011 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 253474
+
+[INFO] 10:03:45:012 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 253462
+
+[INFO] 10:03:45:012 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 253077
+
+[INFO] 10:03:45:013 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 253459
+
+[INFO] 10:03:45:013 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 253678
+
+[INFO] 10:03:45:014 memoria/(4493:4559): Marco: 1 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 3
+[WARNING] 10:03:50:016 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:03:50:018 memoria/(4493:4559): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 253850
+
+[INFO] 10:03:50:018 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 253462
+
+[INFO] 10:03:50:019 memoria/(4493:4559): 
+VICTIMA ID: 2, nro_pagina: 2, nro_frame 3, TUR: 253459
+
+[INFO] 10:03:50:019 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 253678
+
+[INFO] 10:03:50:019 memoria/(4493:4559): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 254057
+
+[INFO] 10:03:50:020 memoria/(4493:4559): Swapeo pagina 2 del carpincho 2
+[INFO] 10:03:50:021 memoria/(4493:4559): Marco: 3 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 3
+[WARNING] 10:04:00:023 memoria/(4493:4559): TAMAÑO CHOTO : 2048
+[INFO] 10:04:00:200 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 254454
+
+[INFO] 10:04:00:200 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 254658
+
+[INFO] 10:04:00:200 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 254442
+
+[INFO] 10:04:00:201 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 1, nro_frame 1, TUR: 254057
+
+[INFO] 10:04:00:201 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 254439
+
+[INFO] 10:04:00:201 memoria/(4493:4557): Marco: 1 - Reemplazo la pagina 1 del carpincho 3 con la pagina 1 del carpincho 2
+[WARNING] 10:04:05:203 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:04:05:205 memoria/(4493:4557): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 4, TUR: 254827
+
+[INFO] 10:04:05:205 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 0, nro_frame 2, TUR: 254658
+
+[INFO] 10:04:05:206 memoria/(4493:4557): 
+VICTIMA ID: 2, nro_pagina: 1, nro_frame 1, TUR: 255034
+
+[INFO] 10:04:05:206 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 0, nro_frame 0, TUR: 254442
+
+[INFO] 10:04:05:206 memoria/(4493:4557): 
+VICTIMA ID: 3, nro_pagina: 2, nro_frame 3, TUR: 254439
+
+[INFO] 10:04:05:210 memoria/(4493:4557): Swapeo pagina 2 del carpincho 3
+[INFO] 10:04:05:211 memoria/(4493:4557): Marco: 3 - Reemplazo la pagina 2 del carpincho 3 con la pagina 2 del carpincho 2
+[INFO] 10:04:08:854 memoria/(4493:4559): DISCONNECT!
+[ERROR] 10:04:08:858 memoria/(4493:4555): Error al recibir data para leer
+[INFO] 10:04:08:860 memoria/(4493:4555): DISCONNECT!
+[WARNING] 10:04:15:213 memoria/(4493:4557): TAMAÑO CHOTO : 2048
+[INFO] 10:04:15:214 memoria/(4493:4557): DISCONNECT!
+[INFO] 10:04:45:520 memoria/(4493:4493): Senial SIGINT
+[INFO] 10:04:45:521 memoria/(4493:4493): -------------
+[INFO] 10:04:45:521 memoria/(4493:4493): Cantidad TLB Hits totales: 0
+[INFO] 10:04:45:522 memoria/(4493:4493): Cantidad TLB Miss totales: 0
+[INFO] 10:04:45:523 memoria/(4493:4493): Carpincho: 1 - Cantidad Hits: 0
+[INFO] 10:04:45:523 memoria/(4493:4493): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 10:04:45:523 memoria/(4493:4493): Carpincho: 3 - Cantidad Hits: 0
+[INFO] 10:04:45:524 memoria/(4493:4493): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 10:04:45:524 memoria/(4493:4493): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 10:04:45:525 memoria/(4493:4493): Carpincho: 3 - Cantidad Miss: 0
+[INFO] 10:11:47:089 memoria/(7499:7499): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:11:47:175 memoria/(7499:7499): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:11:47:179 memoria/(7499:7499): ------2---------
+
+[INFO] 10:11:47:181 memoria/(7499:7499): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:12:23:588 memoria/(7499:7499): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:12:26:965 memoria/(7499:7633): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:12:26:976 memoria/(7499:7633): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:12:27:178 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:12:27:284 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:12:27:388 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:12:27:490 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[WARNING] 10:12:27:594 memoria/(7499:7633): Direccion de ultimo hdm : 19
+[INFO] 10:12:32:140 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:12:32:258 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:12:32:360 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:12:32:503 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:12:32:648 memoria/(7499:7633): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:15:00:184 memoria/(7499:7633): DISCONNECT!
+[INFO] 10:15:01:112 memoria/(7499:7499): Senial SIGINT
+[INFO] 10:15:01:113 memoria/(7499:7499): -------------
+[INFO] 10:15:01:113 memoria/(7499:7499): Cantidad TLB Hits totales: 9
+[INFO] 10:15:01:114 memoria/(7499:7499): Cantidad TLB Miss totales: 0
+[INFO] 10:15:01:114 memoria/(7499:7499): Carpincho: 1 - Cantidad Hits: 9
+[INFO] 10:15:01:115 memoria/(7499:7499): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 10:15:01:116 memoria/(7499:7499): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 10:15:01:116 memoria/(7499:7499): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 10:15:05:854 memoria/(7964:7964): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:15:05:914 memoria/(7964:7964): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:15:05:917 memoria/(7964:7964): ------2---------
+
+[INFO] 10:15:05:919 memoria/(7964:7964): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:15:07:496 memoria/(7964:7964): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:15:09:569 memoria/(7964:8004): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:15:09:574 memoria/(7964:8004): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:15:09:770 memoria/(7964:8004): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:15:09:876 memoria/(7964:8004): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:15:09:979 memoria/(7964:8004): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:15:10:082 memoria/(7964:8004): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[WARNING] 10:15:10:186 memoria/(7964:8004): Direccion de ultimo hdm : 19
+[INFO] 10:15:14:728 memoria/(7964:8004): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:16:34:404 memoria/(7964:8004): DISCONNECT!
+[INFO] 10:16:35:377 memoria/(7964:7964): Senial SIGINT
+[INFO] 10:16:35:378 memoria/(7964:7964): -------------
+[INFO] 10:16:35:378 memoria/(7964:7964): Cantidad TLB Hits totales: 5
+[INFO] 10:16:35:379 memoria/(7964:7964): Cantidad TLB Miss totales: 0
+[INFO] 10:16:35:379 memoria/(7964:7964): Carpincho: 1 - Cantidad Hits: 5
+[INFO] 10:16:35:380 memoria/(7964:7964): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 10:16:35:381 memoria/(7964:7964): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 10:16:35:382 memoria/(7964:7964): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 10:16:39:865 memoria/(8231:8231): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:16:39:924 memoria/(8231:8231): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:16:39:927 memoria/(8231:8231): ------2---------
+
+[INFO] 10:16:39:929 memoria/(8231:8231): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:16:41:188 memoria/(8231:8231): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:16:43:091 memoria/(8231:8277): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:16:43:098 memoria/(8231:8277): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:16:43:294 memoria/(8231:8277): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:16:43:399 memoria/(8231:8277): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:16:43:503 memoria/(8231:8277): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:16:43:605 memoria/(8231:8277): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[WARNING] 10:16:43:708 memoria/(8231:8277): Direccion de ultimo hdm : 19
+[INFO] 10:16:48:264 memoria/(8231:8277): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:25:56:569 memoria/(8231:8277): DISCONNECT!
+[INFO] 10:25:57:752 memoria/(8231:8231): Senial SIGINT
+[INFO] 10:25:57:752 memoria/(8231:8231): -------------
+[INFO] 10:25:57:753 memoria/(8231:8231): Cantidad TLB Hits totales: 5
+[INFO] 10:25:57:753 memoria/(8231:8231): Cantidad TLB Miss totales: 0
+[INFO] 10:25:57:754 memoria/(8231:8231): Carpincho: 1 - Cantidad Hits: 5
+[INFO] 10:25:57:754 memoria/(8231:8231): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 10:25:57:755 memoria/(8231:8231): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 10:25:57:756 memoria/(8231:8231): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 10:26:02:881 memoria/(9214:9214): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:26:02:938 memoria/(9214:9214): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:26:02:941 memoria/(9214:9214): ------2---------
+
+[INFO] 10:26:02:943 memoria/(9214:9214): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:26:05:647 memoria/(9214:9214): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:26:08:230 memoria/(9214:9214): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:26:08:323 memoria/(9214:9214): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:26:08:357 memoria/(9214:9292): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:26:08:366 memoria/(9214:9293): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:26:08:402 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:26:08:507 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:26:08:610 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:26:08:713 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[WARNING] 10:26:08:816 memoria/(9214:9292): Direccion de ultimo hdm : 19
+[INFO] 10:26:13:442 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:26:13:553 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:26:13:655 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:26:13:799 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:26:13:944 memoria/(9214:9292): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[INFO] 10:28:11:658 memoria/(9214:9293): DISCONNECT!
+[INFO] 10:28:11:663 memoria/(9214:9292): DISCONNECT!
+[INFO] 10:28:11:663 memoria/(9214:9260): DISCONNECT!
+[INFO] 10:28:12:602 memoria/(9214:9214): Senial SIGINT
+[INFO] 10:28:12:603 memoria/(9214:9214): -------------
+[INFO] 10:28:12:604 memoria/(9214:9214): Cantidad TLB Hits totales: 9
+[INFO] 10:28:12:604 memoria/(9214:9214): Cantidad TLB Miss totales: 0
+[INFO] 10:28:12:605 memoria/(9214:9214): Carpincho: 1 - Cantidad Hits: 9
+[INFO] 10:28:12:605 memoria/(9214:9214): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 10:28:12:606 memoria/(9214:9214): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 10:28:12:607 memoria/(9214:9214): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 10:30:26:804 memoria/(9780:9780): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:30:26:863 memoria/(9780:9780): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:30:26:866 memoria/(9780:9780): ------2---------
+
+[INFO] 10:30:26:869 memoria/(9780:9780): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:30:28:345 memoria/(9780:9780): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:30:31:122 memoria/(9780:9780): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:30:31:235 memoria/(9780:9854): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:30:31:309 memoria/(9780:9780): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:30:31:347 memoria/(9780:9858): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:30:31:386 memoria/(9780:9780): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:30:31:431 memoria/(9780:9860): 
+Se conecto el carpincho: 3 
+
+[WARNING] 10:31:11:523 memoria/(9780:9854): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 10:31:13:534 memoria/(9780:9858): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 10:31:23:543 memoria/(9780:9860): 
+Se desconecto el carpincho: 3 
+
+[INFO] 10:31:50:932 memoria/(9780:9860): DISCONNECT!
+[INFO] 10:31:50:936 memoria/(9780:9858): DISCONNECT!
+[INFO] 10:31:50:936 memoria/(9780:9854): DISCONNECT!
+[INFO] 10:31:50:936 memoria/(9780:9821): DISCONNECT!
+[INFO] 10:31:51:998 memoria/(9780:9780): Senial SIGINT
+[INFO] 10:31:51:999 memoria/(9780:9780): -------------
+[INFO] 10:31:52:000 memoria/(9780:9780): Cantidad TLB Hits totales: 0
+[INFO] 10:31:52:001 memoria/(9780:9780): Cantidad TLB Miss totales: 0
+[INFO] 10:31:56:326 memoria/(10051:10051): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:31:56:384 memoria/(10051:10051): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:31:56:387 memoria/(10051:10051): ------2---------
+
+[INFO] 10:31:56:390 memoria/(10051:10051): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:31:57:881 memoria/(10051:10051): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:31:59:522 memoria/(10051:10051): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:31:59:625 memoria/(10051:10120): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:31:59:710 memoria/(10051:10051): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:31:59:749 memoria/(10051:10122): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:31:59:801 memoria/(10051:10051): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:31:59:839 memoria/(10051:10124): 
+Se conecto el carpincho: 3 
+
+[WARNING] 10:32:39:927 memoria/(10051:10120): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 10:32:41:938 memoria/(10051:10122): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 10:32:51:948 memoria/(10051:10124): 
+Se desconecto el carpincho: 3 
+
+[INFO] 10:32:58:344 memoria/(10051:10124): DISCONNECT!
+[INFO] 10:32:58:348 memoria/(10051:10122): DISCONNECT!
+[INFO] 10:32:58:349 memoria/(10051:10120): DISCONNECT!
+[INFO] 10:32:58:350 memoria/(10051:10091): DISCONNECT!
+[INFO] 10:32:59:456 memoria/(10051:10051): Senial SIGINT
+[INFO] 10:32:59:456 memoria/(10051:10051): -------------
+[INFO] 10:32:59:457 memoria/(10051:10051): Cantidad TLB Hits totales: 0
+[INFO] 10:32:59:458 memoria/(10051:10051): Cantidad TLB Miss totales: 0
+[INFO] 10:33:30:105 memoria/(10330:10330): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:33:30:164 memoria/(10330:10330): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:33:30:167 memoria/(10330:10330): ------2---------
+
+[INFO] 10:33:30:169 memoria/(10330:10330): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:33:31:446 memoria/(10330:10330): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:33:33:179 memoria/(10330:10330): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:33:33:288 memoria/(10330:10402): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:33:33:357 memoria/(10330:10330): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:33:33:395 memoria/(10330:10404): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:33:33:436 memoria/(10330:10330): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:33:33:469 memoria/(10330:10406): 
+Se conecto el carpincho: 3 
+
+[WARNING] 10:34:13:568 memoria/(10330:10402): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 10:34:15:579 memoria/(10330:10404): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 10:34:25:589 memoria/(10330:10406): 
+Se desconecto el carpincho: 3 
+
+[INFO] 10:34:51:702 memoria/(10330:10406): DISCONNECT!
+[INFO] 10:34:51:705 memoria/(10330:10404): DISCONNECT!
+[INFO] 10:34:51:706 memoria/(10330:10402): DISCONNECT!
+[INFO] 10:34:51:707 memoria/(10330:10373): DISCONNECT!
+[INFO] 10:34:52:872 memoria/(10330:10330): Senial SIGINT
+[INFO] 10:34:52:873 memoria/(10330:10330): -------------
+[INFO] 10:34:52:874 memoria/(10330:10330): Cantidad TLB Hits totales: 0
+[INFO] 10:34:52:874 memoria/(10330:10330): Cantidad TLB Miss totales: 0
+[INFO] 10:34:56:709 memoria/(10620:10620): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:34:56:766 memoria/(10620:10620): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:34:56:769 memoria/(10620:10620): ------2---------
+
+[INFO] 10:34:56:771 memoria/(10620:10620): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:34:58:129 memoria/(10620:10620): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:34:59:877 memoria/(10620:10620): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:34:59:987 memoria/(10620:10692): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:35:00:071 memoria/(10620:10620): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:35:00:108 memoria/(10620:10694): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:35:00:157 memoria/(10620:10620): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:35:00:195 memoria/(10620:10696): 
+Se conecto el carpincho: 3 
+
+[INFO] 10:35:45:666 memoria/(10620:10696): DISCONNECT!
+[INFO] 10:35:45:671 memoria/(10620:10663): DISCONNECT!
+[INFO] 10:35:45:671 memoria/(10620:10692): DISCONNECT!
+[INFO] 10:35:45:671 memoria/(10620:10694): DISCONNECT!
+[INFO] 10:35:46:715 memoria/(10620:10620): Senial SIGINT
+[INFO] 10:35:46:716 memoria/(10620:10620): -------------
+[INFO] 10:35:46:718 memoria/(10620:10620): Cantidad TLB Hits totales: 0
+[INFO] 10:35:46:719 memoria/(10620:10620): Cantidad TLB Miss totales: 0
+[INFO] 10:35:46:720 memoria/(10620:10620): Carpincho: 1 - Cantidad Hits: 0
+[INFO] 10:35:46:721 memoria/(10620:10620): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 10:35:46:721 memoria/(10620:10620): Carpincho: 3 - Cantidad Hits: 0
+[INFO] 10:35:46:722 memoria/(10620:10620): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 10:35:46:722 memoria/(10620:10620): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 10:35:46:722 memoria/(10620:10620): Carpincho: 3 - Cantidad Miss: 0
+[INFO] 10:35:51:202 memoria/(10845:10845): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:35:51:260 memoria/(10845:10845): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:35:51:263 memoria/(10845:10845): ------2---------
+
+[INFO] 10:35:51:265 memoria/(10845:10845): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:35:52:497 memoria/(10845:10845): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:35:55:007 memoria/(10845:10845): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:35:55:124 memoria/(10845:10920): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:35:55:207 memoria/(10845:10845): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:35:55:246 memoria/(10845:10922): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:35:55:295 memoria/(10845:10845): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:35:55:333 memoria/(10845:10924): 
+Se conecto el carpincho: 3 
+
+[WARNING] 10:36:35:438 memoria/(10845:10920): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 10:36:37:459 memoria/(10845:10922): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 10:36:47:469 memoria/(10845:10924): 
+Se desconecto el carpincho: 3 
+
+[INFO] 10:36:58:092 memoria/(10845:10924): DISCONNECT!
+[INFO] 10:36:58:097 memoria/(10845:10891): DISCONNECT!
+[INFO] 10:36:58:097 memoria/(10845:10920): DISCONNECT!
+[INFO] 10:36:58:097 memoria/(10845:10922): DISCONNECT!
+[INFO] 10:36:59:061 memoria/(10845:10845): Senial SIGINT
+[INFO] 10:36:59:063 memoria/(10845:10845): -------------
+[INFO] 10:36:59:064 memoria/(10845:10845): Cantidad TLB Hits totales: 0
+[INFO] 10:36:59:065 memoria/(10845:10845): Cantidad TLB Miss totales: 0
+[INFO] 10:37:04:122 memoria/(11104:11104): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:37:04:183 memoria/(11104:11104): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:37:04:187 memoria/(11104:11104): ------2---------
+
+[INFO] 10:37:04:190 memoria/(11104:11104): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:37:05:679 memoria/(11104:11104): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:37:07:415 memoria/(11104:11104): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:37:07:527 memoria/(11104:11179): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:37:07:599 memoria/(11104:11104): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:37:07:637 memoria/(11104:11181): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:37:07:681 memoria/(11104:11104): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:37:07:719 memoria/(11104:11183): 
+Se conecto el carpincho: 3 
+
+[WARNING] 10:37:27:796 memoria/(11104:11179): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 10:37:29:811 memoria/(11104:11181): 
+Se desconecto el carpincho: 2 
+
+[WARNING] 10:38:03:838 memoria/(11104:11183): 
+Se desconecto el carpincho: 3 
+
+[INFO] 10:38:06:999 memoria/(11104:11183): DISCONNECT!
+[INFO] 10:38:07:004 memoria/(11104:11181): DISCONNECT!
+[INFO] 10:38:07:005 memoria/(11104:11179): DISCONNECT!
+[INFO] 10:38:07:005 memoria/(11104:11144): DISCONNECT!
+[INFO] 10:38:08:574 memoria/(11104:11104): Senial SIGINT
+[INFO] 10:38:08:575 memoria/(11104:11104): -------------
+[INFO] 10:38:08:575 memoria/(11104:11104): Cantidad TLB Hits totales: 0
+[INFO] 10:38:08:576 memoria/(11104:11104): Cantidad TLB Miss totales: 0
+[INFO] 10:40:59:463 memoria/(11615:11615): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:40:59:519 memoria/(11615:11615): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:40:59:522 memoria/(11615:11615): ------2---------
+
+[INFO] 10:40:59:524 memoria/(11615:11615): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:41:00:849 memoria/(11615:11615): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:41:02:353 memoria/(11615:11615): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:41:02:440 memoria/(11615:11687): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:41:02:563 memoria/(11615:11687): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0
+
+[INFO] 10:41:02:577 memoria/(11615:11687): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 1 del carpincho 1
+[INFO] 10:41:02:592 memoria/(11615:11687): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[INFO] 10:41:03:606 memoria/(11615:11687): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0
+
+[INFO] 10:41:03:607 memoria/(11615:11687): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[WARNING] 10:41:04:615 memoria/(11615:11687): TAMAÑO CHOTO : 32
+[INFO] 10:41:49:118 memoria/(11615:11615): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:41:49:193 memoria/(11615:11891): 
+Se conecto el carpincho: 2 
+
+[INFO] 10:41:49:375 memoria/(11615:11891): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 1 
+
+[INFO] 10:41:49:483 memoria/(11615:11891): 
+TLB HIT: PID: 2  PAGINA: 0  MARCO: 1 
+
+[WARNING] 10:41:49:679 memoria/(11615:11891): 
+Se desconecto el carpincho: 2 
+
+[INFO] 10:41:49:691 memoria/(11615:11687): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[WARNING] 10:41:49:838 memoria/(11615:11687): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:42:06:881 memoria/(11615:11891): DISCONNECT!
+[INFO] 10:42:06:885 memoria/(11615:11687): DISCONNECT!
+[INFO] 10:42:06:886 memoria/(11615:11655): DISCONNECT!
+[INFO] 10:42:08:132 memoria/(11615:11615): Senial SIGINT
+[INFO] 10:42:08:132 memoria/(11615:11615): -------------
+[INFO] 10:42:08:133 memoria/(11615:11615): Cantidad TLB Hits totales: 3
+[INFO] 10:42:08:133 memoria/(11615:11615): Cantidad TLB Miss totales: 1
+[INFO] 10:42:25:687 memoria/(12027:12027): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:42:25:748 memoria/(12027:12027): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:42:25:751 memoria/(12027:12027): ------2---------
+
+[INFO] 10:42:25:754 memoria/(12027:12027): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:42:27:169 memoria/(12027:12027): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:42:29:138 memoria/(12027:12027): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:42:29:233 memoria/(12027:12096): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:42:29:436 memoria/(12027:12096): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:42:29:546 memoria/(12027:12096): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[WARNING] 10:42:29:747 memoria/(12027:12096): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:42:32:903 memoria/(12027:12096): DISCONNECT!
+[INFO] 10:42:32:907 memoria/(12027:12070): DISCONNECT!
+[INFO] 10:42:34:481 memoria/(12027:12027): Senial SIGINT
+[INFO] 10:42:34:482 memoria/(12027:12027): -------------
+[INFO] 10:42:34:482 memoria/(12027:12027): Cantidad TLB Hits totales: 2
+[INFO] 10:42:34:483 memoria/(12027:12027): Cantidad TLB Miss totales: 0
+[INFO] 10:43:20:643 memoria/(12255:12255): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:43:20:704 memoria/(12255:12255): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:43:20:707 memoria/(12255:12255): ------2---------
+
+[INFO] 10:43:20:709 memoria/(12255:12255): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:43:21:906 memoria/(12255:12255): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:43:23:567 memoria/(12255:12255): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:43:23:657 memoria/(12255:12324): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:43:23:862 memoria/(12255:12324): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[WARNING] 10:43:24:019 memoria/(12255:12324): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:43:26:160 memoria/(12255:12324): DISCONNECT!
+[INFO] 10:43:26:164 memoria/(12255:12298): DISCONNECT!
+[INFO] 10:43:27:579 memoria/(12255:12255): Senial SIGINT
+[INFO] 10:43:27:580 memoria/(12255:12255): -------------
+[INFO] 10:43:27:581 memoria/(12255:12255): Cantidad TLB Hits totales: 1
+[INFO] 10:43:27:582 memoria/(12255:12255): Cantidad TLB Miss totales: 0
+[INFO] 10:43:45:050 memoria/(12450:12450): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:43:45:117 memoria/(12450:12450): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:43:45:120 memoria/(12450:12450): ------2---------
+
+[INFO] 10:43:45:123 memoria/(12450:12450): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:43:46:262 memoria/(12450:12450): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:43:47:696 memoria/(12450:12450): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:43:47:785 memoria/(12450:12519): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:43:48:034 memoria/(12450:12519): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:43:52:664 memoria/(12450:12519): DISCONNECT!
+[INFO] 10:43:52:669 memoria/(12450:12490): DISCONNECT!
+[INFO] 10:43:53:811 memoria/(12450:12450): Senial SIGINT
+[INFO] 10:43:53:812 memoria/(12450:12450): -------------
+[INFO] 10:43:53:813 memoria/(12450:12450): Cantidad TLB Hits totales: 0
+[INFO] 10:43:53:813 memoria/(12450:12450): Cantidad TLB Miss totales: 0
+[INFO] 10:44:14:345 memoria/(12638:12638): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:44:14:400 memoria/(12638:12638): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:44:14:403 memoria/(12638:12638): ------2---------
+
+[INFO] 10:44:14:406 memoria/(12638:12638): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:44:15:537 memoria/(12638:12638): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:44:18:747 memoria/(12638:12638): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:44:18:845 memoria/(12638:12707): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:44:18:971 memoria/(12638:12707): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:44:20:841 memoria/(12638:12707): DISCONNECT!
+[INFO] 10:44:20:846 memoria/(12638:12675): DISCONNECT!
+[INFO] 10:44:22:148 memoria/(12638:12638): Senial SIGINT
+[INFO] 10:44:22:149 memoria/(12638:12638): -------------
+[INFO] 10:44:22:150 memoria/(12638:12638): Cantidad TLB Hits totales: 0
+[INFO] 10:44:22:150 memoria/(12638:12638): Cantidad TLB Miss totales: 0
+[INFO] 10:47:53:350 memoria/(13185:13185): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:47:53:408 memoria/(13185:13185): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:47:53:411 memoria/(13185:13185): ------2---------
+
+[INFO] 10:47:53:413 memoria/(13185:13185): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:47:54:983 memoria/(13185:13185): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:47:56:732 memoria/(13185:13185): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:47:56:833 memoria/(13185:13251): 
+Se conecto el carpincho: 1 
+
+[INFO] 10:47:57:034 memoria/(13185:13251): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[INFO] 10:47:57:146 memoria/(13185:13251): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[WARNING] 10:47:57:347 memoria/(13185:13251): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:48:00:296 memoria/(13185:13251): DISCONNECT!
+[INFO] 10:48:00:301 memoria/(13185:13222): DISCONNECT!
+[INFO] 10:48:01:419 memoria/(13185:13185): Senial SIGINT
+[INFO] 10:48:01:420 memoria/(13185:13185): -------------
+[INFO] 10:48:01:421 memoria/(13185:13185): Cantidad TLB Hits totales: 2
+[INFO] 10:48:01:422 memoria/(13185:13185): Cantidad TLB Miss totales: 0
+[INFO] 10:49:15:123 memoria/(13471:13471): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:49:15:178 memoria/(13471:13471): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:49:15:180 memoria/(13471:13471): ------2---------
+
+[INFO] 10:49:15:182 memoria/(13471:13471): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:49:16:409 memoria/(13471:13471): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:49:22:153 memoria/(13471:13508): DISCONNECT!
+[INFO] 10:49:23:178 memoria/(13471:13471): Senial SIGINT
+[INFO] 10:49:23:179 memoria/(13471:13471): -------------
+[INFO] 10:49:23:180 memoria/(13471:13471): Cantidad TLB Hits totales: 0
+[INFO] 10:49:23:180 memoria/(13471:13471): Cantidad TLB Miss totales: 0
+[INFO] 10:51:56:367 memoria/(13837:13837): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:51:56:423 memoria/(13837:13837): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:51:56:425 memoria/(13837:13837): ------2---------
+
+[INFO] 10:51:56:428 memoria/(13837:13837): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:51:57:605 memoria/(13837:13837): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:51:59:006 memoria/(13837:13837): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:51:59:091 memoria/(13837:13906): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:51:59:183 memoria/(13837:13906): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:52:03:537 memoria/(13837:13906): DISCONNECT!
+[INFO] 10:52:03:543 memoria/(13837:13880): DISCONNECT!
+[INFO] 10:52:04:524 memoria/(13837:13837): Senial SIGINT
+[INFO] 10:52:04:524 memoria/(13837:13837): -------------
+[INFO] 10:52:04:525 memoria/(13837:13837): Cantidad TLB Hits totales: 0
+[INFO] 10:52:04:526 memoria/(13837:13837): Cantidad TLB Miss totales: 0
+[INFO] 10:52:22:067 memoria/(14026:14026): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:52:22:124 memoria/(14026:14026): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:52:22:127 memoria/(14026:14026): ------2---------
+
+[INFO] 10:52:22:130 memoria/(14026:14026): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:52:23:226 memoria/(14026:14026): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:52:24:634 memoria/(14026:14026): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:52:24:728 memoria/(14026:14095): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:52:24:811 memoria/(14026:14095): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:52:26:451 memoria/(14026:14095): DISCONNECT!
+[INFO] 10:52:26:455 memoria/(14026:14069): DISCONNECT!
+[INFO] 10:52:28:266 memoria/(14026:14026): Senial SIGINT
+[INFO] 10:52:28:267 memoria/(14026:14026): -------------
+[INFO] 10:52:28:268 memoria/(14026:14026): Cantidad TLB Hits totales: 0
+[INFO] 10:52:28:268 memoria/(14026:14026): Cantidad TLB Miss totales: 0
+[INFO] 10:53:23:008 memoria/(14278:14278): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:53:23:065 memoria/(14278:14278): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:53:23:067 memoria/(14278:14278): ------2---------
+
+[INFO] 10:53:23:070 memoria/(14278:14278): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:53:24:272 memoria/(14278:14278): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:53:26:008 memoria/(14278:14278): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:53:26:100 memoria/(14278:14344): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:53:26:187 memoria/(14278:14344): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:53:38:912 memoria/(14278:14344): DISCONNECT!
+[INFO] 10:53:38:916 memoria/(14278:14318): DISCONNECT!
+[INFO] 10:53:40:714 memoria/(14278:14278): Senial SIGINT
+[INFO] 10:53:40:714 memoria/(14278:14278): -------------
+[INFO] 10:53:40:715 memoria/(14278:14278): Cantidad TLB Hits totales: 0
+[INFO] 10:53:40:716 memoria/(14278:14278): Cantidad TLB Miss totales: 0
+[INFO] 10:55:39:470 memoria/(14612:14612): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:55:39:525 memoria/(14612:14612): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:55:39:528 memoria/(14612:14612): ------2---------
+
+[INFO] 10:55:39:530 memoria/(14612:14612): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:55:40:685 memoria/(14612:14612): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:55:42:164 memoria/(14612:14612): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:55:42:255 memoria/(14612:14678): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:55:42:340 memoria/(14612:14678): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:55:43:853 memoria/(14612:14678): DISCONNECT!
+[INFO] 10:55:43:857 memoria/(14612:14649): DISCONNECT!
+[INFO] 10:55:44:922 memoria/(14612:14612): Senial SIGINT
+[INFO] 10:55:44:923 memoria/(14612:14612): -------------
+[INFO] 10:55:44:923 memoria/(14612:14612): Cantidad TLB Hits totales: 0
+[INFO] 10:55:44:924 memoria/(14612:14612): Cantidad TLB Miss totales: 0
+[INFO] 10:56:02:987 memoria/(14807:14807): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:56:03:048 memoria/(14807:14807): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:56:03:052 memoria/(14807:14807): ------2---------
+
+[INFO] 10:56:03:054 memoria/(14807:14807): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:56:04:165 memoria/(14807:14807): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:56:05:476 memoria/(14807:14807): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:56:05:573 memoria/(14807:14873): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:56:05:773 memoria/(14807:14873): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:56:07:924 memoria/(14807:14873): DISCONNECT!
+[INFO] 10:56:07:928 memoria/(14807:14847): DISCONNECT!
+[INFO] 10:56:09:620 memoria/(14807:14807): Senial SIGINT
+[INFO] 10:56:09:621 memoria/(14807:14807): -------------
+[INFO] 10:56:09:622 memoria/(14807:14807): Cantidad TLB Hits totales: 0
+[INFO] 10:56:09:622 memoria/(14807:14807): Cantidad TLB Miss totales: 0
+[INFO] 10:57:04:249 memoria/(15042:15042): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:57:04:305 memoria/(15042:15042): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:57:04:309 memoria/(15042:15042): ------2---------
+
+[INFO] 10:57:04:311 memoria/(15042:15042): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:57:05:460 memoria/(15042:15042): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:57:06:867 memoria/(15042:15042): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:57:06:971 memoria/(15042:15108): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:57:07:138 memoria/(15042:15108): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:57:08:910 memoria/(15042:15108): DISCONNECT!
+[INFO] 10:57:08:915 memoria/(15042:15079): DISCONNECT!
+[INFO] 10:57:09:853 memoria/(15042:15042): Senial SIGINT
+[INFO] 10:57:09:854 memoria/(15042:15042): -------------
+[INFO] 10:57:09:855 memoria/(15042:15042): Cantidad TLB Hits totales: 0
+[INFO] 10:57:09:855 memoria/(15042:15042): Cantidad TLB Miss totales: 0
+[INFO] 10:59:06:310 memoria/(15448:15448): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 10:59:06:367 memoria/(15448:15448): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 10:59:06:370 memoria/(15448:15448): ------2---------
+
+[INFO] 10:59:06:372 memoria/(15448:15448): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 10:59:07:531 memoria/(15448:15448): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 10:59:09:003 memoria/(15448:15448): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 10:59:09:102 memoria/(15448:15517): 
+Se conecto el carpincho: 1 
+
+[WARNING] 10:59:09:287 memoria/(15448:15517): 
+Se desconecto el carpincho: 1 
+
+[INFO] 10:59:11:842 memoria/(15448:15517): DISCONNECT!
+[INFO] 10:59:11:846 memoria/(15448:15491): DISCONNECT!
+[INFO] 10:59:13:075 memoria/(15448:15448): Senial SIGINT
+[INFO] 10:59:13:076 memoria/(15448:15448): -------------
+[INFO] 10:59:13:077 memoria/(15448:15448): Cantidad TLB Hits totales: 0
+[INFO] 10:59:13:077 memoria/(15448:15448): Cantidad TLB Miss totales: 0
+[INFO] 11:01:08:816 memoria/(15843:15843): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 11:01:08:873 memoria/(15843:15843): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 11:01:08:877 memoria/(15843:15843): ------2---------
+
+[INFO] 11:01:08:879 memoria/(15843:15843): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 11:01:09:989 memoria/(15843:15843): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 11:01:11:438 memoria/(15843:15843): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 11:01:11:531 memoria/(15843:15906): 
+Se conecto el carpincho: 1 
+
+[INFO] 11:02:41:329 memoria/(16147:16147): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 11:02:41:385 memoria/(16147:16147): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 11:02:41:388 memoria/(16147:16147): ------2---------
+
+[INFO] 11:02:41:390 memoria/(16147:16147): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 11:02:44:019 memoria/(16147:16147): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 11:02:45:510 memoria/(16147:16147): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 11:02:45:593 memoria/(16147:16216): 
+Se conecto el carpincho: 1 
+
+[WARNING] 11:02:45:798 memoria/(16147:16216): 
+Se desconecto el carpincho: 1 
+
+[WARNING] 11:02:45:806 memoria/(16147:16216): MAMAAAAA
+[INFO] 11:02:48:450 memoria/(16147:16216): DISCONNECT!
+[INFO] 11:02:48:455 memoria/(16147:16190): DISCONNECT!
+[INFO] 11:02:49:584 memoria/(16147:16147): Senial SIGINT
+[INFO] 11:02:49:585 memoria/(16147:16147): -------------
+[INFO] 11:02:49:586 memoria/(16147:16147): Cantidad TLB Hits totales: 0
+[INFO] 11:02:49:586 memoria/(16147:16147): Cantidad TLB Miss totales: 0
+[INFO] 11:03:15:385 memoria/(16351:16351): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 11:03:15:440 memoria/(16351:16351): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 11:03:15:443 memoria/(16351:16351): ------2---------
+
+[INFO] 11:03:15:445 memoria/(16351:16351): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 11:03:16:651 memoria/(16351:16351): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 11:03:18:067 memoria/(16351:16351): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 11:03:18:172 memoria/(16351:16422): 
+Se conecto el carpincho: 1 
+
+[WARNING] 11:03:18:363 memoria/(16351:16422): 
+Se desconecto el carpincho: 1 
+
+[INFO] 11:03:20:681 memoria/(16351:16422): DISCONNECT!
+[INFO] 11:03:20:685 memoria/(16351:16390): DISCONNECT!
+[INFO] 11:03:21:689 memoria/(16351:16351): Senial SIGINT
+[INFO] 11:03:21:690 memoria/(16351:16351): -------------
+[INFO] 11:03:21:691 memoria/(16351:16351): Cantidad TLB Hits totales: 0
+[INFO] 11:03:21:691 memoria/(16351:16351): Cantidad TLB Miss totales: 0
+[INFO] 11:08:05:162 memoria/(16932:16932): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 11:08:05:217 memoria/(16932:16932): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 11:08:05:219 memoria/(16932:16932): ------2---------
+
+[INFO] 11:08:05:222 memoria/(16932:16932): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 11:08:06:752 memoria/(16932:16932): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 11:08:08:378 memoria/(16932:16932): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 11:08:08:474 memoria/(16932:17001): 
+Se conecto el carpincho: 1 
+
+[WARNING] 11:08:08:678 memoria/(16932:17001): 
+Se desconecto el carpincho: 1 
+
+[INFO] 11:08:10:672 memoria/(16932:17001): DISCONNECT!
+[INFO] 11:08:10:676 memoria/(16932:16969): DISCONNECT!
+[INFO] 11:08:12:076 memoria/(16932:16932): Senial SIGINT
+[INFO] 11:08:12:077 memoria/(16932:16932): -------------
+[INFO] 11:08:12:078 memoria/(16932:16932): Cantidad TLB Hits totales: 0
+[INFO] 11:08:12:078 memoria/(16932:16932): Cantidad TLB Miss totales: 0

@@ -169,7 +169,7 @@ void suspender_carpincho(unsigned long id){
         suspender_frame(nro_frame);
     }
 }
-
+// TODO esto se deberia cambiar por los tlb hits
 void finalizar_carpincho(unsigned long id_carpincho){
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
     if(tabla_carpincho){
@@ -186,5 +186,7 @@ void finalizar_carpincho(unsigned long id_carpincho){
             free(entrada_tp);
         }
         list_destroy_and_destroy_elements(tabla_carpincho->paginas, destructor_loco);  
+        free(tabla_carpincho);
     }
+    
 }

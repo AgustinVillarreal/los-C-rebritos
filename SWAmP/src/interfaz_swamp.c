@@ -58,7 +58,7 @@ void buscar_frame_en_swap(int fd,unsigned long id, uint32_t nro_pagina, void** d
 
 void borrar_carpincho_swap(int fd,unsigned long carpincho_id){
     eliminar_carpincho_de_memoria(carpincho_id);
-    usleep(1000*cfg->RETARDO_SWAP);
+    // usleep(1000*cfg->RETARDO_SWAP);
     // send_ack(fd,true);
 }
 

@@ -2433,3 +2433,967 @@
 [INFO] 23:41:52:796 SWAmP/(29936:29936): ------------------------
 [INFO] 23:41:52:797 SWAmP/(29936:29936): DISCONNECT!
 [INFO] 23:41:52:798 SWAmP/(29936:29936): Finalizando programa...
+[INFO] 09:40:04:418 SWAmP/(4071:4071): Archivo de configuracion cargado correctamente
+[INFO] 09:40:04:462 SWAmP/(4071:4071): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 09:40:04:473 SWAmP/(4071:4071): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 09:40:04:475 SWAmP/(4071:4071): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 09:40:04:484 SWAmP/(4071:4071): ------2---------
+
+[INFO] 09:40:04:490 SWAmP/(4071:4071): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 09:40:21:728 SWAmP/(4071:4071): Cliente conectado (a SWAmP)
+
+[INFO] 09:40:21:740 SWAmP/(4071:4071): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 09:40:21:747 SWAmP/(4071:4071): Se recibio el esquema de asigancion coreectamente
+[WARNING] 09:40:32:397 SWAmP/(4071:4071): id: 1 cant 1 asig fija 0
+[WARNING] 09:40:32:399 SWAmP/(4071:4071): Vuelta 0
+[WARNING] 09:40:32:404 SWAmP/(4071:4071): paginas_libres 10
+[WARNING] 09:40:32:410 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:40:32:414 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:40:37:460 SWAmP/(4071:4071): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 09:40:37:460 SWAmP/(4071:4071): id: 2 cant 1 asig fija 0
+[WARNING] 09:40:37:461 SWAmP/(4071:4071): Vuelta 0
+[WARNING] 09:40:37:463 SWAmP/(4071:4071): paginas_libres 9
+[WARNING] 09:40:37:465 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:40:37:465 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:40:42:467 SWAmP/(4071:4071): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 09:40:42:468 SWAmP/(4071:4071): id: 3 cant 1 asig fija 0
+[WARNING] 09:40:42:468 SWAmP/(4071:4071): Vuelta 0
+[WARNING] 09:40:42:469 SWAmP/(4071:4071): paginas_libres 9
+[WARNING] 09:40:42:471 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:40:42:471 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:40:47:473 SWAmP/(4071:4071): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 09:40:47:473 SWAmP/(4071:4071): id: 1 cant 9 asig fija 0
+[WARNING] 09:40:47:481 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:40:47:482 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:40:52:501 SWAmP/(4071:4071): Se allocaron 9 marcos para el carpincho 1 correctamente
+[INFO] 09:40:57:507 SWAmP/(4071:4071): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 09:41:02:509 SWAmP/(4071:4071): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 09:41:07:511 SWAmP/(4071:4071): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 09:41:12:513 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 1 en swap
+[INFO] 09:41:17:515 SWAmP/(4071:4071): Se escribio la pagina 0 del carpincho 3 en swap
+[INFO] 09:41:22:518 SWAmP/(4071:4071): Se escribio la pagina 3 del carpincho 1 en swap
+[INFO] 09:41:27:520 SWAmP/(4071:4071): Se escribio la pagina 4 del carpincho 1 en swap
+[WARNING] 09:41:27:522 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:41:32:525 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:41:37:530 SWAmP/(4071:4071): Se escribio la pagina 5 del carpincho 1 en swap
+[INFO] 09:41:42:531 SWAmP/(4071:4071): Se escribio la pagina 6 del carpincho 1 en swap
+[WARNING] 09:41:42:532 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:41:47:533 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:41:52:538 SWAmP/(4071:4071): Se escribio la pagina 7 del carpincho 1 en swap
+[WARNING] 09:41:52:538 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:41:57:540 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:43:20:428 SWAmP/(4071:4071): id: 2 cant 1 asig fija 0
+[WARNING] 09:43:20:429 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:43:20:429 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:43:25:471 SWAmP/(4071:4071): Se allocaron 1 marcos para el carpincho 2 correctamente
+[INFO] 09:43:30:472 SWAmP/(4071:4071): Se escribio la pagina 8 del carpincho 1 en swap
+[WARNING] 09:43:30:473 SWAmP/(4071:4071): id: 3 cant 1 asig fija 0
+[WARNING] 09:43:30:475 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:43:30:476 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:43:35:478 SWAmP/(4071:4071): Se allocaron 1 marcos para el carpincho 3 correctamente
+[INFO] 09:43:40:479 SWAmP/(4071:4071): Se escribio la pagina 9 del carpincho 1 en swap
+[WARNING] 09:45:01:346 SWAmP/(4071:4071): id: 2 cant 1 asig fija 0
+[WARNING] 09:45:01:347 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:45:01:347 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:45:06:391 SWAmP/(4071:4071): Se allocaron 1 marcos para el carpincho 2 correctamente
+[INFO] 09:45:11:392 SWAmP/(4071:4071): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 09:45:16:393 SWAmP/(4071:4071): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 09:45:16:394 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:45:21:395 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:45:21:398 SWAmP/(4071:4071): id: 3 cant 1 asig fija 0
+[WARNING] 09:45:21:399 SWAmP/(4071:4071): aaa: 1
+[INFO] 09:45:21:399 SWAmP/(4071:4071): La solicitud se realizo correctamente
+[INFO] 09:45:26:443 SWAmP/(4071:4071): Se allocaron 1 marcos para el carpincho 3 correctamente
+[INFO] 09:45:31:445 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[INFO] 09:45:36:446 SWAmP/(4071:4071): Se escribio la pagina 1 del carpincho 3 en swap
+[WARNING] 09:45:36:446 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:45:41:447 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:45:46:452 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:45:46:453 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:45:51:453 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:45:56:635 SWAmP/(4071:4071): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 09:45:56:636 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:46:01:637 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:46:06:643 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:46:06:643 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:46:11:644 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:46:16:823 SWAmP/(4071:4071): Se escribio la pagina 1 del carpincho 3 en swap
+[WARNING] 09:46:16:823 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:46:21:824 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:46:26:830 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:46:26:831 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:46:31:832 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:46:32:015 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:46:37:017 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:46:42:023 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:46:42:023 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:46:47:024 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:46:47:205 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:46:52:206 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:46:57:211 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:46:57:211 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:02:212 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:47:02:390 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:07:391 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:47:12:398 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:47:12:398 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:17:399 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:47:17:579 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:22:579 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:47:27:584 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:47:27:585 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:32:586 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:47:32:771 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:37:772 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:47:42:783 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:47:42:784 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:47:784 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:47:47:965 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:47:52:966 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:47:57:970 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:47:57:971 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:02:972 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:48:03:156 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:08:157 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:48:13:162 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:48:13:163 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:18:164 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:48:18:347 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:23:347 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:48:28:352 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:48:28:352 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:33:353 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:48:33:533 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:38:534 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:48:43:539 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:48:43:540 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:48:541 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:48:48:725 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:48:53:726 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:48:58:731 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:48:58:732 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:03:733 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:49:03:915 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:08:916 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:49:13:922 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:49:13:923 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:18:924 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:49:19:106 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:24:107 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:49:29:111 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:49:29:112 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:34:113 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:49:34:295 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:39:295 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:49:44:302 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:49:44:302 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:49:303 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:49:49:489 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:49:54:490 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:49:59:500 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:49:59:501 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:04:501 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:50:04:684 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:09:684 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:50:14:695 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:50:14:695 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:19:696 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:50:19:878 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:24:879 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:50:29:883 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:50:29:883 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:34:884 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:50:35:065 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:40:066 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:50:45:076 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:50:45:076 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:50:077 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:50:50:258 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:50:55:259 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:51:00:264 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:51:00:264 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:05:265 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:51:05:446 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:10:447 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:51:15:455 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:51:15:455 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:20:456 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:51:20:642 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:25:643 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:51:30:655 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:51:30:655 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:35:657 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:51:35:840 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:40:841 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:51:45:848 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:51:45:848 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:50:849 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:51:51:030 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:51:56:031 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:52:01:038 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:52:01:039 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:06:040 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:52:06:227 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:11:228 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:52:16:234 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:52:16:235 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:21:236 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:52:21:419 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:26:420 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:52:31:424 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:52:31:425 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:36:425 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:52:36:607 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:41:608 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:52:46:620 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:52:46:621 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:51:621 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:52:51:803 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:52:56:804 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:53:01:809 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:53:01:810 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:06:811 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:53:06:997 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:11:997 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:53:17:006 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:53:17:007 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:22:007 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:53:22:189 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:27:190 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:53:32:195 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:53:32:195 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:37:197 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:53:37:378 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:42:380 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:53:47:391 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:53:47:392 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:52:393 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:53:52:573 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:53:57:574 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:54:02:583 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:54:02:583 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:07:584 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:54:07:767 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:12:768 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:54:17:777 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:54:17:777 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:22:778 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:54:22:961 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:27:962 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:54:32:967 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:54:32:968 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:37:969 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:54:38:150 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:43:150 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:54:48:159 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:54:48:160 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:53:161 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:54:53:337 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:54:58:338 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:55:03:344 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:55:03:345 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:08:346 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:55:08:525 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:13:526 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:55:18:533 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:55:18:533 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:23:534 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:55:23:713 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:28:714 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:55:33:728 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:55:33:728 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:38:729 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:55:38:910 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:43:911 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:55:48:923 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:55:48:924 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:53:925 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:55:54:106 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:55:59:107 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:56:04:113 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:56:04:113 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:09:115 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:56:09:296 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:14:296 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:56:19:301 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:56:19:302 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:24:303 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:56:24:481 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:29:482 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:56:34:488 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:56:34:488 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:39:489 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:56:39:670 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:44:671 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:56:49:676 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:56:49:676 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:54:678 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:56:54:858 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:56:59:859 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:57:04:865 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:57:04:866 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:57:09:867 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:57:10:051 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:57:15:052 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:57:20:058 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:57:20:058 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:57:25:059 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:57:25:241 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:57:30:242 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:57:35:247 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:57:35:248 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:57:40:250 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:57:40:431 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:57:45:433 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:57:50:438 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:57:50:439 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:57:55:439 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:57:55:621 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:00:623 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:58:05:629 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:58:05:629 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:10:630 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:58:10:810 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:15:811 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:58:20:818 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:58:20:819 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:25:819 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:58:26:001 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:31:002 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:58:36:009 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:58:36:009 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:41:010 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:58:41:190 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:46:191 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:58:51:202 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:58:51:202 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:58:56:203 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:58:56:387 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:01:389 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:59:06:408 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:59:06:408 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:11:409 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:59:11:591 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:16:592 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:59:21:597 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:59:21:597 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:26:598 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:59:26:784 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:31:785 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:59:36:790 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 09:59:36:791 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:41:792 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:59:41:975 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:46:976 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 09:59:51:981 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 09:59:51:982 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 09:59:56:982 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 09:59:57:164 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:02:164 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:00:07:173 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:00:07:173 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:12:176 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:00:12:358 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:17:359 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:00:22:365 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:00:22:365 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:27:366 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:00:27:551 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:32:552 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:00:37:563 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:00:37:563 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:42:564 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:00:42:747 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:47:748 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:00:52:755 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:00:52:756 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:00:57:757 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:00:57:933 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:02:934 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:01:07:939 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:01:07:939 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:12:940 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:01:13:121 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:18:122 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:01:23:130 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:01:23:130 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:28:131 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:01:28:309 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:33:310 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:01:38:315 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:01:38:315 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:43:317 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:01:43:498 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:48:499 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:01:53:504 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:01:53:504 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:01:58:505 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:01:58:686 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:03:687 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:02:08:692 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:02:08:692 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:13:693 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:02:13:873 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:18:874 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:02:23:882 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:02:23:882 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:28:883 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:02:29:066 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:34:067 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:02:39:073 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:02:39:074 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:44:074 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:02:44:254 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:49:256 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:02:54:262 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:02:54:265 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:02:59:267 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:02:59:446 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:03:04:447 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:03:09:452 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:03:09:452 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:03:14:453 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:03:14:633 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:03:19:634 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:03:24:639 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:03:24:640 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:03:29:641 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:03:29:827 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:03:34:828 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:03:39:833 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:03:39:833 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:03:44:834 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:03:45:015 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:03:50:016 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:03:55:021 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 10:03:55:022 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:04:00:022 SWAmP/(4071:4071): Se leyo la swap correctamente
+[WARNING] 10:04:00:202 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:04:05:203 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:04:10:211 SWAmP/(4071:4071): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 10:04:10:211 SWAmP/(4071:4071): DIEGOOOOOOOOO
+[INFO] 10:04:15:213 SWAmP/(4071:4071): Se leyo la swap correctamente
+[INFO] 10:04:45:564 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:565 SWAmP/(4071:4071): Para SWAP 0
+[INFO] 10:04:45:565 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:566 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:567 SWAmP/(4071:4071): NRO PAGINA: 0
+[INFO] 10:04:45:568 SWAmP/(4071:4071): INICIO: 0
+[INFO] 10:04:45:568 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:569 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:569 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:570 SWAmP/(4071:4071): NRO PAGINA: 1
+[INFO] 10:04:45:570 SWAmP/(4071:4071): INICIO: 2048
+[INFO] 10:04:45:571 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:571 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:572 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:572 SWAmP/(4071:4071): NRO PAGINA: 2
+[INFO] 10:04:45:572 SWAmP/(4071:4071): INICIO: 4096
+[INFO] 10:04:45:573 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:574 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:575 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:575 SWAmP/(4071:4071): NRO PAGINA: 3
+[INFO] 10:04:45:575 SWAmP/(4071:4071): INICIO: 6144
+[INFO] 10:04:45:576 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:576 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:576 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:576 SWAmP/(4071:4071): NRO PAGINA: 4
+[INFO] 10:04:45:577 SWAmP/(4071:4071): INICIO: 8192
+[INFO] 10:04:45:577 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:578 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:578 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:590 SWAmP/(4071:4071): NRO PAGINA: 5
+[INFO] 10:04:45:592 SWAmP/(4071:4071): INICIO: 10240
+[INFO] 10:04:45:593 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:593 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:594 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:594 SWAmP/(4071:4071): NRO PAGINA: 6
+[INFO] 10:04:45:594 SWAmP/(4071:4071): INICIO: 12288
+[INFO] 10:04:45:595 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:595 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:595 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:596 SWAmP/(4071:4071): NRO PAGINA: 7
+[INFO] 10:04:45:596 SWAmP/(4071:4071): INICIO: 14336
+[INFO] 10:04:45:596 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:596 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:597 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:597 SWAmP/(4071:4071): NRO PAGINA: 8
+[INFO] 10:04:45:597 SWAmP/(4071:4071): INICIO: 16384
+[INFO] 10:04:45:598 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:598 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:598 SWAmP/(4071:4071): PID: 1
+[INFO] 10:04:45:599 SWAmP/(4071:4071): NRO PAGINA: 9
+[INFO] 10:04:45:599 SWAmP/(4071:4071): INICIO: 18432
+[INFO] 10:04:45:599 SWAmP/(4071:4071): NRO SWAP: 0
+[INFO] 10:04:45:600 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:600 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:601 SWAmP/(4071:4071): Para SWAP 1
+[INFO] 10:04:45:601 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:602 SWAmP/(4071:4071): PID: 2
+[INFO] 10:04:45:602 SWAmP/(4071:4071): NRO PAGINA: 0
+[INFO] 10:04:45:603 SWAmP/(4071:4071): INICIO: 0
+[INFO] 10:04:45:603 SWAmP/(4071:4071): NRO SWAP: 1
+[INFO] 10:04:45:604 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:604 SWAmP/(4071:4071): PID: 2
+[INFO] 10:04:45:604 SWAmP/(4071:4071): NRO PAGINA: 1
+[INFO] 10:04:45:605 SWAmP/(4071:4071): INICIO: 2048
+[INFO] 10:04:45:605 SWAmP/(4071:4071): NRO SWAP: 1
+[INFO] 10:04:45:605 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:606 SWAmP/(4071:4071): PID: 2
+[INFO] 10:04:45:606 SWAmP/(4071:4071): NRO PAGINA: 2
+[INFO] 10:04:45:606 SWAmP/(4071:4071): INICIO: 4096
+[INFO] 10:04:45:606 SWAmP/(4071:4071): NRO SWAP: 1
+[INFO] 10:04:45:607 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:607 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:608 SWAmP/(4071:4071): Para SWAP 2
+[INFO] 10:04:45:609 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:609 SWAmP/(4071:4071): PID: 3
+[INFO] 10:04:45:610 SWAmP/(4071:4071): NRO PAGINA: 0
+[INFO] 10:04:45:610 SWAmP/(4071:4071): INICIO: 0
+[INFO] 10:04:45:611 SWAmP/(4071:4071): NRO SWAP: 2
+[INFO] 10:04:45:611 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:612 SWAmP/(4071:4071): PID: 3
+[INFO] 10:04:45:612 SWAmP/(4071:4071): NRO PAGINA: 1
+[INFO] 10:04:45:612 SWAmP/(4071:4071): INICIO: 2048
+[INFO] 10:04:45:613 SWAmP/(4071:4071): NRO SWAP: 2
+[INFO] 10:04:45:614 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:614 SWAmP/(4071:4071): PID: 3
+[INFO] 10:04:45:614 SWAmP/(4071:4071): NRO PAGINA: 2
+[INFO] 10:04:45:614 SWAmP/(4071:4071): INICIO: 4096
+[INFO] 10:04:45:614 SWAmP/(4071:4071): NRO SWAP: 2
+[INFO] 10:04:45:615 SWAmP/(4071:4071): ------------------------
+[INFO] 10:04:45:615 SWAmP/(4071:4071): DISCONNECT!
+[INFO] 10:04:45:616 SWAmP/(4071:4071): Finalizando programa...
+[INFO] 10:11:31:135 SWAmP/(7438:7438): Archivo de configuracion cargado correctamente
+[INFO] 10:11:31:182 SWAmP/(7438:7438): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:11:31:196 SWAmP/(7438:7438): ------2---------
+
+[INFO] 10:11:31:199 SWAmP/(7438:7438): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:11:47:173 SWAmP/(7438:7438): Cliente conectado (a SWAmP)
+
+[INFO] 10:11:47:183 SWAmP/(7438:7438): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:12:27:059 SWAmP/(7438:7438): id: 1 cant 2 asig fija 1
+[WARNING] 10:12:27:062 SWAmP/(7438:7438): Vuelta 0
+[WARNING] 10:12:27:070 SWAmP/(7438:7438): paginas_libres 256
+[WARNING] 10:12:27:078 SWAmP/(7438:7438): aaa: 1
+[INFO] 10:12:27:079 SWAmP/(7438:7438): La solicitud se realizo correctamente
+[WARNING] 10:12:32:134 SWAmP/(7438:7438): id: 1 cant 1 asig fija 1
+[WARNING] 10:12:32:140 SWAmP/(7438:7438): aaa: 1
+[INFO] 10:12:32:141 SWAmP/(7438:7438): La solicitud se realizo correctamente
+[INFO] 10:15:01:150 SWAmP/(7438:7438): DISCONNECT!
+[INFO] 10:15:01:152 SWAmP/(7438:7438): Finalizando programa...
+[INFO] 10:15:04:501 SWAmP/(7918:7918): Archivo de configuracion cargado correctamente
+[INFO] 10:15:04:544 SWAmP/(7918:7918): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:15:04:557 SWAmP/(7918:7918): ------2---------
+
+[INFO] 10:15:04:560 SWAmP/(7918:7918): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:15:05:911 SWAmP/(7918:7918): Cliente conectado (a SWAmP)
+
+[INFO] 10:15:05:921 SWAmP/(7918:7918): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:15:09:658 SWAmP/(7918:7918): id: 1 cant 2 asig fija 1
+[WARNING] 10:15:09:660 SWAmP/(7918:7918): Vuelta 0
+[WARNING] 10:15:09:665 SWAmP/(7918:7918): paginas_libres 256
+[WARNING] 10:15:09:674 SWAmP/(7918:7918): aaa: 1
+[INFO] 10:15:09:674 SWAmP/(7918:7918): La solicitud se realizo correctamente
+[WARNING] 10:15:14:721 SWAmP/(7918:7918): id: 1 cant 1 asig fija 1
+[WARNING] 10:15:14:729 SWAmP/(7918:7918): aaa: 1
+[INFO] 10:15:14:729 SWAmP/(7918:7918): La solicitud se realizo correctamente
+[INFO] 10:16:35:419 SWAmP/(7918:7918): DISCONNECT!
+[INFO] 10:16:35:420 SWAmP/(7918:7918): Finalizando programa...
+[INFO] 10:16:38:324 SWAmP/(8188:8188): Archivo de configuracion cargado correctamente
+[INFO] 10:16:38:370 SWAmP/(8188:8188): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:16:38:384 SWAmP/(8188:8188): ------2---------
+
+[INFO] 10:16:38:387 SWAmP/(8188:8188): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:16:39:922 SWAmP/(8188:8188): Cliente conectado (a SWAmP)
+
+[INFO] 10:16:39:931 SWAmP/(8188:8188): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:16:43:177 SWAmP/(8188:8188): id: 1 cant 2 asig fija 1
+[WARNING] 10:16:43:180 SWAmP/(8188:8188): Vuelta 0
+[WARNING] 10:16:43:185 SWAmP/(8188:8188): paginas_libres 256
+[WARNING] 10:16:43:198 SWAmP/(8188:8188): aaa: 1
+[INFO] 10:16:43:199 SWAmP/(8188:8188): La solicitud se realizo correctamente
+[WARNING] 10:16:48:258 SWAmP/(8188:8188): id: 1 cant 1 asig fija 1
+[WARNING] 10:16:48:263 SWAmP/(8188:8188): aaa: 1
+[INFO] 10:16:48:264 SWAmP/(8188:8188): La solicitud se realizo correctamente
+[INFO] 10:25:57:790 SWAmP/(8188:8188): DISCONNECT!
+[INFO] 10:25:57:791 SWAmP/(8188:8188): Finalizando programa...
+[INFO] 10:26:01:025 SWAmP/(9168:9168): Archivo de configuracion cargado correctamente
+[INFO] 10:26:01:073 SWAmP/(9168:9168): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:26:01:088 SWAmP/(9168:9168): ------2---------
+
+[INFO] 10:26:01:090 SWAmP/(9168:9168): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:26:02:936 SWAmP/(9168:9168): Cliente conectado (a SWAmP)
+
+[INFO] 10:26:02:946 SWAmP/(9168:9168): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:26:08:368 SWAmP/(9168:9168): id: 1 cant 2 asig fija 1
+[WARNING] 10:26:08:370 SWAmP/(9168:9168): Vuelta 0
+[WARNING] 10:26:08:374 SWAmP/(9168:9168): paginas_libres 256
+[WARNING] 10:26:08:380 SWAmP/(9168:9168): aaa: 1
+[INFO] 10:26:08:382 SWAmP/(9168:9168): La solicitud se realizo correctamente
+[WARNING] 10:26:13:429 SWAmP/(9168:9168): id: 1 cant 1 asig fija 1
+[WARNING] 10:26:13:435 SWAmP/(9168:9168): aaa: 1
+[INFO] 10:26:13:436 SWAmP/(9168:9168): La solicitud se realizo correctamente
+[INFO] 10:28:12:641 SWAmP/(9168:9168): DISCONNECT!
+[INFO] 10:28:12:642 SWAmP/(9168:9168): Finalizando programa...
+[INFO] 10:30:25:344 SWAmP/(9733:9733): Archivo de configuracion cargado correctamente
+[INFO] 10:30:25:391 SWAmP/(9733:9733): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:30:25:405 SWAmP/(9733:9733): ------2---------
+
+[INFO] 10:30:25:408 SWAmP/(9733:9733): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:30:26:861 SWAmP/(9733:9733): Cliente conectado (a SWAmP)
+
+[INFO] 10:30:26:871 SWAmP/(9733:9733): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:31:11:539 SWAmP/(9733:9733): Se elimino el carpincho 1 correctamente
+[INFO] 10:31:13:536 SWAmP/(9733:9733): Se elimino el carpincho 2 correctamente
+[INFO] 10:31:23:545 SWAmP/(9733:9733): Se elimino el carpincho 3 correctamente
+[INFO] 10:31:52:039 SWAmP/(9733:9733): DISCONNECT!
+[INFO] 10:31:52:041 SWAmP/(9733:9733): Finalizando programa...
+[INFO] 10:31:54:562 SWAmP/(10005:10005): Archivo de configuracion cargado correctamente
+[INFO] 10:31:54:608 SWAmP/(10005:10005): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:31:54:623 SWAmP/(10005:10005): ------2---------
+
+[INFO] 10:31:54:625 SWAmP/(10005:10005): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:31:56:382 SWAmP/(10005:10005): Cliente conectado (a SWAmP)
+
+[INFO] 10:31:56:392 SWAmP/(10005:10005): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:32:39:943 SWAmP/(10005:10005): Se elimino el carpincho 1 correctamente
+[INFO] 10:32:41:940 SWAmP/(10005:10005): Se elimino el carpincho 2 correctamente
+[INFO] 10:32:51:949 SWAmP/(10005:10005): Se elimino el carpincho 3 correctamente
+[INFO] 10:32:59:494 SWAmP/(10005:10005): DISCONNECT!
+[INFO] 10:32:59:495 SWAmP/(10005:10005): Finalizando programa...
+[INFO] 10:33:28:638 SWAmP/(10287:10287): Archivo de configuracion cargado correctamente
+[INFO] 10:33:28:682 SWAmP/(10287:10287): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:33:28:697 SWAmP/(10287:10287): ------2---------
+
+[INFO] 10:33:28:699 SWAmP/(10287:10287): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:33:30:162 SWAmP/(10287:10287): Cliente conectado (a SWAmP)
+
+[INFO] 10:33:30:171 SWAmP/(10287:10287): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:34:13:584 SWAmP/(10287:10287): Se elimino el carpincho 1 correctamente
+[INFO] 10:34:15:581 SWAmP/(10287:10287): Se elimino el carpincho 2 correctamente
+[INFO] 10:34:25:591 SWAmP/(10287:10287): Se elimino el carpincho 3 correctamente
+[INFO] 10:34:52:913 SWAmP/(10287:10287): DISCONNECT!
+[INFO] 10:34:52:914 SWAmP/(10287:10287): Finalizando programa...
+[INFO] 10:34:55:294 SWAmP/(10574:10574): Archivo de configuracion cargado correctamente
+[INFO] 10:34:55:335 SWAmP/(10574:10574): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:34:55:348 SWAmP/(10574:10574): ------2---------
+
+[INFO] 10:34:55:351 SWAmP/(10574:10574): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:34:56:764 SWAmP/(10574:10574): Cliente conectado (a SWAmP)
+
+[INFO] 10:34:56:773 SWAmP/(10574:10574): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:35:46:761 SWAmP/(10574:10574): DISCONNECT!
+[INFO] 10:35:46:763 SWAmP/(10574:10574): Finalizando programa...
+[INFO] 10:35:49:439 SWAmP/(10802:10802): Archivo de configuracion cargado correctamente
+[INFO] 10:35:49:489 SWAmP/(10802:10802): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:35:49:504 SWAmP/(10802:10802): ------2---------
+
+[INFO] 10:35:49:507 SWAmP/(10802:10802): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:35:51:258 SWAmP/(10802:10802): Cliente conectado (a SWAmP)
+
+[INFO] 10:35:51:268 SWAmP/(10802:10802): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:36:35:483 SWAmP/(10802:10802): Se elimino el carpincho 1 correctamente
+[INFO] 10:36:37:461 SWAmP/(10802:10802): Se elimino el carpincho 2 correctamente
+[INFO] 10:36:47:471 SWAmP/(10802:10802): Se elimino el carpincho 3 correctamente
+[INFO] 10:36:59:105 SWAmP/(10802:10802): DISCONNECT!
+[INFO] 10:36:59:106 SWAmP/(10802:10802): Finalizando programa...
+[INFO] 10:37:01:436 SWAmP/(11055:11055): Archivo de configuracion cargado correctamente
+[INFO] 10:37:01:488 SWAmP/(11055:11055): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:37:01:504 SWAmP/(11055:11055): ------2---------
+
+[INFO] 10:37:01:507 SWAmP/(11055:11055): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:37:04:181 SWAmP/(11055:11055): Cliente conectado (a SWAmP)
+
+[INFO] 10:37:04:192 SWAmP/(11055:11055): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:37:27:808 SWAmP/(11055:11055): Se elimino el carpincho 1 correctamente
+[INFO] 10:37:29:814 SWAmP/(11055:11055): Se elimino el carpincho 2 correctamente
+[INFO] 10:38:03:841 SWAmP/(11055:11055): Se elimino el carpincho 3 correctamente
+[INFO] 10:38:08:611 SWAmP/(11055:11055): DISCONNECT!
+[INFO] 10:38:08:612 SWAmP/(11055:11055): Finalizando programa...
+[INFO] 10:40:58:152 SWAmP/(11572:11572): Archivo de configuracion cargado correctamente
+[INFO] 10:40:58:199 SWAmP/(11572:11572): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:40:58:213 SWAmP/(11572:11572): ------2---------
+
+[INFO] 10:40:58:216 SWAmP/(11572:11572): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:40:59:517 SWAmP/(11572:11572): Cliente conectado (a SWAmP)
+
+[INFO] 10:40:59:526 SWAmP/(11572:11572): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:41:02:539 SWAmP/(11572:11572): id: 1 cant 2 asig fija 1
+[WARNING] 10:41:02:542 SWAmP/(11572:11572): Vuelta 0
+[WARNING] 10:41:02:546 SWAmP/(11572:11572): paginas_libres 128
+[WARNING] 10:41:02:552 SWAmP/(11572:11572): aaa: 1
+[INFO] 10:41:02:556 SWAmP/(11572:11572): La solicitud se realizo correctamente
+[WARNING] 10:41:49:282 SWAmP/(11572:11572): id: 2 cant 1 asig fija 1
+[WARNING] 10:41:49:283 SWAmP/(11572:11572): Vuelta 0
+[WARNING] 10:41:49:284 SWAmP/(11572:11572): paginas_libres 126
+[WARNING] 10:41:49:285 SWAmP/(11572:11572): aaa: 1
+[INFO] 10:41:49:286 SWAmP/(11572:11572): La solicitud se realizo correctamente
+[INFO] 10:41:49:840 SWAmP/(11572:11572): Se elimino el carpincho 2 correctamente
+[INFO] 10:41:49:842 SWAmP/(11572:11572): Se elimino el carpincho 1 correctamente
+[INFO] 10:42:08:171 SWAmP/(11572:11572): DISCONNECT!
+[INFO] 10:42:08:172 SWAmP/(11572:11572): Finalizando programa...
+[INFO] 10:42:24:406 SWAmP/(11984:11984): Archivo de configuracion cargado correctamente
+[INFO] 10:42:24:450 SWAmP/(11984:11984): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:42:24:465 SWAmP/(11984:11984): ------2---------
+
+[INFO] 10:42:24:468 SWAmP/(11984:11984): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:42:25:745 SWAmP/(11984:11984): Cliente conectado (a SWAmP)
+
+[INFO] 10:42:25:759 SWAmP/(11984:11984): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:42:29:322 SWAmP/(11984:11984): id: 1 cant 1 asig fija 1
+[WARNING] 10:42:29:324 SWAmP/(11984:11984): Vuelta 0
+[WARNING] 10:42:29:328 SWAmP/(11984:11984): paginas_libres 128
+[WARNING] 10:42:29:334 SWAmP/(11984:11984): aaa: 1
+[INFO] 10:42:29:338 SWAmP/(11984:11984): La solicitud se realizo correctamente
+[INFO] 10:42:29:889 SWAmP/(11984:11984): Se elimino el carpincho 1 correctamente
+[INFO] 10:42:34:518 SWAmP/(11984:11984): DISCONNECT!
+[INFO] 10:42:34:519 SWAmP/(11984:11984): Finalizando programa...
+[INFO] 10:43:19:353 SWAmP/(12212:12212): Archivo de configuracion cargado correctamente
+[INFO] 10:43:19:402 SWAmP/(12212:12212): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:43:19:417 SWAmP/(12212:12212): ------2---------
+
+[INFO] 10:43:19:419 SWAmP/(12212:12212): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:43:20:702 SWAmP/(12212:12212): Cliente conectado (a SWAmP)
+
+[INFO] 10:43:20:712 SWAmP/(12212:12212): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:43:23:750 SWAmP/(12212:12212): id: 1 cant 1 asig fija 1
+[WARNING] 10:43:23:753 SWAmP/(12212:12212): Vuelta 0
+[WARNING] 10:43:23:757 SWAmP/(12212:12212): paginas_libres 128
+[WARNING] 10:43:23:763 SWAmP/(12212:12212): aaa: 1
+[INFO] 10:43:23:766 SWAmP/(12212:12212): La solicitud se realizo correctamente
+[INFO] 10:43:24:318 SWAmP/(12212:12212): Se elimino el carpincho 1 correctamente
+[INFO] 10:43:27:617 SWAmP/(12212:12212): DISCONNECT!
+[INFO] 10:43:27:618 SWAmP/(12212:12212): Finalizando programa...
+[INFO] 10:43:43:927 SWAmP/(12407:12407): Archivo de configuracion cargado correctamente
+[INFO] 10:43:43:971 SWAmP/(12407:12407): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:43:43:985 SWAmP/(12407:12407): ------2---------
+
+[INFO] 10:43:43:987 SWAmP/(12407:12407): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:43:45:114 SWAmP/(12407:12407): Cliente conectado (a SWAmP)
+
+[INFO] 10:43:45:128 SWAmP/(12407:12407): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:43:47:879 SWAmP/(12407:12407): id: 1 cant 1 asig fija 1
+[WARNING] 10:43:47:881 SWAmP/(12407:12407): Vuelta 0
+[WARNING] 10:43:47:885 SWAmP/(12407:12407): paginas_libres 128
+[WARNING] 10:43:47:890 SWAmP/(12407:12407): aaa: 1
+[INFO] 10:43:47:893 SWAmP/(12407:12407): La solicitud se realizo correctamente
+[INFO] 10:43:48:442 SWAmP/(12407:12407): Se elimino el carpincho 1 correctamente
+[INFO] 10:43:53:845 SWAmP/(12407:12407): DISCONNECT!
+[INFO] 10:43:53:846 SWAmP/(12407:12407): Finalizando programa...
+[INFO] 10:44:13:125 SWAmP/(12595:12595): Archivo de configuracion cargado correctamente
+[INFO] 10:44:13:168 SWAmP/(12595:12595): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:44:13:182 SWAmP/(12595:12595): ------2---------
+
+[INFO] 10:44:13:185 SWAmP/(12595:12595): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:44:14:397 SWAmP/(12595:12595): Cliente conectado (a SWAmP)
+
+[INFO] 10:44:14:408 SWAmP/(12595:12595): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:44:18:992 SWAmP/(12595:12595): Se elimino el carpincho 1 correctamente
+[INFO] 10:44:22:185 SWAmP/(12595:12595): DISCONNECT!
+[INFO] 10:44:22:186 SWAmP/(12595:12595): Finalizando programa...
+[INFO] 10:47:51:989 SWAmP/(13136:13136): Archivo de configuracion cargado correctamente
+[INFO] 10:47:52:036 SWAmP/(13136:13136): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:47:52:052 SWAmP/(13136:13136): ------2---------
+
+[INFO] 10:47:52:055 SWAmP/(13136:13136): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:47:53:406 SWAmP/(13136:13136): Cliente conectado (a SWAmP)
+
+[INFO] 10:47:53:415 SWAmP/(13136:13136): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:47:56:920 SWAmP/(13136:13136): id: 1 cant 1 asig fija 0
+[WARNING] 10:47:56:923 SWAmP/(13136:13136): Vuelta 0
+[WARNING] 10:47:56:927 SWAmP/(13136:13136): paginas_libres 128
+[WARNING] 10:47:56:935 SWAmP/(13136:13136): aaa: 1
+[INFO] 10:47:56:937 SWAmP/(13136:13136): La solicitud se realizo correctamente
+[INFO] 10:47:57:489 SWAmP/(13136:13136): Se elimino el carpincho 1 correctamente
+[INFO] 10:48:01:457 SWAmP/(13136:13136): DISCONNECT!
+[INFO] 10:48:01:459 SWAmP/(13136:13136): Finalizando programa...
+[INFO] 10:49:13:574 SWAmP/(13428:13428): Archivo de configuracion cargado correctamente
+[INFO] 10:49:13:618 SWAmP/(13428:13428): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:49:13:631 SWAmP/(13428:13428): ------2---------
+
+[INFO] 10:49:13:634 SWAmP/(13428:13428): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:49:15:175 SWAmP/(13428:13428): Cliente conectado (a SWAmP)
+
+[INFO] 10:49:15:184 SWAmP/(13428:13428): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:49:23:215 SWAmP/(13428:13428): DISCONNECT!
+[INFO] 10:49:23:217 SWAmP/(13428:13428): Finalizando programa...
+[INFO] 10:51:55:023 SWAmP/(13791:13791): Archivo de configuracion cargado correctamente
+[INFO] 10:51:55:070 SWAmP/(13791:13791): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:51:55:086 SWAmP/(13791:13791): ------2---------
+
+[INFO] 10:51:55:088 SWAmP/(13791:13791): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:51:56:420 SWAmP/(13791:13791): Cliente conectado (a SWAmP)
+
+[INFO] 10:51:56:430 SWAmP/(13791:13791): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:51:59:188 SWAmP/(13791:13791): Se elimino el carpincho 1 correctamente
+[INFO] 10:52:04:562 SWAmP/(13791:13791): DISCONNECT!
+[INFO] 10:52:04:563 SWAmP/(13791:13791): Finalizando programa...
+[INFO] 10:52:20:635 SWAmP/(13977:13977): Archivo de configuracion cargado correctamente
+[INFO] 10:52:20:677 SWAmP/(13977:13977): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:52:20:691 SWAmP/(13977:13977): ------2---------
+
+[INFO] 10:52:20:693 SWAmP/(13977:13977): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:52:22:122 SWAmP/(13977:13977): Cliente conectado (a SWAmP)
+
+[INFO] 10:52:22:132 SWAmP/(13977:13977): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:52:24:832 SWAmP/(13977:13977): Se elimino el carpincho 1 correctamente
+[INFO] 10:52:28:301 SWAmP/(13977:13977): DISCONNECT!
+[INFO] 10:52:28:303 SWAmP/(13977:13977): Finalizando programa...
+[INFO] 10:53:21:330 SWAmP/(14229:14229): Archivo de configuracion cargado correctamente
+[INFO] 10:53:21:382 SWAmP/(14229:14229): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:53:21:397 SWAmP/(14229:14229): ------2---------
+
+[INFO] 10:53:21:400 SWAmP/(14229:14229): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:53:23:061 SWAmP/(14229:14229): Cliente conectado (a SWAmP)
+
+[INFO] 10:53:23:072 SWAmP/(14229:14229): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:53:26:222 SWAmP/(14229:14229): Se elimino el carpincho 1 correctamente
+[INFO] 10:53:40:751 SWAmP/(14229:14229): DISCONNECT!
+[INFO] 10:53:40:752 SWAmP/(14229:14229): Finalizando programa...
+[INFO] 10:55:38:076 SWAmP/(14563:14563): Archivo de configuracion cargado correctamente
+[INFO] 10:55:38:121 SWAmP/(14563:14563): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:55:38:134 SWAmP/(14563:14563): ------2---------
+
+[INFO] 10:55:38:137 SWAmP/(14563:14563): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:55:39:523 SWAmP/(14563:14563): Cliente conectado (a SWAmP)
+
+[INFO] 10:55:39:532 SWAmP/(14563:14563): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:55:42:359 SWAmP/(14563:14563): Se elimino el carpincho 1 correctamente
+[INFO] 10:55:44:962 SWAmP/(14563:14563): DISCONNECT!
+[INFO] 10:55:44:963 SWAmP/(14563:14563): Finalizando programa...
+[INFO] 10:56:01:843 SWAmP/(14761:14761): Archivo de configuracion cargado correctamente
+[INFO] 10:56:01:891 SWAmP/(14761:14761): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:56:01:905 SWAmP/(14761:14761): ------2---------
+
+[INFO] 10:56:01:908 SWAmP/(14761:14761): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:56:03:045 SWAmP/(14761:14761): Cliente conectado (a SWAmP)
+
+[INFO] 10:56:03:060 SWAmP/(14761:14761): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:56:05:662 SWAmP/(14761:14761): id: 1 cant 1 asig fija 1
+[WARNING] 10:56:05:665 SWAmP/(14761:14761): Vuelta 0
+[WARNING] 10:56:05:669 SWAmP/(14761:14761): paginas_libres 128
+[WARNING] 10:56:05:678 SWAmP/(14761:14761): aaa: 1
+[INFO] 10:56:05:679 SWAmP/(14761:14761): La solicitud se realizo correctamente
+[INFO] 10:56:06:237 SWAmP/(14761:14761): Se elimino el carpincho 1 correctamente
+[INFO] 10:56:09:656 SWAmP/(14761:14761): DISCONNECT!
+[INFO] 10:56:09:657 SWAmP/(14761:14761): Finalizando programa...
+[INFO] 10:57:03:031 SWAmP/(14993:14993): Archivo de configuracion cargado correctamente
+[INFO] 10:57:03:082 SWAmP/(14993:14993): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:57:03:098 SWAmP/(14993:14993): ------2---------
+
+[INFO] 10:57:03:100 SWAmP/(14993:14993): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:57:04:303 SWAmP/(14993:14993): Cliente conectado (a SWAmP)
+
+[INFO] 10:57:04:313 SWAmP/(14993:14993): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 10:57:07:148 SWAmP/(14993:14993): Se elimino el carpincho 1 correctamente
+[INFO] 10:57:09:889 SWAmP/(14993:14993): DISCONNECT!
+[INFO] 10:57:09:890 SWAmP/(14993:14993): Finalizando programa...
+[INFO] 10:59:04:926 SWAmP/(15399:15399): Archivo de configuracion cargado correctamente
+[INFO] 10:59:04:977 SWAmP/(15399:15399): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 10:59:04:993 SWAmP/(15399:15399): ------2---------
+
+[INFO] 10:59:04:996 SWAmP/(15399:15399): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 10:59:06:365 SWAmP/(15399:15399): Cliente conectado (a SWAmP)
+
+[INFO] 10:59:06:374 SWAmP/(15399:15399): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 10:59:09:191 SWAmP/(15399:15399): id: 1 cant 1 asig fija 1
+[WARNING] 10:59:09:193 SWAmP/(15399:15399): Vuelta 0
+[WARNING] 10:59:09:197 SWAmP/(15399:15399): paginas_libres 128
+[WARNING] 10:59:09:206 SWAmP/(15399:15399): aaa: 1
+[INFO] 10:59:09:207 SWAmP/(15399:15399): La solicitud se realizo correctamente
+[INFO] 10:59:09:770 SWAmP/(15399:15399): Se elimino el carpincho 1 correctamente
+[INFO] 10:59:13:115 SWAmP/(15399:15399): DISCONNECT!
+[INFO] 10:59:13:117 SWAmP/(15399:15399): Finalizando programa...
+[INFO] 11:01:07:322 SWAmP/(15788:15788): Archivo de configuracion cargado correctamente
+[INFO] 11:01:07:369 SWAmP/(15788:15788): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:01:07:382 SWAmP/(15788:15788): ------2---------
+
+[INFO] 11:01:07:385 SWAmP/(15788:15788): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:01:08:871 SWAmP/(15788:15788): Cliente conectado (a SWAmP)
+
+[INFO] 11:01:08:881 SWAmP/(15788:15788): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:01:11:628 SWAmP/(15788:15788): id: 1 cant 1 asig fija 1
+[WARNING] 11:01:11:630 SWAmP/(15788:15788): Vuelta 0
+[WARNING] 11:01:11:634 SWAmP/(15788:15788): paginas_libres 128
+[WARNING] 11:01:11:642 SWAmP/(15788:15788): aaa: 1
+[INFO] 11:01:11:643 SWAmP/(15788:15788): La solicitud se realizo correctamente
+[INFO] 11:01:12:199 SWAmP/(15788:15788): DISCONNECT!
+[INFO] 11:01:12:201 SWAmP/(15788:15788): Finalizando programa...
+[INFO] 11:02:39:839 SWAmP/(16096:16096): Archivo de configuracion cargado correctamente
+[INFO] 11:02:39:883 SWAmP/(16096:16096): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:02:39:896 SWAmP/(16096:16096): ------2---------
+
+[INFO] 11:02:39:899 SWAmP/(16096:16096): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:02:41:382 SWAmP/(16096:16096): Cliente conectado (a SWAmP)
+
+[INFO] 11:02:41:392 SWAmP/(16096:16096): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:02:45:691 SWAmP/(16096:16096): id: 1 cant 1 asig fija 1
+[WARNING] 11:02:45:693 SWAmP/(16096:16096): Vuelta 0
+[WARNING] 11:02:45:697 SWAmP/(16096:16096): paginas_libres 128
+[WARNING] 11:02:45:703 SWAmP/(16096:16096): aaa: 1
+[INFO] 11:02:45:706 SWAmP/(16096:16096): La solicitud se realizo correctamente
+[INFO] 11:02:46:257 SWAmP/(16096:16096): Se elimino el carpincho 1 correctamente
+[INFO] 11:02:49:623 SWAmP/(16096:16096): DISCONNECT!
+[INFO] 11:02:49:624 SWAmP/(16096:16096): Finalizando programa...
+[INFO] 11:03:13:990 SWAmP/(16301:16301): Archivo de configuracion cargado correctamente
+[INFO] 11:03:14:033 SWAmP/(16301:16301): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:03:14:047 SWAmP/(16301:16301): ------2---------
+
+[INFO] 11:03:14:050 SWAmP/(16301:16301): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:03:15:438 SWAmP/(16301:16301): Cliente conectado (a SWAmP)
+
+[INFO] 11:03:15:447 SWAmP/(16301:16301): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:03:18:259 SWAmP/(16301:16301): id: 1 cant 1 asig fija 1
+[WARNING] 11:03:18:261 SWAmP/(16301:16301): Vuelta 0
+[WARNING] 11:03:18:265 SWAmP/(16301:16301): paginas_libres 128
+[WARNING] 11:03:18:271 SWAmP/(16301:16301): aaa: 1
+[INFO] 11:03:18:273 SWAmP/(16301:16301): La solicitud se realizo correctamente
+[INFO] 11:03:18:832 SWAmP/(16301:16301): Se elimino el carpincho 1 correctamente
+[INFO] 11:03:21:727 SWAmP/(16301:16301): DISCONNECT!
+[INFO] 11:03:21:728 SWAmP/(16301:16301): Finalizando programa...
+[INFO] 11:08:03:589 SWAmP/(16883:16883): Archivo de configuracion cargado correctamente
+[INFO] 11:08:03:633 SWAmP/(16883:16883): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 11:08:03:647 SWAmP/(16883:16883): ------2---------
+
+[INFO] 11:08:03:649 SWAmP/(16883:16883): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 11:08:05:214 SWAmP/(16883:16883): Cliente conectado (a SWAmP)
+
+[INFO] 11:08:05:224 SWAmP/(16883:16883): Me llego el HANDSHAKE con MEMORIA!
+[WARNING] 11:08:08:569 SWAmP/(16883:16883): id: 1 cant 1 asig fija 1
+[WARNING] 11:08:08:571 SWAmP/(16883:16883): Vuelta 0
+[WARNING] 11:08:08:575 SWAmP/(16883:16883): paginas_libres 128
+[WARNING] 11:08:08:582 SWAmP/(16883:16883): aaa: 1
+[INFO] 11:08:08:582 SWAmP/(16883:16883): La solicitud se realizo correctamente
+[INFO] 11:08:09:147 SWAmP/(16883:16883): Se elimino el carpincho 1 correctamente
+[INFO] 11:08:12:115 SWAmP/(16883:16883): DISCONNECT!
+[INFO] 11:08:12:117 SWAmP/(16883:16883): Finalizando programa...

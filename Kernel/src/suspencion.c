@@ -22,10 +22,10 @@ void listener_suspencion(){
             t_carpincho* carpincho = remove_lista_blocked_last(); 
             add_lista_suspended_blocked(carpincho);
             sem_post(&SEM_GRADO_MULTIPROGRAMACION);
-            send_codigo_op(KERNEL_CFG->MEMORIA_FD, CARPINCHO_SWAP);      
+            send_codigo_op(carpincho->memoria_fd, CARPINCHO_SWAP);      
             // TODO PASAR idcarpincho
             //Usamos send_data_mate_init pq ya estaba hecho, aunque el nombre sea medio choto para este caso
-            send_data_mate_init(KERNEL_CFG->MEMORIA_FD, carpincho->id);
+            send_data_mate_init(carpincho->memoria_fd, carpincho->id);
         }
     }
 }
