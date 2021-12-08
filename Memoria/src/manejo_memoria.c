@@ -13,9 +13,16 @@ bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool prime
         uint32_t hmd_cortado = 0;
         uint32_t cantidad_de_paginas = cant_paginas_relativa(0, size + sizeof(hmd_t) * 2);
         //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía+
+        pthread_mutex_lock(&MUTEX_SWAP);
+
         if(!entra_en_swap(id_carpincho, cantidad_de_paginas, swap_fd)){
+          pthread_mutex_unlock(&MUTEX_SWAP);
+          
+          log_warning(logger,"FDSFSDFSD: %d de carpincho %lu", cantidad_de_paginas, id_carpincho);
           return false;
         }
+        pthread_mutex_unlock(&MUTEX_SWAP);
+        
         for(uint32_t i = 0; i < cantidad_de_paginas; i++){
             
             uint32_t nro_frame = buscar_primer_frame_carpincho(id_carpincho);
@@ -78,9 +85,15 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
     uint32_t cant_paginas_a_swapear = cantidad_paginas_swap(direccion_ultimo_hmd + sizeof(hmd_t), size + sizeof(hmd_t));
     uint32_t ultima_pagina = entrada_tp->nro_pagina;
     //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
+    pthread_mutex_lock(&MUTEX_SWAP);
+    
     if(!entra_en_swap(id_carpincho, cant_paginas_a_swapear, swap_fd)){
+      pthread_mutex_unlock(&MUTEX_SWAP);
+      
       return false;
     }   
+    pthread_mutex_unlock(&MUTEX_SWAP);
+    
     void* data = malloc(tamanio_total_a_allocar);
     memset(data, 0, tamanio_total_a_allocar);
     memcpy(data, hmd_inicial, sizeof(hmd_t));
@@ -288,11 +301,18 @@ entrada_tp_t* buscar_entrada_tp(unsigned long id_carpincho, uint32_t nro_pagina)
           correr_algoritmo(id_carpincho, &nro_frame_a_asignar, nro_pagina);
           entrada_buscada->nro_frame = nro_frame_a_asignar;
           //TODO: Pedir a SWAP
+          pthread_mutex_lock(&MUTEX_SWAP);
           send_lectura(MEMORIA_CFG->SWAP_FD, id_carpincho, entrada_buscada->nro_pagina);
           void* buff = malloc(MEMORIA_CFG->TAMANIO_PAGINA);
-
-          if(!recv_data_pagina(MEMORIA_CFG->SWAP_FD, &buff, MEMORIA_CFG->TAMANIO_PAGINA)){
-          }
+          int prueba = recv(MEMORIA_CFG->SWAP_FD, buff, MEMORIA_CFG->TAMANIO_PAGINA, 0);
+          log_warning(logger, "TAMAÑO CHOTO : %d", prueba);
+          if(prueba != MEMORIA_CFG->TAMANIO_PAGINA){
+              free(buff);
+            }
+          // if(!recv_data_pagina(MEMORIA_CFG->SWAP_FD, &buff, MEMORIA_CFG->TAMANIO_PAGINA)){
+          // }
+          pthread_mutex_unlock(&MUTEX_SWAP);
+          
           escritura_pagina_completa(buff, entrada_buscada->nro_frame);
           entrada_buscada->bit_P = 1; 
           free(buff);
@@ -429,7 +449,10 @@ void swapear_pagina(unsigned long id, uint32_t nro_pagina, uint32_t* nro_frame){
       void* data = malloc(MEMORIA_CFG->TAMANIO_PAGINA);
       lectura_pagina_completa(entrada_tp, data);
       //SWAPEAR
+      pthread_mutex_lock(&MUTEX_SWAP);
       send_pagina(MEMORIA_CFG->SWAP_FD, id, entrada_tp->nro_pagina, data, MEMORIA_CFG->TAMANIO_PAGINA);
+      pthread_mutex_unlock(&MUTEX_SWAP);
+      
       free(data);
 
   }

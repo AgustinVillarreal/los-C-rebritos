@@ -123,6 +123,7 @@ uint8_t init(){
     mutex_init_memoria();
     init_memory_structs();
     pthread_mutex_init(&MUTEX_IDS, NULL);
+    pthread_mutex_init(&MUTEX_SWAP, NULL);
     return 1;
 }
 

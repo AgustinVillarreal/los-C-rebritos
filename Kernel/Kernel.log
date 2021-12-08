@@ -86,3 +86,58 @@
 [INFO] 19:15:38:547 Kernel/(16157:16201): DISCONNECT!
 [INFO] 19:15:38:552 Kernel/(16157:16198): DISCONNECT!
 [INFO] 19:15:38:553 Kernel/(16157:16200): DISCONNECT!
+[INFO] 20:58:43:688 Kernel/(28551:28551): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:58:43:756 Kernel/(28551:28551): ------2---------
+
+[INFO] 20:58:43:760 Kernel/(28551:28551): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:58:46:254 Kernel/(28551:28551): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:58:46:366 Kernel/(28551:28551): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:58:46:428 Kernel/(28551:28551): Cliente conectado (a KERNEL_SERVER)
+
+[ERROR] 20:59:01:652 Kernel/(28551:28589): Error al recibir direccion logica
+[INFO] 20:59:13:187 Kernel/(28551:28593): DISCONNECT!
+[INFO] 20:59:13:685 Kernel/(28551:28591): DISCONNECT!
+[INFO] 20:59:22:170 Kernel/(28745:28745): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:59:22:241 Kernel/(28745:28745): ------2---------
+
+[INFO] 20:59:22:245 Kernel/(28745:28745): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:59:23:741 Kernel/(28745:28745): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:59:23:850 Kernel/(28745:28745): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:59:23:908 Kernel/(28745:28745): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:59:39:048 Kernel/(28916:28916): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:59:39:117 Kernel/(28916:28916): ------2---------
+
+[INFO] 20:59:39:122 Kernel/(28916:28916): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:59:40:781 Kernel/(28916:28916): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:59:40:890 Kernel/(28916:28916): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:59:40:949 Kernel/(28916:28916): Cliente conectado (a KERNEL_SERVER)
+
+[ERROR] 20:59:56:165 Kernel/(28916:28953): Error al recibir direccion logica
+[ERROR] 21:00:10:206 Kernel/(28916:28956): Error al recibir direccion logica
+[INFO] 21:00:12:029 Kernel/(28916:28955): DISCONNECT!
+[INFO] 21:00:21:432 Kernel/(29109:29109): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:00:21:499 Kernel/(29109:29109): ------2---------
+
+[INFO] 21:00:21:503 Kernel/(29109:29109): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:00:23:363 Kernel/(29109:29109): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:00:23:469 Kernel/(29109:29109): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:00:23:527 Kernel/(29109:29109): Cliente conectado (a KERNEL_SERVER)
+
+[ERROR] 21:00:38:741 Kernel/(29109:29145): Error al recibir direccion logica

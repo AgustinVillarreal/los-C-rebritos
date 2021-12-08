@@ -68,6 +68,8 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
         return f->pid == carpincho_id;
     }
 
+    log_warning(logger, "id: %lu cant %d asig fija %d", carpincho_id, cant_paginas, asignacion_fija);
+
     //Pregunto si el carpincho esta en swap
     if(!list_any_satisfy(tablas_de_frames_swap,(void*) buscar_x_id)){
         //El caprincho no esta en swap busco si hay espacio en alguno de los swap para las paginas
@@ -75,9 +77,14 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
 
         for(int i = 0 ; i < list_size(areas_de_swap); i++){
 
+            log_warning(logger, "Vuelta %d", i);
+
             void* swap = list_get(areas_de_swap,i);
 
             uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(i) / cfg->TAMANIO_PAGINA;
+
+            log_warning(logger, "paginas_libres %d", paginas_libres);
+            
 
             if(paginas_libres >= cant_paginas){
                 respuesta = true;

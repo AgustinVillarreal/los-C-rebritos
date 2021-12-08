@@ -127,14 +127,16 @@ void actualizarTUR(tlb_t* entrada_tlb){
 }
 
 void crear_en_TLB(unsigned long id_carpincho, entrada_tp_t* entrada){
-    tlb_t* entrada_tlb = malloc(sizeof(tlb_t));
-    entrada_tlb->entrada_tp = entrada;
-    entrada_tlb->id_carpincho = id_carpincho;
-    actualizarTUR(entrada_tlb);
-    if(get_tlb_size() < MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB){
-        list_add_tlb(entrada_tlb);
-    } else {
-        correr_algoritmo_tlb(entrada_tlb);
+    if(MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB){
+        tlb_t* entrada_tlb = malloc(sizeof(tlb_t));
+        entrada_tlb->entrada_tp = entrada;
+        entrada_tlb->id_carpincho = id_carpincho;
+        actualizarTUR(entrada_tlb);
+        if(get_tlb_size() < MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB){
+            list_add_tlb(entrada_tlb);
+        } else {
+            correr_algoritmo_tlb(entrada_tlb);
+        }
     }
 }
 

@@ -51,6 +51,7 @@ typedef struct {
 
 
 pthread_mutex_t MUTEX_IDS;
+pthread_mutex_t MUTEX_SWAP;
 
 
 uint8_t cargar_configuracion(t_config_memoria*);

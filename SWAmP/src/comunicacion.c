@@ -24,9 +24,13 @@ void mostrar_tabla_swap(t_list* tabla){
   bool filtrar_x_swap1(frame_swap_t* frame){
     return frame->nro_swap == 1;
   }
+  bool filtrar_x_swap2(frame_swap_t* frame){
+    return frame->nro_swap == 2;
+  }
   
   t_list* aux1 = list_filter(tabla,(void*)filtrar_x_swap0);
   t_list* aux2 = list_filter(tabla,(void*)filtrar_x_swap1);
+  t_list* aux3 = list_filter(tabla,(void*)filtrar_x_swap2);
 
   log_info(logger,"------------------------");
   log_info(logger,"Para SWAP 0");
@@ -61,8 +65,26 @@ void mostrar_tabla_swap(t_list* tabla){
     log_info(logger,"------------------------");
   }
 
+  log_info(logger,"------------------------");
+    log_info(logger,"Para SWAP 2");
+    log_info(logger,"------------------------");
+
+    if(list_size(aux3) == 0){
+      log_info(logger,"---------NADA---------");
+    }
+
+    for(int i = 0 ; i < list_size(aux3) ; i++){
+    frame_swap_t* frame = list_get(aux3,i);
+    log_info(logger,"PID: %d",frame->pid);
+    log_info(logger,"NRO PAGINA: %d",frame->nro_pagina);
+    log_info(logger,"INICIO: %d",frame->inicio);
+    log_info(logger,"NRO SWAP: %d",frame->nro_swap);
+    log_info(logger,"------------------------");
+  }
+
   list_destroy(aux1);
   list_destroy(aux2);
+  list_destroy(aux3);
 
 }
 
@@ -79,6 +101,7 @@ static void procesar_conexion(void* void_args) {
     while (cliente_socket != -1) {
 
         if (recv(cliente_socket, &cop, sizeof(op_code), 0) != sizeof(op_code)) {
+            mostrar_tabla_swap(tablas_de_frames_swap);
             log_info(logger, STR(DISCONNECT!));
             return;
         }
@@ -137,6 +160,8 @@ static void procesar_conexion(void* void_args) {
                 void* data;
 
                 if (recv_lectura(cliente_socket, &carpincho_id, &nro_pagina)) {
+                    log_warning(logger,"DIEGOOOOOOOOO");
+                    
                     /* Aca necesito saber el pid y el numero de pagina del carpicho para buscarlo en mi listas de frames */
                     /* Debo usar serializacion para desempaquetarlo y sacar la info que necesito */
                     buscar_frame_en_swap(cliente_socket, carpincho_id, nro_pagina, &data);

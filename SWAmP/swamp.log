@@ -380,3 +380,2056 @@
 [INFO] 19:15:40:957 SWAmP/(16078:16078): Se elimino el carpincho 3 correctamente
 [INFO] 19:17:08:445 SWAmP/(16078:16078): DISCONNECT!
 [INFO] 19:17:08:446 SWAmP/(16078:16078): Finalizando programa...
+[INFO] 20:01:45:392 SWAmP/(23712:23712): Archivo de configuracion cargado correctamente
+[INFO] 20:01:45:443 SWAmP/(23712:23712): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:01:45:449 SWAmP/(23712:23712): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:01:45:450 SWAmP/(23712:23712): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:01:45:458 SWAmP/(23712:23712): ------2---------
+
+[INFO] 20:01:45:461 SWAmP/(23712:23712): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:01:47:028 SWAmP/(23712:23712): Cliente conectado (a SWAmP)
+
+[INFO] 20:01:47:039 SWAmP/(23712:23712): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:01:47:041 SWAmP/(23712:23712): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:01:55:317 SWAmP/(23712:23712): aaa: 0
+[INFO] 20:01:55:324 SWAmP/(23712:23712): La solicitud se realizo correctamente
+[WARNING] 20:02:00:326 SWAmP/(23712:23712): aaa: 0
+[INFO] 20:02:00:327 SWAmP/(23712:23712): La solicitud se realizo correctamente
+[WARNING] 20:02:05:328 SWAmP/(23712:23712): aaa: 0
+[INFO] 20:02:05:330 SWAmP/(23712:23712): La solicitud se realizo correctamente
+[WARNING] 20:02:10:330 SWAmP/(23712:23712): aaa: 0
+[INFO] 20:02:10:332 SWAmP/(23712:23712): La solicitud se realizo correctamente
+[WARNING] 20:02:15:333 SWAmP/(23712:23712): aaa: 0
+[INFO] 20:02:15:334 SWAmP/(23712:23712): La solicitud se realizo correctamente
+[INFO] 20:09:41:818 SWAmP/(24178:24178): Archivo de configuracion cargado correctamente
+[INFO] 20:09:41:866 SWAmP/(24178:24178): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:09:41:872 SWAmP/(24178:24178): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:09:41:873 SWAmP/(24178:24178): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:09:41:881 SWAmP/(24178:24178): ------2---------
+
+[INFO] 20:09:41:884 SWAmP/(24178:24178): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:09:43:206 SWAmP/(24178:24178): Cliente conectado (a SWAmP)
+
+[INFO] 20:09:43:216 SWAmP/(24178:24178): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:09:43:221 SWAmP/(24178:24178): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:09:50:019 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:09:50:029 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[WARNING] 20:09:55:031 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:09:55:032 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[WARNING] 20:10:00:036 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:10:00:038 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[WARNING] 20:10:05:039 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:10:05:041 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[WARNING] 20:10:10:042 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:10:10:042 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[WARNING] 20:10:15:087 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:10:15:088 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[WARNING] 20:10:20:223 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:10:20:223 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[WARNING] 20:10:25:359 SWAmP/(24178:24178): aaa: 0
+[INFO] 20:10:25:359 SWAmP/(24178:24178): La solicitud se realizo correctamente
+[INFO] 20:10:25:359 SWAmP/(24178:24178): DISCONNECT!
+[INFO] 20:10:25:360 SWAmP/(24178:24178): Finalizando programa...
+[INFO] 20:11:50:637 SWAmP/(24505:24505): Archivo de configuracion cargado correctamente
+[INFO] 20:11:50:682 SWAmP/(24505:24505): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:11:50:688 SWAmP/(24505:24505): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:11:50:689 SWAmP/(24505:24505): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:11:50:698 SWAmP/(24505:24505): ------2---------
+
+[INFO] 20:11:50:700 SWAmP/(24505:24505): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:11:52:101 SWAmP/(24505:24505): Cliente conectado (a SWAmP)
+
+[INFO] 20:11:52:111 SWAmP/(24505:24505): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:11:52:113 SWAmP/(24505:24505): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:12:00:729 SWAmP/(24505:24505): aaa: 0
+[INFO] 20:12:00:737 SWAmP/(24505:24505): La solicitud se realizo correctamente
+[WARNING] 20:12:05:738 SWAmP/(24505:24505): aaa: 0
+[INFO] 20:12:05:738 SWAmP/(24505:24505): La solicitud se realizo correctamente
+[WARNING] 20:12:10:740 SWAmP/(24505:24505): aaa: 0
+[INFO] 20:12:10:741 SWAmP/(24505:24505): La solicitud se realizo correctamente
+[INFO] 20:13:06:702 SWAmP/(24677:24677): Archivo de configuracion cargado correctamente
+[INFO] 20:13:06:751 SWAmP/(24677:24677): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:13:06:758 SWAmP/(24677:24677): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:13:06:759 SWAmP/(24677:24677): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:13:06:768 SWAmP/(24677:24677): ------2---------
+
+[INFO] 20:13:06:771 SWAmP/(24677:24677): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:13:08:608 SWAmP/(24677:24677): Cliente conectado (a SWAmP)
+
+[INFO] 20:13:08:618 SWAmP/(24677:24677): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:13:08:620 SWAmP/(24677:24677): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:13:16:241 SWAmP/(24677:24677): aaa: 0
+[INFO] 20:13:16:247 SWAmP/(24677:24677): La solicitud se realizo correctamente
+[WARNING] 20:13:21:248 SWAmP/(24677:24677): aaa: 0
+[INFO] 20:13:21:249 SWAmP/(24677:24677): La solicitud se realizo correctamente
+[WARNING] 20:13:26:251 SWAmP/(24677:24677): aaa: 0
+[INFO] 20:13:26:254 SWAmP/(24677:24677): La solicitud se realizo correctamente
+[WARNING] 20:13:31:255 SWAmP/(24677:24677): aaa: 0
+[INFO] 20:13:31:256 SWAmP/(24677:24677): La solicitud se realizo correctamente
+[INFO] 20:13:31:256 SWAmP/(24677:24677): DISCONNECT!
+[INFO] 20:13:31:257 SWAmP/(24677:24677): Finalizando programa...
+[INFO] 20:14:38:483 SWAmP/(24866:24866): Archivo de configuracion cargado correctamente
+[INFO] 20:14:38:529 SWAmP/(24866:24866): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:14:38:535 SWAmP/(24866:24866): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:14:38:536 SWAmP/(24866:24866): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:14:38:544 SWAmP/(24866:24866): ------2---------
+
+[INFO] 20:14:38:547 SWAmP/(24866:24866): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:14:39:958 SWAmP/(24866:24866): Cliente conectado (a SWAmP)
+
+[INFO] 20:14:39:968 SWAmP/(24866:24866): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:14:39:977 SWAmP/(24866:24866): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:14:46:944 SWAmP/(24866:24866): aaa: 0
+[INFO] 20:14:46:950 SWAmP/(24866:24866): La solicitud se realizo correctamente
+[WARNING] 20:14:51:951 SWAmP/(24866:24866): aaa: 0
+[INFO] 20:14:51:951 SWAmP/(24866:24866): La solicitud se realizo correctamente
+[INFO] 20:15:11:278 SWAmP/(25000:25000): Archivo de configuracion cargado correctamente
+[INFO] 20:15:11:323 SWAmP/(25000:25000): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:15:11:329 SWAmP/(25000:25000): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:15:11:330 SWAmP/(25000:25000): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:15:11:338 SWAmP/(25000:25000): ------2---------
+
+[INFO] 20:15:11:341 SWAmP/(25000:25000): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:15:12:758 SWAmP/(25000:25000): Cliente conectado (a SWAmP)
+
+[INFO] 20:15:12:767 SWAmP/(25000:25000): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:15:12:769 SWAmP/(25000:25000): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:15:20:183 SWAmP/(25000:25000): aaa: 0
+[INFO] 20:15:20:184 SWAmP/(25000:25000): La solicitud se realizo correctamente
+[WARNING] 20:15:25:185 SWAmP/(25000:25000): aaa: 0
+[INFO] 20:15:25:186 SWAmP/(25000:25000): La solicitud se realizo correctamente
+[WARNING] 20:15:30:187 SWAmP/(25000:25000): aaa: 0
+[INFO] 20:15:30:187 SWAmP/(25000:25000): La solicitud se realizo correctamente
+[WARNING] 20:15:35:188 SWAmP/(25000:25000): aaa: 0
+[INFO] 20:15:35:189 SWAmP/(25000:25000): La solicitud se realizo correctamente
+[INFO] 20:15:44:414 SWAmP/(25000:25000): ------------------------
+[INFO] 20:15:44:414 SWAmP/(25000:25000): Para SWAP 0
+[INFO] 20:15:44:414 SWAmP/(25000:25000): ------------------------
+[INFO] 20:15:44:415 SWAmP/(25000:25000): ---------NADA---------
+[INFO] 20:15:44:415 SWAmP/(25000:25000): ------------------------
+[INFO] 20:15:44:416 SWAmP/(25000:25000): Para SWAP 1
+[INFO] 20:15:44:416 SWAmP/(25000:25000): ------------------------
+[INFO] 20:15:44:417 SWAmP/(25000:25000): ---------NADA---------
+[INFO] 20:15:44:418 SWAmP/(25000:25000): DISCONNECT!
+[INFO] 20:15:44:420 SWAmP/(25000:25000): Finalizando programa...
+[INFO] 20:19:25:140 SWAmP/(25314:25314): Archivo de configuracion cargado correctamente
+[INFO] 20:19:25:187 SWAmP/(25314:25314): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:19:25:192 SWAmP/(25314:25314): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:19:25:194 SWAmP/(25314:25314): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:19:25:202 SWAmP/(25314:25314): ------2---------
+
+[INFO] 20:19:25:206 SWAmP/(25314:25314): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:19:27:031 SWAmP/(25314:25314): Cliente conectado (a SWAmP)
+
+[INFO] 20:19:27:051 SWAmP/(25314:25314): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:19:27:053 SWAmP/(25314:25314): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:19:29:195 SWAmP/(25314:25314): id: 3 cant 1 asig fija 0
+[WARNING] 20:19:34:207 SWAmP/(25314:25314): aaa: 0
+[INFO] 20:19:34:212 SWAmP/(25314:25314): La solicitud se realizo correctamente
+[WARNING] 20:19:34:212 SWAmP/(25314:25314): id: 1 cant 1 asig fija 0
+[WARNING] 20:19:39:213 SWAmP/(25314:25314): aaa: 0
+[INFO] 20:19:39:213 SWAmP/(25314:25314): La solicitud se realizo correctamente
+[WARNING] 20:19:39:214 SWAmP/(25314:25314): id: 2 cant 1 asig fija 0
+[INFO] 20:21:33:448 SWAmP/(25523:25523): Archivo de configuracion cargado correctamente
+[INFO] 20:21:33:492 SWAmP/(25523:25523): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:21:33:498 SWAmP/(25523:25523): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:21:33:499 SWAmP/(25523:25523): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:21:33:507 SWAmP/(25523:25523): ------2---------
+
+[INFO] 20:21:33:510 SWAmP/(25523:25523): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:21:34:853 SWAmP/(25523:25523): Cliente conectado (a SWAmP)
+
+[INFO] 20:21:34:862 SWAmP/(25523:25523): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:21:34:864 SWAmP/(25523:25523): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:21:36:968 SWAmP/(25523:25523): id: 1 cant 1 asig fija 0
+[WARNING] 20:21:36:969 SWAmP/(25523:25523): Vuelta 0
+[WARNING] 20:21:36:973 SWAmP/(25523:25523): Vuelta 1
+[WARNING] 20:21:36:974 SWAmP/(25523:25523): Vuelta 2
+[WARNING] 20:21:41:977 SWAmP/(25523:25523): aaa: 0
+[INFO] 20:21:41:983 SWAmP/(25523:25523): La solicitud se realizo correctamente
+[WARNING] 20:21:41:984 SWAmP/(25523:25523): id: 2 cant 1 asig fija 0
+[WARNING] 20:21:41:984 SWAmP/(25523:25523): Vuelta 0
+[WARNING] 20:21:41:984 SWAmP/(25523:25523): Vuelta 1
+[WARNING] 20:21:41:985 SWAmP/(25523:25523): Vuelta 2
+[WARNING] 20:21:46:986 SWAmP/(25523:25523): aaa: 0
+[INFO] 20:21:46:986 SWAmP/(25523:25523): La solicitud se realizo correctamente
+[WARNING] 20:21:46:987 SWAmP/(25523:25523): id: 3 cant 1 asig fija 0
+[WARNING] 20:21:46:988 SWAmP/(25523:25523): Vuelta 0
+[WARNING] 20:21:46:990 SWAmP/(25523:25523): Vuelta 1
+[WARNING] 20:21:46:990 SWAmP/(25523:25523): Vuelta 2
+[WARNING] 20:21:51:991 SWAmP/(25523:25523): aaa: 0
+[INFO] 20:21:51:991 SWAmP/(25523:25523): La solicitud se realizo correctamente
+[WARNING] 20:21:51:991 SWAmP/(25523:25523): id: 3 cant 10 asig fija 0
+[WARNING] 20:21:51:992 SWAmP/(25523:25523): Vuelta 0
+[WARNING] 20:21:51:992 SWAmP/(25523:25523): Vuelta 1
+[WARNING] 20:21:51:992 SWAmP/(25523:25523): Vuelta 2
+[INFO] 20:24:32:101 SWAmP/(25779:25779): Archivo de configuracion cargado correctamente
+[INFO] 20:24:32:147 SWAmP/(25779:25779): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:24:32:153 SWAmP/(25779:25779): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:24:32:154 SWAmP/(25779:25779): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:24:32:163 SWAmP/(25779:25779): ------2---------
+
+[INFO] 20:24:32:165 SWAmP/(25779:25779): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:24:33:363 SWAmP/(25779:25779): Cliente conectado (a SWAmP)
+
+[INFO] 20:24:33:373 SWAmP/(25779:25779): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:24:33:375 SWAmP/(25779:25779): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:24:35:235 SWAmP/(25779:25779): id: 3 cant 1 asig fija 0
+[WARNING] 20:24:35:237 SWAmP/(25779:25779): Vuelta 0
+[WARNING] 20:24:35:244 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:35:244 SWAmP/(25779:25779): Vuelta 1
+[WARNING] 20:24:35:245 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:35:245 SWAmP/(25779:25779): Vuelta 2
+[WARNING] 20:24:35:245 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:40:249 SWAmP/(25779:25779): aaa: 0
+[INFO] 20:24:40:254 SWAmP/(25779:25779): La solicitud se realizo correctamente
+[WARNING] 20:24:40:255 SWAmP/(25779:25779): id: 1 cant 1 asig fija 0
+[WARNING] 20:24:40:255 SWAmP/(25779:25779): Vuelta 0
+[WARNING] 20:24:40:255 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:40:255 SWAmP/(25779:25779): Vuelta 1
+[WARNING] 20:24:40:255 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:40:256 SWAmP/(25779:25779): Vuelta 2
+[WARNING] 20:24:40:256 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:45:258 SWAmP/(25779:25779): aaa: 0
+[INFO] 20:24:45:258 SWAmP/(25779:25779): La solicitud se realizo correctamente
+[WARNING] 20:24:45:258 SWAmP/(25779:25779): id: 2 cant 1 asig fija 0
+[WARNING] 20:24:45:258 SWAmP/(25779:25779): Vuelta 0
+[WARNING] 20:24:45:259 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:45:259 SWAmP/(25779:25779): Vuelta 1
+[WARNING] 20:24:45:260 SWAmP/(25779:25779): paginas_libres 0
+[WARNING] 20:24:45:260 SWAmP/(25779:25779): Vuelta 2
+[WARNING] 20:24:45:260 SWAmP/(25779:25779): paginas_libres 0
+[INFO] 20:25:15:518 SWAmP/(25923:25923): Archivo de configuracion cargado correctamente
+[INFO] 20:25:15:565 SWAmP/(25923:25923): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:25:15:579 SWAmP/(25923:25923): ------2---------
+
+[INFO] 20:25:15:582 SWAmP/(25923:25923): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:25:16:892 SWAmP/(25923:25923): Cliente conectado (a SWAmP)
+
+[INFO] 20:25:16:901 SWAmP/(25923:25923): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:25:16:903 SWAmP/(25923:25923): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:25:19:014 SWAmP/(25923:25923): id: 1 cant 1 asig fija 0
+[WARNING] 20:25:19:018 SWAmP/(25923:25923): Vuelta 0
+[WARNING] 20:25:19:022 SWAmP/(25923:25923): paginas_libres 0
+[WARNING] 20:25:24:029 SWAmP/(25923:25923): aaa: 0
+[INFO] 20:25:24:030 SWAmP/(25923:25923): La solicitud se realizo correctamente
+[WARNING] 20:25:24:030 SWAmP/(25923:25923): id: 2 cant 1 asig fija 0
+[WARNING] 20:25:24:031 SWAmP/(25923:25923): Vuelta 0
+[WARNING] 20:25:24:031 SWAmP/(25923:25923): paginas_libres 0
+[INFO] 20:26:39:107 SWAmP/(26107:26107): Archivo de configuracion cargado correctamente
+[INFO] 20:26:39:153 SWAmP/(26107:26107): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:26:39:158 SWAmP/(26107:26107): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:26:39:160 SWAmP/(26107:26107): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:26:39:169 SWAmP/(26107:26107): ------2---------
+
+[INFO] 20:26:39:172 SWAmP/(26107:26107): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:26:40:568 SWAmP/(26107:26107): Cliente conectado (a SWAmP)
+
+[INFO] 20:26:40:578 SWAmP/(26107:26107): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:26:40:580 SWAmP/(26107:26107): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:26:42:427 SWAmP/(26107:26107): id: 3 cant 1 asig fija 0
+[WARNING] 20:26:42:429 SWAmP/(26107:26107): Vuelta 0
+[WARNING] 20:26:42:433 SWAmP/(26107:26107): paginas_libres 10
+[WARNING] 20:26:47:439 SWAmP/(26107:26107): aaa: 1
+[INFO] 20:26:47:439 SWAmP/(26107:26107): La solicitud se realizo correctamente
+[WARNING] 20:26:47:442 SWAmP/(26107:26107): id: 1 cant 1 asig fija 0
+[WARNING] 20:26:47:442 SWAmP/(26107:26107): Vuelta 0
+[WARNING] 20:26:47:443 SWAmP/(26107:26107): paginas_libres 10
+[WARNING] 20:26:52:444 SWAmP/(26107:26107): aaa: 1
+[INFO] 20:26:52:444 SWAmP/(26107:26107): La solicitud se realizo correctamente
+[WARNING] 20:26:52:444 SWAmP/(26107:26107): id: 2 cant 1 asig fija 0
+[WARNING] 20:26:52:445 SWAmP/(26107:26107): Vuelta 0
+[WARNING] 20:26:52:445 SWAmP/(26107:26107): paginas_libres 10
+[INFO] 20:27:03:210 SWAmP/(26235:26235): Archivo de configuracion cargado correctamente
+[INFO] 20:27:03:259 SWAmP/(26235:26235): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:27:03:265 SWAmP/(26235:26235): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:27:03:267 SWAmP/(26235:26235): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:27:03:277 SWAmP/(26235:26235): ------2---------
+
+[INFO] 20:27:03:280 SWAmP/(26235:26235): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:27:04:924 SWAmP/(26235:26235): Cliente conectado (a SWAmP)
+
+[INFO] 20:27:04:936 SWAmP/(26235:26235): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:27:04:946 SWAmP/(26235:26235): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:27:06:915 SWAmP/(26235:26235): id: 3 cant 1 asig fija 0
+[WARNING] 20:27:06:917 SWAmP/(26235:26235): Vuelta 0
+[WARNING] 20:27:06:922 SWAmP/(26235:26235): paginas_libres 10
+[WARNING] 20:27:11:925 SWAmP/(26235:26235): aaa: 1
+[INFO] 20:27:11:930 SWAmP/(26235:26235): La solicitud se realizo correctamente
+[WARNING] 20:27:11:930 SWAmP/(26235:26235): id: 1 cant 1 asig fija 0
+[WARNING] 20:27:11:931 SWAmP/(26235:26235): Vuelta 0
+[WARNING] 20:27:11:931 SWAmP/(26235:26235): paginas_libres 10
+[WARNING] 20:27:16:932 SWAmP/(26235:26235): aaa: 1
+[INFO] 20:27:16:932 SWAmP/(26235:26235): La solicitud se realizo correctamente
+[WARNING] 20:27:16:932 SWAmP/(26235:26235): id: 2 cant 1 asig fija 0
+[WARNING] 20:27:16:933 SWAmP/(26235:26235): Vuelta 0
+[WARNING] 20:27:16:933 SWAmP/(26235:26235): paginas_libres 10
+[INFO] 20:29:19:550 SWAmP/(26445:26445): Archivo de configuracion cargado correctamente
+[INFO] 20:29:19:598 SWAmP/(26445:26445): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:29:19:605 SWAmP/(26445:26445): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:29:19:606 SWAmP/(26445:26445): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:29:19:615 SWAmP/(26445:26445): ------2---------
+
+[INFO] 20:29:19:618 SWAmP/(26445:26445): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:29:21:222 SWAmP/(26445:26445): Cliente conectado (a SWAmP)
+
+[INFO] 20:29:21:232 SWAmP/(26445:26445): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:29:21:233 SWAmP/(26445:26445): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:29:22:997 SWAmP/(26445:26445): id: 1 cant 1 asig fija 0
+[WARNING] 20:29:23:000 SWAmP/(26445:26445): Vuelta 0
+[WARNING] 20:29:23:013 SWAmP/(26445:26445): paginas_libres 10
+[WARNING] 20:29:28:019 SWAmP/(26445:26445): aaa: 1
+[INFO] 20:29:28:020 SWAmP/(26445:26445): La solicitud se realizo correctamente
+[WARNING] 20:29:28:027 SWAmP/(26445:26445): id: 3 cant 1 asig fija 0
+[WARNING] 20:29:28:027 SWAmP/(26445:26445): Vuelta 0
+[WARNING] 20:29:28:027 SWAmP/(26445:26445): paginas_libres 10
+[WARNING] 20:29:33:028 SWAmP/(26445:26445): aaa: 1
+[INFO] 20:29:33:029 SWAmP/(26445:26445): La solicitud se realizo correctamente
+[WARNING] 20:29:33:030 SWAmP/(26445:26445): id: 2 cant 1 asig fija 0
+[WARNING] 20:29:33:030 SWAmP/(26445:26445): Vuelta 0
+[WARNING] 20:29:33:031 SWAmP/(26445:26445): paginas_libres 10
+[WARNING] 20:29:38:031 SWAmP/(26445:26445): aaa: 1
+[INFO] 20:29:38:032 SWAmP/(26445:26445): La solicitud se realizo correctamente
+[INFO] 20:29:43:039 SWAmP/(26445:26445): Se allocaron 1 marcos para el carpincho 2 correctamente
+[INFO] 20:29:48:042 SWAmP/(26445:26445): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 20:29:53:043 SWAmP/(26445:26445): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 20:29:53:044 SWAmP/(26445:26445): id: 3 cant 9 asig fija 0
+[WARNING] 20:29:58:047 SWAmP/(26445:26445): aaa: 1
+[INFO] 20:29:58:049 SWAmP/(26445:26445): La solicitud se realizo correctamente
+[INFO] 20:30:03:065 SWAmP/(26445:26445): Se allocaron 9 marcos para el carpincho 3 correctamente
+[INFO] 20:30:08:071 SWAmP/(26445:26445): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 20:30:13:072 SWAmP/(26445:26445): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 20:30:18:073 SWAmP/(26445:26445): Se escribio la pagina 0 del carpincho 3 en swap
+[INFO] 20:30:23:074 SWAmP/(26445:26445): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 20:30:28:076 SWAmP/(26445:26445): Se escribio la pagina 2 del carpincho 3 en swap
+[INFO] 20:30:33:077 SWAmP/(26445:26445): Se escribio la pagina 3 del carpincho 3 en swap
+[INFO] 20:30:38:078 SWAmP/(26445:26445): Se escribio la pagina 4 del carpincho 3 en swap
+[INFO] 20:30:43:079 SWAmP/(26445:26445): Se escribio la pagina 5 del carpincho 3 en swap
+[INFO] 20:30:48:083 SWAmP/(26445:26445): Se leyo la swap correctamente
+[INFO] 20:30:53:085 SWAmP/(26445:26445): Se escribio la pagina 6 del carpincho 3 en swap
+[INFO] 20:30:58:087 SWAmP/(26445:26445): Se leyo la swap correctamente
+[INFO] 20:31:00:423 SWAmP/(26445:26445): ------------------------
+[INFO] 20:31:00:424 SWAmP/(26445:26445): Para SWAP 0
+[INFO] 20:31:00:424 SWAmP/(26445:26445): ------------------------
+[INFO] 20:31:00:425 SWAmP/(26445:26445): PID: 2
+[INFO] 20:31:00:426 SWAmP/(26445:26445): NRO PAGINA: 0
+[INFO] 20:31:00:428 SWAmP/(26445:26445): INICIO: 0
+[INFO] 20:31:00:429 SWAmP/(26445:26445): NRO SWAP: 0
+[INFO] 20:31:00:429 SWAmP/(26445:26445): ------------------------
+[INFO] 20:31:00:430 SWAmP/(26445:26445): ------------------------
+[INFO] 20:31:00:431 SWAmP/(26445:26445): Para SWAP 1
+[INFO] 20:31:00:431 SWAmP/(26445:26445): ------------------------
+[INFO] 20:31:00:432 SWAmP/(26445:26445): PID: 1
+[INFO] 20:31:00:434 SWAmP/(26445:26445): NRO PAGINA: 0
+[INFO] 20:31:00:436 SWAmP/(26445:26445): INICIO: 0
+[INFO] 20:31:00:436 SWAmP/(26445:26445): NRO SWAP: 1
+[INFO] 20:31:00:437 SWAmP/(26445:26445): ------------------------
+[INFO] 20:31:00:438 SWAmP/(26445:26445): DISCONNECT!
+[INFO] 20:31:00:441 SWAmP/(26445:26445): Finalizando programa...
+[INFO] 20:35:34:920 SWAmP/(26832:26832): Archivo de configuracion cargado correctamente
+[INFO] 20:35:34:964 SWAmP/(26832:26832): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:35:34:969 SWAmP/(26832:26832): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:35:34:971 SWAmP/(26832:26832): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:35:34:979 SWAmP/(26832:26832): ------2---------
+
+[INFO] 20:35:34:982 SWAmP/(26832:26832): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:35:36:423 SWAmP/(26832:26832): Cliente conectado (a SWAmP)
+
+[INFO] 20:35:36:432 SWAmP/(26832:26832): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:35:36:434 SWAmP/(26832:26832): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:35:38:467 SWAmP/(26832:26832): id: 2 cant 1 asig fija 0
+[WARNING] 20:35:38:469 SWAmP/(26832:26832): Vuelta 0
+[WARNING] 20:35:38:475 SWAmP/(26832:26832): paginas_libres 10
+[WARNING] 20:35:43:483 SWAmP/(26832:26832): aaa: 1
+[INFO] 20:35:43:483 SWAmP/(26832:26832): La solicitud se realizo correctamente
+[WARNING] 20:35:43:484 SWAmP/(26832:26832): id: 1 cant 1 asig fija 0
+[WARNING] 20:35:43:484 SWAmP/(26832:26832): Vuelta 0
+[WARNING] 20:35:43:485 SWAmP/(26832:26832): paginas_libres 10
+[WARNING] 20:35:48:486 SWAmP/(26832:26832): aaa: 1
+[INFO] 20:35:48:487 SWAmP/(26832:26832): La solicitud se realizo correctamente
+[WARNING] 20:35:48:487 SWAmP/(26832:26832): id: 3 cant 1 asig fija 0
+[WARNING] 20:35:48:488 SWAmP/(26832:26832): Vuelta 0
+[WARNING] 20:35:48:488 SWAmP/(26832:26832): paginas_libres 10
+[WARNING] 20:35:53:489 SWAmP/(26832:26832): aaa: 1
+[INFO] 20:35:53:490 SWAmP/(26832:26832): La solicitud se realizo correctamente
+[INFO] 20:35:58:500 SWAmP/(26832:26832): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 20:35:58:500 SWAmP/(26832:26832): id: 2 cant 9 asig fija 0
+[WARNING] 20:36:03:503 SWAmP/(26832:26832): aaa: 1
+[INFO] 20:36:03:505 SWAmP/(26832:26832): La solicitud se realizo correctamente
+[INFO] 20:36:08:509 SWAmP/(26832:26832): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 20:36:13:519 SWAmP/(26832:26832): Se allocaron 9 marcos para el carpincho 2 correctamente
+[INFO] 20:36:18:524 SWAmP/(26832:26832): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 20:36:23:526 SWAmP/(26832:26832): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 20:36:27:141 SWAmP/(26984:26984): Archivo de configuracion cargado correctamente
+[INFO] 20:36:27:187 SWAmP/(26984:26984): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:36:27:194 SWAmP/(26984:26984): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:36:27:195 SWAmP/(26984:26984): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:36:27:203 SWAmP/(26984:26984): ------2---------
+
+[INFO] 20:36:27:205 SWAmP/(26984:26984): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:36:28:552 SWAmP/(26984:26984): Cliente conectado (a SWAmP)
+
+[INFO] 20:36:28:562 SWAmP/(26984:26984): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:36:28:567 SWAmP/(26984:26984): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:36:30:651 SWAmP/(26984:26984): id: 1 cant 1 asig fija 0
+[WARNING] 20:36:30:653 SWAmP/(26984:26984): Vuelta 0
+[WARNING] 20:36:30:661 SWAmP/(26984:26984): paginas_libres 10
+[WARNING] 20:36:35:667 SWAmP/(26984:26984): aaa: 1
+[INFO] 20:36:35:671 SWAmP/(26984:26984): La solicitud se realizo correctamente
+[WARNING] 20:36:35:671 SWAmP/(26984:26984): id: 2 cant 1 asig fija 0
+[WARNING] 20:36:35:671 SWAmP/(26984:26984): Vuelta 0
+[WARNING] 20:36:35:672 SWAmP/(26984:26984): paginas_libres 10
+[WARNING] 20:36:40:673 SWAmP/(26984:26984): aaa: 1
+[INFO] 20:36:40:674 SWAmP/(26984:26984): La solicitud se realizo correctamente
+[WARNING] 20:36:40:675 SWAmP/(26984:26984): id: 3 cant 1 asig fija 0
+[WARNING] 20:36:40:678 SWAmP/(26984:26984): Vuelta 0
+[WARNING] 20:36:40:679 SWAmP/(26984:26984): paginas_libres 10
+[WARNING] 20:36:45:680 SWAmP/(26984:26984): aaa: 1
+[INFO] 20:36:45:681 SWAmP/(26984:26984): La solicitud se realizo correctamente
+[INFO] 20:36:50:687 SWAmP/(26984:26984): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 20:36:50:689 SWAmP/(26984:26984): id: 3 cant 9 asig fija 0
+[WARNING] 20:36:55:693 SWAmP/(26984:26984): aaa: 1
+[INFO] 20:36:55:693 SWAmP/(26984:26984): La solicitud se realizo correctamente
+[INFO] 20:37:00:704 SWAmP/(26984:26984): Se allocaron 9 marcos para el carpincho 3 correctamente
+[INFO] 20:37:05:709 SWAmP/(26984:26984): Se escribio la pagina 0 del carpincho 3 en swap
+[INFO] 20:37:10:711 SWAmP/(26984:26984): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 20:37:15:712 SWAmP/(26984:26984): Se escribio la pagina 2 del carpincho 3 en swap
+[INFO] 20:37:20:713 SWAmP/(26984:26984): Se escribio la pagina 3 del carpincho 3 en swap
+[INFO] 20:37:25:715 SWAmP/(26984:26984): Se escribio la pagina 4 del carpincho 3 en swap
+[INFO] 20:37:30:716 SWAmP/(26984:26984): Se escribio la pagina 5 del carpincho 3 en swap
+[INFO] 20:44:49:740 SWAmP/(27464:27464): Archivo de configuracion cargado correctamente
+[INFO] 20:44:49:788 SWAmP/(27464:27464): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:44:49:794 SWAmP/(27464:27464): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:44:49:795 SWAmP/(27464:27464): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:44:49:803 SWAmP/(27464:27464): ------2---------
+
+[INFO] 20:44:49:806 SWAmP/(27464:27464): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:45:18:848 SWAmP/(27464:27464): Cliente conectado (a SWAmP)
+
+[INFO] 20:45:18:859 SWAmP/(27464:27464): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:45:18:867 SWAmP/(27464:27464): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:45:22:652 SWAmP/(27464:27464): id: 3 cant 1 asig fija 0
+[WARNING] 20:45:22:655 SWAmP/(27464:27464): Vuelta 0
+[WARNING] 20:45:22:658 SWAmP/(27464:27464): paginas_libres 10
+[WARNING] 20:45:27:661 SWAmP/(27464:27464): aaa: 1
+[INFO] 20:45:27:666 SWAmP/(27464:27464): La solicitud se realizo correctamente
+[WARNING] 20:45:27:667 SWAmP/(27464:27464): id: 2 cant 1 asig fija 0
+[WARNING] 20:45:27:667 SWAmP/(27464:27464): Vuelta 0
+[WARNING] 20:45:27:667 SWAmP/(27464:27464): paginas_libres 10
+[WARNING] 20:45:32:668 SWAmP/(27464:27464): aaa: 1
+[INFO] 20:45:32:670 SWAmP/(27464:27464): La solicitud se realizo correctamente
+[WARNING] 20:45:32:671 SWAmP/(27464:27464): id: 1 cant 1 asig fija 0
+[WARNING] 20:45:32:671 SWAmP/(27464:27464): Vuelta 0
+[WARNING] 20:45:32:674 SWAmP/(27464:27464): paginas_libres 10
+[WARNING] 20:45:37:675 SWAmP/(27464:27464): aaa: 1
+[INFO] 20:45:37:676 SWAmP/(27464:27464): La solicitud se realizo correctamente
+[INFO] 20:45:42:688 SWAmP/(27464:27464): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 20:45:42:688 SWAmP/(27464:27464): id: 1 cant 9 asig fija 0
+[WARNING] 20:45:47:692 SWAmP/(27464:27464): aaa: 1
+[INFO] 20:45:47:693 SWAmP/(27464:27464): La solicitud se realizo correctamente
+[INFO] 20:45:52:702 SWAmP/(27464:27464): Se allocaron 9 marcos para el carpincho 1 correctamente
+[INFO] 20:45:57:706 SWAmP/(27464:27464): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 20:46:02:708 SWAmP/(27464:27464): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 20:46:07:710 SWAmP/(27464:27464): Se escribio la pagina 2 del carpincho 1 en swap
+[INFO] 20:46:12:712 SWAmP/(27464:27464): Se escribio la pagina 3 del carpincho 1 en swap
+[INFO] 20:46:17:714 SWAmP/(27464:27464): Se escribio la pagina 4 del carpincho 1 en swap
+[INFO] 20:46:22:717 SWAmP/(27464:27464): Se escribio la pagina 5 del carpincho 1 en swap
+[INFO] 20:51:39:992 SWAmP/(27945:27945): Archivo de configuracion cargado correctamente
+[INFO] 20:51:40:042 SWAmP/(27945:27945): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:51:40:049 SWAmP/(27945:27945): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:51:40:050 SWAmP/(27945:27945): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:51:40:059 SWAmP/(27945:27945): ------2---------
+
+[INFO] 20:51:40:061 SWAmP/(27945:27945): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:51:41:412 SWAmP/(27945:27945): Cliente conectado (a SWAmP)
+
+[INFO] 20:51:41:422 SWAmP/(27945:27945): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:51:41:427 SWAmP/(27945:27945): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:51:43:456 SWAmP/(27945:27945): id: 3 cant 1 asig fija 0
+[WARNING] 20:51:43:458 SWAmP/(27945:27945): Vuelta 0
+[WARNING] 20:51:43:462 SWAmP/(27945:27945): paginas_libres 10
+[WARNING] 20:51:48:465 SWAmP/(27945:27945): aaa: 1
+[INFO] 20:51:48:470 SWAmP/(27945:27945): La solicitud se realizo correctamente
+[WARNING] 20:51:48:471 SWAmP/(27945:27945): id: 1 cant 1 asig fija 0
+[WARNING] 20:51:48:471 SWAmP/(27945:27945): Vuelta 0
+[WARNING] 20:51:48:471 SWAmP/(27945:27945): paginas_libres 10
+[WARNING] 20:51:53:473 SWAmP/(27945:27945): aaa: 1
+[INFO] 20:51:53:474 SWAmP/(27945:27945): La solicitud se realizo correctamente
+[WARNING] 20:51:53:475 SWAmP/(27945:27945): id: 2 cant 1 asig fija 0
+[WARNING] 20:51:53:476 SWAmP/(27945:27945): Vuelta 0
+[WARNING] 20:51:53:476 SWAmP/(27945:27945): paginas_libres 10
+[WARNING] 20:51:58:478 SWAmP/(27945:27945): aaa: 1
+[INFO] 20:51:58:479 SWAmP/(27945:27945): La solicitud se realizo correctamente
+[INFO] 20:52:03:485 SWAmP/(27945:27945): Se allocaron 1 marcos para el carpincho 2 correctamente
+[INFO] 20:52:08:490 SWAmP/(27945:27945): Se allocaron 1 marcos para el carpincho 3 correctamente
+[INFO] 20:52:13:491 SWAmP/(27945:27945): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 20:52:13:491 SWAmP/(27945:27945): id: 1 cant 9 asig fija 0
+[WARNING] 20:52:18:493 SWAmP/(27945:27945): aaa: 1
+[INFO] 20:52:18:494 SWAmP/(27945:27945): La solicitud se realizo correctamente
+[INFO] 20:52:23:511 SWAmP/(27945:27945): Se allocaron 9 marcos para el carpincho 1 correctamente
+[INFO] 20:52:28:515 SWAmP/(27945:27945): Se escribio la pagina 0 del carpincho 3 en swap
+[INFO] 20:52:33:517 SWAmP/(27945:27945): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 20:52:38:597 SWAmP/(28103:28103): Archivo de configuracion cargado correctamente
+[INFO] 20:52:38:643 SWAmP/(28103:28103): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:52:38:650 SWAmP/(28103:28103): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:52:38:650 SWAmP/(28103:28103): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:52:38:661 SWAmP/(28103:28103): ------2---------
+
+[INFO] 20:52:38:664 SWAmP/(28103:28103): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:52:41:281 SWAmP/(28103:28103): Cliente conectado (a SWAmP)
+
+[INFO] 20:52:41:290 SWAmP/(28103:28103): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:52:41:292 SWAmP/(28103:28103): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:52:43:304 SWAmP/(28103:28103): id: 2 cant 1 asig fija 0
+[WARNING] 20:52:43:306 SWAmP/(28103:28103): Vuelta 0
+[WARNING] 20:52:43:310 SWAmP/(28103:28103): paginas_libres 10
+[WARNING] 20:52:48:313 SWAmP/(28103:28103): aaa: 1
+[INFO] 20:52:48:318 SWAmP/(28103:28103): La solicitud se realizo correctamente
+[WARNING] 20:52:48:319 SWAmP/(28103:28103): id: 1 cant 1 asig fija 0
+[WARNING] 20:52:48:319 SWAmP/(28103:28103): Vuelta 0
+[WARNING] 20:52:48:320 SWAmP/(28103:28103): paginas_libres 10
+[WARNING] 20:52:53:321 SWAmP/(28103:28103): aaa: 1
+[INFO] 20:52:53:322 SWAmP/(28103:28103): La solicitud se realizo correctamente
+[WARNING] 20:52:53:322 SWAmP/(28103:28103): id: 3 cant 1 asig fija 0
+[WARNING] 20:52:53:323 SWAmP/(28103:28103): Vuelta 0
+[WARNING] 20:52:53:323 SWAmP/(28103:28103): paginas_libres 10
+[WARNING] 20:52:58:325 SWAmP/(28103:28103): aaa: 1
+[INFO] 20:52:58:326 SWAmP/(28103:28103): La solicitud se realizo correctamente
+[INFO] 20:53:03:337 SWAmP/(28103:28103): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 20:53:03:338 SWAmP/(28103:28103): id: 3 cant 9 asig fija 0
+[WARNING] 20:53:08:342 SWAmP/(28103:28103): aaa: 1
+[INFO] 20:53:08:343 SWAmP/(28103:28103): La solicitud se realizo correctamente
+[INFO] 20:53:13:348 SWAmP/(28103:28103): Se allocaron 1 marcos para el carpincho 2 correctamente
+[INFO] 20:53:18:361 SWAmP/(28103:28103): Se allocaron 9 marcos para el carpincho 3 correctamente
+[INFO] 20:53:23:366 SWAmP/(28103:28103): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 20:53:28:367 SWAmP/(28103:28103): Se escribio la pagina 0 del carpincho 3 en swap
+[INFO] 20:53:33:369 SWAmP/(28103:28103): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 20:53:38:370 SWAmP/(28103:28103): Se escribio la pagina 2 del carpincho 3 en swap
+[INFO] 20:53:43:371 SWAmP/(28103:28103): Se escribio la pagina 3 del carpincho 3 en swap
+[INFO] 20:53:48:373 SWAmP/(28103:28103): Se escribio la pagina 4 del carpincho 3 en swap
+[INFO] 20:53:53:374 SWAmP/(28103:28103): Se escribio la pagina 5 del carpincho 3 en swap
+[WARNING] 20:53:53:377 SWAmP/(28103:28103): DIEGOOOOOOOOO
+[INFO] 20:53:58:380 SWAmP/(28103:28103): Se leyo la swap correctamente
+[INFO] 20:54:03:381 SWAmP/(28103:28103): Se escribio la pagina 6 del carpincho 3 en swap
+[WARNING] 20:54:03:382 SWAmP/(28103:28103): DIEGOOOOOOOOO
+[INFO] 20:58:38:050 SWAmP/(28466:28466): Archivo de configuracion cargado correctamente
+[INFO] 20:58:38:095 SWAmP/(28466:28466): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:58:38:101 SWAmP/(28466:28466): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:58:38:103 SWAmP/(28466:28466): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:58:38:111 SWAmP/(28466:28466): ------2---------
+
+[INFO] 20:58:38:113 SWAmP/(28466:28466): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:58:39:524 SWAmP/(28466:28466): Cliente conectado (a SWAmP)
+
+[INFO] 20:58:39:533 SWAmP/(28466:28466): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:58:39:535 SWAmP/(28466:28466): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:58:46:625 SWAmP/(28466:28466): id: 2 cant 1 asig fija 0
+[WARNING] 20:58:46:628 SWAmP/(28466:28466): Vuelta 0
+[WARNING] 20:58:46:632 SWAmP/(28466:28466): paginas_libres 10
+[WARNING] 20:58:51:639 SWAmP/(28466:28466): aaa: 1
+[INFO] 20:58:51:639 SWAmP/(28466:28466): La solicitud se realizo correctamente
+[INFO] 20:58:56:646 SWAmP/(28466:28466): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 20:58:56:646 SWAmP/(28466:28466): id: 1 cant 1 asig fija 0
+[WARNING] 20:58:56:647 SWAmP/(28466:28466): Vuelta 0
+[WARNING] 20:58:56:649 SWAmP/(28466:28466): paginas_libres 9
+[WARNING] 20:59:01:650 SWAmP/(28466:28466): aaa: 1
+[INFO] 20:59:01:653 SWAmP/(28466:28466): La solicitud se realizo correctamente
+[INFO] 20:59:06:656 SWAmP/(28466:28466): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 20:59:06:656 SWAmP/(28466:28466): id: 3 cant 1 asig fija 0
+[WARNING] 20:59:06:656 SWAmP/(28466:28466): Vuelta 0
+[WARNING] 20:59:06:657 SWAmP/(28466:28466): paginas_libres 9
+[WARNING] 20:59:11:658 SWAmP/(28466:28466): aaa: 1
+[INFO] 20:59:11:663 SWAmP/(28466:28466): La solicitud se realizo correctamente
+[INFO] 20:59:16:665 SWAmP/(28466:28466): Se allocaron 1 marcos para el carpincho 3 correctamente
+[INFO] 20:59:16:667 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:667 SWAmP/(28466:28466): Para SWAP 0
+[INFO] 20:59:16:667 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:669 SWAmP/(28466:28466): PID: 2
+[INFO] 20:59:16:669 SWAmP/(28466:28466): NRO PAGINA: 0
+[INFO] 20:59:16:670 SWAmP/(28466:28466): INICIO: 0
+[INFO] 20:59:16:670 SWAmP/(28466:28466): NRO SWAP: 0
+[INFO] 20:59:16:670 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:671 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:671 SWAmP/(28466:28466): Para SWAP 1
+[INFO] 20:59:16:672 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:673 SWAmP/(28466:28466): PID: 1
+[INFO] 20:59:16:673 SWAmP/(28466:28466): NRO PAGINA: 0
+[INFO] 20:59:16:674 SWAmP/(28466:28466): INICIO: 0
+[INFO] 20:59:16:675 SWAmP/(28466:28466): NRO SWAP: 1
+[INFO] 20:59:16:675 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:676 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:676 SWAmP/(28466:28466): Para SWAP 2
+[INFO] 20:59:16:677 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:678 SWAmP/(28466:28466): PID: 3
+[INFO] 20:59:16:679 SWAmP/(28466:28466): NRO PAGINA: 0
+[INFO] 20:59:16:679 SWAmP/(28466:28466): INICIO: 0
+[INFO] 20:59:16:680 SWAmP/(28466:28466): NRO SWAP: 2
+[INFO] 20:59:16:680 SWAmP/(28466:28466): ------------------------
+[INFO] 20:59:16:681 SWAmP/(28466:28466): DISCONNECT!
+[INFO] 20:59:16:682 SWAmP/(28466:28466): Finalizando programa...
+[INFO] 20:59:19:269 SWAmP/(28663:28663): Archivo de configuracion cargado correctamente
+[INFO] 20:59:19:318 SWAmP/(28663:28663): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:59:19:324 SWAmP/(28663:28663): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:59:19:325 SWAmP/(28663:28663): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:59:19:334 SWAmP/(28663:28663): ------2---------
+
+[INFO] 20:59:19:337 SWAmP/(28663:28663): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:59:20:697 SWAmP/(28663:28663): Cliente conectado (a SWAmP)
+
+[INFO] 20:59:20:706 SWAmP/(28663:28663): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:59:20:708 SWAmP/(28663:28663): Se recibio el esquema de asigancion coreectamente
+[INFO] 20:59:33:582 SWAmP/(28663:28663): ------------------------
+[INFO] 20:59:33:583 SWAmP/(28663:28663): Para SWAP 0
+[INFO] 20:59:33:583 SWAmP/(28663:28663): ------------------------
+[INFO] 20:59:33:584 SWAmP/(28663:28663): ---------NADA---------
+[INFO] 20:59:33:586 SWAmP/(28663:28663): ------------------------
+[INFO] 20:59:33:586 SWAmP/(28663:28663): Para SWAP 1
+[INFO] 20:59:33:587 SWAmP/(28663:28663): ------------------------
+[INFO] 20:59:33:587 SWAmP/(28663:28663): ---------NADA---------
+[INFO] 20:59:33:589 SWAmP/(28663:28663): ------------------------
+[INFO] 20:59:33:590 SWAmP/(28663:28663): Para SWAP 2
+[INFO] 20:59:33:590 SWAmP/(28663:28663): ------------------------
+[INFO] 20:59:33:591 SWAmP/(28663:28663): ---------NADA---------
+[INFO] 20:59:33:593 SWAmP/(28663:28663): DISCONNECT!
+[INFO] 20:59:33:595 SWAmP/(28663:28663): Finalizando programa...
+[INFO] 20:59:36:282 SWAmP/(28837:28837): Archivo de configuracion cargado correctamente
+[INFO] 20:59:36:327 SWAmP/(28837:28837): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:59:36:332 SWAmP/(28837:28837): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 20:59:36:333 SWAmP/(28837:28837): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 20:59:36:342 SWAmP/(28837:28837): ------2---------
+
+[INFO] 20:59:36:344 SWAmP/(28837:28837): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:59:37:683 SWAmP/(28837:28837): Cliente conectado (a SWAmP)
+
+[INFO] 20:59:37:693 SWAmP/(28837:28837): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:59:37:698 SWAmP/(28837:28837): Se recibio el esquema de asigancion coreectamente
+[WARNING] 20:59:41:140 SWAmP/(28837:28837): id: 1 cant 1 asig fija 0
+[WARNING] 20:59:41:142 SWAmP/(28837:28837): Vuelta 0
+[WARNING] 20:59:41:146 SWAmP/(28837:28837): paginas_libres 10
+[WARNING] 20:59:46:154 SWAmP/(28837:28837): aaa: 1
+[INFO] 20:59:46:154 SWAmP/(28837:28837): La solicitud se realizo correctamente
+[INFO] 20:59:51:160 SWAmP/(28837:28837): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 20:59:51:161 SWAmP/(28837:28837): id: 2 cant 1 asig fija 0
+[WARNING] 20:59:51:162 SWAmP/(28837:28837): Vuelta 0
+[WARNING] 20:59:51:163 SWAmP/(28837:28837): paginas_libres 9
+[WARNING] 20:59:56:164 SWAmP/(28837:28837): aaa: 1
+[INFO] 20:59:56:166 SWAmP/(28837:28837): La solicitud se realizo correctamente
+[INFO] 21:00:01:169 SWAmP/(28837:28837): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 21:00:01:171 SWAmP/(28837:28837): id: 3 cant 1 asig fija 0
+[WARNING] 21:00:01:171 SWAmP/(28837:28837): Vuelta 0
+[WARNING] 21:00:01:172 SWAmP/(28837:28837): paginas_libres 9
+[WARNING] 21:00:06:173 SWAmP/(28837:28837): aaa: 1
+[INFO] 21:00:06:175 SWAmP/(28837:28837): La solicitud se realizo correctamente
+[INFO] 21:00:11:176 SWAmP/(28837:28837): Se allocaron 1 marcos para el carpincho 3 correctamente
+[INFO] 21:00:14:588 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:589 SWAmP/(28837:28837): Para SWAP 0
+[INFO] 21:00:14:589 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:591 SWAmP/(28837:28837): PID: 1
+[INFO] 21:00:14:591 SWAmP/(28837:28837): NRO PAGINA: 0
+[INFO] 21:00:14:592 SWAmP/(28837:28837): INICIO: 0
+[INFO] 21:00:14:592 SWAmP/(28837:28837): NRO SWAP: 0
+[INFO] 21:00:14:593 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:594 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:594 SWAmP/(28837:28837): Para SWAP 1
+[INFO] 21:00:14:595 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:596 SWAmP/(28837:28837): PID: 2
+[INFO] 21:00:14:596 SWAmP/(28837:28837): NRO PAGINA: 0
+[INFO] 21:00:14:598 SWAmP/(28837:28837): INICIO: 0
+[INFO] 21:00:14:598 SWAmP/(28837:28837): NRO SWAP: 1
+[INFO] 21:00:14:599 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:599 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:600 SWAmP/(28837:28837): Para SWAP 2
+[INFO] 21:00:14:601 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:604 SWAmP/(28837:28837): PID: 3
+[INFO] 21:00:14:604 SWAmP/(28837:28837): NRO PAGINA: 0
+[INFO] 21:00:14:605 SWAmP/(28837:28837): INICIO: 0
+[INFO] 21:00:14:605 SWAmP/(28837:28837): NRO SWAP: 2
+[INFO] 21:00:14:606 SWAmP/(28837:28837): ------------------------
+[INFO] 21:00:14:606 SWAmP/(28837:28837): DISCONNECT!
+[INFO] 21:00:14:607 SWAmP/(28837:28837): Finalizando programa...
+[INFO] 21:00:17:865 SWAmP/(29027:29027): Archivo de configuracion cargado correctamente
+[INFO] 21:00:17:917 SWAmP/(29027:29027): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 21:00:17:924 SWAmP/(29027:29027): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 21:00:17:924 SWAmP/(29027:29027): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 21:00:17:933 SWAmP/(29027:29027): ------2---------
+
+[INFO] 21:00:17:936 SWAmP/(29027:29027): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 21:00:19:548 SWAmP/(29027:29027): Cliente conectado (a SWAmP)
+
+[INFO] 21:00:19:558 SWAmP/(29027:29027): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 21:00:19:559 SWAmP/(29027:29027): Se recibio el esquema de asigancion coreectamente
+[WARNING] 21:00:23:716 SWAmP/(29027:29027): id: 1 cant 1 asig fija 0
+[WARNING] 21:00:23:717 SWAmP/(29027:29027): Vuelta 0
+[WARNING] 21:00:23:722 SWAmP/(29027:29027): paginas_libres 10
+[WARNING] 21:00:28:731 SWAmP/(29027:29027): aaa: 1
+[INFO] 21:00:28:731 SWAmP/(29027:29027): La solicitud se realizo correctamente
+[INFO] 21:00:33:736 SWAmP/(29027:29027): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 21:00:33:737 SWAmP/(29027:29027): id: 2 cant 1 asig fija 0
+[WARNING] 21:00:33:738 SWAmP/(29027:29027): Vuelta 0
+[WARNING] 21:00:33:739 SWAmP/(29027:29027): paginas_libres 9
+[WARNING] 21:00:38:740 SWAmP/(29027:29027): aaa: 1
+[INFO] 21:00:38:742 SWAmP/(29027:29027): La solicitud se realizo correctamente
+[INFO] 21:00:43:745 SWAmP/(29027:29027): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 21:00:43:746 SWAmP/(29027:29027): id: 3 cant 1 asig fija 0
+[WARNING] 21:00:43:746 SWAmP/(29027:29027): Vuelta 0
+[WARNING] 21:00:43:747 SWAmP/(29027:29027): paginas_libres 9
+[WARNING] 21:00:48:747 SWAmP/(29027:29027): aaa: 1
+[INFO] 21:00:48:753 SWAmP/(29027:29027): La solicitud se realizo correctamente
+[INFO] 21:00:53:756 SWAmP/(29027:29027): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 21:00:53:756 SWAmP/(29027:29027): id: 3 cant 9 asig fija 0
+[WARNING] 21:00:58:760 SWAmP/(29027:29027): aaa: 1
+[INFO] 21:00:58:762 SWAmP/(29027:29027): La solicitud se realizo correctamente
+[INFO] 21:02:13:268 SWAmP/(29274:29274): Archivo de configuracion cargado correctamente
+[INFO] 21:02:13:313 SWAmP/(29274:29274): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 21:02:13:320 SWAmP/(29274:29274): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 21:02:13:321 SWAmP/(29274:29274): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 21:02:13:330 SWAmP/(29274:29274): ------2---------
+
+[INFO] 21:02:13:332 SWAmP/(29274:29274): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 21:02:14:693 SWAmP/(29274:29274): Cliente conectado (a SWAmP)
+
+[INFO] 21:02:14:702 SWAmP/(29274:29274): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 21:02:14:703 SWAmP/(29274:29274): Se recibio el esquema de asigancion coreectamente
+[WARNING] 21:02:16:534 SWAmP/(29274:29274): id: 1 cant 1 asig fija 0
+[WARNING] 21:02:16:535 SWAmP/(29274:29274): Vuelta 0
+[WARNING] 21:02:16:539 SWAmP/(29274:29274): paginas_libres 10
+[WARNING] 21:02:21:547 SWAmP/(29274:29274): aaa: 1
+[INFO] 21:02:21:547 SWAmP/(29274:29274): La solicitud se realizo correctamente
+[INFO] 21:02:26:553 SWAmP/(29274:29274): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 21:03:05:497 SWAmP/(29274:29274): ------------------------
+[INFO] 21:03:05:498 SWAmP/(29274:29274): Para SWAP 0
+[INFO] 21:03:05:498 SWAmP/(29274:29274): ------------------------
+[INFO] 21:03:05:500 SWAmP/(29274:29274): PID: 1
+[INFO] 21:03:05:501 SWAmP/(29274:29274): NRO PAGINA: 0
+[INFO] 21:03:05:501 SWAmP/(29274:29274): INICIO: 0
+[INFO] 21:03:05:502 SWAmP/(29274:29274): NRO SWAP: 0
+[INFO] 21:03:05:503 SWAmP/(29274:29274): ------------------------
+[INFO] 21:03:05:503 SWAmP/(29274:29274): ------------------------
+[INFO] 21:03:05:504 SWAmP/(29274:29274): Para SWAP 1
+[INFO] 21:03:05:504 SWAmP/(29274:29274): ------------------------
+[INFO] 21:03:05:505 SWAmP/(29274:29274): ---------NADA---------
+[INFO] 21:03:05:505 SWAmP/(29274:29274): ------------------------
+[INFO] 21:03:05:506 SWAmP/(29274:29274): Para SWAP 2
+[INFO] 21:03:05:507 SWAmP/(29274:29274): ------------------------
+[INFO] 21:03:05:508 SWAmP/(29274:29274): ---------NADA---------
+[INFO] 21:03:05:509 SWAmP/(29274:29274): DISCONNECT!
+[INFO] 21:03:05:511 SWAmP/(29274:29274): Finalizando programa...
+[INFO] 21:08:06:283 SWAmP/(29650:29650): Archivo de configuracion cargado correctamente
+[INFO] 21:08:06:326 SWAmP/(29650:29650): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 21:08:06:332 SWAmP/(29650:29650): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 21:08:06:333 SWAmP/(29650:29650): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 21:08:06:342 SWAmP/(29650:29650): ------2---------
+
+[INFO] 21:08:06:345 SWAmP/(29650:29650): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 21:08:08:110 SWAmP/(29650:29650): Cliente conectado (a SWAmP)
+
+[INFO] 21:08:08:120 SWAmP/(29650:29650): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 21:08:08:122 SWAmP/(29650:29650): Se recibio el esquema de asigancion coreectamente
+[WARNING] 21:08:10:053 SWAmP/(29650:29650): id: 1 cant 1 asig fija 0
+[WARNING] 21:08:10:058 SWAmP/(29650:29650): Vuelta 0
+[WARNING] 21:08:10:061 SWAmP/(29650:29650): paginas_libres 10
+[WARNING] 21:08:15:067 SWAmP/(29650:29650): aaa: 1
+[INFO] 21:08:15:067 SWAmP/(29650:29650): La solicitud se realizo correctamente
+[WARNING] 21:08:15:068 SWAmP/(29650:29650): id: 2 cant 1 asig fija 0
+[WARNING] 21:08:15:071 SWAmP/(29650:29650): Vuelta 0
+[WARNING] 21:08:15:071 SWAmP/(29650:29650): paginas_libres 10
+[WARNING] 21:08:20:072 SWAmP/(29650:29650): aaa: 1
+[INFO] 21:08:20:074 SWAmP/(29650:29650): La solicitud se realizo correctamente
+[WARNING] 21:08:20:074 SWAmP/(29650:29650): id: 3 cant 1 asig fija 0
+[WARNING] 21:08:20:074 SWAmP/(29650:29650): Vuelta 0
+[WARNING] 21:08:20:075 SWAmP/(29650:29650): paginas_libres 10
+[WARNING] 21:08:25:076 SWAmP/(29650:29650): aaa: 1
+[INFO] 21:08:25:082 SWAmP/(29650:29650): La solicitud se realizo correctamente
+[INFO] 21:08:30:088 SWAmP/(29650:29650): Se allocaron 1 marcos para el carpincho 1 correctamente
+[INFO] 21:08:35:092 SWAmP/(29650:29650): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 21:08:35:092 SWAmP/(29650:29650): id: 2 cant 9 asig fija 0
+[WARNING] 21:08:40:095 SWAmP/(29650:29650): aaa: 1
+[INFO] 21:08:40:096 SWAmP/(29650:29650): La solicitud se realizo correctamente
+[INFO] 21:08:45:110 SWAmP/(29650:29650): Se allocaron 9 marcos para el carpincho 2 correctamente
+[INFO] 21:08:50:114 SWAmP/(29650:29650): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 21:08:55:116 SWAmP/(29650:29650): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 21:09:00:117 SWAmP/(29650:29650): Se escribio la pagina 1 del carpincho 2 en swap
+[INFO] 21:09:05:118 SWAmP/(29650:29650): Se escribio la pagina 2 del carpincho 2 en swap
+[INFO] 21:09:10:120 SWAmP/(29650:29650): Se escribio la pagina 3 del carpincho 2 en swap
+[INFO] 21:09:15:122 SWAmP/(29650:29650): Se escribio la pagina 4 del carpincho 2 en swap
+[INFO] 21:09:20:123 SWAmP/(29650:29650): Se escribio la pagina 5 del carpincho 2 en swap
+[WARNING] 21:09:20:125 SWAmP/(29650:29650): DIEGOOOOOOOOO
+[INFO] 21:09:25:129 SWAmP/(29650:29650): Se leyo la swap correctamente
+[INFO] 21:09:25:132 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:133 SWAmP/(29650:29650): Para SWAP 0
+[INFO] 21:09:25:133 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:135 SWAmP/(29650:29650): PID: 1
+[INFO] 21:09:25:136 SWAmP/(29650:29650): NRO PAGINA: 0
+[INFO] 21:09:25:136 SWAmP/(29650:29650): INICIO: 0
+[INFO] 21:09:25:137 SWAmP/(29650:29650): NRO SWAP: 0
+[INFO] 21:09:25:137 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:138 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:138 SWAmP/(29650:29650): Para SWAP 1
+[INFO] 21:09:25:139 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:140 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:140 SWAmP/(29650:29650): NRO PAGINA: 0
+[INFO] 21:09:25:140 SWAmP/(29650:29650): INICIO: 0
+[INFO] 21:09:25:141 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:142 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:142 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:145 SWAmP/(29650:29650): NRO PAGINA: 1
+[INFO] 21:09:25:145 SWAmP/(29650:29650): INICIO: 2048
+[INFO] 21:09:25:146 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:146 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:147 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:147 SWAmP/(29650:29650): NRO PAGINA: 2
+[INFO] 21:09:25:148 SWAmP/(29650:29650): INICIO: 4096
+[INFO] 21:09:25:148 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:148 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:149 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:149 SWAmP/(29650:29650): NRO PAGINA: 3
+[INFO] 21:09:25:150 SWAmP/(29650:29650): INICIO: 6144
+[INFO] 21:09:25:150 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:150 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:151 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:152 SWAmP/(29650:29650): NRO PAGINA: 4
+[INFO] 21:09:25:152 SWAmP/(29650:29650): INICIO: 8192
+[INFO] 21:09:25:153 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:153 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:153 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:154 SWAmP/(29650:29650): NRO PAGINA: 5
+[INFO] 21:09:25:154 SWAmP/(29650:29650): INICIO: 10240
+[INFO] 21:09:25:155 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:155 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:155 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:156 SWAmP/(29650:29650): NRO PAGINA: 6
+[INFO] 21:09:25:156 SWAmP/(29650:29650): INICIO: 12288
+[INFO] 21:09:25:157 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:157 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:158 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:158 SWAmP/(29650:29650): NRO PAGINA: 7
+[INFO] 21:09:25:159 SWAmP/(29650:29650): INICIO: 14336
+[INFO] 21:09:25:159 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:159 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:160 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:163 SWAmP/(29650:29650): NRO PAGINA: 8
+[INFO] 21:09:25:164 SWAmP/(29650:29650): INICIO: 16384
+[INFO] 21:09:25:164 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:164 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:165 SWAmP/(29650:29650): PID: 2
+[INFO] 21:09:25:165 SWAmP/(29650:29650): NRO PAGINA: 9
+[INFO] 21:09:25:165 SWAmP/(29650:29650): INICIO: 18432
+[INFO] 21:09:25:166 SWAmP/(29650:29650): NRO SWAP: 1
+[INFO] 21:09:25:166 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:166 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:167 SWAmP/(29650:29650): Para SWAP 2
+[INFO] 21:09:25:167 SWAmP/(29650:29650): ------------------------
+[INFO] 21:09:25:168 SWAmP/(29650:29650): ---------NADA---------
+[INFO] 21:09:25:169 SWAmP/(29650:29650): DISCONNECT!
+[INFO] 21:09:25:170 SWAmP/(29650:29650): Finalizando programa...
+[INFO] 21:12:11:965 SWAmP/(29936:29936): Archivo de configuracion cargado correctamente
+[INFO] 21:12:12:010 SWAmP/(29936:29936): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 21:12:12:017 SWAmP/(29936:29936): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 21:12:12:017 SWAmP/(29936:29936): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 21:12:12:026 SWAmP/(29936:29936): ------2---------
+
+[INFO] 21:12:12:028 SWAmP/(29936:29936): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 21:12:13:748 SWAmP/(29936:29936): Cliente conectado (a SWAmP)
+
+[INFO] 21:12:13:759 SWAmP/(29936:29936): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 21:12:13:761 SWAmP/(29936:29936): Se recibio el esquema de asigancion coreectamente
+[WARNING] 21:12:15:663 SWAmP/(29936:29936): id: 3 cant 1 asig fija 0
+[WARNING] 21:12:15:665 SWAmP/(29936:29936): Vuelta 0
+[WARNING] 21:12:15:669 SWAmP/(29936:29936): paginas_libres 10
+[WARNING] 21:12:20:675 SWAmP/(29936:29936): aaa: 1
+[INFO] 21:12:20:675 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 21:12:25:681 SWAmP/(29936:29936): Se allocaron 1 marcos para el carpincho 3 correctamente
+[WARNING] 21:12:25:681 SWAmP/(29936:29936): id: 1 cant 1 asig fija 0
+[WARNING] 21:12:25:682 SWAmP/(29936:29936): Vuelta 0
+[WARNING] 21:12:25:684 SWAmP/(29936:29936): paginas_libres 9
+[WARNING] 21:12:30:685 SWAmP/(29936:29936): aaa: 1
+[INFO] 21:12:30:686 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 21:12:35:688 SWAmP/(29936:29936): Se allocaron 1 marcos para el carpincho 1 correctamente
+[WARNING] 21:12:35:689 SWAmP/(29936:29936): id: 2 cant 1 asig fija 0
+[WARNING] 21:12:35:689 SWAmP/(29936:29936): Vuelta 0
+[WARNING] 21:12:35:690 SWAmP/(29936:29936): paginas_libres 9
+[WARNING] 21:12:40:691 SWAmP/(29936:29936): aaa: 1
+[INFO] 21:12:40:692 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 21:12:45:694 SWAmP/(29936:29936): Se allocaron 1 marcos para el carpincho 2 correctamente
+[WARNING] 21:12:45:695 SWAmP/(29936:29936): id: 1 cant 9 asig fija 0
+[WARNING] 21:12:50:698 SWAmP/(29936:29936): aaa: 1
+[INFO] 21:12:50:699 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 21:12:55:714 SWAmP/(29936:29936): Se allocaron 9 marcos para el carpincho 1 correctamente
+[INFO] 21:13:00:719 SWAmP/(29936:29936): Se escribio la pagina 0 del carpincho 2 en swap
+[INFO] 21:13:05:720 SWAmP/(29936:29936): Se escribio la pagina 0 del carpincho 3 en swap
+[INFO] 21:13:10:721 SWAmP/(29936:29936): Se escribio la pagina 0 del carpincho 1 en swap
+[INFO] 21:13:15:723 SWAmP/(29936:29936): Se escribio la pagina 1 del carpincho 1 en swap
+[INFO] 21:13:20:725 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 1 en swap
+[INFO] 21:13:25:726 SWAmP/(29936:29936): Se escribio la pagina 3 del carpincho 1 en swap
+[INFO] 21:13:30:727 SWAmP/(29936:29936): Se escribio la pagina 4 del carpincho 1 en swap
+[INFO] 21:13:35:729 SWAmP/(29936:29936): Se escribio la pagina 5 del carpincho 1 en swap
+[WARNING] 21:13:35:732 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 21:13:40:736 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 21:13:45:739 SWAmP/(29936:29936): Se escribio la pagina 6 del carpincho 1 en swap
+[WARNING] 21:13:45:740 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 21:13:50:742 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 21:13:55:745 SWAmP/(29936:29936): Se escribio la pagina 7 del carpincho 1 en swap
+[WARNING] 21:13:55:746 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 21:14:00:748 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 21:40:55:055 SWAmP/(29936:29936): id: 2 cant 1 asig fija 0
+[WARNING] 21:41:00:057 SWAmP/(29936:29936): aaa: 1
+[INFO] 21:41:00:058 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 21:41:05:062 SWAmP/(29936:29936): Se allocaron 1 marcos para el carpincho 2 correctamente
+[INFO] 21:41:10:065 SWAmP/(29936:29936): Se escribio la pagina 8 del carpincho 1 en swap
+[WARNING] 21:41:10:066 SWAmP/(29936:29936): id: 3 cant 1 asig fija 0
+[WARNING] 21:41:15:068 SWAmP/(29936:29936): aaa: 1
+[INFO] 21:41:15:070 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 21:41:20:072 SWAmP/(29936:29936): Se allocaron 1 marcos para el carpincho 3 correctamente
+[INFO] 21:41:25:074 SWAmP/(29936:29936): Se escribio la pagina 9 del carpincho 1 en swap
+[WARNING] 22:22:33:659 SWAmP/(29936:29936): id: 2 cant 1 asig fija 0
+[WARNING] 22:22:38:663 SWAmP/(29936:29936): aaa: 1
+[INFO] 22:22:38:666 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 22:22:43:670 SWAmP/(29936:29936): Se allocaron 1 marcos para el carpincho 2 correctamente
+[INFO] 22:22:48:672 SWAmP/(29936:29936): Se escribio la pagina 1 del carpincho 3 en swap
+[INFO] 22:22:53:675 SWAmP/(29936:29936): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 22:22:53:676 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:22:58:678 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:22:59:682 SWAmP/(29936:29936): id: 3 cant 1 asig fija 0
+[WARNING] 22:23:04:684 SWAmP/(29936:29936): aaa: 1
+[INFO] 22:23:04:686 SWAmP/(29936:29936): La solicitud se realizo correctamente
+[INFO] 22:23:09:690 SWAmP/(29936:29936): Se allocaron 1 marcos para el carpincho 3 correctamente
+[INFO] 22:23:14:692 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[INFO] 22:23:19:695 SWAmP/(29936:29936): Se escribio la pagina 1 del carpincho 3 en swap
+[WARNING] 22:23:19:696 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:23:24:697 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:23:31:711 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:23:31:712 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:23:36:717 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:23:47:781 SWAmP/(29936:29936): Se escribio la pagina 1 del carpincho 2 en swap
+[WARNING] 22:23:47:782 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:23:52:785 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:23:59:798 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:23:59:800 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:24:04:803 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:24:15:873 SWAmP/(29936:29936): Se escribio la pagina 1 del carpincho 3 en swap
+[WARNING] 22:24:15:874 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:24:20:876 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:24:27:889 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:24:27:889 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:24:32:891 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:24:38:956 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:24:43:960 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:24:50:975 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:24:50:976 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:24:55:977 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:25:02:041 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:25:07:042 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:25:14:066 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:25:14:067 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:25:19:068 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:25:25:136 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:25:30:139 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:25:37:152 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:25:37:153 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:25:42:155 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:25:48:220 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:25:53:222 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:26:00:232 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:26:00:233 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:26:05:235 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:26:11:302 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:26:16:303 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:26:23:313 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:26:23:313 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:26:28:316 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:26:34:380 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:26:39:382 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:26:46:401 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:26:46:402 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:26:51:404 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:26:57:466 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:27:02:468 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:27:09:480 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:27:09:481 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:27:14:482 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:27:20:544 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:27:25:545 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:27:32:556 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:27:32:558 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:27:37:559 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:27:43:619 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:27:48:621 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:27:55:631 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:27:55:632 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:28:00:636 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:28:06:695 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:28:11:696 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:28:18:708 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:28:18:709 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:28:23:711 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:28:29:768 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:28:34:770 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:28:41:783 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:28:41:784 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:28:46:786 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:28:52:850 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:28:57:852 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:29:04:866 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:29:04:867 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:29:09:873 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:29:15:936 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:29:20:938 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:29:27:948 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:29:27:948 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:29:32:950 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:29:39:009 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:29:44:010 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:29:51:018 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:29:51:018 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:29:56:021 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:30:02:082 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:30:07:083 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:30:14:092 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:30:14:093 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:30:19:096 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:30:25:161 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:30:30:163 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:30:37:176 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:30:37:177 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:30:42:178 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:30:48:241 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:30:53:243 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:31:00:258 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:31:00:258 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:31:05:260 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:31:11:323 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:31:16:325 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:31:23:336 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:31:23:336 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:31:28:337 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:31:34:404 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:31:39:405 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:31:46:417 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:31:46:417 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:31:51:418 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:31:57:476 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:32:02:477 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:32:09:494 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:32:09:495 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:32:14:496 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:32:20:556 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:32:25:558 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:32:32:570 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:32:32:570 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:32:37:572 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:32:43:629 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:32:48:630 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:32:55:643 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:32:55:644 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:33:00:646 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:33:06:704 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:33:11:705 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:33:18:718 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:33:18:718 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:33:23:721 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:33:29:784 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:33:34:787 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:33:41:803 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:33:41:803 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:33:46:804 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:33:52:862 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:33:57:863 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:34:04:877 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:34:04:878 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:34:09:882 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:34:15:956 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:34:20:957 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:34:27:968 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:34:27:968 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:34:32:970 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:34:39:030 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:34:44:032 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:34:51:041 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:34:51:042 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:34:56:044 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:35:02:106 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:35:07:107 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:35:14:119 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:35:14:120 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:35:19:122 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:35:25:186 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:35:30:187 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:35:37:197 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:35:37:197 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:35:42:198 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:35:48:255 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:35:53:255 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:36:00:271 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:36:00:272 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:36:05:273 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:36:11:338 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:36:16:340 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:36:23:354 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:36:23:355 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:36:28:356 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:36:34:419 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:36:39:420 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:36:46:433 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:36:46:434 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:36:51:435 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:36:57:496 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:37:02:498 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:37:09:508 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:37:09:508 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:37:14:510 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:37:20:567 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:37:25:568 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:37:32:578 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:37:32:580 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:37:37:582 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:37:43:639 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:37:48:641 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:37:55:654 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:37:55:655 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:38:00:656 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:38:06:721 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:38:11:722 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:38:18:735 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:38:18:736 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:38:23:738 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:38:29:798 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:38:34:799 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:38:41:814 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:38:41:814 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:38:46:816 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:38:52:880 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:38:57:882 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:39:04:891 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:39:04:892 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:39:09:894 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:39:15:953 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:39:20:955 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:39:27:964 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:39:27:964 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:39:32:966 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:39:39:027 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:39:44:028 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:39:51:040 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:39:51:040 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:39:56:042 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:40:02:102 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:40:07:103 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:40:14:113 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:40:14:113 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:40:19:114 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:40:25:182 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:40:30:183 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:40:37:194 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:40:37:195 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:40:42:197 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:40:48:265 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:40:53:266 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:41:00:277 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:41:00:277 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:41:05:279 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:41:11:352 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:41:16:353 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:41:23:364 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:41:23:365 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:41:28:366 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:41:34:433 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:41:39:435 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:41:46:452 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:41:46:453 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:41:51:456 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:41:57:513 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:42:02:514 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:42:09:532 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:42:09:532 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:42:14:534 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:42:20:595 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:42:25:596 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:42:32:606 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:42:32:607 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:42:37:609 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:42:43:669 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:42:48:670 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:42:55:681 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:42:55:681 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:43:00:684 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:43:06:743 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:43:11:744 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:43:18:753 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:43:18:753 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:43:23:754 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:43:29:813 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:43:34:814 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:43:41:827 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:43:41:828 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:43:46:830 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:43:52:895 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:43:57:897 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:44:04:905 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:44:04:906 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:44:09:907 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:44:15:973 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:44:20:973 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:44:27:985 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:44:27:986 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:44:32:988 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:44:39:047 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:44:44:048 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:44:51:060 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:44:51:060 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:44:56:061 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:45:02:125 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:45:07:127 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:45:14:141 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:45:14:142 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:45:19:143 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:45:25:209 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:45:30:210 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:45:37:226 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:45:37:226 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:45:42:229 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:45:48:297 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:45:53:298 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:46:00:308 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:46:00:309 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:46:05:311 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:46:11:383 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:46:16:384 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:46:23:401 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:46:23:401 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:46:28:403 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:46:34:466 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:46:39:468 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:46:46:481 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:46:46:482 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:46:51:485 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:46:57:547 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:47:02:551 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:47:09:563 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:47:09:563 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:47:14:565 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:47:20:631 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:47:25:633 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:47:32:646 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:47:32:646 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:47:37:648 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:47:43:711 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:47:48:712 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:47:55:725 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:47:55:726 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:48:00:728 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:48:06:794 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:48:11:795 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:48:18:805 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:48:18:806 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:48:23:808 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:48:29:873 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:48:34:875 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:48:41:890 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:48:41:891 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:48:46:892 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:48:52:958 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:48:57:961 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:49:04:973 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:49:04:973 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:49:09:977 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:49:16:039 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:49:21:041 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:49:28:054 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:49:28:054 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:49:33:055 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:49:39:121 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:49:44:124 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:49:51:137 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:49:51:138 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:49:56:139 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:50:02:204 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:50:07:206 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:50:14:217 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:50:14:218 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:50:19:219 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:50:25:286 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:50:30:288 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:50:37:303 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:50:37:303 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:50:42:306 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:50:48:371 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:50:53:372 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:51:00:387 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:51:00:387 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:51:05:389 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:51:11:454 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:51:16:457 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:51:23:476 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:51:23:476 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:51:28:478 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:51:34:542 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:51:39:544 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:51:46:558 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:51:46:560 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:51:51:561 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:51:57:625 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:52:02:626 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:52:09:637 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:52:09:637 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:52:14:638 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:52:20:702 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:52:25:705 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:52:32:722 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:52:32:723 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:52:37:725 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:52:43:792 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:52:48:794 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:52:55:811 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:52:55:811 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:53:00:814 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:53:06:877 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:53:11:879 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:53:18:891 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:53:18:891 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:53:23:893 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:53:29:962 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:53:34:963 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:53:41:977 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:53:41:978 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:53:46:979 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:53:53:042 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:53:58:044 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:54:05:054 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:54:05:054 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:54:10:056 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:54:16:116 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:54:21:118 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:54:28:136 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:54:28:137 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:54:33:139 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:54:39:205 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:54:44:206 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:54:51:221 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:54:51:222 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:54:56:224 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:55:02:294 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:55:07:295 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:55:14:307 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:55:14:307 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:55:19:308 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:55:25:376 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:55:30:379 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:55:37:391 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:55:37:391 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:55:42:393 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:55:48:460 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:55:53:462 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:56:00:474 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:56:00:474 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:56:05:476 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:56:11:542 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:56:16:543 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:56:23:562 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:56:23:563 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:56:28:564 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:56:34:629 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:56:39:630 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:56:46:648 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:56:46:649 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:56:51:650 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:56:57:711 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:57:02:712 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:57:09:727 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:57:09:728 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:57:14:730 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:57:20:793 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:57:25:795 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:57:32:810 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:57:32:811 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:57:37:814 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:57:43:874 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:57:48:876 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:57:55:892 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:57:55:893 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:58:00:894 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:58:06:963 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:58:11:966 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:58:18:979 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:58:18:980 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:58:23:984 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:58:30:056 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:58:35:058 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:58:42:071 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:58:42:071 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:58:47:072 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:58:53:137 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:58:58:140 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:59:05:153 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:59:05:153 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:59:10:155 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:59:16:216 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:59:21:218 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:59:28:230 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 22:59:28:231 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:59:33:233 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 22:59:39:294 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:59:44:301 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 22:59:51:310 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 22:59:51:311 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 22:59:56:312 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:00:02:376 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:00:07:378 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:00:14:395 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:00:14:395 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:00:19:397 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:00:25:462 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:00:30:463 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:00:37:477 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:00:37:478 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:00:42:480 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:00:48:544 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:00:53:546 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:01:00:561 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:01:00:562 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:01:05:564 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:01:11:630 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:01:16:631 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:01:23:645 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:01:23:646 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:01:28:647 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:01:34:714 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:01:39:716 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:01:46:726 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:01:46:727 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:01:51:729 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:01:57:795 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:02:02:797 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:02:09:812 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:02:09:812 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:02:14:814 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:02:20:873 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:02:25:877 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:02:32:892 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:02:32:893 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:02:37:895 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:02:43:960 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:02:48:962 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:02:55:974 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:02:55:976 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:03:00:979 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:03:07:047 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:03:12:048 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:03:19:064 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:03:19:065 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:03:24:067 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:03:30:132 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:03:35:133 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:03:42:146 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:03:42:147 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:03:47:149 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:03:53:217 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:03:58:218 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:04:05:230 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:04:05:231 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:04:10:233 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:04:16:305 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:04:21:307 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:04:28:327 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:04:28:328 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:04:33:330 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:04:39:396 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:04:44:398 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:04:51:411 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:04:51:412 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:04:56:415 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:05:02:481 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:05:07:483 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:05:14:495 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:05:14:495 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:05:19:498 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:05:25:566 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:05:30:567 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:05:37:583 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:05:37:584 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:05:42:586 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:05:48:651 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:05:53:654 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:06:00:664 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:06:00:665 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:06:05:667 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:06:11:732 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:06:16:734 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:06:23:746 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:06:23:747 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:06:28:750 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:06:34:815 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:06:39:818 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:06:46:832 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:06:46:833 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:06:51:836 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:06:57:895 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:07:02:896 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:07:09:910 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:07:09:911 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:07:14:913 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:07:20:980 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:07:25:982 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:07:32:996 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:07:32:997 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:07:37:999 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:07:44:073 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:07:49:076 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:07:56:090 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:07:56:091 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:08:01:093 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:08:07:158 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:08:12:159 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:08:19:177 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:08:19:178 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:08:24:179 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:08:30:244 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:08:35:245 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:08:42:257 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:08:42:257 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:08:47:259 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:08:53:324 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:08:58:327 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:09:05:340 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:09:05:340 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:09:10:341 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:09:16:405 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:09:21:408 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:09:28:423 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:09:28:424 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:09:33:427 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:09:39:496 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:09:44:498 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:09:51:507 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:09:51:508 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:09:56:509 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:10:02:571 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:10:07:575 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:10:14:587 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:10:14:588 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:10:19:590 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:10:25:659 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:10:30:661 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:10:37:679 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:10:37:679 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:10:42:681 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:10:48:743 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:10:53:744 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:11:00:762 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:11:00:763 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:11:05:764 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:11:11:821 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:11:16:824 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:11:23:834 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:11:23:835 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:11:28:839 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:11:34:908 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:11:39:910 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:11:46:927 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:11:46:928 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:11:51:929 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:11:57:990 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:12:02:991 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:12:10:009 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:12:10:009 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:12:15:015 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:12:21:077 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:12:26:078 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:12:33:090 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:12:33:091 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:12:38:092 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:12:44:152 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:12:49:153 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:12:56:163 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:12:56:163 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:13:01:166 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:13:07:227 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:13:12:228 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:13:19:240 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:13:19:241 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:13:24:242 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:13:30:305 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:13:35:306 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:13:42:318 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:13:42:318 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:13:47:322 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:13:53:386 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:13:58:387 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:14:05:395 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:14:05:396 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:14:10:398 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:14:16:461 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:14:21:463 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:14:28:473 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:14:28:474 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:14:33:476 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:14:39:548 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:14:44:550 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:14:51:564 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:14:51:564 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:14:56:565 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:15:02:627 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:15:07:628 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:15:14:641 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:15:14:642 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:15:19:643 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:15:25:706 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:15:30:710 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:15:37:720 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:15:37:721 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:15:42:722 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:15:48:790 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:15:53:792 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:16:00:805 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:16:00:806 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:16:05:808 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:16:11:864 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:16:16:866 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:16:23:883 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:16:23:884 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:16:28:886 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:16:34:949 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:16:39:950 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:16:46:964 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:16:46:965 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:16:51:967 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:16:58:027 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:17:03:029 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:17:10:039 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:17:10:040 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:17:15:042 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:17:21:114 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:17:26:116 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:17:33:135 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:17:33:136 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:17:38:137 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:17:44:201 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:17:49:203 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:17:56:213 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:17:56:214 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:18:01:215 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:18:07:280 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:18:12:281 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:18:19:289 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:18:19:289 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:18:24:291 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:18:30:358 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:18:35:360 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:18:42:373 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:18:42:373 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:18:47:374 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:18:53:437 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:18:58:439 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:19:05:452 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:19:05:452 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:19:10:453 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:19:16:520 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:19:21:521 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:19:28:531 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:19:28:532 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:19:33:533 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:19:39:594 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:19:44:595 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:19:51:609 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:19:51:610 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:19:56:613 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:20:02:674 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:20:07:675 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:20:14:691 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:20:14:692 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:20:19:693 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:20:25:759 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:20:30:761 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:20:37:775 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:20:37:775 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:20:42:776 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:20:48:837 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:20:53:839 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:21:00:849 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:21:00:849 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:21:05:851 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:21:11:908 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:21:16:909 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:21:23:921 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:21:23:921 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:21:28:923 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:21:34:982 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:21:39:984 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:21:46:994 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:21:46:995 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:21:51:996 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:21:58:053 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:22:03:055 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:22:10:066 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:22:10:067 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:22:15:069 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:22:21:132 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:22:26:134 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:22:33:151 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:22:33:152 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:22:38:153 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:22:44:216 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:22:49:217 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:22:56:231 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:22:56:231 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:23:01:233 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:23:07:296 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:23:12:297 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:23:19:305 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:23:19:306 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:23:24:308 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:23:30:367 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:23:35:368 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:23:42:382 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:23:42:382 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:23:47:383 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:23:53:454 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:23:58:455 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:24:05:467 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:24:05:467 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:24:10:470 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:24:16:536 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:24:21:537 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:24:28:550 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:24:28:550 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:24:33:552 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:24:39:611 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:24:44:613 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:24:51:624 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:24:51:625 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:24:56:627 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:25:02:687 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:25:07:688 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:25:14:699 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:25:14:699 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:25:19:700 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:25:25:760 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:25:30:762 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:25:37:776 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:25:37:777 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:25:42:779 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:25:48:838 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:25:53:839 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:26:00:850 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:26:00:851 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:26:05:852 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:26:11:913 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:26:16:915 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:26:23:928 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:26:23:929 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:26:28:931 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:26:34:990 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:26:39:992 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:26:47:003 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:26:47:004 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:26:52:007 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:26:58:069 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:27:03:070 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:27:10:080 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:27:10:081 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:27:15:082 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:27:21:146 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:27:26:147 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:27:33:156 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:27:33:156 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:27:38:157 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:27:44:220 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:27:49:221 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:27:56:232 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:27:56:233 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:28:01:234 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:28:07:300 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:28:12:301 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:28:19:314 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:28:19:315 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:28:24:317 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:28:30:387 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:28:35:388 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:28:42:399 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:28:42:399 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:28:47:401 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:28:53:463 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:28:58:465 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:29:05:472 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:29:05:473 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:29:10:475 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:29:16:533 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:29:21:535 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:29:28:547 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:29:28:548 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:29:33:550 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:29:39:614 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:29:44:615 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:29:51:627 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:29:51:627 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:29:56:629 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:30:02:694 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:30:07:695 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:30:14:706 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:30:14:707 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:30:19:710 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:30:25:770 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:30:30:773 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:30:37:782 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:30:37:783 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:30:42:785 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:30:48:849 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:30:53:850 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:31:00:865 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:31:00:865 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:31:05:867 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:31:11:927 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:31:16:928 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:31:23:940 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:31:23:941 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:31:28:942 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:31:35:008 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:31:40:009 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:31:47:020 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:31:47:020 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:31:52:022 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:31:58:090 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:32:03:092 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:32:10:106 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:32:10:107 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:32:15:109 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:32:21:179 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:32:26:181 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:32:33:194 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:32:33:195 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:32:38:196 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:32:44:262 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:32:49:263 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:32:56:273 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:32:56:273 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:33:01:275 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:33:07:346 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:33:12:347 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:33:19:362 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:33:19:363 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:33:24:364 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:33:30:427 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:33:35:429 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:33:42:442 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:33:42:442 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:33:47:444 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:33:53:510 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:33:58:512 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:34:05:521 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:34:05:522 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:34:10:525 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:34:16:591 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:34:21:593 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:34:28:604 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:34:28:605 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:34:33:608 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:34:39:678 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:34:44:681 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:34:51:697 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:34:51:698 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:34:56:699 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:35:02:768 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:35:07:770 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:35:14:780 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:35:14:780 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:35:19:782 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:35:25:848 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:35:30:849 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:35:37:863 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:35:37:864 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:35:42:865 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:35:48:931 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:35:53:932 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:36:00:945 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:36:00:946 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:36:05:948 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:36:12:016 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:36:17:019 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:36:24:030 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:36:24:030 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:36:29:033 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:36:35:102 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:36:40:103 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:36:47:115 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:36:47:116 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:36:52:119 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:36:58:182 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:37:03:183 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:37:10:192 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:37:10:193 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:37:15:194 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:37:21:262 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:37:26:264 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:37:33:276 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:37:33:277 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:37:38:279 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:37:44:348 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:37:49:350 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:37:56:358 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:37:56:359 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:38:01:360 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:38:07:424 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:38:12:426 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:38:19:443 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:38:19:444 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:38:24:446 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:38:30:514 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:38:35:515 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:38:42:527 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:38:42:527 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:38:47:528 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:38:53:598 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:38:58:600 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:39:05:610 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:39:05:611 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:39:10:614 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:39:16:675 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:39:21:676 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:39:28:687 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:39:28:687 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:39:33:688 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:39:39:752 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:39:44:754 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:39:51:763 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:39:51:763 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:39:56:765 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:40:02:846 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:40:07:847 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:40:14:857 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:40:14:858 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:40:19:859 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:40:25:925 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:40:30:926 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:40:37:941 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:40:37:942 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:40:42:944 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:40:49:002 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:40:54:004 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:41:01:012 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:41:01:013 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:41:06:015 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:41:12:074 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:41:17:076 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:41:24:085 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 3 en swap
+[WARNING] 23:41:24:086 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:41:29:087 SWAmP/(29936:29936): Se leyo la swap correctamente
+[WARNING] 23:41:35:144 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:41:40:145 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:41:47:154 SWAmP/(29936:29936): Se escribio la pagina 2 del carpincho 2 en swap
+[WARNING] 23:41:47:154 SWAmP/(29936:29936): DIEGOOOOOOOOO
+[INFO] 23:41:52:155 SWAmP/(29936:29936): Se leyo la swap correctamente
+[INFO] 23:41:52:750 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:751 SWAmP/(29936:29936): Para SWAP 0
+[INFO] 23:41:52:751 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:752 SWAmP/(29936:29936): PID: 3
+[INFO] 23:41:52:753 SWAmP/(29936:29936): NRO PAGINA: 0
+[INFO] 23:41:52:754 SWAmP/(29936:29936): INICIO: 0
+[INFO] 23:41:52:754 SWAmP/(29936:29936): NRO SWAP: 0
+[INFO] 23:41:52:754 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:756 SWAmP/(29936:29936): PID: 3
+[INFO] 23:41:52:756 SWAmP/(29936:29936): NRO PAGINA: 1
+[INFO] 23:41:52:756 SWAmP/(29936:29936): INICIO: 2048
+[INFO] 23:41:52:757 SWAmP/(29936:29936): NRO SWAP: 0
+[INFO] 23:41:52:758 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:758 SWAmP/(29936:29936): PID: 3
+[INFO] 23:41:52:758 SWAmP/(29936:29936): NRO PAGINA: 2
+[INFO] 23:41:52:758 SWAmP/(29936:29936): INICIO: 4096
+[INFO] 23:41:52:759 SWAmP/(29936:29936): NRO SWAP: 0
+[INFO] 23:41:52:759 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:759 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:760 SWAmP/(29936:29936): Para SWAP 1
+[INFO] 23:41:52:760 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:762 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:763 SWAmP/(29936:29936): NRO PAGINA: 0
+[INFO] 23:41:52:763 SWAmP/(29936:29936): INICIO: 0
+[INFO] 23:41:52:764 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:765 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:765 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:768 SWAmP/(29936:29936): NRO PAGINA: 1
+[INFO] 23:41:52:768 SWAmP/(29936:29936): INICIO: 2048
+[INFO] 23:41:52:768 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:769 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:769 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:769 SWAmP/(29936:29936): NRO PAGINA: 2
+[INFO] 23:41:52:769 SWAmP/(29936:29936): INICIO: 4096
+[INFO] 23:41:52:771 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:771 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:771 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:772 SWAmP/(29936:29936): NRO PAGINA: 3
+[INFO] 23:41:52:778 SWAmP/(29936:29936): INICIO: 6144
+[INFO] 23:41:52:779 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:779 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:780 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:780 SWAmP/(29936:29936): NRO PAGINA: 4
+[INFO] 23:41:52:780 SWAmP/(29936:29936): INICIO: 8192
+[INFO] 23:41:52:781 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:781 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:781 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:781 SWAmP/(29936:29936): NRO PAGINA: 5
+[INFO] 23:41:52:782 SWAmP/(29936:29936): INICIO: 10240
+[INFO] 23:41:52:782 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:782 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:783 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:783 SWAmP/(29936:29936): NRO PAGINA: 6
+[INFO] 23:41:52:783 SWAmP/(29936:29936): INICIO: 12288
+[INFO] 23:41:52:784 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:784 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:784 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:785 SWAmP/(29936:29936): NRO PAGINA: 7
+[INFO] 23:41:52:785 SWAmP/(29936:29936): INICIO: 14336
+[INFO] 23:41:52:785 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:786 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:786 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:787 SWAmP/(29936:29936): NRO PAGINA: 8
+[INFO] 23:41:52:787 SWAmP/(29936:29936): INICIO: 16384
+[INFO] 23:41:52:787 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:788 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:788 SWAmP/(29936:29936): PID: 1
+[INFO] 23:41:52:788 SWAmP/(29936:29936): NRO PAGINA: 9
+[INFO] 23:41:52:789 SWAmP/(29936:29936): INICIO: 18432
+[INFO] 23:41:52:789 SWAmP/(29936:29936): NRO SWAP: 1
+[INFO] 23:41:52:789 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:790 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:790 SWAmP/(29936:29936): Para SWAP 2
+[INFO] 23:41:52:791 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:791 SWAmP/(29936:29936): PID: 2
+[INFO] 23:41:52:792 SWAmP/(29936:29936): NRO PAGINA: 0
+[INFO] 23:41:52:792 SWAmP/(29936:29936): INICIO: 0
+[INFO] 23:41:52:793 SWAmP/(29936:29936): NRO SWAP: 2
+[INFO] 23:41:52:793 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:793 SWAmP/(29936:29936): PID: 2
+[INFO] 23:41:52:794 SWAmP/(29936:29936): NRO PAGINA: 1
+[INFO] 23:41:52:794 SWAmP/(29936:29936): INICIO: 2048
+[INFO] 23:41:52:795 SWAmP/(29936:29936): NRO SWAP: 2
+[INFO] 23:41:52:795 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:795 SWAmP/(29936:29936): PID: 2
+[INFO] 23:41:52:796 SWAmP/(29936:29936): NRO PAGINA: 2
+[INFO] 23:41:52:796 SWAmP/(29936:29936): INICIO: 4096
+[INFO] 23:41:52:796 SWAmP/(29936:29936): NRO SWAP: 2
+[INFO] 23:41:52:796 SWAmP/(29936:29936): ------------------------
+[INFO] 23:41:52:797 SWAmP/(29936:29936): DISCONNECT!
+[INFO] 23:41:52:798 SWAmP/(29936:29936): Finalizando programa...
