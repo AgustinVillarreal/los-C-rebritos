@@ -31,8 +31,8 @@ run-humedal: build
 run-mmu-lru: build
 	./$(OUTFILE) "config/mmu-lru.config"
 
-run-mmu-fifo: build
-	./$(OUTFILE) "config/mmu-fifo.config"
+run-mmu-clock-m: build
+	./$(OUTFILE) "config/mmu-clock-m.config"
 
 run-asignacion-fija: build
 	./$(OUTFILE) "config/asignacion-fija.config"
