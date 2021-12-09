@@ -1,473 +1,3042 @@
-[INFO] 19:16:22:478 memoria/(3543:3543): CONFIGURACION CARGADA EXITOSAMENTE
-[WARNING] 19:16:22:523 memoria/(3543:3543): fijaaaa 1
-[INFO] 19:16:22:542 memoria/(3543:3543): Cliente conectado en 0.0.0.0:5001 (a Server)
+[INFO] 21:06:09:603 memoria/(13290:13290): CONFIGURACION CARGADA EXITOSAMENTE
+[WARNING] 21:06:09:692 memoria/(13290:13290): fijaaaa 1
+[INFO] 21:06:09:710 memoria/(13290:13290): Cliente conectado en 0.0.0.0:5001 (a Server)
 
-[INFO] 19:16:22:545 memoria/(3543:3543): ------2---------
+[INFO] 21:06:09:714 memoria/(13290:13290): ------2---------
 
-[INFO] 19:16:22:547 memoria/(3543:3543): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+[INFO] 21:06:09:724 memoria/(13290:13290): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
 
-[INFO] 19:16:24:471 memoria/(3543:3543): Cliente conectado (a MEMORIA_SERVER)
+[INFO] 21:06:11:249 memoria/(13290:13290): Cliente conectado (a MEMORIA_SERVER)
 
-[INFO] 19:16:25:971 memoria/(3543:3543): Cliente conectado (a MEMORIA_SERVER)
+[INFO] 21:06:59:598 memoria/(13290:13290): Cliente conectado (a MEMORIA_SERVER)
 
-[WARNING] 19:16:26:084 memoria/(3543:3612): 
+[WARNING] 21:06:59:724 memoria/(13290:13415): 
 Se conecto el carpincho: 1 
 
-[WARNING] 19:16:26:169 memoria/(3543:3612): cant_paginas_a_swapear 2
-[ERROR] 19:16:26:191 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:26:195 memoria/(3543:3612): get_tlb_size 0
-[WARNING] 19:16:26:205 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[WARNING] 19:16:26:206 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 0
-[ERROR] 19:16:26:218 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:26:219 memoria/(3543:3612): get_tlb_size 1
-[WARNING] 19:16:26:220 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[WARNING] 19:16:26:221 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 1
-[WARNING] 19:16:26:248 memoria/(3543:3612): nro_pagina 0
-[WARNING] 19:16:26:252 memoria/(3543:3612): offset_hmd_a_leer 0
-[WARNING] 19:16:26:254 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:26:254 memoria/(3543:3612): size 4
-[WARNING] 19:16:26:255 memoria/(3543:3612): offset_data 9
-[INFO] 19:16:26:258 memoria/(3543:3612): 
+[WARNING] 21:06:59:812 memoria/(13290:13415): cant_paginas_a_swapear 2
+[ERROR] 21:06:59:841 memoria/(13290:13415): pagina: 0
+[WARNING] 21:06:59:845 memoria/(13290:13415): get_tlb_size 0
+[WARNING] 21:06:59:846 memoria/(13290:13415): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:06:59:849 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 0
+[ERROR] 21:06:59:856 memoria/(13290:13415): pagina: 1
+[WARNING] 21:06:59:857 memoria/(13290:13415): get_tlb_size 1
+[WARNING] 21:06:59:858 memoria/(13290:13415): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:06:59:859 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:06:59:883 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:26:266 memoria/(3543:3612): pagina: 0
-[INFO] 19:16:26:388 memoria/(3543:3612): 
+[ERROR] 21:06:59:888 memoria/(13290:13415): pagina: 0
+[WARNING] 21:06:59:994 memoria/(13290:13415): 1)entrada_tp->nro_pagina: 0
+[INFO] 21:06:59:998 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:26:392 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:26:493 memoria/(3543:3612): (*hmd)->prevAlloc 0
-[WARNING] 19:16:26:494 memoria/(3543:3612): (*hmd)->nextAlloc 13
-[WARNING] 19:16:26:495 memoria/(3543:3612): (*hmd)->isFree 0
-[INFO] 19:16:26:496 memoria/(3543:3612): 
+[ERROR] 21:06:59:999 memoria/(13290:13415): pagina: 0
+[WARNING] 21:07:00:101 memoria/(13290:13415): (*hmd)->prevAlloc 0
+[WARNING] 21:07:00:103 memoria/(13290:13415): (*hmd)->nextAlloc 13
+[WARNING] 21:07:00:104 memoria/(13290:13415): (*hmd)->isFree 0
+[INFO] 21:07:00:106 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:26:497 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:26:598 memoria/(3543:3612): (*hmd)->prevAlloc 0
-[WARNING] 19:16:26:599 memoria/(3543:3612): (*hmd)->nextAlloc 0
-[WARNING] 19:16:26:599 memoria/(3543:3612): (*hmd)->isFree 1
-[WARNING] 19:16:26:601 memoria/(3543:3612): Direccion de ultimo hdm : 13
-[WARNING] 19:16:26:601 memoria/(3543:3612): hmd_inicial->nextAlloc 26
-[WARNING] 19:16:26:602 memoria/(3543:3612): entrada_tp->nro_pagina 0
-[WARNING] 19:16:26:603 memoria/(3543:3612): offset 13
-[ERROR] 19:16:26:604 memoria/(3543:3612): offset 6
-[ERROR] 19:16:26:604 memoria/(3543:3612): pags_parcial 0
-[ERROR] 19:16:26:604 memoria/(3543:3612): cant_paginas 1
-[WARNING] 19:16:26:605 memoria/(3543:3612): cant_paginas_a_swapear 1
-[INFO] 19:16:26:760 memoria/(3543:3612): 
+[ERROR] 21:07:00:107 memoria/(13290:13415): pagina: 1
+[WARNING] 21:07:00:210 memoria/(13290:13415): (*hmd)->prevAlloc 0
+[WARNING] 21:07:00:211 memoria/(13290:13415): (*hmd)->nextAlloc 0
+[WARNING] 21:07:00:213 memoria/(13290:13415): (*hmd)->isFree 1
+[WARNING] 21:07:00:218 memoria/(13290:13415): Direccion de ultimo hdm : 13
+[WARNING] 21:07:00:219 memoria/(13290:13415): hmd_inicial->nextAlloc 26
+[WARNING] 21:07:00:221 memoria/(13290:13415): entrada_tp->nro_pagina 0
+[WARNING] 21:07:00:223 memoria/(13290:13415): offset 13
+[ERROR] 21:07:00:225 memoria/(13290:13415): offset 6
+[ERROR] 21:07:00:225 memoria/(13290:13415): pags_parcial 0
+[ERROR] 21:07:00:226 memoria/(13290:13415): cant_paginas 1
+[WARNING] 21:07:00:227 memoria/(13290:13415): cant_paginas_a_swapear 1
+[INFO] 21:07:00:398 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:26:766 memoria/(3543:3612): pagina: 1
-[ERROR] 19:16:26:867 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:26:868 memoria/(3543:3612): get_tlb_size 2
-[WARNING] 19:16:26:868 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[WARNING] 19:16:26:869 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 2
-[WARNING] 19:16:26:870 memoria/(3543:3612): nro_pagina 0
-[WARNING] 19:16:26:871 memoria/(3543:3612): offset_hmd_a_leer 13
-[WARNING] 19:16:26:871 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:26:871 memoria/(3543:3612): size 4
-[WARNING] 19:16:26:872 memoria/(3543:3612): offset_data 6
-[INFO] 19:16:26:872 memoria/(3543:3612): 
+[ERROR] 21:07:00:412 memoria/(13290:13415): pagina: 1
+[ERROR] 21:07:00:516 memoria/(13290:13415): pagina: 2
+[WARNING] 21:07:00:517 memoria/(13290:13415): get_tlb_size 2
+[WARNING] 21:07:00:518 memoria/(13290:13415): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:07:00:519 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:07:00:522 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:26:873 memoria/(3543:3612): pagina: 0
-[INFO] 19:16:26:975 memoria/(3543:3612): 
+[ERROR] 21:07:00:523 memoria/(13290:13415): pagina: 0
+[INFO] 21:07:00:625 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:26:975 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:27:076 memoria/(3543:3612): 
+[ERROR] 21:07:00:627 memoria/(13290:13415): pagina: 1
+[INFO] 21:07:00:729 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:27:077 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:27:180 memoria/(3543:3612): 
+[ERROR] 21:07:00:731 memoria/(13290:13415): pagina: 1
+[WARNING] 21:07:00:833 memoria/(13290:13415): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:07:00:841 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:27:181 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:27:282 memoria/(3543:3612): (*hmd)->prevAlloc 0
-[WARNING] 19:16:27:282 memoria/(3543:3612): (*hmd)->nextAlloc 13
-[WARNING] 19:16:27:283 memoria/(3543:3612): (*hmd)->isFree 0
-[INFO] 19:16:27:283 memoria/(3543:3612): 
+[ERROR] 21:07:00:846 memoria/(13290:13415): pagina: 0
+[WARNING] 21:07:00:947 memoria/(13290:13415): (*hmd)->prevAlloc 0
+[WARNING] 21:07:00:948 memoria/(13290:13415): (*hmd)->nextAlloc 13
+[WARNING] 21:07:00:948 memoria/(13290:13415): (*hmd)->isFree 0
+[INFO] 21:07:00:949 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:27:283 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:27:385 memoria/(3543:3612): (*hmd)->prevAlloc 0
-[WARNING] 19:16:27:385 memoria/(3543:3612): (*hmd)->nextAlloc 26
-[WARNING] 19:16:27:385 memoria/(3543:3612): (*hmd)->isFree 0
-[INFO] 19:16:27:386 memoria/(3543:3612): 
+[ERROR] 21:07:00:950 memoria/(13290:13415): pagina: 1
+[WARNING] 21:07:01:051 memoria/(13290:13415): (*hmd)->prevAlloc 0
+[WARNING] 21:07:01:053 memoria/(13290:13415): (*hmd)->nextAlloc 26
+[WARNING] 21:07:01:054 memoria/(13290:13415): (*hmd)->isFree 0
+[INFO] 21:07:01:055 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:27:386 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:27:487 memoria/(3543:3612): 
+[ERROR] 21:07:01:056 memoria/(13290:13415): pagina: 1
+[INFO] 21:07:01:158 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:27:488 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:27:589 memoria/(3543:3612): (*hmd)->prevAlloc 13
-[WARNING] 19:16:27:589 memoria/(3543:3612): (*hmd)->nextAlloc 0
-[WARNING] 19:16:27:589 memoria/(3543:3612): (*hmd)->isFree 1
-[WARNING] 19:16:27:590 memoria/(3543:3612): Direccion de ultimo hdm : 26
-[WARNING] 19:16:27:591 memoria/(3543:3612): hmd_inicial->nextAlloc 39
-[WARNING] 19:16:27:591 memoria/(3543:3612): entrada_tp->nro_pagina 1
-[WARNING] 19:16:27:592 memoria/(3543:3612): offset 10
-[WARNING] 19:16:27:592 memoria/(3543:3612): cant_paginas_a_swapear 0
-[INFO] 19:16:27:595 memoria/(3543:3612): 
+[ERROR] 21:07:01:160 memoria/(13290:13415): pagina: 2
+[WARNING] 21:07:01:262 memoria/(13290:13415): (*hmd)->prevAlloc 13
+[WARNING] 21:07:01:263 memoria/(13290:13415): (*hmd)->nextAlloc 0
+[WARNING] 21:07:01:263 memoria/(13290:13415): (*hmd)->isFree 1
+[WARNING] 21:07:01:264 memoria/(13290:13415): Direccion de ultimo hdm : 26
+[WARNING] 21:07:01:264 memoria/(13290:13415): hmd_inicial->nextAlloc 39
+[WARNING] 21:07:01:264 memoria/(13290:13415): entrada_tp->nro_pagina 1
+[WARNING] 21:07:01:264 memoria/(13290:13415): offset 10
+[WARNING] 21:07:01:265 memoria/(13290:13415): cant_paginas_a_swapear 0
+[INFO] 21:07:01:270 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:27:595 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:27:697 memoria/(3543:3612): nro_pagina 1
-[WARNING] 19:16:27:697 memoria/(3543:3612): offset_hmd_a_leer 10
-[WARNING] 19:16:27:698 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:27:698 memoria/(3543:3612): size 4
-[WARNING] 19:16:27:698 memoria/(3543:3612): offset_data 3
-[INFO] 19:16:27:699 memoria/(3543:3612): 
+[ERROR] 21:07:01:271 memoria/(13290:13415): pagina: 2
+[INFO] 21:07:01:373 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:27:699 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:27:800 memoria/(3543:3612): 
+[ERROR] 21:07:01:375 memoria/(13290:13415): pagina: 1
+[INFO] 21:07:01:477 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:27:801 memoria/(3543:3612): pagina: 2
-[INFO] 19:16:27:901 memoria/(3543:3612): 
+[ERROR] 21:07:01:479 memoria/(13290:13415): pagina: 2
+[INFO] 21:07:01:581 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:27:902 memoria/(3543:3612): pagina: 2
-[INFO] 19:16:28:003 memoria/(3543:3612): 
+[ERROR] 21:07:01:583 memoria/(13290:13415): pagina: 2
+[WARNING] 21:07:01:686 memoria/(13290:13415): 1)entrada_tp->nro_pagina: 2
+[INFO] 21:07:01:690 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:28:004 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:28:104 memoria/(3543:3612): (*hmd)->prevAlloc 0
-[WARNING] 19:16:28:104 memoria/(3543:3612): (*hmd)->nextAlloc 13
-[WARNING] 19:16:28:105 memoria/(3543:3612): (*hmd)->isFree 0
-[INFO] 19:16:28:105 memoria/(3543:3612): 
+[ERROR] 21:07:01:692 memoria/(13290:13415): pagina: 0
+[WARNING] 21:07:01:793 memoria/(13290:13415): (*hmd)->prevAlloc 0
+[WARNING] 21:07:01:794 memoria/(13290:13415): (*hmd)->nextAlloc 13
+[WARNING] 21:07:01:794 memoria/(13290:13415): (*hmd)->isFree 0
+[INFO] 21:07:01:795 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:28:105 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:28:206 memoria/(3543:3612): (*hmd)->prevAlloc 0
-[WARNING] 19:16:28:206 memoria/(3543:3612): (*hmd)->nextAlloc 26
-[WARNING] 19:16:28:206 memoria/(3543:3612): (*hmd)->isFree 0
-[INFO] 19:16:28:207 memoria/(3543:3612): 
+[ERROR] 21:07:01:795 memoria/(13290:13415): pagina: 1
+[WARNING] 21:07:01:896 memoria/(13290:13415): (*hmd)->prevAlloc 0
+[WARNING] 21:07:01:897 memoria/(13290:13415): (*hmd)->nextAlloc 26
+[WARNING] 21:07:01:898 memoria/(13290:13415): (*hmd)->isFree 0
+[INFO] 21:07:01:899 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:28:207 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:28:308 memoria/(3543:3612): 
+[ERROR] 21:07:01:900 memoria/(13290:13415): pagina: 1
+[INFO] 21:07:02:003 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:28:308 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:28:409 memoria/(3543:3612): (*hmd)->prevAlloc 13
-[WARNING] 19:16:28:409 memoria/(3543:3612): (*hmd)->nextAlloc 39
-[WARNING] 19:16:28:409 memoria/(3543:3612): (*hmd)->isFree 0
-[INFO] 19:16:28:410 memoria/(3543:3612): 
+[ERROR] 21:07:02:005 memoria/(13290:13415): pagina: 2
+[WARNING] 21:07:02:107 memoria/(13290:13415): (*hmd)->prevAlloc 13
+[WARNING] 21:07:02:108 memoria/(13290:13415): (*hmd)->nextAlloc 39
+[WARNING] 21:07:02:109 memoria/(13290:13415): (*hmd)->isFree 0
+[INFO] 21:07:02:110 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:28:410 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:28:511 memoria/(3543:3612): (*hmd)->prevAlloc 26
-[WARNING] 19:16:28:511 memoria/(3543:3612): (*hmd)->nextAlloc 0
-[WARNING] 19:16:28:512 memoria/(3543:3612): (*hmd)->isFree 1
-[WARNING] 19:16:28:512 memoria/(3543:3612): Direccion de ultimo hdm : 39
-[WARNING] 19:16:28:512 memoria/(3543:3612): hmd_inicial->nextAlloc 52
-[WARNING] 19:16:28:513 memoria/(3543:3612): entrada_tp->nro_pagina 2
-[WARNING] 19:16:28:513 memoria/(3543:3612): offset 7
-[WARNING] 19:16:28:514 memoria/(3543:3612): cant_paginas_a_swapear 1
-[ERROR] 19:16:28:515 memoria/(3543:3612): pagina: 3
-[WARNING] 19:16:28:516 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:28:516 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:28:519 memoria/(3543:3612): Reemplazo TLB: saco la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
-[WARNING] 19:16:28:522 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 3
-[WARNING] 19:16:28:523 memoria/(3543:3612): nro_pagina 2
-[WARNING] 19:16:28:523 memoria/(3543:3612): offset_hmd_a_leer 7
-[WARNING] 19:16:28:524 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:28:524 memoria/(3543:3612): size 4
-[WARNING] 19:16:28:524 memoria/(3543:3612): offset_data 0
-[INFO] 19:16:28:525 memoria/(3543:3612): 
+[ERROR] 21:07:02:112 memoria/(13290:13415): pagina: 2
+[WARNING] 21:07:02:214 memoria/(13290:13415): (*hmd)->prevAlloc 26
+[WARNING] 21:07:02:215 memoria/(13290:13415): (*hmd)->nextAlloc 0
+[WARNING] 21:07:02:216 memoria/(13290:13415): (*hmd)->isFree 1
+[WARNING] 21:07:02:219 memoria/(13290:13415): Direccion de ultimo hdm : 39
+[WARNING] 21:07:02:221 memoria/(13290:13415): hmd_inicial->nextAlloc 52
+[WARNING] 21:07:02:222 memoria/(13290:13415): entrada_tp->nro_pagina 2
+[WARNING] 21:07:02:223 memoria/(13290:13415): offset 7
+[WARNING] 21:07:02:224 memoria/(13290:13415): cant_paginas_a_swapear 1
+[INFO] 21:07:02:238 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 43
+
+[INFO] 21:07:02:246 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:07:02:248 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 53
+
+[INFO] 21:07:02:249 memoria/(13290:13415): Swapeo pagina 0 del carpincho 1
+[WARNING] 21:07:02:252 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:07:02:258 memoria/(13290:13415): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:07:02:260 memoria/(13290:13415): pagina: 3
+[WARNING] 21:07:02:263 memoria/(13290:13415): get_tlb_size 2
+[WARNING] 21:07:02:264 memoria/(13290:13415): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:07:02:266 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:07:02:268 memoria/(13290:13415): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:28:527 memoria/(3543:3612): pagina: 2
-[INFO] 19:16:28:628 memoria/(3543:3612): 
-TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
+[ERROR] 21:07:02:269 memoria/(13290:13415): pagina: 2
+[INFO] 21:07:02:372 memoria/(13290:13415): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 0 
 
-[ERROR] 19:16:28:630 memoria/(3543:3612): pagina: 3
-[INFO] 19:16:28:736 memoria/(3543:3612): 
-TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
-
-[ERROR] 19:16:28:737 memoria/(3543:3612): pagina: 2
-[INFO] 19:16:28:838 memoria/(3543:3612): 
-TLB HIT: PID: 1  PAGINA: 3  MARCO: 3 
-
-[ERROR] 19:16:28:839 memoria/(3543:3612): pagina: 3
-[INFO] 19:16:28:984 memoria/(3543:3612): 
+[ERROR] 21:07:02:376 memoria/(13290:13415): pagina: 3
+[WARNING] 21:07:02:480 memoria/(13290:13415): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:07:02:490 memoria/(13290:13415): 
 TLB MISS: PID: 1  PAGINA: 0 
 
-[WARNING] 19:16:29:986 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 0
-[ERROR] 19:16:29:986 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:29:986 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:29:987 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:29:987 memoria/(3543:3612): Reemplazo TLB: saco la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
-[INFO] 19:16:29:988 memoria/(3543:3612): 
+[WARNING] 21:07:03:495 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:07:03:501 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:07:03:504 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 57
+
+[INFO] 21:07:03:507 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 59
+
+[INFO] 21:07:03:512 memoria/(13290:13415): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:07:03:513 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:07:03:517 memoria/(13290:13415): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:07:04:523 memoria/(13290:13415): pagina: 0
+[WARNING] 21:07:04:527 memoria/(13290:13415): get_tlb_size 2
+[WARNING] 21:07:04:530 memoria/(13290:13415): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:07:04:533 memoria/(13290:13415): 
 TLB MISS: PID: 1  PAGINA: 1 
 
-[WARNING] 19:16:30:990 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 1
-[ERROR] 19:16:30:990 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:30:990 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:30:991 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:30:991 memoria/(3543:3612): Reemplazo TLB: saco la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
-[INFO] 19:16:31:034 memoria/(3543:3612): 
+[WARNING] 21:07:05:536 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:07:05:538 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 60
+
+[INFO] 21:07:05:539 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 57
+
+[INFO] 21:07:05:540 memoria/(13290:13415): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 59
+
+[INFO] 21:07:05:542 memoria/(13290:13415): Swapeo pagina 2 del carpincho 1
+[WARNING] 21:07:05:544 memoria/(13290:13415): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:07:05:546 memoria/(13290:13415): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:07:06:548 memoria/(13290:13415): pagina: 1
+[WARNING] 21:07:06:552 memoria/(13290:13415): get_tlb_size 2
+[WARNING] 21:07:06:553 memoria/(13290:13415): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:07:06:611 memoria/(13290:13415): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:07:06:614 memoria/(13290:13415): pagina: 0
+[INFO] 21:08:50:803 memoria/(13290:13415): DISCONNECT!
+[INFO] 21:08:50:809 memoria/(13290:13329): DISCONNECT!
+[INFO] 21:08:51:119 memoria/(13290:13290): Senial SIGINT
+[INFO] 21:08:51:121 memoria/(13290:13290): -------------
+[INFO] 21:08:51:126 memoria/(13290:13290): Cantidad TLB Hits totales: 23
+[INFO] 21:08:51:129 memoria/(13290:13290): Cantidad TLB Miss totales: 2
+[INFO] 21:08:51:132 memoria/(13290:13290): Carpincho: 1 - Cantidad Hits: 23
+[INFO] 21:08:51:133 memoria/(13290:13290): Carpincho: 1 - Cantidad Miss: 2
+[INFO] 21:08:55:300 memoria/(13548:13548): CONFIGURACION CARGADA EXITOSAMENTE
+[WARNING] 21:08:55:361 memoria/(13548:13548): fijaaaa 1
+[INFO] 21:08:55:379 memoria/(13548:13548): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 21:08:55:382 memoria/(13548:13548): ------2---------
+
+[INFO] 21:08:55:387 memoria/(13548:13548): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 21:08:56:640 memoria/(13548:13548): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:08:58:872 memoria/(13548:13548): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 21:08:59:029 memoria/(13548:13611): 
+Se conecto el carpincho: 1 
+
+[WARNING] 21:08:59:108 memoria/(13548:13611): cant_paginas_a_swapear 2
+[ERROR] 21:08:59:130 memoria/(13548:13611): pagina: 0
+[WARNING] 21:08:59:136 memoria/(13548:13611): get_tlb_size 0
+[WARNING] 21:08:59:141 memoria/(13548:13611): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:08:59:146 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 0
+[ERROR] 21:08:59:151 memoria/(13548:13611): pagina: 1
+[WARNING] 21:08:59:154 memoria/(13548:13611): get_tlb_size 1
+[WARNING] 21:08:59:155 memoria/(13548:13611): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:08:59:156 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:08:59:190 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:31:035 memoria/(3543:3612): pagina: 0
-[INFO] 19:16:31:178 memoria/(3543:3612): 
-TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
-
-[ERROR] 19:16:31:179 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:31:279 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 2 
-
-[WARNING] 19:16:32:280 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 2
-[ERROR] 19:16:32:280 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:32:281 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:32:281 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:32:281 memoria/(3543:3612): Reemplazo TLB: saco la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
-[WARNING] 19:16:32:329 memoria/(3543:3612): nro_pagina 2
-[WARNING] 19:16:32:330 memoria/(3543:3612): offset_hmd_a_leer 7
-[WARNING] 19:16:32:330 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:32:330 memoria/(3543:3612): size 4
-[WARNING] 19:16:32:330 memoria/(3543:3612): offset_data 0
-[INFO] 19:16:32:331 memoria/(3543:3612): 
-TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
-
-[ERROR] 19:16:32:332 memoria/(3543:3612): pagina: 2
-[INFO] 19:16:32:433 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 3 
-
-[WARNING] 19:16:33:434 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 3
-[ERROR] 19:16:33:434 memoria/(3543:3612): pagina: 3
-[WARNING] 19:16:33:435 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:33:435 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:33:435 memoria/(3543:3612): Reemplazo TLB: saco la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
-[WARNING] 19:16:33:436 memoria/(3543:3612): nro_pagina 0
-[WARNING] 19:16:33:436 memoria/(3543:3612): offset_hmd_a_leer 13
-[WARNING] 19:16:33:437 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:33:437 memoria/(3543:3612): size 4
-[WARNING] 19:16:33:437 memoria/(3543:3612): offset_data 6
-[INFO] 19:16:33:438 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 0 
-
-[WARNING] 19:16:34:439 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 0
-[ERROR] 19:16:34:440 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:34:440 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:34:441 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:34:441 memoria/(3543:3612): Reemplazo TLB: saco la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
-[INFO] 19:16:34:444 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 1 
-
-[WARNING] 19:16:35:445 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 1
-[ERROR] 19:16:35:445 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:35:446 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:35:446 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:35:446 memoria/(3543:3612): Reemplazo TLB: saco la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
-[INFO] 19:16:35:447 memoria/(3543:3612): 
-TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
-
-[ERROR] 19:16:35:448 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:35:549 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 2 
-
-[WARNING] 19:16:36:550 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 2
-[ERROR] 19:16:36:551 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:36:551 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:36:551 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:36:552 memoria/(3543:3612): Reemplazo TLB: saco la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
-[INFO] 19:16:36:552 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 3 
-
-[WARNING] 19:16:37:553 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 3
-[ERROR] 19:16:37:553 memoria/(3543:3612): pagina: 3
-[WARNING] 19:16:37:554 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:37:554 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:37:554 memoria/(3543:3612): Reemplazo TLB: saco la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
-[INFO] 19:16:37:598 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 0 
-
-[WARNING] 19:16:38:599 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 0
-[ERROR] 19:16:38:599 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:38:600 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:38:600 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:38:600 memoria/(3543:3612): Reemplazo TLB: saco la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
-[INFO] 19:16:38:601 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 1 
-
-[WARNING] 19:16:39:602 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 1
-[ERROR] 19:16:39:603 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:39:603 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:39:603 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:39:603 memoria/(3543:3612): Reemplazo TLB: saco la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
-[INFO] 19:16:39:646 memoria/(3543:3612): 
+[ERROR] 21:08:59:192 memoria/(13548:13611): pagina: 0
+[WARNING] 21:08:59:298 memoria/(13548:13611): 1)entrada_tp->nro_pagina: 0
+[INFO] 21:08:59:303 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:39:646 memoria/(3543:3612): pagina: 0
-[INFO] 19:16:39:790 memoria/(3543:3612): 
+[ERROR] 21:08:59:305 memoria/(13548:13611): pagina: 0
+[WARNING] 21:08:59:407 memoria/(13548:13611): (*hmd)->prevAlloc 0
+[WARNING] 21:08:59:409 memoria/(13548:13611): (*hmd)->nextAlloc 13
+[WARNING] 21:08:59:411 memoria/(13548:13611): (*hmd)->isFree 0
+[INFO] 21:08:59:415 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:39:791 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:39:891 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 2 
-
-[WARNING] 19:16:40:892 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 2
-[ERROR] 19:16:40:893 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:40:893 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:40:894 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:40:894 memoria/(3543:3612): Reemplazo TLB: saco la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
-[WARNING] 19:16:40:941 memoria/(3543:3612): nro_pagina 2
-[WARNING] 19:16:40:941 memoria/(3543:3612): offset_hmd_a_leer 7
-[WARNING] 19:16:40:941 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:40:942 memoria/(3543:3612): size 4
-[WARNING] 19:16:40:942 memoria/(3543:3612): offset_data 0
-[INFO] 19:16:40:943 memoria/(3543:3612): 
-TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
-
-[ERROR] 19:16:40:944 memoria/(3543:3612): pagina: 2
-[INFO] 19:16:41:044 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 3 
-
-[WARNING] 19:16:42:046 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 3
-[ERROR] 19:16:42:046 memoria/(3543:3612): pagina: 3
-[WARNING] 19:16:42:047 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:42:047 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:42:047 memoria/(3543:3612): Reemplazo TLB: saco la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
-[WARNING] 19:16:42:049 memoria/(3543:3612): nro_pagina 0
-[WARNING] 19:16:42:049 memoria/(3543:3612): offset_hmd_a_leer 13
-[WARNING] 19:16:42:049 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:42:050 memoria/(3543:3612): size 4
-[WARNING] 19:16:42:050 memoria/(3543:3612): offset_data 6
-[INFO] 19:16:42:051 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 0 
-
-[WARNING] 19:16:43:052 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 0
-[ERROR] 19:16:43:052 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:43:053 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:43:053 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:43:054 memoria/(3543:3612): Reemplazo TLB: saco la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
-[INFO] 19:16:43:055 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 1 
-
-[WARNING] 19:16:44:056 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 1
-[ERROR] 19:16:44:057 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:44:057 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:44:057 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:44:058 memoria/(3543:3612): Reemplazo TLB: saco la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
-[INFO] 19:16:44:059 memoria/(3543:3612): 
+[ERROR] 21:08:59:417 memoria/(13548:13611): pagina: 1
+[WARNING] 21:08:59:519 memoria/(13548:13611): (*hmd)->prevAlloc 0
+[WARNING] 21:08:59:521 memoria/(13548:13611): (*hmd)->nextAlloc 0
+[WARNING] 21:08:59:523 memoria/(13548:13611): (*hmd)->isFree 1
+[WARNING] 21:08:59:529 memoria/(13548:13611): Direccion de ultimo hdm : 13
+[WARNING] 21:08:59:531 memoria/(13548:13611): hmd_inicial->nextAlloc 26
+[WARNING] 21:08:59:534 memoria/(13548:13611): entrada_tp->nro_pagina 0
+[WARNING] 21:08:59:537 memoria/(13548:13611): offset 13
+[ERROR] 21:08:59:539 memoria/(13548:13611): offset 6
+[ERROR] 21:08:59:540 memoria/(13548:13611): pags_parcial 0
+[ERROR] 21:08:59:542 memoria/(13548:13611): cant_paginas 1
+[WARNING] 21:08:59:543 memoria/(13548:13611): cant_paginas_a_swapear 1
+[INFO] 21:08:59:678 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:44:059 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:44:161 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 2 
-
-[WARNING] 19:16:45:162 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 2
-[ERROR] 19:16:45:163 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:45:163 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:45:163 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:45:163 memoria/(3543:3612): Reemplazo TLB: saco la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
-[INFO] 19:16:45:164 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 3 
-
-[WARNING] 19:16:46:165 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 3
-[ERROR] 19:16:46:165 memoria/(3543:3612): pagina: 3
-[WARNING] 19:16:46:165 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:46:165 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:46:166 memoria/(3543:3612): Reemplazo TLB: saco la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
-[INFO] 19:16:46:206 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 0 
-
-[WARNING] 19:16:47:208 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 0
-[ERROR] 19:16:47:209 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:47:209 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:47:209 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:47:209 memoria/(3543:3612): Reemplazo TLB: saco la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
-[INFO] 19:16:47:210 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 1 
-
-[WARNING] 19:16:48:211 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 1
-[ERROR] 19:16:48:212 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:48:212 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:48:212 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:48:213 memoria/(3543:3612): Reemplazo TLB: saco la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
-[INFO] 19:16:48:254 memoria/(3543:3612): 
+[ERROR] 21:08:59:679 memoria/(13548:13611): pagina: 1
+[ERROR] 21:08:59:784 memoria/(13548:13611): pagina: 2
+[WARNING] 21:08:59:785 memoria/(13548:13611): get_tlb_size 2
+[WARNING] 21:08:59:786 memoria/(13548:13611): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:08:59:787 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:08:59:789 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
 
-[ERROR] 19:16:48:255 memoria/(3543:3612): pagina: 0
-[INFO] 19:16:48:398 memoria/(3543:3612): 
+[ERROR] 21:08:59:791 memoria/(13548:13611): pagina: 0
+[INFO] 21:08:59:892 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:48:398 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:48:499 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 2 
+[ERROR] 21:08:59:894 memoria/(13548:13611): pagina: 1
+[INFO] 21:08:59:995 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[WARNING] 19:16:49:500 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 2
-[ERROR] 19:16:49:501 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:49:501 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:49:501 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:49:502 memoria/(3543:3612): Reemplazo TLB: saco la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
-[WARNING] 19:16:49:548 memoria/(3543:3612): nro_pagina 2
-[WARNING] 19:16:49:548 memoria/(3543:3612): offset_hmd_a_leer 7
-[WARNING] 19:16:49:549 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:49:549 memoria/(3543:3612): size 4
-[WARNING] 19:16:49:550 memoria/(3543:3612): offset_data 0
-[INFO] 19:16:49:550 memoria/(3543:3612): 
+[ERROR] 21:08:59:997 memoria/(13548:13611): pagina: 1
+[WARNING] 21:09:00:098 memoria/(13548:13611): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:09:00:102 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:09:00:103 memoria/(13548:13611): pagina: 0
+[WARNING] 21:09:00:204 memoria/(13548:13611): (*hmd)->prevAlloc 0
+[WARNING] 21:09:00:205 memoria/(13548:13611): (*hmd)->nextAlloc 13
+[WARNING] 21:09:00:206 memoria/(13548:13611): (*hmd)->isFree 0
+[INFO] 21:09:00:207 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:09:00:208 memoria/(13548:13611): pagina: 1
+[WARNING] 21:09:00:310 memoria/(13548:13611): (*hmd)->prevAlloc 0
+[WARNING] 21:09:00:312 memoria/(13548:13611): (*hmd)->nextAlloc 26
+[WARNING] 21:09:00:313 memoria/(13548:13611): (*hmd)->isFree 0
+[INFO] 21:09:00:314 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:09:00:315 memoria/(13548:13611): pagina: 1
+[INFO] 21:09:00:418 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[ERROR] 19:16:49:551 memoria/(3543:3612): pagina: 2
-[INFO] 19:16:49:652 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 3 
+[ERROR] 21:09:00:419 memoria/(13548:13611): pagina: 2
+[WARNING] 21:09:00:521 memoria/(13548:13611): (*hmd)->prevAlloc 13
+[WARNING] 21:09:00:523 memoria/(13548:13611): (*hmd)->nextAlloc 0
+[WARNING] 21:09:00:523 memoria/(13548:13611): (*hmd)->isFree 1
+[WARNING] 21:09:00:525 memoria/(13548:13611): Direccion de ultimo hdm : 26
+[WARNING] 21:09:00:526 memoria/(13548:13611): hmd_inicial->nextAlloc 39
+[WARNING] 21:09:00:527 memoria/(13548:13611): entrada_tp->nro_pagina 1
+[WARNING] 21:09:00:527 memoria/(13548:13611): offset 10
+[WARNING] 21:09:00:528 memoria/(13548:13611): cant_paginas_a_swapear 0
+[INFO] 21:09:00:533 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
 
-[WARNING] 19:16:50:654 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 3
-[ERROR] 19:16:50:655 memoria/(3543:3612): pagina: 3
-[WARNING] 19:16:50:655 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:50:655 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:50:656 memoria/(3543:3612): Reemplazo TLB: saco la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
-[WARNING] 19:16:50:657 memoria/(3543:3612): nro_pagina 0
-[WARNING] 19:16:50:657 memoria/(3543:3612): offset_hmd_a_leer 13
-[WARNING] 19:16:50:657 memoria/(3543:3612): cant_paginas_a_leer 1
-[WARNING] 19:16:50:658 memoria/(3543:3612): size 4
-[WARNING] 19:16:50:658 memoria/(3543:3612): offset_data 6
-[INFO] 19:16:50:659 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 0 
-
-[WARNING] 19:16:51:660 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 0
-[ERROR] 19:16:51:660 memoria/(3543:3612): pagina: 0
-[WARNING] 19:16:51:661 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:51:661 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:51:661 memoria/(3543:3612): Reemplazo TLB: saco la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
-[INFO] 19:16:51:662 memoria/(3543:3612): 
-TLB MISS: PID: 1  PAGINA: 1 
-
-[WARNING] 19:16:52:664 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 1
-[ERROR] 19:16:52:664 memoria/(3543:3612): pagina: 1
-[WARNING] 19:16:52:664 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:52:664 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:52:665 memoria/(3543:3612): Reemplazo TLB: saco la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
-[INFO] 19:16:52:665 memoria/(3543:3612): 
+[ERROR] 21:09:00:536 memoria/(13548:13611): pagina: 2
+[INFO] 21:09:00:638 memoria/(13548:13611): 
 TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
 
-[ERROR] 19:16:52:666 memoria/(3543:3612): pagina: 1
-[INFO] 19:16:52:767 memoria/(3543:3612): 
+[ERROR] 21:09:00:638 memoria/(13548:13611): pagina: 1
+[INFO] 21:09:00:740 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:09:00:741 memoria/(13548:13611): pagina: 2
+[INFO] 21:09:00:844 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:09:00:845 memoria/(13548:13611): pagina: 2
+[WARNING] 21:09:00:947 memoria/(13548:13611): 1)entrada_tp->nro_pagina: 2
+[INFO] 21:09:00:950 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:09:00:952 memoria/(13548:13611): pagina: 0
+[WARNING] 21:09:01:054 memoria/(13548:13611): (*hmd)->prevAlloc 0
+[WARNING] 21:09:01:055 memoria/(13548:13611): (*hmd)->nextAlloc 13
+[WARNING] 21:09:01:056 memoria/(13548:13611): (*hmd)->isFree 0
+[INFO] 21:09:01:057 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:09:01:058 memoria/(13548:13611): pagina: 1
+[WARNING] 21:09:01:160 memoria/(13548:13611): (*hmd)->prevAlloc 0
+[WARNING] 21:09:01:161 memoria/(13548:13611): (*hmd)->nextAlloc 26
+[WARNING] 21:09:01:161 memoria/(13548:13611): (*hmd)->isFree 0
+[INFO] 21:09:01:162 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:09:01:163 memoria/(13548:13611): pagina: 1
+[INFO] 21:09:01:265 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:09:01:266 memoria/(13548:13611): pagina: 2
+[WARNING] 21:09:01:368 memoria/(13548:13611): (*hmd)->prevAlloc 13
+[WARNING] 21:09:01:368 memoria/(13548:13611): (*hmd)->nextAlloc 39
+[WARNING] 21:09:01:368 memoria/(13548:13611): (*hmd)->isFree 0
+[INFO] 21:09:01:369 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:09:01:369 memoria/(13548:13611): pagina: 2
+[WARNING] 21:09:01:470 memoria/(13548:13611): (*hmd)->prevAlloc 26
+[WARNING] 21:09:01:471 memoria/(13548:13611): (*hmd)->nextAlloc 0
+[WARNING] 21:09:01:471 memoria/(13548:13611): (*hmd)->isFree 1
+[WARNING] 21:09:01:472 memoria/(13548:13611): Direccion de ultimo hdm : 39
+[WARNING] 21:09:01:473 memoria/(13548:13611): hmd_inicial->nextAlloc 52
+[WARNING] 21:09:01:475 memoria/(13548:13611): entrada_tp->nro_pagina 2
+[WARNING] 21:09:01:476 memoria/(13548:13611): offset 7
+[WARNING] 21:09:01:477 memoria/(13548:13611): cant_paginas_a_swapear 1
+[INFO] 21:09:01:487 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 43
+
+[INFO] 21:09:01:489 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:09:01:490 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 53
+
+[INFO] 21:09:01:496 memoria/(13548:13611): Swapeo pagina 0 del carpincho 1
+[WARNING] 21:09:01:497 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:09:01:505 memoria/(13548:13611): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:09:01:507 memoria/(13548:13611): pagina: 3
+[WARNING] 21:09:01:508 memoria/(13548:13611): get_tlb_size 2
+[WARNING] 21:09:01:509 memoria/(13548:13611): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:09:01:513 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:09:01:517 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:09:01:519 memoria/(13548:13611): pagina: 2
+[INFO] 21:09:01:620 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 0 
+
+[ERROR] 21:09:01:622 memoria/(13548:13611): pagina: 3
+[WARNING] 21:09:01:723 memoria/(13548:13611): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:09:01:731 memoria/(13548:13611): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:09:02:735 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:09:02:741 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:09:02:746 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 57
+
+[INFO] 21:09:02:748 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 59
+
+[INFO] 21:09:02:752 memoria/(13548:13611): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:09:02:753 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:09:02:756 memoria/(13548:13611): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:09:03:766 memoria/(13548:13611): pagina: 0
+[WARNING] 21:09:03:768 memoria/(13548:13611): get_tlb_size 2
+[WARNING] 21:09:03:769 memoria/(13548:13611): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:09:03:771 memoria/(13548:13611): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:09:04:774 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:09:04:778 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 60
+
+[INFO] 21:09:04:780 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 57
+
+[INFO] 21:09:04:782 memoria/(13548:13611): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 59
+
+[INFO] 21:09:04:784 memoria/(13548:13611): Swapeo pagina 2 del carpincho 1
+[WARNING] 21:09:04:786 memoria/(13548:13611): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:09:04:790 memoria/(13548:13611): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:09:05:792 memoria/(13548:13611): pagina: 1
+[WARNING] 21:09:05:793 memoria/(13548:13611): get_tlb_size 2
+[WARNING] 21:09:05:794 memoria/(13548:13611): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:09:05:796 memoria/(13548:13611): DEST PRUEBA: 1845493760
+[INFO] 21:09:05:835 memoria/(13548:13611): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:09:05:836 memoria/(13548:13611): pagina: 0
+[WARNING] 21:09:05:937 memoria/(13548:13611): DEST PRUEBA: 3288430
+[INFO] 21:13:27:426 memoria/(13548:13611): DISCONNECT!
+[INFO] 21:13:27:433 memoria/(13548:13585): DISCONNECT!
+[INFO] 21:13:27:704 memoria/(13548:13548): Senial SIGINT
+[INFO] 21:13:27:708 memoria/(13548:13548): -------------
+[INFO] 21:13:27:710 memoria/(13548:13548): Cantidad TLB Hits totales: 23
+[INFO] 21:13:27:714 memoria/(13548:13548): Cantidad TLB Miss totales: 2
+[INFO] 21:13:27:718 memoria/(13548:13548): Carpincho: 1 - Cantidad Hits: 23
+[INFO] 21:13:27:722 memoria/(13548:13548): Carpincho: 1 - Cantidad Miss: 2
+[INFO] 21:13:32:863 memoria/(13796:13796): CONFIGURACION CARGADA EXITOSAMENTE
+[WARNING] 21:13:32:926 memoria/(13796:13796): fijaaaa 1
+[INFO] 21:13:32:947 memoria/(13796:13796): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 21:13:32:949 memoria/(13796:13796): ------2---------
+
+[INFO] 21:13:32:953 memoria/(13796:13796): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 21:13:34:281 memoria/(13796:13796): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:13:36:668 memoria/(13796:13796): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 21:13:36:784 memoria/(13796:13870): 
+Se conecto el carpincho: 1 
+
+[WARNING] 21:13:36:868 memoria/(13796:13870): cant_paginas_a_swapear 2
+[ERROR] 21:13:36:887 memoria/(13796:13870): pagina: 0
+[WARNING] 21:13:36:893 memoria/(13796:13870): get_tlb_size 0
+[WARNING] 21:13:36:899 memoria/(13796:13870): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:13:36:902 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 0
+[ERROR] 21:13:36:907 memoria/(13796:13870): pagina: 1
+[WARNING] 21:13:36:908 memoria/(13796:13870): get_tlb_size 1
+[WARNING] 21:13:36:909 memoria/(13796:13870): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:13:36:914 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:13:36:944 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:13:36:946 memoria/(13796:13870): pagina: 0
+[WARNING] 21:13:37:050 memoria/(13796:13870): 1)entrada_tp->nro_pagina: 0
+[INFO] 21:13:37:056 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:13:37:057 memoria/(13796:13870): pagina: 0
+[WARNING] 21:13:37:160 memoria/(13796:13870): (*hmd)->prevAlloc 0
+[WARNING] 21:13:37:161 memoria/(13796:13870): (*hmd)->nextAlloc 13
+[WARNING] 21:13:37:163 memoria/(13796:13870): (*hmd)->isFree 0
+[INFO] 21:13:37:167 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:37:168 memoria/(13796:13870): pagina: 1
+[WARNING] 21:13:37:270 memoria/(13796:13870): (*hmd)->prevAlloc 0
+[WARNING] 21:13:37:272 memoria/(13796:13870): (*hmd)->nextAlloc 0
+[WARNING] 21:13:37:273 memoria/(13796:13870): (*hmd)->isFree 1
+[WARNING] 21:13:37:277 memoria/(13796:13870): Direccion de ultimo hdm : 13
+[WARNING] 21:13:37:278 memoria/(13796:13870): hmd_inicial->nextAlloc 26
+[WARNING] 21:13:37:279 memoria/(13796:13870): entrada_tp->nro_pagina 0
+[WARNING] 21:13:37:279 memoria/(13796:13870): offset 13
+[ERROR] 21:13:37:281 memoria/(13796:13870): offset 6
+[ERROR] 21:13:37:283 memoria/(13796:13870): pags_parcial 0
+[ERROR] 21:13:37:284 memoria/(13796:13870): cant_paginas 1
+[WARNING] 21:13:37:285 memoria/(13796:13870): cant_paginas_a_swapear 1
+[INFO] 21:13:37:442 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:37:457 memoria/(13796:13870): pagina: 1
+[ERROR] 21:13:37:560 memoria/(13796:13870): pagina: 2
+[WARNING] 21:13:37:562 memoria/(13796:13870): get_tlb_size 2
+[WARNING] 21:13:37:563 memoria/(13796:13870): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:13:37:564 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:13:37:567 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:13:37:568 memoria/(13796:13870): pagina: 0
+[INFO] 21:13:37:670 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:37:671 memoria/(13796:13870): pagina: 1
+[INFO] 21:13:37:773 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:37:775 memoria/(13796:13870): pagina: 1
+[WARNING] 21:13:37:877 memoria/(13796:13870): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:13:37:884 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:13:37:886 memoria/(13796:13870): pagina: 0
+[WARNING] 21:13:37:988 memoria/(13796:13870): (*hmd)->prevAlloc 0
+[WARNING] 21:13:37:988 memoria/(13796:13870): (*hmd)->nextAlloc 13
+[WARNING] 21:13:37:989 memoria/(13796:13870): (*hmd)->isFree 0
+[INFO] 21:13:37:990 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:37:991 memoria/(13796:13870): pagina: 1
+[WARNING] 21:13:38:093 memoria/(13796:13870): (*hmd)->prevAlloc 0
+[WARNING] 21:13:38:093 memoria/(13796:13870): (*hmd)->nextAlloc 26
+[WARNING] 21:13:38:093 memoria/(13796:13870): (*hmd)->isFree 0
+[INFO] 21:13:38:094 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:38:095 memoria/(13796:13870): pagina: 1
+[INFO] 21:13:38:197 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:13:38:199 memoria/(13796:13870): pagina: 2
+[WARNING] 21:13:38:300 memoria/(13796:13870): (*hmd)->prevAlloc 13
+[WARNING] 21:13:38:303 memoria/(13796:13870): (*hmd)->nextAlloc 0
+[WARNING] 21:13:38:304 memoria/(13796:13870): (*hmd)->isFree 1
+[WARNING] 21:13:38:307 memoria/(13796:13870): Direccion de ultimo hdm : 26
+[WARNING] 21:13:38:309 memoria/(13796:13870): hmd_inicial->nextAlloc 39
+[WARNING] 21:13:38:311 memoria/(13796:13870): entrada_tp->nro_pagina 1
+[WARNING] 21:13:38:313 memoria/(13796:13870): offset 10
+[WARNING] 21:13:38:318 memoria/(13796:13870): cant_paginas_a_swapear 0
+[INFO] 21:13:38:331 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:13:38:332 memoria/(13796:13870): pagina: 2
+[INFO] 21:13:38:434 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:38:436 memoria/(13796:13870): pagina: 1
+[INFO] 21:13:38:538 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:13:38:539 memoria/(13796:13870): pagina: 2
+[INFO] 21:13:38:642 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:13:38:643 memoria/(13796:13870): pagina: 2
+[WARNING] 21:13:38:745 memoria/(13796:13870): 1)entrada_tp->nro_pagina: 2
+[INFO] 21:13:38:747 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:13:38:748 memoria/(13796:13870): pagina: 0
+[WARNING] 21:13:38:849 memoria/(13796:13870): (*hmd)->prevAlloc 0
+[WARNING] 21:13:38:850 memoria/(13796:13870): (*hmd)->nextAlloc 13
+[WARNING] 21:13:38:851 memoria/(13796:13870): (*hmd)->isFree 0
+[INFO] 21:13:38:852 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:38:853 memoria/(13796:13870): pagina: 1
+[WARNING] 21:13:38:954 memoria/(13796:13870): (*hmd)->prevAlloc 0
+[WARNING] 21:13:38:955 memoria/(13796:13870): (*hmd)->nextAlloc 26
+[WARNING] 21:13:38:956 memoria/(13796:13870): (*hmd)->isFree 0
+[INFO] 21:13:38:957 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:13:38:958 memoria/(13796:13870): pagina: 1
+[INFO] 21:13:39:059 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:13:39:061 memoria/(13796:13870): pagina: 2
+[WARNING] 21:13:39:163 memoria/(13796:13870): (*hmd)->prevAlloc 13
+[WARNING] 21:13:39:164 memoria/(13796:13870): (*hmd)->nextAlloc 39
+[WARNING] 21:13:39:164 memoria/(13796:13870): (*hmd)->isFree 0
+[INFO] 21:13:39:165 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:13:39:166 memoria/(13796:13870): pagina: 2
+[WARNING] 21:13:39:267 memoria/(13796:13870): (*hmd)->prevAlloc 26
+[WARNING] 21:13:39:268 memoria/(13796:13870): (*hmd)->nextAlloc 0
+[WARNING] 21:13:39:269 memoria/(13796:13870): (*hmd)->isFree 1
+[WARNING] 21:13:39:270 memoria/(13796:13870): Direccion de ultimo hdm : 39
+[WARNING] 21:13:39:271 memoria/(13796:13870): hmd_inicial->nextAlloc 52
+[WARNING] 21:13:39:272 memoria/(13796:13870): entrada_tp->nro_pagina 2
+[WARNING] 21:13:39:272 memoria/(13796:13870): offset 7
+[WARNING] 21:13:39:274 memoria/(13796:13870): cant_paginas_a_swapear 1
+[INFO] 21:13:39:282 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 43
+
+[INFO] 21:13:39:284 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:13:39:284 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 53
+
+[INFO] 21:13:39:287 memoria/(13796:13870): Swapeo pagina 0 del carpincho 1
+[WARNING] 21:13:39:288 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:13:39:297 memoria/(13796:13870): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:13:39:303 memoria/(13796:13870): pagina: 3
+[WARNING] 21:13:39:304 memoria/(13796:13870): get_tlb_size 2
+[WARNING] 21:13:39:305 memoria/(13796:13870): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:13:39:306 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:13:39:308 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:13:39:309 memoria/(13796:13870): pagina: 2
+[INFO] 21:13:39:410 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 0 
+
+[ERROR] 21:13:39:412 memoria/(13796:13870): pagina: 3
+[WARNING] 21:13:39:513 memoria/(13796:13870): 1)entrada_tp->nro_pagina: 3
+[WARNING] 21:13:39:524 memoria/(13796:13870): offset_hmd_a_leer 13
+[WARNING] 21:13:39:530 memoria/(13796:13870): cant_paginas_a_leer 1
+[WARNING] 21:13:39:531 memoria/(13796:13870): size 4
+[WARNING] 21:13:39:533 memoria/(13796:13870): offset_data 6
+[INFO] 21:13:39:535 memoria/(13796:13870): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:13:40:538 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:13:40:542 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:13:40:543 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 57
+
+[INFO] 21:13:40:545 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 59
+
+[INFO] 21:13:40:546 memoria/(13796:13870): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:13:40:548 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:13:40:553 memoria/(13796:13870): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:13:41:560 memoria/(13796:13870): pagina: 0
+[WARNING] 21:13:41:562 memoria/(13796:13870): get_tlb_size 2
+[WARNING] 21:13:41:562 memoria/(13796:13870): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:13:41:564 memoria/(13796:13870): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:13:42:566 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:13:42:569 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 60
+
+[INFO] 21:13:42:570 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 57
+
+[INFO] 21:13:42:572 memoria/(13796:13870): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 59
+
+[INFO] 21:13:42:576 memoria/(13796:13870): Swapeo pagina 2 del carpincho 1
+[WARNING] 21:13:42:579 memoria/(13796:13870): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:13:42:585 memoria/(13796:13870): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:13:43:584 memoria/(13796:13870): pagina: 1
+[WARNING] 21:13:43:585 memoria/(13796:13870): get_tlb_size 2
+[WARNING] 21:13:43:586 memoria/(13796:13870): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:13:43:588 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:13:43:590 memoria/(13796:13870): pagina: 1
+[WARNING] 21:13:43:693 memoria/(13796:13870): DEST PRUEBA: 0
+[INFO] 21:13:43:731 memoria/(13796:13870): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:13:43:733 memoria/(13796:13870): pagina: 0
+[WARNING] 21:13:43:834 memoria/(13796:13870): DEST PRUEBA: 3288430
+[INFO] 21:14:11:145 memoria/(13796:13870): DISCONNECT!
+[INFO] 21:14:11:152 memoria/(13796:13833): DISCONNECT!
+[INFO] 21:14:12:259 memoria/(13796:13796): Senial SIGINT
+[INFO] 21:14:12:263 memoria/(13796:13796): -------------
+[INFO] 21:14:12:265 memoria/(13796:13796): Cantidad TLB Hits totales: 24
+[INFO] 21:14:12:269 memoria/(13796:13796): Cantidad TLB Miss totales: 2
+[INFO] 21:14:12:271 memoria/(13796:13796): Carpincho: 1 - Cantidad Hits: 24
+[INFO] 21:14:12:276 memoria/(13796:13796): Carpincho: 1 - Cantidad Miss: 2
+[INFO] 21:14:17:880 memoria/(13978:13978): CONFIGURACION CARGADA EXITOSAMENTE
+[WARNING] 21:14:17:967 memoria/(13978:13978): fijaaaa 1
+[INFO] 21:14:17:987 memoria/(13978:13978): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 21:14:17:990 memoria/(13978:13978): ------2---------
+
+[INFO] 21:14:17:995 memoria/(13978:13978): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 21:14:19:852 memoria/(13978:13978): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:14:22:097 memoria/(13978:13978): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 21:14:22:219 memoria/(13978:14041): 
+Se conecto el carpincho: 1 
+
+[WARNING] 21:14:22:318 memoria/(13978:14041): cant_paginas_a_swapear 2
+[ERROR] 21:14:22:345 memoria/(13978:14041): pagina: 0
+[WARNING] 21:14:22:350 memoria/(13978:14041): get_tlb_size 0
+[WARNING] 21:14:22:351 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:22:358 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 0
+[ERROR] 21:14:22:367 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:22:368 memoria/(13978:14041): get_tlb_size 1
+[WARNING] 21:14:22:369 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:22:370 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:14:22:402 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:22:404 memoria/(13978:14041): pagina: 0
+[WARNING] 21:14:22:508 memoria/(13978:14041): 1)entrada_tp->nro_pagina: 0
+[INFO] 21:14:22:512 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:22:515 memoria/(13978:14041): pagina: 0
+[WARNING] 21:14:22:617 memoria/(13978:14041): (*hmd)->prevAlloc 0
+[WARNING] 21:14:22:619 memoria/(13978:14041): (*hmd)->nextAlloc 13
+[WARNING] 21:14:22:621 memoria/(13978:14041): (*hmd)->isFree 0
+[INFO] 21:14:22:624 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:22:625 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:22:726 memoria/(13978:14041): (*hmd)->prevAlloc 0
+[WARNING] 21:14:22:727 memoria/(13978:14041): (*hmd)->nextAlloc 0
+[WARNING] 21:14:22:728 memoria/(13978:14041): (*hmd)->isFree 1
+[WARNING] 21:14:22:732 memoria/(13978:14041): Direccion de ultimo hdm : 13
+[WARNING] 21:14:22:733 memoria/(13978:14041): hmd_inicial->nextAlloc 26
+[WARNING] 21:14:22:735 memoria/(13978:14041): entrada_tp->nro_pagina 0
+[WARNING] 21:14:22:736 memoria/(13978:14041): offset 13
+[ERROR] 21:14:22:739 memoria/(13978:14041): offset 6
+[ERROR] 21:14:22:741 memoria/(13978:14041): pags_parcial 0
+[ERROR] 21:14:22:742 memoria/(13978:14041): cant_paginas 1
+[WARNING] 21:14:22:743 memoria/(13978:14041): cant_paginas_a_swapear 1
+[INFO] 21:14:22:899 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:22:900 memoria/(13978:14041): pagina: 1
+[ERROR] 21:14:23:004 memoria/(13978:14041): pagina: 2
+[WARNING] 21:14:23:006 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:23:007 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:23:008 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:14:23:012 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:23:013 memoria/(13978:14041): pagina: 0
+[INFO] 21:14:23:115 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:23:117 memoria/(13978:14041): pagina: 1
+[INFO] 21:14:23:220 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:23:222 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:23:324 memoria/(13978:14041): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:14:23:327 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:23:329 memoria/(13978:14041): pagina: 0
+[WARNING] 21:14:23:430 memoria/(13978:14041): (*hmd)->prevAlloc 0
+[WARNING] 21:14:23:430 memoria/(13978:14041): (*hmd)->nextAlloc 13
+[WARNING] 21:14:23:431 memoria/(13978:14041): (*hmd)->isFree 0
+[INFO] 21:14:23:433 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:23:435 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:23:537 memoria/(13978:14041): (*hmd)->prevAlloc 0
+[WARNING] 21:14:23:538 memoria/(13978:14041): (*hmd)->nextAlloc 26
+[WARNING] 21:14:23:539 memoria/(13978:14041): (*hmd)->isFree 0
+[INFO] 21:14:23:540 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:23:541 memoria/(13978:14041): pagina: 1
+[INFO] 21:14:23:643 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:23:645 memoria/(13978:14041): pagina: 2
+[WARNING] 21:14:23:746 memoria/(13978:14041): (*hmd)->prevAlloc 13
+[WARNING] 21:14:23:747 memoria/(13978:14041): (*hmd)->nextAlloc 0
+[WARNING] 21:14:23:748 memoria/(13978:14041): (*hmd)->isFree 1
+[WARNING] 21:14:23:749 memoria/(13978:14041): Direccion de ultimo hdm : 26
+[WARNING] 21:14:23:750 memoria/(13978:14041): hmd_inicial->nextAlloc 39
+[WARNING] 21:14:23:751 memoria/(13978:14041): entrada_tp->nro_pagina 1
+[WARNING] 21:14:23:752 memoria/(13978:14041): offset 10
+[WARNING] 21:14:23:753 memoria/(13978:14041): cant_paginas_a_swapear 0
+[INFO] 21:14:23:756 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:23:758 memoria/(13978:14041): pagina: 2
+[INFO] 21:14:23:862 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:23:863 memoria/(13978:14041): pagina: 1
+[INFO] 21:14:23:964 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:23:965 memoria/(13978:14041): pagina: 2
+[INFO] 21:14:24:067 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:24:068 memoria/(13978:14041): pagina: 2
+[WARNING] 21:14:24:170 memoria/(13978:14041): 1)entrada_tp->nro_pagina: 2
+[INFO] 21:14:24:174 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:24:175 memoria/(13978:14041): pagina: 0
+[WARNING] 21:14:24:277 memoria/(13978:14041): (*hmd)->prevAlloc 0
+[WARNING] 21:14:24:278 memoria/(13978:14041): (*hmd)->nextAlloc 13
+[WARNING] 21:14:24:278 memoria/(13978:14041): (*hmd)->isFree 0
+[INFO] 21:14:24:280 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:24:281 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:24:382 memoria/(13978:14041): (*hmd)->prevAlloc 0
+[WARNING] 21:14:24:384 memoria/(13978:14041): (*hmd)->nextAlloc 26
+[WARNING] 21:14:24:385 memoria/(13978:14041): (*hmd)->isFree 0
+[INFO] 21:14:24:388 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:24:392 memoria/(13978:14041): pagina: 1
+[INFO] 21:14:24:496 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:24:497 memoria/(13978:14041): pagina: 2
+[WARNING] 21:14:24:598 memoria/(13978:14041): (*hmd)->prevAlloc 13
+[WARNING] 21:14:24:598 memoria/(13978:14041): (*hmd)->nextAlloc 39
+[WARNING] 21:14:24:599 memoria/(13978:14041): (*hmd)->isFree 0
+[INFO] 21:14:24:600 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:24:600 memoria/(13978:14041): pagina: 2
+[WARNING] 21:14:24:702 memoria/(13978:14041): (*hmd)->prevAlloc 26
+[WARNING] 21:14:24:703 memoria/(13978:14041): (*hmd)->nextAlloc 0
+[WARNING] 21:14:24:703 memoria/(13978:14041): (*hmd)->isFree 1
+[WARNING] 21:14:24:704 memoria/(13978:14041): Direccion de ultimo hdm : 39
+[WARNING] 21:14:24:705 memoria/(13978:14041): hmd_inicial->nextAlloc 52
+[WARNING] 21:14:24:706 memoria/(13978:14041): entrada_tp->nro_pagina 2
+[WARNING] 21:14:24:707 memoria/(13978:14041): offset 7
+[WARNING] 21:14:24:708 memoria/(13978:14041): cant_paginas_a_swapear 1
+[INFO] 21:14:24:715 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 43
+
+[INFO] 21:14:24:718 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:14:24:719 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 53
+
+[INFO] 21:14:24:722 memoria/(13978:14041): Swapeo pagina 0 del carpincho 1
+[WARNING] 21:14:24:723 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:14:24:740 memoria/(13978:14041): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:14:24:760 memoria/(13978:14041): pagina: 3
+[WARNING] 21:14:24:762 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:24:764 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:24:775 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:14:24:781 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:24:785 memoria/(13978:14041): pagina: 2
+[INFO] 21:14:24:891 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 0 
+
+[ERROR] 21:14:24:904 memoria/(13978:14041): pagina: 3
+[WARNING] 21:14:25:008 memoria/(13978:14041): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:14:25:036 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:25:049 memoria/(13978:14041): pagina: 2
+[INFO] 21:14:25:153 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 0 
+
+[ERROR] 21:14:25:155 memoria/(13978:14041): pagina: 3
+[WARNING] 21:14:25:264 memoria/(13978:14041): DEST PRUEBA: 1
+[WARNING] 21:14:25:305 memoria/(13978:14041): offset_hmd_a_leer 13
+[WARNING] 21:14:25:310 memoria/(13978:14041): cant_paginas_a_leer 1
+[WARNING] 21:14:25:311 memoria/(13978:14041): size 4
+[WARNING] 21:14:25:313 memoria/(13978:14041): offset_data 6
+[INFO] 21:14:25:316 memoria/(13978:14041): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:14:26:326 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:14:26:329 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:14:26:329 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 61
+
+[INFO] 21:14:26:330 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 63
+
+[INFO] 21:14:26:330 memoria/(13978:14041): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:14:26:331 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:14:26:332 memoria/(13978:14041): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:14:27:337 memoria/(13978:14041): pagina: 0
+[WARNING] 21:14:27:340 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:27:342 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:14:27:344 memoria/(13978:14041): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:14:28:347 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:14:28:349 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 64
+
+[INFO] 21:14:28:350 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 61
+
+[INFO] 21:14:28:351 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 63
+
+[INFO] 21:14:28:352 memoria/(13978:14041): Swapeo pagina 2 del carpincho 1
+[WARNING] 21:14:28:353 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:14:28:355 memoria/(13978:14041): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:14:29:356 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:29:358 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:29:359 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:14:29:362 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:14:29:369 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:29:472 memoria/(13978:14041): DEST PRUEBA: 0
+[INFO] 21:14:29:514 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:14:29:515 memoria/(13978:14041): pagina: 0
+[WARNING] 21:14:29:617 memoria/(13978:14041): DEST PRUEBA: 3288430
+[INFO] 21:14:29:681 memoria/(13978:14041): 
 TLB MISS: PID: 1  PAGINA: 2 
 
-[WARNING] 19:16:53:768 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 2
-[ERROR] 19:16:53:769 memoria/(3543:3612): pagina: 2
-[WARNING] 19:16:53:769 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:53:769 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:53:770 memoria/(3543:3612): Reemplazo TLB: saco la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
-[INFO] 19:16:53:771 memoria/(3543:3612): 
+[WARNING] 21:14:30:683 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:14:30:684 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 72
+
+[INFO] 21:14:30:684 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 69
+
+[INFO] 21:14:30:685 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 63
+
+[INFO] 21:14:30:685 memoria/(13978:14041): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:14:30:685 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:14:30:688 memoria/(13978:14041): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:14:31:690 memoria/(13978:14041): pagina: 2
+[WARNING] 21:14:31:691 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:31:692 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:14:31:695 memoria/(13978:14041): 
 TLB MISS: PID: 1  PAGINA: 3 
 
-[WARNING] 19:16:54:772 memoria/(3543:3612): tabla_carpincho->paginas : 78063904 --- index : 3
-[ERROR] 19:16:54:774 memoria/(3543:3612): pagina: 3
-[WARNING] 19:16:54:774 memoria/(3543:3612): get_tlb_size 3
-[WARNING] 19:16:54:774 memoria/(3543:3612): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
-[INFO] 19:16:54:775 memoria/(3543:3612): Reemplazo TLB: saco la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
-[ERROR] 19:16:54:960 memoria/(3543:3612): Error al recibir data para leer
-[INFO] 19:16:54:960 memoria/(3543:3612): DISCONNECT!
-[INFO] 19:16:54:965 memoria/(3543:3583): DISCONNECT!
-[INFO] 19:16:56:518 memoria/(3543:3543): Senial SIGINT
-[INFO] 19:16:56:519 memoria/(3543:3543): -------------
-[INFO] 19:16:56:519 memoria/(3543:3543): Cantidad TLB Hits totales: 36
-[INFO] 19:16:56:520 memoria/(3543:3543): Cantidad TLB Miss totales: 24
-[INFO] 19:16:56:521 memoria/(3543:3543): Carpincho: 1 - Cantidad Hits: 36
-[INFO] 19:16:56:522 memoria/(3543:3543): Carpincho: 1 - Cantidad Miss: 24
+[WARNING] 21:14:32:700 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:14:32:703 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 72
+
+[INFO] 21:14:32:705 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 69
+
+[INFO] 21:14:32:707 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 74
+
+[INFO] 21:14:32:711 memoria/(13978:14041): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:14:33:216 memoria/(13978:14041): pagina: 3
+[WARNING] 21:14:33:216 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:33:217 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:33:217 memoria/(13978:14041): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:14:33:219 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:14:33:220 memoria/(13978:14041): pagina: 0
+[INFO] 21:14:33:323 memoria/(13978:14041): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:14:34:326 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:14:34:334 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 77
+
+[INFO] 21:14:34:338 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 74
+
+[INFO] 21:14:34:340 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 76
+
+[INFO] 21:14:34:344 memoria/(13978:14041): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:14:34:850 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:34:851 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:34:852 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:14:34:855 memoria/(13978:14041): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:14:34:858 memoria/(13978:14041): pagina: 1
+[WARNING] 21:14:34:959 memoria/(13978:14041): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:14:34:960 memoria/(13978:14041): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:14:35:962 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:14:35:964 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 77
+
+[INFO] 21:14:35:965 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 82
+
+[INFO] 21:14:35:966 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 76
+
+[INFO] 21:14:35:968 memoria/(13978:14041): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:14:35:968 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:14:35:970 memoria/(13978:14041): Marco: 2 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:14:36:973 memoria/(13978:14041): pagina: 2
+[WARNING] 21:14:36:975 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:36:977 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:14:36:979 memoria/(13978:14041): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:14:37:982 memoria/(13978:14041): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:14:37:983 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 77
+
+[INFO] 21:14:37:984 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 82
+
+[INFO] 21:14:37:984 memoria/(13978:14041): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 84
+
+[INFO] 21:14:37:985 memoria/(13978:14041): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:14:38:488 memoria/(13978:14041): pagina: 3
+[WARNING] 21:14:38:491 memoria/(13978:14041): get_tlb_size 2
+[WARNING] 21:14:38:493 memoria/(13978:14041): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:38:495 memoria/(13978:14041): DEST PRUEBA: 1
+[INFO] 21:14:38:753 memoria/(13978:14041): DISCONNECT!
+[INFO] 21:14:38:760 memoria/(13978:14015): DISCONNECT!
+[INFO] 21:14:39:865 memoria/(13978:13978): Senial SIGINT
+[INFO] 21:14:39:870 memoria/(13978:13978): -------------
+[INFO] 21:14:39:873 memoria/(13978:13978): Cantidad TLB Hits totales: 28
+[INFO] 21:14:39:877 memoria/(13978:13978): Cantidad TLB Miss totales: 7
+[INFO] 21:14:39:888 memoria/(13978:13978): Carpincho: 1 - Cantidad Hits: 28
+[INFO] 21:14:39:891 memoria/(13978:13978): Carpincho: 1 - Cantidad Miss: 7
+[INFO] 21:14:46:820 memoria/(14125:14125): CONFIGURACION CARGADA EXITOSAMENTE
+[WARNING] 21:14:46:905 memoria/(14125:14125): fijaaaa 1
+[INFO] 21:14:46:923 memoria/(14125:14125): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 21:14:46:928 memoria/(14125:14125): ------2---------
+
+[INFO] 21:14:46:934 memoria/(14125:14125): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 21:14:48:851 memoria/(14125:14125): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 21:14:56:624 memoria/(14125:14125): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 21:14:56:743 memoria/(14125:14196): 
+Se conecto el carpincho: 1 
+
+[WARNING] 21:14:56:841 memoria/(14125:14196): cant_paginas_a_swapear 2
+[ERROR] 21:14:56:918 memoria/(14125:14196): pagina: 0
+[WARNING] 21:14:56:936 memoria/(14125:14196): get_tlb_size 0
+[WARNING] 21:14:56:954 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:56:969 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[ERROR] 21:14:57:008 memoria/(14125:14196): pagina: 1
+[WARNING] 21:14:57:012 memoria/(14125:14196): get_tlb_size 1
+[WARNING] 21:14:57:013 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:57:032 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:14:57:059 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:57:069 memoria/(14125:14196): pagina: 0
+[WARNING] 21:14:57:184 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 0
+[INFO] 21:14:57:194 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:57:196 memoria/(14125:14196): pagina: 0
+[WARNING] 21:14:57:300 memoria/(14125:14196): (*hmd)->prevAlloc 0
+[WARNING] 21:14:57:303 memoria/(14125:14196): (*hmd)->nextAlloc 13
+[WARNING] 21:14:57:305 memoria/(14125:14196): (*hmd)->isFree 0
+[INFO] 21:14:57:310 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:57:311 memoria/(14125:14196): pagina: 1
+[WARNING] 21:14:57:414 memoria/(14125:14196): (*hmd)->prevAlloc 0
+[WARNING] 21:14:57:418 memoria/(14125:14196): (*hmd)->nextAlloc 0
+[WARNING] 21:14:57:419 memoria/(14125:14196): (*hmd)->isFree 1
+[WARNING] 21:14:57:422 memoria/(14125:14196): Direccion de ultimo hdm : 13
+[WARNING] 21:14:57:430 memoria/(14125:14196): hmd_inicial->nextAlloc 26
+[WARNING] 21:14:57:431 memoria/(14125:14196): entrada_tp->nro_pagina 0
+[WARNING] 21:14:57:432 memoria/(14125:14196): offset 13
+[ERROR] 21:14:57:434 memoria/(14125:14196): offset 6
+[ERROR] 21:14:57:435 memoria/(14125:14196): pags_parcial 0
+[ERROR] 21:14:57:437 memoria/(14125:14196): cant_paginas 1
+[WARNING] 21:14:57:438 memoria/(14125:14196): cant_paginas_a_swapear 1
+[INFO] 21:14:57:513 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:57:515 memoria/(14125:14196): pagina: 1
+[ERROR] 21:14:57:619 memoria/(14125:14196): pagina: 2
+[WARNING] 21:14:57:620 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:14:57:621 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:57:625 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:14:57:630 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:57:636 memoria/(14125:14196): pagina: 0
+[INFO] 21:14:57:738 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:57:739 memoria/(14125:14196): pagina: 1
+[INFO] 21:14:57:841 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:57:843 memoria/(14125:14196): pagina: 1
+[WARNING] 21:14:57:944 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:14:57:948 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:57:950 memoria/(14125:14196): pagina: 0
+[WARNING] 21:14:58:050 memoria/(14125:14196): (*hmd)->prevAlloc 0
+[WARNING] 21:14:58:052 memoria/(14125:14196): (*hmd)->nextAlloc 13
+[WARNING] 21:14:58:052 memoria/(14125:14196): (*hmd)->isFree 0
+[INFO] 21:14:58:053 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:58:054 memoria/(14125:14196): pagina: 1
+[WARNING] 21:14:58:156 memoria/(14125:14196): (*hmd)->prevAlloc 0
+[WARNING] 21:14:58:157 memoria/(14125:14196): (*hmd)->nextAlloc 26
+[WARNING] 21:14:58:157 memoria/(14125:14196): (*hmd)->isFree 0
+[INFO] 21:14:58:159 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:58:160 memoria/(14125:14196): pagina: 1
+[INFO] 21:14:58:262 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:58:265 memoria/(14125:14196): pagina: 2
+[WARNING] 21:14:58:366 memoria/(14125:14196): (*hmd)->prevAlloc 13
+[WARNING] 21:14:58:367 memoria/(14125:14196): (*hmd)->nextAlloc 0
+[WARNING] 21:14:58:368 memoria/(14125:14196): (*hmd)->isFree 1
+[WARNING] 21:14:58:370 memoria/(14125:14196): Direccion de ultimo hdm : 26
+[WARNING] 21:14:58:372 memoria/(14125:14196): hmd_inicial->nextAlloc 39
+[WARNING] 21:14:58:373 memoria/(14125:14196): entrada_tp->nro_pagina 1
+[WARNING] 21:14:58:376 memoria/(14125:14196): offset 10
+[WARNING] 21:14:58:377 memoria/(14125:14196): cant_paginas_a_swapear 0
+[INFO] 21:14:58:399 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:58:402 memoria/(14125:14196): pagina: 2
+[INFO] 21:14:58:503 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:58:505 memoria/(14125:14196): pagina: 1
+[INFO] 21:14:58:606 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:58:607 memoria/(14125:14196): pagina: 2
+[INFO] 21:14:58:710 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:58:713 memoria/(14125:14196): pagina: 2
+[WARNING] 21:14:58:815 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 2
+[INFO] 21:14:58:817 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:14:58:818 memoria/(14125:14196): pagina: 0
+[WARNING] 21:14:58:919 memoria/(14125:14196): (*hmd)->prevAlloc 0
+[WARNING] 21:14:58:920 memoria/(14125:14196): (*hmd)->nextAlloc 13
+[WARNING] 21:14:58:922 memoria/(14125:14196): (*hmd)->isFree 0
+[INFO] 21:14:58:928 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:58:932 memoria/(14125:14196): pagina: 1
+[WARNING] 21:14:59:034 memoria/(14125:14196): (*hmd)->prevAlloc 0
+[WARNING] 21:14:59:036 memoria/(14125:14196): (*hmd)->nextAlloc 26
+[WARNING] 21:14:59:037 memoria/(14125:14196): (*hmd)->isFree 0
+[INFO] 21:14:59:037 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:14:59:044 memoria/(14125:14196): pagina: 1
+[INFO] 21:14:59:150 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:59:153 memoria/(14125:14196): pagina: 2
+[WARNING] 21:14:59:256 memoria/(14125:14196): (*hmd)->prevAlloc 13
+[WARNING] 21:14:59:259 memoria/(14125:14196): (*hmd)->nextAlloc 39
+[WARNING] 21:14:59:261 memoria/(14125:14196): (*hmd)->isFree 0
+[INFO] 21:14:59:263 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:59:266 memoria/(14125:14196): pagina: 2
+[WARNING] 21:14:59:367 memoria/(14125:14196): (*hmd)->prevAlloc 26
+[WARNING] 21:14:59:368 memoria/(14125:14196): (*hmd)->nextAlloc 0
+[WARNING] 21:14:59:369 memoria/(14125:14196): (*hmd)->isFree 1
+[WARNING] 21:14:59:370 memoria/(14125:14196): Direccion de ultimo hdm : 39
+[WARNING] 21:14:59:371 memoria/(14125:14196): hmd_inicial->nextAlloc 52
+[WARNING] 21:14:59:371 memoria/(14125:14196): entrada_tp->nro_pagina 2
+[WARNING] 21:14:59:371 memoria/(14125:14196): offset 7
+[WARNING] 21:14:59:372 memoria/(14125:14196): cant_paginas_a_swapear 1
+[INFO] 21:14:59:387 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 43
+
+[INFO] 21:14:59:390 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:14:59:391 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 53
+
+[INFO] 21:14:59:394 memoria/(14125:14196): Swapeo pagina 0 del carpincho 1
+[WARNING] 21:14:59:396 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:14:59:408 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:14:59:415 memoria/(14125:14196): pagina: 3
+[WARNING] 21:14:59:416 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:14:59:417 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:14:59:418 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:14:59:420 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:59:422 memoria/(14125:14196): pagina: 2
+[INFO] 21:14:59:524 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 0 
+
+[ERROR] 21:14:59:527 memoria/(14125:14196): pagina: 3
+[WARNING] 21:14:59:630 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:14:59:654 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:14:59:655 memoria/(14125:14196): pagina: 2
+[INFO] 21:14:59:758 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 3  MARCO: 0 
+
+[ERROR] 21:14:59:760 memoria/(14125:14196): pagina: 3
+[WARNING] 21:14:59:862 memoria/(14125:14196): DEST PRUEBA: 1
+[WARNING] 21:14:59:903 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:14:59:905 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:14:59:906 memoria/(14125:14196): size 4
+[WARNING] 21:14:59:907 memoria/(14125:14196): offset_data 6
+[INFO] 21:14:59:910 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:00:914 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:00:920 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 47
+
+[INFO] 21:15:00:921 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 61
+
+[INFO] 21:15:00:922 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 63
+
+[INFO] 21:15:00:923 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:15:00:924 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:00:932 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:01:937 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:01:938 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:01:939 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:01:940 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:02:943 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:02:951 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 64
+
+[INFO] 21:15:02:954 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 61
+
+[INFO] 21:15:02:959 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 63
+
+[INFO] 21:15:02:961 memoria/(14125:14196): Swapeo pagina 2 del carpincho 1
+[WARNING] 21:15:02:963 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:02:967 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:03:968 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:03:969 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:03:971 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:03:973 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:15:03:975 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:04:076 memoria/(14125:14196): DEST PRUEBA: 0
+[INFO] 21:15:04:118 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:15:04:119 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:04:220 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:15:04:258 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:15:04:260 memoria/(14125:14196): pagina: 1
+[INFO] 21:15:04:362 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:05:364 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:05:370 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 72
+
+[INFO] 21:15:05:373 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 73
+
+[INFO] 21:15:05:381 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 63
+
+[INFO] 21:15:05:382 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:15:05:385 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:05:391 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:06:394 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:06:396 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:06:400 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:06:404 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:15:06:407 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:06:508 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:15:06:553 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:15:06:553 memoria/(14125:14196): pagina: 2
+[INFO] 21:15:06:654 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:07:658 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:07:664 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 72
+
+[INFO] 21:15:07:669 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 73
+
+[INFO] 21:15:07:674 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 80
+
+[INFO] 21:15:07:678 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:08:182 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:08:184 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:08:184 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:08:185 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:15:08:188 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:09:191 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:09:195 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 73
+
+[INFO] 21:15:09:197 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 80
+
+[INFO] 21:15:09:199 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 82
+
+[INFO] 21:15:09:201 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:09:703 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:09:704 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:09:705 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:09:706 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:10:709 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:10:711 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 83
+
+[INFO] 21:15:10:712 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 80
+
+[INFO] 21:15:10:713 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 82
+
+[INFO] 21:15:10:714 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:11:217 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:11:219 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:11:221 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:11:224 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:15:11:232 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:11:335 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:15:11:336 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:12:338 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:12:340 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 83
+
+[INFO] 21:15:12:341 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 88
+
+[INFO] 21:15:12:344 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 82
+
+[INFO] 21:15:12:345 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:15:12:347 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:12:349 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:13:352 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:13:354 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:13:357 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:13:358 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:14:361 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:14:363 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 83
+
+[INFO] 21:15:14:364 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 88
+
+[INFO] 21:15:14:365 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 90
+
+[INFO] 21:15:14:366 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:14:869 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:14:870 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:14:872 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:14:873 memoria/(14125:14196): DEST PRUEBA: 1
+[WARNING] 21:15:14:906 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:15:14:906 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:15:14:907 memoria/(14125:14196): size 4
+[WARNING] 21:15:14:907 memoria/(14125:14196): offset_data 6
+[INFO] 21:15:14:910 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:15:913 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:15:916 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 88
+
+[INFO] 21:15:15:918 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 90
+
+[INFO] 21:15:15:919 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 92
+
+[INFO] 21:15:15:922 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:15:15:924 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:15:927 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:16:929 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:16:931 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:16:932 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:16:934 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:17:936 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:17:939 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 93
+
+[INFO] 21:15:17:941 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 90
+
+[INFO] 21:15:17:942 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 92
+
+[INFO] 21:15:17:944 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:18:446 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:18:447 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:18:449 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:18:451 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:15:18:455 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:18:557 memoria/(14125:14196): DEST PRUEBA: 1
+[INFO] 21:15:18:598 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:15:18:598 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:18:699 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:15:18:737 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:15:18:738 memoria/(14125:14196): pagina: 1
+[INFO] 21:15:18:839 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:19:841 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:19:845 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 101
+
+[INFO] 21:15:19:848 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 102
+
+[INFO] 21:15:19:852 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 92
+
+[INFO] 21:15:19:856 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:20:358 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:20:359 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:20:360 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:20:361 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:15:20:362 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:20:464 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:15:20:507 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:15:20:507 memoria/(14125:14196): pagina: 2
+[INFO] 21:15:20:609 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:21:611 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:21:615 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 101
+
+[INFO] 21:15:21:618 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 102
+
+[INFO] 21:15:21:621 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 109
+
+[INFO] 21:15:21:629 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:22:133 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:22:135 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:22:136 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:22:137 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:15:22:140 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:23:143 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:23:146 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 102
+
+[INFO] 21:15:23:149 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 109
+
+[INFO] 21:15:23:150 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 111
+
+[INFO] 21:15:23:152 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:23:655 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:23:660 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:23:661 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:23:664 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:24:676 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:24:681 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 112
+
+[INFO] 21:15:24:685 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 109
+
+[INFO] 21:15:24:686 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 111
+
+[INFO] 21:15:24:688 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:25:193 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:25:194 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:25:196 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:25:198 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:15:25:200 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:25:302 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:15:25:304 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:26:307 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:26:313 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 112
+
+[INFO] 21:15:26:316 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 117
+
+[INFO] 21:15:26:318 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 111
+
+[INFO] 21:15:26:320 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:15:26:323 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:26:326 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:27:328 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:27:329 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:27:330 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:27:333 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:28:337 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:28:344 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 112
+
+[INFO] 21:15:28:347 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 117
+
+[INFO] 21:15:28:348 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 119
+
+[INFO] 21:15:28:356 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:28:859 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:28:862 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:28:867 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:28:870 memoria/(14125:14196): DEST PRUEBA: 2
+[WARNING] 21:15:28:906 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:15:28:908 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:15:28:909 memoria/(14125:14196): size 4
+[WARNING] 21:15:28:910 memoria/(14125:14196): offset_data 6
+[INFO] 21:15:28:917 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:29:922 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:29:925 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 117
+
+[INFO] 21:15:29:928 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 119
+
+[INFO] 21:15:29:931 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 121
+
+[INFO] 21:15:29:932 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:15:29:934 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:29:938 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:30:940 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:30:941 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:30:942 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:30:943 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:31:947 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:31:953 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 122
+
+[INFO] 21:15:31:957 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 119
+
+[INFO] 21:15:31:958 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 121
+
+[INFO] 21:15:31:961 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:32:466 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:32:470 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:32:471 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:32:473 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:15:32:476 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:32:578 memoria/(14125:14196): DEST PRUEBA: 1
+[INFO] 21:15:32:618 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 2 
+
+[ERROR] 21:15:32:619 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:32:721 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:15:32:762 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:15:32:762 memoria/(14125:14196): pagina: 1
+[INFO] 21:15:32:864 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:33:867 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:33:871 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 130
+
+[INFO] 21:15:33:872 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 131
+
+[INFO] 21:15:33:872 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 121
+
+[INFO] 21:15:33:880 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:34:384 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:34:385 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:34:386 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:34:388 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 1 
+
+[ERROR] 21:15:34:390 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:34:493 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:15:34:533 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 1 
+
+[ERROR] 21:15:34:533 memoria/(14125:14196): pagina: 2
+[INFO] 21:15:34:634 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:35:636 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:35:638 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 130
+
+[INFO] 21:15:35:639 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 131
+
+[INFO] 21:15:35:641 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 138
+
+[INFO] 21:15:35:642 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:36:145 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:36:146 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:36:147 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:36:149 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:15:36:152 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:37:157 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:37:161 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 131
+
+[INFO] 21:15:37:164 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 138
+
+[INFO] 21:15:37:165 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 140
+
+[INFO] 21:15:37:167 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:37:669 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:37:670 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:37:671 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:37:673 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:38:676 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:38:681 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 141
+
+[INFO] 21:15:38:684 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 138
+
+[INFO] 21:15:38:687 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 140
+
+[INFO] 21:15:38:689 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:39:194 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:39:205 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:39:205 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:39:210 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:15:39:212 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:39:315 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:15:39:316 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:40:318 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:40:320 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 141
+
+[INFO] 21:15:40:321 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 146
+
+[INFO] 21:15:40:323 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 140
+
+[INFO] 21:15:40:324 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:15:40:326 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:40:328 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:41:328 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:41:330 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:41:331 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:41:332 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:42:335 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:42:337 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 141
+
+[INFO] 21:15:42:340 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 146
+
+[INFO] 21:15:42:341 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 148
+
+[INFO] 21:15:42:343 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:42:845 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:42:846 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:42:848 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:42:849 memoria/(14125:14196): DEST PRUEBA: 3
+[WARNING] 21:15:42:885 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:15:42:886 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:15:42:886 memoria/(14125:14196): size 4
+[WARNING] 21:15:42:887 memoria/(14125:14196): offset_data 6
+[INFO] 21:15:42:887 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:43:888 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:43:890 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 146
+
+[INFO] 21:15:43:891 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 148
+
+[INFO] 21:15:43:892 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 150
+
+[INFO] 21:15:43:893 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:15:43:894 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:43:896 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:44:898 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:44:899 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:44:899 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:44:901 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:45:903 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:45:906 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 151
+
+[INFO] 21:15:45:908 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 148
+
+[INFO] 21:15:45:909 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 150
+
+[INFO] 21:15:45:911 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:46:415 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:46:415 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:46:415 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:46:416 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:15:46:418 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:46:520 memoria/(14125:14196): DEST PRUEBA: 2
+[INFO] 21:15:46:558 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:15:46:559 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:46:661 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:15:46:701 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:15:46:702 memoria/(14125:14196): pagina: 1
+[INFO] 21:15:46:803 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:47:807 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:47:809 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 159
+
+[INFO] 21:15:47:811 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 160
+
+[INFO] 21:15:47:812 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 150
+
+[INFO] 21:15:47:813 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:48:315 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:48:316 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:48:316 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:48:318 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:15:48:319 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:48:421 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:15:48:464 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:15:48:464 memoria/(14125:14196): pagina: 2
+[INFO] 21:15:48:565 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:49:569 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:49:574 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 159
+
+[INFO] 21:15:49:577 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 160
+
+[INFO] 21:15:49:579 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 167
+
+[INFO] 21:15:49:581 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:50:087 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:50:090 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:50:093 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:50:094 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:15:50:096 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:51:102 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:51:104 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 160
+
+[INFO] 21:15:51:105 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 167
+
+[INFO] 21:15:51:106 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 169
+
+[INFO] 21:15:51:106 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:51:609 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:51:610 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:51:613 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:51:615 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:52:618 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:52:622 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 170
+
+[INFO] 21:15:52:625 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 167
+
+[INFO] 21:15:52:626 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 169
+
+[INFO] 21:15:52:628 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:15:53:135 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:53:136 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:53:136 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:53:138 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:15:53:140 memoria/(14125:14196): pagina: 1
+[WARNING] 21:15:53:242 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:15:53:244 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:15:54:248 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:15:54:252 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 170
+
+[INFO] 21:15:54:255 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 175
+
+[INFO] 21:15:54:260 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 169
+
+[INFO] 21:15:54:265 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:15:54:268 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:54:270 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:15:55:272 memoria/(14125:14196): pagina: 2
+[WARNING] 21:15:55:276 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:55:281 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:55:282 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:15:56:284 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:15:56:286 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 170
+
+[INFO] 21:15:56:287 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 175
+
+[INFO] 21:15:56:288 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 177
+
+[INFO] 21:15:56:290 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:15:56:794 memoria/(14125:14196): pagina: 3
+[WARNING] 21:15:56:796 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:56:798 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:15:56:802 memoria/(14125:14196): DEST PRUEBA: 5
+[WARNING] 21:15:56:842 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:15:56:843 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:15:56:843 memoria/(14125:14196): size 4
+[WARNING] 21:15:56:844 memoria/(14125:14196): offset_data 6
+[INFO] 21:15:56:850 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:15:57:853 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:15:57:857 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 175
+
+[INFO] 21:15:57:860 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 177
+
+[INFO] 21:15:57:862 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 179
+
+[INFO] 21:15:57:864 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:15:57:870 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:57:874 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:15:58:877 memoria/(14125:14196): pagina: 0
+[WARNING] 21:15:58:878 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:15:58:878 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:15:58:879 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:15:59:881 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:15:59:886 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 180
+
+[INFO] 21:15:59:889 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 177
+
+[INFO] 21:15:59:891 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 179
+
+[INFO] 21:15:59:894 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:00:399 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:00:401 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:00:403 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:00:406 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:16:00:409 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:00:512 memoria/(14125:14196): DEST PRUEBA: 3
+[INFO] 21:16:00:550 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:16:00:550 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:00:651 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:16:00:690 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:16:00:691 memoria/(14125:14196): pagina: 1
+[INFO] 21:16:00:793 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:01:796 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:01:798 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 188
+
+[INFO] 21:16:01:799 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 189
+
+[INFO] 21:16:01:799 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 179
+
+[INFO] 21:16:01:800 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:02:304 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:02:306 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:02:307 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:02:309 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:16:02:310 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:02:412 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:16:02:453 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:16:02:454 memoria/(14125:14196): pagina: 2
+[INFO] 21:16:02:555 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:03:558 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:03:562 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 188
+
+[INFO] 21:16:03:565 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 189
+
+[INFO] 21:16:03:568 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 196
+
+[INFO] 21:16:03:571 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:04:075 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:04:076 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:04:077 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:04:077 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:16:04:079 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:05:080 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:05:088 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 189
+
+[INFO] 21:16:05:090 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 196
+
+[INFO] 21:16:05:091 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 198
+
+[INFO] 21:16:05:094 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:05:597 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:05:599 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:05:600 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:05:604 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:06:606 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:06:609 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 199
+
+[INFO] 21:16:06:611 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 196
+
+[INFO] 21:16:06:613 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 198
+
+[INFO] 21:16:06:614 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:07:118 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:07:119 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:07:121 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:07:124 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:16:07:126 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:07:228 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:16:07:229 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:08:232 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:08:236 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 199
+
+[INFO] 21:16:08:240 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 204
+
+[INFO] 21:16:08:243 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 198
+
+[INFO] 21:16:08:245 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:16:08:249 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:08:256 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:09:258 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:09:259 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:09:261 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:09:262 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:10:266 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:10:271 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 199
+
+[INFO] 21:16:10:274 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 204
+
+[INFO] 21:16:10:281 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 206
+
+[INFO] 21:16:10:283 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:10:787 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:10:789 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:10:791 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:10:793 memoria/(14125:14196): DEST PRUEBA: 8
+[WARNING] 21:16:10:834 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:16:10:834 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:16:10:834 memoria/(14125:14196): size 4
+[WARNING] 21:16:10:835 memoria/(14125:14196): offset_data 6
+[INFO] 21:16:10:835 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:11:837 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:11:842 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 204
+
+[INFO] 21:16:11:845 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 206
+
+[INFO] 21:16:11:848 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 208
+
+[INFO] 21:16:11:850 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:16:11:856 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:11:859 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:12:861 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:12:863 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:12:865 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:12:868 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:13:873 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:13:876 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 209
+
+[INFO] 21:16:13:879 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 206
+
+[INFO] 21:16:13:881 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 208
+
+[INFO] 21:16:13:883 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:14:388 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:14:390 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:14:391 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:14:395 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:16:14:397 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:14:499 memoria/(14125:14196): DEST PRUEBA: 5
+[INFO] 21:16:14:538 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 2 
+
+[ERROR] 21:16:14:539 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:14:640 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:16:14:677 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:16:14:678 memoria/(14125:14196): pagina: 1
+[INFO] 21:16:14:779 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:15:781 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:15:784 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 217
+
+[INFO] 21:16:15:786 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 218
+
+[INFO] 21:16:15:788 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 208
+
+[INFO] 21:16:15:792 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:16:298 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:16:300 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:16:301 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:16:304 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 1 
+
+[ERROR] 21:16:16:307 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:16:409 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:16:16:452 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 1 
+
+[ERROR] 21:16:16:452 memoria/(14125:14196): pagina: 2
+[INFO] 21:16:16:553 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:17:557 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:17:563 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 217
+
+[INFO] 21:16:17:565 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 218
+
+[INFO] 21:16:17:568 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 225
+
+[INFO] 21:16:17:571 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:18:076 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:18:079 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:18:081 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:18:083 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:16:18:085 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:19:089 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:19:093 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 218
+
+[INFO] 21:16:19:094 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 225
+
+[INFO] 21:16:19:098 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 227
+
+[INFO] 21:16:19:099 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:19:603 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:19:603 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:19:604 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:19:606 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:20:610 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:20:613 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 228
+
+[INFO] 21:16:20:615 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 225
+
+[INFO] 21:16:20:617 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 227
+
+[INFO] 21:16:20:618 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:21:122 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:21:127 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:21:131 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:21:136 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:16:21:142 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:21:244 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:16:21:251 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:22:254 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:22:258 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 228
+
+[INFO] 21:16:22:261 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 233
+
+[INFO] 21:16:22:263 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 227
+
+[INFO] 21:16:22:265 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:16:22:266 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:22:269 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:23:271 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:23:272 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:23:274 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:23:275 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:24:278 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:24:282 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 228
+
+[INFO] 21:16:24:284 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 233
+
+[INFO] 21:16:24:286 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 235
+
+[INFO] 21:16:24:288 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:24:791 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:24:792 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:24:793 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:24:794 memoria/(14125:14196): DEST PRUEBA: 13
+[WARNING] 21:16:24:829 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:16:24:830 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:16:24:830 memoria/(14125:14196): size 4
+[WARNING] 21:16:24:831 memoria/(14125:14196): offset_data 6
+[INFO] 21:16:24:831 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:25:834 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:25:838 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 233
+
+[INFO] 21:16:25:841 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 235
+
+[INFO] 21:16:25:844 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 237
+
+[INFO] 21:16:25:847 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:16:25:849 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:25:851 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:26:854 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:26:854 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:26:855 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:26:857 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:27:859 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:27:861 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 238
+
+[INFO] 21:16:27:863 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 235
+
+[INFO] 21:16:27:864 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 237
+
+[INFO] 21:16:27:865 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:28:368 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:28:368 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:28:369 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:28:371 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:16:28:373 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:28:475 memoria/(14125:14196): DEST PRUEBA: 8
+[INFO] 21:16:28:514 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:16:28:515 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:28:617 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:16:28:653 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:16:28:654 memoria/(14125:14196): pagina: 1
+[INFO] 21:16:28:755 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:29:758 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:29:763 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 246
+
+[INFO] 21:16:29:765 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 247
+
+[INFO] 21:16:29:768 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 237
+
+[INFO] 21:16:29:770 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:30:277 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:30:279 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:30:280 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:30:283 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:16:30:286 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:30:387 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:16:30:431 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:16:30:431 memoria/(14125:14196): pagina: 2
+[INFO] 21:16:30:532 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:31:536 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:31:540 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 246
+
+[INFO] 21:16:31:541 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 247
+
+[INFO] 21:16:31:541 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 254
+
+[INFO] 21:16:31:543 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:32:046 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:32:049 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:32:050 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:32:051 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:16:32:057 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:33:060 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:33:063 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 247
+
+[INFO] 21:16:33:065 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 254
+
+[INFO] 21:16:33:066 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 256
+
+[INFO] 21:16:33:067 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:33:570 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:33:571 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:33:572 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:33:576 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:34:580 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:34:584 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 257
+
+[INFO] 21:16:34:587 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 254
+
+[INFO] 21:16:34:589 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 256
+
+[INFO] 21:16:34:591 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:35:097 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:35:099 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:35:100 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:35:101 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:16:35:102 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:35:203 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:16:35:205 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:36:208 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:36:213 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 257
+
+[INFO] 21:16:36:217 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 262
+
+[INFO] 21:16:36:220 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 256
+
+[INFO] 21:16:36:227 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:16:36:230 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:36:232 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:37:235 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:37:239 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:37:248 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:37:251 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:38:254 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:38:258 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 257
+
+[INFO] 21:16:38:260 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 262
+
+[INFO] 21:16:38:261 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 264
+
+[INFO] 21:16:38:263 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:38:765 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:38:766 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:38:766 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:38:767 memoria/(14125:14196): DEST PRUEBA: 21
+[WARNING] 21:16:38:806 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:16:38:807 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:16:38:807 memoria/(14125:14196): size 4
+[WARNING] 21:16:38:808 memoria/(14125:14196): offset_data 6
+[INFO] 21:16:38:809 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:39:812 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:39:815 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 262
+
+[INFO] 21:16:39:817 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 264
+
+[INFO] 21:16:39:818 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 266
+
+[INFO] 21:16:39:820 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:16:39:821 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:39:823 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:40:826 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:40:827 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:40:828 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:40:831 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:41:836 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:41:844 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 267
+
+[INFO] 21:16:41:854 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 264
+
+[INFO] 21:16:41:857 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 266
+
+[INFO] 21:16:41:858 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:42:365 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:42:367 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:42:368 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:42:369 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:16:42:370 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:42:471 memoria/(14125:14196): DEST PRUEBA: 13
+[INFO] 21:16:42:510 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 0 
+
+[ERROR] 21:16:42:510 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:42:612 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:16:42:650 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:16:42:650 memoria/(14125:14196): pagina: 1
+[INFO] 21:16:42:751 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:43:753 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:43:754 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 275
+
+[INFO] 21:16:43:755 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 276
+
+[INFO] 21:16:43:755 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 266
+
+[INFO] 21:16:43:756 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:44:260 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:44:262 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:44:263 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:44:267 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:16:44:270 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:44:374 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:16:44:415 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 2 
+
+[ERROR] 21:16:44:415 memoria/(14125:14196): pagina: 2
+[INFO] 21:16:44:516 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:45:518 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:45:520 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 275
+
+[INFO] 21:16:45:521 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 276
+
+[INFO] 21:16:45:522 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 283
+
+[INFO] 21:16:45:524 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:46:026 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:46:027 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:46:027 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:46:027 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:16:46:032 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:47:045 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:47:049 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 276
+
+[INFO] 21:16:47:051 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 283
+
+[INFO] 21:16:47:054 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 285
+
+[INFO] 21:16:47:055 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:47:560 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:47:562 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:47:566 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:47:571 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:48:579 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:48:583 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 286
+
+[INFO] 21:16:48:585 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 283
+
+[INFO] 21:16:48:594 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 285
+
+[INFO] 21:16:48:599 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:49:102 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:49:103 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:49:104 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:49:105 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:16:49:106 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:49:207 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:16:49:209 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:50:213 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:50:215 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 286
+
+[INFO] 21:16:50:216 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 291
+
+[INFO] 21:16:50:217 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 285
+
+[INFO] 21:16:50:218 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:16:50:218 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:50:219 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:51:222 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:51:225 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:51:227 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:51:229 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:52:234 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:52:237 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 286
+
+[INFO] 21:16:52:240 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 291
+
+[INFO] 21:16:52:242 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 293
+
+[INFO] 21:16:52:244 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:16:52:747 memoria/(14125:14196): pagina: 3
+[WARNING] 21:16:52:750 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:52:750 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:16:52:751 memoria/(14125:14196): DEST PRUEBA: 34
+[WARNING] 21:16:52:789 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:16:52:790 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:16:52:790 memoria/(14125:14196): size 4
+[WARNING] 21:16:52:791 memoria/(14125:14196): offset_data 6
+[INFO] 21:16:52:792 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:16:53:794 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:16:53:796 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 291
+
+[INFO] 21:16:53:796 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 293
+
+[INFO] 21:16:53:797 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 295
+
+[INFO] 21:16:53:797 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:16:53:798 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:53:798 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:16:54:800 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:54:800 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:54:801 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:54:803 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:16:55:805 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:16:55:807 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 296
+
+[INFO] 21:16:55:808 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 293
+
+[INFO] 21:16:55:809 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 295
+
+[INFO] 21:16:55:810 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:16:56:312 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:56:315 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:56:317 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:56:318 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:16:56:320 memoria/(14125:14196): pagina: 1
+[WARNING] 21:16:56:425 memoria/(14125:14196): DEST PRUEBA: 21
+[INFO] 21:16:56:465 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 2 
+
+[ERROR] 21:16:56:467 memoria/(14125:14196): pagina: 0
+[WARNING] 21:16:56:568 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:16:56:605 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:16:56:606 memoria/(14125:14196): pagina: 1
+[INFO] 21:16:56:707 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:16:57:711 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:16:57:714 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 304
+
+[INFO] 21:16:57:716 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 305
+
+[INFO] 21:16:57:717 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 295
+
+[INFO] 21:16:57:719 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:16:58:224 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:58:225 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:16:58:225 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:16:58:226 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 1 
+
+[ERROR] 21:16:58:227 memoria/(14125:14196): pagina: 2
+[WARNING] 21:16:58:328 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:16:58:369 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 1 
+
+[ERROR] 21:16:58:369 memoria/(14125:14196): pagina: 2
+[INFO] 21:16:58:470 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:16:59:476 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:16:59:486 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 304
+
+[INFO] 21:16:59:488 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 305
+
+[INFO] 21:16:59:491 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 312
+
+[INFO] 21:16:59:495 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:17:00:003 memoria/(14125:14196): pagina: 3
+[WARNING] 21:17:00:004 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:00:005 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:17:00:005 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:17:00:006 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:17:01:013 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:17:01:015 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 305
+
+[INFO] 21:17:01:016 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 312
+
+[INFO] 21:17:01:017 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 314
+
+[INFO] 21:17:01:018 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:17:01:522 memoria/(14125:14196): pagina: 0
+[WARNING] 21:17:01:523 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:01:524 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:01:527 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:17:02:530 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:17:02:535 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 315
+
+[INFO] 21:17:02:540 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 312
+
+[INFO] 21:17:02:545 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 314
+
+[INFO] 21:17:02:546 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:17:03:048 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:03:049 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:03:050 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:03:052 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:17:03:054 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:03:156 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:17:03:157 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:17:04:159 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:17:04:159 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 315
+
+[INFO] 21:17:04:160 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 320
+
+[INFO] 21:17:04:160 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 314
+
+[INFO] 21:17:04:160 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:17:04:161 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:17:04:162 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:17:05:164 memoria/(14125:14196): pagina: 2
+[WARNING] 21:17:05:166 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:05:167 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:05:168 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:17:06:171 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:17:06:174 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 315
+
+[INFO] 21:17:06:176 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 320
+
+[INFO] 21:17:06:176 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 322
+
+[INFO] 21:17:06:177 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:17:06:679 memoria/(14125:14196): pagina: 3
+[WARNING] 21:17:06:680 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:06:681 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:17:06:683 memoria/(14125:14196): DEST PRUEBA: 55
+[WARNING] 21:17:06:718 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:17:06:719 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:17:06:719 memoria/(14125:14196): size 4
+[WARNING] 21:17:06:720 memoria/(14125:14196): offset_data 6
+[INFO] 21:17:06:722 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:17:07:724 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:17:07:727 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 1, TUR: 320
+
+[INFO] 21:17:07:728 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 322
+
+[INFO] 21:17:07:731 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 324
+
+[INFO] 21:17:07:732 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:17:07:734 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:17:07:740 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:17:08:742 memoria/(14125:14196): pagina: 0
+[WARNING] 21:17:08:742 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:08:743 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:08:744 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:17:09:747 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:17:09:749 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 325
+
+[INFO] 21:17:09:750 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 2, TUR: 322
+
+[INFO] 21:17:09:751 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 324
+
+[INFO] 21:17:09:752 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:17:10:254 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:10:255 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:10:257 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:10:259 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:17:10:262 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:10:365 memoria/(14125:14196): DEST PRUEBA: 34
+[INFO] 21:17:10:401 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 0  MARCO: 1 
+
+[ERROR] 21:17:10:402 memoria/(14125:14196): pagina: 0
+[WARNING] 21:17:10:504 memoria/(14125:14196): DEST PRUEBA: 3288430
+[INFO] 21:17:10:542 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 2 
+
+[ERROR] 21:17:10:542 memoria/(14125:14196): pagina: 1
+[INFO] 21:17:10:644 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:17:11:646 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:17:11:649 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 333
+
+[INFO] 21:17:11:651 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 334
+
+[INFO] 21:17:11:652 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 0, TUR: 324
+
+[INFO] 21:17:11:654 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:17:12:157 memoria/(14125:14196): pagina: 2
+[WARNING] 21:17:12:158 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:12:158 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:12:159 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:17:12:160 memoria/(14125:14196): pagina: 2
+[WARNING] 21:17:12:260 memoria/(14125:14196): DEST PRUEBA: 3222894
+[INFO] 21:17:12:305 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 2  MARCO: 0 
+
+[ERROR] 21:17:12:306 memoria/(14125:14196): pagina: 2
+[INFO] 21:17:12:407 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:17:13:410 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:17:13:414 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 1, TUR: 333
+
+[INFO] 21:17:13:416 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 334
+
+[INFO] 21:17:13:420 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 341
+
+[INFO] 21:17:13:425 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:17:13:929 memoria/(14125:14196): pagina: 3
+[WARNING] 21:17:13:930 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:13:931 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:17:13:932 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 3
+[INFO] 21:17:13:936 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:17:14:939 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:17:14:949 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 2, TUR: 334
+
+[INFO] 21:17:14:952 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 341
+
+[INFO] 21:17:14:953 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 343
+
+[INFO] 21:17:14:954 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:17:15:459 memoria/(14125:14196): pagina: 0
+[WARNING] 21:17:15:460 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:15:461 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:15:463 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:17:16:467 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:17:16:467 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 344
+
+[INFO] 21:17:16:468 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 0, TUR: 341
+
+[INFO] 21:17:16:468 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 343
+
+[INFO] 21:17:16:468 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:17:16:972 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:16:972 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:16:972 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:16:973 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 0 
+
+[ERROR] 21:17:16:975 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:17:077 memoria/(14125:14196): 1)entrada_tp->nro_pagina: 1
+[INFO] 21:17:17:080 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 2 
+
+[WARNING] 21:17:18:084 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 2
+[INFO] 21:17:18:085 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 344
+
+[INFO] 21:17:18:086 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 349
+
+[INFO] 21:17:18:092 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 1, TUR: 343
+
+[INFO] 21:17:18:093 memoria/(14125:14196): Swapeo pagina 3 del carpincho 1
+[WARNING] 21:17:18:095 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:17:18:103 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 3 del carpincho 1 con la pagina 2 del carpincho 1
+[ERROR] 21:17:19:110 memoria/(14125:14196): pagina: 2
+[WARNING] 21:17:19:110 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:19:110 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:19:111 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 3 
+
+[WARNING] 21:17:20:113 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 3
+[INFO] 21:17:20:114 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 2, TUR: 344
+
+[INFO] 21:17:20:114 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 349
+
+[INFO] 21:17:20:115 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 351
+
+[INFO] 21:17:20:115 memoria/(14125:14196): Marco: 2 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 1
+[ERROR] 21:17:20:620 memoria/(14125:14196): pagina: 3
+[WARNING] 21:17:20:621 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:20:622 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[WARNING] 21:17:20:623 memoria/(14125:14196): DEST PRUEBA: 89
+[WARNING] 21:17:20:660 memoria/(14125:14196): offset_hmd_a_leer 13
+[WARNING] 21:17:20:660 memoria/(14125:14196): cant_paginas_a_leer 1
+[WARNING] 21:17:20:661 memoria/(14125:14196): size 4
+[WARNING] 21:17:20:662 memoria/(14125:14196): offset_data 6
+[INFO] 21:17:20:664 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 0 
+
+[WARNING] 21:17:21:673 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 0
+[INFO] 21:17:21:674 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 1, nro_frame 0, TUR: 349
+
+[INFO] 21:17:21:674 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 351
+
+[INFO] 21:17:21:674 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 353
+
+[INFO] 21:17:21:675 memoria/(14125:14196): Swapeo pagina 1 del carpincho 1
+[WARNING] 21:17:21:675 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:17:21:677 memoria/(14125:14196): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 0 del carpincho 1
+[ERROR] 21:17:22:678 memoria/(14125:14196): pagina: 0
+[WARNING] 21:17:22:679 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:22:680 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:22:681 memoria/(14125:14196): 
+TLB MISS: PID: 1  PAGINA: 1 
+
+[WARNING] 21:17:23:684 memoria/(14125:14196): tabla_carpincho->paginas : 69470600 --- index : 1
+[INFO] 21:17:23:685 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 0, nro_frame 0, TUR: 354
+
+[INFO] 21:17:23:685 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 2, nro_frame 1, TUR: 351
+
+[INFO] 21:17:23:687 memoria/(14125:14196): 
+VICTIMA ID: 1, nro_pagina: 3, nro_frame 2, TUR: 353
+
+[INFO] 21:17:23:689 memoria/(14125:14196): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 1 del carpincho 1
+[ERROR] 21:17:24:195 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:24:195 memoria/(14125:14196): get_tlb_size 2
+[WARNING] 21:17:24:196 memoria/(14125:14196): MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB 3
+[INFO] 21:17:24:198 memoria/(14125:14196): 
+TLB HIT: PID: 1  PAGINA: 1  MARCO: 1 
+
+[ERROR] 21:17:24:199 memoria/(14125:14196): pagina: 1
+[WARNING] 21:17:24:300 memoria/(14125:14196): DEST PRUEBA: 55
+[INFO] 21:17:24:544 memoria/(14125:14196): DISCONNECT!
+[INFO] 21:17:24:551 memoria/(14125:14169): DISCONNECT!
+[INFO] 21:17:26:926 memoria/(14125:14125): Senial SIGINT
+[INFO] 21:17:26:930 memoria/(14125:14125): -------------
+[INFO] 21:17:26:932 memoria/(14125:14125): Cantidad TLB Hits totales: 85
+[INFO] 21:17:26:933 memoria/(14125:14125): Cantidad TLB Miss totales: 82
+[INFO] 21:17:26:935 memoria/(14125:14125): Carpincho: 1 - Cantidad Hits: 85
+[INFO] 21:17:26:936 memoria/(14125:14125): Carpincho: 1 - Cantidad Miss: 82

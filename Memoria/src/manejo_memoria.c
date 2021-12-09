@@ -459,7 +459,6 @@ void swapear_pagina(unsigned long id, uint32_t nro_pagina, uint32_t* nro_frame){
       pthread_mutex_unlock(&MUTEX_SWAP);
       
       free(data);
-
   }
 }
 

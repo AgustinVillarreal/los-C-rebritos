@@ -78,6 +78,14 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
         log_error(logger, "Estas buscando una pagina que no existe pa");
         return false; 
     }
+    if(direccion_logica == 22){
+        log_warning(logger, "offset_hmd_a_leer %d", offset_hmd_a_leer);
+        log_warning(logger, "cant_paginas_a_leer %d", cant_paginas_a_leer);
+        log_warning(logger, "size %d", size);
+        log_warning(logger, "offset_data %d", offset_data);
+    }
+    
+    //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
     
     //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
     entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
@@ -87,7 +95,7 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
         free(hmd);
         return false;
     }
-    if(!offset_data){
+    if(!offset_data || offset_data <= offset_hmd_a_leer){
         nro_pagina++;
     }
     if(nro_pagina != entrada_tp->nro_pagina){
@@ -110,6 +118,7 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
         }
     //La entrada tp me deja parado al final del hmd (si se leyo mitad y mitad me deja en la segunda mitad), entonces supongo que queda donde comienza la data
     }
+    log_warning(logger, "DEST PRUEBA: %d", *((uint32_t *)*dest));
     free(hmd); 
     return true;
 }
@@ -122,21 +131,21 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     uint32_t offset_hmd_a_leer =  posicion_hmd_a_leer % MEMORIA_CFG->TAMANIO_PAGINA;
     uint32_t offset_data = (offset_hmd_a_leer + sizeof(hmd_t)) % MEMORIA_CFG->TAMANIO_PAGINA;
     uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_data, size);
-    
+    // log_warning(logger, "DEST PRUEBA: %d", *((uint32_t *)*dest));    
     // uint32_t cant_paginas_a_leer = cant_paginas_relativa(offset_hmd_a_leer, size + sizeof(hmd_t));
     
     uint32_t nro_pagina = posicion_hmd_a_leer / MEMORIA_CFG->TAMANIO_PAGINA;
-    log_warning(logger, "nro_pagina %d", nro_pagina);
+    // log_warning(logger, "nro_pagina %d", nro_pagina);
     if(nro_pagina > tabla_carpincho->pages){
         log_error(logger, "Estas buscando una pagina que no existe pa");
         return false; 
     }
-    log_warning(logger, "offset_hmd_a_leer %d", offset_hmd_a_leer);
-    log_warning(logger, "cant_paginas_a_leer %d", cant_paginas_a_leer);
-    log_warning(logger, "size %d", size);
+    // log_warning(logger, "offset_hmd_a_leer %d", offset_hmd_a_leer);
+    // log_warning(logger, "cant_paginas_a_leer %d", cant_paginas_a_leer);
+    // log_warning(logger, "size %d", size);
     
     //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
-    log_warning(logger, "offset_data %d", offset_data);    
+    // log_warning(logger, "offset_data %d", offset_data);    
 
     entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     hmd_t* hmd = leer_hmd(entrada_tp, offset_hmd_a_leer, id_carpincho);
@@ -154,6 +163,7 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     uint32_t size_acum = 0;
     uint32_t size_a_leer = MIN(MEMORIA_CFG->TAMANIO_PAGINA - offset_data, size);
     u_int32_t size_rest = size;
+    log_warning(logger, "1)entrada_tp->nro_pagina: %d", entrada_tp->nro_pagina);    
     for(uint32_t i=0; i< cant_paginas_a_leer ; i++){
         //El leer hmd me deja la entrada tp en la pagina para comenzar a leer
         escritura_memcpy_size((*dest) + size_acum, entrada_tp, offset_data, size_a_leer);
@@ -167,6 +177,11 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
         }
     //La entrada tp me deja parado al final del hmd (si se leyo mitad y mitad me deja en la segunda mitad), entonces supongo que queda donde comienza la data
     }
+    // void* buff_prueba = malloc(size);
+    // lectura_memcpy_size(entrada_tp, 6, buff_prueba, size);
+
+    // log_warning(logger, "---------------buff_prueba: %s", (char*)buff_prueba);
+    // log_warning(logger, "BUFF PRUEBA: %d", *((uint32_t *)buff_prueba));    
     free(hmd); 
     return true;
 }
@@ -177,6 +192,8 @@ void suspender_carpincho(unsigned long id){
 
     for(uint32_t i = 0; i < table_size(id); i++){
         swapear_pagina(id, i, &nro_frame);
+        //TODO: Agregue esto
+        sacar_entradas_TLB(id);
         suspender_frame(nro_frame);
     }
 }

@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include <pthread.h>
-#include <lib/matelib.h>
+#include <matelib.h>
 #include <commons/log.h>
 #include <semaphore.h>
 #include <string.h>
@@ -52,6 +52,7 @@ int main(int argc, char *argv[])
 
   while(1) {
     mate_memread(&mate_ref, value_1, &n_1, sizeof(uint32_t));
+	  void* buff = malloc(sizeof(uint32_t));
     mate_memread(&mate_ref, value_2, &n_2, sizeof(uint32_t));
     mate_memread(&mate_ref, key_2, label_n_2, 4);
     mate_memread(&mate_ref, key_1, label_n_1, 4);

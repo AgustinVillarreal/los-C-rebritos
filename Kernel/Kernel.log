@@ -2417,3 +2417,267 @@
 
 [INFO] 19:16:25:976 Kernel/(3579:3611): Cliente conectado en 0.0.0.0:5002 (a Server)
 
+[INFO] 19:53:38:958 Kernel/(8613:8613): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:53:39:036 Kernel/(8613:8613): ------2---------
+
+[INFO] 19:53:39:046 Kernel/(8613:8613): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 19:54:09:830 Kernel/(8613:8613): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:54:09:849 Kernel/(8613:8706): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:55:09:356 Kernel/(8613:8706): DISCONNECT!
+[INFO] 20:05:13:994 Kernel/(9163:9163): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:05:14:087 Kernel/(9163:9163): ------2---------
+
+[INFO] 20:05:14:092 Kernel/(9163:9163): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:05:16:491 Kernel/(9163:9163): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:05:16:505 Kernel/(9163:9189): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:05:26:471 Kernel/(9163:9189): DISCONNECT!
+[INFO] 20:07:00:248 Kernel/(9371:9371): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:07:00:318 Kernel/(9371:9371): ------2---------
+
+[INFO] 20:07:00:322 Kernel/(9371:9371): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:07:03:307 Kernel/(9371:9371): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:07:03:331 Kernel/(9371:9397): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:07:09:241 Kernel/(9371:9397): DISCONNECT!
+[INFO] 20:10:02:127 Kernel/(9564:9564): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:10:02:220 Kernel/(9564:9564): ------2---------
+
+[INFO] 20:10:02:227 Kernel/(9564:9564): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:10:03:962 Kernel/(9564:9564): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:10:03:985 Kernel/(9564:9590): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:10:09:148 Kernel/(9564:9590): DISCONNECT!
+[INFO] 20:10:59:963 Kernel/(9742:9742): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:11:00:074 Kernel/(9742:9742): ------2---------
+
+[INFO] 20:11:00:081 Kernel/(9742:9742): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:11:01:970 Kernel/(9742:9742): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:11:01:989 Kernel/(9742:9768): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:11:07:140 Kernel/(9742:9768): DISCONNECT!
+[INFO] 20:21:59:667 Kernel/(10036:10036): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:21:59:768 Kernel/(10036:10036): ------2---------
+
+[INFO] 20:21:59:775 Kernel/(10036:10036): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:22:01:734 Kernel/(10036:10036): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:22:01:747 Kernel/(10036:10064): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:22:06:928 Kernel/(10036:10064): DISCONNECT!
+[INFO] 20:30:04:233 Kernel/(10282:10282): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:30:04:331 Kernel/(10282:10282): ------2---------
+
+[INFO] 20:30:04:335 Kernel/(10282:10282): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:30:06:387 Kernel/(10282:10282): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:30:06:407 Kernel/(10282:10308): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:30:11:636 Kernel/(10282:10308): DISCONNECT!
+[INFO] 20:31:24:424 Kernel/(10488:10488): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:31:24:524 Kernel/(10488:10488): ------2---------
+
+[INFO] 20:31:24:532 Kernel/(10488:10488): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:31:26:142 Kernel/(10488:10488): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:31:26:157 Kernel/(10488:10514): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:31:31:358 Kernel/(10488:10514): DISCONNECT!
+[INFO] 20:33:31:919 Kernel/(10705:10705): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:33:32:016 Kernel/(10705:10705): ------2---------
+
+[INFO] 20:33:32:022 Kernel/(10705:10705): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:33:34:023 Kernel/(10705:10705): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:33:34:044 Kernel/(10705:10731): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:33:39:181 Kernel/(10705:10731): DISCONNECT!
+[INFO] 20:34:25:970 Kernel/(10877:10877): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:34:26:070 Kernel/(10877:10877): ------2---------
+
+[INFO] 20:34:26:075 Kernel/(10877:10877): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:34:27:550 Kernel/(10877:10877): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:34:27:567 Kernel/(10877:10903): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:34:32:695 Kernel/(10877:10903): DISCONNECT!
+[INFO] 20:43:23:868 Kernel/(11216:11216): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:43:23:958 Kernel/(11216:11216): ------2---------
+
+[INFO] 20:43:23:967 Kernel/(11216:11216): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:43:25:996 Kernel/(11216:11216): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:43:26:016 Kernel/(11216:11242): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:43:31:222 Kernel/(11216:11242): DISCONNECT!
+[INFO] 20:46:10:827 Kernel/(11472:11472): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:46:10:904 Kernel/(11472:11472): ------2---------
+
+[INFO] 20:46:10:922 Kernel/(11472:11472): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:46:12:935 Kernel/(11472:11472): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:46:12:955 Kernel/(11472:11498): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:46:42:551 Kernel/(11472:11472): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:46:42:570 Kernel/(11472:11667): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:46:42:808 Kernel/(11472:11667): DISCONNECT!
+[INFO] 20:48:42:490 Kernel/(11827:11827): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:48:42:557 Kernel/(11827:11827): ------2---------
+
+[INFO] 20:48:42:561 Kernel/(11827:11827): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:49:12:914 Kernel/(11827:11827): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:49:12:927 Kernel/(11827:11896): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:49:36:484 Kernel/(11827:11827): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:49:36:496 Kernel/(11827:11946): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:49:37:091 Kernel/(11827:11946): DISCONNECT!
+[INFO] 20:49:37:278 Kernel/(11827:11896): DISCONNECT!
+[INFO] 20:55:30:262 Kernel/(12216:12216): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:55:30:354 Kernel/(12216:12216): ------2---------
+
+[INFO] 20:55:30:358 Kernel/(12216:12216): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:57:58:745 Kernel/(12421:12421): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:57:58:813 Kernel/(12421:12421): ------2---------
+
+[INFO] 20:57:58:818 Kernel/(12421:12421): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:58:00:793 Kernel/(12421:12421): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:58:00:810 Kernel/(12421:12447): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:58:20:208 Kernel/(12421:12447): DISCONNECT!
+[INFO] 21:00:05:759 Kernel/(12618:12618): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:00:05:841 Kernel/(12618:12618): ------2---------
+
+[INFO] 21:00:05:846 Kernel/(12618:12618): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:00:08:062 Kernel/(12618:12618): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:00:08:080 Kernel/(12618:12644): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:00:27:454 Kernel/(12618:12644): DISCONNECT!
+[INFO] 21:01:12:619 Kernel/(12775:12775): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:01:12:702 Kernel/(12775:12775): ------2---------
+
+[INFO] 21:01:12:709 Kernel/(12775:12775): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:01:15:337 Kernel/(12775:12775): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:01:15:359 Kernel/(12775:12801): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:01:34:770 Kernel/(12775:12801): DISCONNECT!
+[INFO] 21:02:32:378 Kernel/(12956:12956): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:02:32:474 Kernel/(12956:12956): ------2---------
+
+[INFO] 21:02:32:478 Kernel/(12956:12956): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:02:34:307 Kernel/(12956:12956): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:02:34:323 Kernel/(12956:12982): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:04:27:573 Kernel/(13144:13144): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:04:27:641 Kernel/(13144:13144): ------2---------
+
+[INFO] 21:04:27:646 Kernel/(13144:13144): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:04:29:206 Kernel/(13144:13144): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:04:29:220 Kernel/(13144:13174): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:06:11:275 Kernel/(13328:13328): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:06:11:384 Kernel/(13328:13328): ------2---------
+
+[INFO] 21:06:11:391 Kernel/(13328:13328): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:06:59:590 Kernel/(13328:13328): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:06:59:602 Kernel/(13328:13414): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:07:06:806 Kernel/(13328:13414): DISCONNECT!
+[INFO] 21:08:56:686 Kernel/(13584:13584): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:08:56:759 Kernel/(13584:13584): ------2---------
+
+[INFO] 21:08:56:764 Kernel/(13584:13584): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:08:58:855 Kernel/(13584:13584): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:08:58:878 Kernel/(13584:13610): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:09:06:044 Kernel/(13584:13610): DISCONNECT!
+[INFO] 21:13:34:306 Kernel/(13832:13832): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:13:34:376 Kernel/(13832:13832): ------2---------
+
+[INFO] 21:13:34:380 Kernel/(13832:13832): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:13:36:645 Kernel/(13832:13832): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:13:36:672 Kernel/(13832:13868): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:13:43:924 Kernel/(13832:13868): DISCONNECT!
+[INFO] 21:14:19:920 Kernel/(14014:14014): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:14:20:008 Kernel/(14014:14014): ------2---------
+
+[INFO] 21:14:20:014 Kernel/(14014:14014): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:14:22:081 Kernel/(14014:14014): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:14:22:101 Kernel/(14014:14040): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:14:48:921 Kernel/(14161:14161): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 21:14:48:985 Kernel/(14161:14161): ------2---------
+
+[INFO] 21:14:48:989 Kernel/(14161:14161): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 21:14:56:604 Kernel/(14161:14161): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 21:14:56:628 Kernel/(14161:14195): Cliente conectado en 0.0.0.0:5002 (a Server)
+
