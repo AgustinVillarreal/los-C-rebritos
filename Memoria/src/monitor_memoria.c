@@ -207,10 +207,6 @@ uint32_t cantidad_paginas_swap(uint32_t posicion, size_t size){
     rem = (size + offset - t_pag) % t_pag; 
     // uint32_t pags_parcial = (size_acum)/t_pag;
     cant_paginas = (rem) ? pags_parcial + 1 : pags_parcial;
-    log_error(logger, "offset %d", offset);
-    // log_error(logger, "size_acum %d", size_acum);
-    log_error(logger, "pags_parcial %d", pags_parcial);
-    log_error(logger, "cant_paginas %d", cant_paginas);
     // if(posicion + size > MEMORIA_CFG->TAMANIO_PAGINA) {
     //     cant_paginas++;
     // }

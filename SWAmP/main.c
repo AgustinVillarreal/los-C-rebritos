@@ -69,10 +69,10 @@ int swamp_server;
 
 // }
 
-int main(){
+int main(int argc, char *argv[]){
 
 	
-	if(!init() || !cargar_configuracion("swamp.config") || !cargar_swamp()) {
+	if(!init() || !cargar_configuracion(argv[1]) || !cargar_swamp()) {
         cerrar_programa();
         return EXIT_FAILURE;
     }

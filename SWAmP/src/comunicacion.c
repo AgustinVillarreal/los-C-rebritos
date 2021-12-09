@@ -101,7 +101,7 @@ static void procesar_conexion(void* void_args) {
     while (cliente_socket != -1) {
 
         if (recv(cliente_socket, &cop, sizeof(op_code), 0) != sizeof(op_code)) {
-            mostrar_tabla_swap(tablas_de_frames_swap);
+            // mostrar_tabla_swap(tablas_de_frames_swap);
             log_info(logger, STR(DISCONNECT!));
             return;
         }
@@ -183,7 +183,7 @@ static void procesar_conexion(void* void_args) {
 
                 if (recv_id(cliente_socket, &carpincho_id)) {
                     borrar_carpincho_swap(cliente_socket,carpincho_id);
-                    log_info(logger,"Se elimino el carpincho %d correctamente",carpincho_id);
+                    // log_info(logger,"Se elimino el carpincho %d correctamente",carpincho_id);
                 }
                 else {
                     log_error(logger, "Error recibiendo FREE_CARPINCHO en SWAmP");
@@ -200,8 +200,7 @@ static void procesar_conexion(void* void_args) {
                     bool respuesta = revisar_espacio_libre(cliente_socket,carpincho_id,cant_paginas,asigancion_fija);
                     // usleep(1000*cfg->RETARDO_SWAP);
                     send_ack(cliente_socket, respuesta);
-                    log_warning(logger, "aaa: %d", respuesta);
-                    log_info(logger,"La solicitud se realizo correctamente");
+                    // log_info(logger,"La solicitud se realizo correctamente");
                 }
                 else {
                     log_error(logger, "Error recibiendo ESPACIO_LIBRE en SWAmP");
@@ -220,7 +219,7 @@ static void procesar_conexion(void* void_args) {
                     liberar_marcos(cliente_socket,carpincho_id,cant_paginas);
                     send_ack(cliente_socket,true);
                     mostrar_tabla_swap(tablas_de_frames_swap);
-                    log_info(logger,"Se elimino los marcos correctamente");
+                    // log_info(logger,"Se elimino los marcos correctamente");
                 }
                 else {
                     log_error(logger, "Error recibiendo LIBERAR_MARCOS en SWAmP");

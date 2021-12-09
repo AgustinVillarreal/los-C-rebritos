@@ -13,7 +13,7 @@ static t_config_kernel* initialize_cfg() {
     return cfg;
 }
 
-int main(){
+int main(int argc, char *argv[]){
 	KERNEL_CFG = initialize_cfg();
     logger = log_create("Kernel.log", "Kernel", true, LOG_LEVEL_INFO);
     //TODO: Ver donde liberar esta memoria
@@ -28,7 +28,7 @@ int main(){
     int memoria_fd;
     int kernel_server;
 
-    if(!cargar_configuracion(KERNEL_CFG) || !generar_conexion(&memoria_fd, KERNEL_CFG)) {
+    if(!cargar_configuracion(KERNEL_CFG, argv[1]) || !generar_conexion(&memoria_fd, KERNEL_CFG)) {
         cerrar_programa(logger, KERNEL_CFG);
         return EXIT_FAILURE;
     }

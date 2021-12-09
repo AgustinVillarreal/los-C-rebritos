@@ -25,6 +25,42 @@ makeshared:
 debug: CFLAGS := $(CFLAGS) -g
 debug: build
 
+run-humedal: build
+	./$(OUTFILE) "config/saludo-humedal.config"
+
+run-mmu-lru: build
+	./$(OUTFILE) "config/mmu-lru.config"
+
+run-mmu-fifo: build
+	./$(OUTFILE) "config/mmu-fifo.config"
+
+run-asignacion-fija: build
+	./$(OUTFILE) "config/asignacion-fija.config"
+
+run-asignacion-dinamica: build
+	./$(OUTFILE) "config/asignacion-dinamica.config"
+
+run-tlb-fifo: build
+	./$(OUTFILE) "config/tlb-fifo.config"
+
+run-tlb-lru: build
+	./$(OUTFILE) "config/tlb-lru.config"
+
+run-swamp: build
+	./$(OUTFILE) "config/swamp.config"
+
+run-planificacion: build
+	./$(OUTFILE) "config/planificacion.config"
+
+run-deadlock: build
+	./$(OUTFILE) "config/deadlock.config"
+
+run-suspencion: build
+	./$(OUTFILE) "config/suspencion.config"
+
+run-batalla: build
+	./$(OUTFILE) "config/batalla.config"
+
 valgrind: debug build
 	valgrind ./$(OUTFILE) --leak-check=full --track-origins=yes --log-file=valgrind.log
 

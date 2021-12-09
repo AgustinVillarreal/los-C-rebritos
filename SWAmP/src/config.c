@@ -23,7 +23,7 @@ uint8_t cargar_configuracion(char* path) {
     t_config* cfg_file = config_create(path);
 
     if(cfg_file == NULL) {
-        log_error(logger, "No se encontro swamp.config");
+        log_error(logger, "No se encontro la config de swamp");
         return 0;
     }
 

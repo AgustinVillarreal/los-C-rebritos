@@ -14,12 +14,10 @@ bool allocar_carpincho_en_mp(unsigned long id_carpincho, size_t size, bool prime
         uint32_t cantidad_de_paginas = cant_paginas_relativa(0, size + sizeof(hmd_t) * 2);
         //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía+
         pthread_mutex_lock(&MUTEX_SWAP);
-      log_warning(logger, "cant_paginas_a_swapear %d", cantidad_de_paginas);
         
         if(!entra_en_swap(id_carpincho, cantidad_de_paginas, swap_fd)){
           pthread_mutex_unlock(&MUTEX_SWAP);
           
-          log_warning(logger,"FDSFSDFSD: %d de carpincho %lu", cantidad_de_paginas, id_carpincho);
           return false;
         }
         pthread_mutex_unlock(&MUTEX_SWAP);
@@ -82,16 +80,11 @@ bool allocar_al_final(unsigned long id_carpincho, hmd_t* hmd_inicial, hmd_t* hmd
   }
 
   if(nueva_pagina){
-    log_warning(logger,"Direccion de ultimo hdm : %d", direccion_ultimo_hmd);
-    log_warning(logger, "hmd_inicial->nextAlloc %d", hmd_inicial->nextAlloc);
-    log_warning(logger, "entrada_tp->nro_pagina %d", entrada_tp->nro_pagina);
-    log_warning(logger, "offset %d", offset);
     uint32_t cant_paginas_a_swapear = cantidad_paginas_swap(direccion_ultimo_hmd + sizeof(hmd_t), size + sizeof(hmd_t));
     uint32_t ultima_pagina = entrada_tp->nro_pagina;
     //Esta función en swap reserva la cantidad de paginas de forma consecutiva a las que tenía
     pthread_mutex_lock(&MUTEX_SWAP);
     
-      log_warning(logger, "cant_paginas_a_swapear %d", cant_paginas_a_swapear);
     if(!entra_en_swap(id_carpincho, cant_paginas_a_swapear, swap_fd)){
       
       pthread_mutex_unlock(&MUTEX_SWAP);
@@ -167,9 +160,6 @@ uint32_t buscar_recorriendo_hmd(unsigned long id_carpincho, size_t size, hmd_t**
       *entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
     }
     *hmd = leer_hmd(*entrada_tp, offset_hmd, id_carpincho);
-    log_warning(logger, "(*hmd)->prevAlloc %d", (*hmd)->prevAlloc);
-    log_warning(logger, "(*hmd)->nextAlloc %d", (*hmd)->nextAlloc);
-    log_warning(logger, "(*hmd)->isFree %d", (*hmd)->isFree);
     
     if(entra_en_hmd(*hmd, size, (*direccion_hmd))){
       //escribir en memoria principal y retornar direccion logica

@@ -28,12 +28,13 @@ void destruir_dispositivo(void* disp_void){
   free(disp);
 }
  
-uint8_t cargar_configuracion(t_config_kernel* config){
+uint8_t cargar_configuracion(t_config_kernel* config, char* ruta_config){
+  log_warning(logger, "--%s", ruta_config);
 
-  t_config* cfg = config_create("kernel.config");
+  t_config* cfg = config_create(ruta_config);
 
   if(cfg == NULL) {
-      log_error(logger, "No se encontro kernel.config");
+      log_error(logger, "No se encontro la configuracion de Kernel");
       return 0;
   }
 

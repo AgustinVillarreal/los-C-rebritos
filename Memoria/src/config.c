@@ -28,11 +28,11 @@ void cerrar_programa(t_log* logger, t_config_memoria* cfg){
   
 }
 
-uint8_t cargar_configuracion(t_config_memoria* config){
-    t_config* cfg = config_create("memoria.config");
+uint8_t cargar_configuracion(t_config_memoria* config, char* ruta_config){
+    t_config* cfg = config_create(ruta_config);
 
     if(cfg == NULL) {
-        log_error(logger,"NO SE ENCONTRO memoria.config");
+        log_error(logger,"NO SE ENCONTRO la config");
         return 0;
     }
 
@@ -99,7 +99,6 @@ uint8_t cargar_configuracion(t_config_memoria* config){
 
 
     log_info(logger,"CONFIGURACION CARGADA EXITOSAMENTE");
-    log_warning(logger, "fijaaaa %d", config->FIJA);
 
     config_destroy(cfg);
 

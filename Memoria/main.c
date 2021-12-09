@@ -25,7 +25,7 @@ void sighandler(int x) {
     }
 }
 
-int main(){
+int main(int argc, char *argv[]){
 
 	signal(SIGUSR1, sighandler);
     signal(SIGUSR2, sighandler);
@@ -36,7 +36,7 @@ int main(){
 	int memoria_server;
 	int swap_fd;
 	// hasta que no este el swap el generar conexiones no va a compilar
-	if( !init() | !cargar_configuracion(MEMORIA_CFG) || !cargar_memoria(MEMORIA_CFG) | !generar_conexion(&swap_fd, MEMORIA_CFG)){
+	if( !init() | !cargar_configuracion(MEMORIA_CFG, argv[1]) || !cargar_memoria(MEMORIA_CFG) | !generar_conexion(&swap_fd, MEMORIA_CFG)){
 		cerrar_programa(logger,MEMORIA_CFG);
 		return EXIT_FAILURE;
 	}

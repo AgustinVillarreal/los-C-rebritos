@@ -69,7 +69,6 @@ tp_carpincho_t* find_tp_carpincho(unsigned long id){
 entrada_tp_t* list_get_pagina(tp_carpincho_t* tabla_carpincho ,uint32_t index){   
     entrada_tp_t* entrada_tp;
     pthread_mutex_lock(&tabla_carpincho->mutex_paginas);
-    log_warning(logger, "tabla_carpincho->paginas : %d --- index : %d", tabla_carpincho->paginas, index);
     entrada_tp = list_get(tabla_carpincho->paginas, index);
     pthread_mutex_unlock(&tabla_carpincho->mutex_paginas);    
     return entrada_tp;
@@ -124,7 +123,6 @@ void actualizar_miss(unsigned long id_carpincho){
 }
 
 void actualizarTUR(tlb_t* entrada_tlb){
-    log_error(logger, "pagina: %d", entrada_tlb->entrada_tp->nro_pagina);
     pthread_mutex_lock(&MUTEX_GLOBAL_TUR_TLB);
     entrada_tlb->TUR = global_TUR_TLB++;
     pthread_mutex_unlock(&MUTEX_GLOBAL_TUR_TLB);       
@@ -136,8 +134,6 @@ void crear_en_TLB(unsigned long id_carpincho, entrada_tp_t* entrada){
         entrada_tlb->entrada_tp = entrada;
         entrada_tlb->id_carpincho = id_carpincho;
         actualizarTUR(entrada_tlb);
-        log_warning(logger, "get_tlb_size %d", get_tlb_size());
-        log_warning(logger, "MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB %d", MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB);
         if(get_tlb_size() < MEMORIA_CFG->CANTIDAD_ENTRADAS_TLB){
             list_add_tlb(entrada_tlb);
         } else {

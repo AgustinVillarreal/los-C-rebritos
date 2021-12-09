@@ -52,7 +52,7 @@ typedef struct {
 pthread_mutex_t MUTEX_IDS;
 
 
-uint8_t cargar_configuracion(t_config_kernel*);
+uint8_t cargar_configuracion(t_config_kernel*, char* ruta_config);
 void cerrar_programa(t_log*, t_config_kernel*);
 void destruir_dispositivo(void* disp_void);
 

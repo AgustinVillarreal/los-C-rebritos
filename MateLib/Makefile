@@ -5,13 +5,14 @@ build-example-lib:
 	$(CC) -c -Wall -I"../include" -fpic utils.c && \
 	$(CC) -c -Wall -I"../include" -fpic matelib.c && \
 	$(CC) -shared utils.o matelib.o -o libmatelib.so && \
-	rm *.o
+	rm *.o && \
+	cp libmatelib.so /lib
 
 build-example: build-example-lib
 	$(CC) -g3 -Wall -L"./src" -I"include" main.c -lmatelib -lpthread -lcommons -lshared -lrt -o example
 
 run: build-example
-	LD_LIBRARY_PATH="src/" ./example "./config.config"
+	c ./example "./config.config"
 
 clean:
 	rm src/libmatelib.so example

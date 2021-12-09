@@ -2681,3 +2681,70 @@
 
 [INFO] 21:14:56:628 Kernel/(14161:14195): Cliente conectado en 0.0.0.0:5002 (a Server)
 
+[INFO] 10:36:16:893 Kernel/(6100:6100): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:36:16:893 Kernel/(6100:6100): ------2---------
+
+[INFO] 10:36:16:894 Kernel/(6100:6100): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:37:26:598 Kernel/(6100:6100): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:37:26:598 Kernel/(6100:6211): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[ERROR] 10:49:33:800 Kernel/(7507:7507): Propiedades faltantes en el archivo de configuracion
+[WARNING] 10:50:39:028 Kernel/(7655:7655): --./kernel.out
+[ERROR] 10:50:39:029 Kernel/(7655:7655): Propiedades faltantes en el archivo de configuracion
+[WARNING] 10:53:39:227 Kernel/(7951:7951): --tlb-lru.config
+[INFO] 10:53:39:227 Kernel/(7951:7951): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:53:39:228 Kernel/(7951:7951): ------2---------
+
+[INFO] 10:53:39:228 Kernel/(7951:7951): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:54:13:428 Kernel/(7951:7951): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:54:13:429 Kernel/(7951:8010): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 10:54:41:632 Kernel/(8209:8209): --tlb-lru.config
+[INFO] 10:54:41:633 Kernel/(8209:8209): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:54:41:633 Kernel/(8209:8209): ------2---------
+
+[INFO] 10:54:41:633 Kernel/(8209:8209): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 10:54:43:076 Kernel/(8209:8209): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 10:54:43:077 Kernel/(8209:8224): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[WARNING] 10:58:53:763 Kernel/(8789:8789): --tlb-lru.config
+[ERROR] 10:58:53:763 Kernel/(8789:8789): No se encontro la configuracion de Kernel
+[WARNING] 10:59:26:063 Kernel/(8893:8893): --config/tlb-lru.config
+[INFO] 10:59:26:064 Kernel/(8893:8893): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 10:59:26:064 Kernel/(8893:8893): ------2---------
+
+[INFO] 10:59:26:064 Kernel/(8893:8893): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[WARNING] 11:33:51:592 Kernel/(12581:12581): --config/tlb-lru.config
+[INFO] 11:33:51:592 Kernel/(12581:12581): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:33:51:592 Kernel/(12581:12581): ------2---------
+
+[INFO] 11:33:51:592 Kernel/(12581:12581): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:33:55:058 Kernel/(12581:12581): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:33:55:058 Kernel/(12581:12594): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:33:57:601 Kernel/(12581:12594): DISCONNECT!
+[WARNING] 11:54:39:468 Kernel/(14826:14826): --config/tlb-lru.config
+[INFO] 11:54:39:468 Kernel/(14826:14826): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 11:54:39:468 Kernel/(14826:14826): ------2---------
+
+[INFO] 11:54:39:469 Kernel/(14826:14826): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 11:55:00:890 Kernel/(14826:14826): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 11:55:00:891 Kernel/(14826:14863): Cliente conectado en 0.0.0.0:5002 (a Server)
+

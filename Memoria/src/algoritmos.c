@@ -18,12 +18,12 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
     }
     list_sort(victimas, &frame_precede_frame);
 
-    void logeador (void* victima){
-        algoritmo_t* victima_log = victima;
-        log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d\n", 
-        victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame);
-    }
-    list_iterate(victimas, logeador);
+    // void logeador (void* victima){
+    //     algoritmo_t* victima_log = victima;
+    //     log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d\n", 
+    //     victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame);
+    // }
+    // list_iterate(victimas, logeador);
     
     uint32_t* nro_frame_posible_victima = MEMORIA_CFG->FIJA ? victima_clock_fija(id_carpincho) : &posible_victima_global ;
 
@@ -86,12 +86,12 @@ void correr_algoritmo_clock_m (unsigned long id_carpincho, uint32_t* nro_frame, 
 void correr_algoritmo_lru (unsigned long id, uint32_t* nro_frame, uint32_t nro_pagina){
     pthread_mutex_lock(&MUTEX_ALGORITMOS);    
     t_list* victimas = posibles_victimas(id);
-    void logeador (void* victima){
-        algoritmo_t* victima_log = victima;
-        log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d, TUR: %d\n", 
-        victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame, victima_log->entrada_tp->algoritmo.TUR);
-    }
-    list_iterate(victimas, logeador);
+    // void logeador (void* victima){
+    //     algoritmo_t* victima_log = victima;
+    //     log_info(logger, "\nVICTIMA ID: %lu, nro_pagina: %d, nro_frame %d, TUR: %d\n", 
+    //     victima_log->id_carpincho, victima_log->entrada_tp->nro_pagina, victima_log->entrada_tp->nro_frame, victima_log->entrada_tp->algoritmo.TUR);
+    // }
+    // list_iterate(victimas, logeador);
     //TODO: Consultar sobre si es necesario un mutex en el global TUR
     void* minimo_TUR(void* pagina1, void* pagina2){
         return 

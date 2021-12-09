@@ -68,8 +68,6 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
         return f->pid == carpincho_id;
     }
 
-    log_warning(logger, "id: %lu cant %d asig fija %d", carpincho_id, cant_paginas, asignacion_fija);
-
     //Pregunto si el carpincho esta en swap
     if(!list_any_satisfy(tablas_de_frames_swap,(void*) buscar_x_id)){
         //El caprincho no esta en swap busco si hay espacio en alguno de los swap para las paginas
@@ -77,14 +75,9 @@ bool revisar_espacio_libre(int fd,unsigned long carpincho_id, uint32_t cant_pagi
 
         for(int i = 0 ; i < list_size(areas_de_swap); i++){
 
-            log_warning(logger, "Vuelta %d", i);
-
             void* swap = list_get(areas_de_swap,i);
 
             uint32_t paginas_libres = cantidad_de_espacio_swamp_libre(i) / cfg->TAMANIO_PAGINA;
-
-            log_warning(logger, "paginas_libres %d", paginas_libres);
-            
 
             if(paginas_libres >= cant_paginas){
                 respuesta = true;
@@ -248,8 +241,6 @@ void liberar_marcos(int cliente_socket,unsigned long carpincho_id,uint32_t cant_
 
     uint32_t pos_ult_pagina = list_size(aux) - 1;
 
-    log_info(logger,"El tamanio de aux es %d y la ultima pos es %d", list_size(aux),pos_ult_pagina);
-
     if(cant_paginas > pos_ult_pagina + 1){
         log_error(logger,"EL carpincho %d tiene %d paginas y se quiere eliminar %d marcos",carpincho_id,pos_ult_pagina + 1,cant_paginas);
         usleep(1000*cfg->RETARDO_SWAP);
@@ -259,7 +250,6 @@ void liberar_marcos(int cliente_socket,unsigned long carpincho_id,uint32_t cant_
     }
 
     for(int i = 0 ; i < cant_paginas ; i++ ){
-        log_info(logger,"%d",i);
         frame_swap_t* frame = list_get(aux , i);
         formatear_pagina_swap(frame->inicio,frame->nro_swap);
     }

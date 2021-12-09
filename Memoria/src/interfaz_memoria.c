@@ -51,9 +51,6 @@ uint32_t liberar_espacio_mp(unsigned long id_carpincho, uint32_t* direccion_logi
     uint32_t nro_de_pagina = *direccion_logica / MEMORIA_CFG->TAMANIO_PAGINA ; 
     
     tp_carpincho_t* carpincho = find_tp_carpincho(id_carpincho);
-    if(carpincho == NULL){
-        log_warning(logger, "---------------------dfdfdfdf");
-    }
     if(nro_de_pagina > list_size(carpincho-> paginas)){
         return 0;
     }
@@ -78,14 +75,6 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
         log_error(logger, "Estas buscando una pagina que no existe pa");
         return false; 
     }
-    if(direccion_logica == 22){
-        log_warning(logger, "offset_hmd_a_leer %d", offset_hmd_a_leer);
-        log_warning(logger, "cant_paginas_a_leer %d", cant_paginas_a_leer);
-        log_warning(logger, "size %d", size);
-        log_warning(logger, "offset_data %d", offset_data);
-    }
-    
-    //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
     
     //TODO: Verificar, mi cabeza ya no funciona son las 12 menos 15
     entrada_tp_t* entrada_tp = buscar_entrada_tp(id_carpincho, nro_pagina);
@@ -118,7 +107,6 @@ bool read_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint32
         }
     //La entrada tp me deja parado al final del hmd (si se leyo mitad y mitad me deja en la segunda mitad), entonces supongo que queda donde comienza la data
     }
-    log_warning(logger, "DEST PRUEBA: %d", *((uint32_t *)*dest));
     free(hmd); 
     return true;
 }
@@ -163,7 +151,6 @@ bool write_carpincho(unsigned long id_carpincho, void** dest, size_t size, uint3
     uint32_t size_acum = 0;
     uint32_t size_a_leer = MIN(MEMORIA_CFG->TAMANIO_PAGINA - offset_data, size);
     u_int32_t size_rest = size;
-    log_warning(logger, "1)entrada_tp->nro_pagina: %d", entrada_tp->nro_pagina);    
     for(uint32_t i=0; i< cant_paginas_a_leer ; i++){
         //El leer hmd me deja la entrada tp en la pagina para comenzar a leer
         escritura_memcpy_size((*dest) + size_acum, entrada_tp, offset_data, size_a_leer);
