@@ -43,7 +43,7 @@ double HRRN(t_carpincho* carpincho){
   
 	double espera = difftime(tiempoActual, carpincho->tiempo_ingreso_ready);
 
-	return (carpincho->ultima_estimacion + espera*1000) / carpincho->ultima_estimacion;
+	return (carpincho->ultima_estimacion + espera * 1000) / carpincho->ultima_estimacion;
 }
 
 void ejecutar_CPU(int numero_CPU){

@@ -154,7 +154,10 @@ static void procesar_conexion(void* void_args){
                 recv_id(cliente_socket, &id_carpincho);                            
                 log_warning(logger, "\nSe desconecto el carpincho: %lu \n", id_carpincho);     
                 finalizar_carpincho(id_carpincho);
-                send_finalizar_carpincho(swap_fd, id_carpincho);       
+                pthread_mutex_lock(&MUTEX_SWAP);
+                send_finalizar_carpincho(swap_fd, id_carpincho);   
+                pthread_mutex_unlock(&MUTEX_SWAP);
+                    
                 break;
             case CARPINCHO_SWAP: ;
                 unsigned long id_a_swapear;

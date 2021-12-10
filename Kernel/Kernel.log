@@ -2748,3 +2748,28 @@
 
 [INFO] 11:55:00:891 Kernel/(14826:14863): Cliente conectado en 0.0.0.0:5002 (a Server)
 
+[WARNING] 22:31:44:443 Kernel/(15772:15772): --config/planificacion-hrrn.config
+[ERROR] 22:33:51:743 Kernel/(15772:15772): Error al conectar (a Server)
+
+[WARNING] 22:36:43:481 Kernel/(16381:16381): --config/planificacion-hrrn.config
+[INFO] 22:36:43:483 Kernel/(16381:16381): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 22:36:43:484 Kernel/(16381:16381): ------2---------
+
+[INFO] 22:36:43:485 Kernel/(16381:16381): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 22:36:48:283 Kernel/(16381:16381): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 22:36:48:285 Kernel/(16381:16391): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 22:36:48:322 Kernel/(16381:16381): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 22:36:48:325 Kernel/(16381:16393): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 22:36:48:362 Kernel/(16381:16381): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 22:36:48:364 Kernel/(16381:16395): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 22:37:40:482 Kernel/(16381:16393): DISCONNECT!
+[INFO] 22:37:40:482 Kernel/(16381:16391): DISCONNECT!
+[INFO] 22:37:40:483 Kernel/(16381:16395): DISCONNECT!
