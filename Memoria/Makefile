@@ -5,7 +5,7 @@ SRC = $(shell find ./src -type f -iname "*.c" -exec basename {} \;)
 OBJ = $(SRC:%.c=./obj/%.o)
 SHARED = $(shell find ../Shared/obj/*.o)
 
-build: makeshared makefolder  $(OBJ)
+build: makefolder  $(OBJ)
 	$(CC) -o $(OUTFILE) main.c $(OBJ) $(LINK)
 
 

@@ -26,6 +26,12 @@ void imprimir_metricas_TLB() {
 
 void dumpear_TLB() {
     char* timestamp = temporal_get_string_time("%d-%m-%y %H:%M:%S");
+
+    struct stat st = {0};
+
+    if (stat(MEMORIA_CFG->PATH_DUMP_TLB, &st) == -1) {
+        mkdir(MEMORIA_CFG->PATH_DUMP_TLB, 0700);
+    }
     
     char* filename = string_from_format("%s/Dump_%s.tlb", MEMORIA_CFG->PATH_DUMP_TLB ,timestamp);
     FILE* dump_file = txt_open_for_append(filename);
