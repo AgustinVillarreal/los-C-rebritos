@@ -75,6 +75,8 @@ static void procesar_conexion(void* void_args){
                    free(server_name);
                    return;
                 }
+
+                carpincho_init(id, &carpincho);
                 
                 if (!send_codigo_op(cliente_socket, HANDSHAKE_KERNEL)){
                    log_error(logger, "Error al enviar handshake desde kernel a matelib");
@@ -82,8 +84,6 @@ static void procesar_conexion(void* void_args){
                    return;
                 }
 
-                carpincho_init(id, &carpincho);
-                
                 break;
             
             case SEM_INIT: ;
