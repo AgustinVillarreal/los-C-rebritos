@@ -10,4 +10,5 @@
 void imprimir_metricas_TLB();
 void dumpear_TLB();
 void borrar_entradas_TLB();
+static void _mkdir(const char *dir);
 #endif

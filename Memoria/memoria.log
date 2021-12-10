@@ -4763,3 +4763,704 @@ Se desconecto el carpincho: 3
 [INFO] 00:07:46:026 memoria/(16262:16262): -------------
 [INFO] 00:07:46:026 memoria/(16262:16262): Cantidad TLB Hits totales: 0
 [INFO] 00:07:46:026 memoria/(16262:16262): Cantidad TLB Miss totales: 0
+[INFO] 19:01:16:252 memoria/(6966:6966): CONFIGURACION CARGADA EXITOSAMENTE
+[ERROR] 19:03:23:517 memoria/(6966:6966): Error al conectar (a Server)
+
+[INFO] 19:03:45:934 memoria/(7294:7294): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:03:45:935 memoria/(7294:7294): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:03:45:935 memoria/(7294:7294): ------2---------
+
+[INFO] 19:03:45:935 memoria/(7294:7294): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:04:28:036 memoria/(7294:7294): Senial SIGINT
+[INFO] 19:04:28:036 memoria/(7294:7294): -------------
+[INFO] 19:04:28:036 memoria/(7294:7294): Cantidad TLB Hits totales: 0
+[INFO] 19:04:28:036 memoria/(7294:7294): Cantidad TLB Miss totales: 0
+[INFO] 19:04:30:941 memoria/(7379:7379): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:04:30:941 memoria/(7379:7379): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:04:30:941 memoria/(7379:7379): ------2---------
+
+[INFO] 19:04:30:941 memoria/(7379:7379): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:05:49:342 memoria/(7379:7379): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:05:49:344 memoria/(7379:7379): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:05:49:346 memoria/(7379:7475): 
+Se conecto el carpincho: 1 
+
+[INFO] 19:05:49:346 memoria/(7379:7379): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:05:49:348 memoria/(7379:7476): 
+Se conecto el carpincho: 2 
+
+[WARNING] 19:05:49:350 memoria/(7379:7477): 
+Se conecto el carpincho: 3 
+
+[INFO] 19:05:50:932 memoria/(7379:7477): Swapeo pagina 0 del carpincho 1
+[INFO] 19:05:50:934 memoria/(7379:7477): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 3
+[INFO] 19:05:50:935 memoria/(7379:7477): Swapeo pagina 0 del carpincho 3
+[INFO] 19:05:50:935 memoria/(7379:7477): Marco: 2 - Reemplazo la pagina 0 del carpincho 3 con la pagina 4 del carpincho 3
+[INFO] 19:05:50:935 memoria/(7379:7477): Swapeo pagina 1 del carpincho 3
+[INFO] 19:05:50:935 memoria/(7379:7477): Marco: 3 - Reemplazo la pagina 1 del carpincho 3 con la pagina 5 del carpincho 3
+[INFO] 19:05:50:935 memoria/(7379:7477): Swapeo pagina 2 del carpincho 3
+[INFO] 19:05:50:936 memoria/(7379:7477): Marco: 4 - Reemplazo la pagina 2 del carpincho 3 con la pagina 6 del carpincho 3
+[INFO] 19:05:50:936 memoria/(7379:7477): Swapeo pagina 0 del carpincho 2
+[INFO] 19:05:50:936 memoria/(7379:7477): Marco: 1 - Reemplazo la pagina 0 del carpincho 2 con la pagina 7 del carpincho 3
+[INFO] 19:05:50:936 memoria/(7379:7477): Swapeo pagina 3 del carpincho 3
+[INFO] 19:05:50:938 memoria/(7379:7477): Marco: 0 - Reemplazo la pagina 3 del carpincho 3 con la pagina 8 del carpincho 3
+[INFO] 19:05:50:939 memoria/(7379:7477): Swapeo pagina 4 del carpincho 3
+[INFO] 19:05:50:939 memoria/(7379:7477): Marco: 2 - Reemplazo la pagina 4 del carpincho 3 con la pagina 9 del carpincho 3
+[INFO] 19:05:50:939 memoria/(7379:7477): Swapeo pagina 5 del carpincho 3
+[INFO] 19:05:50:939 memoria/(7379:7477): Marco: 3 - Reemplazo la pagina 5 del carpincho 3 con la pagina 0 del carpincho 3
+[INFO] 19:05:51:013 memoria/(7379:7476): Swapeo pagina 6 del carpincho 3
+[INFO] 19:05:55:947 memoria/(7379:7476): Marco: 4 - Reemplazo la pagina 6 del carpincho 3 con la pagina 0 del carpincho 2
+[INFO] 19:05:56:989 memoria/(7379:7475): Swapeo pagina 7 del carpincho 3
+[INFO] 19:05:56:989 memoria/(7379:7475): Marco: 1 - Reemplazo la pagina 7 del carpincho 3 con la pagina 0 del carpincho 1
+[INFO] 19:07:47:952 memoria/(7609:7609): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:07:47:953 memoria/(7609:7609): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:07:47:953 memoria/(7609:7609): ------2---------
+
+[INFO] 19:07:47:953 memoria/(7609:7609): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:07:55:640 memoria/(7609:7609): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:07:55:642 memoria/(7609:7609): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:07:55:642 memoria/(7609:7609): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:07:55:642 memoria/(7609:7619): 
+Se conecto el carpincho: 1 
+
+[WARNING] 19:07:55:643 memoria/(7609:7620): 
+Se conecto el carpincho: 2 
+
+[WARNING] 19:07:55:643 memoria/(7609:7621): 
+Se conecto el carpincho: 3 
+
+[INFO] 19:07:57:220 memoria/(7609:7621): Swapeo pagina 0 del carpincho 1
+[INFO] 19:07:57:221 memoria/(7609:7621): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 3
+[INFO] 19:07:57:221 memoria/(7609:7621): Swapeo pagina 0 del carpincho 2
+[INFO] 19:07:57:222 memoria/(7609:7621): Marco: 1 - Reemplazo la pagina 0 del carpincho 2 con la pagina 4 del carpincho 3
+[INFO] 19:07:57:222 memoria/(7609:7621): Swapeo pagina 0 del carpincho 3
+[INFO] 19:07:57:222 memoria/(7609:7621): Marco: 2 - Reemplazo la pagina 0 del carpincho 3 con la pagina 5 del carpincho 3
+[INFO] 19:07:57:222 memoria/(7609:7621): Swapeo pagina 1 del carpincho 3
+[INFO] 19:07:57:222 memoria/(7609:7621): Marco: 3 - Reemplazo la pagina 1 del carpincho 3 con la pagina 6 del carpincho 3
+[INFO] 19:07:57:223 memoria/(7609:7621): Swapeo pagina 2 del carpincho 3
+[INFO] 19:07:57:223 memoria/(7609:7621): Marco: 4 - Reemplazo la pagina 2 del carpincho 3 con la pagina 7 del carpincho 3
+[INFO] 19:07:57:223 memoria/(7609:7621): Swapeo pagina 3 del carpincho 3
+[INFO] 19:07:57:224 memoria/(7609:7621): Marco: 0 - Reemplazo la pagina 3 del carpincho 3 con la pagina 8 del carpincho 3
+[INFO] 19:07:57:224 memoria/(7609:7621): Swapeo pagina 4 del carpincho 3
+[INFO] 19:07:57:224 memoria/(7609:7621): Marco: 1 - Reemplazo la pagina 4 del carpincho 3 con la pagina 9 del carpincho 3
+[INFO] 19:07:57:225 memoria/(7609:7621): Swapeo pagina 5 del carpincho 3
+[INFO] 19:07:57:225 memoria/(7609:7621): Marco: 2 - Reemplazo la pagina 5 del carpincho 3 con la pagina 0 del carpincho 3
+[INFO] 19:07:57:297 memoria/(7609:7620): Swapeo pagina 6 del carpincho 3
+[INFO] 19:08:02:230 memoria/(7609:7620): Marco: 3 - Reemplazo la pagina 6 del carpincho 3 con la pagina 0 del carpincho 2
+[INFO] 19:08:03:269 memoria/(7609:7619): Swapeo pagina 7 del carpincho 3
+[INFO] 19:08:03:269 memoria/(7609:7619): Marco: 4 - Reemplazo la pagina 7 del carpincho 3 con la pagina 0 del carpincho 1
+[INFO] 19:09:23:922 memoria/(7609:7620): Swapeo pagina 8 del carpincho 3
+[INFO] 19:09:23:923 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 8 del carpincho 3 con la pagina 1 del carpincho 2
+[INFO] 19:09:24:964 memoria/(7609:7619): Swapeo pagina 9 del carpincho 3
+[INFO] 19:09:24:964 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 9 del carpincho 3 con la pagina 1 del carpincho 1
+[INFO] 19:10:46:878 memoria/(7609:7620): Swapeo pagina 1 del carpincho 1
+[INFO] 19:10:46:878 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 1 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:10:47:077 memoria/(7609:7619): Swapeo pagina 1 del carpincho 2
+[INFO] 19:10:47:077 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:10:48:919 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:10:48:919 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:10:49:077 memoria/(7609:7620): Swapeo pagina 1 del carpincho 1
+[INFO] 19:10:49:077 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:10:50:960 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:10:50:960 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:10:52:121 memoria/(7609:7619): Swapeo pagina 1 del carpincho 2
+[INFO] 19:10:52:121 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:10:53:123 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:10:53:123 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:10:54:282 memoria/(7609:7620): Swapeo pagina 1 del carpincho 1
+[INFO] 19:10:54:282 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:10:55:284 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:10:55:284 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:10:56:457 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:10:56:958 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:10:56:958 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:10:58:117 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:10:58:623 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:10:58:623 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:10:59:789 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:00:290 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:00:290 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:01:450 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:01:950 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:01:950 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:03:109 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:03:610 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:03:610 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:04:769 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:05:270 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:05:270 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:06:429 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:06:930 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:06:930 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:08:089 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:08:590 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:08:590 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:09:749 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:10:250 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:10:250 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:11:410 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:11:910 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:11:911 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:13:069 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:13:571 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:13:571 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:14:729 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:15:230 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:15:230 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:16:389 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:16:890 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:16:890 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:18:050 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:18:550 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:18:550 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:19:709 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:20:210 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:20:210 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:21:369 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:21:870 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:21:870 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:23:030 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:23:531 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:23:531 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:24:694 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:25:194 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:25:195 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:26:354 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:26:854 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:26:854 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:28:013 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:28:514 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:28:514 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:29:677 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:30:178 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:30:178 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:31:337 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:31:838 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:31:838 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:32:997 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:33:498 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:33:498 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:34:657 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:35:157 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:35:158 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:36:317 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:36:818 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:36:818 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:37:991 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:38:502 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:38:503 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:39:662 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:40:163 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:40:164 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:41:327 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:41:832 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:41:832 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:43:001 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:43:502 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:43:503 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:44:665 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:45:166 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:45:166 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:46:325 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:46:826 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:46:826 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:47:989 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:48:490 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:48:490 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:49:649 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:50:151 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:50:151 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:51:309 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:51:809 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:51:810 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:52:970 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:53:470 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:53:470 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:54:629 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:55:130 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:55:130 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:56:293 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:11:56:794 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:11:56:794 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:11:57:962 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:11:58:464 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:11:58:464 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:11:59:622 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:12:00:123 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:12:00:123 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:12:01:285 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:12:01:787 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:12:01:789 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:12:02:995 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:12:03:496 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:12:03:496 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:12:04:658 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:12:05:163 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:12:05:164 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:12:06:330 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:12:06:832 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:12:06:833 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:12:08:005 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:12:08:516 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:12:08:516 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:12:09:679 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:12:10:180 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:12:10:180 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:12:11:350 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:12:11:851 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:12:11:851 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:12:13:025 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:12:13:527 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:12:13:527 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:12:14:708 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:12:15:220 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:12:15:225 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:12:16:402 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:12:16:903 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:12:16:903 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:12:18:069 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:12:18:572 memoria/(7609:7620): Swapeo pagina 2 del carpincho 1
+[INFO] 19:12:18:572 memoria/(7609:7620): Marco: 1 - Reemplazo la pagina 2 del carpincho 1 con la pagina 2 del carpincho 2
+[INFO] 19:12:19:744 memoria/(7609:7619): Marco: 0 - Reemplazo la pagina 1 del carpincho 2 con la pagina 1 del carpincho 1
+[INFO] 19:12:20:245 memoria/(7609:7619): Swapeo pagina 2 del carpincho 2
+[INFO] 19:12:20:245 memoria/(7609:7619): Marco: 1 - Reemplazo la pagina 2 del carpincho 2 con la pagina 2 del carpincho 1
+[INFO] 19:12:21:405 memoria/(7609:7620): Marco: 0 - Reemplazo la pagina 1 del carpincho 1 con la pagina 1 del carpincho 2
+[INFO] 19:12:21:452 memoria/(7609:7619): DISCONNECT!
+[INFO] 19:12:40:066 memoria/(7835:7835): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:12:40:067 memoria/(7835:7835): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:12:40:067 memoria/(7835:7835): ------2---------
+
+[INFO] 19:12:40:067 memoria/(7835:7835): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:12:42:341 memoria/(7835:7835): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:12:42:343 memoria/(7835:7835): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:12:42:345 memoria/(7835:7840): 
+Se conecto el carpincho: 1 
+
+[INFO] 19:12:42:346 memoria/(7835:7835): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:12:42:348 memoria/(7835:7841): 
+Se conecto el carpincho: 2 
+
+[WARNING] 19:12:42:349 memoria/(7835:7842): 
+Se conecto el carpincho: 3 
+
+[INFO] 19:12:43:923 memoria/(7835:7842): Swapeo pagina 0 del carpincho 1
+[INFO] 19:12:43:923 memoria/(7835:7842): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 3
+[INFO] 19:12:43:923 memoria/(7835:7842): Swapeo pagina 0 del carpincho 2
+[INFO] 19:12:43:923 memoria/(7835:7842): Marco: 1 - Reemplazo la pagina 0 del carpincho 2 con la pagina 4 del carpincho 3
+[INFO] 19:12:43:923 memoria/(7835:7842): Swapeo pagina 0 del carpincho 3
+[INFO] 19:12:43:923 memoria/(7835:7842): Marco: 2 - Reemplazo la pagina 0 del carpincho 3 con la pagina 5 del carpincho 3
+[INFO] 19:12:43:923 memoria/(7835:7842): Swapeo pagina 1 del carpincho 3
+[INFO] 19:12:43:923 memoria/(7835:7842): Marco: 3 - Reemplazo la pagina 1 del carpincho 3 con la pagina 6 del carpincho 3
+[INFO] 19:12:43:923 memoria/(7835:7842): Swapeo pagina 2 del carpincho 3
+[INFO] 19:12:43:924 memoria/(7835:7842): Marco: 4 - Reemplazo la pagina 2 del carpincho 3 con la pagina 7 del carpincho 3
+[INFO] 19:12:43:924 memoria/(7835:7842): Swapeo pagina 3 del carpincho 3
+[INFO] 19:12:43:924 memoria/(7835:7842): Marco: 0 - Reemplazo la pagina 3 del carpincho 3 con la pagina 8 del carpincho 3
+[INFO] 19:12:43:924 memoria/(7835:7842): Swapeo pagina 4 del carpincho 3
+[INFO] 19:12:43:924 memoria/(7835:7842): Marco: 1 - Reemplazo la pagina 4 del carpincho 3 con la pagina 9 del carpincho 3
+[INFO] 19:12:43:924 memoria/(7835:7842): Swapeo pagina 5 del carpincho 3
+[INFO] 19:12:43:924 memoria/(7835:7842): Marco: 2 - Reemplazo la pagina 5 del carpincho 3 con la pagina 0 del carpincho 3
+[INFO] 19:12:44:001 memoria/(7835:7841): Swapeo pagina 6 del carpincho 3
+[INFO] 19:12:48:935 memoria/(7835:7841): Marco: 3 - Reemplazo la pagina 6 del carpincho 3 con la pagina 0 del carpincho 2
+[INFO] 19:12:49:978 memoria/(7835:7840): Swapeo pagina 7 del carpincho 3
+[INFO] 19:12:49:978 memoria/(7835:7840): Marco: 4 - Reemplazo la pagina 7 del carpincho 3 con la pagina 0 del carpincho 1
+[WARNING] 19:12:53:822 memoria/(7835:7841): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:12:53:991 memoria/(7835:7841): DISCONNECT!
+[INFO] 19:15:33:699 memoria/(7969:7969): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:15:33:699 memoria/(7969:7969): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:15:33:700 memoria/(7969:7969): ------2---------
+
+[INFO] 19:15:33:700 memoria/(7969:7969): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:15:35:344 memoria/(7969:7969): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:15:35:346 memoria/(7969:7969): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:15:35:348 memoria/(7969:7969): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:15:35:351 memoria/(7969:7974): Se conecto el carpincho: 1 
+
+[WARNING] 19:15:35:352 memoria/(7969:7975): Se conecto el carpincho: 2 
+
+[WARNING] 19:15:35:354 memoria/(7969:7976): Se conecto el carpincho: 3 
+
+[INFO] 19:15:36:930 memoria/(7969:7976): Swapeo pagina 0 del carpincho 1
+[INFO] 19:15:36:930 memoria/(7969:7976): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 3
+[INFO] 19:15:36:930 memoria/(7969:7976): Swapeo pagina 0 del carpincho 2
+[INFO] 19:15:36:930 memoria/(7969:7976): Marco: 1 - Reemplazo la pagina 0 del carpincho 2 con la pagina 4 del carpincho 3
+[INFO] 19:15:36:930 memoria/(7969:7976): Swapeo pagina 0 del carpincho 3
+[INFO] 19:15:36:930 memoria/(7969:7976): Marco: 2 - Reemplazo la pagina 0 del carpincho 3 con la pagina 5 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Swapeo pagina 1 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Marco: 3 - Reemplazo la pagina 1 del carpincho 3 con la pagina 6 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Swapeo pagina 2 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Marco: 4 - Reemplazo la pagina 2 del carpincho 3 con la pagina 7 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Swapeo pagina 3 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Marco: 0 - Reemplazo la pagina 3 del carpincho 3 con la pagina 8 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Swapeo pagina 4 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Marco: 1 - Reemplazo la pagina 4 del carpincho 3 con la pagina 9 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Swapeo pagina 5 del carpincho 3
+[INFO] 19:15:36:931 memoria/(7969:7976): Marco: 2 - Reemplazo la pagina 5 del carpincho 3 con la pagina 0 del carpincho 3
+[INFO] 19:15:37:010 memoria/(7969:7975): Swapeo pagina 6 del carpincho 3
+[INFO] 19:15:41:936 memoria/(7969:7975): Marco: 3 - Reemplazo la pagina 6 del carpincho 3 con la pagina 0 del carpincho 2
+[INFO] 19:15:42:973 memoria/(7969:7974): Swapeo pagina 7 del carpincho 3
+[INFO] 19:15:42:973 memoria/(7969:7974): Marco: 4 - Reemplazo la pagina 7 del carpincho 3 con la pagina 0 del carpincho 1
+[WARNING] 19:15:46:741 memoria/(7969:7975): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:18:17:615 memoria/(8087:8087): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:18:17:615 memoria/(8087:8087): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:18:17:616 memoria/(8087:8087): ------2---------
+
+[INFO] 19:18:17:616 memoria/(8087:8087): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:18:18:919 memoria/(8087:8087): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:18:18:920 memoria/(8087:8087): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:18:18:923 memoria/(8087:8092): Se conecto el carpincho: 1 
+
+[INFO] 19:18:18:923 memoria/(8087:8087): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:18:18:925 memoria/(8087:8093): Se conecto el carpincho: 2 
+
+[WARNING] 19:18:18:927 memoria/(8087:8094): Se conecto el carpincho: 3 
+
+[INFO] 19:18:20:506 memoria/(8087:8094): Swapeo pagina 0 del carpincho 1
+[INFO] 19:18:20:506 memoria/(8087:8094): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 3
+[INFO] 19:18:20:506 memoria/(8087:8094): Swapeo pagina 0 del carpincho 2
+[INFO] 19:18:20:506 memoria/(8087:8094): Marco: 1 - Reemplazo la pagina 0 del carpincho 2 con la pagina 4 del carpincho 3
+[INFO] 19:18:20:506 memoria/(8087:8094): Swapeo pagina 0 del carpincho 3
+[INFO] 19:18:20:506 memoria/(8087:8094): Marco: 2 - Reemplazo la pagina 0 del carpincho 3 con la pagina 5 del carpincho 3
+[INFO] 19:18:20:506 memoria/(8087:8094): Swapeo pagina 1 del carpincho 3
+[INFO] 19:18:20:506 memoria/(8087:8094): Marco: 3 - Reemplazo la pagina 1 del carpincho 3 con la pagina 6 del carpincho 3
+[INFO] 19:18:20:506 memoria/(8087:8094): Swapeo pagina 2 del carpincho 3
+[INFO] 19:18:20:507 memoria/(8087:8094): Marco: 4 - Reemplazo la pagina 2 del carpincho 3 con la pagina 7 del carpincho 3
+[INFO] 19:18:20:507 memoria/(8087:8094): Swapeo pagina 3 del carpincho 3
+[INFO] 19:18:20:507 memoria/(8087:8094): Marco: 0 - Reemplazo la pagina 3 del carpincho 3 con la pagina 8 del carpincho 3
+[INFO] 19:18:20:507 memoria/(8087:8094): Swapeo pagina 4 del carpincho 3
+[INFO] 19:18:20:507 memoria/(8087:8094): Marco: 1 - Reemplazo la pagina 4 del carpincho 3 con la pagina 9 del carpincho 3
+[INFO] 19:18:20:507 memoria/(8087:8094): Swapeo pagina 5 del carpincho 3
+[INFO] 19:18:20:507 memoria/(8087:8094): Marco: 2 - Reemplazo la pagina 5 del carpincho 3 con la pagina 0 del carpincho 3
+[INFO] 19:18:20:509 memoria/(8087:8093): Swapeo pagina 6 del carpincho 3
+[INFO] 19:18:25:512 memoria/(8087:8093): Marco: 3 - Reemplazo la pagina 6 del carpincho 3 con la pagina 0 del carpincho 2
+[INFO] 19:18:26:633 memoria/(8087:8092): Swapeo pagina 7 del carpincho 3
+[INFO] 19:18:26:633 memoria/(8087:8092): Marco: 4 - Reemplazo la pagina 7 del carpincho 3 con la pagina 0 del carpincho 1
+[WARNING] 19:18:30:393 memoria/(8087:8093): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:18:45:960 memoria/(8186:8186): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:18:45:960 memoria/(8186:8186): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:18:45:961 memoria/(8186:8186): ------2---------
+
+[INFO] 19:18:45:961 memoria/(8186:8186): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:18:49:044 memoria/(8186:8186): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:18:49:046 memoria/(8186:8186): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:18:49:048 memoria/(8186:8192): Se conecto el carpincho: 1 
+
+[INFO] 19:18:49:048 memoria/(8186:8186): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:18:49:050 memoria/(8186:8193): Se conecto el carpincho: 2 
+
+[WARNING] 19:18:49:051 memoria/(8186:8194): Se conecto el carpincho: 3 
+
+[INFO] 19:18:50:628 memoria/(8186:8194): Swapeo pagina 0 del carpincho 1
+[INFO] 19:18:50:629 memoria/(8186:8194): Marco: 0 - Reemplazo la pagina 0 del carpincho 1 con la pagina 3 del carpincho 3
+[INFO] 19:18:50:630 memoria/(8186:8194): Swapeo pagina 0 del carpincho 2
+[INFO] 19:18:50:631 memoria/(8186:8194): Marco: 1 - Reemplazo la pagina 0 del carpincho 2 con la pagina 4 del carpincho 3
+[INFO] 19:18:50:631 memoria/(8186:8194): Swapeo pagina 0 del carpincho 3
+[INFO] 19:18:50:631 memoria/(8186:8194): Marco: 2 - Reemplazo la pagina 0 del carpincho 3 con la pagina 5 del carpincho 3
+[INFO] 19:18:50:631 memoria/(8186:8194): Swapeo pagina 1 del carpincho 3
+[INFO] 19:18:50:632 memoria/(8186:8194): Marco: 3 - Reemplazo la pagina 1 del carpincho 3 con la pagina 6 del carpincho 3
+[INFO] 19:18:50:632 memoria/(8186:8194): Swapeo pagina 2 del carpincho 3
+[INFO] 19:18:50:632 memoria/(8186:8194): Marco: 4 - Reemplazo la pagina 2 del carpincho 3 con la pagina 7 del carpincho 3
+[INFO] 19:18:50:633 memoria/(8186:8194): Swapeo pagina 3 del carpincho 3
+[INFO] 19:18:50:633 memoria/(8186:8194): Marco: 0 - Reemplazo la pagina 3 del carpincho 3 con la pagina 8 del carpincho 3
+[INFO] 19:18:50:634 memoria/(8186:8194): Swapeo pagina 4 del carpincho 3
+[INFO] 19:18:50:634 memoria/(8186:8194): Marco: 1 - Reemplazo la pagina 4 del carpincho 3 con la pagina 9 del carpincho 3
+[INFO] 19:18:50:635 memoria/(8186:8194): Swapeo pagina 5 del carpincho 3
+[INFO] 19:18:50:635 memoria/(8186:8194): Marco: 2 - Reemplazo la pagina 5 del carpincho 3 con la pagina 0 del carpincho 3
+[INFO] 19:18:50:647 memoria/(8186:8193): Swapeo pagina 6 del carpincho 3
+[INFO] 19:18:55:644 memoria/(8186:8193): Marco: 3 - Reemplazo la pagina 6 del carpincho 3 con la pagina 0 del carpincho 2
+[INFO] 19:18:56:761 memoria/(8186:8192): Swapeo pagina 7 del carpincho 3
+[INFO] 19:18:56:761 memoria/(8186:8192): Marco: 4 - Reemplazo la pagina 7 del carpincho 3 con la pagina 0 del carpincho 1
+[WARNING] 19:19:00:521 memoria/(8186:8193): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:19:00:681 memoria/(8186:8194): DISCONNECT!
+[INFO] 19:19:00:681 memoria/(8186:8193): DISCONNECT!
+[WARNING] 19:19:00:682 memoria/(8186:8192): 
+Se desconecto el carpincho: 1 
+
+[INFO] 19:19:00:682 memoria/(8186:8192): DISCONNECT!
+[INFO] 19:28:30:991 memoria/(8518:8518): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:28:30:992 memoria/(8518:8518): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:28:30:992 memoria/(8518:8518): ------2---------
+
+[INFO] 19:28:30:992 memoria/(8518:8518): ------3---------
+
+[INFO] 19:28:41:731 memoria/(8579:8579): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:28:41:731 memoria/(8579:8579): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:28:41:731 memoria/(8579:8579): ------2---------
+
+[INFO] 19:28:41:731 memoria/(8579:8579): ------3---------
+
+[INFO] 19:30:04:628 memoria/(8648:8648): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:30:04:629 memoria/(8648:8648): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:30:04:629 memoria/(8648:8648): ------2---------
+
+[INFO] 19:30:04:629 memoria/(8648:8648): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:30:13:984 memoria/(8648:8648): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:30:25:362 memoria/(8648:8648): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:30:25:363 memoria/(8648:8789): Se conecto el carpincho: 1 
+
+[INFO] 19:30:25:403 memoria/(8648:8648): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:30:25:404 memoria/(8648:8791): Se conecto el carpincho: 2 
+
+[INFO] 19:30:27:443 memoria/(8648:8648): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:30:27:444 memoria/(8648:8793): Se conecto el carpincho: 3 
+
+[WARNING] 19:30:49:528 memoria/(8648:8789): 
+Se desconecto el carpincho: 1 
+
+[INFO] 19:30:49:528 memoria/(8648:8789): Cliente desconectado de Memoria
+[INFO] 19:32:18:897 memoria/(8986:8986): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:32:18:898 memoria/(8986:8986): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:32:18:898 memoria/(8986:8986): ------2---------
+
+[INFO] 19:32:18:898 memoria/(8986:8986): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:32:20:378 memoria/(8986:8986): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:32:40:313 memoria/(8986:8986): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:32:40:314 memoria/(8986:9044): Se conecto el carpincho: 1 
+
+[INFO] 19:32:40:350 memoria/(8986:8986): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:32:40:352 memoria/(8986:9046): Se conecto el carpincho: 2 
+
+[INFO] 19:32:42:395 memoria/(8986:8986): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:32:42:397 memoria/(8986:9048): Se conecto el carpincho: 3 
+
+[WARNING] 19:33:04:488 memoria/(8986:9044): 
+Se desconecto el carpincho: 1 
+
+[INFO] 19:33:04:488 memoria/(8986:9044): Cliente desconectado de Memoria
+[WARNING] 19:33:06:489 memoria/(8986:9046): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:33:06:490 memoria/(8986:9046): Cliente desconectado de Memoria
+[WARNING] 19:33:40:511 memoria/(8986:9048): 
+Se desconecto el carpincho: 3 
+
+[INFO] 19:33:40:512 memoria/(8986:9048): Cliente desconectado de Memoria
+[INFO] 19:37:34:548 memoria/(8986:9027): Senial SIGUSR1
+[INFO] 19:37:34:548 memoria/(8986:9027): -------------
+[INFO] 19:38:12:382 memoria/(9394:9394): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:38:12:382 memoria/(9394:9394): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:38:12:382 memoria/(9394:9394): ------2---------
+
+[INFO] 19:38:12:382 memoria/(9394:9394): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:38:22:795 memoria/(9394:9394): Senial SIGINT
+[INFO] 19:38:22:795 memoria/(9394:9394): -------------
+[INFO] 19:38:22:796 memoria/(9394:9394): Cantidad TLB Hits totales: 0
+[INFO] 19:38:22:796 memoria/(9394:9394): Cantidad TLB Miss totales: 0
+[INFO] 19:38:29:107 memoria/(9475:9475): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:38:29:107 memoria/(9475:9475): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:38:29:107 memoria/(9475:9475): ------2---------
+
+[INFO] 19:38:29:107 memoria/(9475:9475): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:38:38:723 memoria/(9475:9475): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:38:41:927 memoria/(9475:9475): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:38:41:928 memoria/(9475:9569): Se conecto el carpincho: 1 
+
+[INFO] 19:38:41:965 memoria/(9475:9475): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:38:41:968 memoria/(9475:9571): Se conecto el carpincho: 2 
+
+[INFO] 19:38:44:010 memoria/(9475:9475): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:38:44:017 memoria/(9475:9573): Se conecto el carpincho: 3 
+
+[WARNING] 19:39:06:105 memoria/(9475:9571): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:39:06:105 memoria/(9475:9571): Cliente desconectado de Memoria
+[WARNING] 19:39:08:106 memoria/(9475:9569): 
+Se desconecto el carpincho: 1 
+
+[INFO] 19:39:08:106 memoria/(9475:9569): Cliente desconectado de Memoria
+[WARNING] 19:39:42:128 memoria/(9475:9573): 
+Se desconecto el carpincho: 3 
+
+[INFO] 19:39:42:131 memoria/(9475:9573): Cliente desconectado de Memoria
+[INFO] 19:40:20:647 memoria/(9475:9559): Senial SIGUSR1
+[INFO] 19:40:20:647 memoria/(9475:9559): -------------
+[INFO] 19:42:33:619 memoria/(9685:9685): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:42:33:619 memoria/(9685:9685): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:42:33:619 memoria/(9685:9685): ------2---------
+
+[INFO] 19:42:33:619 memoria/(9685:9685): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:42:36:334 memoria/(9685:9685): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:42:38:623 memoria/(9685:9685): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:42:38:625 memoria/(9685:9734): Se conecto el carpincho: 1 
+
+[INFO] 19:42:38:663 memoria/(9685:9685): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:42:38:664 memoria/(9685:9736): Se conecto el carpincho: 2 
+
+[INFO] 19:42:40:703 memoria/(9685:9685): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:42:40:707 memoria/(9685:9738): Se conecto el carpincho: 3 
+
+[WARNING] 19:43:02:795 memoria/(9685:9734): 
+Se desconecto el carpincho: 1 
+
+[INFO] 19:43:02:796 memoria/(9685:9734): Cliente desconectado de Memoria
+[WARNING] 19:43:04:798 memoria/(9685:9736): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:43:04:800 memoria/(9685:9736): Cliente desconectado de Memoria
+[WARNING] 19:43:38:829 memoria/(9685:9738): 
+Se desconecto el carpincho: 3 
+
+[INFO] 19:43:38:830 memoria/(9685:9738): Cliente desconectado de Memoria
+[INFO] 19:43:58:504 memoria/(9685:9724): Senial SIGUSR1
+[INFO] 19:43:58:504 memoria/(9685:9724): -------------
+[INFO] 19:45:15:664 memoria/(9826:9826): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:45:15:664 memoria/(9826:9826): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:45:15:664 memoria/(9826:9826): ------2---------
+
+[INFO] 19:45:15:664 memoria/(9826:9826): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:54:09:511 memoria/(9826:9826): Senial SIGINT
+[INFO] 19:54:09:512 memoria/(9826:9826): -------------
+[INFO] 19:54:09:512 memoria/(9826:9826): Cantidad TLB Hits totales: 0
+[INFO] 19:54:09:512 memoria/(9826:9826): Cantidad TLB Miss totales: 0
+[INFO] 19:54:12:259 memoria/(10055:10055): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 19:54:12:259 memoria/(10055:10055): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 19:54:12:259 memoria/(10055:10055): ------2---------
+
+[INFO] 19:54:12:260 memoria/(10055:10055): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 19:54:13:739 memoria/(10055:10055): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 19:54:48:771 memoria/(10055:10055): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:54:48:773 memoria/(10055:10126): Se conecto el carpincho: 1 
+
+[INFO] 19:54:48:811 memoria/(10055:10055): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:54:48:812 memoria/(10055:10128): Se conecto el carpincho: 2 
+
+[INFO] 19:54:50:851 memoria/(10055:10055): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 19:54:50:854 memoria/(10055:10130): Se conecto el carpincho: 3 
+
+[WARNING] 19:55:12:943 memoria/(10055:10126): 
+Se desconecto el carpincho: 1 
+
+[INFO] 19:55:12:943 memoria/(10055:10126): Cliente desconectado de Memoria
+[WARNING] 19:55:14:945 memoria/(10055:10128): 
+Se desconecto el carpincho: 2 
+
+[INFO] 19:55:14:946 memoria/(10055:10128): Cliente desconectado de Memoria
+[WARNING] 19:55:48:966 memoria/(10055:10130): 
+Se desconecto el carpincho: 3 
+
+[INFO] 19:55:48:968 memoria/(10055:10130): Cliente desconectado de Memoria
+[INFO] 19:56:02:879 memoria/(10055:10095): Senial SIGUSR1
+[INFO] 19:56:02:879 memoria/(10055:10095): -------------
+[INFO] 20:04:37:880 memoria/(10055:10055): Senial SIGINT
+[INFO] 20:04:37:880 memoria/(10055:10055): -------------
+[INFO] 20:04:37:880 memoria/(10055:10055): Cantidad TLB Hits totales: 0
+[INFO] 20:04:37:880 memoria/(10055:10055): Cantidad TLB Miss totales: 0
+[INFO] 20:04:52:394 memoria/(10446:10446): CONFIGURACION CARGADA EXITOSAMENTE
+[INFO] 20:04:52:395 memoria/(10446:10446): Cliente conectado en 0.0.0.0:5001 (a Server)
+
+[INFO] 20:04:52:395 memoria/(10446:10446): ------2---------
+
+[INFO] 20:04:52:395 memoria/(10446:10446): Escuchando en 0.0.0.0:5002 (MEMORIA_SERVER)
+
+[INFO] 20:04:54:831 memoria/(10446:10446): Cliente conectado (a MEMORIA_SERVER)
+
+[INFO] 20:04:58:591 memoria/(10446:10446): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 20:04:58:592 memoria/(10446:10494): Se conecto el carpincho: 1 
+
+[INFO] 20:04:58:631 memoria/(10446:10446): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 20:04:58:632 memoria/(10446:10496): Se conecto el carpincho: 2 
+
+[INFO] 20:05:00:675 memoria/(10446:10446): Cliente conectado (a MEMORIA_SERVER)
+
+[WARNING] 20:05:00:676 memoria/(10446:10498): Se conecto el carpincho: 3 
+
+[WARNING] 20:05:22:761 memoria/(10446:10494): 
+Se desconecto el carpincho: 1 
+
+[INFO] 20:05:22:762 memoria/(10446:10494): Cliente desconectado de Memoria
+[WARNING] 20:05:24:766 memoria/(10446:10496): 
+Se desconecto el carpincho: 2 
+
+[INFO] 20:05:24:767 memoria/(10446:10496): Cliente desconectado de Memoria
+[WARNING] 20:05:58:801 memoria/(10446:10498): 
+Se desconecto el carpincho: 3 
+
+[INFO] 20:05:58:803 memoria/(10446:10498): Cliente desconectado de Memoria
+[INFO] 20:06:18:860 memoria/(10446:10446): Senial SIGINT
+[INFO] 20:06:18:860 memoria/(10446:10446): -------------
+[INFO] 20:06:18:860 memoria/(10446:10446): Cantidad TLB Hits totales: 0
+[INFO] 20:06:18:860 memoria/(10446:10446): Cantidad TLB Miss totales: 0
+[INFO] 20:06:18:860 memoria/(10446:10446): Carpincho: 1 - Cantidad Hits: 0
+[INFO] 20:06:18:860 memoria/(10446:10446): Carpincho: 2 - Cantidad Hits: 0
+[INFO] 20:06:18:861 memoria/(10446:10446): Carpincho: 3 - Cantidad Hits: 0
+[INFO] 20:06:18:861 memoria/(10446:10446): Carpincho: 1 - Cantidad Miss: 0
+[INFO] 20:06:18:862 memoria/(10446:10446): Carpincho: 2 - Cantidad Miss: 0
+[INFO] 20:06:18:862 memoria/(10446:10446): Carpincho: 3 - Cantidad Miss: 0

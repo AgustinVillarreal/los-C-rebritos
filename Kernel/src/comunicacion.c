@@ -282,7 +282,8 @@ static void procesar_conexion(void* void_args){
 		        sem_post(&SEM_CPUs[carpincho->cpu_asignada]);	
                 push_cola_exit(carpincho);	 
                 send_codigo_op(carpincho->memoria_fd, FREE_CARPINCHO);
-                send_data_mate_init(carpincho->memoria_fd, id_free);               
+                send_data_mate_init(carpincho->memoria_fd, id_free); 
+                send_codigo_op(carpincho->memoria_fd, -1);              
                 break;
             case -1:
                 log_info(logger, "Cliente desconectado de Kernel");

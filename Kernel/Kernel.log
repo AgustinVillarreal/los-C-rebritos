@@ -2773,3 +2773,271 @@
 [INFO] 22:37:40:482 Kernel/(16381:16393): DISCONNECT!
 [INFO] 22:37:40:482 Kernel/(16381:16391): DISCONNECT!
 [INFO] 22:37:40:483 Kernel/(16381:16395): DISCONNECT!
+[WARNING] 19:30:13:982 Kernel/(8778:8778): --config/planificacion-sjf.config
+[INFO] 19:30:13:984 Kernel/(8778:8778): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:30:13:984 Kernel/(8778:8778): ------2---------
+
+[INFO] 19:30:13:985 Kernel/(8778:8778): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 19:30:25:360 Kernel/(8778:8778): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:30:25:362 Kernel/(8778:8788): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:30:25:363 Kernel/(8778:8780): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:30:25:363 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:25:401 Kernel/(8778:8778): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:30:25:403 Kernel/(8778:8790): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:30:25:404 Kernel/(8778:8780): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:30:27:441 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:27:442 Kernel/(8778:8778): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:30:27:443 Kernel/(8778:8792): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:30:27:444 Kernel/(8778:8780): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:30:29:442 Kernel/(8778:8788): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:30:29:481 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:31:481 Kernel/(8778:8790): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:30:39:521 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:41:522 Kernel/(8778:8792): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:30:41:523 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:43:523 Kernel/(8778:8788): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:30:43:525 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:45:526 Kernel/(8778:8790): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:30:45:526 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:47:526 Kernel/(8778:8788): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:30:47:527 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[INFO] 19:30:49:528 Kernel/(8778:8790): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:30:49:528 Kernel/(8778:8781): ---Se replanifica la ejecucion---
+[WARNING] 19:32:20:378 Kernel/(9026:9026): --config/planificacion-sjf.config
+[INFO] 19:32:20:378 Kernel/(9026:9026): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:32:20:378 Kernel/(9026:9026): ------2---------
+
+[INFO] 19:32:20:378 Kernel/(9026:9026): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 19:32:40:312 Kernel/(9026:9026): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:32:40:313 Kernel/(9026:9043): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:32:40:314 Kernel/(9026:9028): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:32:40:314 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:32:40:349 Kernel/(9026:9026): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:32:40:350 Kernel/(9026:9045): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:32:40:352 Kernel/(9026:9028): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:32:42:389 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:32:42:391 Kernel/(9026:9026): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:32:42:395 Kernel/(9026:9047): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:32:42:397 Kernel/(9026:9028): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:32:44:389 Kernel/(9026:9043): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:32:44:429 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:32:46:430 Kernel/(9026:9045): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:32:54:481 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:32:56:482 Kernel/(9026:9047): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:32:56:483 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:32:58:484 Kernel/(9026:9043): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:32:58:485 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:33:00:486 Kernel/(9026:9045): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:33:00:486 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:33:02:486 Kernel/(9026:9043): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:33:02:487 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:33:04:487 Kernel/(9026:9045): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:33:04:488 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:33:06:489 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:33:18:496 Kernel/(9026:9047): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:33:18:496 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:33:30:503 Kernel/(9026:9047): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:33:30:503 Kernel/(9026:9029): ---Se replanifica la ejecucion---
+[INFO] 19:33:40:511 Kernel/(9026:9045): DISCONNECT!
+[INFO] 19:33:40:511 Kernel/(9026:9043): DISCONNECT!
+[INFO] 19:33:40:512 Kernel/(9026:9047): DISCONNECT!
+[WARNING] 19:38:38:722 Kernel/(9558:9558): --config/planificacion-sjf.config
+[INFO] 19:38:38:723 Kernel/(9558:9558): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:38:38:723 Kernel/(9558:9558): ------2---------
+
+[INFO] 19:38:38:723 Kernel/(9558:9558): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 19:38:41:925 Kernel/(9558:9558): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:38:41:927 Kernel/(9558:9568): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:38:41:928 Kernel/(9558:9560): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:38:41:928 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:38:41:964 Kernel/(9558:9558): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:38:41:966 Kernel/(9558:9570): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:38:41:967 Kernel/(9558:9560): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:38:44:002 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:38:44:004 Kernel/(9558:9558): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:38:44:011 Kernel/(9558:9572): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:38:44:013 Kernel/(9558:9560): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:38:46:004 Kernel/(9558:9568): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:38:46:045 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:38:48:050 Kernel/(9558:9570): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:38:56:093 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:38:58:094 Kernel/(9558:9572): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:38:58:094 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:00:095 Kernel/(9558:9570): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:39:00:096 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:02:097 Kernel/(9558:9568): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:39:02:099 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:04:099 Kernel/(9558:9570): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:39:04:102 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:06:102 Kernel/(9558:9568): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:39:06:105 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:08:106 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:20:111 Kernel/(9558:9572): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:39:20:111 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:32:119 Kernel/(9558:9572): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:39:32:120 Kernel/(9558:9561): ---Se replanifica la ejecucion---
+[INFO] 19:39:42:128 Kernel/(9558:9570): DISCONNECT!
+[INFO] 19:39:42:129 Kernel/(9558:9568): DISCONNECT!
+[INFO] 19:39:42:130 Kernel/(9558:9572): DISCONNECT!
+[WARNING] 19:42:36:334 Kernel/(9723:9723): --config/planificacion-sjf.config
+[INFO] 19:42:36:334 Kernel/(9723:9723): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:42:36:334 Kernel/(9723:9723): ------2---------
+
+[INFO] 19:42:36:334 Kernel/(9723:9723): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 19:42:38:622 Kernel/(9723:9723): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:42:38:623 Kernel/(9723:9733): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:42:38:625 Kernel/(9723:9725): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:42:38:625 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:42:38:662 Kernel/(9723:9723): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:42:38:663 Kernel/(9723:9735): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:42:38:664 Kernel/(9723:9725): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:42:40:701 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:42:40:702 Kernel/(9723:9723): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:42:40:703 Kernel/(9723:9737): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:42:40:706 Kernel/(9723:9725): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:42:42:702 Kernel/(9723:9733): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:42:42:741 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:42:44:741 Kernel/(9723:9735): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:42:52:786 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:42:54:786 Kernel/(9723:9737): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:42:54:788 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:42:56:788 Kernel/(9723:9733): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:42:56:789 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:42:58:789 Kernel/(9723:9735): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:42:58:791 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:43:00:792 Kernel/(9723:9733): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:43:00:793 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:43:02:794 Kernel/(9723:9735): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:43:02:795 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:43:04:798 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:43:16:808 Kernel/(9723:9737): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:43:16:808 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:43:28:817 Kernel/(9723:9737): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:43:28:818 Kernel/(9723:9726): ---Se replanifica la ejecucion---
+[INFO] 19:43:38:829 Kernel/(9723:9735): DISCONNECT!
+[INFO] 19:43:38:829 Kernel/(9723:9733): DISCONNECT!
+[INFO] 19:43:38:830 Kernel/(9723:9737): DISCONNECT!
+[WARNING] 19:54:13:739 Kernel/(10094:10094): --config/planificacion-sjf.config
+[INFO] 19:54:13:739 Kernel/(10094:10094): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:54:13:740 Kernel/(10094:10094): ------2---------
+
+[INFO] 19:54:13:740 Kernel/(10094:10094): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 19:54:48:770 Kernel/(10094:10094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:54:48:771 Kernel/(10094:10125): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:54:48:772 Kernel/(10094:10096): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:54:48:772 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:54:48:809 Kernel/(10094:10094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:54:48:811 Kernel/(10094:10127): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:54:48:812 Kernel/(10094:10096): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:54:50:849 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:54:50:850 Kernel/(10094:10094): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 19:54:50:852 Kernel/(10094:10129): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 19:54:50:853 Kernel/(10094:10096): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:54:52:850 Kernel/(10094:10125): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:54:52:889 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:54:54:890 Kernel/(10094:10127): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:55:02:937 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:04:937 Kernel/(10094:10129): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:55:04:938 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:06:938 Kernel/(10094:10125): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:55:06:939 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:08:940 Kernel/(10094:10127): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:55:08:940 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:10:941 Kernel/(10094:10125): COLA READY - Carpincho: 1 entra a ready
+[INFO] 19:55:10:941 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:12:942 Kernel/(10094:10127): COLA READY - Carpincho: 2 entra a ready
+[INFO] 19:55:12:943 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:14:945 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:26:950 Kernel/(10094:10129): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:55:26:951 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:38:959 Kernel/(10094:10129): COLA READY - Carpincho: 3 entra a ready
+[INFO] 19:55:38:959 Kernel/(10094:10097): ---Se replanifica la ejecucion---
+[INFO] 19:55:48:967 Kernel/(10094:10127): DISCONNECT!
+[INFO] 19:55:48:967 Kernel/(10094:10125): DISCONNECT!
+[INFO] 19:55:48:968 Kernel/(10094:10129): DISCONNECT!
+[WARNING] 20:04:54:831 Kernel/(10483:10483): --config/planificacion-sjf.config
+[INFO] 20:04:54:831 Kernel/(10483:10483): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:04:54:831 Kernel/(10483:10483): ------2---------
+
+[INFO] 20:04:54:831 Kernel/(10483:10483): Escuchando en 0.0.0.0:6005 (KERNEL_SERVER)
+
+[INFO] 20:04:58:590 Kernel/(10483:10483): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:04:58:591 Kernel/(10483:10493): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:04:58:592 Kernel/(10483:10485): COLA READY - Carpincho: 1 entra a ready
+[INFO] 20:04:58:592 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:04:58:629 Kernel/(10483:10483): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:04:58:631 Kernel/(10483:10495): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:04:58:632 Kernel/(10483:10485): COLA READY - Carpincho: 2 entra a ready
+[INFO] 20:05:00:669 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:00:671 Kernel/(10483:10483): Cliente conectado (a KERNEL_SERVER)
+
+[INFO] 20:05:00:675 Kernel/(10483:10497): Cliente conectado en 0.0.0.0:5002 (a Server)
+
+[INFO] 20:05:00:676 Kernel/(10483:10485): COLA READY - Carpincho: 3 entra a ready
+[INFO] 20:05:02:670 Kernel/(10483:10493): COLA READY - Carpincho: 1 entra a ready
+[INFO] 20:05:02:709 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:04:709 Kernel/(10483:10495): COLA READY - Carpincho: 2 entra a ready
+[INFO] 20:05:12:753 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:14:754 Kernel/(10483:10497): COLA READY - Carpincho: 3 entra a ready
+[INFO] 20:05:14:755 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:16:756 Kernel/(10483:10493): COLA READY - Carpincho: 1 entra a ready
+[INFO] 20:05:16:757 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:18:757 Kernel/(10483:10495): COLA READY - Carpincho: 2 entra a ready
+[INFO] 20:05:18:758 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:20:758 Kernel/(10483:10493): COLA READY - Carpincho: 1 entra a ready
+[INFO] 20:05:20:759 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:22:761 Kernel/(10483:10495): COLA READY - Carpincho: 2 entra a ready
+[INFO] 20:05:22:761 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:24:766 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:36:775 Kernel/(10483:10497): COLA READY - Carpincho: 3 entra a ready
+[INFO] 20:05:36:776 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:48:783 Kernel/(10483:10497): COLA READY - Carpincho: 3 entra a ready
+[INFO] 20:05:48:784 Kernel/(10483:10486): ---Se replanifica la ejecucion---
+[INFO] 20:05:58:801 Kernel/(10483:10495): DISCONNECT!
+[INFO] 20:05:58:801 Kernel/(10483:10493): DISCONNECT!
+[INFO] 20:05:58:802 Kernel/(10483:10497): DISCONNECT!

@@ -29,11 +29,8 @@ void dumpear_TLB() {
 
     struct stat st = {0};
 
-    if (stat(MEMORIA_CFG->PATH_DUMP_TLB, &st) == -1) {
-        mkdir(MEMORIA_CFG->PATH_DUMP_TLB, 0700);
-    }
-    
     char* filename = string_from_format("%s/Dump_%s.tlb", MEMORIA_CFG->PATH_DUMP_TLB ,timestamp);
+    _mkdir(MEMORIA_CFG->PATH_DUMP_TLB);
     FILE* dump_file = txt_open_for_append(filename);
     char* hr = string_repeat('-', 50);
     char* str_tlb = stringify_tlb();
@@ -60,4 +57,22 @@ void borrar_entradas_TLB(){
         free(tlb_entry);
     }
     list_clean_and_destroy_elements(TLB_TABLE,(void*)destroy_tlb_entry);
+}
+
+static void _mkdir(const char *dir) {
+    char tmp[256];
+    char *p = NULL;
+    size_t len;
+
+    snprintf(tmp, sizeof(tmp),"%s",dir);
+    len = strlen(tmp);
+    if (tmp[len - 1] == '/')
+        tmp[len - 1] = 0;
+    for (p = tmp + 1; *p; p++)
+        if (*p == '/') {
+            *p = 0;
+            mkdir(tmp, S_IRWXU);
+            *p = '/';
+        }
+    mkdir(tmp, S_IRWXU);
 }

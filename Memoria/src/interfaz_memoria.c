@@ -189,7 +189,7 @@ void finalizar_carpincho(unsigned long id_carpincho){
     tp_carpincho_t* tabla_carpincho = find_tp_carpincho(id_carpincho);
     if(tabla_carpincho){
         //Sacar la tabla_carpincho de la tabla de tablas carpincho
-        eliminar_tabla(tabla_carpincho);
+        // eliminar_tabla(tabla_carpincho);
         //Sacar las entradas carpinchos de la TLB
         sacar_entradas_TLB(id_carpincho);
         //Liberar entradas tp y adentro el clock_m
@@ -200,8 +200,11 @@ void finalizar_carpincho(unsigned long id_carpincho){
             }
             free(entrada_tp);
         }
+        pthread_mutex_destroy(&(tabla_carpincho->mutex_paginas));
+        pthread_mutex_destroy(&(tabla_carpincho->mutex_hits));
+        pthread_mutex_destroy(&(tabla_carpincho->mutex_miss));
         list_destroy_and_destroy_elements(tabla_carpincho->paginas, destructor_loco);  
-        free(tabla_carpincho);
+        // free(tabla_carpincho);
     }
     
 }

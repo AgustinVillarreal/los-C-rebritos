@@ -6966,3 +6966,216 @@
 [INFO] 22:36:37:208 SWAmP/(16211:16211): Me llego el HANDSHAKE con MEMORIA!
 [INFO] 00:07:46:026 SWAmP/(16211:16211): DISCONNECT!
 [INFO] 00:07:46:027 SWAmP/(16211:16211): Finalizando programa...
+[INFO] 19:01:10:568 SWAmP/(6878:6878): Archivo de configuracion cargado correctamente
+[INFO] 19:01:10:569 SWAmP/(6878:6878): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:01:10:569 SWAmP/(6878:6878): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:01:10:569 SWAmP/(6878:6878): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:01:10:569 SWAmP/(6878:6878): ------2---------
+
+[INFO] 19:01:10:570 SWAmP/(6878:6878): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:03:44:450 SWAmP/(7261:7261): Archivo de configuracion cargado correctamente
+[INFO] 19:03:44:451 SWAmP/(7261:7261): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:03:44:451 SWAmP/(7261:7261): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:03:44:451 SWAmP/(7261:7261): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:03:44:451 SWAmP/(7261:7261): ------2---------
+
+[INFO] 19:03:44:451 SWAmP/(7261:7261): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:03:45:935 SWAmP/(7261:7261): Cliente conectado (a SWAmP)
+
+[INFO] 19:03:45:935 SWAmP/(7261:7261): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:04:28:036 SWAmP/(7261:7261): DISCONNECT!
+[INFO] 19:04:28:037 SWAmP/(7261:7261): Finalizando programa...
+[INFO] 19:04:29:630 SWAmP/(7346:7346): Archivo de configuracion cargado correctamente
+[INFO] 19:04:29:630 SWAmP/(7346:7346): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:04:29:631 SWAmP/(7346:7346): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:04:29:631 SWAmP/(7346:7346): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:04:29:631 SWAmP/(7346:7346): ------2---------
+
+[INFO] 19:04:29:631 SWAmP/(7346:7346): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:04:30:941 SWAmP/(7346:7346): Cliente conectado (a SWAmP)
+
+[INFO] 19:04:30:941 SWAmP/(7346:7346): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:07:04:618 SWAmP/(7346:7346): DISCONNECT!
+[INFO] 19:07:04:619 SWAmP/(7346:7346): Finalizando programa...
+[INFO] 19:07:45:839 SWAmP/(7576:7576): Archivo de configuracion cargado correctamente
+[INFO] 19:07:45:839 SWAmP/(7576:7576): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:07:45:839 SWAmP/(7576:7576): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:07:45:839 SWAmP/(7576:7576): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:07:45:839 SWAmP/(7576:7576): ------2---------
+
+[INFO] 19:07:45:839 SWAmP/(7576:7576): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:07:47:952 SWAmP/(7576:7576): Cliente conectado (a SWAmP)
+
+[INFO] 19:07:47:953 SWAmP/(7576:7576): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:12:21:906 SWAmP/(7576:7576): DISCONNECT!
+[INFO] 19:12:21:906 SWAmP/(7576:7576): Finalizando programa...
+[INFO] 19:12:38:632 SWAmP/(7802:7802): Archivo de configuracion cargado correctamente
+[INFO] 19:12:38:632 SWAmP/(7802:7802): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:12:38:632 SWAmP/(7802:7802): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:12:38:632 SWAmP/(7802:7802): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:12:38:632 SWAmP/(7802:7802): ------2---------
+
+[INFO] 19:12:38:632 SWAmP/(7802:7802): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:12:40:067 SWAmP/(7802:7802): Cliente conectado (a SWAmP)
+
+[INFO] 19:12:40:067 SWAmP/(7802:7802): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:12:53:992 SWAmP/(7802:7802): DISCONNECT!
+[INFO] 19:12:53:995 SWAmP/(7802:7802): Finalizando programa...
+[INFO] 19:15:32:328 SWAmP/(7933:7933): Archivo de configuracion cargado correctamente
+[INFO] 19:15:32:328 SWAmP/(7933:7933): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:15:32:328 SWAmP/(7933:7933): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:15:32:328 SWAmP/(7933:7933): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:15:32:328 SWAmP/(7933:7933): ------2---------
+
+[INFO] 19:15:32:328 SWAmP/(7933:7933): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:15:33:699 SWAmP/(7933:7933): Cliente conectado (a SWAmP)
+
+[INFO] 19:15:33:700 SWAmP/(7933:7933): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:15:46:907 SWAmP/(7933:7933): DISCONNECT!
+[INFO] 19:15:46:907 SWAmP/(7933:7933): Finalizando programa...
+[INFO] 19:18:16:098 SWAmP/(8051:8051): Archivo de configuracion cargado correctamente
+[INFO] 19:18:16:098 SWAmP/(8051:8051): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:18:16:099 SWAmP/(8051:8051): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:18:16:099 SWAmP/(8051:8051): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:18:16:099 SWAmP/(8051:8051): ------2---------
+
+[INFO] 19:18:16:099 SWAmP/(8051:8051): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:18:17:615 SWAmP/(8051:8051): Cliente conectado (a SWAmP)
+
+[INFO] 19:18:17:616 SWAmP/(8051:8051): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:18:30:554 SWAmP/(8051:8051): DISCONNECT!
+[INFO] 19:18:30:554 SWAmP/(8051:8051): Finalizando programa...
+[INFO] 19:18:44:247 SWAmP/(8150:8150): Archivo de configuracion cargado correctamente
+[INFO] 19:18:44:247 SWAmP/(8150:8150): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:18:44:247 SWAmP/(8150:8150): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:18:44:247 SWAmP/(8150:8150): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:18:44:247 SWAmP/(8150:8150): ------2---------
+
+[INFO] 19:18:44:247 SWAmP/(8150:8150): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:18:45:960 SWAmP/(8150:8150): Cliente conectado (a SWAmP)
+
+[INFO] 19:18:45:961 SWAmP/(8150:8150): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:28:11:966 SWAmP/(8364:8364): Archivo de configuracion cargado correctamente
+[INFO] 19:28:11:966 SWAmP/(8364:8364): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:28:11:966 SWAmP/(8364:8364): Creando archivos SWAP en <</home/utnso/swap2.bin>>
+[INFO] 19:28:11:966 SWAmP/(8364:8364): Creando archivos SWAP en <</home/utnso/swap3.bin>>
+[INFO] 19:28:11:966 SWAmP/(8364:8364): ------2---------
+
+[INFO] 19:28:11:966 SWAmP/(8364:8364): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:28:15:901 SWAmP/(8405:8405): Archivo de configuracion cargado correctamente
+[INFO] 19:28:15:902 SWAmP/(8405:8405): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:28:15:902 SWAmP/(8405:8405): ------2---------
+
+[INFO] 19:28:15:902 SWAmP/(8405:8405): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:28:30:991 SWAmP/(8405:8405): Cliente conectado (a SWAmP)
+
+[INFO] 19:28:30:992 SWAmP/(8405:8405): DISCONNECT!
+[INFO] 19:28:30:992 SWAmP/(8405:8405): Finalizando programa...
+[INFO] 19:28:37:622 SWAmP/(8541:8541): Archivo de configuracion cargado correctamente
+[INFO] 19:28:37:623 SWAmP/(8541:8541): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:28:37:623 SWAmP/(8541:8541): ------2---------
+
+[INFO] 19:28:37:623 SWAmP/(8541:8541): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:28:41:731 SWAmP/(8541:8541): Cliente conectado (a SWAmP)
+
+[INFO] 19:28:41:731 SWAmP/(8541:8541): DISCONNECT!
+[INFO] 19:28:41:731 SWAmP/(8541:8541): Finalizando programa...
+[INFO] 19:30:02:940 SWAmP/(8615:8615): Archivo de configuracion cargado correctamente
+[INFO] 19:30:02:940 SWAmP/(8615:8615): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:30:02:940 SWAmP/(8615:8615): ------2---------
+
+[INFO] 19:30:02:940 SWAmP/(8615:8615): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:30:04:629 SWAmP/(8615:8615): Cliente conectado (a SWAmP)
+
+[INFO] 19:30:04:629 SWAmP/(8615:8615): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:30:49:727 SWAmP/(8615:8615): DISCONNECT!
+[INFO] 19:30:49:727 SWAmP/(8615:8615): Finalizando programa...
+[INFO] 19:32:17:512 SWAmP/(8950:8950): Archivo de configuracion cargado correctamente
+[INFO] 19:32:17:512 SWAmP/(8950:8950): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:32:17:512 SWAmP/(8950:8950): ------2---------
+
+[INFO] 19:32:17:512 SWAmP/(8950:8950): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:32:18:897 SWAmP/(8950:8950): Cliente conectado (a SWAmP)
+
+[INFO] 19:32:18:898 SWAmP/(8950:8950): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:37:34:730 SWAmP/(8950:8950): DISCONNECT!
+[INFO] 19:37:34:730 SWAmP/(8950:8950): Finalizando programa...
+[INFO] 19:38:10:851 SWAmP/(9359:9359): Archivo de configuracion cargado correctamente
+[INFO] 19:38:10:852 SWAmP/(9359:9359): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:38:10:852 SWAmP/(9359:9359): ------2---------
+
+[INFO] 19:38:10:852 SWAmP/(9359:9359): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:38:12:382 SWAmP/(9359:9359): Cliente conectado (a SWAmP)
+
+[INFO] 19:38:12:382 SWAmP/(9359:9359): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:38:22:796 SWAmP/(9359:9359): DISCONNECT!
+[INFO] 19:38:22:797 SWAmP/(9359:9359): Finalizando programa...
+[INFO] 19:38:25:755 SWAmP/(9419:9419): Archivo de configuracion cargado correctamente
+[INFO] 19:38:25:755 SWAmP/(9419:9419): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:38:25:755 SWAmP/(9419:9419): ------2---------
+
+[INFO] 19:38:25:755 SWAmP/(9419:9419): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:38:29:107 SWAmP/(9419:9419): Cliente conectado (a SWAmP)
+
+[INFO] 19:38:29:107 SWAmP/(9419:9419): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:40:20:804 SWAmP/(9419:9419): DISCONNECT!
+[INFO] 19:40:20:804 SWAmP/(9419:9419): Finalizando programa...
+[INFO] 19:42:32:340 SWAmP/(9649:9649): Archivo de configuracion cargado correctamente
+[INFO] 19:42:32:340 SWAmP/(9649:9649): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:42:32:341 SWAmP/(9649:9649): ------2---------
+
+[INFO] 19:42:32:341 SWAmP/(9649:9649): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:42:33:619 SWAmP/(9649:9649): Cliente conectado (a SWAmP)
+
+[INFO] 19:42:33:620 SWAmP/(9649:9649): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:43:58:657 SWAmP/(9649:9649): DISCONNECT!
+[INFO] 19:43:58:657 SWAmP/(9649:9649): Finalizando programa...
+[INFO] 19:45:14:227 SWAmP/(9790:9790): Archivo de configuracion cargado correctamente
+[INFO] 19:45:14:227 SWAmP/(9790:9790): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:45:14:227 SWAmP/(9790:9790): ------2---------
+
+[INFO] 19:45:14:227 SWAmP/(9790:9790): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:45:15:664 SWAmP/(9790:9790): Cliente conectado (a SWAmP)
+
+[INFO] 19:45:15:664 SWAmP/(9790:9790): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 19:54:09:512 SWAmP/(9790:9790): DISCONNECT!
+[INFO] 19:54:09:512 SWAmP/(9790:9790): Finalizando programa...
+[INFO] 19:54:10:841 SWAmP/(10019:10019): Archivo de configuracion cargado correctamente
+[INFO] 19:54:10:841 SWAmP/(10019:10019): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 19:54:10:842 SWAmP/(10019:10019): ------2---------
+
+[INFO] 19:54:10:842 SWAmP/(10019:10019): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 19:54:12:259 SWAmP/(10019:10019): Cliente conectado (a SWAmP)
+
+[INFO] 19:54:12:260 SWAmP/(10019:10019): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:04:37:881 SWAmP/(10019:10019): DISCONNECT!
+[INFO] 20:04:37:881 SWAmP/(10019:10019): Finalizando programa...
+[INFO] 20:04:46:645 SWAmP/(10405:10405): Archivo de configuracion cargado correctamente
+[INFO] 20:04:46:645 SWAmP/(10405:10405): Creando archivos SWAP en <</home/utnso/swap1.bin>>
+[INFO] 20:04:46:646 SWAmP/(10405:10405): ------2---------
+
+[INFO] 20:04:46:646 SWAmP/(10405:10405): Escuchando en 0.0.0.0:5001 (SWAmP)
+
+[INFO] 20:04:52:394 SWAmP/(10405:10405): Cliente conectado (a SWAmP)
+
+[INFO] 20:04:52:395 SWAmP/(10405:10405): Me llego el HANDSHAKE con MEMORIA!
+[INFO] 20:06:18:862 SWAmP/(10405:10405): DISCONNECT!
+[INFO] 20:06:18:863 SWAmP/(10405:10405): Finalizando programa...

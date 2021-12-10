@@ -31,7 +31,6 @@ static void procesar_conexion(void* void_args){
     while (cliente_socket != -1) {
 
         if (recv(cliente_socket, &cop, sizeof(op_code), 0) == 0) {
-        	log_info(logger, "DISCONNECT!");
             return;
         }
 
@@ -67,7 +66,7 @@ static void procesar_conexion(void* void_args){
                 }
                 mate_init(id_carpincho);
                 // Aca logeo la conexion del carpincho
-                log_warning(logger, "\nSe conecto el carpincho: %lu \n", id_carpincho);            
+                log_warning(logger, "Se conecto el carpincho: %lu", id_carpincho);            
                 break;
             case CARPINCHO_READY: ;
                 if (!recv(cliente_socket, &id_carpincho, sizeof(long), 0)){
@@ -152,12 +151,11 @@ static void procesar_conexion(void* void_args){
             //TODO: Liberar cosas aca
             case FREE_CARPINCHO:
                 recv_id(cliente_socket, &id_carpincho);                            
-                log_warning(logger, "\nSe desconecto el carpincho: %lu \n", id_carpincho);     
+                log_warning(logger, "Se desconecto el carpincho: %lu", id_carpincho);     
                 finalizar_carpincho(id_carpincho);
                 pthread_mutex_lock(&MUTEX_SWAP);
                 send_finalizar_carpincho(swap_fd, id_carpincho);   
-                pthread_mutex_unlock(&MUTEX_SWAP);
-                    
+                pthread_mutex_unlock(&MUTEX_SWAP);    
                 break;
             case CARPINCHO_SWAP: ;
                 unsigned long id_a_swapear;
@@ -165,10 +163,9 @@ static void procesar_conexion(void* void_args){
                     log_error(logger, "Error swapeando el id");
                 }
                 suspender_carpincho(id_a_swapear);             
-                break;              
+                return;              
             case -1:
                 log_info(logger, "Cliente desconectado de Memoria");
-                free(server_name);
                 return;
             default:
                 log_error(logger, "Algo anduvo mal en el server de Memoria");
