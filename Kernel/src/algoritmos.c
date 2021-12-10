@@ -1,13 +1,13 @@
 #include "../include/algoritmos.h"
 
 t_carpincho* obtener_carpincho_HRRN(){
-	bool minimo_HRRN(t_carpincho* carpincho1, t_carpincho* carpincho2){
-		return HRRN(carpincho1) <= HRRN(carpincho2);
+	bool maximo_HRRN(t_carpincho* carpincho1, t_carpincho* carpincho2){
+		return HRRN(carpincho1) >= HRRN(carpincho2);
 	}
 
 	t_carpincho* carpincho;
 	pthread_mutex_lock(&MUTEX_LISTA_READY);
-	list_sort(LISTA_READY, (void*)minimo_HRRN);
+	list_sort(LISTA_READY, (void*)maximo_HRRN);
 	carpincho = list_get(LISTA_READY, 0);
 	list_remove(LISTA_READY, 0);
 	// carpincho = queue_pop(LISTA_READY);
@@ -41,9 +41,9 @@ t_carpincho* obtener_carpincho_SJF(){
 double HRRN(t_carpincho* carpincho){
     time_t tiempoActual = time(NULL);
   
-	double espera = difftime(carpincho->tiempo_ingreso_ready, tiempoActual);
+	double espera = difftime(tiempoActual, carpincho->tiempo_ingreso_ready);
 
-	return (carpincho->ultima_estimacion + espera) / carpincho->ultima_estimacion;
+	return (carpincho->ultima_estimacion + espera*1000) / carpincho->ultima_estimacion;
 }
 
 void ejecutar_CPU(int numero_CPU){

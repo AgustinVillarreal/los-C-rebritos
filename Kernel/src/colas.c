@@ -61,7 +61,7 @@ uint16_t calcular_estimacion(t_carpincho* carpincho){
 
   // log_info(logger, "Estimacion- Carpincho: %lu - Rafaga: %f", carpincho->id, rafaga);
 
-  return (alfa*rafaga + (1-alfa)*carpincho->ultima_estimacion);
+  return (alfa*rafaga*1000 + (1-alfa)*carpincho->ultima_estimacion);
 }
 
 
