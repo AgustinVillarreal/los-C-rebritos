@@ -53,6 +53,7 @@ void ejecutar_CPU(int numero_CPU){
 		sem_wait(&SEM_CPUs[numero_CPU]);		
 		
 		//Pido segun algoritmo
+		log_info(logger, "---Se replanifica la ejecucion---");
 		t_carpincho* carpincho = obtener_carpincho();			
 
 		carpincho->cpu_asignada = numero_CPU;
