@@ -166,6 +166,10 @@ void killear_id_mas_alto(t_list* lista_bloqueados, t_list* lista_posibles_bloque
     }
     list_remove_by_condition(sem_blocked->COLA_BLOQUEADOS->elements, es_carpincho);
 
+    //Logueo
+    // logueo
+    log_info(logger, "DEADLOCK - Se finaliza al carpincho: %lu", carpincho_deadlock->id);
+
     // Saco al carpincho de la cola de bloqueados general
     remove_lista_blocked(carpincho_deadlock);
 

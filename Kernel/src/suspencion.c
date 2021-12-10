@@ -22,6 +22,7 @@ void listener_suspencion(){
             t_carpincho* carpincho = remove_lista_blocked_last(); 
             add_lista_suspended_blocked(carpincho);
             sem_post(&SEM_GRADO_MULTIPROGRAMACION);
+            log_info(logger, "SUPENSION - Se suspende al carpincho: %lu", carpincho->id);
             send_codigo_op(carpincho->memoria_fd, CARPINCHO_SWAP);      
             // TODO PASAR idcarpincho
             //Usamos send_data_mate_init pq ya estaba hecho, aunque el nombre sea medio choto para este caso
