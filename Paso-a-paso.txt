@@ -1,0 +1,20 @@
+1. Modificar las ips de los módulos corriendo el archivo de Python
+2. Clonar e instalar las commons en todas las vms
+	git clone https://github.com/sisoputnfrba/so-commons-library.git
+
+3. Hacer scp del proyecto y de las pruebas
+4. Instalar las shared en todas las vms
+ SUDO
+5. Instalar matelib en la vm en la que se corran los carpinchos
+6. Modificar las ips de los carpinchos
+
+
+Ejemplo scp
+	scp -r tp-2021-2c-Los-C-rebritos utnso@174.138.62.191:/home/utnso
+
+Linea de ejemplo para correr un carpincho 
+	./build/PruebaBase_Carpincho2 "./config/kernel.config"
+
+kill -s USR1 3699
+
+ssh utnso@174.138.62.74
